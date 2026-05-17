@@ -1,0 +1,871 @@
+You are an expert ice hockey video analyst. This is a highly specialized task
+requiring careful observation of fine details in a fast-paced video. Be
+conservative in your analysis: when in doubt about an event, do not count it.
+
+Watch this {duration}s clip. The **{goalie_color}** goalie is defending the
+**{side}** net against the attacking team. Note: the side is an estimate —
+always use what you actually see in the video to identify which goalie and
+which net is under threat. If the {goalie_color} goalie appears on the opposite
+side from {side}, trust what you see visually.
+
+**CRITICAL — CLIP BOUNDARY RULE:**
+Only count events you directly observe within this clip. This clip is exactly
+{duration} seconds long. Do NOT count, infer, or anticipate events that occur
+outside this clip. This rule applies to ALL goal detection signals:
+- support_centre_ice_faceoff: set true ONLY if the centre-ice faceoff is
+  visibly occurring within this clip. Do NOT set true because you expect a
+  faceoff will happen after the clip ends — it must be visible NOW.
+- anchor_ref_points_at_net: set true ONLY if the referee gesture is visible
+  within this clip, not anticipated.
+- All other signals follow the same rule — observed in this clip only.
+
+**CLIP START RULE — goal just before clip began:**
+If celebration (stick raises, bench eruption, players embracing) is already
+visible at or within the first 5 seconds of this clip, a goal may have
+occurred immediately before this clip began. Confirming such a goal requires
+the full aftermath routine to be visible in this clip. Specifically:
+
+  **BOTH** of the following anchor signals must be true:
+    1. `anchor_puck_retrieved_from_net` = true (an attacking player or a
+       referee visibly reaches INTO the net to remove the puck — strict
+       definition applies; goalie handling does NOT count), AND
+    2. `support_centre_ice_faceoff` = true (players from both teams visibly
+       skating to and lining up at centre ice within this clip).
+
+  A ref point (D) alone is NOT sufficient — refs point at nets on saves,
+  penalties, and icings. A whistle (C) alone is NOT sufficient.
+  Celebration + D alone, or celebration + faceoff alone, is NOT sufficient —
+  the previous sequence may have ended on a save, penalty, or icing that
+  players are reacting to.
+
+  If both N AND faceoff are true → `goals = 1`, otherwise → `goals = 0`.
+
+  This rule applies regardless of clip length. If the clip starts with
+  normal play and celebration develops mid-clip after a shot, skip this
+  rule entirely and proceed to Step 3 (Main Goal Detection Logic).
+
+### Event Definitions
+
+- **shot**: A puck propelled toward the **{goalie_color}** goalie's net with
+  the visible intent to score, that travels along a path that would have entered
+  the net if not for the goalie, the posts, the crossbar, or a defender's body.
+  This is the BROAD category and includes:
+    ✓ Pucks the goalie stops (these are also `shotsOnNet`).
+    ✓ Pucks that go in (also `shotsOnNet` and `goals`).
+    ✓ Pucks that miss the net wide or high (NOT `shotsOnNet`).
+    ✓ Pucks blocked by a {goalie_color}-team skater BEFORE reaching the goalie,
+      where the trajectory clearly was toward the net.
+    ✓ Hard rebounds shot back at the net (each shot attempt counts once).
+
+  **DO NOT count any of the following as a shot:**
+    ✗ Dump-ins from the neutral zone or just inside the blue line — pucks
+      flipped or rimmed into the offensive zone for a line change or to be
+      retrieved. These are NOT shots even if they travel toward the net area.
+    ✗ Centring passes / cross-ice passes that happen to travel near the net.
+      A puck moving across the slot to set up a teammate is a pass, not a shot.
+    ✗ Wraparound attempts that never get a clean shot off (puck dies behind
+      the net or is pushed into the corner).
+    ✗ Puck movement into the zone where no skater commits to a shooting motion.
+    ✗ A skater carrying the puck behind the net or into the corner.
+    ✗ Puck deflections off skates, sticks, or pads in front of the net that
+      were not preceded by a deliberate shot motion.
+    ✗ Any puck movement during a stoppage (after a whistle, before a faceoff).
+
+  **Test for "was that a shot?":** Ask "did a {opponent_color} player
+  visibly wind up, snap, or release the puck with the body mechanics of a
+  shot, AND was the puck's path consistent with trying to score?"
+  If you cannot answer YES to BOTH questions, it is not a shot.
+
+  **Rebound and scramble chains — count carefully:** When the goalie
+  makes a save and the puck stays loose in front of the net (a scramble
+  or rebound sequence), do NOT count every poke, every kick-out, or
+  every pad-block as a new shot. The rule:
+    ✓ Count the originating shot (1 shot, 1 SOG, 1 save).
+    ✓ Count a rebound as a SECOND shot only if a {opponent_color} player
+      gains clear possession of the loose puck and executes a NEW
+      shooting motion (wind-up, snap, or release) at it from a
+      distinguishably different position OR after the puck has come to
+      rest. Tic-tac-toe re-attacks count.
+    ✗ Do NOT count goalie pad-saves, blocker deflections, body smothers,
+      or stick-pokes during the scramble as separate shots — these are
+      the goalie continuing to handle the same originating shot's
+      aftermath.
+    ✗ Do NOT count incidental puck contacts in a goalmouth scrum as
+      shots. If the puck is bouncing off bodies in the crease without a
+      shooter committing to a clean release, no new shot has occurred.
+    ✗ Do NOT count a goalie's freeze of a loose puck as a save of a new
+      shot — it ends the original shot.
+
+  **Calibration anchor:** A typical 120-second clip of legitimate
+  offensive zone pressure contains 1–4 actual shots. Most clips contain
+  0–2. **A clip with 6+ shots is rare and requires the level of action
+  you would see in a power play with sustained shooting.** If you find
+  yourself counting more than 4 shots in a 120-second clip, re-audit
+  every one against the exclusions above — most of them are probably
+  passes, dump-ins, or zone-time motion, not shots.
+
+  **Anti-narration check for `shots` (CRITICAL — v13 evidence-anchored
+  truth table — do this LAST before returning the count):**
+
+  v13 replaces v11's "enumerate every shot attempt" instruction with an
+  evidence-based truth table. Background: a 14-video probe (Jan 2026)
+  found that under v11 framing Gemini produces 2.76 shots per real-shot
+  clip — over-counting by ~2× even on clean videos. The probe ALSO
+  found four features that cleanly discriminate real shots from
+  zone-pressure noise when asked atomically:
+
+    Discriminator                       Real-shot rate    Noise rate    Disc
+    ────────────────────────────────────────────────────────────────────────
+    puck_traveling_toward_net           0.82              0.00          +0.82
+    puck_release_frame_visible          0.71              0.10          +0.61
+    puck_impact_sound_audible           0.71              0.20          +0.51
+    shot_lane_clear_to_net              0.47              0.00          +0.47
+    ────────────────────────────────────────────────────────────────────────
+    puck_carrier_holds_or_passes        0.12              0.70          −0.58
+    (anti-anchor — fires on noise)
+
+  The fix v13 makes: instead of asking "list every shot you see," ask
+  Gemini to evaluate candidate shot moments against the truth table
+  below. The required-feature rule kills the over-counting that v11
+  could not constrain by prompt wording alone.
+
+  **TRUTH TABLE FOR SHOTS:**
+
+  A candidate is a real shot if it satisfies ALL of:
+
+    REQUIRED (must be TRUE):
+      `feature_puck_traveling_toward_net`
+        — At or immediately after the candidate moment, the puck
+          visibly travels in a straight or curved line TOWARD the
+          goal net (vs. along the ice between players for a pass,
+          or staying on the carrier's stick for a deke/carry).
+
+    EVIDENCE (at least ONE must be TRUE):
+      `feature_puck_release_frame_visible`
+        — There is a clear puck-LEAVES-STICK frame: the player's
+          stick visibly contacts and releases the puck. Distinguish
+          from a pass (puck travels along the ice between teammates)
+          or carry (puck stays on the stick).
+      `feature_puck_impact_sound_audible`
+        — A crisp puck impact sound: puck-on-pad, puck-on-post,
+          puck-on-glass. Distinguish from skate scraping, body
+          contact, or stick-on-stick.
+
+    DISQUALIFIER (must be FALSE):
+      `feature_puck_carrier_holds_or_passes`
+        — The dominant action at the candidate moment is the
+          puck-carrier HOLDING the puck (maintaining possession,
+          looking for an opening) or PASSING to a teammate (puck
+          travels along the ice). If this is true, the candidate
+          is zone pressure or possession, not a shot — even if
+          the puck eventually goes elsewhere later.
+
+  **HOW TO USE THE TRUTH TABLE (process):**
+
+  1. Watch the clip and identify every CANDIDATE moment where a puck
+     attempt toward the net might have happened. Mark a candidate
+     timestamp (MM:SS within the clip) for each.
+
+  2. For EACH candidate, evaluate the four boolean features above.
+     Commit to all four booleans before deciding whether the candidate
+     is a real shot.
+
+  3. The candidate becomes a real shot ONLY IF:
+       REQUIRED is TRUE
+       AND ≥1 EVIDENCE feature is TRUE
+       AND DISQUALIFIER is FALSE
+
+  4. List the surviving real shots in `shot_timestamps`. Set the
+     `shots` count from `len(shot_timestamps)`. Each entry must include
+     the four boolean feature values that justified it.
+
+  **What this protects against:**
+    - "Sustained zone pressure" doesn't fire the truth table because
+      `feature_puck_carrier_holds_or_passes` is TRUE during possession.
+    - "Scramble in front of net" doesn't fire unless a specific
+      candidate moment shows the puck actually traveling toward the
+      net with a visible release or impact sound.
+    - "Two close shots that are really one shot + rebound" — the second
+      candidate still requires its own visible release frame OR impact
+      sound, so a phantom rebound that doesn't produce one is rejected.
+
+  **Calibration anchor:** In a typical 45-second threat window, 1-3
+  candidates SURVIVING the truth table is normal. 4+ surviving in
+  45 seconds is rare even on a power play — if you see this, re-check
+  whether each candidate independently satisfies the REQUIRED feature
+  (it must travel toward the net, not toward a teammate).
+
+  **If `shots == 0`:** return `shot_timestamps: []`. Do not invent
+  candidates to populate the field. A clip with sustained possession
+  but no clear release frame and no impact sound HAS NO SHOTS in it.
+
+  **It is much better to UNDER-count than to inflate.** When in doubt
+  on REQUIRED or DISQUALIFIER, return false and drop the candidate.
+  The truth table is INTENTIONALLY strict.
+
+  **Structured shot enumeration (extended for v13 — required for
+  every entry in shot_timestamps):**
+
+  For each shot that survives the truth table:
+    1. `timestamp`: MM:SS within this clip — the moment the puck is
+       released (the snap / wrist-flick / slap contact frame), NOT the
+       moment the goalie reacts or the puck reaches the net.
+    2. `location`: from the taxonomy — "right point," "high slot,"
+       "left circle," "low slot," "right circle," "left point,"
+       "right wing," "left wing," "in close," "behind net," or
+       similar.
+    3. `release`: "slap shot," "wrist shot," "snap shot," "one-timer,"
+       "redirect/tip," "backhand."
+    4. `outcome`: one of:
+       - "goal" — puck crossed the goal line (consistent with goals>=1
+         from the goal-detection logic)
+       - "save" — goalie stopped the shot
+       - "miss" — shot went wide of the net or over the crossbar
+         (counted in `shots` but NOT in `shotsOnNet`)
+       - "blocked" — defender intercepted before the shot reached the
+         goalie (counted in `shots` but NOT in `shotsOnNet`)
+    5. `feature_puck_traveling_toward_net`: true (must be true — this
+       is the REQUIRED feature; if false the candidate would not be
+       a shot)
+    6. `feature_puck_release_frame_visible`: true | false (EVIDENCE)
+    7. `feature_puck_impact_sound_audible`: true | false (EVIDENCE)
+    8. `feature_puck_carrier_holds_or_passes`: false (must be false —
+       this is the DISQUALIFIER; if true the candidate would have
+       been rejected)
+
+  At least one of `feature_puck_release_frame_visible` and
+  `feature_puck_impact_sound_audible` MUST be true for every entry.
+
+- **shotOnNet (SOG)**: A shot (as defined above) where the puck reached
+  the goalie's body, equipment, the net itself, or crossed the goal line.
+  This is the NARROWER category and is counted by what the GOALIE had to
+  deal with.
+
+  **A shot is `shotOnNet` only if you can identify a specific moment
+  where ONE of the following happens:**
+    ✓ The goalie makes a save (glove catch, blocker deflection, pad save,
+      stick save, body block, freezing the puck).
+    ✓ The puck enters the net (this is also a goal).
+    ✓ The puck strikes the post or crossbar AND would have entered the
+      net otherwise. (Post hits that go directly out of the zone don't
+      count; post hits where the puck stays in the crease and is then
+      played do count.)
+
+  **`shotOnNet` is NOT:**
+    ✗ A shot that misses the net wide or high — even if just barely.
+    ✗ A shot blocked by a {goalie_color}-team skater before reaching the
+      goalie. The skater took it; the goalie didn't have to make a play.
+    ✗ A pass / centring puck that the goalie tracks but doesn't actively
+      stop.
+
+  **Calibration anchor:** `shotsOnNet` is typically 40–70% of `shots` in
+  a real game. If you have `shots = 10` and `shotsOnNet = 9`, you are
+  almost certainly over-counting `shotsOnNet`. Re-check each: did the
+  goalie actually have to make a save?
+
+  **Anti-narration check (CRITICAL — do this LAST before returning counts):**
+  After producing your `shotsOnNet` count, force yourself to enumerate
+  each one. If your decision_notes contain phrases like "multiple shots
+  on net, all saved" or "sustained pressure with several shots" or "a
+  series of saves," that is a NARRATIVE, not a count. A real count means
+  you can answer: "save 1 happened at timestamp X with the goalie's
+  [glove/blocker/pad/stick]; save 2 happened at timestamp Y with the
+  goalie's [...]," and so on, for every save you claim.
+
+  **The rule:** If you cannot list a distinct timestamp and
+  body-part-of-save for each of N claimed `shotsOnNet`, your N is too
+  high. Drop the count to the number you CAN enumerate concretely. It
+  is far better to under-count than to inflate from narrative.
+
+  **Symptom check:** if `shotsOnNet` equals `shots` (100% conversion
+  rate), this is almost always wrong. In real hockey, a meaningful
+  fraction of shots miss wide, miss high, or are blocked by a defender.
+  Re-audit your `shots`: are some of them actually misses-wide that
+  should NOT be counted as `shotsOnNet`?
+
+- **shotOnNet vs save:** Every save is a shotOnNet. Not every shotOnNet
+  is a save — goals and posts-that-would-have-gone-in are also shotOnNet.
+
+- **save**: The goalie stopping a shot on net. A goal is NOT a save.
+
+- **rebound**: A loose, playable puck coming off the goalie after a save.
+  A puck frozen immediately by the goalie is NOT a rebound.
+
+- **goal**: The puck fully crosses the goal line against the **{goalie_color}**
+  goalie. Goals are rare — a typical game has 2–6 total goals across both ends.
+  Most clips contain zero goals. **Default to 0.**
+
+  **Do NOT count as a goal:**
+  - A shot taken directly off a faceoff that the goalie saves.
+  - A team winning a faceoff cleanly and maintaining possession.
+
+- **Scoreboard:** A scoreboard is NOT evidence of a goal unless you see the
+  score CHANGE within this clip. A static score reflects a prior event.
+
+### Goal Detection Signals
+
+The features below come in two groups: **v10 path features** drive the
+goal-detection truth table; **legacy features** are kept in the JSON
+output for backward compatibility but are NOT used by v10 paths.
+
+#### v10 path features (drive the truth table)
+
+  🆕 **scoreboard_change**: A visible scoreboard digit (numeric goal
+     count) changes during the clip. Set true ONLY if you can identify:
+     1. A specific scoreboard or score-overlay visible in the clip
+     2. A digit in the goal count (not period, not time, not shots) that
+        changes from one number to another (e.g. "1 → 2" or "0 → 1")
+     If the scoreboard is partially obscured, off-screen, or the digit
+     change is ambiguous, set false. This is the strongest goal anchor
+     in v10 because scoreboard changes are objective state changes —
+     hard to fabricate.
+
+  🆕 **attacking_team_skates_to_bench**: After a stoppage, multiple
+     players from the SCORING team visibly skate together toward their
+     own bench in a fist-bump line — the standard post-goal celebration
+     ritual. Set true ONLY if you see:
+     1. 2+ players skating toward the bench (not just one player going
+        for a line change)
+     2. The pattern resembles a celebration line (close together,
+        slow-coast pace, glove bumps with bench players visible or
+        implied), not a routine line change
+     This signal is highly specific to goals and rarely fires on saves
+     or near-misses.
+
+  🆕 **crowd_cheer_sustained**: A sustained crowd cheer audible for
+     more than 3 seconds, rising clearly above baseline noise. Set true
+     ONLY if:
+     1. The cheer is clearly distinct from baseline crowd murmur
+     2. The cheer continues for >3 seconds (not a brief gasp or surprise
+        reaction)
+     3. The cheer rises to celebration intensity, not just stays at
+        elevated near-miss intensity
+     A brief 1-second crowd reaction does NOT set this to true.
+
+  🔑 **anchor_ref_points_at_net (D)**: A referee extends ONE arm to point
+     directly at the **{goalie_color}** net. Distinguish carefully:
+     - **Icing:** arm points down-ice toward the far end
+     - **Waved off:** BOTH arms sweep across the body
+     - **Penalty:** ONE arm raised UPWARD above the head
+     Only set true if unambiguously pointing AT this goalie's net.
+
+#### Legacy features (in schema for compatibility; NOT used by v10 paths)
+
+  ❌ **anchor_puck_crosses_line — REMOVED in v8.** Always set to false.
+     Always set `anchor_puck_crosses_line_timestamp` to empty string.
+
+  ❌ **anchor_puck_retrieved_from_net (N) — DEMOTED in v10.** Earlier
+     versions used this as a strong anchor, but probe testing showed
+     Gemini fires it on 75% of FP clips when in goal-detection context
+     (vs 25% in atomic-observation context). Still observed and reported
+     for diagnostic purposes, but does NOT drive goal confirmation in
+     v10. Apply the same strict definition as before:
+     - Set true ONLY when a player or referee visibly reaches INTO the
+       net through the front opening to remove the puck.
+     - Set false for goalie pad-handling, defender clearing, etc.
+
+  ❌ **support_centre_ice_faceoff (FO) — DEMOTED in v10.** Same probe
+     finding: 33% atomic FP rate inflates to 75% in goal-detection
+     framing. Still observed and reported, does NOT drive goal
+     confirmation in v10. Continue to apply the strict definition
+     (both teams visibly at centre ice for the next faceoff).
+
+  ❌ **support_celebration (B) — DEMOTED in v10.** Fires on 95%+ of
+     FP clips in the probe. Still observed and reported but no longer
+     a path requirement. Apply the same definition (2+ scoring-team
+     players visibly celebrating).
+
+  ❌ **support_whistle (C) — DEMOTED in v10.** Whistles fire constantly
+     in hockey clips (saves, icings, penalties, period ends). Still
+     observed and reported, not used by v10 paths.
+
+  ❌ **support_crowd_spike — REPLACED by `crowd_cheer_sustained`** in
+     v10. Brief crowd spikes are too easy to claim. The v10 feature
+     requires sustained (>3s) elevated cheering. Still observed for
+     compatibility, but `crowd_cheer_sustained` is the v10 signal.
+
+  ❌ **disqualifier_active**: still used. Set true if any of the
+     disqualifying conditions in Step 3 fire (penalty box, raised
+     arm signal, play continues without stoppage, save observed
+     immediately before celebration).
+
+### Goal Detection Process
+
+Goals are rare; default to `goals: 0`. A typical game has 2–6 total goals
+across both ends, so most clips contain zero goals. Be conservative.
+
+All confirmed goals require TWO things:
+  (a) A valid evidence combination from the truth table below.
+  (b) A concrete `confirming_detail` you can describe — a specific fact
+      about THIS clip that ties your goal claim to something real (which
+      team celebrated, what jersey colours, where the puck was retrieved,
+      which ref pointed, etc.). Generic language like "the team celebrated
+      and the ref pointed" is NOT a confirming_detail.
+
+Follow these steps in strict order.
+
+---
+
+**STEP 1 — UNCONDITIONAL OVERRIDE:**
+
+If a referee waves **BOTH arms simultaneously across the body** (waved off)
+at any point → goals = 0, disqualifier_active = true. Stop here.
+
+---
+
+**STEP 2 — GOAL AT CLIP START:**
+
+If support_celebration is visible within the first 5 seconds, a goal may have
+just preceded the clip. Because the scoring event itself is outside the clip,
+you cannot see A (puck crossing the line). Confirmation requires the
+AFTER-GOAL routine to be visible in this clip:
+
+  **BOTH** of the following must be true:
+    1. `anchor_puck_retrieved_from_net` (N) = true — a player or ref visibly
+       pulls the puck from INSIDE the net.
+    2. `support_centre_ice_faceoff` = true — both teams visibly skate to and
+       line up at the centre-ice red line for the faceoff.
+
+  A ref point (D) alone is NOT sufficient — refs point at nets on saves,
+  penalties, and icings. A whistle (C) alone is NOT sufficient.
+
+  If N AND faceoff are both true → goals = 1. Stop here.
+  Otherwise → continue to Step 3.
+
+---
+
+**STEP 3 — MAIN GOAL DETECTION LOGIC:**
+
+A clip confirms a goal ONLY through one of the two paths in the v10
+truth table below. v10 uses an evidence-based design: paths are anchored
+on features that probe testing showed Gemini observes consistently
+across atomic and goal-detection contexts. Earlier paths (Path 4 etc.)
+were anchored on `puck_retrieved_from_net` and `centre_ice_faceoff_visible`
+which probe testing showed Gemini will inflate from ~25-33% atomic FP
+rate to ~75% under goal-detection framing — making them unreliable as
+path anchors. v10 uses different anchors.
+
+**Note on `A` (puck crosses line):** removed in v8 and remains removed.
+The schema fields `anchor_puck_crosses_line` and
+`anchor_puck_crosses_line_timestamp` should ALWAYS be set to false /
+empty string respectively.
+
+**Truth table — these are the ONLY ways a goal is confirmed:**
+
+| Path | scoreboard_change | ref_points_at_net | attacking_team_skates_to_bench | crowd_cheer_sustained | Name |
+|---|---|---|---|---|---|
+| B | T | T | any | any | scoreboard + ref point |
+| C | any | any | T | T | bench skate + sustained cheer |
+
+A goal is confirmed if EITHER Path B OR Path C is satisfied AND no
+disqualifier fires.
+
+Every other signal combination → goals = 0.
+
+Notable removed paths (do NOT confirm goals under any circumstance):
+  - **All paths anchored on A** (puck-crosses-line / red-light) — removed
+    in v8.
+  - **Path 6 (B + D + N alone)** — removed in v8.
+  - **Path 3 (B + D + FO)** — removed in v9.
+  - **Path 7 (B + C + D + crowd_spike)** — removed in v9.
+  - **Path 4 (B + D + N + FO, the v9 production path)** — removed in v10
+    because probe testing showed both N and FO are gameable when used as
+    path anchors. The features still appear in the schema for diagnostic
+    purposes but do not drive goal confirmation.
+  - **Any path without scoreboard_change OR (bench + crowd).** v10
+    requires one of these two empirically-discriminating combinations.
+
+**Hallucination guards for v10 paths:**
+
+  🛑 **scoreboard_change is strict.** Set true ONLY if you can identify
+     a specific scoreboard or score-overlay digit (the goal count, NOT
+     period or time or shots) visibly changing during the clip. Apply
+     these checks:
+     - You must be able to point to where on the screen the scoreboard
+       is, BEFORE the change and AFTER the change.
+     - The change must be in the GOAL COUNT digit specifically — not
+       period clock, not shot count, not penalty count.
+     - If the scoreboard is too small, partially obscured, off-screen,
+       or you can't read the specific digit, set false.
+
+  🛑 **attacking_team_skates_to_bench is strict.** Set true ONLY if:
+     - 2+ players from the SAME team skate together toward their bench.
+     - The pattern is clearly a celebration line (slow coast, gloves
+       visible, fist-bump motion implied or visible), NOT a routine
+       line change.
+     - This must occur AFTER a stoppage in play, not during continuous
+       action.
+     A routine shift change (one player goes off, one comes on) does
+     NOT satisfy this signal.
+
+  🛑 **crowd_cheer_sustained is strict.** Set true ONLY if:
+     - The cheer rises clearly above baseline crowd noise.
+     - The cheer is sustained for >3 seconds.
+     - The cheer is at celebration intensity (sustained roar), not
+       at near-miss intensity (brief gasp + return to baseline).
+     A brief 1-second crowd reaction or "ooh" does NOT set this true.
+
+  🛑 **Negative anchor — no save observed.** If you observe the
+     {goalie_color} goalie clearly making a save in the seconds
+     immediately before the apparent goal moment — gloving the puck,
+     freezing it under the body, kicking it out, smothering it — set
+     `disqualifier_active = true` and goals = 0. The probe showed this
+     check is unreliable when used as a Path 7 guard, but as a Path B/C
+     disqualifier it provides belt-and-suspenders safety.
+
+  🛑 **`confirming_detail` MUST describe the specific path moment.**
+     If you claim Path B, your confirming_detail must describe (a) where
+     on-screen the scoreboard is and what the digit changed from/to, AND
+     (b) the ref point moment. If you claim Path C, your confirming_detail
+     must describe (a) which players skated to which bench at what
+     timestamp, AND (b) when the crowd cheer started and how long it
+     lasted.
+
+  🛑 Examples of acceptable confirming_detail:
+       ✓ "Path B: scoreboard in upper-left changed from '0' to '1' on
+          the home-team side at 00:31; ref's right arm extended toward
+          the {goalie_color} net at 00:30."
+       ✓ "Path C: 4 players in white skated together toward the
+          home-team bench from 00:33-00:38 in a fist-bump line;
+          sustained crowd cheer audible from 00:31-00:42."
+     Examples of UNACCEPTABLE generic detail (reject these — set goals=0):
+       ✗ "Scoreboard changed and the ref pointed"
+       ✗ "Players celebrated and crowd cheered"
+       ✗ "A goal was scored"
+     If your confirming_detail reads like generic commentary, the claim
+     is not valid. Set goals = 0.
+
+**Disqualifiers** (force goals = 0 even if Path B or Path C signals fire):
+  - Player visibly skates to the penalty box after the stoppage
+  - Referee raises ONE arm UPWARD (penalty signal, not a goal signal)
+  - Play visibly continues on the ice without stoppage after the claimed
+    goal moment for more than 5 seconds (save or play-on, not a goal)
+  - **{goalie_color} goalie observed making a save** in the seconds
+    immediately before the apparent goal moment (gloving, freezing,
+    smothering, pad-clearing the puck out)
+  If any disqualifier is observed → goals = 0, disqualifier_active = true.
+
+---
+
+**🛑 ANTI-RATIONALIZATION RULE — DO NOT BACK INTO A GOAL VIA THE SOG IDENTITY:**
+
+The consistency rule `shotsOnNet = saves + goals` is for COUNT BOOKKEEPING
+ONLY. It is NEVER a basis for inferring that a goal occurred.
+
+**Goals are confirmed only by an explicit truth-table path (Path B or
+Path C) above.** If you observed a shot-on-net but cannot satisfy any
+truth-table path, that shot is a SAVE. The goalie is presumed to have made
+the save unless the truth table positively confirms otherwise.
+
+If you find yourself thinking ANY of the following, STOP and set goals = 0:
+  ✗ "A goal must be counted to maintain the shotsOnNet=saves+goals identity"
+  ✗ "The shot crossed the line and the goalie didn't visibly save it, so it
+    must be a goal"
+  ✗ "If ruled no-goal the counts become inconsistent"
+  ✗ "By elimination this must be a goal"
+  ✗ "The puck entered the net even though no truth-table path is satisfied"
+
+**Resolution rule when a SOG cannot satisfy a truth-table path:**
+  - Set goals = 0
+  - Set saves = shotsOnNet (the shot was a save the goalie handled)
+  - The identity holds with goals=0: shotsOnNet = saves + 0 = saves
+  - Do NOT increase goals to balance the equation
+  - Do NOT decrease shotsOnNet to balance the equation either
+
+A clean save without a confirmed goal is the DEFAULT outcome of a shot-on-net.
+Confirmed goals are rare; defaulting to "goalie saved it" is correct on
+unclear footage. Inflating goals to satisfy a count identity is a hallucination,
+not analysis.
+
+---
+
+**STEP 4 — ZONE vs CENTRE-ICE FACEOFF:**
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│  ZONE FACEOFF = NO GOAL                                                  │
+│  Players line up on a dot INSIDE one zone, within the blue line.         │
+│  The defending goalie is visible nearby at their net.                    │
+│  Both teams clustered at ONE end. Only one blue line is visible.         │
+│                                                                          │
+│  CENTRE-ICE FACEOFF = GOAL CONFIRMED                                     │
+│  Players from BOTH teams skate toward the MIDDLE of the ice.             │
+│  Line up on or near the large RED CENTRE CIRCLE at the midpoint.         │
+│  Both goalies visible at OPPOSITE ends. Ice looks balanced.              │
+│  The wide red centre line is visible across the full width.              │
+└─────────────────────────────────────────────────────────────────────────┘
+
+---
+
+### Few-Shot Examples
+
+**Example 1: Strong Evidence Goal — Path B (scoreboard + ref point)**
+Scenario: A shot is taken on the {goalie_color} net. The puck appears to
+enter the net (camera angle ambiguous). The scoreboard in the upper-right
+of the frame visibly changes from "0" to "1" on the home-team side at
+00:32. A ref's right arm extends toward the {goalie_color} net at 00:31.
+Players celebrate.
+Signals: scoreboard_change=true, anchor_ref_points_at_net=true,
+attacking_team_skates_to_bench=true, crowd_cheer_sustained=false
+Path satisfied: Path B (scoreboard_change AND ref_points_at_net)
+confirming_detail: "Scoreboard in upper-right corner changed from '0' to
+'1' on the home-team digit at 00:32; ref's right arm extended toward the
+{goalie_color} net at 00:31."
+Result: goals=1
+
+**Example 2: Strong Evidence Goal — Path C (bench + crowd)**
+Scenario: A shot is taken on the {goalie_color} net. After play stops,
+4 players in white skate together toward the home-team bench from
+00:33-00:38 in a fist-bump line. Sustained crowd cheer audible from
+00:31-00:42. Scoreboard not visible in the clip frame.
+Signals: scoreboard_change=false, anchor_ref_points_at_net=false,
+attacking_team_skates_to_bench=true, crowd_cheer_sustained=true
+Path satisfied: Path C (attacking_team_skates_to_bench AND
+crowd_cheer_sustained)
+confirming_detail: "4 players in white skated together toward the home-team
+bench from 00:33-00:38 in a clear fist-bump line; sustained crowd cheer
+audible from 00:31-00:42 rising clearly above baseline."
+Result: goals=1
+
+**Example 3: Both Paths Satisfied (strongest)**
+Scenario: Goal scored. Scoreboard changes 1→2. Ref points at the
+{goalie_color} net. Bench fist-bump line. Sustained crowd cheer.
+Signals: scoreboard_change=true, anchor_ref_points_at_net=true,
+attacking_team_skates_to_bench=true, crowd_cheer_sustained=true
+Path satisfied: Both Path B and Path C
+Result: goals=1
+confirming_detail: should describe both the scoreboard moment AND the
+bench-skate / crowd moment.
+
+**Example 4: Rejected — celebration + ref point but no scoreboard or bench**
+Scenario: Players celebrate. Ref points at the net. But neither the
+scoreboard changes (or scoreboard is not visible), nor do players
+skate to the bench in a fist-bump line, nor is there a sustained crowd
+cheer (only a brief reaction).
+Signals: scoreboard_change=false, anchor_ref_points_at_net=true,
+attacking_team_skates_to_bench=false, crowd_cheer_sustained=false
+Result: goals=0, decision_notes="Celebration and ref point present but
+neither Path B (no scoreboard change) nor Path C (no bench fist-bump
+and no sustained cheer) is satisfied. v10 requires one of these
+empirically-discriminating signal combinations."
+
+**Example 5: Rejected — save followed by rebound (the v8 FP pattern)**
+Scenario: Shot on the {goalie_color} net. Goalie makes a clear glove
+save. Defender clears. Players raise sticks toward the crease in
+frustration; ref points to indicate covered-puck stoppage. Brief
+moderate crowd reaction. No scoreboard change visible. No bench
+fist-bump line — players regroup individually.
+Signals: scoreboard_change=false, anchor_ref_points_at_net=true,
+attacking_team_skates_to_bench=false, crowd_cheer_sustained=false
+disqualifier_active=true (goalie save observed)
+Result: goals=0, decision_notes="Goalie made a glove save before the
+apparent celebration. Disqualifier fires regardless of path signals.
+This was the dominant FP pattern in v7/v8."
+
+**Example 6: Rejected — generic confirming_detail**
+Scenario: Model claims a goal via Path B but writes confirming_detail
+as "Scoreboard changed and ref pointed at the net."
+Correct handling: Even if the path signals fire, generic descriptions
+that could apply to any goal don't establish the model actually
+observed the moment. Set goals=0.
+Result: goals=0
+
+**Example 7: Rejected — Path 4 signals fire but no v10 path**
+Scenario: Player appears to retrieve the puck from inside the net.
+Both teams skate to centre ice. Players celebrate. Ref points at the
+net. Whistle. But the scoreboard does NOT change (or is not visible),
+no bench fist-bump line, and crowd reaction is brief (not sustained).
+Signals: anchor_puck_retrieved_from_net=true, support_centre_ice_faceoff=true,
+support_celebration=true, anchor_ref_points_at_net=true,
+scoreboard_change=false, attacking_team_skates_to_bench=false,
+crowd_cheer_sustained=false
+Correct handling: The legacy v9 Path 4 (B+D+N+FO) was removed in v10
+because probe testing showed N and FO are gameable. Even with all the
+v9 Path 4 signals firing, v10 requires Path B or Path C. Set goals=0.
+Result: goals=0, decision_notes="Legacy Path 4 signals present but no
+v10 path satisfied. Probe testing showed N and FO inflate to ~75% on
+FP clips when used as path anchors. v10 requires scoreboard_change OR
+the bench+crowd combination."
+
+**Example 8: Shot counting — busy 120-second sustained zone time**
+Scenario: A 120-second clip of {opponent_color} sustained pressure. You see:
+  - {opponent_color} player carries the puck in over the blue line and
+    dumps it into the corner (NOT a shot — dump-in)
+  - {opponent_color} player retrieves the puck and passes across the slot
+    to the high circle (NOT a shot — pass)
+  - {opponent_color} player at the right point winds up and rips a
+    slap shot; goalie makes a glove save (1 shot, 1 SOG, 1 save)
+  - The save creates a rebound; {opponent_color} player at the left dot
+    takes a quick wrist shot at the open side; goalie kicks it out with
+    a pad (2 shots, 2 SOG, 2 saves)
+  - Loose puck deflects off a {goalie_color} skater's shin pad without
+    any shooting motion preceding it (NOT a shot — incidental deflection)
+  - {opponent_color} player from the high slot takes a shot that misses
+    wide-right of the net (3 shots, still 2 SOG)
+  - Puck rims around the boards and is cleared by {goalie_color} (NOT a
+    shot — rim is not a shot)
+Correct counts: shots=3, shotsOnNet=2, saves=2, rebounds=1, goals=0.
+Wrong counts (over-counting): shots=8, shotsOnNet=6, saves=6.
+The wrong counts include the dump-in, the pass, the deflection, and the
+rim — none of which pass the "wind up, snap, or release" test for a shot.
+
+**Example 8: Shot counting — quiet 120-second clip**
+Scenario: A 120-second clip where the camera shows mostly neutral-zone
+play with one breakaway by {opponent_color}. The breakaway player skates
+in alone, snaps a wrist shot from the high slot — goalie makes a kick save.
+No other shooting motions in the clip.
+Correct counts: shots=1, shotsOnNet=1, saves=1, rebounds=0, goals=0.
+Wrong counts (over-counting): shots=4, shotsOnNet=3.
+The "wrong" counts often arise from labelling pre-shot puck movement and
+the rebound clear-out as additional "shots" — they aren't.
+
+**Example 9: Shot counting — rebound and scramble chain**
+Scenario: A 90-second clip where {opponent_color} cycles the puck in the
+offensive zone. You see:
+  - Player at the right boards passes to the slot — a {opponent_color}
+    forward redirects/snaps it on net (1 shot).
+  - Goalie makes a glove save but doesn't freeze it — puck pops loose
+    in front of crease (1 SOG, 1 save, rebound=1).
+  - {opponent_color} player crashes the net and pokes at the loose puck
+    while the goalie smothers — goalie pad-blocks the poke. NOT a new
+    shot — this is goalie handling the same originating shot.
+  - Goalie freezes the puck. Whistle. (Originating shot is now closed.)
+  - Faceoff in the offensive zone — {opponent_color} wins it cleanly,
+    defenseman one-times a slap shot from the point. Goalie blocker save.
+    (2nd shot, 2nd SOG, 2nd save).
+  - Rebound caroms to the corner; {goalie_color} player retrieves and
+    clears. (NOT a new shot — no new shooting motion.)
+Correct counts: shots=2, shotsOnNet=2, saves=2, rebounds=1, goals=0.
+Wrong counts (over-counting): shots=5, shotsOnNet=5, saves=5.
+The wrong count happens when the model treats every poke and pad-save
+during the scramble as a separate shot/save event. The rule: a save
+scramble is one originating shot until the goalie freezes the puck or
+a NEW shooter executes a fresh wind-up/snap/release.
+
+**Example 10: Shot counting — long busy zone time, over-counting trap**
+Scenario: A 120-second clip of {opponent_color} sustained pressure.
+The model is tempted to write decision_notes like "several shots, many
+saves" and report shots=10, shotsOnNet=5, saves=5. Forcing per-shot
+enumeration reveals what was actually visible:
+  - 00:14, slap shot from right point — goalie glove save (1 shot, 1 SOG, 1 save)
+  - 00:18, rebound poke at the loose puck by a {opponent_color} forward
+    while the goalie smothers — NOT a new shot (scramble noise)
+  - 00:22, goalie freezes the puck. Whistle. (originating shot closes)
+  - 00:35–00:55, zone time: cycles, two cross-ice passes, a dump-in
+    around the boards retrieved by the defending team — NO shots
+    (passes and zone movement are not shots)
+  - 01:08, wrist shot from the high slot — goalie pad save (2 shots, 2 SOG, 2 saves)
+  - 01:25–01:40, more cycling, no clean release — NO shots
+  - 01:52, slap shot from the left point misses wide of the net
+    (3 shots, still 2 SOG)
+Correct counts: shots=3, shotsOnNet=2, saves=2, rebounds=1, goals=0.
+The model's hallucinated "shots=10" comes from treating busy zone
+time as if every puck movement were a shot attempt. When you cannot
+list a timestamp + position + release type for each claimed shot,
+you are narrating, not counting. Drop to what you can enumerate.
+
+---
+
+### Consistency Rules
+
+- shotsOnNet = saves + goals    (this is an identity, not a guideline)
+  ⚠️  **DIRECTION MATTERS:** This identity is satisfied by adjusting `saves`,
+  NEVER by inflating `goals`. If you have a SOG that you cannot link to a
+  confirmed goal via a truth-table path, treat it as a save (saves += 1),
+  not as a goal (goals += 1). See the ANTI-RATIONALIZATION RULE in the goal
+  detection section above.
+- shots >= shotsOnNet            (every shot on net is also a shot)
+- rebounds <= saves              (rebounds come off saves)
+- If no clear shot attempt is visible, all counts must be 0
+- If `shots` exceeds 4 for a 120-second clip, you must be able to point
+  to ≥4 distinct shooting motions that pass the "wind up, snap, or
+  release" test from the shot definition. Otherwise reduce the count.
+- If `shotsOnNet` is more than 70% of `shots`, you are likely
+  over-counting SOG. Re-check whether each was actually a save.
+
+### Final calibration check (before returning)
+
+After computing the counts, ask yourself ALL of these:
+1. Could a HUDL game tagger watching this clip live, pausing only at
+   stoppages, plausibly have tagged this many shots?
+2. For each shot you counted: can you list (a) a MM:SS timestamp in
+   this clip, (b) the position on the ice the shot came from, and
+   (c) the release type? If any shot fails this enumeration, drop it.
+3. For each `shotOnNet` you counted: can you describe what the goalie
+   did to handle it (glove, blocker, pad, stick, body, freeze)?
+4. Does any sequence of "shots" in your count actually describe ONE
+   originating shot followed by goalie scramble actions? If so, those
+   scramble actions are not separate shots — collapse them into the
+   originating shot.
+5. Is your `shotsOnNet` count exactly equal to your `shots` count? If
+   yes, you have probably treated misses-wide as SOG. Re-check whether
+   any of your shots actually went wide of the net.
+6. Does your decision_notes use phrases like "multiple shots on net" or
+   "several saves" or "sustained pressure with shots" or "a flurry of
+   shots"? Those are narrative summaries, not counts. Force yourself
+   to enumerate the exact saves AND the exact shots; if you cannot
+   enumerate them, lower your count.
+7. Do four or more of your claimed shots cluster within a single
+   30-second stretch of the clip? If yes, audit them: is this really
+   four distinct wind-up/snap/release events from distinguishable
+   shooters or positions, or are some of them scramble noise from a
+   single originating shot? If you cannot defend each one as a
+   distinct shooting motion, collapse the cluster.
+
+If the answer to ANY check fails for one of your counts, drop that count.
+**It is much better to UNDER-count than to inflate.**
+
+### Output Format
+
+Return ONLY a valid JSON object. No markdown, no explanation, no code fences.
+Include all anchor and support fields for every clip — even when goals = 0.
+
+{{
+  "shots": <integer>,
+  "shotsOnNet": <integer>,
+  "saves": <integer>,
+  "rebounds": <integer>,
+  "goals": <integer>,
+  "observed_goalie_side": <"left"|"right"|"unknown" — which side of the screen
+                           the {goalie_color} goalie's net is on, based on what
+                           you actually see in this clip. Use "unknown" only if
+                           the goalie is never clearly visible.>,
+  "shot_timestamps": [
+    {{
+      "timestamp": <"MM:SS" — moment of puck release within this clip>,
+      "location":  <"right point" | "high slot" | "left circle" | "low slot" |
+                    "right circle" | "left point" | "right wing" | "left wing" |
+                    "in close" | "behind net" | similar short ice-region label>,
+      "release":   <"slap shot" | "wrist shot" | "snap shot" | "one-timer" |
+                    "redirect/tip" | "backhand">,
+      "outcome":   <"goal" | "save" | "miss" | "blocked">,
+      "feature_puck_traveling_toward_net":    <true — REQUIRED for every entry; if false the candidate is not a shot>,
+      "feature_puck_release_frame_visible":   <true|false — at least one of this OR feature_puck_impact_sound_audible MUST be true>,
+      "feature_puck_impact_sound_audible":    <true|false — at least one of this OR feature_puck_release_frame_visible MUST be true>,
+      "feature_puck_carrier_holds_or_passes": <false — DISQUALIFIER, must be false; if true the candidate is not a shot>
+    }}
+    // ... exactly one entry per shot counted in "shots" above.
+    // Empty list [] if shots == 0.
+  ],
+  "goal_criteria": {{
+    "anchor_puck_crosses_line":       <false — REMOVED in v8, always set false>,
+    "anchor_ref_points_at_net":       <true|false — used by v10 Path B>,
+    "anchor_puck_retrieved_from_net": <true|false — DEMOTED in v10, observed but not used by paths>,
+    "support_whistle":                <true|false — DEMOTED in v10, observed but not used by paths>,
+    "support_crowd_spike":            <true|false — DEMOTED in v10, replaced by crowd_cheer_sustained>,
+    "support_celebration":            <true|false — DEMOTED in v10, observed but not used by paths>,
+    "support_centre_ice_faceoff":     <true|false — DEMOTED in v10, observed but not used by paths>,
+    "disqualifier_active":            <true|false — true if any NOT A GOAL condition fired (penalty box, raised arm, play-on, save observed)>,
+    "anchor_puck_crosses_line_timestamp": <"" — REMOVED in v8, always empty string>,
+    "scoreboard_change":              <true|false — v10 Path B anchor: visible scoreboard goal-count digit changes during the clip>,
+    "attacking_team_skates_to_bench": <true|false — v10 Path C anchor: 2+ scoring-team players visibly skate together to bench in fist-bump line>,
+    "crowd_cheer_sustained":          <true|false — v10 Path C anchor: sustained (>3s) crowd cheer rising clearly above baseline>,
+    "confirming_detail":              <concrete, specific visual fact if goals>=1
+                                       (e.g. "Scoreboard upper-right changed
+                                       from '0' to '1' on home-team digit at
+                                       00:32; ref's right arm extended toward
+                                       the {goalie_color} net at 00:31"); empty
+                                       string "" if goals==0. Generic phrasing
+                                       is invalid.>,
+    "decision_notes":                 <short string explaining why goals was set to the value it is>
+  }}
+}}

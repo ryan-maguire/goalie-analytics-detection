@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cv_seg"
+version = "23.1"
+description = "Pure computer-vision goalie threat segment detector for hockey broadcasts"
+requires-python = ">=3.10"
+dependencies = [
+    # OpenCV: HoughCircles parameter behaviour has shifted across major
+    # versions; pin to 4.x to keep faceoff-circle detection stable.
+    "opencv-python>=4.8,<5.0",
+    "numpy>=1.24,<3.0",
+]
+
+[project.optional-dependencies]
+audio = [
+    # librosa is optional at import time — the audio detectors degrade
+    # gracefully when it's missing — but the full pipeline needs it.
+    "librosa>=0.10,<1.0",
+]
+gcs = [
+    "google-cloud-storage>=2.10,<4.0",
+]
+dev = [
+    "pytest>=7.0,<9.0",
+]
+
+[project.scripts]
+cv-seg = "cv_seg.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cv_seg*"]
+exclude = ["tests*"]
+
+# System dependency note (not enforced by pip):
+#   ffmpeg must be on PATH. Used both for the fast-path frame stream
+#   (signals.iter_frames_ffmpeg) and the piped audio loader
+#   (io_utils.load_audio_via_ffmpeg_pipe). The package degrades to
+#   OpenCV-only decode + WAV roundtrip if ffmpeg is missing, but
+#   performance is significantly worse.
