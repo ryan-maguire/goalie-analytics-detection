@@ -45,10 +45,13 @@ FACEOFF_HIGH_CONFIDENCE = 0.8   # threshold above which a faceoff is considered 
 MOTION_THRESH         = 3.0     # mean flow magnitude to consider "active"
 MOTION_STOP_THRESH    = 1.2     # below this = play stopped
 MIN_MOTION_RUN_SEC    = 8       # consecutive active seconds to open a threat window
-MAX_OPEN_WINDOW_SEC   = 45      # auto-close a window if it stays open this long.
+MAX_OPEN_WINDOW_SEC   = 30      # auto-close a window if it stays open this long.
                                 # Lowered from 90 → 45 in v23.3 alongside
                                 # the unconfirmed-autoclose suppression.
                                 # See EVAL_NOTES.md.
+                                # v24.0: 45 → 30. 64.8% of fast-set FPs were
+                                # exactly 45s MAC windows. Shorter cap reduces
+                                # MAC window duration and improves IoU with GT.
 
 # motion_auto_close FPs accounted for 87% of all FPs across a 14-video
 # eval (482 of 553 FPs). The pre-existing "unconfirmed motion_auto_close
