@@ -71,7 +71,7 @@ MAX_OPEN_WINDOW_SEC   = 30      # auto-close a window if it stays open this long
 #   Why not raise overlap alone? Setting overlap=6 with event_width=4
 #   would silently disable single-event confirmation, which v23.5
 #   history shows tanks recall (0.97 → 0.50 on the same eval set).
-MIN_CONFIRMATION_OVERLAP_SEC = 6
+MIN_CONFIRMATION_OVERLAP_SEC = 8
 
 # Whistles and activity_spikes are zero-duration events but genuinely
 # correlate with real play. Widen each to this many seconds when used
@@ -80,7 +80,7 @@ MIN_CONFIRMATION_OVERLAP_SEC = 6
 # interval [500, 500+CONFIRMATION_EVENT_WIDTH_SEC).
 #
 # Kept in lockstep with MIN_CONFIRMATION_OVERLAP_SEC — see comment above.
-CONFIRMATION_EVENT_WIDTH_SEC = 6
+CONFIRMATION_EVENT_WIDTH_SEC = 8
 
 # ---------------------------------------------------------------------------
 # Whistle detection (audio)
