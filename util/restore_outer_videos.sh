@@ -48,7 +48,14 @@ for vid in "${VIDS[@]}"; do
         SKIP_LIST+=("$vid")
     else
         echo "=== Downloading $vid ==="
-        gsutil cp "gs://${BUCKET}/${PREFIX}/full_${vid}.mp4" "$full"
+        # Use `gcloud storage cp` rather than `gsutil cp`. gsutil runs
+        # under Python and segfaults on macOS with "crashed on child
+        # side of fork pre-exec" when its workers fork after the
+        # parent has touched Apple's Network framework — neither the
+        # Python issue 33725 flag nor OBJC_DISABLE_INITIALIZE_FORK_SAFETY
+        # consistently resolves it on this machine. gcloud's storage
+        # subcommand is the modern replacement and avoids the issue.
+        gcloud storage cp "gs://${BUCKET}/${PREFIX}/full_${vid}.mp4" "$full"
         if [ $? -eq 0 ] && [ -f "$full" ]; then
             OK_LIST+=("$vid")
         else
