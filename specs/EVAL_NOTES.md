@@ -138,19 +138,48 @@ plays clear it.
    scale inversely with how often motion clears the threshold.
    Bigger code change.
 
+### Exp 9 (2026-05-20): Per-video MAC peak-motion gate at p90 — revert
+
+Combined exp 6's shape (secondary gate, doesn't replace noise
+floor) with exp 8's per-video adaptation (quantile threshold).
+Per-video thresholds correctly computed: bfEK p90=11.45,
+dw p90=16.38, krxh p90=17.71.
+
+Result: F1 0.422 → 0.376 (-0.046). Recall dropped 0.639 → 0.505
+(-0.134); precision essentially flat. Per-video segments cut by
+13-17% but ~13 of those losses were TPs, not FPs.
+
+Root cause: percentile over the full motion distribution
+(including stoppages, intermission with ~0 motion) pulls p90 too
+high. Real plays with MAC peaks between p75 and p90 of overall
+motion get killed alongside the camera pans.
+
+Possible follow-ups (all marginal expected lift):
+- p80 or p75 — looser, more recall, less precision; likely
+  converges to baseline ±noise.
+- Percentile over ACTIVE seconds only (motion >= MOTION_THRESH)
+  — pulls threshold down but the continuous-distribution problem
+  applies regardless.
+
+**Conclusion: this hypothesis class is structurally weak.** Motion
+intensity alone — fixed or per-video adaptive — doesn't
+discriminate real plays from camera-following-the-play. The
+underlying problem is that the camera frames the goal during ALL
+sustained-motion events, real shots and forechecks alike.
+
 ### Untried (worth attempting next session)
 
-- **Per-video adaptive secondary gate** (option 1 above) — keep the
-  noise-floor threshold intact, add a per-video-quantile check on
-  the peak motion observed during the open MAC window. Combines
-  exp 6's structural shape with exp 8's per-video adaptation.
 - **`bfEKgtOIkQU` per-video FP investigation** — only video where
   exp 1 hurt (-0.05). Worth a dedicated FP-trace deep-dive before
   more general tuning.
 - **Audio improvements** — save-sound detection (puck-on-pad,
   goalie glove save) as a new high-signal confirmer class. New
-  signal path; biggest possible lift if it works. Estimated 2-3
-  days of focused work.
+  signal path; biggest possible lift within motion architecture.
+  Estimated 2-3 days of focused work. Realistic ceiling ~0.55.
+- **Custom-trained shot detector** — label 200-500 shot frames
+  from these videos, fine-tune HockeyAI YOLOv8 on the data, or
+  train a small per-frame shot classifier on top of YOLO features.
+  Multi-week effort. Realistic ceiling 0.70-0.85.
 
 ### Outer check — VALIDATED (2026-05-20)
 
