@@ -99,14 +99,58 @@ threshold     recall/prec    recall/prec
 | Custom-trained shot classifier | 0.70-0.85 | 1-3 weeks |
 | F1 > 0.90 | not achievable with this YOLO model + this signal set | requires custom training |
 
+### Exp 7 (2026-05-20): Lockstep 8→10 — no-op, lever exhausted
+
+Aggregate F1 byte-identical to 8/8 baseline (0.422). No pass/fail
+outcomes changed. The 7% reduction in confirmer-fitting window
+(from 77% to 67% of a 30s MAC) doesn't catch any new MAC blobs —
+every confirmer that worked at 8s overlap is positioned far enough
+from window edges that 10s also works.
+
+History curve: 4→6 huge win, 6→8 substantial win, 8→10 zero.
+**This lever is done.** Higher values would just risk breaking
+single-event confirmation.
+
+### Exp 8 (2026-05-20): Per-video quantile motion thresholds — wrong architecture
+
+Tried two settings:
+- p75/p40: F1=0.058 (recall 0.031, only 4-5 segments per video)
+- p60/p40: F1=0.074 (recall 0.041, slightly better but still dead)
+
+Per-video thresholds were computed correctly (e.g., bfEK p60=7.46
+vs fixed 3.0). **The failure is architectural, not parametric.**
+
+Root cause: `MOTION_THRESH=3.0` is a **noise floor** (gates "any
+motion vs none"), not an intensity gate. `MIN_MOTION_RUN_SEC=8`
+was calibrated assuming the threshold is low — when basically
+every active second clears it, 8 consecutive seconds is easy.
+When the threshold rises to per-video p60, the 8-consecutive-
+seconds requirement becomes the bottleneck and almost no real
+plays clear it.
+
+**Per-video adaptation needs different framing to work:**
+1. As a *secondary* gate after window assembly (a la exp 6's peak-
+   motion gate, but per-video adaptive — e.g., MAC requires at
+   least one second above per-video p90). Doesn't touch the noise
+   floor or the sustained-time requirement.
+2. As a coupled change: per-video threshold + per-video
+   MIN_MOTION_RUN_SEC. Each video's MIN_MOTION_RUN_SEC needs to
+   scale inversely with how often motion clears the threshold.
+   Bigger code change.
+
 ### Untried (worth attempting next session)
 
-- `MIN_CONFIRMATION_OVERLAP_SEC` + `CONFIRMATION_EVENT_WIDTH_SEC`
-  8→10 lockstep. The proven winning lever, not yet exhausted.
-- Per-video motion z-score normalization (replace fixed
-  `MOTION_THRESH=3.0` with `mean + N*std` per video). The session's
-  most important finding suggests this is the highest-value
-  unexplored direction within the existing motion architecture.
+- **Per-video adaptive secondary gate** (option 1 above) — keep the
+  noise-floor threshold intact, add a per-video-quantile check on
+  the peak motion observed during the open MAC window. Combines
+  exp 6's structural shape with exp 8's per-video adaptation.
+- **`bfEKgtOIkQU` per-video FP investigation** — only video where
+  exp 1 hurt (-0.05). Worth a dedicated FP-trace deep-dive before
+  more general tuning.
+- **Audio improvements** — save-sound detection (puck-on-pad,
+  goalie glove save) as a new high-signal confirmer class. New
+  signal path; biggest possible lift if it works. Estimated 2-3
+  days of focused work.
 
 ### Outer check — VALIDATED (2026-05-20)
 
