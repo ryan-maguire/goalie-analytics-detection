@@ -108,6 +108,26 @@ threshold     recall/prec    recall/prec
   most important finding suggests this is the highest-value
   unexplored direction within the existing motion architecture.
 
+### Outer check — PENDING
+
+After v25 exp1, only fast-set predictions are post-exp1; the 6
+outer-only videos' predictions in `data/output/runs/cv_seg/` are
+stale (May 17 timestamp, pre-exp1 6/6 lockstep). The 6 outer-only
+`.mp4` files are also missing locally — needed to regenerate.
+
+Mixed-regime eval (2026-05-20, 9 videos):
+- aggregate strict F1 = 0.345
+- fast-set avg = 0.42 (post-exp1)
+- outer-only avg = 0.30 (pre-exp1)
+
+Not a valid outer check. Spec rule 7 (fast-set
+unrepresentativeness) cannot be evaluated until outer-only is
+regenerated with current constants. mjEeE7p2Hz8 is at F1=0.18
+even in the pre-exp1 regime — worth a per-video investigation.
+
+To complete: restore the 6 outer-only `.mp4` files into
+`data/videos/` and rerun cv_seg on them, then re-eval.
+
 ## v24 — 45→30 MAC cap
 
 ### MAX_OPEN_WINDOW_SEC 45 → 30
