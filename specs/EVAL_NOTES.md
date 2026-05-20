@@ -108,25 +108,48 @@ threshold     recall/prec    recall/prec
   most important finding suggests this is the highest-value
   unexplored direction within the existing motion architecture.
 
-### Outer check — PENDING
+### Outer check — VALIDATED (2026-05-20)
 
-After v25 exp1, only fast-set predictions are post-exp1; the 6
-outer-only videos' predictions in `data/output/runs/cv_seg/` are
-stale (May 17 timestamp, pre-exp1 6/6 lockstep). The 6 outer-only
-`.mp4` files are also missing locally — needed to regenerate.
+Real 9-video outer check with all videos run under post-exp1
+constants (8/8 lockstep):
 
-Mixed-regime eval (2026-05-20, 9 videos):
-- aggregate strict F1 = 0.345
-- fast-set avg = 0.42 (post-exp1)
-- outer-only avg = 0.30 (pre-exp1)
+```
+STRICT  P=0.307  R=0.610  F1=0.409
+TP=177  FP=399  FN=113
+```
 
-Not a valid outer check. Spec rule 7 (fast-set
-unrepresentativeness) cannot be evaluated until outer-only is
-regenerated with current constants. mjEeE7p2Hz8 is at F1=0.18
-even in the pre-exp1 regime — worth a per-video investigation.
+Per-video pre→post exp1:
 
-To complete: restore the 6 outer-only `.mp4` files into
-`data/videos/` and rerun cv_seg on them, then re-eval.
+| Video         | Pre-exp1 | Post-exp1 |    Δ    |
+|---------------|----------|-----------|---------|
+| SX5xNJlh6eQ   |   0.33   |   0.39    |  +0.06  |
+| bfEKgtOIkQU   |   0.42   |   0.37    |  -0.05  |
+| mjEeE7p2Hz8   |   0.18   |   0.42    |  +0.24  |
+| v0lxSTbXfw8   |   0.33   |   0.33    |   0.00  |
+| dwGsP6QKDs8   |   0.44   |   0.47    |  +0.03  |
+| Fjc9hmK8_3U   |   0.30   |   0.43    |  +0.13  |
+| J8WkcuTsD5I   |   0.37   |   0.43    |  +0.06  |
+| krxhPVLGLz8   |   0.15   |   0.43    |  +0.28  |
+| KYtM20r9BuM   |   0.29   |   0.40    |  +0.11  |
+
+**Verdict on spec rule 7:** PASS. Fast-set gain was +0.050;
+outer-only videos gained avg +0.10 each — well over the 50%
+representativeness floor. The fast set was actually conservative;
+the outer videos benefited more from the lockstep change.
+
+**mjEeE7p2Hz8 mystery solved.** Pre-exp1 it was at F1=0.18
+(flagged as outlier). Post-exp1 it's at 0.42. The v23.6→8/8
+lockstep especially helps signal-starved videos that previously
+survived on weak single-whistle confirmations. This was the
+outlier flagged for investigation — exp1 was the answer.
+
+**Only regression:** bfEKgtOIkQU -0.05 (matches fast-set inner-loop
+measurement). Single-video edge case — worth a per-video FP-trace
+investigation next session, but doesn't change the overall verdict.
+
+Restore script: `util/restore_outer_videos.sh` (uses gcloud
+storage cp). The 6 outer-only .mp4 files (~4GB total) live in
+data/videos/full_*.mp4 with {vID}.mp4 symlinks.
 
 ## v24 — 45→30 MAC cap
 
