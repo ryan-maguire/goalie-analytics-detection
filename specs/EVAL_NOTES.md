@@ -276,18 +276,112 @@ labeling for 200-500 shot frames, plus 1-2 days of training infra.
 Realistic ceiling 0.70-0.85 if puck-detection quality improves
 under fine-tuning.
 
-### Untried (worth attempting next session)
+### Approach 2 (2026-05-21): fine-tune HockeyAI on auto-labeled shot frames — FAILED
 
-- **`bfEKgtOIkQU` per-video FP investigation** — only video where
-  exp 1 hurt (-0.05). Worth a dedicated FP-trace deep-dive before
-  more general tuning.
-- **Approach 2: fine-tune HockeyAI on shot-bbox labels.** See
-  conclusion above. Multi-week effort with realistic ceiling
-  0.70-0.85.
-- **Temporal context features for approach 1.** Per-second feature
-  vectors with ±5s rolling means / lagged values. Might push mean
-  AUC from 0.58 to 0.65-0.70 — still not enough to integrate, but
-  worth knowing before committing to approach 2.
+**Project ceiling stands at F1=0.422 fast / 0.411 outer-9.** Pivoted
+from constant tuning to a custom-trained shot detector. Two-day
+build, ran end-to-end, validated training metrics looked good, but
+the model collapsed at game-time inference.
+
+**Pipeline built (all scripts in util/, see commits 7ba7af0, 8088978):**
+
+1. `extract_label_frames.py` (v1, deprecated): anchored at GT_start+1s
+2. `preview_gt_windows.py`: rendered every-second frames across 9 GT
+   windows with bboxes overlaid. **User's validation surfaced the v1
+   anchor was wrong** — actual shot moment is at +5 to +8s, not +1s.
+3. `extract_label_frames_v2.py`: dynamic anchor — picks the second
+   per GT window with highest goal-class confidence as the positive
+   frame. 92% retention (469/510 GT shots).
+4. `prelabel_frames.py`: model-assisted labels via HockeyAI on every
+   frame; user only adds `shot` bbox.
+5. `autolabel_shots.py`: writes `shot` bbox derived from goal
+   detection (goal × 1.8w × 1.5h). 100% positives auto-labeled
+   (416 primary + 7 fallback rescue).
+6. `train_yolo_finetune.py`: 80/20 train/val symlinked into
+   ultralytics layout, fine-tunes from cached HockeyAI weights with
+   `--device mps`. ~81 min for 50 epochs.
+7. `predict_shots_yolo.py` + `yolo_probs_to_windows.py`: per-second
+   inference + threshold-and-merge → cv_seg-compatible JSON.
+
+**Training metrics (looked great):**
+```
+shot   65 instances   P=0.629   R=0.86   mAP@50=0.745   mAP@50-95=0.55
+```
+mAP@50=0.745 blew past the documented success threshold (≥0.50).
+
+**Whole-game inference (collapsed):**
+
+Threshold sweep on all 9 videos:
+
+| Threshold | F1    | P    | R    |
+|-----------|-------|------|------|
+| 0.50      | 0.232 | 0.181| 0.321|
+| 0.70      | 0.220 | 0.262| 0.190|
+| 0.75      | 0.150 | 0.177| 0.131|
+| ≥0.80     | 0.000 | —    | —    |
+
+Best F1=0.232 — nearly **2× worse** than the motion baseline 0.422.
+
+**Confidence distribution on bfEK explains the failure:**
+
+```
+p50 = 0.62   p75 = 0.68   p90 = 0.71   p95 = 0.73   p99 = 0.77   max = 0.85
+```
+
+The model NEVER exceeds 0.85 even on its most-confident frames, and
+the median per-second confidence is 0.62 — meaning >50% of every
+game is flagged as "this might be a shot". No threshold cleanly
+separates real shots from active play.
+
+**Root causes (training distribution mismatch):**
+
+1. **Negatives too sparse.** 254 random + 99 hard-negatives = 353
+   negative frames to represent ~30,000+ non-shot seconds across 9
+   games. Needs 2000+ negatives, focused on visual failure modes
+   (defensive zone setups with goal in view, faceoffs near goal,
+   replays, post-whistle scrums).
+2. **Shot bbox too generous.** `goal × 1.8w × 1.5h` covers most
+   "goal in frame + players nearby" situations indiscriminately.
+   The model learned a near-trivial decision rule that fires on
+   most goal-area shots regardless of whether play is at the goal.
+3. **`shot` label semantics too vague.** Auto-labeling the
+   highest-goal-conf second in a 12s GT window verifies "goal was
+   in frame at the shot moment" — not "this specific frame contains
+   an actual shot release/save". The latter requires human eyes.
+4. **Val mAP@50 was misleading.** Val was drawn from the same
+   sampling distribution as train (specific positives + sampled
+   negatives), so it measured recognition of in-distribution
+   frames, not discrimination from arbitrary game seconds.
+
+**What would work (none attempted — all multi-day+):**
+
+- Re-train with 5-10× more negatives sampled from explicit failure
+  modes (~2 days, realistic ceiling 0.50-0.55)
+- Manual labeling of precise shot-release frames with tight bboxes
+  (~5-10h labeling per person, realistic ceiling 0.60-0.70)
+- Temporal architecture (multi-frame video classifier instead of
+  per-frame YOLO) — multi-week effort, realistic ceiling 0.70-0.85
+- Fundamentally different data (more video diversity, pro-quality
+  broadcasts where camera consistently frames action)
+
+## Project state at end of session
+
+- **F1 ceiling: 0.422 fast-set / 0.411 outer-9** (post-exp1 lockstep
+  8/8, audio enabled — no improvement over no-audio)
+- **22 experiments attempted, 1 kept** (exp 1)
+- **Infrastructure built and committed for future re-attempts:**
+  - Tuning loop (`run_fast_set.sh`)
+  - Diagnostic scripts (`util/diag_*`)
+  - Video restore (`util/restore_outer_videos.sh`)
+  - Full YOLO fine-tune pipeline (`util/extract_label_frames_v2.py`,
+    `util/prelabel_frames.py`, `util/autolabel_shots.py`,
+    `util/train_yolo_finetune.py`, `util/predict_shots_yolo.py`,
+    `util/yolo_probs_to_windows.py`)
+  - Validation tooling (`util/preview_gt_windows.py`)
+- **Future direction (if returning):** approach 2.5 with much better
+  negatives is the lowest-risk next attempt. The infrastructure to
+  extract + train is all in place; only the negative-sampling logic
+  in `extract_label_frames_v2.py` needs an upgrade.
 
 ### Outer check — VALIDATED (2026-05-20)
 
