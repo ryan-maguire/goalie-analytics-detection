@@ -214,16 +214,80 @@ FPs. The 2-4.5kHz whistle band already discriminates and is
 already detected. No distinctive save-sound spectral signature in
 the other bands. **Audio path is structurally exhausted.**
 
+### YOLO shot-classifier approach 1 (2026-05-21, autonomous) — INSUFFICIENT
+
+Per-second binary shot classifier using HockeyAI YOLO features
+(no fine-tuning, just logistic regression on detection counts +
+confidences + spatial geometry). Leave-one-video-out CV across
+all 9 outer-set videos.
+
+Pipeline:
+1. `util/extract_yolo_features.py` — per-second HockeyAI inference
+   → 15-column feature TSV per video (~90 min wall time for 9 videos)
+2. `util/train_shot_classifier.py` — LOO CV logistic regression,
+   positives = seconds inside opponent-team GT 'Shots' windows
+   (matches cv_seg target_filter semantics). Uses eval's
+   `_team_names_match()` for fuzzy team-name matching across the
+   customer-file / Hudl-CSV boundary.
+
+Result:
+
+| Video | n   | pos% | AUC   | F1@0.5 |
+|-------|-----|------|-------|--------|
+| Fjc9hmK8_3U  | 4916 | 17.8% | 0.513 | 0.241 |
+| J8WkcuTsD5I  | 4398 | 15.5% | 0.619 | 0.304 |
+| KYtM20r9BuM  | 4334 | 13.5% | 0.633 | 0.291 |
+| SX5xNJlh6eQ  | 3665 | 14.4% | 0.546 | 0.251 |
+| bfEKgtOIkQU  | 4161 | 14.4% | 0.580 | 0.262 |
+| dwGsP6QKDs8  | 4933 | 18.0% | 0.600 | 0.305 |
+| krxhPVLGLz8  | 3550 |  9.5% | 0.563 | 0.184 |
+| mjEeE7p2Hz8  | 3343 | 16.4% | 0.635 | 0.319 |
+| v0lxSTbXfw8  | 3920 | 14.7% | 0.562 | 0.260 |
+| **mean**     |      |       | **0.583** | **0.268** |
+
+**Top feature weights from the final model:**
+```
+  goal_conf_max     +0.324
+  puck_conf_max     +0.246
+  n_player          +0.222
+  puck_conf_mean    -0.171
+  goalie_conf_max   -0.169
+  n_referee         -0.101
+  n_puck            -0.101   ← consistent with the multi-puck
+                              noise finding in diag_puck_detection
+                              (more pucks = less likely real)
+  n_goal            -0.088
+```
+
+**Conclusion:** YOLO features DO carry shot signal (AUC > 0.5 on
+every video), but it's weak. Mean AUC 0.583 implies a real but
+modest per-second discriminator. Per-window F1 derived from this
+would cap well below the current 0.428 motion-based baseline,
+since per-second precision of ~0.20 cannot aggregate to per-window
+precision much above ~0.40 even with smoothing.
+
+**Approach 1 is insufficient for meaningful F1 improvement over
+the current motion-based pipeline.** Stopped per the predefined
+autonomous rule (AUC < 0.65 → document and stop, don't iterate).
+
+The path to F1 > 0.55 requires approach 2: fine-tune HockeyAI
+YOLOv8 on shot-bbox annotations. Estimated 10-15 hours manual
+labeling for 200-500 shot frames, plus 1-2 days of training infra.
+Realistic ceiling 0.70-0.85 if puck-detection quality improves
+under fine-tuning.
+
 ### Untried (worth attempting next session)
 
 - **`bfEKgtOIkQU` per-video FP investigation** — only video where
   exp 1 hurt (-0.05). Worth a dedicated FP-trace deep-dive before
   more general tuning.
-- **Custom-trained shot detector** — only remaining direction with
-  realistic ceiling >0.55. Label 200-500 shot frames, fine-tune
-  HockeyAI YOLOv8 on the data, or train a small per-frame shot
-  classifier on top of YOLO features. Multi-week effort. Realistic
-  ceiling 0.70-0.85.
+- **Approach 2: fine-tune HockeyAI on shot-bbox labels.** See
+  conclusion above. Multi-week effort with realistic ceiling
+  0.70-0.85.
+- **Temporal context features for approach 1.** Per-second feature
+  vectors with ±5s rolling means / lagged values. Might push mean
+  AUC from 0.58 to 0.65-0.70 — still not enough to integrate, but
+  worth knowing before committing to approach 2.
 
 ### Outer check — VALIDATED (2026-05-20)
 

@@ -40,32 +40,43 @@ import numpy as np
 # vID -> hudl id mapping is the eval script's canonical table (eval/
 # eval_cv_seg_output.py:VID_TO_HUDL). Import to stay in sync.
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from eval.eval_cv_seg_output import VID_TO_HUDL  # noqa: E402
+from eval.eval_cv_seg_output import VID_TO_HUDL, _team_names_match  # noqa: E402
 
 
-def _load_vid_to_target_team(customer_paths: list[str]) -> dict[str, str]:
-    """Returns {vID: targetGoalieTeamName}."""
+def _load_vid_to_opponent_team(customer_paths: list[str]) -> dict[str, str]:
+    """Returns {vID: opponentGoalieTeamName}.
+
+    NOTE: matches cv_seg's target_filter semantics — positives in our
+    binary classifier are seconds inside opponent-team shot windows
+    (those are the threats against the target goalie). See
+    eval/eval_cv_seg_output.py:474 area.
+    """
     out: dict[str, str] = {}
     for p in customer_paths:
         with open(p) as f:
             cfg = json.load(f)
         for rec in cfg:
             vid = str(rec.get("vID", "")).strip()
-            target = rec.get("targetGoalieTeamName") or ""
+            opp = rec.get("opponentGoalieTeamName") or ""
             if vid:
-                out[vid] = target
+                out[vid] = opp
     return out
 
 
 def _load_gt_shot_seconds(gt_csv: str, target_team: str) -> set[int]:
-    """Set of seconds inside any GT 'Shots' window for the target team."""
+    """Set of seconds inside any GT 'Shots' window for the target team.
+
+    Uses eval's fuzzy team-name matcher (token-subset) so customer-file
+    short names like 'Jr Flyers 19U' match Hudl long names like
+    'Philadelphia Jr. Flyers 19U AA'.
+    """
     secs: set[int] = set()
     with open(gt_csv) as f:
         for row in csv.DictReader(f):
             if row.get("action", "").strip().lower() != "shots":
                 continue
             team = row.get("team", "").strip()
-            if target_team and team != target_team:
+            if target_team and not _team_names_match(team, target_team):
                 continue
             try:
                 s = int(float(row["start"])); e = int(float(row["end"]))
@@ -127,8 +138,8 @@ def main():
               file=sys.stderr); return 2
 
     os.makedirs(args.out_dir, exist_ok=True)
-    target_team_of = _load_vid_to_target_team(args.customers)
-    print(f"Loaded target-team for {len(target_team_of)} vIDs; "
+    opp_team_of = _load_vid_to_opponent_team(args.customers)
+    print(f"Loaded opponent-team for {len(opp_team_of)} vIDs; "
           f"hudl table has {len(VID_TO_HUDL)} entries", file=sys.stderr)
 
     # Collect per-video (X, y, times) — keyed by vID
@@ -138,7 +149,7 @@ def main():
         if vid not in VID_TO_HUDL:
             print(f"  skip {vid}: not in VID_TO_HUDL", file=sys.stderr); continue
         hudl = VID_TO_HUDL[vid]
-        target = args.target_team or target_team_of.get(vid, "")
+        target = args.target_team or opp_team_of.get(vid, "")
         gt_csv = os.path.join(args.gt_dir, f"gt_{hudl}.csv")
         if not os.path.exists(gt_csv):
             print(f"  skip {vid}: no GT at {gt_csv}", file=sys.stderr); continue
