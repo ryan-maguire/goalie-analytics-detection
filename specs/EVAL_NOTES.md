@@ -167,19 +167,58 @@ discriminate real plays from camera-following-the-play. The
 underlying problem is that the camera frames the goal during ALL
 sustained-motion events, real shots and forechecks alike.
 
+### Critical environment finding (2026-05-20): librosa was missing
+
+The entire v25 tuning session ran with `librosa` not installed, so
+both `detect_whistles` and `detect_crowd_roar_spikes` silently
+returned empty lists. Every fast-set + outer-check run had:
+
+```
+WARNING   librosa not installed — skipping whistle detection
+WARNING   librosa not installed — skipping crowd-roar detection
+INFO      Hard triggers: N centre faceoffs, 0 whistles
+```
+
+**This re-frames exp 1.** The lockstep 6→8 win wasn't about
+widening whistles (there were 0 whistles). It was about widening
+the `activity_spike` confirmer alone. The in-code comment that
+says "single whistle/activity_spike events still confirm because
+event-width widens" was effectively "single activity_spike events".
+
+After installing `librosa>=0.10,<1.0`:
+- Fast set F1: 0.422 → **0.428** (Δ +0.006, within noise)
+- bfEK 0.37→0.38, dw 0.47→0.48, krxh unchanged (0 whistles detected)
+
+### Save-sound diagnostic — no useful signal beyond existing detectors
+
+`util/diag_save_sounds.py` on bfEK with 66 GT shot windows vs 50
+random non-shot windows:
+
+| Feature | Shot med | Non-shot med | Ratio | % shots > non-shot median |
+|---|---|---|---|---|
+| rms (overall loudness) | 0.102 | 0.068 | 1.49 | 94% |
+| band_2000-4500 (whistle) | 0.280 | 0.257 | 1.09 | 89% |
+| band_0-200 (sub-bass) | 0.064 | 0.088 | 0.72 | 5% |
+| other bands | ~1.0 | | | 50-70% |
+
+**RMS is the only strong discriminator (94%), but it just measures
+"active play is louder than idle moments" — not a save-specific
+signal.** Using RMS as a confirmer would catch the same noisy
+forecheck / scrum / crowd-reaction periods that already produce
+FPs. The 2-4.5kHz whistle band already discriminates and is
+already detected. No distinctive save-sound spectral signature in
+the other bands. **Audio path is structurally exhausted.**
+
 ### Untried (worth attempting next session)
 
 - **`bfEKgtOIkQU` per-video FP investigation** — only video where
   exp 1 hurt (-0.05). Worth a dedicated FP-trace deep-dive before
   more general tuning.
-- **Audio improvements** — save-sound detection (puck-on-pad,
-  goalie glove save) as a new high-signal confirmer class. New
-  signal path; biggest possible lift within motion architecture.
-  Estimated 2-3 days of focused work. Realistic ceiling ~0.55.
-- **Custom-trained shot detector** — label 200-500 shot frames
-  from these videos, fine-tune HockeyAI YOLOv8 on the data, or
-  train a small per-frame shot classifier on top of YOLO features.
-  Multi-week effort. Realistic ceiling 0.70-0.85.
+- **Custom-trained shot detector** — only remaining direction with
+  realistic ceiling >0.55. Label 200-500 shot frames, fine-tune
+  HockeyAI YOLOv8 on the data, or train a small per-frame shot
+  classifier on top of YOLO features. Multi-week effort. Realistic
+  ceiling 0.70-0.85.
 
 ### Outer check — VALIDATED (2026-05-20)
 
