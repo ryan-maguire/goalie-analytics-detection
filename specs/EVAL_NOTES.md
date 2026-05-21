@@ -188,6 +188,11 @@ event-width widens" was effectively "single activity_spike events".
 After installing `librosa>=0.10,<1.0`:
 - Fast set F1: 0.422 → **0.428** (Δ +0.006, within noise)
 - bfEK 0.37→0.38, dw 0.47→0.48, krxh unchanged (0 whistles detected)
+- Outer-9 F1: 0.409 → **0.411** (Δ +0.002, also within noise)
+- Per-video deltas on outer-9 sum to +0.01 across 9 videos — net wash
+- Confirmed: librosa install is essentially a no-op for F1. The
+  signal that whistle / crowd_roar were nominally adding wasn't
+  actually missing — activity_spike was carrying the load.
 
 ### Save-sound diagnostic — no useful signal beyond existing detectors
 
