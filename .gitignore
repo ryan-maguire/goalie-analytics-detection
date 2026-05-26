@@ -1,0 +1,60 @@
+# ── Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# ── OS junk ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ───────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Root-level symlinks for metrics_seg local-config short-circuit ─────
+# (The canonical customer configs live in data/customers/.)
+/CUST*.json
+/customerID_*.json
+
+# ── Raw video data (65 GB) ─────────────────────────────────────────────
+# Videos must be fetched via the sibling ../hudl-fetch/ repo.
+data/videos/
+
+# ── Cached per-second feature TSVs ─────────────────────────────────────
+# Regenerable via util/extract_{yolo,audio}_features.py — no need to
+# track 100s of MBs of derived data.
+data/output/yolo_features/
+data/output/audio_features/
+
+# ── Pipeline output dumps (per-stage runs, ablation outputs) ───────────
+# These are ephemeral run artifacts. Keep data/output/evals/ tracked
+# because it holds the validation reports we cite from README.
+data/output/runs/
+data/output/wav/
+
+# ── Training images (648 MB) ───────────────────────────────────────────
+# Extracted from videos by util/extract_label_frames_v2.py. Labels
+# (data/labels/labels/) ARE tracked so retraining is reproducible
+# without redoing labelling work.
+data/labels/images/
+
+# ── Model training scratch + weights ───────────────────────────────────
+# runs/*/work/ contains 50 MB+ best.pt checkpoints. Track the small
+# audio best.pt separately (see audio_curve_n16/work) or treat all
+# weights as external. For now: exclude all work dirs.
+runs/*/work/
+
+# ── Coach-facing ephemeral output ──────────────────────────────────────
+candidate_output/
+
+# ── Archives + packaging artifacts ─────────────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+build/
+dist/
