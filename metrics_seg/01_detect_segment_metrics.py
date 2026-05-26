@@ -146,6 +146,61 @@ from google.cloud import storage
 from google import genai
 from google.genai import types
 
+# v14 improvements (see IMPROVEMENTS_SPEC.md). All additive; off by
+# default. Imported lazily-safe: failures to import do NOT break the
+# existing pipeline.
+try:
+    from metrics_seg import cache as _v14_cache
+    from metrics_seg import prefilter as _v14_prefilter
+    from metrics_seg import audio_context as _v14_audio_ctx
+    from metrics_seg import goal_ensemble as _v14_goal_ensemble
+    from metrics_seg import calibration as _v14_calibration
+    from metrics_seg import flash_screen as _v14_flash
+    _V14_IMPROVEMENTS_AVAILABLE = True
+except ImportError:
+    _V14_IMPROVEMENTS_AVAILABLE = False
+
+# Module-level config dict populated by main() from CLI args. Used by
+# the deep inner functions (analyze_clip_metrics, _run_one) without
+# requiring signature plumbing. All keys default such that the existing
+# v13 behavior is preserved when no v14 flags are set.
+_V14_CONFIG: dict = {
+    "enabled":             False,
+    "prefilter_threshold": 0.0,
+    "use_context":         False,
+    "goal_ensemble":       False,
+    "flash_screen":        False,
+    "no_cache":            False,
+    "cache_dir":           None,
+    "probs_dir_yolo":      None,
+    "probs_dir_audio":     None,
+    "audio_features_dir":  None,
+    "calibration_dir":     None,
+    "gt_dir":              None,
+    # Per-vID memoization populated by _v14_load_probs_for_vid
+    "_probs_cache":        {},
+}
+
+
+def _v14_load_probs_for_vid(vid: str):
+    """Lazy-load fused probs for a vID. Returns FusedProbs or None."""
+    if not _V14_IMPROVEMENTS_AVAILABLE:
+        return None
+    yolo_dir  = _V14_CONFIG.get("probs_dir_yolo")
+    audio_dir = _V14_CONFIG.get("probs_dir_audio")
+    if not (yolo_dir or audio_dir):
+        return None
+    pc = _V14_CONFIG["_probs_cache"]
+    if vid in pc:
+        return pc[vid]
+    fp = _v14_prefilter.load_fused_probs(
+        vid,
+        pathlib.Path(yolo_dir) if yolo_dir else None,
+        pathlib.Path(audio_dir) if audio_dir else None,
+    )
+    pc[vid] = fp
+    return fp
+
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
@@ -1655,6 +1710,26 @@ async def _dispatch_segments_async(
                 )
                 color = goalie_color
 
+            # ─── v14 PRE-FILTER: skip Gemini if peak prob below threshold ───
+            if (_V14_CONFIG["enabled"]
+                    and _V14_CONFIG["prefilter_threshold"] > 0):
+                fp = _v14_load_probs_for_vid(vID)
+                if fp is not None:
+                    skip, peak = _v14_prefilter.should_skip(
+                        fp, start, end, _V14_CONFIG["prefilter_threshold"])
+                    if skip:
+                        log.info(f"[{vID}] PREFILTER SKIP segment {start}-{end}s "
+                                  f"(peak={peak:.3f} < {_V14_CONFIG['prefilter_threshold']})")
+                        results_map[seg_idx_in_all] = dict(segment) | {
+                            "metrics": _v14_prefilter.null_metrics_dict(peak)}
+                        trace_map[seg_idx_in_all] = {
+                            "segment_start": start, "duration": duration,
+                            "failure_reason": None,
+                            "_prefilter_skip": True,
+                            "_prefilter_peak_conf": round(peak, 4),
+                        }
+                        return
+
             log.info(
                 f"Processing threat {seg_idx_in_threats + 1}/{len(threat_indices)}",
                 extra={"segment_start": start, "segment_end": end, "duration": duration}
@@ -1984,6 +2059,54 @@ def parse_args():
                         help="Skip processing a vID when the output file already "
                              "exists at the configured destination. Useful for "
                              "batch reprocessing or recovery from partial failures.")
+
+    # ─── v14 improvements (see IMPROVEMENTS_SPEC.md) ─── all opt-in
+    g = parser.add_argument_group("v14 improvements (opt-in)")
+    g.add_argument("--cache-dir", default=None,
+                    help="Directory for the Gemini-response cache "
+                         "(default: ~/.cache/metrics_seg). Set to empty "
+                         "string or use --no-cache to disable.")
+    g.add_argument("--no-cache", action="store_true",
+                    help="Disable the Gemini-response cache.")
+    g.add_argument("--prefilter-threshold", type=float, default=0.0,
+                    help="Skip Gemini calls for windows whose peak "
+                         "YOLO+audio fused prob is below this threshold "
+                         "(default 0.0, i.e. disabled). Try 0.30 to "
+                         "save ~30-50%% of calls.")
+    g.add_argument("--use-context", action="store_true",
+                    help="Prepend audio + visual prior context to the "
+                         "Gemini prompt (off by default).")
+    g.add_argument("--goal-ensemble", action="store_true",
+                    help="When a clip's first call returns goals>=1, "
+                         "fire 2 more calls + prob-signal veto to "
+                         "confirm. Defaults off.")
+    g.add_argument("--flash-screen", action="store_true",
+                    help="Phase-2 stub: use Gemini Flash to screen out "
+                         "obviously-empty clips before Pro call. "
+                         "Currently fail-safe positive (always escalates).")
+    g.add_argument("--probs-dir-yolo", default=None,
+                    help="Directory with per-second YOLO probs TSVs (one per vID). "
+                         "Used by --prefilter-threshold, --use-context, --goal-ensemble.")
+    g.add_argument("--probs-dir-audio", default=None,
+                    help="Directory with per-second audio probs TSVs.")
+    g.add_argument("--audio-features-dir", default=None,
+                    help="Directory with per-second audio feature TSVs "
+                         "(used by --use-context for audio markers).")
+    g.add_argument("--calibration-dir", default=None,
+                    help="Where to log calibration data "
+                         "(default: data/output/calibration). Always on; "
+                         "GT comparison only logged if --gt-dir given.")
+    g.add_argument("--gt-dir", default=None,
+                    help="Optional GT CSV dir for calibration logging.")
+
+    # ─── alt-orchestrator hooks ─── used by tools/run_fusion_pipeline.py
+    g2 = parser.add_argument_group("alt-orchestrator hooks")
+    g2.add_argument("--local-seg-json", default=None,
+                     help="Path to a local gt_seg_{vID}.json (overrides "
+                          "GCS read). Used by tools/run_fusion_pipeline.py.")
+    g2.add_argument("--no-gcs-upload", action="store_true",
+                     help="Skip uploading gt_metrics_*.json to GCS. "
+                          "Output still written to --output-dir if set.")
     return parser.parse_args()
 
 
@@ -1994,14 +2117,20 @@ def parse_args():
 def _process_video_safely(vID: str, args, config) -> tuple[str, bool]:
     """Wrap process_video for batch use — never raises; always returns
     (vID, ok). Used as the unit of work when --video-workers > 1."""
+    # v14 alt-orchestrator hook: --local-seg-json takes priority over
+    # --segments-dir if set. Convert to segments_dir form for re-use.
+    segments_dir = args.segments_dir
+    if getattr(args, "local_seg_json", None):
+        # Use the parent dir; process_video will read gt_seg_{vID}.json from it
+        segments_dir = str(pathlib.Path(args.local_seg_json).parent)
     try:
         ok = process_video(
             vID=vID,
             customID=args.customID,
             config=config,
             workers=args.workers,
-            no_gcs=args.no_gcs,
-            segments_dir=args.segments_dir,
+            no_gcs=args.no_gcs or getattr(args, "no_gcs_upload", False),
+            segments_dir=segments_dir,
             local_video_dir=args.local_video_dir,
             output_dir=args.output_dir,
             skip_existing=args.skip_existing,
@@ -2010,21 +2139,120 @@ def _process_video_safely(vID: str, args, config) -> tuple[str, bool]:
         log.error(f"[{vID}] Unhandled exception in process_video: {e}",
                   extra={"exc_type": type(e).__name__})
         ok = False
+
+    # ─── v14 calibration logging ───
+    if _V14_IMPROVEMENTS_AVAILABLE and ok:
+        try:
+            _v14_log_calibration(vID, args)
+        except Exception as e:
+            log.warning(f"[{vID}] calibration logging failed: {e}")
+
     return vID, ok
+
+
+def _v14_log_calibration(vid: str, args) -> None:
+    """Read the just-written metrics output, aggregate per-game totals,
+    optionally compare against GT, log to data/output/calibration."""
+    if not args.output_dir:
+        return    # need a local copy to read totals from
+    out_path = pathlib.Path(args.output_dir) / f"gt_metrics_{vid}.json"
+    if not out_path.exists():
+        return
+    try:
+        data = json.loads(out_path.read_text())
+    except Exception:
+        return
+    totals = _v14_calibration.GameTotals()
+    for seg in (data if isinstance(data, list) else []):
+        m = seg.get("metrics") or {}
+        if not isinstance(m, dict):
+            continue
+        totals.shots        += int(m.get("shots", 0) or 0)
+        totals.shots_on_net += int(m.get("shotsOnNet", 0) or 0)
+        totals.saves        += int(m.get("saves", 0) or 0)
+        totals.goals        += int(m.get("goals", 0) or 0)
+
+    gt_totals = None
+    gt_dir = _V14_CONFIG.get("gt_dir") or args.gt_dir
+    if gt_dir:
+        gt_csv = pathlib.Path(gt_dir) / f"gt_{vid}.csv"
+        if gt_csv.exists():
+            try:
+                import csv as _csv
+                gt = _v14_calibration.GameTotals()
+                with open(gt_csv, newline="") as f:
+                    for row in _csv.DictReader(f):
+                        action = (row.get("action") or "").strip()
+                        if action == "Shots":   gt.shots_on_net += 1
+                        if action == "Goals":   gt.goals += 1
+                gt.shots = gt.shots_on_net   # rough: count Shots rows as SOG
+                gt.saves = max(0, gt.shots_on_net - gt.goals)
+                gt_totals = gt
+            except Exception:
+                pass
+
+    log_dir = _V14_CONFIG.get("calibration_dir")
+    log_dir = pathlib.Path(log_dir) if log_dir else None
+    _v14_calibration.log_run(vid, totals, gt_totals,
+                                extra={"output_dir": args.output_dir,
+                                       "prefilter_threshold": _V14_CONFIG.get("prefilter_threshold")},
+                                log_dir=log_dir)
 
 
 def main():
     _setup_logging()  # configure handlers; no-op if already configured
     args = parse_args()
 
+    # Populate v14 improvements config from CLI flags. Flags default such
+    # that this is a no-op unless the user opts in.
+    if _V14_IMPROVEMENTS_AVAILABLE:
+        any_v14 = (args.prefilter_threshold > 0 or args.use_context
+                    or args.goal_ensemble or args.flash_screen
+                    or args.no_cache or args.cache_dir is not None)
+        _V14_CONFIG.update({
+            "enabled":             any_v14,
+            "prefilter_threshold": args.prefilter_threshold,
+            "use_context":         args.use_context,
+            "goal_ensemble":       args.goal_ensemble,
+            "flash_screen":        args.flash_screen,
+            "no_cache":            args.no_cache,
+            "cache_dir":           args.cache_dir,
+            "probs_dir_yolo":      args.probs_dir_yolo,
+            "probs_dir_audio":     args.probs_dir_audio,
+            "audio_features_dir":  args.audio_features_dir,
+            "calibration_dir":     args.calibration_dir,
+            "gt_dir":              args.gt_dir,
+        })
+        if any_v14:
+            log.info(f"v14 improvements active: prefilter≥{args.prefilter_threshold} "
+                      f"context={args.use_context} ensemble={args.goal_ensemble} "
+                      f"flash={args.flash_screen} cache={not args.no_cache}")
+            # Initialize cache singleton with configured dir
+            if not args.no_cache:
+                _v14_cache.set_default_cache(
+                    _v14_cache.GeminiResponseCache(cache_dir=args.cache_dir))
+
+    # Config loading: skip GCS if --local-seg-json is set AND customID
+    # config can come from existing local dirs.
     config_filename = args.customID if args.customID.endswith(".json") else f"{args.customID}.json"
     config_blob = f"customerID/{config_filename}"
-    log.info(f"Loading config from gs://{GCS_BUCKET}/{config_blob}")
-    try:
-        config = gcs_read_json(GCS_BUCKET, config_blob)
-    except Exception as e:
-        log.error(f"Failed to load config from gs://{GCS_BUCKET}/{config_blob}: {e}")
-        sys.exit(1)
+
+    # Local-config short-circuit for alt orchestrator
+    local_config_path = pathlib.Path("data/customers") / config_filename
+    if args.local_seg_json and local_config_path.exists():
+        log.info(f"Loading config from local: {local_config_path}")
+        try:
+            config = json.loads(local_config_path.read_text())
+        except Exception as e:
+            log.error(f"Failed to load local config: {e}")
+            sys.exit(1)
+    else:
+        log.info(f"Loading config from gs://{GCS_BUCKET}/{config_blob}")
+        try:
+            config = gcs_read_json(GCS_BUCKET, config_blob)
+        except Exception as e:
+            log.error(f"Failed to load config from gs://{GCS_BUCKET}/{config_blob}: {e}")
+            sys.exit(1)
 
     succeeded, failed = [], []
 

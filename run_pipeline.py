@@ -1,12 +1,24 @@
 """
 run_pipeline.py — Goalie analytics end-to-end runner.
 
-Runs cv_seg → metrics_seg → feedback_seg sequentially for one or more
-video IDs. All stages run from GCS by default. Output JSONs land in their
-respective GCS locations (each stage handles its own upload).
+Runs stage-1 → metrics_seg → feedback_seg sequentially for one or more
+video IDs. Stage 1 is **fusion-wide** by default (YOLO+audio candidate
+peaks → ±5/15s merged windows). Pass --legacy-cv-seg to fall back to
+the cv_seg motion-window detector.
+
+Validated lift of fusion-wide over cv_seg on 3 games:
+    Goal F1        0.645 → 0.750 (+0.106)
+    Shot e2e F1    0.371 → 0.430 (+0.059)
+    Goal precision 0.867 → 1.000 (+0.133, perfect)
+See data/output/evals/fusion_wide_validation.md.
+
+Fusion stage 1 REQUIRES YOLO+audio per-second probs to already exist at
+runs/yolo_curve_n16/probs/{vID}.tsv and runs/audio_curve_n16/probs/{vID}.tsv.
+If they don't exist for a vID, either extract them first or use
+--legacy-cv-seg.
 
 Usage:
-    # Single video, GCS-only (production)
+    # Single video, fusion stage 1 (default)
     python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8
 
     # Multiple videos
@@ -21,15 +33,19 @@ Usage:
     python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
         --metrics-workers 4 --feedback-workers 6
 
-    # Run only specific stages (1=cv_seg, 2=metrics_seg, 3=feedback_seg).
+    # Roll back to legacy cv_seg motion windows for stage 1
+    python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
+        --legacy-cv-seg
+
+    # Run only specific stages (1=stage1, 2=metrics_seg, 3=feedback_seg).
     # Default is "all". Publish to 04-final_video runs only when 3 is
     # requested AND succeeds.
     python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
         --steps 3                              # feedback_seg + publish only
     python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
-        --steps 2 3                            # skip cv_seg
+        --steps 2 3                            # skip stage 1
     python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
-        --steps 1                              # cv_seg only, no publish
+        --steps 1                              # stage 1 only, no publish
 
 Behavior:
 - Stages run per-vID: cv_seg → metrics_seg → feedback_seg, all for one
@@ -95,7 +111,8 @@ def cv_seg_argv(customer_id: str,
                 local_output_dir: str | None,
                 workers: int | None,
                 target_filter: bool = True) -> list[str]:
-    """Build argv for cv_seg.
+    """Build argv for cv_seg (LEGACY stage 1 — kept for rollback via
+    --legacy-cv-seg flag).
 
     cv_seg writes to GCS by default. --output-dir is its local mirror
     path; --no-local suppresses local writes when we don't want them.
@@ -123,10 +140,66 @@ def cv_seg_argv(customer_id: str,
     return argv
 
 
+# Default stage-1 builder: fusion-wide pipeline (YOLO+audio candidate
+# peaks → seg JSON with ±5/15s windows). Replaces cv_seg as the
+# production default per the 3-game validation that lifted:
+#   Goal F1       0.645 → 0.750 (+0.106)
+#   Shot e2e F1   0.371 → 0.430 (+0.059)
+#   Goal precision 0.867 → 1.000 (+0.133, perfect)
+# See data/output/evals/fusion_wide_validation.md for the validation.
+FUSION_PIPELINE_SCRIPT = PROJECT_ROOT / "tools" / "run_fusion_pipeline.py"
+
+# Pad seconds for fusion windows. Wider --post gives Gemini enough
+# aftermath context for goal-confirmation paths (Path B / Path C in
+# metrics_v13.txt). 5/15 was the validated sweet spot.
+FUSION_PRE_SEC  = 5
+FUSION_POST_SEC = 15
+
+
+def fusion_stage1_argv(customer_id: str,
+                       vID: str,
+                       local_output_dir: str | None,
+                       workers: int | None,
+                       target_filter: bool = True) -> list[str]:
+    """Build argv for the fusion stage-1 (the new production default).
+
+    Calls tools/run_fusion_pipeline.py to:
+      1. Generate candidate shot peaks from YOLO+audio fused probs
+      2. Expand peaks by ±FUSION_PRE_SEC/FUSION_POST_SEC → merged windows
+      3. Write cv_seg-format gt_seg_{vID}.json that metrics_seg consumes
+    The --skip-metrics flag stops the fusion orchestrator from also
+    invoking metrics_seg — run_pipeline.py drives that separately
+    via the metrics_seg stage in STAGES.
+
+    `target_filter` is accepted for signature parity but unused (fusion
+    candidate peaks are pre-filtered by the upstream model anyway).
+    `workers` is also unused — candidate generation is single-threaded.
+    """
+    # The fusion orchestrator writes to <out-dir>/gt_seg_{vID}.json.
+    # When --local-output-dir is set, use a subdir for parity with the
+    # cv_seg path; otherwise default to data/output/runs/cv_seg_fusion_wide
+    # so downstream stages find a consistent location.
+    if local_output_dir:
+        out_dir = Path(local_output_dir) / "cv_seg_fusion_wide"
+    else:
+        out_dir = PROJECT_ROOT / "data" / "output" / "runs" / "cv_seg_fusion_wide"
+    return [
+        sys.executable, str(FUSION_PIPELINE_SCRIPT),
+        "--customer_id", customer_id,
+        "--vID", vID,
+        "--skip-metrics",                             # this stage only generates the seg JSON
+        "--pre", str(FUSION_PRE_SEC),
+        "--post", str(FUSION_POST_SEC),
+        "--out-dir", str(out_dir),
+    ]
+
+
 def metrics_seg_argv(customer_id: str,
                      vID: str,
                      local_output_dir: str | None,
-                     workers: int | None) -> list[str]:
+                     workers: int | None,
+                     stage1_seg_dir: Path | None = None,
+                     local_video_dir: Path | None = None) -> list[str]:
     """Build argv for metrics_seg.
 
     metrics_seg writes to GCS by default. --output-dir adds a local
@@ -134,6 +207,13 @@ def metrics_seg_argv(customer_id: str,
 
     `workers` controls --workers (parallel Gemini requests within one
     video). When None, metrics_seg's built-in default is used (2).
+
+    `stage1_seg_dir` points metrics_seg at the local seg JSON dir
+    produced by stage 1 (fusion or cv_seg). When set, metrics_seg
+    reads gt_seg_{vID}.json from there instead of GCS. Required for
+    the fusion path (where seg JSON is local-only by default).
+
+    `local_video_dir` short-circuits the GCS video download.
     """
     # metrics_seg's --customID accepts the bare ID without .json
     customID = customer_id.removesuffix(".json")
@@ -146,6 +226,10 @@ def metrics_seg_argv(customer_id: str,
         argv += ["--workers", str(workers)]
     if local_output_dir:
         argv += ["--output-dir", str(Path(local_output_dir) / "metrics_seg")]
+    if stage1_seg_dir is not None:
+        argv += ["--segments-dir", str(stage1_seg_dir)]
+    if local_video_dir is not None:
+        argv += ["--local-video-dir", str(local_video_dir)]
     return argv
 
 
@@ -174,18 +258,27 @@ def feedback_seg_argv(customer_id: str,
     return argv
 
 
-STAGES = [
-    ("cv_seg",       cv_seg_argv),
-    ("metrics_seg",  metrics_seg_argv),
-    ("feedback_seg", feedback_seg_argv),
-]
+# Stage 1 builder is selected at runtime based on --legacy-cv-seg flag.
+# Default is fusion (validated +0.106 goal F1 lift across 3 games).
+# build_stages() returns the right STAGES tuple list to use.
+def build_stages(use_legacy_cv_seg: bool = False) -> list[tuple[str, callable]]:
+    stage1_name    = "cv_seg"
+    stage1_builder = fusion_stage1_argv if not use_legacy_cv_seg else cv_seg_argv
+    return [
+        (stage1_name,    stage1_builder),
+        ("metrics_seg",  metrics_seg_argv),
+        ("feedback_seg", feedback_seg_argv),
+    ]
+
+# Default STAGES (fusion). Overridden in main() if --legacy-cv-seg is set.
+STAGES = build_stages(use_legacy_cv_seg=False)
 
 # Map step number (1-based, matching the new GCS path numbering) to
 # stage tuple. Used to filter STAGES by --steps.
-#   1 → cv_seg       → analyze_video/01-segment_detection
-#   2 → metrics_seg  → analyze_video/02-segment_metrics
-#   3 → feedback_seg → analyze_video/03-segment_goalie_feedback
-#                      (publish to 04-final_video runs after 3 succeeds)
+#   1 → stage1 (fusion or cv_seg) → seg JSON for metrics_seg
+#   2 → metrics_seg               → analyze_video/02-segment_metrics
+#   3 → feedback_seg              → analyze_video/03-segment_goalie_feedback
+#                                   (publish to 04-final_video runs after 3 succeeds)
 STEP_TO_STAGE_NAME = {1: "cv_seg", 2: "metrics_seg", 3: "feedback_seg"}
 STAGE_NAME_TO_STEP = {v: k for k, v in STEP_TO_STAGE_NAME.items()}
 ALL_STEPS = [1, 2, 3]
@@ -286,7 +379,9 @@ def run_video(customer_id: str,
               workers_by_stage: dict[str, int | None],
               steps_to_run: set[int],
               target_filter: bool,
-              tee: TeeLogger) -> tuple[bool, dict[str, float], str | None]:
+              tee: TeeLogger,
+              use_legacy_cv_seg: bool = False,
+              local_video_dir: Path | None = None) -> tuple[bool, dict[str, float], str | None]:
     """Run the requested stages for a single vID, stopping at first failure.
 
     Stages in the chain that aren't in `steps_to_run` are silently
@@ -307,17 +402,39 @@ def run_video(customer_id: str,
     tee.header(f"VIDEO {vID}  customer={customer_id}")
     per_stage: dict[str, float] = {}
 
-    for stage_name, argv_builder in STAGES:
+    # Stage list is picked at runtime so --legacy-cv-seg flips stage-1
+    # from fusion (default) to cv_seg without touching the global STAGES.
+    stages = build_stages(use_legacy_cv_seg=use_legacy_cv_seg)
+
+    # Where stage-1 writes its seg JSON. metrics_seg needs to read from
+    # here when stage-1 is fusion (which doesn't upload to GCS).
+    if use_legacy_cv_seg:
+        stage1_seg_dir = (Path(local_output_dir) / "cv_seg"
+                           if local_output_dir else None)
+    else:
+        # fusion default — see fusion_stage1_argv()
+        stage1_seg_dir = (Path(local_output_dir) / "cv_seg_fusion_wide"
+                           if local_output_dir
+                           else PROJECT_ROOT / "data" / "output" / "runs" / "cv_seg_fusion_wide")
+
+    for stage_name, argv_builder in stages:
         step_num = STAGE_NAME_TO_STEP[stage_name]
         if step_num not in steps_to_run:
             tee.write(f"[{now_iso()}] --- Skipping stage={stage_name} "
                       f"(step {step_num} not requested)")
             continue
 
-        # cv_seg takes an extra target_filter kwarg; the others don't.
         builder_kwargs = {}
+        # cv_seg legacy takes target_filter; fusion ignores it but
+        # accepts the kwarg for signature parity.
         if stage_name == "cv_seg":
             builder_kwargs["target_filter"] = target_filter
+        # metrics_seg in fusion mode reads seg JSON from local dir +
+        # local video dir.
+        if stage_name == "metrics_seg" and not use_legacy_cv_seg:
+            builder_kwargs["stage1_seg_dir"] = stage1_seg_dir
+            if local_video_dir is not None:
+                builder_kwargs["local_video_dir"] = local_video_dir
 
         argv = argv_builder(
             customer_id, vID, local_output_dir,
@@ -501,7 +618,29 @@ def parse_args() -> argparse.Namespace:
              "this flag when debugging attribution issues to keep all "
              "segments (target-threat, opponent-threat, no-threat) in "
              "cv_seg's output. Has no effect when --steps doesn't "
-             "include 1.",
+             "include 1. Has no effect under fusion stage 1 (the default).",
+    )
+    p.add_argument(
+        "--legacy-cv-seg", dest="legacy_cv_seg",
+        action="store_true", default=False,
+        help="Roll stage 1 back from the fusion-wide default to the "
+             "legacy cv_seg motion-window detector. Default (off): "
+             "tools/run_fusion_pipeline.py runs as stage 1 using "
+             "YOLO+audio candidate peaks expanded by "
+             f"±{FUSION_PRE_SEC}/{FUSION_POST_SEC}s. Validated lift over "
+             "cv_seg on 3 games: Goal F1 0.645→0.750 (+0.106), Shot e2e "
+             "F1 0.371→0.430 (+0.059), Goal precision 0.867→1.000. "
+             "See data/output/evals/fusion_wide_validation.md. "
+             "Fusion stage 1 REQUIRES per-second YOLO+audio probs to "
+             "exist for the vID (runs/yolo_curve_n16/probs/{vID}.tsv + "
+             "runs/audio_curve_n16/probs/{vID}.tsv). Use --legacy-cv-seg "
+             "to fall back when probs aren't yet extracted.",
+    )
+    p.add_argument(
+        "--local-video-dir", dest="local_video_dir", default=None, type=Path,
+        help="Local directory containing full_{vID}.mp4. Skips the GCS "
+             "video download in metrics_seg. Only used under fusion "
+             "stage 1 (the default).",
     )
     return p.parse_args()
 
@@ -539,8 +678,11 @@ def main() -> int:
               f"{sorted(steps_to_run)}  "
               f"({', '.join(STEP_TO_STAGE_NAME[s] for s in sorted(steps_to_run))})")
     tee.write(f"local-output-dir: {args.local_output_dir or '(none — GCS-only)'}")
-    tee.write(f"target-filter:    "
-              f"{'enabled (cv_seg drops non-target segments)' if args.target_filter else 'DISABLED (cv_seg keeps all segments)'}")
+    tee.write(f"stage-1 backend:  "
+              f"{'cv_seg (LEGACY — motion windows)' if args.legacy_cv_seg else 'fusion-wide (YOLO+audio candidate peaks, default)'}")
+    if args.legacy_cv_seg:
+        tee.write(f"target-filter:    "
+                  f"{'enabled (cv_seg drops non-target segments)' if args.target_filter else 'DISABLED (cv_seg keeps all segments)'}")
     tee.write(f"metrics workers:  {_w('metrics_seg')}")
     tee.write(f"feedback workers: {_w('feedback_seg')}")
     tee.write(f"log file:         {log_path}")
@@ -566,6 +708,8 @@ def main() -> int:
             steps_to_run=steps_to_run,
             target_filter=args.target_filter,
             tee=tee,
+            use_legacy_cv_seg=args.legacy_cv_seg,
+            local_video_dir=args.local_video_dir,
         )
 
         # Stage 04 publish — runs only when:
