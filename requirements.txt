@@ -1,0 +1,54 @@
+# goalie-analytics-detection — full pip requirements
+#
+# Python >= 3.10 required (uses PEP 604 unions, dict-key generics,
+# match-statement-friendly patterns).
+#
+# Install (recommended in a venv):
+#     python3 -m venv .venv && source .venv/bin/activate
+#     pip install -r requirements.txt
+#
+# SYSTEM DEPENDENCY (not pip-installable):
+#     ffmpeg    used by cv_seg/io_utils.py, util/extract_audio_features.py,
+#               metrics_seg/01_detect_segment_metrics.py, feedback_seg/video.py
+#               install: `brew install ffmpeg` (macOS) or apt-get install ffmpeg
+#
+# OPTIONAL CHUNKS (comment out blocks you don't need):
+#   - Skip "Gemini stages" if you only run cv_seg + candidate_list
+#     (the Gemini-enhanced metrics_seg/feedback_seg stages won't be available)
+#   - Skip "ML retraining" if you only run the shipped models
+#   - Skip "Development" for production deployments
+
+# ─── Core (always needed) ──────────────────────────────────────────────
+# Video/image processing
+opencv-python>=4.8,<5.0          # cv2 — HoughCircles parity pinned to 4.x
+numpy>=1.24,<3.0
+
+# Audio feature extraction + cv_seg's whistle/crowd-roar detectors
+librosa>=0.10,<1.0
+
+# Torch — used by training/audio_shot/{model,train,infer}.py
+# and the candidate-list pipeline does NOT depend on torch (predictions
+# come from pre-computed probs TSVs), so torch is only needed for
+# retraining or running inference on new videos with the audio model.
+torch>=2.0,<3.0
+
+# ─── Gemini stages (metrics_seg + feedback_seg) ────────────────────────
+# Skip these if you only run cv_seg + candidate_list and not the
+# Gemini-enhanced JSON stages.
+google-cloud-storage>=2.10,<4.0  # GCS read/write for stage JSONs
+google-genai>=0.5,<2.0           # `from google import genai` (Vertex client)
+# google-api-core is auto-installed by google-cloud-storage; pinning to
+# avoid surprise major bumps.
+google-api-core>=2.0,<3.0
+# feedback_seg/models.py uses pydantic BaseModel for structured outputs
+pydantic>=2.0,<3.0
+
+# ─── ML retraining (only needed if you retrain YOLO / audio models) ────
+# YOLO fine-tune + inference (util/train_yolo_finetune.py, predict_shots_yolo.py,
+# extract_yolo_features.py, detect_hockeyai.py)
+ultralytics>=8.0,<9.0
+# Download cached HockeyAI weights from Hugging Face on first use
+huggingface_hub>=0.20,<1.0
+
+# ─── Development / tests ───────────────────────────────────────────────
+pytest>=7.0,<9.0
