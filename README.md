@@ -167,47 +167,57 @@ python3 training/audio_shot/run_curve_point.py  --train-size 22 --epochs 50
 # Then re-run inference + candidate_list as above with the new best.pt files
 ```
 
-## Full 3-stage pipeline (fusion-wide stage 1 → metrics_seg → feedback_seg)
+## Full 3-stage pipeline (hybrid stage 1 → metrics_seg → feedback_seg)
 
 `run_pipeline.py` chains stage-1 detection → Gemini metrics_seg →
-Gemini feedback_seg. **As of the fusion-wide cutover** (validated
-2026-05-22), stage 1 is the candidate-list pipeline above wrapped as
-a cv_seg-compatible seg JSON writer, replacing the legacy motion-based
-`cv_seg`. cv_seg remains in-tree behind a rollback flag.
+Gemini feedback_seg. Stage 1 is **hybrid** by default: it runs
+fusion-wide first, and falls back to the legacy `cv_seg` motion-window
+detector if fusion produces fewer than `--hybrid-min-windows` (default
+30) windows for that vID.
 
 ```bash
-# Default: fusion stage 1
+# Default: hybrid stage 1 (fusion → cv_seg fallback if <30 windows)
 python3 run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8
 
-# Rollback to the original cv_seg motion-window stage 1
+# Pure fusion (no fallback)
+python3 run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 --pure-fusion-stage1
+
+# Roll back to the original cv_seg motion-window stage 1
 python3 run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 --legacy-cv-seg
+
+# Custom fallback threshold
+python3 run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 --hybrid-min-windows 40
 ```
 
-Validated lift of fusion-wide over cv_seg on 3 paired games
-(mjEeE7p2Hz8, dwGsP6QKDs8, J8WkcuTsD5I), aggregate means:
+### Why hybrid (the validation history)
 
-| metric                 | v13 (cv_seg) | fusion-wide | Δ        |
-|------------------------|--------------|-------------|----------|
-| Goal F1 (strict)       | 0.645        | **0.750**   | +0.106 ✅ |
-| Goal precision         | 0.867        | **1.000**   | +0.133 ✅ |
-| Goal recall            | 0.560        | **0.607**   | +0.047 ✅ |
-| Shot end-to-end F1     | 0.371        | **0.430**   | +0.059 ✅ |
-| Shot MAE (sec)         | 1.146        | **1.070**   | −0.075 ✅ |
-| Within-cov recall      | 0.883        | 0.800       | −0.083 ❌ |
+| sample | aggregate Goal F1 lift (fusion vs cv_seg) | conclusion |
+|--------|-------------------------------------------|------------|
+| 3 games (`mjEe`, `dwGs`, `J8Wk`) | **+0.106 ✅** | shipped fusion-wide as default |
+| 11 new games | **−0.072 ❌** | reverted ship; hybrid replaces it |
+| 14 games combined | mixed: per-game swings of ±0.30 to +0.30 | hybrid catches the worst regressor |
 
-Full per-video tables in `data/output/evals/fusion_wide_validation.md`.
-The one regression — within-cov recall — is a precision/recall trade
-that lands on the right side for production (fewer false-positive
-shots, no false-positive goals across 3 games).
+Full per-vID tables:
+- `data/output/evals/fusion_wide_validation.md` (3 games)
+- `data/output/evals/fusion_wide_validation_11vid.md` (11 games)
 
-**Prerequisite for fusion stage 1:** the per-second YOLO + audio probs
-TSVs must already exist for the vID at:
+**Threshold calibration:** the 11-game data showed exactly one
+pathological vID (`kQVdtRa4o_A` @ 24 fusion windows lost −0.160 Shot
+F1 vs cv_seg's 73 windows). A threshold of 30 catches that case
+without clobbering a surprise low-density win (`zOQrPK7IJ24` @ 34
+windows actually won +0.300 Goal F1 vs cv_seg). All other vIDs had
+≥53 fusion windows and use fusion as before.
+
+### Prerequisite for fusion stage 1
+
+The per-second YOLO + audio probs TSVs must already exist for the vID:
 
 - `runs/yolo_curve_n16/probs/{vID}.tsv`
 - `runs/audio_curve_n16/probs/{vID}.tsv`
 
 Use the inference steps in "Adding a new game" above to generate them
-if missing, or pass `--legacy-cv-seg` to skip the requirement.
+if missing, or pass `--legacy-cv-seg` to skip the fusion attempt
+entirely.
 
 ## What's NOT in this repo (yet)
 

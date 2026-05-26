@@ -2,15 +2,27 @@
 run_pipeline.py — Goalie analytics end-to-end runner.
 
 Runs stage-1 → metrics_seg → feedback_seg sequentially for one or more
-video IDs. Stage 1 is **fusion-wide** by default (YOLO+audio candidate
-peaks → ±5/15s merged windows). Pass --legacy-cv-seg to fall back to
-the cv_seg motion-window detector.
+video IDs. Stage 1 is **hybrid** by default: fusion-wide first (YOLO+
+audio candidate peaks → ±5/15s merged windows), with cv_seg as a
+safety net when fusion under-produces.
 
-Validated lift of fusion-wide over cv_seg on 3 games:
-    Goal F1        0.645 → 0.750 (+0.106)
-    Shot e2e F1    0.371 → 0.430 (+0.059)
-    Goal precision 0.867 → 1.000 (+0.133, perfect)
-See data/output/evals/fusion_wide_validation.md.
+Stage-1 modes (mutually exclusive flags):
+    (default)          hybrid  — fusion → cv_seg fallback below threshold
+    --pure-fusion-stage1       — fusion only, no fallback
+    --legacy-cv-seg            — cv_seg only (pre-fusion default)
+
+The hybrid fallback fires per-vID when fusion produces fewer than
+--hybrid-min-windows windows (default 30). Calibrated from the
+14-game validation: 30 catches the pathological case
+(kQVdtRa4o_A @ 24) without clobbering the surprise fusion win at
+zOQrPK7IJ24 @ 34.
+
+Validation history:
+  3-game sample  (Goal F1 +0.106, Shot e2e F1 +0.059)
+                 — data/output/evals/fusion_wide_validation.md
+  11-game expand (Goal F1 -0.072, Shot e2e F1 +0.026)
+                 — data/output/evals/fusion_wide_validation_11vid.md
+                 — motivated the hybrid mode as the new default.
 
 Fusion stage 1 REQUIRES YOLO+audio per-second probs to already exist at
 runs/yolo_curve_n16/probs/{vID}.tsv and runs/audio_curve_n16/probs/{vID}.tsv.
@@ -18,7 +30,7 @@ If they don't exist for a vID, either extract them first or use
 --legacy-cv-seg.
 
 Usage:
-    # Single video, fusion stage 1 (default)
+    # Single video, hybrid stage 1 (default)
     python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8
 
     # Multiple videos
@@ -33,9 +45,17 @@ Usage:
     python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
         --metrics-workers 4 --feedback-workers 6
 
+    # Pure fusion (no cv_seg fallback)
+    python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
+        --pure-fusion-stage1
+
     # Roll back to legacy cv_seg motion windows for stage 1
     python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
         --legacy-cv-seg
+
+    # Custom hybrid fallback threshold
+    python run_pipeline.py --customer_id CUST000048 --vID mjEeE7p2Hz8 \\
+        --hybrid-min-windows 40
 
     # Run only specific stages (1=stage1, 2=metrics_seg, 3=feedback_seg).
     # Default is "all". Publish to 04-final_video runs only when 3 is
@@ -74,6 +94,7 @@ Requirements:
 """
 
 import argparse
+import json
 import os
 import subprocess
 import sys
@@ -154,6 +175,16 @@ FUSION_PIPELINE_SCRIPT = PROJECT_ROOT / "tools" / "run_fusion_pipeline.py"
 # metrics_v13.txt). 5/15 was the validated sweet spot.
 FUSION_PRE_SEC  = 5
 FUSION_POST_SEC = 15
+
+# Hybrid stage-1 fallback threshold: if fusion produces fewer than this
+# many windows, run cv_seg as a safety-net fallback for that vID.
+# Calibration from the 14-game (3 + 11) validation:
+#   - kQVdtRa4o_A had 24 fusion windows and lost -0.160 Shot F1 vs cv_seg
+#   - zOQrPK7IJ24 had 34 fusion windows and WON +0.300 Goal F1 vs cv_seg
+#   - every other vID had >=53 fusion windows
+# Threshold of 30 catches the pathological case (kQVdt) without
+# clobbering the win on zOQrP. See data/output/evals/fusion_wide_validation_11vid.md.
+HYBRID_MIN_WINDOWS_DEFAULT = 30
 
 
 def fusion_stage1_argv(customer_id: str,
@@ -373,6 +404,22 @@ def run_stage(stage_name: str,
     return ok, elapsed
 
 
+def _count_seg_json_windows(seg_path: Path) -> int:
+    """Count segments in a stage-1 seg JSON. Returns 0 on any failure
+    (missing file, malformed JSON, unexpected schema)."""
+    try:
+        data = json.loads(seg_path.read_text())
+        if isinstance(data, list):
+            return len(data)
+        # cv_seg historically wrote a list; defensively support a wrapped
+        # object in case the schema ever evolves.
+        if isinstance(data, dict) and isinstance(data.get("segments"), list):
+            return len(data["segments"])
+        return 0
+    except Exception:
+        return 0
+
+
 def run_video(customer_id: str,
               vID: str,
               local_output_dir: str | None,
@@ -380,7 +427,8 @@ def run_video(customer_id: str,
               steps_to_run: set[int],
               target_filter: bool,
               tee: TeeLogger,
-              use_legacy_cv_seg: bool = False,
+              stage1_mode: str = "hybrid",
+              hybrid_min_windows: int = HYBRID_MIN_WINDOWS_DEFAULT,
               local_video_dir: Path | None = None) -> tuple[bool, dict[str, float], str | None]:
     """Run the requested stages for a single vID, stopping at first failure.
 
@@ -392,18 +440,30 @@ def run_video(customer_id: str,
     `target_filter` is forwarded only to cv_seg (the only stage that
     knows about it). The other stage builders ignore it.
 
+    stage1_mode controls which backend drives stage 1:
+      "hybrid"         — fusion first; if it produces fewer than
+                          `hybrid_min_windows`, re-run cv_seg and use
+                          its output for metrics_seg. Default (the
+                          safety net for low-fusion-density games).
+      "pure_fusion"    — fusion only, no fallback.
+      "legacy_cv_seg"  — cv_seg motion-window detector (pre-fusion
+                          default).
+
     Returns (overall_success, per_stage_elapsed_seconds, failure_stage):
       overall_success: True iff every requested stage that ran returned
         OK. A vID where no requested stage failed is "success".
       per_stage: {stage_name: elapsed_seconds} for stages that actually
-        ran. Stages skipped for any reason are absent.
+        ran. Stages skipped for any reason are absent. The hybrid
+        fallback (when triggered) appears as "cv_seg_fallback".
       failure_stage: name of the failing stage, or None on full success.
     """
-    tee.header(f"VIDEO {vID}  customer={customer_id}")
+    tee.header(f"VIDEO {vID}  customer={customer_id}  stage1_mode={stage1_mode}")
     per_stage: dict[str, float] = {}
 
-    # Stage list is picked at runtime so --legacy-cv-seg flips stage-1
-    # from fusion (default) to cv_seg without touching the global STAGES.
+    # Stage list is picked at runtime. The "hybrid" mode runs fusion
+    # first and may follow up with cv_seg, so it shares its builder
+    # setup with "pure_fusion".
+    use_legacy_cv_seg = (stage1_mode == "legacy_cv_seg")
     stages = build_stages(use_legacy_cv_seg=use_legacy_cv_seg)
 
     # Where stage-1 writes its seg JSON. metrics_seg needs to read from
@@ -417,6 +477,10 @@ def run_video(customer_id: str,
                            if local_output_dir
                            else PROJECT_ROOT / "data" / "output" / "runs" / "cv_seg_fusion_wide")
 
+    # Active stage-1 backend. Flips to "cv_seg" mid-flight if the hybrid
+    # fallback fires; metrics_seg wiring keys off this.
+    active_backend = "cv_seg" if use_legacy_cv_seg else "fusion"
+
     for stage_name, argv_builder in stages:
         step_num = STAGE_NAME_TO_STEP[stage_name]
         if step_num not in steps_to_run:
@@ -429,9 +493,10 @@ def run_video(customer_id: str,
         # accepts the kwarg for signature parity.
         if stage_name == "cv_seg":
             builder_kwargs["target_filter"] = target_filter
-        # metrics_seg in fusion mode reads seg JSON from local dir +
-        # local video dir.
-        if stage_name == "metrics_seg" and not use_legacy_cv_seg:
+        # metrics_seg in fusion-backend mode reads seg JSON from local
+        # dir + local video dir. cv_seg-backend mode (legacy or hybrid
+        # fallback) lets metrics_seg fall back to its default GCS read.
+        if stage_name == "metrics_seg" and active_backend == "fusion":
             builder_kwargs["stage1_seg_dir"] = stage1_seg_dir
             if local_video_dir is not None:
                 builder_kwargs["local_video_dir"] = local_video_dir
@@ -446,6 +511,39 @@ def run_video(customer_id: str,
         if not ok:
             tee.write(f"[{now_iso()}] !!! Skipping remaining stages for vID={vID}")
             return False, per_stage, stage_name
+
+        # ── Hybrid fallback ───────────────────────────────────────────
+        # After the stage-1 step (its name is "cv_seg" regardless of
+        # which backend ran), inspect the produced seg JSON. If fusion
+        # under-produced, re-run cv_seg as a safety net.
+        if (stage_name == "cv_seg"
+                and stage1_mode == "hybrid"
+                and active_backend == "fusion"
+                and stage1_seg_dir is not None):
+            seg_path = stage1_seg_dir / f"gt_seg_{vID}.json"
+            n_windows = _count_seg_json_windows(seg_path)
+            tee.write(f"[{now_iso()}] --- hybrid: fusion produced "
+                      f"{n_windows} windows (threshold={hybrid_min_windows})")
+            if n_windows < hybrid_min_windows:
+                tee.write(f"[{now_iso()}] --- hybrid: below threshold "
+                          f"→ falling back to cv_seg")
+                cv_argv = cv_seg_argv(
+                    customer_id, vID, local_output_dir, None,
+                    target_filter=target_filter,
+                )
+                ok2, elapsed2 = run_stage("cv_seg_fallback", cv_argv, tee)
+                per_stage["cv_seg_fallback"] = elapsed2
+                if not ok2:
+                    tee.write(f"[{now_iso()}] !!! cv_seg fallback failed; "
+                              f"skipping remaining stages for vID={vID}")
+                    return False, per_stage, "cv_seg_fallback"
+                # Switch metrics_seg to read from cv_seg (GCS or local).
+                active_backend = "cv_seg"
+                stage1_seg_dir = (Path(local_output_dir) / "cv_seg"
+                                   if local_output_dir else None)
+            else:
+                tee.write(f"[{now_iso()}] --- hybrid: above threshold "
+                          f"→ keeping fusion output")
 
     return True, per_stage, None
 
@@ -620,29 +718,48 @@ def parse_args() -> argparse.Namespace:
              "cv_seg's output. Has no effect when --steps doesn't "
              "include 1. Has no effect under fusion stage 1 (the default).",
     )
-    p.add_argument(
-        "--legacy-cv-seg", dest="legacy_cv_seg",
+    stage1_grp = p.add_mutually_exclusive_group()
+    stage1_grp.add_argument(
+        "--legacy-cv-seg", dest="stage1_mode_legacy",
         action="store_true", default=False,
-        help="Roll stage 1 back from the fusion-wide default to the "
-             "legacy cv_seg motion-window detector. Default (off): "
-             "tools/run_fusion_pipeline.py runs as stage 1 using "
-             "YOLO+audio candidate peaks expanded by "
-             f"±{FUSION_PRE_SEC}/{FUSION_POST_SEC}s. Validated lift over "
-             "cv_seg on 3 games: Goal F1 0.645→0.750 (+0.106), Shot e2e "
-             "F1 0.371→0.430 (+0.059), Goal precision 0.867→1.000. "
-             "See data/output/evals/fusion_wide_validation.md. "
-             "Fusion stage 1 REQUIRES per-second YOLO+audio probs to "
-             "exist for the vID (runs/yolo_curve_n16/probs/{vID}.tsv + "
-             "runs/audio_curve_n16/probs/{vID}.tsv). Use --legacy-cv-seg "
-             "to fall back when probs aren't yet extracted.",
+        help="Stage 1 backend = cv_seg only (the pre-fusion default). "
+             "Useful for rollback and for vIDs that don't yet have "
+             "YOLO+audio probs cached. Mutually exclusive with "
+             "--pure-fusion-stage1.",
+    )
+    stage1_grp.add_argument(
+        "--pure-fusion-stage1", dest="stage1_mode_pure_fusion",
+        action="store_true", default=False,
+        help="Stage 1 backend = fusion only, with no cv_seg safety net. "
+             "Use when you want to study fusion's behavior in isolation. "
+             "Mutually exclusive with --legacy-cv-seg.",
+    )
+    p.add_argument(
+        "--hybrid-min-windows", dest="hybrid_min_windows",
+        type=_positive_int, default=HYBRID_MIN_WINDOWS_DEFAULT,
+        help="Hybrid-mode threshold: if fusion produces fewer than this "
+             f"many windows for a vID, re-run cv_seg as a fallback and "
+             f"use its output for metrics_seg. Default {HYBRID_MIN_WINDOWS_DEFAULT}. "
+             "Calibrated from the 14-game validation: 30 catches the "
+             "fusion-under-produced case (kQVdtRa4o_A @ 24 windows) "
+             "without clobbering low-window-count fusion wins "
+             "(zOQrPK7IJ24 @ 34 windows won +0.300 Goal F1). Ignored "
+             "under --legacy-cv-seg or --pure-fusion-stage1.",
     )
     p.add_argument(
         "--local-video-dir", dest="local_video_dir", default=None, type=Path,
         help="Local directory containing full_{vID}.mp4. Skips the GCS "
-             "video download in metrics_seg. Only used under fusion "
-             "stage 1 (the default).",
+             "video download in metrics_seg. Only used when the active "
+             "stage-1 backend is fusion (default and hybrid-without-fallback).",
     )
-    return p.parse_args()
+    args = p.parse_args()
+    if args.stage1_mode_legacy:
+        args.stage1_mode = "legacy_cv_seg"
+    elif args.stage1_mode_pure_fusion:
+        args.stage1_mode = "pure_fusion"
+    else:
+        args.stage1_mode = "hybrid"
+    return args
 
 
 def main() -> int:
@@ -678,9 +795,13 @@ def main() -> int:
               f"{sorted(steps_to_run)}  "
               f"({', '.join(STEP_TO_STAGE_NAME[s] for s in sorted(steps_to_run))})")
     tee.write(f"local-output-dir: {args.local_output_dir or '(none — GCS-only)'}")
-    tee.write(f"stage-1 backend:  "
-              f"{'cv_seg (LEGACY — motion windows)' if args.legacy_cv_seg else 'fusion-wide (YOLO+audio candidate peaks, default)'}")
-    if args.legacy_cv_seg:
+    mode_desc = {
+        "hybrid":        f"hybrid (fusion → cv_seg fallback if <{args.hybrid_min_windows} windows; default)",
+        "pure_fusion":   "pure_fusion (no cv_seg fallback)",
+        "legacy_cv_seg": "cv_seg (LEGACY — motion windows)",
+    }[args.stage1_mode]
+    tee.write(f"stage-1 backend:  {mode_desc}")
+    if args.stage1_mode in ("legacy_cv_seg", "hybrid"):
         tee.write(f"target-filter:    "
                   f"{'enabled (cv_seg drops non-target segments)' if args.target_filter else 'DISABLED (cv_seg keeps all segments)'}")
     tee.write(f"metrics workers:  {_w('metrics_seg')}")
@@ -708,7 +829,8 @@ def main() -> int:
             steps_to_run=steps_to_run,
             target_filter=args.target_filter,
             tee=tee,
-            use_legacy_cv_seg=args.legacy_cv_seg,
+            stage1_mode=args.stage1_mode,
+            hybrid_min_windows=args.hybrid_min_windows,
             local_video_dir=args.local_video_dir,
         )
 
@@ -757,16 +879,18 @@ def main() -> int:
 
     # Per-vID timing table
     tee.write("Per-video timing:")
-    header = (f"  {'vID':<16}  {'cv_seg':>10}  {'metrics_seg':>12}  "
-              f"{'feedback_seg':>13}  {'publish':>9}  {'total':>10}  status")
+    header = (f"  {'vID':<16}  {'stage1':>10}  {'fallback':>10}  "
+              f"{'metrics_seg':>12}  {'feedback_seg':>13}  "
+              f"{'publish':>9}  {'total':>10}  status")
     tee.write(header)
     tee.write("  " + "-" * (len(header) - 2))
     for vID in args.vID:
         r = results[vID]
         s = r["stages"]
-        cv  = fmt_duration(s.get("cv_seg",       0.0)) if "cv_seg"       in s else "—"
-        me  = fmt_duration(s.get("metrics_seg",  0.0)) if "metrics_seg"  in s else "—"
-        fb  = fmt_duration(s.get("feedback_seg", 0.0)) if "feedback_seg" in s else "—"
+        cv   = fmt_duration(s.get("cv_seg",          0.0)) if "cv_seg"          in s else "—"
+        fbk  = fmt_duration(s.get("cv_seg_fallback", 0.0)) if "cv_seg_fallback" in s else "—"
+        me   = fmt_duration(s.get("metrics_seg",     0.0)) if "metrics_seg"     in s else "—"
+        fb   = fmt_duration(s.get("feedback_seg",    0.0)) if "feedback_seg"    in s else "—"
         if r["publish_elapsed"] is not None:
             pub = fmt_duration(r["publish_elapsed"])
         else:
@@ -779,7 +903,7 @@ def main() -> int:
             status = "FAIL @ publish_final"
         else:
             status = f"FAIL @ {r['failure_stage']}"
-        tee.write(f"  {vID:<16}  {cv:>10}  {me:>12}  {fb:>13}  "
+        tee.write(f"  {vID:<16}  {cv:>10}  {fbk:>10}  {me:>12}  {fb:>13}  "
                   f"{pub:>9}  {total:>10}  {status}")
 
     tee.write("")
