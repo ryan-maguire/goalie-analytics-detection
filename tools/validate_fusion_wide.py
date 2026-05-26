@@ -49,8 +49,16 @@ VID_TO_CUST: dict[str, str] = {
     "q5yj6sAFQeY": "CUST000031", "zOQrPK7IJ24": "CUST000031",
 }
 
-# vIDs that have YOLO + audio probs cached → can run fusion pipeline
-HAS_PROBS = {"mjEeE7p2Hz8", "dwGsP6QKDs8", "J8WkcuTsD5I"}
+# vIDs that have YOLO + audio probs cached → can run fusion pipeline.
+# Scanned at import time so newly-extracted probs flow through without
+# code edits.
+_YOLO_PROBS_DIR  = REPO / "runs" / "yolo_curve_n16"  / "probs"
+_AUDIO_PROBS_DIR = REPO / "runs" / "audio_curve_n16" / "probs"
+def _scan_has_probs() -> set[str]:
+    have_yolo  = {p.stem for p in _YOLO_PROBS_DIR.glob("*.tsv")  if p.stat().st_size > 0}
+    have_audio = {p.stem for p in _AUDIO_PROBS_DIR.glob("*.tsv") if p.stat().st_size > 0}
+    return have_yolo & have_audio
+HAS_PROBS = _scan_has_probs()
 DEFAULT_VIDS = ["mjEeE7p2Hz8", "dwGsP6QKDs8", "J8WkcuTsD5I"]
 
 
