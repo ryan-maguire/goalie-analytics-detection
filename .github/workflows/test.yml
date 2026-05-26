@@ -1,0 +1,51 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install minimal test deps
+        # Only what the v14 unit tests actually need. The heavier
+        # deps (torch, opencv, librosa, google-cloud-*) aren't pulled
+        # in because the tests in scope here are pure-Python.
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pytest
+
+      - name: Compile-check every tracked .py
+        # Catches syntax errors anywhere in the repo without
+        # actually executing any of it. Cheap belt-and-suspenders.
+        run: |
+          python -m compileall -q cv_seg metrics_seg feedback_seg \
+              tools training util eval run_pipeline.py
+
+      - name: Run v14 unit tests
+        # 21 fast tests covering metrics_seg/{cache,prefilter,
+        # audio_context,goal_ensemble,calibration,flash_screen}.
+        # No Gemini, no GCS, no network.
+        run: |
+          python -m pytest metrics_seg/tests/test_v14_improvements.py -v
+
+      - name: Smoke-test run_pipeline.py --help
+        # Catches import-time regressions in the orchestrator
+        # without invoking any pipeline stage.
+        run: |
+          python run_pipeline.py --help > /dev/null
