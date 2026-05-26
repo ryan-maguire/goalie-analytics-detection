@@ -1,0 +1,206 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,148,160,12,24.38,19.67,,Connecticut Jr. Rangers 16U,OZ play,1
+2,160,172,12,52.07,16.42,,Connecticut Jr. Rangers 16U,OZ play,1
+3,160,172,12,52.07,16.42,,Connecticut Jr. Rangers 16U,Shots,1
+4,188,200,12,47.58,21.92,,Connecticut Jr. Rangers 16U,OZ play,1
+5,188,200,12,47.58,21.92,,Connecticut Jr. Rangers 16U,Shots,1
+6,193,205,12,52.16,9.21,,Connecticut Jr. Rangers 16U,Goals,1
+7,193,205,12,52.16,9.21,,Connecticut Jr. Rangers 16U,OZ play,1
+8,193,205,12,52.16,9.21,,Connecticut Jr. Rangers 16U,Shots,1
+9,228,240,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,1
+10,257,269,12,53.44,9.11,,North Shore Warhawks 19U AA,OZ play,1
+11,257,269,12,53.44,9.11,,North Shore Warhawks 19U AA,Shots,1
+12,294,306,12,44.55,23.54,,North Shore Warhawks 19U AA,OZ play,1
+13,294,306,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,1
+14,296,308,12,44.55,23.54,,North Shore Warhawks 19U AA,OZ play,1
+15,296,308,12,44.55,23.54,,North Shore Warhawks 19U AA,Shots,1
+16,365,377,12,56.83,15.85,,Connecticut Jr. Rangers 16U,OZ play,1
+17,365,377,12,56.83,15.85,,Connecticut Jr. Rangers 16U,Shots,1
+18,413,425,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,1
+19,438,450,12,44,18.32,,North Shore Warhawks 19U AA,OZ play,1
+20,438,450,12,44,18.32,,North Shore Warhawks 19U AA,Shots,1
+21,450,462,12,53.44,5.13,,North Shore Warhawks 19U AA,OZ play,1
+22,450,462,12,53.44,5.13,,North Shore Warhawks 19U AA,Shots,1
+23,454,466,12,40.61,13.67,,North Shore Warhawks 19U AA,OZ play,1
+24,454,466,12,40.61,13.67,,North Shore Warhawks 19U AA,Shots,1
+25,496,508,12,9.45,19.67,,Connecticut Jr. Rangers 16U,OZ play,1
+26,506,518,12,54.08,13.76,,Connecticut Jr. Rangers 16U,Goals,1
+27,506,518,12,54.08,13.76,,Connecticut Jr. Rangers 16U,OZ play,1
+28,506,518,12,54.08,13.76,,Connecticut Jr. Rangers 16U,Shots,1
+29,534,546,12,30.48,12.96,,Connecticut Jr. Rangers 16U,OZ play,1
+30,552,564,12,45.1,19.84,,Connecticut Jr. Rangers 16U,OZ play,1
+31,552,564,12,45.1,19.84,,Connecticut Jr. Rangers 16U,Shots,1
+32,597,609,12,24.38,19.67,,North Shore Warhawks 19U AA,OZ play,1
+33,612,624,12,39.69,1.9,,North Shore Warhawks 19U AA,OZ play,1
+34,612,624,12,39.69,1.9,,North Shore Warhawks 19U AA,Shots,1
+35,678,690,12,9.45,19.67,,Connecticut Jr. Rangers 16U,OZ play,1
+36,730,742,12,52.53,7.78,,Connecticut Jr. Rangers 16U,OZ play,1
+37,730,742,12,52.53,7.78,,Connecticut Jr. Rangers 16U,Shots,1
+38,733,745,12,56.28,10.53,,Connecticut Jr. Rangers 16U,Goals,1
+39,733,745,12,56.28,10.53,,Connecticut Jr. Rangers 16U,OZ play,1
+40,733,745,12,56.28,10.53,,Connecticut Jr. Rangers 16U,Shots,1
+41,786,798,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,1
+42,786,798,12,44.28,22.4,,North Shore Warhawks 19U AA,OZ play,1
+43,805,817,12,16.68,3.51,,North Shore Warhawks 19U AA,OZ play,1
+44,805,817,12,44.28,22.4,,North Shore Warhawks 19U AA,OZ play,1
+45,807,819,12,43.82,22.02,,Connecticut Jr. Rangers 16U,OZ play,1
+46,915,927,12,24.38,6.25,,Connecticut Jr. Rangers 16U,OZ play,1
+47,953,965,12,52.34,16.8,,Connecticut Jr. Rangers 16U,OZ play,1
+48,953,965,12,52.34,16.8,,Connecticut Jr. Rangers 16U,Shots,1
+49,980,992,12,43.73,18.03,,Connecticut Jr. Rangers 16U,OZ play,1
+50,980,992,12,43.73,18.03,,Connecticut Jr. Rangers 16U,Shots,1
+51,1054,1066,12,49.23,24.58,,North Shore Warhawks 19U AA,OZ play,1
+52,1054,1066,12,49.23,24.58,,North Shore Warhawks 19U AA,Shots,1
+53,1106,1118,12,48.86,13.29,,Connecticut Jr. Rangers 16U,OZ play,1
+54,1106,1118,12,48.86,13.29,,Connecticut Jr. Rangers 16U,Shots,1
+55,1109,1121,12,56.56,13.19,,Connecticut Jr. Rangers 16U,Goals,1
+56,1109,1121,12,56.56,13.19,,Connecticut Jr. Rangers 16U,OZ play,1
+57,1109,1121,12,56.56,13.19,,Connecticut Jr. Rangers 16U,Shots,1
+58,1235,1247,12,9.45,6.25,,Connecticut Jr. Rangers 16U,OZ play,1
+59,1293,1305,12,55.28,10.63,,Connecticut Jr. Rangers 16U,OZ play,1
+60,1293,1305,12,55.28,10.63,,Connecticut Jr. Rangers 16U,Shots,1
+61,1331,1343,12,53.72,15.85,,Connecticut Jr. Rangers 16U,Goals,1
+62,1331,1343,12,53.72,15.85,,Connecticut Jr. Rangers 16U,OZ play,1
+63,1331,1343,12,53.72,15.85,,Connecticut Jr. Rangers 16U,Shots,1
+64,1421,1433,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,2
+65,1446,1458,12,0.83,12.72,,North Shore Warhawks 19U AA,OZ play,2
+66,1452,1464,12,1.38,20.03,,North Shore Warhawks 19U AA,OZ play,2
+67,1558,1570,12,51.51,6.25,,Connecticut Jr. Rangers 16U,OZ play,2
+68,1560,1572,12,51.33,7.78,,Connecticut Jr. Rangers 16U,OZ play,2
+69,1560,1572,12,51.33,7.78,,Connecticut Jr. Rangers 16U,Shots,2
+70,1604,1616,12,36.58,6.25,,Connecticut Jr. Rangers 16U,OZ play,2
+71,1665,1677,12,4.49,10.72,,Connecticut Jr. Rangers 16U,OZ play,2
+72,1802,1814,12,51.51,6.25,,Connecticut Jr. Rangers 16U,OZ play,2
+73,1821,1833,12,46.11,3.13,,Connecticut Jr. Rangers 16U,OZ play,2
+74,1821,1833,12,46.11,3.13,,Connecticut Jr. Rangers 16U,Shots,2
+75,1833,1845,12,51.51,6.25,,Connecticut Jr. Rangers 16U,OZ play,2
+76,1839,1851,12,41.25,16.13,,Connecticut Jr. Rangers 16U,OZ play,2
+77,1839,1851,12,41.25,16.13,,Connecticut Jr. Rangers 16U,Shots,2
+78,1880,1892,12,49.59,14.62,,Connecticut Jr. Rangers 16U,OZ play,2
+79,1880,1892,12,49.59,14.62,,Connecticut Jr. Rangers 16U,Shots,2
+80,1924,1936,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+81,1924,1936,12,56.47,19.36,,North Shore Warhawks 19U AA,OZ play,2
+82,1926,1938,12,56.47,19.36,,North Shore Warhawks 19U AA,OZ play,2
+83,1926,1938,12,56.47,19.36,,North Shore Warhawks 19U AA,Shots,2
+84,1998,2010,12,53.99,16.13,,Connecticut Jr. Rangers 16U,OZ play,2
+85,1998,2010,12,53.99,16.13,,Connecticut Jr. Rangers 16U,Shots,2
+86,2039,2051,12,39.88,8.54,,North Shore Warhawks 19U AA,OZ play,2
+87,2039,2051,12,39.88,8.54,,North Shore Warhawks 19U AA,Shots,2
+88,2046,2058,12,57.02,9.49,,North Shore Warhawks 19U AA,OZ play,2
+89,2046,2058,12,57.02,9.49,,North Shore Warhawks 19U AA,Shots,2
+90,2047,2059,12,55.55,11.2,,North Shore Warhawks 19U AA,OZ play,2
+91,2047,2059,12,55.55,11.2,,North Shore Warhawks 19U AA,Shots,2
+92,2085,2097,12,13.02,6.83,,Connecticut Jr. Rangers 16U,OZ play,2
+93,2141,2153,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,2
+94,2157,2169,12,54.08,6.74,,North Shore Warhawks 19U AA,OZ play,2
+95,2157,2169,12,54.08,6.74,,North Shore Warhawks 19U AA,Shots,2
+96,2176,2188,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+97,2183,2195,12,55.64,2.18,,North Shore Warhawks 19U AA,OZ play,2
+98,2183,2195,12,55.64,2.18,,North Shore Warhawks 19U AA,Shots,2
+99,2199,2211,12,46.93,15.75,,North Shore Warhawks 19U AA,OZ play,2
+100,2199,2211,12,46.93,15.75,,North Shore Warhawks 19U AA,Shots,2
+101,2202,2214,12,53.26,12.24,,North Shore Warhawks 19U AA,Goals,2
+102,2202,2214,12,53.26,12.24,,North Shore Warhawks 19U AA,OZ play,2
+103,2202,2214,12,53.26,12.24,,North Shore Warhawks 19U AA,Shots,2
+104,2241,2253,12,30.48,12.96,,Connecticut Jr. Rangers 16U,OZ play,2
+105,2262,2274,12,45.1,13.86,,Connecticut Jr. Rangers 16U,OZ play,2
+106,2262,2274,12,45.1,13.86,,Connecticut Jr. Rangers 16U,Shots,2
+107,2298,2310,12,43.73,24.49,,Connecticut Jr. Rangers 16U,OZ play,2
+108,2298,2310,12,43.73,24.49,,Connecticut Jr. Rangers 16U,Shots,2
+109,2305,2317,12,48.95,14.71,,Connecticut Jr. Rangers 16U,OZ play,2
+110,2305,2317,12,48.95,14.71,,Connecticut Jr. Rangers 16U,Shots,2
+111,2309,2321,12,47.85,15.19,,Connecticut Jr. Rangers 16U,OZ play,2
+112,2309,2321,12,47.85,15.19,,Connecticut Jr. Rangers 16U,Shots,2
+113,2375,2387,12,30.48,12.96,,Connecticut Jr. Rangers 16U,OZ play,2
+114,2405,2417,12,51.98,3.89,,Connecticut Jr. Rangers 16U,OZ play,2
+115,2405,2417,12,51.98,3.89,,Connecticut Jr. Rangers 16U,Shots,2
+116,2485,2497,12,24.38,19.67,,Connecticut Jr. Rangers 16U,OZ play,2
+117,2485,2497,12,48.4,18.41,,Connecticut Jr. Rangers 16U,OZ play,2
+118,2499,2511,12,48.4,18.41,,Connecticut Jr. Rangers 16U,OZ play,2
+119,2499,2511,12,48.4,18.41,,Connecticut Jr. Rangers 16U,Shots,2
+120,2583,2595,12,48.58,16.7,,North Shore Warhawks 19U AA,OZ play,2
+121,2583,2595,12,48.58,16.7,,North Shore Warhawks 19U AA,Shots,2
+122,2662,2674,12,24.38,6.25,,North Shore Warhawks 19U AA,OZ play,2
+123,2662,2674,12,39.6,23.73,,North Shore Warhawks 19U AA,OZ play,2
+124,2686,2698,12,39.6,23.73,,North Shore Warhawks 19U AA,OZ play,2
+125,2686,2698,12,39.6,23.73,,North Shore Warhawks 19U AA,Shots,2
+126,2695,2707,12,48.58,2.94,,Connecticut Jr. Rangers 16U,OZ play,2
+127,2695,2707,12,48.58,2.94,,Connecticut Jr. Rangers 16U,Shots,2
+128,2718,2730,12,51.51,6.25,,Connecticut Jr. Rangers 16U,OZ play,2
+129,2782,2794,12,51.06,14.05,,Connecticut Jr. Rangers 16U,OZ play,2
+130,2782,2794,12,51.06,14.05,,Connecticut Jr. Rangers 16U,Shots,2
+131,2824,2836,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,3
+132,2833,2845,12,40.61,22.87,,North Shore Warhawks 19U AA,OZ play,3
+133,2833,2845,12,40.61,22.87,,North Shore Warhawks 19U AA,Shots,3
+134,2849,2861,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,3
+135,2879,2891,12,1.19,7.5,,North Shore Warhawks 19U AA,OZ play,3
+136,2889,2901,12,48.86,19.08,,North Shore Warhawks 19U AA,OZ play,3
+137,2889,2901,12,48.86,19.08,,North Shore Warhawks 19U AA,Shots,3
+138,2928,2940,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,3
+139,2984,2996,12,47.94,8.26,,North Shore Warhawks 19U AA,OZ play,3
+140,2984,2996,12,47.94,8.26,,North Shore Warhawks 19U AA,Shots,3
+141,3012,3024,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+142,3028,3040,12,53.9,3.04,,North Shore Warhawks 19U AA,OZ play,3
+143,3028,3040,12,53.9,3.04,,North Shore Warhawks 19U AA,Shots,3
+144,3046,3058,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+145,3050,3062,12,53.26,2.37,,North Shore Warhawks 19U AA,OZ play,3
+146,3050,3062,12,53.26,2.37,,North Shore Warhawks 19U AA,Shots,3
+147,3053,3065,12,52.25,7.21,,North Shore Warhawks 19U AA,OZ play,3
+148,3053,3065,12,52.25,7.21,,North Shore Warhawks 19U AA,Shots,3
+149,3056,3068,12,52.98,18.89,,North Shore Warhawks 19U AA,OZ play,3
+150,3056,3068,12,52.98,18.89,,North Shore Warhawks 19U AA,Shots,3
+151,3127,3139,12,9.45,19.67,,Connecticut Jr. Rangers 16U,OZ play,3
+152,3137,3149,12,48.86,18.98,,Connecticut Jr. Rangers 16U,Goals,3
+153,3137,3149,12,48.86,18.98,,Connecticut Jr. Rangers 16U,OZ play,3
+154,3137,3149,12,48.86,18.98,,Connecticut Jr. Rangers 16U,Shots,3
+155,3170,3182,12,30.48,12.96,,Connecticut Jr. Rangers 16U,OZ play,3
+156,3180,3192,12,53.35,16.32,,Connecticut Jr. Rangers 16U,Goals,3
+157,3180,3192,12,53.35,16.32,,Connecticut Jr. Rangers 16U,OZ play,3
+158,3180,3192,12,53.35,16.32,,Connecticut Jr. Rangers 16U,Shots,3
+159,3248,3260,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+160,3313,3325,12,49.68,12.34,,North Shore Warhawks 19U AA,OZ play,3
+161,3313,3325,12,49.68,12.34,,North Shore Warhawks 19U AA,Shots,3
+162,3336,3348,12,46.02,10.91,,North Shore Warhawks 19U AA,OZ play,3
+163,3336,3348,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+164,3361,3373,12,46.02,10.91,,North Shore Warhawks 19U AA,OZ play,3
+165,3361,3373,12,46.02,10.91,,North Shore Warhawks 19U AA,Shots,3
+166,3372,3384,12,21.08,0.95,,Connecticut Jr. Rangers 16U,OZ play,3
+167,3493,3505,12,51.51,19.67,,Connecticut Jr. Rangers 16U,OZ play,3
+168,3505,3517,12,47.48,14.62,,Connecticut Jr. Rangers 16U,OZ play,3
+169,3505,3517,12,47.48,14.62,,Connecticut Jr. Rangers 16U,Shots,3
+170,3549,3561,12,9.45,6.25,,Connecticut Jr. Rangers 16U,OZ play,3
+171,3549,3561,12,46.38,13.67,,Connecticut Jr. Rangers 16U,OZ play,3
+172,3580,3592,12,46.38,13.67,,Connecticut Jr. Rangers 16U,OZ play,3
+173,3580,3592,12,46.38,13.67,,Connecticut Jr. Rangers 16U,Shots,3
+174,3612,3624,12,8.34,2.85,,North Shore Warhawks 19U AA,OZ play,3
+175,3612,3624,12,52.62,23.06,,North Shore Warhawks 19U AA,OZ play,3
+176,3613,3625,12,52.62,23.92,,Connecticut Jr. Rangers 16U,OZ play,3
+177,3775,3787,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+178,3807,3819,12,56.47,7.88,,North Shore Warhawks 19U AA,OZ play,3
+179,3807,3819,12,56.47,7.88,,North Shore Warhawks 19U AA,Shots,3
+180,3847,3859,12,54.82,11.67,,North Shore Warhawks 19U AA,OZ play,3
+181,3847,3859,12,54.82,11.67,,North Shore Warhawks 19U AA,Shots,3
+182,3961,3973,12,44.64,18.7,,Connecticut Jr. Rangers 16U,OZ play,3
+183,3961,3973,12,44.64,18.7,,Connecticut Jr. Rangers 16U,Shots,3
+184,3970,3982,12,40.79,10.91,,Connecticut Jr. Rangers 16U,OZ play,3
+185,3970,3982,12,40.79,10.91,,Connecticut Jr. Rangers 16U,Shots,3
+186,3974,3986,12,52.71,6.74,,Connecticut Jr. Rangers 16U,OZ play,3
+187,3974,3986,12,52.71,6.74,,Connecticut Jr. Rangers 16U,Shots,3
+188,3999,4011,12,51.51,6.25,,Connecticut Jr. Rangers 16U,OZ play,3
+189,4036,4048,12,54.82,11.86,,Connecticut Jr. Rangers 16U,OZ play,3
+190,4036,4048,12,54.82,11.86,,Connecticut Jr. Rangers 16U,Shots,3
+191,4066,4078,12,51.51,6.25,,Connecticut Jr. Rangers 16U,OZ play,3
+192,4194,4206,12,52.34,15.47,,Connecticut Jr. Rangers 16U,OZ play,3
+193,4194,4206,12,52.34,15.47,,Connecticut Jr. Rangers 16U,Shots,3
+194,4199,4211,12,50.14,11.39,,Connecticut Jr. Rangers 16U,OZ play,3
+195,4199,4211,12,50.14,11.39,,Connecticut Jr. Rangers 16U,Shots,3
+196,4203,4215,12,8.89,19.93,,Connecticut Jr. Rangers 16U,OZ play,3
+197,4247,4259,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+198,4247,4259,12,51.61,20.6,,North Shore Warhawks 19U AA,OZ play,3
+199,4266,4278,12,51.61,20.6,,North Shore Warhawks 19U AA,OZ play,3
+200,4266,4278,12,51.61,20.6,,North Shore Warhawks 19U AA,Shots,3
+201,4300,4312,12,55.92,5.22,,Connecticut Jr. Rangers 16U,OZ play,3
+202,4300,4312,12,55.92,5.22,,Connecticut Jr. Rangers 16U,Shots,3
+203,4328,4340,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+204,4350,4362,12,55,11.58,,North Shore Warhawks 19U AA,OZ play,3
+205,4350,4362,12,55,11.58,,North Shore Warhawks 19U AA,Shots,3

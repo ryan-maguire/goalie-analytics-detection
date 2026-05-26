@@ -1,0 +1,214 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,3,15,12,30.48,12.96,,West Dundee Leafs 19U AA (w),OZ play,1
+2,16,28,12,54.08,9.87,,West Dundee Leafs 19U AA (w),OZ play,1
+3,16,28,12,54.08,9.87,,West Dundee Leafs 19U AA (w),Shots,1
+4,19,31,12,54.36,16.7,,West Dundee Leafs 19U AA (w),OZ play,1
+5,19,31,12,54.36,16.7,,West Dundee Leafs 19U AA (w),Shots,1
+6,67,79,12,49.04,9.68,,North Shore Warhawks 19U AA,OZ play,1
+7,67,79,12,49.04,9.68,,North Shore Warhawks 19U AA,Shots,1
+8,91,103,12,51.51,6.25,,West Dundee Leafs 19U AA (w),OZ play,1
+9,115,127,12,52.89,13,,West Dundee Leafs 19U AA (w),OZ play,1
+10,115,127,12,52.89,13,,West Dundee Leafs 19U AA (w),Shots,1
+11,169,181,12,54.54,8.64,,West Dundee Leafs 19U AA (w),OZ play,1
+12,169,181,12,54.54,8.64,,West Dundee Leafs 19U AA (w),Shots,1
+13,189,201,12,40.7,21.07,,West Dundee Leafs 19U AA (w),OZ play,1
+14,189,201,12,40.7,21.07,,West Dundee Leafs 19U AA (w),Shots,1
+15,361,373,12,2,15,,North Shore Warhawks 19U AA,OZ play,1
+16,441,453,12,2,15,,North Shore Warhawks 19U AA,OZ play,1
+17,445,457,12,39.78,17.08,,North Shore Warhawks 19U AA,OZ play,1
+18,445,457,12,39.78,17.08,,North Shore Warhawks 19U AA,Shots,1
+19,451,463,12,42.08,0.95,,North Shore Warhawks 19U AA,OZ play,1
+20,451,463,12,42.08,0.95,,North Shore Warhawks 19U AA,Shots,1
+21,469,481,12,49.04,13.29,,West Dundee Leafs 19U AA (w),OZ play,1
+22,469,481,12,49.04,13.29,,West Dundee Leafs 19U AA (w),Shots,1
+23,541,553,12,44.28,22.78,,North Shore Warhawks 19U AA,OZ play,1
+24,541,553,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,1
+25,543,555,12,44.28,22.78,,North Shore Warhawks 19U AA,OZ play,1
+26,543,555,12,44.28,22.78,,North Shore Warhawks 19U AA,Shots,1
+27,653,665,12,45.28,1.23,,West Dundee Leafs 19U AA (w),OZ play,1
+28,653,665,12,45.28,1.23,,West Dundee Leafs 19U AA (w),Shots,1
+29,681,693,12,47.3,5.79,,North Shore Warhawks 19U AA,OZ play,1
+30,681,693,12,47.3,5.79,,North Shore Warhawks 19U AA,Shots,1
+31,707,719,12,47.67,1.71,,North Shore Warhawks 19U AA,OZ play,1
+32,707,719,12,47.67,1.71,,North Shore Warhawks 19U AA,Shots,1
+33,771,783,12,43.27,1.9,,West Dundee Leafs 19U AA (w),OZ play,1
+34,771,783,12,43.27,1.9,,West Dundee Leafs 19U AA (w),Shots,1
+35,797,809,12,51.51,6.25,,West Dundee Leafs 19U AA (w),OZ play,1
+36,803,815,12,44.73,2.94,,West Dundee Leafs 19U AA (w),OZ play,1
+37,803,815,12,44.73,2.94,,West Dundee Leafs 19U AA (w),Shots,1
+38,858,870,12,54.45,16.89,,West Dundee Leafs 19U AA (w),OZ play,1
+39,858,870,12,54.45,16.89,,West Dundee Leafs 19U AA (w),Shots,1
+40,878,890,12,49.96,19.17,,North Shore Warhawks 19U AA,OZ play,1
+41,878,890,12,49.96,19.17,,North Shore Warhawks 19U AA,Shots,1
+42,955,967,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,1
+43,955,967,12,44.64,24.11,,North Shore Warhawks 19U AA,OZ play,1
+44,1015,1027,12,44.64,24.11,,North Shore Warhawks 19U AA,OZ play,1
+45,1015,1027,12,44.64,24.11,,North Shore Warhawks 19U AA,Shots,1
+46,1053,1065,12,56.74,2.18,,West Dundee Leafs 19U AA (w),OZ play,1
+47,1053,1065,12,56.74,2.18,,West Dundee Leafs 19U AA (w),Shots,1
+48,1076,1088,12,51.51,6.25,,West Dundee Leafs 19U AA (w),OZ play,1
+49,1084,1096,12,49.04,9.4,,West Dundee Leafs 19U AA (w),OZ play,1
+50,1084,1096,12,49.04,9.4,,West Dundee Leafs 19U AA (w),Shots,1
+51,1135,1147,12,30.48,12.96,,West Dundee Leafs 19U AA (w),OZ play,2
+52,1135,1147,12,52.07,8.16,,West Dundee Leafs 19U AA (w),OZ play,2
+53,1152,1164,12,52.07,8.16,,West Dundee Leafs 19U AA (w),OZ play,2
+54,1152,1164,12,52.07,8.16,,West Dundee Leafs 19U AA (w),Shots,2
+55,1175,1187,12,47.48,10.06,,North Shore Warhawks 19U AA,OZ play,2
+56,1175,1187,12,47.48,10.06,,North Shore Warhawks 19U AA,Shots,2
+57,1201,1213,12,51.88,19.36,,North Shore Warhawks 19U AA,OZ play,2
+58,1201,1213,12,51.88,19.36,,North Shore Warhawks 19U AA,Shots,2
+59,1226,1238,12,45.65,16.04,,North Shore Warhawks 19U AA,OZ play,2
+60,1226,1238,12,45.65,16.04,,North Shore Warhawks 19U AA,Shots,2
+61,1386,1398,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+62,1402,1414,12,52.43,0.85,,North Shore Warhawks 19U AA,OZ play,2
+63,1402,1414,12,52.43,0.85,,North Shore Warhawks 19U AA,Shots,2
+64,1478,1490,12,50.6,2.56,,North Shore Warhawks 19U AA,OZ play,2
+65,1478,1490,12,50.6,2.56,,North Shore Warhawks 19U AA,Shots,2
+66,1575,1587,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,2
+67,1599,1611,12,56.01,16.23,,North Shore Warhawks 19U AA,OZ play,2
+68,1599,1611,12,56.01,16.23,,North Shore Warhawks 19U AA,Shots,2
+69,1621,1633,12,54.54,20.78,,North Shore Warhawks 19U AA,OZ play,2
+70,1621,1633,12,54.54,20.78,,North Shore Warhawks 19U AA,Shots,2
+71,1645,1657,12,46.57,25.15,,North Shore Warhawks 19U AA,OZ play,2
+72,1645,1657,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+73,1647,1659,12,46.57,25.15,,North Shore Warhawks 19U AA,OZ play,2
+74,1647,1659,12,46.57,25.15,,North Shore Warhawks 19U AA,Shots,2
+75,1668,1680,12,52.8,25.25,,West Dundee Leafs 19U AA (w),OZ play,2
+76,1714,1726,12,51.51,6.25,,West Dundee Leafs 19U AA (w),OZ play,2
+77,1720,1732,12,40.79,22.87,,West Dundee Leafs 19U AA (w),OZ play,2
+78,1720,1732,12,40.79,22.87,,West Dundee Leafs 19U AA (w),Shots,2
+79,1739,1751,12,46.2,15.19,,West Dundee Leafs 19U AA (w),OZ play,2
+80,1739,1751,12,46.2,15.19,,West Dundee Leafs 19U AA (w),Shots,2
+81,1766,1778,12,46.29,10.91,,North Shore Warhawks 19U AA,OZ play,2
+82,1766,1778,12,46.29,10.91,,North Shore Warhawks 19U AA,Shots,2
+83,1794,1806,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,2
+84,1796,1808,12,42.9,1.42,,North Shore Warhawks 19U AA,OZ play,2
+85,1796,1808,12,42.9,1.42,,North Shore Warhawks 19U AA,Shots,2
+86,1883,1895,12,51.51,19.67,,West Dundee Leafs 19U AA (w),OZ play,2
+87,1892,1904,12,41.34,23.44,,West Dundee Leafs 19U AA (w),OZ play,2
+88,1892,1904,12,41.34,23.44,,West Dundee Leafs 19U AA (w),Shots,2
+89,1918,1930,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,2
+90,1935,1947,12,45.01,0.95,,North Shore Warhawks 19U AA,OZ play,2
+91,1935,1947,12,45.01,0.95,,North Shore Warhawks 19U AA,Shots,2
+92,1943,1955,12,51.61,13.86,,North Shore Warhawks 19U AA,OZ play,2
+93,1943,1955,12,51.61,13.86,,North Shore Warhawks 19U AA,Shots,2
+94,2033,2045,12,9.45,19.67,,West Dundee Leafs 19U AA (w),OZ play,2
+95,2041,2053,12,51.33,,,West Dundee Leafs 19U AA (w),OZ play,2
+96,2041,2053,12,51.33,,,West Dundee Leafs 19U AA (w),Shots,2
+97,2076,2088,12,39.78,24.3,,West Dundee Leafs 19U AA (w),OZ play,2
+98,2076,2088,12,39.78,24.3,,West Dundee Leafs 19U AA (w),Shots,2
+99,2087,2099,12,51.43,12.62,,North Shore Warhawks 19U AA,OZ play,2
+100,2087,2099,12,51.43,12.62,,North Shore Warhawks 19U AA,Shots,2
+101,2112,2124,12,51.51,6.25,,West Dundee Leafs 19U AA (w),OZ play,2
+102,2146,2158,12,53.26,14.52,,West Dundee Leafs 19U AA (w),OZ play,2
+103,2146,2158,12,53.26,14.52,,West Dundee Leafs 19U AA (w),Shots,2
+104,2172,2184,12,46.84,18.7,,West Dundee Leafs 19U AA (w),OZ play,2
+105,2172,2184,12,51.51,19.67,,West Dundee Leafs 19U AA (w),OZ play,2
+106,2175,2187,12,46.84,18.7,,West Dundee Leafs 19U AA (w),OZ play,2
+107,2175,2187,12,46.84,18.7,,West Dundee Leafs 19U AA (w),Shots,2
+108,2200,2212,12,50.69,14.24,,North Shore Warhawks 19U AA,OZ play,2
+109,2200,2212,12,50.69,14.24,,North Shore Warhawks 19U AA,Shots,2
+110,2279,2291,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+111,2281,2293,12,46.29,22.59,,North Shore Warhawks 19U AA,OZ play,2
+112,2281,2293,12,46.29,22.59,,North Shore Warhawks 19U AA,Shots,2
+113,2305,2317,12,53.35,8.73,,North Shore Warhawks 19U AA,OZ play,2
+114,2305,2317,12,53.35,8.73,,North Shore Warhawks 19U AA,Shots,2
+115,2344,2356,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,2
+116,2345,2357,12,46.57,6.83,,North Shore Warhawks 19U AA,OZ play,2
+117,2345,2357,12,46.57,6.83,,North Shore Warhawks 19U AA,Shots,2
+118,2380,2392,12,59.22,6.17,,North Shore Warhawks 19U AA,OZ play,2
+119,2767,2779,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+120,2770,2782,12,51.79,18.41,,North Shore Warhawks 19U AA,OZ play,2
+121,2770,2782,12,51.79,18.41,,North Shore Warhawks 19U AA,Shots,2
+122,2787,2799,12,47.39,13.29,,North Shore Warhawks 19U AA,OZ play,2
+123,2787,2799,12,47.39,13.29,,North Shore Warhawks 19U AA,Shots,2
+124,2808,2820,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+125,2839,2851,12,54.82,11.1,,North Shore Warhawks 19U AA,OZ play,2
+126,2839,2851,12,54.82,11.1,,North Shore Warhawks 19U AA,Shots,2
+127,2899,2911,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,3
+128,2920,2932,12,45.93,8.35,,North Shore Warhawks 19U AA,OZ play,3
+129,2920,2932,12,45.93,8.35,,North Shore Warhawks 19U AA,Shots,3
+130,2924,2936,12,46.66,15.66,,North Shore Warhawks 19U AA,OZ play,3
+131,2924,2936,12,46.66,15.66,,North Shore Warhawks 19U AA,Shots,3
+132,2945,2957,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+133,2996,3008,12,41.89,4.94,,North Shore Warhawks 19U AA,OZ play,3
+134,2996,3008,12,41.89,4.94,,North Shore Warhawks 19U AA,Shots,3
+135,3012,3024,12,52.16,13.29,,North Shore Warhawks 19U AA,OZ play,3
+136,3012,3024,12,52.16,13.29,,North Shore Warhawks 19U AA,Shots,3
+137,3038,3050,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+138,3057,3069,12,50.51,21.64,,North Shore Warhawks 19U AA,OZ play,3
+139,3057,3069,12,50.51,21.64,,North Shore Warhawks 19U AA,Shots,3
+140,3068,3080,12,42.81,21.73,,North Shore Warhawks 19U AA,OZ play,3
+141,3112,3124,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+142,3121,3133,12,42.72,19.17,,North Shore Warhawks 19U AA,OZ play,3
+143,3121,3133,12,42.72,19.17,,North Shore Warhawks 19U AA,Shots,3
+144,3132,3144,12,44.09,18.79,,North Shore Warhawks 19U AA,OZ play,3
+145,3132,3144,12,44.09,18.79,,North Shore Warhawks 19U AA,Shots,3
+146,3150,3162,12,55.55,16.51,,North Shore Warhawks 19U AA,OZ play,3
+147,3150,3162,12,55.55,16.51,,North Shore Warhawks 19U AA,Shots,3
+148,3151,3163,12,55.09,11.2,,North Shore Warhawks 19U AA,OZ play,3
+149,3151,3163,12,55.09,11.2,,North Shore Warhawks 19U AA,Shots,3
+150,3164,3176,12,43.27,18.98,,North Shore Warhawks 19U AA,OZ play,3
+151,3164,3176,12,43.27,18.98,,North Shore Warhawks 19U AA,Shots,3
+152,3184,3196,12,21.18,9.97,,North Shore Warhawks 19U AA,OZ play,3
+153,3207,3219,12,56.38,16.99,,North Shore Warhawks 19U AA,OZ play,3
+154,3207,3219,12,56.38,16.99,,North Shore Warhawks 19U AA,Shots,3
+155,3234,3246,12,42.17,14.62,,North Shore Warhawks 19U AA,OZ play,3
+156,3234,3246,12,42.17,14.62,,North Shore Warhawks 19U AA,Shots,3
+157,3239,3251,12,47.85,0.76,,North Shore Warhawks 19U AA,OZ play,3
+158,3239,3251,12,47.85,0.76,,North Shore Warhawks 19U AA,Shots,3
+159,3244,3256,12,42.72,14.9,,North Shore Warhawks 19U AA,OZ play,3
+160,3244,3256,12,42.72,14.9,,North Shore Warhawks 19U AA,Shots,3
+161,3283,3295,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+162,3296,3308,12,49.32,24.49,,North Shore Warhawks 19U AA,OZ play,3
+163,3296,3308,12,49.32,24.49,,North Shore Warhawks 19U AA,Shots,3
+164,3378,3390,12,47.58,18.13,,North Shore Warhawks 19U AA,OZ play,3
+165,3378,3390,12,47.58,18.13,,North Shore Warhawks 19U AA,Shots,3
+166,3406,3418,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+167,3408,3420,12,45.19,21.54,,North Shore Warhawks 19U AA,OZ play,3
+168,3408,3420,12,45.19,21.54,,North Shore Warhawks 19U AA,Shots,3
+169,3444,3456,12,46.93,16.42,,North Shore Warhawks 19U AA,OZ play,3
+170,3444,3456,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+171,3458,3470,12,46.93,16.42,,North Shore Warhawks 19U AA,OZ play,3
+172,3458,3470,12,46.93,16.42,,North Shore Warhawks 19U AA,Shots,3
+173,3524,3536,12,42.9,1.23,,West Dundee Leafs 19U AA (w),OZ play,3
+174,3524,3536,12,42.9,1.23,,West Dundee Leafs 19U AA (w),Shots,3
+175,3544,3556,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+176,3554,3566,12,42.35,3.8,,North Shore Warhawks 19U AA,OZ play,3
+177,3554,3566,12,42.35,3.8,,North Shore Warhawks 19U AA,Shots,3
+178,3561,3573,12,43.93,22.99,,North Shore Warhawks 19U AA,OZ play,3
+179,3561,3573,12,43.93,22.99,,North Shore Warhawks 19U AA,Shots,3
+180,3590,3602,12,41.98,20.31,,North Shore Warhawks 19U AA,OZ play,3
+181,3590,3602,12,41.98,20.31,,North Shore Warhawks 19U AA,Shots,3
+182,3625,3637,12,48.13,11.2,,West Dundee Leafs 19U AA (w),OZ play,3
+183,3625,3637,12,48.13,11.2,,West Dundee Leafs 19U AA (w),Shots,3
+184,3650,3662,12,9.45,6.25,,West Dundee Leafs 19U AA (w),OZ play,3
+185,3663,3675,12,57.48,16.51,,West Dundee Leafs 19U AA (w),OZ play,3
+186,3663,3675,12,57.48,16.51,,West Dundee Leafs 19U AA (w),Shots,3
+187,3685,3697,12,9.45,6.25,,West Dundee Leafs 19U AA (w),OZ play,3
+188,3720,3732,12,55.64,16.04,,West Dundee Leafs 19U AA (w),Goals,3
+189,3720,3732,12,55.64,16.04,,West Dundee Leafs 19U AA (w),OZ play,3
+190,3720,3732,12,55.64,16.04,,West Dundee Leafs 19U AA (w),Shots,3
+191,3759,3771,12,30.48,12.96,,West Dundee Leafs 19U AA (w),OZ play,3
+192,3788,3800,12,43.91,4.27,,West Dundee Leafs 19U AA (w),OZ play,3
+193,3788,3800,12,43.91,4.27,,West Dundee Leafs 19U AA (w),Shots,3
+194,3828,3840,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+195,3838,3850,12,42.17,8.92,,North Shore Warhawks 19U AA,OZ play,3
+196,3838,3850,12,42.17,8.92,,North Shore Warhawks 19U AA,Shots,3
+197,3859,3871,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+198,3907,3919,12,2,15,,North Shore Warhawks 19U AA,OZ play,3
+199,3935,3947,12,54.18,21.35,,North Shore Warhawks 19U AA,OZ play,3
+200,4059,4071,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+201,4085,4097,12,51.43,24.87,,North Shore Warhawks 19U AA,OZ play,3
+202,4085,4097,12,51.43,24.87,,North Shore Warhawks 19U AA,Shots,3
+203,4096,4108,12,53.08,5.79,,North Shore Warhawks 19U AA,OZ play,3
+204,4096,4108,12,53.08,5.79,,North Shore Warhawks 19U AA,Shots,3
+205,4118,4130,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+206,4207,4219,12,49.41,24.58,,North Shore Warhawks 19U AA,OZ play,3
+207,4207,4219,12,49.41,24.58,,North Shore Warhawks 19U AA,Shots,3
+208,4321,4333,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+209,4324,4336,12,42.17,7.02,,North Shore Warhawks 19U AA,OZ play,3
+210,4324,4336,12,42.17,7.02,,North Shore Warhawks 19U AA,Shots,3
+211,4342,4354,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+212,4343,4355,12,45.65,2.28,,North Shore Warhawks 19U AA,OZ play,3
+213,4343,4355,12,45.65,2.28,,North Shore Warhawks 19U AA,Shots,3

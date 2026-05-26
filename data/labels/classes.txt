@@ -1,0 +1,8 @@
+centriod
+faceoff
+goal
+goalie
+player
+puck
+referee
+shot

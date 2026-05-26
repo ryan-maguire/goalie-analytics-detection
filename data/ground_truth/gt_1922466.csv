@@ -1,0 +1,296 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,,12,12,30.48,12.96,,OHA Mavericks Gold U20 AA,OZ play,1
+2,38,50,12,45.56,1.14,,OHA Mavericks Gold U20 AA,OZ play,1
+3,72,84,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,1
+4,78,90,12,51.33,3.61,,OHA Mavericks Gold U20 AA,OZ play,1
+5,78,90,12,51.33,3.61,,OHA Mavericks Gold U20 AA,Shots,1
+6,101,113,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,1
+7,106,118,12,39.88,6.93,,OHA Mavericks Gold U20 AA,OZ play,1
+8,106,118,12,39.88,6.93,,OHA Mavericks Gold U20 AA,Shots,1
+9,107,119,12,51.98,15.57,,OHA Mavericks Gold U20 AA,OZ play,1
+10,107,119,12,51.98,15.57,,OHA Mavericks Gold U20 AA,Shots,1
+11,132,144,12,45.19,12.15,,OHA Mavericks Gold U20 AA,OZ play,1
+12,132,144,12,46.11,9.78,,OHA Mavericks Gold U20 AA,OZ play,1
+13,132,144,12,46.11,9.78,,OHA Mavericks Gold U20 AA,Shots,1
+14,191,203,12,52.71,7.12,,OHA Mavericks Gold U20 AA,OZ play,1
+15,191,203,12,52.71,7.12,,OHA Mavericks Gold U20 AA,Shots,1
+16,223,235,12,36.58,6.25,,OHA Mavericks Gold U20 AA,OZ play,1
+17,230,242,12,44.73,8.45,,OHA Mavericks Gold U20 AA,OZ play,1
+18,230,242,12,44.73,8.45,,OHA Mavericks Gold U20 AA,Shots,1
+19,250,262,12,39.88,8.16,,OHA Mavericks Gold U20 AA,OZ play,1
+20,250,262,12,39.88,8.16,,OHA Mavericks Gold U20 AA,Shots,1
+21,277,289,12,1.01,18.51,,Boston Hockey Academy 19U AA,OZ play,1
+22,334,346,12,51.51,6.25,,Boston Hockey Academy 19U AA,OZ play,1
+23,335,347,12,49.23,8.64,,Boston Hockey Academy 19U AA,OZ play,1
+24,335,347,12,49.23,8.64,,Boston Hockey Academy 19U AA,Shots,1
+25,344,356,12,39.88,7.31,,Boston Hockey Academy 19U AA,OZ play,1
+26,344,356,12,39.88,7.31,,Boston Hockey Academy 19U AA,Shots,1
+27,383,395,12,9.45,19.67,,Boston Hockey Academy 19U AA,OZ play,1
+28,425,437,12,52.34,10.63,,Boston Hockey Academy 19U AA,OZ play,1
+29,425,437,12,52.34,10.63,,Boston Hockey Academy 19U AA,Shots,1
+30,429,441,12,53.9,6.93,,Boston Hockey Academy 19U AA,OZ play,1
+31,429,441,12,53.9,6.93,,Boston Hockey Academy 19U AA,Shots,1
+32,443,455,12,51.98,25.34,,Boston Hockey Academy 19U AA,OZ play,1
+33,443,455,12,51.98,25.34,,Boston Hockey Academy 19U AA,Shots,1
+34,446,458,12,53.26,12.53,,Boston Hockey Academy 19U AA,OZ play,1
+35,446,458,12,53.26,12.53,,Boston Hockey Academy 19U AA,Shots,1
+36,476,488,12,8.8,7.97,,OHA Mavericks Gold U20 AA,OZ play,1
+37,483,495,12,40.24,23.92,,OHA Mavericks Gold U20 AA,OZ play,1
+38,483,495,12,40.24,23.92,,OHA Mavericks Gold U20 AA,Shots,1
+39,513,525,12,54.18,15,,Boston Hockey Academy 19U AA,OZ play,1
+40,513,525,12,54.18,15,,Boston Hockey Academy 19U AA,Shots,1
+41,533,545,12,54.91,10.35,,Boston Hockey Academy 19U AA,OZ play,1
+42,533,545,12,54.91,10.35,,Boston Hockey Academy 19U AA,Shots,1
+43,563,575,12,9.45,19.67,,OHA Mavericks Gold U20 AA,OZ play,1
+44,572,584,12,53.26,13.76,,OHA Mavericks Gold U20 AA,OZ play,1
+45,572,584,12,53.26,13.76,,OHA Mavericks Gold U20 AA,Shots,1
+46,574,586,12,54.54,11.58,,OHA Mavericks Gold U20 AA,Goals,1
+47,574,586,12,54.54,11.58,,OHA Mavericks Gold U20 AA,OZ play,1
+48,574,586,12,54.54,11.58,,OHA Mavericks Gold U20 AA,Shots,1
+49,603,615,12,30.48,12.96,,Boston Hockey Academy 19U AA,OZ play,1
+50,616,628,12,41.98,24.49,,Boston Hockey Academy 19U AA,OZ play,1
+51,616,628,12,41.98,24.49,,Boston Hockey Academy 19U AA,Shots,1
+52,648,660,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,1
+53,662,674,12,40.43,23.92,,OHA Mavericks Gold U20 AA,OZ play,1
+54,662,674,12,40.43,23.92,,OHA Mavericks Gold U20 AA,Shots,1
+55,697,709,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,1
+56,698,710,12,43.91,22.11,,OHA Mavericks Gold U20 AA,OZ play,1
+57,698,710,12,43.91,22.11,,OHA Mavericks Gold U20 AA,Shots,1
+58,716,728,12,44.64,1.33,,OHA Mavericks Gold U20 AA,OZ play,1
+59,716,728,12,44.64,1.33,,OHA Mavericks Gold U20 AA,Shots,1
+60,722,734,12,46.11,12.05,,Boston Hockey Academy 19U AA,OZ play,1
+61,722,734,12,46.11,12.05,,Boston Hockey Academy 19U AA,Shots,1
+62,785,797,12,48.58,19.46,,OHA Mavericks Gold U20 AA,OZ play,1
+63,785,797,12,48.58,19.46,,OHA Mavericks Gold U20 AA,Shots,1
+64,806,818,12,9.45,6.25,,OHA Mavericks Gold U20 AA,OZ play,1
+65,840,852,12,42.53,23.73,,OHA Mavericks Gold U20 AA,OZ play,1
+66,840,852,12,42.53,23.73,,OHA Mavericks Gold U20 AA,Shots,1
+67,855,867,12,58.58,15.38,,OHA Mavericks Gold U20 AA,OZ play,1
+68,855,867,12,58.58,15.38,,OHA Mavericks Gold U20 AA,Shots,1
+69,876,888,12,52.89,3.99,,OHA Mavericks Gold U20 AA,OZ play,1
+70,876,888,12,52.89,3.99,,OHA Mavericks Gold U20 AA,Shots,1
+71,888,900,12,54.36,6.36,,OHA Mavericks Gold U20 AA,OZ play,1
+72,888,900,12,54.36,6.36,,OHA Mavericks Gold U20 AA,Shots,1
+73,932,944,12,40.06,23.82,,OHA Mavericks Gold U20 AA,OZ play,1
+74,932,944,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,1
+75,977,989,12,40.06,23.82,,OHA Mavericks Gold U20 AA,OZ play,1
+76,977,989,12,40.06,23.82,,OHA Mavericks Gold U20 AA,Shots,1
+77,986,998,12,48.77,17.56,,Boston Hockey Academy 19U AA,OZ play,1
+78,986,998,12,48.77,17.56,,Boston Hockey Academy 19U AA,Shots,1
+79,1008,1020,12,51.51,19.67,,Boston Hockey Academy 19U AA,OZ play,1
+80,1010,1022,12,53.44,18.03,,Boston Hockey Academy 19U AA,OZ play,1
+81,1010,1022,12,53.44,18.03,,Boston Hockey Academy 19U AA,Shots,1
+82,1112,1124,12,21.18,8.83,,Boston Hockey Academy 19U AA,OZ play,1
+83,1114,1126,12,49.04,11.1,,Boston Hockey Academy 19U AA,OZ play,1
+84,1114,1126,12,49.04,11.1,,Boston Hockey Academy 19U AA,Shots,1
+85,1151,1163,12,41.8,20.31,,OHA Mavericks Gold U20 AA,OZ play,1
+86,1151,1163,12,41.8,20.31,,OHA Mavericks Gold U20 AA,Shots,1
+87,1205,1217,12,51.51,19.67,,Boston Hockey Academy 19U AA,OZ play,1
+88,1208,1220,12,39.69,24.39,,Boston Hockey Academy 19U AA,OZ play,1
+89,1208,1220,12,39.69,24.39,,Boston Hockey Academy 19U AA,Shots,1
+90,1258,1270,12,45.83,12.81,,Boston Hockey Academy 19U AA,OZ play,1
+91,1258,1270,12,45.83,12.81,,Boston Hockey Academy 19U AA,Shots,1
+92,1274,1286,12,42.53,11.48,,Boston Hockey Academy 19U AA,OZ play,1
+93,1274,1286,12,42.53,11.48,,Boston Hockey Academy 19U AA,Shots,1
+94,1284,1296,12,48.13,14.33,,OHA Mavericks Gold U20 AA,OZ play,1
+95,1284,1296,12,48.13,14.33,,OHA Mavericks Gold U20 AA,Shots,1
+96,1284,1296,12,48.68,14.05,,OHA Mavericks Gold U20 AA,OZ play,1
+97,1309,1321,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,1
+98,1331,1343,12,49.13,16.32,,OHA Mavericks Gold U20 AA,OZ play,1
+99,1331,1343,12,49.13,16.32,,OHA Mavericks Gold U20 AA,Shots,1
+100,1357,1369,12,51.51,6.25,,Boston Hockey Academy 19U AA,OZ play,1
+101,1368,1380,12,52.62,13.1,,Boston Hockey Academy 19U AA,Goals,1
+102,1368,1380,12,52.62,13.1,,Boston Hockey Academy 19U AA,OZ play,1
+103,1368,1380,12,52.62,13.1,,Boston Hockey Academy 19U AA,Shots,1
+104,1400,1412,12,30.48,12.96,,OHA Mavericks Gold U20 AA,OZ play,1
+105,1448,1460,12,40.79,12.72,,OHA Mavericks Gold U20 AA,OZ play,1
+106,1448,1460,12,40.79,12.72,,OHA Mavericks Gold U20 AA,Shots,1
+107,1455,1467,12,42.17,23.63,,OHA Mavericks Gold U20 AA,OZ play,1
+108,1455,1467,12,42.17,23.63,,OHA Mavericks Gold U20 AA,Shots,1
+109,1494,1506,12,46.48,14.62,,OHA Mavericks Gold U20 AA,OZ play,1
+110,1494,1506,12,46.48,14.62,,OHA Mavericks Gold U20 AA,Shots,1
+111,1504,1516,12,42.17,21.35,,Boston Hockey Academy 19U AA,OZ play,1
+112,1504,1516,12,42.17,21.35,,Boston Hockey Academy 19U AA,Shots,1
+113,1523,1535,12,40.15,12.72,,OHA Mavericks Gold U20 AA,OZ play,1
+114,1523,1535,12,40.15,12.72,,OHA Mavericks Gold U20 AA,Shots,1
+115,1549,1561,12,9.45,6.25,,OHA Mavericks Gold U20 AA,OZ play,1
+116,1590,1602,12,40.15,22.78,,OHA Mavericks Gold U20 AA,OZ play,1
+117,1590,1602,12,40.15,22.78,,OHA Mavericks Gold U20 AA,Shots,1
+118,1647,1659,12,36.58,6.25,,OHA Mavericks Gold U20 AA,OZ play,1
+119,1647,1659,12,45.1,19.17,,OHA Mavericks Gold U20 AA,OZ play,1
+120,1655,1667,12,45.1,19.17,,OHA Mavericks Gold U20 AA,OZ play,1
+121,1655,1667,12,45.1,19.17,,OHA Mavericks Gold U20 AA,Shots,1
+122,1668,1680,12,44,22.68,,Boston Hockey Academy 19U AA,OZ play,1
+123,1668,1680,12,44,22.68,,Boston Hockey Academy 19U AA,Shots,1
+124,1686,1698,12,43.27,2.66,,Boston Hockey Academy 19U AA,OZ play,1
+125,1686,1698,12,43.27,2.66,,Boston Hockey Academy 19U AA,Shots,1
+126,1711,1723,12,46.02,23.92,,OHA Mavericks Gold U20 AA,OZ play,1
+127,1711,1723,12,46.02,23.92,,OHA Mavericks Gold U20 AA,Shots,1
+128,1720,1732,12,40.15,21.92,,OHA Mavericks Gold U20 AA,OZ play,1
+129,1720,1732,12,40.15,21.92,,OHA Mavericks Gold U20 AA,Shots,1
+130,1725,1737,12,59.77,9.11,,OHA Mavericks Gold U20 AA,OZ play,1
+131,1725,1737,12,59.77,9.11,,OHA Mavericks Gold U20 AA,Shots,1
+132,1820,1832,12,30.48,12.96,,OHA Mavericks Gold U20 AA,OZ play,2
+133,1846,1858,12,40.79,2.85,,OHA Mavericks Gold U20 AA,OZ play,2
+134,1846,1858,12,40.79,2.85,,OHA Mavericks Gold U20 AA,Shots,2
+135,1850,1862,12,7.33,13.19,,OHA Mavericks Gold U20 AA,OZ play,2
+136,1889,1901,12,9.45,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+137,1901,1913,12,39.33,9.68,,OHA Mavericks Gold U20 AA,OZ play,2
+138,1901,1913,12,39.33,9.68,,OHA Mavericks Gold U20 AA,Shots,2
+139,1920,1932,12,51.7,9.4,,OHA Mavericks Gold U20 AA,OZ play,2
+140,1920,1932,12,51.7,9.4,,OHA Mavericks Gold U20 AA,Shots,2
+141,1926,1938,12,51.61,11.96,,OHA Mavericks Gold U20 AA,OZ play,2
+142,1926,1938,12,51.61,11.96,,OHA Mavericks Gold U20 AA,Shots,2
+143,1947,1959,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+144,1952,1964,12,49.32,22.78,,OHA Mavericks Gold U20 AA,OZ play,2
+145,1952,1964,12,49.32,22.78,,OHA Mavericks Gold U20 AA,Shots,2
+146,1959,1971,12,48.22,4.27,,OHA Mavericks Gold U20 AA,OZ play,2
+147,1959,1971,12,48.22,4.27,,OHA Mavericks Gold U20 AA,Shots,2
+148,1969,1981,12,41.25,12.81,,OHA Mavericks Gold U20 AA,OZ play,2
+149,1969,1981,12,41.25,12.81,,OHA Mavericks Gold U20 AA,Shots,2
+150,1977,1989,12,53.72,22.59,,OHA Mavericks Gold U20 AA,OZ play,2
+151,1977,1989,12,53.72,22.59,,OHA Mavericks Gold U20 AA,Shots,2
+152,2001,2013,12,9.45,6.25,,OHA Mavericks Gold U20 AA,OZ play,2
+153,2011,2023,12,41.53,5.22,,OHA Mavericks Gold U20 AA,OZ play,2
+154,2011,2023,12,41.53,5.22,,OHA Mavericks Gold U20 AA,Shots,2
+155,2015,2027,12,57.29,20.78,,OHA Mavericks Gold U20 AA,OZ play,2
+156,2015,2027,12,57.29,20.78,,OHA Mavericks Gold U20 AA,Shots,2
+157,2042,2054,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+158,2057,2069,12,49.96,23.16,,OHA Mavericks Gold U20 AA,OZ play,2
+159,2057,2069,12,49.96,23.16,,OHA Mavericks Gold U20 AA,Shots,2
+160,2085,2097,12,43.45,22.4,,OHA Mavericks Gold U20 AA,OZ play,2
+161,2085,2097,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+162,2088,2100,12,43.45,22.4,,OHA Mavericks Gold U20 AA,OZ play,2
+163,2088,2100,12,43.45,22.4,,OHA Mavericks Gold U20 AA,Shots,2
+164,2102,2114,12,39.88,22.59,,Boston Hockey Academy 19U AA,OZ play,2
+165,2102,2114,12,39.88,22.59,,Boston Hockey Academy 19U AA,Shots,2
+166,2116,2128,12,39.69,21.16,,Boston Hockey Academy 19U AA,OZ play,2
+167,2116,2128,12,39.69,21.16,,Boston Hockey Academy 19U AA,Shots,2
+168,2159,2171,12,33.83,12.62,,Boston Hockey Academy 19U AA,OZ play,2
+169,2159,2171,12,33.83,12.62,,Boston Hockey Academy 19U AA,Shots,2
+170,2177,2189,12,36.12,12.05,,OHA Mavericks Gold U20 AA,OZ play,2
+171,2212,2224,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,2
+172,2217,2229,12,47.12,20.88,,OHA Mavericks Gold U20 AA,OZ play,2
+173,2217,2229,12,47.12,20.88,,OHA Mavericks Gold U20 AA,Shots,2
+174,2239,2251,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+175,2241,2253,12,41.25,15.85,,OHA Mavericks Gold U20 AA,OZ play,2
+176,2241,2253,12,41.25,15.85,,OHA Mavericks Gold U20 AA,Shots,2
+177,2274,2286,12,45.1,9.59,,OHA Mavericks Gold U20 AA,OZ play,2
+178,2274,2286,12,45.1,9.59,,OHA Mavericks Gold U20 AA,Shots,2
+179,2301,2313,12,9.45,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+180,2318,2330,12,46.2,3.8,,OHA Mavericks Gold U20 AA,OZ play,2
+181,2318,2330,12,46.2,3.8,,OHA Mavericks Gold U20 AA,Shots,2
+182,2338,2350,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,2
+183,2340,2352,12,53.08,4.56,,OHA Mavericks Gold U20 AA,OZ play,2
+184,2340,2352,12,53.08,4.56,,OHA Mavericks Gold U20 AA,Shots,2
+185,2353,2365,12,43.91,24.39,,OHA Mavericks Gold U20 AA,OZ play,2
+186,2353,2365,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,2
+187,2361,2373,12,43.91,24.39,,OHA Mavericks Gold U20 AA,OZ play,2
+188,2361,2373,12,43.91,24.39,,OHA Mavericks Gold U20 AA,Shots,2
+189,2373,2385,12,15.68,24.39,,Boston Hockey Academy 19U AA,OZ play,2
+190,2373,2385,12,15.68,24.39,,Boston Hockey Academy 19U AA,Shots,2
+191,2428,2440,12,24.38,19.67,,Boston Hockey Academy 19U AA,OZ play,2
+192,2503,2515,12,45.1,20.6,,Boston Hockey Academy 19U AA,OZ play,2
+193,2503,2515,12,45.1,20.6,,Boston Hockey Academy 19U AA,Shots,2
+194,2523,2535,12,51.51,19.67,,Boston Hockey Academy 19U AA,OZ play,2
+195,2526,2538,12,42.72,22.87,,Boston Hockey Academy 19U AA,OZ play,2
+196,2526,2538,12,42.72,22.87,,Boston Hockey Academy 19U AA,Shots,2
+197,2531,2543,12,54.45,11.1,,Boston Hockey Academy 19U AA,OZ play,2
+198,2531,2543,12,54.45,11.1,,Boston Hockey Academy 19U AA,Shots,2
+199,2533,2545,12,54.54,13.48,,Boston Hockey Academy 19U AA,OZ play,2
+200,2533,2545,12,54.54,13.48,,Boston Hockey Academy 19U AA,Shots,2
+201,2617,2629,12,24.38,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+202,2647,2659,12,51.06,7.69,,OHA Mavericks Gold U20 AA,OZ play,2
+203,2647,2659,12,51.06,7.69,,OHA Mavericks Gold U20 AA,Shots,2
+204,2649,2661,12,54.91,14.14,,OHA Mavericks Gold U20 AA,OZ play,2
+205,2649,2661,12,54.91,14.14,,OHA Mavericks Gold U20 AA,Shots,2
+206,2673,2685,12,45.01,24.68,,OHA Mavericks Gold U20 AA,OZ play,2
+207,2673,2685,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+208,2675,2687,12,45.01,24.68,,OHA Mavericks Gold U20 AA,OZ play,2
+209,2675,2687,12,45.01,24.68,,OHA Mavericks Gold U20 AA,Shots,2
+210,2698,2710,12,55.46,16.42,,Boston Hockey Academy 19U AA,OZ play,2
+211,2698,2710,12,55.46,16.42,,Boston Hockey Academy 19U AA,Shots,2
+212,2749,2761,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+213,2760,2772,12,53.9,15.09,,OHA Mavericks Gold U20 AA,OZ play,2
+214,2760,2772,12,53.9,15.09,,OHA Mavericks Gold U20 AA,Shots,2
+215,2798,2810,12,36.58,6.25,,OHA Mavericks Gold U20 AA,OZ play,2
+216,2847,2859,12,48.31,7.21,,OHA Mavericks Gold U20 AA,OZ play,2
+217,2847,2859,12,48.31,7.21,,OHA Mavericks Gold U20 AA,Shots,2
+218,2857,2869,12,41.62,3.23,,OHA Mavericks Gold U20 AA,OZ play,2
+219,2857,2869,12,41.62,3.23,,OHA Mavericks Gold U20 AA,Shots,2
+220,2859,2871,12,54.27,12.24,,OHA Mavericks Gold U20 AA,OZ play,2
+221,2859,2871,12,54.27,12.24,,OHA Mavericks Gold U20 AA,Shots,2
+222,2884,2896,12,41.98,13.29,,Boston Hockey Academy 19U AA,OZ play,2
+223,2884,2896,12,51.51,19.67,,Boston Hockey Academy 19U AA,OZ play,2
+224,2901,2913,12,41.98,13.29,,Boston Hockey Academy 19U AA,OZ play,2
+225,2901,2913,12,41.98,13.29,,Boston Hockey Academy 19U AA,Shots,2
+226,2924,2936,12,48.49,24.77,,OHA Mavericks Gold U20 AA,OZ play,2
+227,2924,2936,12,48.49,24.77,,OHA Mavericks Gold U20 AA,Shots,2
+228,2930,2942,12,51.43,24.77,,OHA Mavericks Gold U20 AA,OZ play,2
+229,2930,2942,12,51.43,24.77,,OHA Mavericks Gold U20 AA,Shots,2
+230,2931,2943,12,54.91,13.1,,OHA Mavericks Gold U20 AA,OZ play,2
+231,2931,2943,12,54.91,13.1,,OHA Mavericks Gold U20 AA,Shots,2
+232,2933,2945,12,54.54,10.72,,OHA Mavericks Gold U20 AA,Goals,2
+233,2933,2945,12,54.54,10.72,,OHA Mavericks Gold U20 AA,OZ play,2
+234,2933,2945,12,54.54,10.72,,OHA Mavericks Gold U20 AA,Shots,2
+235,2972,2984,12,30.48,12.96,,Boston Hockey Academy 19U AA,OZ play,2
+236,3012,3024,12,17.78,2.85,,Boston Hockey Academy 19U AA,OZ play,2
+237,3043,3055,12,51.51,19.67,,Boston Hockey Academy 19U AA,OZ play,2
+238,3059,3071,12,49.23,2.94,,Boston Hockey Academy 19U AA,OZ play,2
+239,3059,3071,12,49.23,2.94,,Boston Hockey Academy 19U AA,Shots,2
+240,3094,3106,12,9.45,6.25,,Boston Hockey Academy 19U AA,OZ play,2
+241,3104,3116,12,52.62,12.05,,Boston Hockey Academy 19U AA,OZ play,2
+242,3104,3116,12,52.62,12.05,,Boston Hockey Academy 19U AA,Shots,2
+243,3126,3138,12,50.33,14.62,,Boston Hockey Academy 19U AA,OZ play,2
+244,3126,3138,12,50.33,14.62,,Boston Hockey Academy 19U AA,Shots,2
+245,3134,3146,12,40.88,9.21,,Boston Hockey Academy 19U AA,OZ play,2
+246,3134,3146,12,40.88,9.21,,Boston Hockey Academy 19U AA,Shots,2
+247,3156,3168,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,2
+248,3201,3213,12,48.68,8.83,,OHA Mavericks Gold U20 AA,OZ play,2
+249,3201,3213,12,48.68,8.83,,OHA Mavericks Gold U20 AA,Shots,2
+250,3231,3243,12,46.2,6.93,,OHA Mavericks Gold U20 AA,OZ play,2
+251,3231,3243,12,46.2,6.93,,OHA Mavericks Gold U20 AA,Shots,2
+252,3234,3246,12,49.23,8.16,,OHA Mavericks Gold U20 AA,OZ play,2
+253,3234,3246,12,49.23,8.16,,OHA Mavericks Gold U20 AA,Shots,2
+254,3254,3266,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,2
+255,3320,3332,12,54.82,13.38,,OHA Mavericks Gold U20 AA,OZ play,2
+256,3320,3332,12,54.82,13.38,,OHA Mavericks Gold U20 AA,Shots,2
+257,3320,3332,12,58.85,15.57,,OHA Mavericks Gold U20 AA,OZ play,2
+258,3320,3332,12,58.85,15.57,,OHA Mavericks Gold U20 AA,Shots,2
+259,3344,3356,12,47.12,23.82,,OHA Mavericks Gold U20 AA,OZ play,2
+260,3344,3356,12,51.51,19.67,,OHA Mavericks Gold U20 AA,OZ play,2
+261,3346,3358,12,47.12,23.82,,OHA Mavericks Gold U20 AA,OZ play,2
+262,3346,3358,12,47.12,23.82,,OHA Mavericks Gold U20 AA,Shots,2
+263,3371,3383,12,47.39,24.58,,Boston Hockey Academy 19U AA,OZ play,2
+264,3371,3383,12,47.39,24.58,,Boston Hockey Academy 19U AA,Shots,2
+265,3398,3410,12,46.48,10.91,,Boston Hockey Academy 19U AA,OZ play,2
+266,3398,3410,12,46.48,10.91,,Boston Hockey Academy 19U AA,Shots,2
+267,3420,3432,12,51.51,6.25,,Boston Hockey Academy 19U AA,OZ play,2
+268,3420,3432,12,52.71,8.54,,Boston Hockey Academy 19U AA,OZ play,2
+269,3454,3466,12,52.71,8.54,,Boston Hockey Academy 19U AA,OZ play,2
+270,3454,3466,12,52.71,8.54,,Boston Hockey Academy 19U AA,Shots,2
+271,3466,3478,12,46.29,16.23,,OHA Mavericks Gold U20 AA,OZ play,2
+272,3466,3478,12,46.29,16.23,,OHA Mavericks Gold U20 AA,Shots,2
+273,3493,3505,12,47.58,10.72,,OHA Mavericks Gold U20 AA,OZ play,2
+274,3493,3505,12,47.58,10.72,,OHA Mavericks Gold U20 AA,Shots,2
+275,3507,3519,12,36.21,24.01,,OHA Mavericks Gold U20 AA,OZ play,2
+276,3507,3519,12,36.21,24.01,,OHA Mavericks Gold U20 AA,Shots,2
+277,3512,3524,12,53.81,12.81,,OHA Mavericks Gold U20 AA,Goals,2
+278,3512,3524,12,53.81,12.81,,OHA Mavericks Gold U20 AA,OZ play,2
+279,3512,3524,12,53.81,12.81,,OHA Mavericks Gold U20 AA,Shots,2
+280,3547,3559,12,30.48,12.96,,Boston Hockey Academy 19U AA,OZ play,2
+281,3562,3574,12,51.7,24.77,,Boston Hockey Academy 19U AA,OZ play,2
+282,3562,3574,12,51.7,24.77,,Boston Hockey Academy 19U AA,Shots,2
+283,3566,3578,12,41.43,5.98,,Boston Hockey Academy 19U AA,OZ play,2
+284,3566,3578,12,41.43,5.98,,Boston Hockey Academy 19U AA,Shots,2
+285,3581,3593,12,43.63,11.67,,OHA Mavericks Gold U20 AA,OZ play,2
+286,3581,3593,12,43.63,11.67,,OHA Mavericks Gold U20 AA,Shots,2
+287,3640,3652,12,48.58,1.23,,Boston Hockey Academy 19U AA,OZ play,2
+288,3640,3652,12,48.58,1.23,,Boston Hockey Academy 19U AA,Shots,2
+289,3661,3673,12,52.25,11.01,,OHA Mavericks Gold U20 AA,OZ play,2
+290,3661,3673,12,52.25,11.01,,OHA Mavericks Gold U20 AA,Shots,2
+291,3794,3806,12,51.51,6.25,,OHA Mavericks Gold U20 AA,OZ play,2
+292,3805,3817,12,49.23,7.97,,OHA Mavericks Gold U20 AA,OZ play,2
+293,3805,3817,12,49.23,7.97,,OHA Mavericks Gold U20 AA,Shots,2
+294,3808,3820,12,58.48,16.13,,OHA Mavericks Gold U20 AA,OZ play,2
+295,3808,3820,12,58.48,16.13,,OHA Mavericks Gold U20 AA,Shots,2

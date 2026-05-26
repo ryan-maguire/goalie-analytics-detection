@@ -1,0 +1,202 @@
+[
+    {
+        "targetGoalieName": "Claire Maguire",
+        "targetGoalieTeamName": "Northshore Warhawks 19U",
+        "targetGoalieColor": "Green",
+        "opponentGoalieColor": "Black",
+        "opponentGoalieTeamName": "Jr Flyers 19U",
+        "eventDate": "2025-11-15",
+        "createdDate": "2026-04-16 19:46:02 CDT",
+        "eventName": "NOV-25: Northshore Warhawks 19U vs Jr Flyers 19U",
+        "eventSeason": "2025-2026",
+        "cameraAngle": "Side View",
+        "eventVideoURL": "https://www.youtube.com/watch?v=SX5xNJlh6eQ",
+        "vID": "SX5xNJlh6eQ",
+        "clientID": "customerID/CUST000048",
+        "analyticsStatus": "Complete",
+        "segmentCnt": 0,
+        "segmentDuration": 0,
+        "targetStartSide": "Right",
+        "opponentStartSide": "Left",
+        "targetGoalieSkillLevel": "professional",
+        "GoalieCoachPersona": "developer",
+        "updatedDate": "2026-04-17 21:41:38 CST",
+        "periods": [
+            {
+                "num": 1,
+                "start": 17,
+                "end": 1276
+            },
+            {
+                "num": 2,
+                "start": 1298,
+                "end": 2505
+            },
+            {
+                "num": 3,
+                "start": 2550,
+                "end": 3600
+            }
+        ]
+    },
+    {
+        "targetGoalieName": "Claire Maguire",
+        "targetGoalieTeamName": "Northshore Warhawks 19U",
+        "targetGoalieColor": "White and Green",
+        "opponentGoalieColor": "Blue and Red",
+        "opponentGoalieTeamName": "Chicago Hawks 19U",
+        "eventDate": "2025-09-14",
+        "createdDate": "2026-04-16 19:47:58 CDT",
+        "eventName": "SEP-25: Northshore Warhawks 19U vs Chicago Hawks 19U",
+        "eventSeason": "2025-2026",
+        "cameraAngle": "Side View",
+        "eventVideoURL": "https://www.youtube.com/watch?v=bfEKgtOIkQU",
+        "vID": "bfEKgtOIkQU",
+        "clientID": "customerID/CUST000048",
+        "analyticsStatus": "Complete",
+        "segmentCnt": 0,
+        "segmentDuration": 0,
+        "targetStartSide": "Left",
+        "opponentStartSide": "Right",
+        "targetGoalieSkillLevel": "beginner",
+        "GoalieCoachPersona": "strategist",
+        "updatedDate": "2026-04-17 21:42:28 CST",
+        "periods": [
+            {
+                "num": 1,
+                "start": 2,
+                "end": 1314
+            },
+            {
+                "num": 2,
+                "start": 1328,
+                "end": 2823
+            },
+            {
+                "num": 3,
+                "start": 2845,
+                "end": 4140
+            }
+        ]
+    },
+    {
+        "targetGoalieName": "Claire Maguire",
+        "targetGoalieTeamName": "North Shore Warhawks 19U AA",
+        "targetGoalieColor": "White and Blue",
+        "opponentGoalieColor": "Black and Red",
+        "opponentGoalieTeamName": "Amherst Lady Knights 19U",
+        "eventDate": "2025-10-12",
+        "createdDate": "2026-04-07 17:18:07 CDT",
+        "eventName": "OCT-25: North Shore Warhawks 19U AA vs Amherst Lady Knights 19U",
+        "eventSeason": "2025-2026",
+        "cameraAngle": "Side View",
+        "eventVideoURL": "https://www.youtube.com/watch?v=mjEeE7p2Hz8",
+        "vID": "mjEeE7p2Hz8",
+        "clientID": "customerID/CUST000048",
+        "analyticsStatus": "Complete",
+        "segmentCnt": 0,
+        "segmentDuration": 0,
+        "targetStartSide": "Left",
+        "opponentStartSide": "Right",
+        "targetGoalieSkillLevel": "professional",
+        "GoalieCoachPersona": "prospect",
+        "updatedDate": "2026-04-17 21:42:05 CST",
+        "periods": [
+            {
+                "num": 1,
+                "start": 0,
+                "end": 1211
+            },
+            {
+                "num": 2,
+                "start": 1221,
+                "end": 2414
+            },
+            {
+                "num": 3,
+                "start": 2416,
+                "end": 3339
+            }
+        ]
+    },
+    {
+        "targetGoalieName": "Claire Maguire",
+        "targetGoalieTeamName": "Northshore Warhawks 19U",
+        "targetGoalieColor": "Green and Blue",
+        "opponentGoalieColor": "White and Blue",
+        "opponentGoalieTeamName": "Team Long Island U19",
+        "eventDate": "2025-12-13",
+        "createdDate": "2026-04-16 20:25:43 CDT",
+        "eventName": "DEC-25: Northshore Warhawks 19U vs Team Long Island U19",
+        "eventSeason": "2025-2026",
+        "cameraAngle": "Side View",
+        "eventVideoURL": "https://www.youtube.com/watch?v=n2cy8b755Tg",
+        "vID": "n2cy8b755Tg",
+        "clientID": "customerID/CUST000048",
+        "analyticsStatus": "Complete",
+        "segmentCnt": 0,
+        "segmentDuration": 0,
+        "targetStartSide": "Left",
+        "opponentStartSide": "Right",
+        "targetGoalieSkillLevel": "beginner",
+        "GoalieCoachPersona": "structuralist",
+        "updatedDate": "2026-04-17 21:39:54 CST",
+        "periods": [
+            {
+                "num": 1,
+                "start": 0,
+                "end": 1132
+            },
+            {
+                "num": 2,
+                "start": 1233,
+                "end": 2637
+            },
+            {
+                "num": 3,
+                "start": 2703,
+                "end": 4020
+            }
+        ]
+    },
+    {
+        "targetGoalieName": "Claire Maguire",
+        "targetGoalieTeamName": "North Shore Warhawks 19U AA",
+        "targetGoalieColor": "White and Green",
+        "opponentGoalieColor": "Blue and Yellow",
+        "opponentGoalieTeamName": "Coeur d'Alene Lady Thunder 19U AA",
+        "eventDate": "2025-10-13",
+        "createdDate": "2026-04-07 17:17:08 CDT",
+        "eventName": "OCT-25: North Shore Warhawks 19U AA vs Coeur d'Alene Lady Thunder 19U AA",
+        "eventSeason": "2025-2026",
+        "cameraAngle": "Side View",
+        "eventVideoURL": "https://www.youtube.com/watch?v=v0lxSTbXfw8",
+        "vID": "v0lxSTbXfw8",
+        "clientID": "customerID/CUST000048",
+        "analyticsStatus": "Complete",
+        "segmentCnt": 0,
+        "segmentDuration": 0,
+        "targetStartSide": "Right",
+        "opponentStartSide": "Left",
+        "targetGoalieSkillLevel": "intermediate",
+        "GoalieCoachPersona": "tactician",
+        "updatedDate": "2026-04-17 21:41:52 CST",
+        "periods": [
+            {
+                "num": 1,
+                "start": 6,
+                "end": 1286
+            },
+            {
+                "num": 2,
+                "start": 1297,
+                "end": 2482
+            },
+            {
+                "num": 3,
+                "start": 2489,
+                "end": 3900
+            }
+        ]
+    }
+]

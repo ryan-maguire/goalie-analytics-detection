@@ -1,0 +1,69 @@
+vID	kind	class	gt_start	gt_end	gt_team	gt_period	pred_start	pred_end	pred_color	pred_src	midpoint_delta_sec	iou
+mjEeE7p2Hz8	FN	no_spatial_overlap	256	273	North Shore Warhawks 19U AA	1	222.0	252.0	White and Blue	net_cooccur	27.5	0.0
+mjEeE7p2Hz8	FN	missed_entirely	576	588	North Shore Warhawks 19U AA	1	532.0	547.0	White and Blue	net_cooccur	42.5	0.0
+mjEeE7p2Hz8	FN	scale_mismatch	978	990	Amherst Lady Knights 19U	1	954.0	984.0	White and Blue	net_cooccur	15.0	0.167
+mjEeE7p2Hz8	FN	no_spatial_overlap	1035	1047	North Shore Warhawks 19U AA	1	1047.0	1077.0	White and Blue	net_cooccur	21.0	0.0
+mjEeE7p2Hz8	FN	scale_mismatch	1073	1085	Amherst Lady Knights 19U	1	1078.0	1108.0	White and Blue	net_cooccur	14.0	0.2
+mjEeE7p2Hz8	FN	scale_mismatch	1166	1178	Amherst Lady Knights 19U	1	1173.0	1203.0	White and Blue	net_goalie_only	16.0	0.135
+mjEeE7p2Hz8	FN	no_spatial_overlap	1432	1444	Amherst Lady Knights 19U	2	1452.0	1482.0	White and Blue	net_cooccur	29.0	0.0
+mjEeE7p2Hz8	FN	no_spatial_overlap	1636	1648	North Shore Warhawks 19U AA	2	1607.0	1637.0	White and Blue	net_cooccur	20.0	0.024
+mjEeE7p2Hz8	FN	scale_mismatch	1659	1671	Amherst Lady Knights 19U	2	1669.0	1699.0	White and Blue	net_goal_only	19.0	0.05
+mjEeE7p2Hz8	FN	missed_entirely	1717	1729	Amherst Lady Knights 19U	2	1669.0	1699.0	White and Blue	net_goal_only	39.0	0.0
+mjEeE7p2Hz8	FN	missed_entirely	1736	1761	North Shore Warhawks 19U AA	2	1669.0	1699.0	White and Blue	net_goal_only	64.5	0.0
+mjEeE7p2Hz8	FN	missed_entirely	1817	1829	North Shore Warhawks 19U AA	2	1860.0	1884.0	White and Blue	net_cooccur	49.0	0.0
+mjEeE7p2Hz8	FN	scale_mismatch	1879	1920	North Shore Warhawks 19U AA	2	1860.0	1884.0	White and Blue	net_cooccur	27.5	0.083
+mjEeE7p2Hz8	FN	missed_entirely	1940	1952	North Shore Warhawks 19U AA	2	1860.0	1884.0	White and Blue	net_cooccur	74.0	0.0
+mjEeE7p2Hz8	FN	scale_mismatch	2029	2052	Amherst Lady Knights 19U	2	2015.0	2039.0	White and Blue	net_cooccur	13.5	0.27
+mjEeE7p2Hz8	FN	scale_mismatch	2167	2179	Amherst Lady Knights 19U	2	2176.0	2206.0	White and Blue	net_cooccur	18.0	0.077
+mjEeE7p2Hz8	FN	scale_mismatch	2290	2318	North Shore Warhawks 19U AA	2	2269.0	2299.0	White and Blue	net_cooccur	20.0	0.184
+mjEeE7p2Hz8	FN	no_spatial_overlap	2818	2830	Amherst Lady Knights 19U	3	2837.0	2867.0	White and Blue	net_cooccur	28.0	0.0
+mjEeE7p2Hz8	FN	scale_mismatch	2864	2876	Amherst Lady Knights 19U	3	2868.0	2898.0	White and Blue	net_cooccur	13.0	0.235
+mjEeE7p2Hz8	FN	no_spatial_overlap	2925	2937	North Shore Warhawks 19U AA	3	2938.0	2955.0	White and Blue	net_goal_only	15.5	0.0
+mjEeE7p2Hz8	FN	scale_mismatch	3174	3186	Amherst Lady Knights 19U	3	3184.0	3211.0	White and Blue	net_cooccur	17.5	0.054
+mjEeE7p2Hz8	FN	missed_entirely	3252	3264	North Shore Warhawks 19U AA	3	3184.0	3211.0	White and Blue	net_cooccur	60.5	0.0
+mjEeE7p2Hz8	FN	missed_entirely	3285	3297	North Shore Warhawks 19U AA	3	3184.0	3211.0	White and Blue	net_cooccur	93.5	0.0
+mjEeE7p2Hz8	FP	spurious	256	273	North Shore Warhawks 19U AA	1	67.0	97.0	White and Blue	net_cooccur	182.5	0.0
+mjEeE7p2Hz8	FP	spurious	256	273	North Shore Warhawks 19U AA	1	129.0	159.0	White and Blue	net_cooccur	120.5	0.0
+mjEeE7p2Hz8	FP	adjacent_to_gt	256	273	North Shore Warhawks 19U AA	1	222.0	252.0	White and Blue	net_cooccur	27.5	0.0
+mjEeE7p2Hz8	FP	spurious	256	273	North Shore Warhawks 19U AA	1	315.0	345.0	White and Blue	fallback_motion_edge	65.5	0.0
+mjEeE7p2Hz8	FP	spurious	256	273	North Shore Warhawks 19U AA	1	346.0	373.0	White and Blue	net_cooccur	95.0	0.0
+mjEeE7p2Hz8	FP	spurious	256	273	North Shore Warhawks 19U AA	1	408.0	435.0	White and Blue	net_cooccur	157.0	0.0
+mjEeE7p2Hz8	FP	spurious	576	588	North Shore Warhawks 19U AA	1	439.0	454.0	White and Blue	net_cooccur	135.5	0.0
+mjEeE7p2Hz8	FP	spurious	576	588	North Shore Warhawks 19U AA	1	532.0	547.0	White and Blue	net_cooccur	42.5	0.0
+mjEeE7p2Hz8	FP	spurious	576	588	North Shore Warhawks 19U AA	1	656.0	686.0	White and Blue	fallback_motion_edge	89.0	0.0
+mjEeE7p2Hz8	FP	spurious	576	588	North Shore Warhawks 19U AA	1	718.0	748.0	White and Blue	net_cooccur	151.0	0.0
+mjEeE7p2Hz8	FP	spurious	576	588	North Shore Warhawks 19U AA	1	749.0	779.0	White and Blue	net_cooccur	182.0	0.0
+mjEeE7p2Hz8	FP	spurious	978	990	Amherst Lady Knights 19U	1	780.0	796.0	White and Blue	fallback_motion_edge	196.0	0.0
+mjEeE7p2Hz8	FP	spurious	978	990	Amherst Lady Knights 19U	1	861.0	891.0	White and Blue	net_cooccur	108.0	0.0
+mjEeE7p2Hz8	FP	spurious	978	990	Amherst Lady Knights 19U	1	892.0	922.0	White and Blue	net_cooccur	77.0	0.0
+mjEeE7p2Hz8	FP	scale_mismatch	978	990	Amherst Lady Knights 19U	1	954.0	984.0	White and Blue	net_cooccur	15.0	0.167
+mjEeE7p2Hz8	FP	scale_mismatch	978	990	Amherst Lady Knights 19U	1	985.0	1015.0	White and Blue	net_cooccur	16.0	0.135
+mjEeE7p2Hz8	FP	scale_mismatch	1073	1085	Amherst Lady Knights 19U	1	1047.0	1077.0	White and Blue	net_cooccur	17.0	0.105
+mjEeE7p2Hz8	FP	scale_mismatch	1073	1085	Amherst Lady Knights 19U	1	1078.0	1108.0	White and Blue	net_cooccur	14.0	0.2
+mjEeE7p2Hz8	FP	spurious	1073	1085	Amherst Lady Knights 19U	1	1109.0	1139.0	White and Blue	net_cooccur	45.0	0.0
+mjEeE7p2Hz8	FP	scale_mismatch	1166	1178	Amherst Lady Knights 19U	1	1140.0	1170.0	White and Blue	net_cooccur	17.0	0.105
+mjEeE7p2Hz8	FP	scale_mismatch	1166	1178	Amherst Lady Knights 19U	1	1173.0	1203.0	White and Blue	net_goalie_only	16.0	0.135
+mjEeE7p2Hz8	FP	adjacent_to_gt	1432	1444	Amherst Lady Knights 19U	2	1452.0	1482.0	White and Blue	net_cooccur	29.0	0.0
+mjEeE7p2Hz8	FP	spurious	1432	1444	Amherst Lady Knights 19U	2	1483.0	1513.0	White and Blue	net_cooccur	60.0	0.0
+mjEeE7p2Hz8	FP	spurious	1636	1648	North Shore Warhawks 19U AA	2	1545.0	1575.0	White and Blue	net_cooccur	82.0	0.0
+mjEeE7p2Hz8	FP	spurious	1636	1648	North Shore Warhawks 19U AA	2	1576.0	1601.0	White and Blue	net_cooccur	53.5	0.0
+mjEeE7p2Hz8	FP	adjacent_to_gt	1636	1648	North Shore Warhawks 19U AA	2	1607.0	1637.0	White and Blue	net_cooccur	20.0	0.024
+mjEeE7p2Hz8	FP	scale_mismatch	1659	1671	Amherst Lady Knights 19U	2	1669.0	1699.0	White and Blue	net_goal_only	19.0	0.05
+mjEeE7p2Hz8	FP	scale_mismatch	1879	1920	North Shore Warhawks 19U AA	2	1860.0	1884.0	White and Blue	net_cooccur	27.5	0.083
+mjEeE7p2Hz8	FP	scale_mismatch	2029	2052	Amherst Lady Knights 19U	2	2015.0	2039.0	White and Blue	net_cooccur	13.5	0.27
+mjEeE7p2Hz8	FP	spurious	2029	2052	Amherst Lady Knights 19U	2	2083.0	2113.0	White and Blue	motion	57.5	0.0
+mjEeE7p2Hz8	FP	scale_mismatch	2167	2179	Amherst Lady Knights 19U	2	2176.0	2206.0	White and Blue	net_cooccur	18.0	0.077
+mjEeE7p2Hz8	FP	spurious	2290	2318	North Shore Warhawks 19U AA	2	2238.0	2268.0	White and Blue	net_cooccur	51.0	0.0
+mjEeE7p2Hz8	FP	scale_mismatch	2290	2318	North Shore Warhawks 19U AA	2	2269.0	2299.0	White and Blue	net_cooccur	20.0	0.184
+mjEeE7p2Hz8	FP	spurious	2290	2318	North Shore Warhawks 19U AA	2	2362.0	2414.0	White and Blue	net_cooccur	84.0	0.0
+mjEeE7p2Hz8	FP	spurious	2290	2318	North Shore Warhawks 19U AA	2	2416.0	2422.0	White and Blue	net_cooccur	115.0	0.0
+mjEeE7p2Hz8	FP	spurious	2290	2318	North Shore Warhawks 19U AA	2	2455.0	2515.0	White and Blue	net_cooccur	181.0	0.0
+mjEeE7p2Hz8	FP	spurious	2290	2318	North Shore Warhawks 19U AA	2	2517.0	2547.0	White and Blue	net_cooccur	228.0	0.0
+mjEeE7p2Hz8	FP	spurious	2818	2830	Amherst Lady Knights 19U	3	2613.0	2643.0	White and Blue	net_cooccur	196.0	0.0
+mjEeE7p2Hz8	FP	spurious	2818	2830	Amherst Lady Knights 19U	3	2706.0	2736.0	White and Blue	net_cooccur	103.0	0.0
+mjEeE7p2Hz8	FP	spurious	2818	2830	Amherst Lady Knights 19U	3	2775.0	2805.0	White and Blue	net_cooccur	34.0	0.0
+mjEeE7p2Hz8	FP	scale_mismatch	2864	2876	Amherst Lady Knights 19U	3	2837.0	2867.0	White and Blue	net_cooccur	18.0	0.077
+mjEeE7p2Hz8	FP	scale_mismatch	2864	2876	Amherst Lady Knights 19U	3	2868.0	2898.0	White and Blue	net_cooccur	13.0	0.235
+mjEeE7p2Hz8	FP	adjacent_to_gt	2925	2937	North Shore Warhawks 19U AA	3	2938.0	2955.0	White and Blue	net_goal_only	15.5	0.0
+mjEeE7p2Hz8	FP	spurious	3174	3186	Amherst Lady Knights 19U	3	3122.0	3152.0	White and Blue	fallback_motion_edge	43.0	0.0
+mjEeE7p2Hz8	FP	scale_mismatch	3174	3186	Amherst Lady Knights 19U	3	3184.0	3211.0	White and Blue	net_cooccur	17.5	0.054

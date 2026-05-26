@@ -1,0 +1,89 @@
+==============================================================================
+cv_seg evaluation report
+  generated:       2026-05-25 01:06:43 UTC
+  window_diff:     20s
+  iou_threshold:   0.3
+  gt_pad:          ±0s
+  gt_dir:          data/ground_truth
+  pred_dir:        data/output/runs/cv_seg
+==============================================================================
+
+OVERALL
+------------------------------------------------------------------------------
+  videos:               1 (by status: {'ok': 1})
+
+  ── STRICT (IoU ≥ 0.3) ──
+  TP / FP / FN:         26 / 45 / 23
+  precision:            0.3662
+  recall:               0.5306
+  F1:                   0.4333
+
+  ── LENIENT (midpoint coverage, raw GT) ──
+  midpoint recall:      0.6122 (30 / 49 GT windows had a pred over their midpoint)
+  midpoint precision:   0.3239 (23 / 71 preds landed midpoint inside a GT window)
+  midpoint F1:          0.4237
+
+  ── ATTRIBUTION ──
+  attribution accuracy: n/a (no team→color mapping for any video)
+  attribution skipped:  26 (no mapping or pred color unavailable)
+
+PER VIDEO
+------------------------------------------------------------------------------
+  vID               hudl  status              GT Pred  TP  FP  FN      P      R     F1   mRec   mPre   Attr
+  mjEeE7p2Hz8    2073809  ok                  49   71  26  45  23   0.37   0.53   0.43   0.61   0.32      -
+      note: no team→color mapping — attribution skipped
+      note: target_filter is ON in prediction but no team→color map available — recall will be artificially low (opponent-team GT rows have no matching predictions)
+
+DIAGNOSTICS — what's behind the unmatched items
+------------------------------------------------------------------------------
+
+  Missed GT windows (FNs) by likely cause:
+    scale_mismatch             10
+    no_spatial_overlap          6
+    missed_entirely             7
+
+  Extra predictions (FPs) by likely cause:
+    scale_mismatch             14
+    adjacent_to_gt              4
+    spurious                   27
+
+  Spurious FPs by cv_seg source signal (where do bogus windows come from?):
+    net_cooccur                22
+    fallback_motion_edge        4
+    motion                      1
+
+  Near-miss IoU distribution (unmatched items that DID overlap a window):
+    n=24  min=0.05  p25=0.077  median=0.135  p75=0.2  max=0.27
+    (if median > 0.20, lowering --iou-threshold to 0.2 would convert many of these to TPs)
+
+  How to read this:
+    scale_mismatch     = right place, wrong size — eval issue, not a model issue
+    no_spatial_overlap = nearby in time but no overlap — small timing offset
+    missed_entirely    = GT window has no nearby prediction — real recall miss
+    spurious           = prediction has no nearby GT shot — real precision miss
+
+FP SIGNAL TRACE — which signals are firing on bogus predictions
+------------------------------------------------------------------------------
+  total FPs:            45
+
+  FP count by source combination (which signals fired together to produce the FP):
+    motion_auto_close                          40  (88.9%)
+    faceoff+motion_auto_close                   2  ( 4.4%)
+    crowd_roar+motion_auto_close                2  ( 4.4%)
+    celebration+faceoff+motion_auto_close       1  ( 2.2%)
+
+  FP count by individual signal (double-counts FPs hit by multiple signals — use this to rank levers):
+    motion_auto_close              45
+    faceoff                         3
+    crowd_roar                      2
+    celebration                     1
+
+  Top FP source per video (where to look first):
+    mjEeE7p2Hz8    motion_auto_close(40), faceoff+motion_auto_close(2), crowd_roar+motion_auto_close(2)
+
+  How to read this:
+    Each FP is one cv_seg threat segment that didn't match a GT shot.
+    'source_combo' = the SET of raw-window source signals that
+    overlapped that segment. If 'motion' alone dominates, the motion
+    threshold is the lever. If 'celebration+motion' dominates, those
+    signals are co-firing on non-shot game flow (scrums, line changes).

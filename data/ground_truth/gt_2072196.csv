@@ -1,0 +1,189 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,9,21,12,30.48,12.96,,Wisconsin Selects 19U,OZ play,1
+2,70,82,12,50.51,16.04,,Wisconsin Selects 19U,OZ play,1
+3,70,82,12,50.51,16.04,,Wisconsin Selects 19U,Shots,1
+4,122,134,12,49.96,8.83,,Wisconsin Selects 19U,OZ play,1
+5,122,134,12,49.96,8.83,,Wisconsin Selects 19U,Shots,1
+6,139,151,12,42.53,8.64,,North Shore Warhawks 19U AA,OZ play,1
+7,139,151,12,42.53,8.64,,North Shore Warhawks 19U AA,Shots,1
+8,152,164,12,54.45,9.97,,North Shore Warhawks 19U AA,OZ play,1
+9,152,164,12,54.45,9.97,,North Shore Warhawks 19U AA,Shots,1
+10,206,218,12,51.7,9.3,,Wisconsin Selects 19U,OZ play,1
+11,206,218,12,51.7,9.3,,Wisconsin Selects 19U,Shots,1
+12,211,223,12,55,9.87,,Wisconsin Selects 19U,OZ play,1
+13,211,223,12,55,9.87,,Wisconsin Selects 19U,Shots,1
+14,322,334,12,9.45,6.25,,Wisconsin Selects 19U,OZ play,1
+15,334,346,12,53.63,16.51,,Wisconsin Selects 19U,OZ play,1
+16,334,346,12,53.63,16.51,,Wisconsin Selects 19U,Shots,1
+17,403,415,12,51.51,6.25,,Wisconsin Selects 19U,OZ play,1
+18,423,435,12,50.33,21.07,,Wisconsin Selects 19U,OZ play,1
+19,423,435,12,50.33,21.07,,Wisconsin Selects 19U,Shots,1
+20,562,574,12,9.45,19.67,,Wisconsin Selects 19U,OZ play,1
+21,562,574,12,54.54,17.46,,Wisconsin Selects 19U,OZ play,1
+22,570,582,12,54.54,17.46,,Wisconsin Selects 19U,OZ play,1
+23,570,582,12,54.54,17.46,,Wisconsin Selects 19U,Shots,1
+24,670,682,12,54.73,7.4,,North Shore Warhawks 19U AA,OZ play,1
+25,670,682,12,54.73,7.4,,North Shore Warhawks 19U AA,Shots,1
+26,673,685,12,54.08,12.15,,North Shore Warhawks 19U AA,OZ play,1
+27,673,685,12,54.08,12.15,,North Shore Warhawks 19U AA,Shots,1
+28,702,714,12,51.06,10.35,,Wisconsin Selects 19U,OZ play,1
+29,702,714,12,51.06,10.35,,Wisconsin Selects 19U,Shots,1
+30,745,757,12,47.67,10.35,,Wisconsin Selects 19U,OZ play,1
+31,745,757,12,47.67,10.35,,Wisconsin Selects 19U,Shots,1
+32,746,758,12,55.28,15,,Wisconsin Selects 19U,Goals,1
+33,746,758,12,55.28,15,,Wisconsin Selects 19U,OZ play,1
+34,746,758,12,55.28,15,,Wisconsin Selects 19U,Shots,1
+35,783,795,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,1
+36,795,807,12,51.7,7.12,,North Shore Warhawks 19U AA,OZ play,1
+37,795,807,12,51.7,7.12,,North Shore Warhawks 19U AA,Shots,1
+38,969,981,12,9.45,19.67,,Wisconsin Selects 19U,OZ play,1
+39,981,993,12,54.18,11.58,,Wisconsin Selects 19U,OZ play,1
+40,981,993,12,54.18,11.58,,Wisconsin Selects 19U,Shots,1
+41,982,994,12,55.28,11.86,,Wisconsin Selects 19U,OZ play,1
+42,982,994,12,55.28,11.86,,Wisconsin Selects 19U,Shots,1
+43,996,1008,12,9.45,19.67,,Wisconsin Selects 19U,OZ play,1
+44,1019,1031,12,47.76,10.25,,Wisconsin Selects 19U,OZ play,1
+45,1019,1031,12,47.76,10.25,,Wisconsin Selects 19U,Shots,1
+46,1036,1048,12,54.45,13.1,,Wisconsin Selects 19U,OZ play,1
+47,1036,1048,12,54.45,13.1,,Wisconsin Selects 19U,Shots,1
+48,1050,1062,12,40.98,10.06,,Wisconsin Selects 19U,OZ play,1
+49,1050,1062,12,40.98,10.06,,Wisconsin Selects 19U,Shots,1
+50,1156,1168,12,43.91,12.24,,Wisconsin Selects 19U,OZ play,1
+51,1156,1168,12,43.91,12.24,,Wisconsin Selects 19U,Shots,1
+52,1177,1189,12,51.51,6.25,,Wisconsin Selects 19U,OZ play,1
+53,1177,1189,12,51.88,7.5,,Wisconsin Selects 19U,OZ play,1
+54,1184,1196,12,51.88,7.5,,Wisconsin Selects 19U,OZ play,1
+55,1184,1196,12,51.88,7.5,,Wisconsin Selects 19U,Shots,1
+56,1225,1237,12,45.74,3.13,,North Shore Warhawks 19U AA,OZ play,1
+57,1225,1237,12,45.74,3.13,,North Shore Warhawks 19U AA,Shots,1
+58,1310,1322,12,46.11,22.68,,North Shore Warhawks 19U AA,OZ play,2
+59,1310,1322,12,46.11,22.68,,North Shore Warhawks 19U AA,Shots,2
+60,1310,1322,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+61,1372,1384,12,9.45,6.25,,Wisconsin Selects 19U,OZ play,2
+62,1372,1384,12,41.07,5.6,,Wisconsin Selects 19U,OZ play,2
+63,1379,1391,12,41.07,5.6,,Wisconsin Selects 19U,OZ play,2
+64,1379,1391,12,41.07,5.6,,Wisconsin Selects 19U,Shots,2
+65,1414,1426,12,17.42,23.82,,North Shore Warhawks 19U AA,OZ play,2
+66,1699,1711,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+67,1721,1733,12,40.61,22.68,,North Shore Warhawks 19U AA,OZ play,2
+68,1721,1733,12,40.61,22.68,,North Shore Warhawks 19U AA,Shots,2
+69,1752,1764,12,9.45,6.25,,Wisconsin Selects 19U,OZ play,2
+70,1805,1817,12,40.7,23.25,,Wisconsin Selects 19U,OZ play,2
+71,1805,1817,12,40.7,23.25,,Wisconsin Selects 19U,Shots,2
+72,1832,1844,12,39.78,14.52,,Wisconsin Selects 19U,OZ play,2
+73,1832,1844,12,51.51,6.25,,Wisconsin Selects 19U,OZ play,2
+74,1835,1847,12,39.78,14.52,,Wisconsin Selects 19U,OZ play,2
+75,1835,1847,12,39.78,14.52,,Wisconsin Selects 19U,Shots,2
+76,1921,1933,12,52.89,10.82,,North Shore Warhawks 19U AA,OZ play,2
+77,1921,1933,12,52.89,10.82,,North Shore Warhawks 19U AA,Shots,2
+78,1976,1988,12,47.3,17.37,,Wisconsin Selects 19U,OZ play,2
+79,1976,1988,12,47.3,17.37,,Wisconsin Selects 19U,Shots,2
+80,2060,2072,12,51.51,19.67,,Wisconsin Selects 19U,OZ play,2
+81,2061,2073,12,40.24,15.28,,Wisconsin Selects 19U,OZ play,2
+82,2061,2073,12,40.24,15.28,,Wisconsin Selects 19U,Shots,2
+83,2082,2094,12,55.64,9.02,,Wisconsin Selects 19U,OZ play,2
+84,2082,2094,12,55.64,9.02,,Wisconsin Selects 19U,Shots,2
+85,2088,2100,12,40.33,11.67,,Wisconsin Selects 19U,OZ play,2
+86,2088,2100,12,40.33,11.67,,Wisconsin Selects 19U,Shots,2
+87,2153,2165,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+88,2153,2165,12,48.13,13.48,,North Shore Warhawks 19U AA,OZ play,2
+89,2165,2177,12,48.13,13.48,,North Shore Warhawks 19U AA,OZ play,2
+90,2165,2177,12,48.13,13.48,,North Shore Warhawks 19U AA,Shots,2
+91,2183,2195,12,43.08,12.62,,Wisconsin Selects 19U,OZ play,2
+92,2183,2195,12,43.08,12.62,,Wisconsin Selects 19U,Shots,2
+93,2190,2202,12,54.45,9.59,,Wisconsin Selects 19U,OZ play,2
+94,2190,2202,12,54.45,9.59,,Wisconsin Selects 19U,Shots,2
+95,2201,2213,12,34.28,25.63,,North Shore Warhawks 19U AA,OZ play,2
+96,2274,2286,12,48.49,21.16,,North Shore Warhawks 19U AA,OZ play,2
+97,2274,2286,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,2
+98,2338,2350,12,48.49,21.16,,North Shore Warhawks 19U AA,OZ play,2
+99,2338,2350,12,48.49,21.16,,North Shore Warhawks 19U AA,Shots,2
+100,2346,2358,12,54.73,24.3,,Wisconsin Selects 19U,OZ play,2
+101,2395,2407,12,9.45,19.67,,Wisconsin Selects 19U,OZ play,2
+102,2430,2442,12,50.97,15.85,,Wisconsin Selects 19U,OZ play,2
+103,2430,2442,12,50.97,15.85,,Wisconsin Selects 19U,Shots,2
+104,2465,2477,12,2,15,,Wisconsin Selects 19U,OZ play,2
+105,2476,2488,12,54.45,11.86,,Wisconsin Selects 19U,Goals,2
+106,2476,2488,12,54.45,11.86,,Wisconsin Selects 19U,OZ play,2
+107,2476,2488,12,54.45,11.86,,Wisconsin Selects 19U,Shots,2
+108,2505,2517,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,2
+109,2505,2517,12,48.22,20.5,,North Shore Warhawks 19U AA,OZ play,2
+110,2535,2547,12,48.22,20.5,,North Shore Warhawks 19U AA,OZ play,2
+111,2535,2547,12,48.22,20.5,,North Shore Warhawks 19U AA,Shots,2
+112,2590,2602,12,52.25,7.31,,Wisconsin Selects 19U,OZ play,2
+113,2590,2602,12,52.25,7.31,,Wisconsin Selects 19U,Shots,2
+114,2615,2627,12,9.45,19.67,,Wisconsin Selects 19U,OZ play,2
+115,2635,2647,12,58.85,4.37,,Wisconsin Selects 19U,OZ play,2
+116,2635,2647,12,58.85,4.37,,Wisconsin Selects 19U,Shots,2
+117,2747,2759,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,2
+118,2786,2798,12,42.53,1.42,,North Shore Warhawks 19U AA,OZ play,2
+119,2786,2798,12,42.53,1.42,,North Shore Warhawks 19U AA,Shots,2
+120,2842,2854,12,30.48,12.96,,Wisconsin Selects 19U,OZ play,3
+121,2877,2889,12,48.58,11.86,,Wisconsin Selects 19U,OZ play,3
+122,2877,2889,12,48.58,11.86,,Wisconsin Selects 19U,Shots,3
+123,2883,2895,12,56.28,21.35,,Wisconsin Selects 19U,OZ play,3
+124,2883,2895,12,56.28,21.35,,Wisconsin Selects 19U,Shots,3
+125,2885,2897,12,55.73,15.38,,Wisconsin Selects 19U,OZ play,3
+126,2885,2897,12,55.73,15.38,,Wisconsin Selects 19U,Shots,3
+127,2915,2927,12,51.51,19.67,,Wisconsin Selects 19U,OZ play,3
+128,2916,2928,12,51.52,13.95,,Wisconsin Selects 19U,OZ play,3
+129,2916,2928,12,51.52,13.95,,Wisconsin Selects 19U,Shots,3
+130,2978,2990,12,24.38,19.67,,Wisconsin Selects 19U,OZ play,3
+131,3010,3022,12,51.52,10.53,,Wisconsin Selects 19U,OZ play,3
+132,3010,3022,12,51.52,10.53,,Wisconsin Selects 19U,Shots,3
+133,3029,3041,12,50.14,9.78,,Wisconsin Selects 19U,Goals,3
+134,3029,3041,12,50.14,9.78,,Wisconsin Selects 19U,OZ play,3
+135,3029,3041,12,50.14,9.78,,Wisconsin Selects 19U,Shots,3
+136,3147,3159,12,51.51,6.25,,Wisconsin Selects 19U,OZ play,3
+137,3156,3168,12,48.95,21.45,,Wisconsin Selects 19U,OZ play,3
+138,3156,3168,12,48.95,21.45,,Wisconsin Selects 19U,Shots,3
+139,3273,3285,12,9.45,6.25,,Wisconsin Selects 19U,OZ play,3
+140,3317,3329,12,55.55,9.21,,Wisconsin Selects 19U,Goals,3
+141,3317,3329,12,55.55,9.21,,Wisconsin Selects 19U,OZ play,3
+142,3317,3329,12,55.55,9.21,,Wisconsin Selects 19U,Shots,3
+143,3346,3358,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,3
+144,3448,3460,12,48.86,8.16,,North Shore Warhawks 19U AA,OZ play,3
+145,3448,3460,12,48.86,8.16,,North Shore Warhawks 19U AA,Shots,3
+146,3460,3472,12,46.57,3.7,,North Shore Warhawks 19U AA,OZ play,3
+147,3460,3472,12,46.57,3.7,,North Shore Warhawks 19U AA,Shots,3
+148,3523,3535,12,9.45,19.67,,Wisconsin Selects 19U,OZ play,3
+149,3585,3597,12,47.3,6.74,,Wisconsin Selects 19U,OZ play,3
+150,3585,3597,12,47.3,6.74,,Wisconsin Selects 19U,Shots,3
+151,3605,3617,12,46.2,9.11,,Wisconsin Selects 19U,Goals,3
+152,3605,3617,12,46.2,9.11,,Wisconsin Selects 19U,OZ play,3
+153,3605,3617,12,46.2,9.11,,Wisconsin Selects 19U,Shots,3
+154,3719,3731,12,51.51,6.25,,Wisconsin Selects 19U,OZ play,3
+155,3723,3735,12,54.18,13,,Wisconsin Selects 19U,OZ play,3
+156,3723,3735,12,54.18,13,,Wisconsin Selects 19U,Shots,3
+157,3757,3769,12,43.36,20.03,,Wisconsin Selects 19U,OZ play,3
+158,3757,3769,12,43.36,20.03,,Wisconsin Selects 19U,Shots,3
+159,3757,3769,12,45.56,20.97,,Wisconsin Selects 19U,OZ play,3
+160,3757,3769,12,45.56,20.97,,Wisconsin Selects 19U,Shots,3
+161,3798,3810,12,9.45,19.67,,Wisconsin Selects 19U,OZ play,3
+162,3832,3844,12,53.53,11.29,,Wisconsin Selects 19U,OZ play,3
+163,3832,3844,12,53.53,11.29,,Wisconsin Selects 19U,Shots,3
+164,3854,3866,12,51.51,6.25,,Wisconsin Selects 19U,OZ play,3
+165,3857,3869,12,47.94,4.27,,Wisconsin Selects 19U,OZ play,3
+166,3857,3869,12,47.94,4.27,,Wisconsin Selects 19U,Shots,3
+167,3870,3882,12,9.45,19.67,,Wisconsin Selects 19U,OZ play,3
+168,3881,3893,12,53.08,7.88,,Wisconsin Selects 19U,OZ play,3
+169,3881,3893,12,53.08,7.88,,Wisconsin Selects 19U,Shots,3
+170,3899,3911,12,51.51,6.25,,Wisconsin Selects 19U,OZ play,3
+171,3902,3914,12,42.17,3.04,,Wisconsin Selects 19U,OZ play,3
+172,3902,3914,12,42.17,3.04,,Wisconsin Selects 19U,Shots,3
+173,3970,3982,12,51.51,19.67,,Wisconsin Selects 19U,OZ play,3
+174,3972,3984,12,49.41,24.11,,Wisconsin Selects 19U,OZ play,3
+175,3972,3984,12,49.41,24.11,,Wisconsin Selects 19U,Shots,3
+176,4002,4014,12,0.83,10.06,,Wisconsin Selects 19U,OZ play,3
+177,4039,4051,12,9.45,6.25,,Wisconsin Selects 19U,OZ play,3
+178,4051,4063,12,55.09,20.22,,Wisconsin Selects 19U,OZ play,3
+179,4051,4063,12,55.09,20.22,,Wisconsin Selects 19U,Shots,3
+180,4101,4113,12,51.88,16.32,,Wisconsin Selects 19U,OZ play,3
+181,4101,4113,12,51.88,16.32,,Wisconsin Selects 19U,Shots,3
+182,4127,4139,12,48.31,3.32,,Wisconsin Selects 19U,OZ play,3
+183,4127,4139,12,51.51,19.67,,Wisconsin Selects 19U,OZ play,3
+184,4136,4148,12,48.31,3.32,,Wisconsin Selects 19U,OZ play,3
+185,4136,4148,12,48.31,3.32,,Wisconsin Selects 19U,Shots,3
+186,4217,4229,12,2,15,,North Shore Warhawks 19U AA,OZ play,3
+187,4243,4255,12,53.26,4.65,,North Shore Warhawks 19U AA,OZ play,3
+188,4243,4255,12,53.26,4.65,,North Shore Warhawks 19U AA,Shots,3

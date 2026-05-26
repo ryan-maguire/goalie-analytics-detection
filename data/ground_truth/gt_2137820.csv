@@ -1,0 +1,243 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-6,6,12,30.48,12.96,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+2,-6,6,12,53.9,8.26,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+3,20,32,12,53.9,8.26,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+4,20,32,12,53.9,8.26,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+5,56,68,12,53.26,15.66,,Boston Hockey Academy 19U,Goals,1
+6,56,68,12,53.26,15.66,,Boston Hockey Academy 19U,OZ play,1
+7,56,68,12,53.26,15.66,,Boston Hockey Academy 19U,Shots,1
+8,120,132,12,51.51,19.67,,Boston Hockey Academy 19U,OZ play,1
+9,131,143,12,49.23,23.54,,Boston Hockey Academy 19U,OZ play,1
+10,131,143,12,49.23,23.54,,Boston Hockey Academy 19U,Shots,1
+11,135,147,12,54.45,3.32,,Boston Hockey Academy 19U,OZ play,1
+12,135,147,12,54.45,3.32,,Boston Hockey Academy 19U,Shots,1
+13,167,179,12,9.45,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+14,200,212,12,52.71,23.16,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+15,200,212,12,52.71,23.16,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+16,208,220,12,44.18,22.3,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+17,208,220,12,44.18,22.3,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+18,236,248,12,9.45,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+19,268,280,12,55.83,19.55,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+20,268,280,12,55.83,19.55,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+21,303,315,12,51.51,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+22,330,342,12,39.97,0.85,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+23,330,342,12,39.97,0.85,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+24,356,368,12,54.54,17.84,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+25,356,368,12,54.54,17.84,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+26,419,431,12,52.8,2.94,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+27,419,431,12,52.8,2.94,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+28,438,450,12,51.51,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+29,446,458,12,57.02,14.62,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+30,446,458,12,57.02,14.62,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+31,473,485,12,51.51,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+32,507,519,12,49.87,7.12,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+33,507,519,12,49.87,7.12,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+34,546,558,12,51.51,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+35,551,563,12,54.45,12.34,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+36,551,563,12,54.45,12.34,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+37,555,567,12,40.98,0.57,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+38,555,567,12,40.98,0.57,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+39,569,581,12,50.51,10.16,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+40,569,581,12,50.51,10.16,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+41,578,590,12,53.9,10.72,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+42,578,590,12,53.9,10.72,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+43,586,598,12,42.63,3.99,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+44,586,598,12,42.63,3.99,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+45,594,606,12,43.73,8.45,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+46,594,606,12,43.73,8.45,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+47,669,681,12,51.88,5.6,,Boston Hockey Academy 19U,OZ play,1
+48,669,681,12,51.88,5.6,,Boston Hockey Academy 19U,Shots,1
+49,674,686,12,42.48,23.69,,Boston Hockey Academy 19U,OZ play,1
+50,674,686,12,42.48,23.69,,Boston Hockey Academy 19U,Shots,1
+51,687,699,12,53.63,10.44,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+52,687,699,12,53.63,10.44,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+53,713,725,12,57.2,15.19,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+54,713,725,12,57.2,15.19,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+55,718,730,12,55.92,14.9,,Carolina Jr. Hurricanes 19U AAA,Goals,1
+56,718,730,12,55.92,14.9,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+57,718,730,12,55.92,14.9,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+58,747,759,12,30.48,12.96,,Boston Hockey Academy 19U,OZ play,1
+59,783,795,12,30.98,7.31,,Boston Hockey Academy 19U,OZ play,1
+60,819,831,12,51.51,19.67,,Boston Hockey Academy 19U,OZ play,1
+61,823,835,12,42.72,24.39,,Boston Hockey Academy 19U,OZ play,1
+62,823,835,12,42.72,24.39,,Boston Hockey Academy 19U,Shots,1
+63,840,852,12,47.94,12.15,,Boston Hockey Academy 19U,OZ play,1
+64,840,852,12,47.94,12.15,,Boston Hockey Academy 19U,Shots,1
+65,870,882,12,50.42,7.5,,Boston Hockey Academy 19U,OZ play,1
+66,870,882,12,50.42,7.5,,Boston Hockey Academy 19U,Shots,1
+67,879,891,12,43.08,9.11,,Boston Hockey Academy 19U,OZ play,1
+68,879,891,12,43.08,9.11,,Boston Hockey Academy 19U,Shots,1
+69,965,977,12,50.33,3.42,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+70,965,977,12,50.33,3.42,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+71,975,987,12,44.83,13.1,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+72,975,987,12,44.83,13.1,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+73,1007,1019,12,9.45,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+74,1045,1057,12,54.82,12.53,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+75,1045,1057,12,54.82,12.53,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+76,1048,1060,12,57.02,15.75,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+77,1048,1060,12,57.02,15.75,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+78,1071,1083,12,51.51,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+79,1074,1086,12,46.38,16.89,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+80,1074,1086,12,46.38,16.89,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+81,1105,1117,12,24.38,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+82,1111,1123,12,42.35,21.16,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+83,1111,1123,12,42.35,21.16,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+84,1128,1140,12,9.45,6.25,,Boston Hockey Academy 19U,OZ play,1
+85,1143,1155,12,47.58,5.6,,Boston Hockey Academy 19U,OZ play,1
+86,1143,1155,12,47.58,5.6,,Boston Hockey Academy 19U,Shots,1
+87,1199,1211,12,9.45,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+88,1232,1244,12,56.56,16.32,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+89,1232,1244,12,56.56,16.32,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+90,1260,1272,12,9.45,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+91,1263,1275,12,49.59,18.6,,Carolina Jr. Hurricanes 19U AAA,OZ play,1
+92,1263,1275,12,49.59,18.6,,Carolina Jr. Hurricanes 19U AAA,Shots,1
+93,1272,1284,12,30.48,12.96,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+94,1282,1294,12,54.18,11.86,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+95,1282,1294,12,54.18,11.86,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+96,1302,1314,12,9.45,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+97,1308,1320,12,54.08,11.1,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+98,1308,1320,12,54.08,11.1,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+99,1319,1331,12,53.44,8.07,,Carolina Jr. Hurricanes 19U AAA,Goals,2
+100,1319,1331,12,53.44,8.07,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+101,1319,1331,12,53.44,8.07,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+102,1354,1366,12,30.48,12.96,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+103,1392,1404,12,50.78,3.61,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+104,1392,1404,12,50.78,3.61,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+105,1435,1447,12,51.51,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+106,1472,1484,12,47.58,3.99,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+107,1472,1484,12,47.58,3.99,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+108,1499,1511,12,50.69,19.65,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+109,1499,1511,12,50.69,19.65,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+110,1545,1557,12,36.58,19.67,,Boston Hockey Academy 19U,OZ play,2
+111,1584,1596,12,48.31,1.9,,Boston Hockey Academy 19U,OZ play,2
+112,1584,1596,12,48.31,1.9,,Boston Hockey Academy 19U,Shots,2
+113,1599,1611,12,52.07,16.04,,Boston Hockey Academy 19U,OZ play,2
+114,1599,1611,12,52.07,16.04,,Boston Hockey Academy 19U,Shots,2
+115,1601,1613,12,53.72,11.48,,Boston Hockey Academy 19U,OZ play,2
+116,1601,1613,12,53.72,11.48,,Boston Hockey Academy 19U,Shots,2
+117,1603,1615,12,1.38,13.76,,Boston Hockey Academy 19U,OZ play,2
+118,1731,1743,12,9.45,19.67,,Boston Hockey Academy 19U,OZ play,2
+119,1739,1751,12,52.62,17.56,,Boston Hockey Academy 19U,OZ play,2
+120,1739,1751,12,52.62,17.56,,Boston Hockey Academy 19U,Shots,2
+121,1751,1763,12,50.51,6.83,,Boston Hockey Academy 19U,OZ play,2
+122,1751,1763,12,50.51,6.83,,Boston Hockey Academy 19U,Shots,2
+123,1758,1770,12,42.17,8.54,,Boston Hockey Academy 19U,OZ play,2
+124,1758,1770,12,42.17,8.54,,Boston Hockey Academy 19U,Shots,2
+125,1770,1782,12,40.61,12.15,,Boston Hockey Academy 19U,OZ play,2
+126,1770,1782,12,40.61,12.15,,Boston Hockey Academy 19U,Shots,2
+127,1782,1794,12,43.82,4.37,,Boston Hockey Academy 19U,OZ play,2
+128,1782,1794,12,43.82,4.37,,Boston Hockey Academy 19U,Shots,2
+129,1796,1808,12,52.53,15.85,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+130,1796,1808,12,52.53,15.85,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+131,1812,1824,12,57.29,2.85,,Boston Hockey Academy 19U,OZ play,2
+132,1812,1824,12,57.29,2.85,,Boston Hockey Academy 19U,Shots,2
+133,1838,1850,12,51.51,6.25,,Boston Hockey Academy 19U,OZ play,2
+134,1838,1850,12,51.52,9.78,,Boston Hockey Academy 19U,OZ play,2
+135,1838,1850,12,51.52,9.78,,Boston Hockey Academy 19U,Shots,2
+136,1851,1863,12,48.13,6.17,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+137,1851,1863,12,48.13,6.17,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+138,1866,1878,12,26.77,1.14,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+139,1866,1878,12,26.77,1.14,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+140,1894,1906,12,51.51,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+141,1896,1908,12,42.26,3.13,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+142,1896,1908,12,42.26,3.13,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+143,1913,1925,12,54.63,9.3,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+144,1913,1925,12,54.63,9.3,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+145,1964,1976,12,53.44,11.39,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+146,1964,1976,12,53.44,11.39,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+147,1989,2001,12,9.45,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+148,2051,2063,12,43.27,3.8,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+149,2051,2063,12,43.27,3.8,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+150,2078,2090,12,9.45,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+151,2155,2167,12,42.08,1.23,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+152,2155,2167,12,42.08,1.23,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+153,2178,2190,12,51.51,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+154,2178,2190,12,56.28,10.53,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+155,2184,2196,12,56.28,10.53,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+156,2184,2196,12,56.28,10.53,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+157,2251,2263,12,39.97,23.06,,Boston Hockey Academy 19U,OZ play,2
+158,2251,2263,12,39.97,23.06,,Boston Hockey Academy 19U,Shots,2
+159,2288,2300,12,24.66,0.95,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+160,2288,2300,12,24.66,0.95,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+161,2294,2306,12,24.66,0.95,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+162,2300,2312,12,44.28,4.56,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+163,2300,2312,12,44.28,4.56,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+164,2310,2322,12,55,14.43,,Boston Hockey Academy 19U,OZ play,2
+165,2310,2322,12,55,14.43,,Boston Hockey Academy 19U,Shots,2
+166,2318,2330,12,44.64,12.81,,Boston Hockey Academy 19U,OZ play,2
+167,2318,2330,12,44.64,12.81,,Boston Hockey Academy 19U,Shots,2
+168,2391,2403,12,52.8,10.91,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+169,2391,2403,12,52.8,10.91,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+170,2400,2412,12,40.98,22.4,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+171,2400,2412,12,40.98,22.4,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+172,2408,2420,12,50.05,22.02,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+173,2408,2420,12,50.05,22.02,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+174,2426,2438,12,50.51,22.02,,Boston Hockey Academy 19U,OZ play,2
+175,2426,2438,12,50.51,22.02,,Boston Hockey Academy 19U,Shots,2
+176,2460,2472,12,9.45,6.25,,Boston Hockey Academy 19U,OZ play,2
+177,2469,2481,12,50.88,18.22,,Boston Hockey Academy 19U,OZ play,2
+178,2469,2481,12,50.88,18.22,,Boston Hockey Academy 19U,Shots,2
+179,2515,2527,12,30.48,12.96,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+180,2525,2537,12,53.9,12.34,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+181,2525,2537,12,53.9,12.34,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+182,2531,2543,12,46.66,1.99,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+183,2531,2543,12,46.66,1.99,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+184,2539,2551,12,40.43,2.85,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+185,2539,2551,12,40.43,2.85,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+186,2587,2599,12,51.51,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+187,2587,2599,12,52.98,3.7,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+188,2604,2616,12,52.98,3.7,,Carolina Jr. Hurricanes 19U AAA,OZ play,2
+189,2604,2616,12,52.98,3.7,,Carolina Jr. Hurricanes 19U AAA,Shots,2
+190,2631,2643,12,40.15,9.21,,Boston Hockey Academy 19U,OZ play,2
+191,2631,2643,12,40.15,9.21,,Boston Hockey Academy 19U,Shots,2
+192,2685,2697,12,51.51,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+193,2686,2698,12,43.08,2.18,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+194,2686,2698,12,43.08,2.18,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+195,2701,2713,12,51.51,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+196,2807,2819,12,50.69,19.36,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+197,2807,2819,12,50.69,19.36,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+198,2831,2843,12,51.51,19.67,,Boston Hockey Academy 19U,OZ play,3
+199,2847,2859,12,55.09,12.15,,Boston Hockey Academy 19U,OZ play,3
+200,2847,2859,12,55.09,12.15,,Boston Hockey Academy 19U,Shots,3
+201,2903,2915,12,40.43,14.33,,Boston Hockey Academy 19U,OZ play,3
+202,2903,2915,12,51.51,19.67,,Boston Hockey Academy 19U,OZ play,3
+203,2907,2919,12,40.43,14.33,,Boston Hockey Academy 19U,OZ play,3
+204,2907,2919,12,40.43,14.33,,Boston Hockey Academy 19U,Shots,3
+205,3056,3068,12,49.32,6.64,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+206,3056,3068,12,49.32,6.64,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+207,3072,3084,12,45.28,12.53,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+208,3072,3084,12,45.28,12.53,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+209,3123,3135,12,30.48,12.96,,Boston Hockey Academy 19U,OZ play,3
+210,3133,3145,12,52.16,17.84,,Boston Hockey Academy 19U,OZ play,3
+211,3133,3145,12,52.16,17.84,,Boston Hockey Academy 19U,Shots,3
+212,3179,3191,12,53.44,13.38,,Boston Hockey Academy 19U,OZ play,3
+213,3179,3191,12,53.44,13.38,,Boston Hockey Academy 19U,Shots,3
+214,3253,3265,12,9.45,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+215,3253,3265,12,42.35,4.08,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+216,3259,3271,12,42.35,4.08,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+217,3259,3271,12,42.35,4.08,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+218,3289,3301,12,45.38,24.58,,Boston Hockey Academy 19U,OZ play,3
+219,3289,3301,12,45.38,24.58,,Boston Hockey Academy 19U,Shots,3
+220,3296,3308,12,40.7,3.8,,Boston Hockey Academy 19U,OZ play,3
+221,3296,3308,12,40.7,3.8,,Boston Hockey Academy 19U,Shots,3
+222,3374,3386,12,51.51,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+223,3446,3458,12,55.18,8.45,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+224,3446,3458,12,55.18,8.45,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+225,3506,3518,12,51.51,6.25,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+226,3507,3519,12,42.08,5.13,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+227,3507,3519,12,42.08,5.13,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+228,3548,3560,12,24.38,19.67,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+229,3569,3581,12,48.58,17.65,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+230,3569,3581,12,48.58,17.65,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+231,3622,3634,12,39.97,19.36,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+232,3622,3634,12,39.97,19.36,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+233,3686,3698,12,46.66,24.11,,Carolina Jr. Hurricanes 19U AAA,OZ play,3
+234,3686,3698,12,46.66,24.11,,Carolina Jr. Hurricanes 19U AAA,Shots,3
+235,3751,3763,12,45.74,2.66,,Boston Hockey Academy 19U,OZ play,3
+236,3751,3763,12,45.74,2.66,,Boston Hockey Academy 19U,Shots,3
+237,3760,3772,12,49.78,5.88,,Boston Hockey Academy 19U,OZ play,3
+238,3760,3772,12,49.78,5.88,,Boston Hockey Academy 19U,Shots,3
+239,3765,3777,12,46.75,16.32,,Boston Hockey Academy 19U,OZ play,3
+240,3765,3777,12,46.75,16.32,,Boston Hockey Academy 19U,Shots,3
+241,3782,3794,12,39.23,1.61,,Boston Hockey Academy 19U,OZ play,3
+242,3782,3794,12,39.23,1.61,,Boston Hockey Academy 19U,Shots,3

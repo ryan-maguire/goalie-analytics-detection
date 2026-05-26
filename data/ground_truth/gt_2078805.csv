@@ -1,0 +1,245 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-5,7,12,30.48,12.96,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+2,10,22,12,52.8,18.51,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+3,10,22,12,52.8,18.51,,Buffalo Jr. Sabres 14U AAA,Shots,1
+4,16,28,12,40.88,4.18,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+5,16,28,12,40.88,4.18,,Buffalo Jr. Sabres 14U AAA,Shots,1
+6,33,45,12,50.69,8.92,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+7,33,45,12,50.69,8.92,,Buffalo Jr. Sabres 14U AAA,Shots,1
+8,49,61,12,40.98,12.05,,Boston Advantage U14,OZ play,1
+9,135,147,12,9.45,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+10,138,150,12,53.99,7.31,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+11,138,150,12,53.99,7.31,,Buffalo Jr. Sabres 14U AAA,Shots,1
+12,188,200,12,9.45,6.25,,Boston Advantage U14,OZ play,1
+13,196,208,12,45.38,2.75,,Boston Advantage U14,OZ play,1
+14,196,208,12,45.38,2.75,,Boston Advantage U14,Shots,1
+15,202,214,12,50.05,18.22,,Boston Advantage U14,OZ play,1
+16,202,214,12,50.05,18.22,,Boston Advantage U14,Shots,1
+17,237,249,12,47.39,1.99,,Boston Advantage U14,OZ play,1
+18,237,249,12,47.39,1.99,,Boston Advantage U14,Shots,1
+19,256,268,12,9.45,19.67,,Boston Advantage U14,OZ play,1
+20,256,268,12,51.7,16.04,,Boston Advantage U14,OZ play,1
+21,307,319,12,51.7,16.04,,Boston Advantage U14,OZ play,1
+22,307,319,12,51.7,16.04,,Boston Advantage U14,Shots,1
+23,326,338,12,45.83,19.84,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+24,326,338,12,45.83,19.84,,Buffalo Jr. Sabres 14U AAA,Shots,1
+25,380,392,12,9.45,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+26,383,395,12,50.69,8.26,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+27,383,395,12,50.69,8.26,,Buffalo Jr. Sabres 14U AAA,Shots,1
+28,387,399,12,52.8,20.12,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+29,387,399,12,52.8,20.12,,Buffalo Jr. Sabres 14U AAA,Shots,1
+30,397,409,12,50.14,19.17,,Boston Advantage U14,OZ play,1
+31,397,409,12,50.14,19.17,,Boston Advantage U14,Shots,1
+32,418,430,12,51.51,19.67,,Boston Advantage U14,OZ play,1
+33,421,433,12,40.79,13.48,,Boston Advantage U14,OZ play,1
+34,421,433,12,40.79,13.48,,Boston Advantage U14,Shots,1
+35,442,454,12,41.53,13.67,,Boston Advantage U14,OZ play,1
+36,442,454,12,51.51,19.67,,Boston Advantage U14,OZ play,1
+37,498,510,12,41.53,13.67,,Boston Advantage U14,OZ play,1
+38,498,510,12,41.53,13.67,,Boston Advantage U14,Shots,1
+39,505,517,12,44.64,17.94,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+40,505,517,12,44.64,17.94,,Buffalo Jr. Sabres 14U AAA,Shots,1
+41,509,521,12,54.36,5.31,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+42,509,521,12,54.36,5.31,,Buffalo Jr. Sabres 14U AAA,Shots,1
+43,520,532,12,50.97,9.68,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+44,520,532,12,50.97,9.68,,Buffalo Jr. Sabres 14U AAA,Shots,1
+45,531,543,12,49.32,11.86,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+46,531,543,12,49.32,11.86,,Buffalo Jr. Sabres 14U AAA,Shots,1
+47,572,584,12,2,15,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+48,599,611,12,54.91,17.75,,Buffalo Jr. Sabres 14U AAA,Goals,1
+49,599,611,12,54.91,17.75,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+50,599,611,12,54.91,17.75,,Buffalo Jr. Sabres 14U AAA,Shots,1
+51,627,639,12,30.48,12.96,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+52,663,675,12,46.2,17.46,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+53,663,675,12,46.2,17.46,,Buffalo Jr. Sabres 14U AAA,Shots,1
+54,769,781,12,36.58,19.67,,Boston Advantage U14,OZ play,1
+55,824,836,12,49.23,3.7,,Boston Advantage U14,OZ play,1
+56,824,836,12,49.23,3.7,,Boston Advantage U14,Shots,1
+57,869,881,12,24.38,19.67,,Boston Advantage U14,OZ play,1
+58,921,933,12,47.67,15.75,,Boston Advantage U14,OZ play,1
+59,921,933,12,47.67,15.75,,Boston Advantage U14,Shots,1
+60,946,958,12,9.45,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+61,961,973,12,53.53,11.77,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+62,961,973,12,53.53,11.77,,Buffalo Jr. Sabres 14U AAA,Shots,1
+63,982,994,12,51.51,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+64,999,1011,12,55.09,12.53,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+65,999,1011,12,55.09,12.53,,Buffalo Jr. Sabres 14U AAA,Shots,1
+66,1020,1032,12,9.45,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+67,1032,1044,12,52.8,12.05,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+68,1032,1044,12,52.8,12.05,,Buffalo Jr. Sabres 14U AAA,Shots,1
+69,1039,1051,12,52.8,16.8,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+70,1039,1051,12,52.8,16.8,,Buffalo Jr. Sabres 14U AAA,Shots,1
+71,1050,1062,12,54.36,18.6,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+72,1050,1062,12,54.36,18.6,,Buffalo Jr. Sabres 14U AAA,Shots,1
+73,1091,1103,12,49.78,19.36,,Boston Advantage U14,OZ play,1
+74,1091,1103,12,49.78,19.36,,Boston Advantage U14,Shots,1
+75,1120,1132,12,41.34,15.28,,Boston Advantage U14,OZ play,1
+76,1120,1132,12,41.34,15.28,,Boston Advantage U14,Shots,1
+77,1141,1153,12,9.45,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+78,1149,1161,12,53.08,15.38,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+79,1149,1161,12,53.08,15.38,,Buffalo Jr. Sabres 14U AAA,Shots,1
+80,1169,1181,12,49.78,14.33,,Buffalo Jr. Sabres 14U AAA,OZ play,1
+81,1169,1181,12,49.78,14.33,,Buffalo Jr. Sabres 14U AAA,Shots,1
+82,1225,1237,12,30.48,12.96,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+83,1246,1258,12,38.68,19.65,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+84,1246,1258,12,38.68,19.65,,Buffalo Jr. Sabres 14U AAA,Shots,2
+85,1253,1265,12,50.33,10.53,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+86,1253,1265,12,50.33,10.53,,Buffalo Jr. Sabres 14U AAA,Shots,2
+87,1327,1339,12,48.03,8.92,,Boston Advantage U14,OZ play,2
+88,1327,1339,12,48.03,8.92,,Boston Advantage U14,Shots,2
+89,1349,1361,12,9.45,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+90,1362,1374,12,52.25,12.53,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+91,1362,1374,12,52.25,12.53,,Buffalo Jr. Sabres 14U AAA,Shots,2
+92,1384,1396,12,9.45,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+93,1488,1500,12,49.23,24.49,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+94,1488,1500,12,49.23,24.49,,Buffalo Jr. Sabres 14U AAA,Shots,2
+95,1533,1545,12,50.23,12.24,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+96,1533,1545,12,50.23,12.24,,Buffalo Jr. Sabres 14U AAA,Shots,2
+97,1557,1569,12,9.45,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+98,1580,1592,12,47.39,12.62,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+99,1580,1592,12,47.39,12.62,,Buffalo Jr. Sabres 14U AAA,Shots,2
+100,1605,1617,12,51.51,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+101,1610,1622,12,51.79,11.96,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+102,1610,1622,12,51.79,11.96,,Buffalo Jr. Sabres 14U AAA,Shots,2
+103,1642,1654,12,51.51,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+104,1654,1666,12,48.95,4.56,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+105,1654,1666,12,48.95,4.56,,Buffalo Jr. Sabres 14U AAA,Shots,2
+106,1659,1671,12,39.97,21.35,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+107,1659,1671,12,39.97,21.35,,Buffalo Jr. Sabres 14U AAA,Shots,2
+108,1674,1686,12,50.88,12.34,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+109,1674,1686,12,50.88,12.34,,Buffalo Jr. Sabres 14U AAA,Shots,2
+110,1682,1694,12,41.07,20.69,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+111,1682,1694,12,41.07,20.69,,Buffalo Jr. Sabres 14U AAA,Shots,2
+112,1740,1752,12,46.11,10.72,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+113,1740,1752,12,46.11,10.72,,Buffalo Jr. Sabres 14U AAA,Shots,2
+114,1742,1754,12,52.16,11.48,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+115,1742,1754,12,52.16,11.48,,Buffalo Jr. Sabres 14U AAA,Shots,2
+116,1772,1784,12,50.6,17.08,,Buffalo Jr. Sabres 14U AAA,Goals,2
+117,1772,1784,12,50.6,17.08,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+118,1772,1784,12,50.6,17.08,,Buffalo Jr. Sabres 14U AAA,Shots,2
+119,1838,1850,12,36.58,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+120,1841,1853,12,45.47,10.63,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+121,1841,1853,12,45.47,10.63,,Buffalo Jr. Sabres 14U AAA,Shots,2
+122,1886,1898,12,,,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+123,1886,1898,12,,,,Buffalo Jr. Sabres 14U AAA,Shots,2
+124,1888,1900,12,54.45,13.48,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+125,1888,1900,12,54.45,13.48,,Buffalo Jr. Sabres 14U AAA,Shots,2
+126,1893,1905,12,53.9,13.95,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+127,1893,1905,12,53.9,13.95,,Buffalo Jr. Sabres 14U AAA,Shots,2
+128,1924,1936,12,51.51,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+129,1975,1987,12,55.92,15.66,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+130,1975,1987,12,55.92,15.66,,Buffalo Jr. Sabres 14U AAA,Shots,2
+131,1980,1992,12,46.93,11.1,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+132,1980,1992,12,46.93,11.1,,Buffalo Jr. Sabres 14U AAA,Shots,2
+133,1987,1999,12,54.54,7.59,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+134,1987,1999,12,54.54,7.59,,Buffalo Jr. Sabres 14U AAA,Shots,2
+135,2010,2022,12,51.51,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+136,2034,2046,12,52.16,11.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+137,2034,2046,12,52.16,11.67,,Buffalo Jr. Sabres 14U AAA,Shots,2
+138,2080,2092,12,36.58,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+139,2091,2103,12,55.18,17.94,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+140,2091,2103,12,55.18,17.94,,Buffalo Jr. Sabres 14U AAA,Shots,2
+141,2100,2112,12,52.62,5.79,,Buffalo Jr. Sabres 14U AAA,Goals,2
+142,2100,2112,12,52.62,5.79,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+143,2100,2112,12,52.62,5.79,,Buffalo Jr. Sabres 14U AAA,Shots,2
+144,2134,2146,12,30.48,12.96,,Boston Advantage U14,OZ play,2
+145,2135,2147,12,29.98,14.24,,Boston Advantage U14,OZ play,2
+146,2172,2184,12,51.51,19.67,,Boston Advantage U14,OZ play,2
+147,2182,2194,12,45.19,9.97,,Boston Advantage U14,OZ play,2
+148,2182,2194,12,45.19,9.97,,Boston Advantage U14,Shots,2
+149,2188,2200,12,54.73,9.97,,Boston Advantage U14,OZ play,2
+150,2188,2200,12,54.73,9.97,,Boston Advantage U14,Shots,2
+151,2193,2205,12,48.77,22.68,,Boston Advantage U14,OZ play,2
+152,2193,2205,12,48.77,22.68,,Boston Advantage U14,Shots,2
+153,2225,2237,12,51.51,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+154,2238,2250,12,2,15,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+155,2255,2267,12,2,15,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+156,2265,2277,12,51.43,15.75,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+157,2265,2277,12,51.43,15.75,,Buffalo Jr. Sabres 14U AAA,Shots,2
+158,2298,2310,12,51.51,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+159,2301,2313,12,50.97,15.94,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+160,2301,2313,12,50.97,15.94,,Buffalo Jr. Sabres 14U AAA,Shots,2
+161,2342,2354,12,54.73,14.9,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+162,2342,2354,12,54.73,14.9,,Buffalo Jr. Sabres 14U AAA,Shots,2
+163,2380,2392,12,55.64,13.95,,Buffalo Jr. Sabres 14U AAA,Goals,2
+164,2380,2392,12,55.64,13.95,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+165,2380,2392,12,55.64,13.95,,Buffalo Jr. Sabres 14U AAA,Shots,2
+166,2412,2424,12,30.48,12.96,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+167,2412,2424,12,49.13,11.2,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+168,2421,2433,12,49.13,11.2,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+169,2421,2433,12,49.13,11.2,,Buffalo Jr. Sabres 14U AAA,Shots,2
+170,2435,2447,12,48.4,24.39,,Boston Advantage U14,OZ play,2
+171,2473,2485,12,51.51,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+172,2477,2489,12,52.25,13.38,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+173,2477,2489,12,52.25,13.38,,Buffalo Jr. Sabres 14U AAA,Shots,2
+174,2491,2503,12,51.51,19.67,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+175,2498,2510,12,50.51,19.46,,Buffalo Jr. Sabres 14U AAA,Goals,2
+176,2498,2510,12,50.51,19.46,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+177,2498,2510,12,50.51,19.46,,Buffalo Jr. Sabres 14U AAA,Shots,2
+178,2528,2540,12,30.48,12.96,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+179,2528,2540,12,50.69,7.78,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+180,2547,2559,12,50.69,7.78,,Buffalo Jr. Sabres 14U AAA,OZ play,2
+181,2547,2559,12,50.69,7.78,,Buffalo Jr. Sabres 14U AAA,Shots,2
+182,2559,2571,12,15.22,21.07,,Boston Advantage U14,OZ play,2
+183,2604,2616,12,9.45,19.67,,Boston Advantage U14,OZ play,2
+184,2612,2624,12,39.78,2.56,,Boston Advantage U14,OZ play,2
+185,2612,2624,12,39.78,2.56,,Boston Advantage U14,Shots,2
+186,2624,2636,12,51.51,6.25,,Boston Advantage U14,OZ play,2
+187,2626,2638,12,44.55,6.36,,Boston Advantage U14,OZ play,2
+188,2626,2638,12,44.55,6.36,,Boston Advantage U14,Shots,2
+189,2762,2774,12,30.48,12.96,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+190,2804,2816,12,51.88,4.37,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+191,2804,2816,12,51.88,4.37,,Buffalo Jr. Sabres 14U AAA,Shots,3
+192,2810,2822,12,48.95,16.7,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+193,2810,2822,12,48.95,16.7,,Buffalo Jr. Sabres 14U AAA,Shots,3
+194,2849,2861,12,9.45,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+195,2882,2894,12,56.47,15.96,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+196,2882,2894,12,56.47,15.96,,Buffalo Jr. Sabres 14U AAA,Shots,3
+197,2906,2918,12,51.51,19.67,,Boston Advantage U14,OZ play,3
+198,2926,2938,12,49.96,14.93,,Boston Advantage U14,OZ play,3
+199,2926,2938,12,49.96,14.93,,Boston Advantage U14,Shots,3
+200,3039,3051,12,36.58,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+201,3077,3089,12,55,14.42,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+202,3077,3089,12,55,14.42,,Buffalo Jr. Sabres 14U AAA,Shots,3
+203,3094,3106,12,40.06,8,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+204,3094,3106,12,40.06,8,,Buffalo Jr. Sabres 14U AAA,Shots,3
+205,3096,3108,12,44.55,8.17,,Boston Advantage U14,OZ play,3
+206,3152,3164,12,51.51,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+207,3162,3174,12,55.46,13.12,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+208,3162,3174,12,55.46,13.12,,Buffalo Jr. Sabres 14U AAA,Shots,3
+209,3263,3275,12,24.38,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+210,3274,3286,12,56.28,16.47,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+211,3274,3286,12,56.28,16.47,,Buffalo Jr. Sabres 14U AAA,Shots,3
+212,3285,3297,12,48.77,5.21,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+213,3285,3297,12,48.77,5.21,,Buffalo Jr. Sabres 14U AAA,Shots,3
+214,3286,3298,12,55.18,13.4,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+215,3286,3298,12,55.18,13.4,,Buffalo Jr. Sabres 14U AAA,Shots,3
+216,3287,3299,12,55.46,14.05,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+217,3287,3299,12,55.46,14.05,,Buffalo Jr. Sabres 14U AAA,Shots,3
+218,3320,3332,12,51.51,6.25,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+219,3337,3349,12,52.62,11.91,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+220,3337,3349,12,52.62,11.91,,Buffalo Jr. Sabres 14U AAA,Shots,3
+221,3344,3356,12,52.25,14.88,,Buffalo Jr. Sabres 14U AAA,Goals,3
+222,3344,3356,12,52.25,14.88,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+223,3344,3356,12,52.25,14.88,,Buffalo Jr. Sabres 14U AAA,Shots,3
+224,3375,3387,12,30.48,12.96,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+225,3391,3403,12,47.3,16.7,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+226,3391,3403,12,47.3,16.7,,Buffalo Jr. Sabres 14U AAA,Shots,3
+227,3447,3459,12,51.98,10.8,,Buffalo Jr. Sabres 14U AAA,Goals,3
+228,3447,3459,12,51.98,10.8,,Buffalo Jr. Sabres 14U AAA,OZ play,3
+229,3447,3459,12,51.98,10.8,,Buffalo Jr. Sabres 14U AAA,Shots,3
+230,3471,3483,12,30.48,12.96,,Boston Advantage U14,OZ play,3
+231,3501,3513,12,14.48,2.68,,Boston Advantage U14,OZ play,3
+232,3538,3550,12,9.45,6.25,,Boston Advantage U14,OZ play,3
+233,3579,3591,12,51.43,19.21,,Boston Advantage U14,OZ play,3
+234,3579,3591,12,51.43,19.21,,Boston Advantage U14,Shots,3
+235,3626,3638,12,9.45,19.67,,Boston Advantage U14,OZ play,3
+236,3641,3653,12,45.74,22.1,,Boston Advantage U14,OZ play,3
+237,3641,3653,12,45.74,22.1,,Boston Advantage U14,Shots,3
+238,3643,3655,12,52.16,13.72,,Boston Advantage U14,OZ play,3
+239,3643,3655,12,52.16,13.72,,Boston Advantage U14,Shots,3
+240,3692,3704,12,51.51,19.67,,Boston Advantage U14,OZ play,3
+241,3700,3712,12,40.79,22.75,,Boston Advantage U14,OZ play,3
+242,3700,3712,12,40.79,22.75,,Boston Advantage U14,Shots,3
+243,3706,3718,12,44.64,23.35,,Boston Advantage U14,OZ play,3
+244,3706,3718,12,44.64,23.35,,Boston Advantage U14,Shots,3

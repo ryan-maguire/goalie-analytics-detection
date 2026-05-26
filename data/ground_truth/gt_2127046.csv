@@ -1,0 +1,181 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,88,100,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,1
+2,99,111,12,43.08,6.74,,North Shore Warhawks 19U AA,OZ play,1
+3,99,111,12,43.08,6.74,,North Shore Warhawks 19U AA,Shots,1
+4,232,244,12,36.58,19.67,,Team Long Island 19U,OZ play,1
+5,248,260,12,41.71,13.86,,Team Long Island 19U,OZ play,1
+6,248,260,12,41.71,13.86,,Team Long Island 19U,Shots,1
+7,250,262,12,55.09,12.81,,Team Long Island 19U,OZ play,1
+8,250,262,12,55.09,12.81,,Team Long Island 19U,Shots,1
+9,277,289,12,9.45,6.25,,Team Long Island 19U,OZ play,1
+10,288,300,12,49.59,8.92,,Team Long Island 19U,OZ play,1
+11,288,300,12,49.59,8.92,,Team Long Island 19U,Shots,1
+12,491,503,12,9.45,19.67,,Team Long Island 19U,OZ play,1
+13,505,517,12,53.99,13.76,,Team Long Island 19U,OZ play,1
+14,505,517,12,53.99,13.76,,Team Long Island 19U,Shots,1
+15,600,612,12,36.58,19.67,,North Shore Warhawks 19U AA,OZ play,1
+16,629,641,12,46.48,11.2,,North Shore Warhawks 19U AA,OZ play,1
+17,629,641,12,46.48,11.2,,North Shore Warhawks 19U AA,Shots,1
+18,655,667,12,9.45,6.25,,Team Long Island 19U,OZ play,1
+19,699,711,12,12.19,1.33,,Team Long Island 19U,OZ play,1
+20,745,757,12,51.51,19.67,,Team Long Island 19U,OZ play,1
+21,800,812,12,48.77,12.91,,Team Long Island 19U,OZ play,1
+22,800,812,12,48.77,12.91,,Team Long Island 19U,Shots,1
+23,844,856,12,47.85,22.4,,Team Long Island 19U,OZ play,1
+24,844,856,12,47.85,22.4,,Team Long Island 19U,Shots,1
+25,850,862,12,56.1,14.9,,Team Long Island 19U,OZ play,1
+26,850,862,12,56.1,14.9,,Team Long Island 19U,Shots,1
+27,867,879,12,41.8,19.27,,North Shore Warhawks 19U AA,OZ play,1
+28,867,879,12,41.8,19.27,,North Shore Warhawks 19U AA,Shots,1
+29,897,909,12,42.44,4.18,,Team Long Island 19U,OZ play,1
+30,897,909,12,42.44,4.18,,Team Long Island 19U,Shots,1
+31,920,932,12,51.51,6.25,,Team Long Island 19U,OZ play,1
+32,922,934,12,50.33,5.6,,Team Long Island 19U,OZ play,1
+33,922,934,12,50.33,5.6,,Team Long Island 19U,Shots,1
+34,924,936,12,53.08,8.64,,Team Long Island 19U,OZ play,1
+35,924,936,12,53.08,8.64,,Team Long Island 19U,Shots,1
+36,1019,1031,12,51.51,6.25,,Team Long Island 19U,OZ play,1
+37,1024,1036,12,39.88,7.12,,Team Long Island 19U,OZ play,1
+38,1024,1036,12,39.88,7.12,,Team Long Island 19U,Shots,1
+39,1101,1113,12,24.38,6.25,,North Shore Warhawks 19U AA,OZ play,1
+40,1117,1129,12,40.61,8.64,,North Shore Warhawks 19U AA,OZ play,1
+41,1117,1129,12,40.61,8.64,,North Shore Warhawks 19U AA,Shots,1
+42,1229,1241,12,30.48,12.96,,Team Long Island 19U,OZ play,2
+43,1244,1256,12,50.42,19.55,,Team Long Island 19U,OZ play,2
+44,1244,1256,12,50.42,19.55,,Team Long Island 19U,Shots,2
+45,1252,1264,12,53.81,8.54,,Team Long Island 19U,OZ play,2
+46,1252,1264,12,53.81,8.54,,Team Long Island 19U,Shots,2
+47,1269,1281,12,51.51,6.25,,Team Long Island 19U,OZ play,2
+48,1287,1299,12,52.53,19.27,,Team Long Island 19U,Goals,2
+49,1287,1299,12,52.53,19.27,,Team Long Island 19U,OZ play,2
+50,1287,1299,12,52.53,19.27,,Team Long Island 19U,Shots,2
+51,1318,1330,12,30.48,12.96,,Team Long Island 19U,OZ play,2
+52,1389,1401,12,53.81,12.62,,Team Long Island 19U,OZ play,2
+53,1389,1401,12,53.81,12.62,,Team Long Island 19U,Shots,2
+54,1414,1426,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,2
+55,1449,1461,12,47.3,25.25,,North Shore Warhawks 19U AA,OZ play,2
+56,1658,1670,12,9.45,6.25,,Team Long Island 19U,OZ play,2
+57,1708,1720,12,54.36,14.05,,Team Long Island 19U,OZ play,2
+58,1708,1720,12,54.36,14.05,,Team Long Island 19U,Shots,2
+59,1741,1753,12,53.53,10.25,,Team Long Island 19U,Goals,2
+60,1741,1753,12,53.53,10.25,,Team Long Island 19U,OZ play,2
+61,1741,1753,12,53.53,10.25,,Team Long Island 19U,Shots,2
+62,1813,1825,12,9.45,6.25,,Team Long Island 19U,OZ play,2
+63,1813,1825,12,53.08,7.21,,Team Long Island 19U,OZ play,2
+64,1853,1865,12,53.08,7.21,,Team Long Island 19U,OZ play,2
+65,1853,1865,12,53.08,7.21,,Team Long Island 19U,Shots,2
+66,1864,1876,12,48.22,6.55,,North Shore Warhawks 19U AA,OZ play,2
+67,1864,1876,12,48.22,6.55,,North Shore Warhawks 19U AA,Shots,2
+68,1888,1900,12,49.23,9.87,,North Shore Warhawks 19U AA,OZ play,2
+69,1888,1900,12,49.23,9.87,,North Shore Warhawks 19U AA,Shots,2
+70,1897,1909,12,47.67,22.3,,North Shore Warhawks 19U AA,OZ play,2
+71,1897,1909,12,47.67,22.3,,North Shore Warhawks 19U AA,Shots,2
+72,1906,1918,12,44.55,22.87,,North Shore Warhawks 19U AA,OZ play,2
+73,1906,1918,12,44.55,22.87,,North Shore Warhawks 19U AA,Shots,2
+74,1913,1925,12,51.88,8.73,,North Shore Warhawks 19U AA,Goals,2
+75,1913,1925,12,51.88,8.73,,North Shore Warhawks 19U AA,OZ play,2
+76,1913,1925,12,51.88,8.73,,North Shore Warhawks 19U AA,Shots,2
+77,1952,1964,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,2
+78,1995,2007,12,51.06,22.97,,North Shore Warhawks 19U AA,OZ play,2
+79,1995,2007,12,51.06,22.97,,North Shore Warhawks 19U AA,Shots,2
+80,2008,2020,12,49.59,23.82,,North Shore Warhawks 19U AA,OZ play,2
+81,2008,2020,12,49.59,23.82,,North Shore Warhawks 19U AA,Shots,2
+82,2085,2097,12,46.57,21.07,,Team Long Island 19U,OZ play,2
+83,2085,2097,12,46.57,21.07,,Team Long Island 19U,Shots,2
+84,2135,2147,12,7.15,24.49,,North Shore Warhawks 19U AA,OZ play,2
+85,2200,2212,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,2
+86,2219,2231,12,41.07,10.25,,North Shore Warhawks 19U AA,OZ play,2
+87,2219,2231,12,41.07,10.25,,North Shore Warhawks 19U AA,Shots,2
+88,2228,2240,12,44.73,11.01,,North Shore Warhawks 19U AA,OZ play,2
+89,2228,2240,12,44.73,11.01,,North Shore Warhawks 19U AA,Shots,2
+90,2230,2242,12,53.35,15.28,,North Shore Warhawks 19U AA,OZ play,2
+91,2230,2242,12,53.35,15.28,,North Shore Warhawks 19U AA,Shots,2
+92,2256,2268,12,52.62,23.35,,North Shore Warhawks 19U AA,OZ play,2
+93,2256,2268,12,52.62,23.35,,North Shore Warhawks 19U AA,Shots,2
+94,2260,2272,12,43.27,6.36,,North Shore Warhawks 19U AA,OZ play,2
+95,2260,2272,12,43.27,6.36,,North Shore Warhawks 19U AA,Shots,2
+96,2284,2296,12,42.63,24.68,,North Shore Warhawks 19U AA,OZ play,2
+97,2284,2296,12,42.63,24.68,,North Shore Warhawks 19U AA,Shots,2
+98,2291,2303,12,36.94,7.21,,Team Long Island 19U,OZ play,2
+99,2291,2303,12,36.94,7.21,,Team Long Island 19U,Shots,2
+100,2384,2396,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,2
+101,2388,2400,12,43.45,15.38,,North Shore Warhawks 19U AA,OZ play,2
+102,2388,2400,12,43.45,15.38,,North Shore Warhawks 19U AA,Shots,2
+103,2422,2434,12,9.45,6.25,,Team Long Island 19U,OZ play,2
+104,2470,2482,12,47.12,6.07,,Team Long Island 19U,OZ play,2
+105,2470,2482,12,47.12,6.07,,Team Long Island 19U,Shots,2
+106,2511,2523,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+107,2560,2572,12,45.65,20.12,,North Shore Warhawks 19U AA,OZ play,2
+108,2560,2572,12,45.65,20.12,,North Shore Warhawks 19U AA,Shots,2
+109,2698,2710,12,30.48,12.96,,Team Long Island 19U,OZ play,3
+110,2727,2739,12,54.73,18.6,,Team Long Island 19U,OZ play,3
+111,2727,2739,12,54.73,18.6,,Team Long Island 19U,Shots,3
+112,2807,2819,12,44.28,11.77,,Team Long Island 19U,OZ play,3
+113,2807,2819,12,44.28,11.77,,Team Long Island 19U,Shots,3
+114,2820,2832,12,54.36,12.34,,North Shore Warhawks 19U AA,OZ play,3
+115,2820,2832,12,54.36,12.34,,North Shore Warhawks 19U AA,Shots,3
+116,2858,2870,12,9.45,6.25,,Team Long Island 19U,OZ play,3
+117,2868,2880,12,49.5,21.16,,Team Long Island 19U,OZ play,3
+118,2868,2880,12,49.5,21.16,,Team Long Island 19U,Shots,3
+119,2890,2902,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,3
+120,2951,2963,12,47.3,13.1,,North Shore Warhawks 19U AA,OZ play,3
+121,2951,2963,12,47.3,13.1,,North Shore Warhawks 19U AA,Shots,3
+122,2954,2966,12,48.68,14.62,,North Shore Warhawks 19U AA,OZ play,3
+123,2954,2966,12,48.68,14.62,,North Shore Warhawks 19U AA,Shots,3
+124,3000,3012,12,49.41,6.74,,Team Long Island 19U,OZ play,3
+125,3000,3012,12,49.41,6.74,,Team Long Island 19U,Shots,3
+126,3028,3040,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+127,3028,3040,12,55,8.92,,North Shore Warhawks 19U AA,OZ play,3
+128,3036,3048,12,55,8.92,,North Shore Warhawks 19U AA,OZ play,3
+129,3036,3048,12,55,8.92,,North Shore Warhawks 19U AA,Shots,3
+130,3077,3089,12,46.84,14.14,,Team Long Island 19U,OZ play,3
+131,3077,3089,12,46.84,14.14,,Team Long Island 19U,Shots,3
+132,3107,3119,12,9.45,6.25,,Team Long Island 19U,OZ play,3
+133,3118,3130,12,42.08,6.93,,Team Long Island 19U,OZ play,3
+134,3118,3130,12,42.08,6.93,,Team Long Island 19U,Shots,3
+135,3158,3170,12,51.51,19.67,,Team Long Island 19U,OZ play,3
+136,3162,3174,12,45.74,12.15,,Team Long Island 19U,OZ play,3
+137,3162,3174,12,45.74,12.15,,Team Long Island 19U,Shots,3
+138,3232,3244,12,51.51,6.25,,Team Long Island 19U,OZ play,3
+139,3255,3267,12,46.84,2.75,,Team Long Island 19U,OZ play,3
+140,3255,3267,12,46.84,2.75,,Team Long Island 19U,Shots,3
+141,3276,3288,12,51.51,6.25,,Team Long Island 19U,OZ play,3
+142,3361,3373,12,1.1,7.5,,Team Long Island 19U,OZ play,3
+143,3410,3422,12,9.45,6.25,,Team Long Island 19U,OZ play,3
+144,3422,3434,12,41.71,13.48,,Team Long Island 19U,OZ play,3
+145,3422,3434,12,41.71,13.48,,Team Long Island 19U,Shots,3
+146,3423,3435,12,53.44,11.67,,Team Long Island 19U,OZ play,3
+147,3423,3435,12,53.44,11.67,,Team Long Island 19U,Shots,3
+148,3449,3461,12,51.51,6.25,,Team Long Island 19U,OZ play,3
+149,3459,3471,12,42.08,10.91,,Team Long Island 19U,OZ play,3
+150,3459,3471,12,42.08,10.91,,Team Long Island 19U,Shots,3
+151,3481,3493,12,51.51,6.25,,Team Long Island 19U,OZ play,3
+152,3490,3502,12,50.14,20.69,,Team Long Island 19U,OZ play,3
+153,3490,3502,12,50.14,20.69,,Team Long Island 19U,Shots,3
+154,3508,3520,12,27.78,24.77,,Team Long Island 19U,OZ play,3
+155,3551,3563,12,51.51,6.25,,Team Long Island 19U,OZ play,3
+156,3560,3572,12,49.96,19.17,,Team Long Island 19U,OZ play,3
+157,3560,3572,12,49.96,19.17,,Team Long Island 19U,Shots,3
+158,3607,3619,12,51.51,19.67,,Team Long Island 19U,OZ play,3
+159,3615,3627,12,48.4,21.07,,Team Long Island 19U,OZ play,3
+160,3615,3627,12,48.4,21.07,,Team Long Island 19U,Shots,3
+161,3653,3665,12,55.92,18.89,,Team Long Island 19U,OZ play,3
+162,3653,3665,12,55.92,18.89,,Team Long Island 19U,Shots,3
+163,3669,3681,12,39.23,2.47,,Team Long Island 19U,OZ play,3
+164,3669,3681,12,39.23,2.47,,Team Long Island 19U,Shots,3
+165,3707,3719,12,24.38,19.67,,Team Long Island 19U,OZ play,3
+166,3757,3769,12,49.96,8.16,,Team Long Island 19U,OZ play,3
+167,3757,3769,12,49.96,8.16,,Team Long Island 19U,Shots,3
+168,3786,3798,12,36.58,19.67,,Team Long Island 19U,OZ play,3
+169,3800,3812,12,47.76,16.99,,Team Long Island 19U,OZ play,3
+170,3800,3812,12,47.76,16.99,,Team Long Island 19U,Shots,3
+171,3821,3833,12,9.45,6.25,,Team Long Island 19U,OZ play,3
+172,3842,3854,12,50.78,16.89,,Team Long Island 19U,OZ play,3
+173,3842,3854,12,50.78,16.89,,Team Long Island 19U,Shots,3
+174,3845,3857,12,54.82,13.67,,Team Long Island 19U,Goals,3
+175,3845,3857,12,54.82,13.67,,Team Long Island 19U,OZ play,3
+176,3845,3857,12,54.82,13.67,,Team Long Island 19U,Shots,3
+177,3919,3931,12,51.51,6.25,,Team Long Island 19U,OZ play,3
+178,4003,4015,12,54.82,12.53,,Team Long Island 19U,Goals,3
+179,4003,4015,12,54.82,12.53,,Team Long Island 19U,OZ play,3
+180,4003,4015,12,54.82,12.53,,Team Long Island 19U,Shots,3

@@ -1,0 +1,221 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,2,14,12,30.48,12.96,,BioSteel Sports Academy U22 AAA,OZ play,1
+2,64,76,12,54.63,11.67,,BioSteel Sports Academy U22 AAA,OZ play,1
+3,64,76,12,54.63,11.67,,BioSteel Sports Academy U22 AAA,Shots,1
+4,65,77,12,52.34,15.28,,BioSteel Sports Academy U22 AAA,OZ play,1
+5,65,77,12,52.34,15.28,,BioSteel Sports Academy U22 AAA,Shots,1
+6,111,123,12,53.17,12.05,,BioSteel Sports Academy U22 AAA,OZ play,1
+7,111,123,12,53.17,12.05,,BioSteel Sports Academy U22 AAA,Shots,1
+8,148,160,12,56.38,16.13,,Boston Hockey Academy 19U,OZ play,1
+9,148,160,12,56.38,16.13,,Boston Hockey Academy 19U,Shots,1
+10,152,164,12,2,15,,BioSteel Sports Academy U22 AAA,OZ play,1
+11,159,171,12,50.78,1.99,,BioSteel Sports Academy U22 AAA,OZ play,1
+12,159,171,12,50.78,1.99,,BioSteel Sports Academy U22 AAA,Shots,1
+13,179,191,12,53.63,18.22,,BioSteel Sports Academy U22 AAA,OZ play,1
+14,179,191,12,53.63,18.22,,BioSteel Sports Academy U22 AAA,Shots,1
+15,198,210,12,9.45,6.25,,BioSteel Sports Academy U22 AAA,OZ play,1
+16,238,250,12,46.57,16.61,,BioSteel Sports Academy U22 AAA,OZ play,1
+17,238,250,12,46.57,16.61,,BioSteel Sports Academy U22 AAA,Shots,1
+18,254,266,12,41.16,13.19,,BioSteel Sports Academy U22 AAA,OZ play,1
+19,254,266,12,41.16,13.19,,BioSteel Sports Academy U22 AAA,Shots,1
+20,272,284,12,48.58,1.9,,Boston Hockey Academy 19U,OZ play,1
+21,272,284,12,48.58,1.9,,Boston Hockey Academy 19U,Shots,1
+22,280,292,12,46.02,15,,Boston Hockey Academy 19U,OZ play,1
+23,280,292,12,46.02,15,,Boston Hockey Academy 19U,Shots,1
+24,303,315,12,52.89,17.56,,BioSteel Sports Academy U22 AAA,Goals,1
+25,303,315,12,52.89,17.56,,BioSteel Sports Academy U22 AAA,OZ play,1
+26,303,315,12,52.89,17.56,,BioSteel Sports Academy U22 AAA,Shots,1
+27,334,346,12,30.48,12.96,,BioSteel Sports Academy U22 AAA,OZ play,1
+28,378,390,12,40.7,11.01,,BioSteel Sports Academy U22 AAA,OZ play,1
+29,378,390,12,40.7,11.01,,BioSteel Sports Academy U22 AAA,Shots,1
+30,390,402,12,52.25,12.34,,BioSteel Sports Academy U22 AAA,OZ play,1
+31,390,402,12,52.25,12.34,,BioSteel Sports Academy U22 AAA,Shots,1
+32,401,413,12,47.21,10.82,,BioSteel Sports Academy U22 AAA,OZ play,1
+33,401,413,12,47.21,10.82,,BioSteel Sports Academy U22 AAA,Shots,1
+34,470,482,12,36.58,6.25,,Boston Hockey Academy 19U,OZ play,1
+35,470,482,12,43.36,25.15,,Boston Hockey Academy 19U,OZ play,1
+36,480,492,12,43.36,25.15,,Boston Hockey Academy 19U,OZ play,1
+37,480,492,12,43.36,25.15,,Boston Hockey Academy 19U,Shots,1
+38,508,520,12,39.78,16.13,,BioSteel Sports Academy U22 AAA,OZ play,1
+39,508,520,12,39.78,16.13,,BioSteel Sports Academy U22 AAA,Shots,1
+40,528,540,12,54.45,16.13,,BioSteel Sports Academy U22 AAA,OZ play,1
+41,528,540,12,54.45,16.13,,BioSteel Sports Academy U22 AAA,Shots,1
+42,541,553,12,53.35,12.34,,BioSteel Sports Academy U22 AAA,OZ play,1
+43,541,553,12,53.35,12.34,,BioSteel Sports Academy U22 AAA,Shots,1
+44,589,601,12,40.79,7.4,,Boston Hockey Academy 19U,OZ play,1
+45,589,601,12,40.79,7.4,,Boston Hockey Academy 19U,Shots,1
+46,604,616,12,49.13,19.17,,BioSteel Sports Academy U22 AAA,OZ play,1
+47,604,616,12,49.13,19.17,,BioSteel Sports Academy U22 AAA,Shots,1
+48,638,650,12,52.8,9.11,,Boston Hockey Academy 19U,OZ play,1
+49,638,650,12,52.8,9.11,,Boston Hockey Academy 19U,Shots,1
+50,641,653,12,2,15,,Boston Hockey Academy 19U,OZ play,1
+51,674,686,12,52.25,12.34,,Boston Hockey Academy 19U,OZ play,1
+52,674,686,12,52.25,12.34,,Boston Hockey Academy 19U,Shots,1
+53,682,694,12,48.22,15.38,,Boston Hockey Academy 19U,OZ play,1
+54,682,694,12,48.22,15.38,,Boston Hockey Academy 19U,Shots,1
+55,700,712,12,52.25,13.86,,BioSteel Sports Academy U22 AAA,OZ play,1
+56,700,712,12,52.25,13.86,,BioSteel Sports Academy U22 AAA,Shots,1
+57,804,816,12,51.79,14.9,,Boston Hockey Academy 19U,OZ play,1
+58,804,816,12,51.79,14.9,,Boston Hockey Academy 19U,Shots,1
+59,811,823,12,50.23,16.89,,Boston Hockey Academy 19U,OZ play,1
+60,811,823,12,50.23,16.89,,Boston Hockey Academy 19U,Shots,1
+61,846,858,12,54.73,8.73,,BioSteel Sports Academy U22 AAA,OZ play,1
+62,846,858,12,54.73,8.73,,BioSteel Sports Academy U22 AAA,Shots,1
+63,869,881,12,51.51,6.25,,BioSteel Sports Academy U22 AAA,OZ play,1
+64,869,881,12,53.9,8.35,,BioSteel Sports Academy U22 AAA,OZ play,1
+65,871,883,12,53.9,8.35,,BioSteel Sports Academy U22 AAA,OZ play,1
+66,871,883,12,53.9,8.35,,BioSteel Sports Academy U22 AAA,Shots,1
+67,884,896,12,13.66,0.76,,Boston Hockey Academy 19U,OZ play,1
+68,1116,1128,12,30.48,12.96,,BioSteel Sports Academy U22 AAA,OZ play,2
+69,1116,1128,12,54.82,13.95,,BioSteel Sports Academy U22 AAA,OZ play,2
+70,1132,1144,12,54.82,13.95,,BioSteel Sports Academy U22 AAA,OZ play,2
+71,1132,1144,12,54.82,13.95,,BioSteel Sports Academy U22 AAA,Shots,2
+72,1202,1214,12,52.16,25.25,,Boston Hockey Academy 19U,OZ play,2
+73,1271,1283,12,9.45,6.25,,Boston Hockey Academy 19U,OZ play,2
+74,1310,1322,12,50.14,18.41,,Boston Hockey Academy 19U,OZ play,2
+75,1310,1322,12,50.14,18.41,,Boston Hockey Academy 19U,Shots,2
+76,1312,1324,12,53.53,12.72,,Boston Hockey Academy 19U,OZ play,2
+77,1312,1324,12,53.53,12.72,,Boston Hockey Academy 19U,Shots,2
+78,1344,1356,12,45.01,16.04,,BioSteel Sports Academy U22 AAA,OZ play,2
+79,1344,1356,12,51.51,19.67,,BioSteel Sports Academy U22 AAA,OZ play,2
+80,1376,1388,12,45.01,16.04,,BioSteel Sports Academy U22 AAA,OZ play,2
+81,1376,1388,12,45.01,16.04,,BioSteel Sports Academy U22 AAA,Shots,2
+82,1386,1398,12,2,15,,Boston Hockey Academy 19U,OZ play,2
+83,1423,1435,12,53.53,24.39,,Boston Hockey Academy 19U,OZ play,2
+84,1423,1435,12,53.53,24.39,,Boston Hockey Academy 19U,Shots,2
+85,1452,1464,12,44.55,22.3,,Boston Hockey Academy 19U,OZ play,2
+86,1452,1464,12,51.51,19.67,,Boston Hockey Academy 19U,OZ play,2
+87,1454,1466,12,44.55,22.3,,Boston Hockey Academy 19U,OZ play,2
+88,1454,1466,12,44.55,22.3,,Boston Hockey Academy 19U,Shots,2
+89,1494,1506,12,7.52,24.58,,BioSteel Sports Academy U22 AAA,OZ play,2
+90,1517,1529,12,55.46,11.48,,BioSteel Sports Academy U22 AAA,OZ play,2
+91,1517,1529,12,55.46,11.48,,BioSteel Sports Academy U22 AAA,Shots,2
+92,1533,1545,12,55.46,10.35,,BioSteel Sports Academy U22 AAA,Goals,2
+93,1533,1545,12,55.46,10.35,,BioSteel Sports Academy U22 AAA,OZ play,2
+94,1533,1545,12,55.46,10.35,,BioSteel Sports Academy U22 AAA,Shots,2
+95,1661,1673,12,51.51,19.67,,Boston Hockey Academy 19U,OZ play,2
+96,1670,1682,12,54.36,17.37,,Boston Hockey Academy 19U,OZ play,2
+97,1670,1682,12,54.36,17.37,,Boston Hockey Academy 19U,Shots,2
+98,1686,1698,12,9.45,6.25,,BioSteel Sports Academy U22 AAA,OZ play,2
+99,1715,1727,12,56.47,10.06,,BioSteel Sports Academy U22 AAA,OZ play,2
+100,1715,1727,12,56.47,10.06,,BioSteel Sports Academy U22 AAA,Shots,2
+101,1725,1737,12,55.28,15.75,,BioSteel Sports Academy U22 AAA,OZ play,2
+102,1725,1737,12,55.28,15.75,,BioSteel Sports Academy U22 AAA,Shots,2
+103,1760,1772,12,47.21,4.84,,BioSteel Sports Academy U22 AAA,OZ play,2
+104,1760,1772,12,47.21,4.84,,BioSteel Sports Academy U22 AAA,Shots,2
+105,1773,1785,12,2,15,,BioSteel Sports Academy U22 AAA,OZ play,2
+106,1780,1792,12,44.83,8.26,,BioSteel Sports Academy U22 AAA,OZ play,2
+107,1780,1792,12,44.83,8.26,,BioSteel Sports Academy U22 AAA,Shots,2
+108,1804,1816,12,51.51,19.67,,BioSteel Sports Academy U22 AAA,OZ play,2
+109,1807,1819,12,6.38,11.94,,BioSteel Sports Academy U22 AAA,OZ play,2
+110,1809,1821,12,40.33,18.79,,BioSteel Sports Academy U22 AAA,Goals,2
+111,1809,1821,12,40.33,18.79,,BioSteel Sports Academy U22 AAA,OZ play,2
+112,1809,1821,12,40.33,18.79,,BioSteel Sports Academy U22 AAA,Shots,2
+113,1839,1851,12,30.48,12.96,,BioSteel Sports Academy U22 AAA,OZ play,2
+114,1874,1886,12,44.92,22.97,,BioSteel Sports Academy U22 AAA,OZ play,2
+115,1874,1886,12,44.92,22.97,,BioSteel Sports Academy U22 AAA,Shots,2
+116,1883,1895,12,8.62,24.49,,BioSteel Sports Academy U22 AAA,OZ play,2
+117,1916,1928,12,9.45,19.67,,Boston Hockey Academy 19U,OZ play,2
+118,1939,1951,12,1.65,11.58,,Boston Hockey Academy 19U,OZ play,2
+119,2012,2024,12,51.51,19.67,,BioSteel Sports Academy U22 AAA,OZ play,2
+120,2016,2028,12,43.08,9.3,,BioSteel Sports Academy U22 AAA,OZ play,2
+121,2016,2028,12,43.08,9.3,,BioSteel Sports Academy U22 AAA,Shots,2
+122,2022,2034,12,56.28,15.94,,BioSteel Sports Academy U22 AAA,OZ play,2
+123,2022,2034,12,56.28,15.94,,BioSteel Sports Academy U22 AAA,Shots,2
+124,2032,2044,12,48.03,11.77,,BioSteel Sports Academy U22 AAA,OZ play,2
+125,2032,2044,12,48.03,11.77,,BioSteel Sports Academy U22 AAA,Shots,2
+126,2184,2196,12,36.58,6.25,,Boston Hockey Academy 19U,OZ play,2
+127,2237,2249,12,56.56,16.99,,Boston Hockey Academy 19U,OZ play,2
+128,2237,2249,12,56.56,16.99,,Boston Hockey Academy 19U,Shots,2
+129,2280,2292,12,51.51,6.25,,BioSteel Sports Academy U22 AAA,OZ play,2
+130,2287,2299,12,55.46,10.72,,BioSteel Sports Academy U22 AAA,OZ play,2
+131,2287,2299,12,55.46,10.72,,BioSteel Sports Academy U22 AAA,Shots,2
+132,2288,2300,12,53.81,10.44,,BioSteel Sports Academy U22 AAA,OZ play,2
+133,2288,2300,12,53.81,10.44,,BioSteel Sports Academy U22 AAA,Shots,2
+134,2292,2304,12,54.54,12.15,,BioSteel Sports Academy U22 AAA,OZ play,2
+135,2292,2304,12,54.54,12.15,,BioSteel Sports Academy U22 AAA,Shots,2
+136,2320,2332,12,51.51,6.25,,BioSteel Sports Academy U22 AAA,OZ play,2
+137,2327,2339,12,42.08,8.16,,BioSteel Sports Academy U22 AAA,OZ play,2
+138,2327,2339,12,42.08,8.16,,BioSteel Sports Academy U22 AAA,Shots,2
+139,2413,2425,12,51.51,19.67,,BioSteel Sports Academy U22 AAA,OZ play,2
+140,2452,2464,12,51.33,17.94,,BioSteel Sports Academy U22 AAA,OZ play,2
+141,2452,2464,12,51.33,17.94,,BioSteel Sports Academy U22 AAA,Shots,2
+142,2527,2539,12,30.48,12.96,,BioSteel Sports Academy U22 AAA,OZ play,3
+143,2532,2544,12,43.63,6.45,,BioSteel Sports Academy U22 AAA,OZ play,3
+144,2532,2544,12,43.63,6.45,,BioSteel Sports Academy U22 AAA,Shots,3
+145,2548,2560,12,46.29,23.44,,BioSteel Sports Academy U22 AAA,OZ play,3
+146,2548,2560,12,46.29,23.44,,BioSteel Sports Academy U22 AAA,Shots,3
+147,2571,2583,12,51.51,19.67,,BioSteel Sports Academy U22 AAA,OZ play,3
+148,2610,2622,12,45.28,11.86,,BioSteel Sports Academy U22 AAA,OZ play,3
+149,2610,2622,12,45.28,11.86,,BioSteel Sports Academy U22 AAA,Shots,3
+150,2642,2654,12,51.51,19.67,,BioSteel Sports Academy U22 AAA,OZ play,3
+151,2675,2687,12,49.59,8.07,,BioSteel Sports Academy U22 AAA,OZ play,3
+152,2675,2687,12,49.59,8.07,,BioSteel Sports Academy U22 AAA,Shots,3
+153,2678,2690,12,54.73,8.16,,BioSteel Sports Academy U22 AAA,Goals,3
+154,2678,2690,12,54.73,8.16,,BioSteel Sports Academy U22 AAA,OZ play,3
+155,2678,2690,12,54.73,8.16,,BioSteel Sports Academy U22 AAA,Shots,3
+156,2712,2724,12,30.48,12.96,,Boston Hockey Academy 19U,OZ play,3
+157,2752,2764,12,51.43,10.35,,Boston Hockey Academy 19U,OZ play,3
+158,2752,2764,12,51.43,10.35,,Boston Hockey Academy 19U,Shots,3
+159,2799,2811,12,24.38,19.67,,BioSteel Sports Academy U22 AAA,OZ play,3
+160,2805,2817,12,44,11.77,,BioSteel Sports Academy U22 AAA,OZ play,3
+161,2805,2817,12,44,11.77,,BioSteel Sports Academy U22 AAA,Shots,3
+162,2822,2834,12,51.51,6.25,,BioSteel Sports Academy U22 AAA,OZ play,3
+163,2839,2851,12,49.32,16.99,,BioSteel Sports Academy U22 AAA,OZ play,3
+164,2839,2851,12,49.32,16.99,,BioSteel Sports Academy U22 AAA,Shots,3
+165,2940,2952,12,38.5,0.95,,BioSteel Sports Academy U22 AAA,OZ play,3
+166,2999,3011,12,24.38,19.67,,Boston Hockey Academy 19U,OZ play,3
+167,3012,3024,12,56.19,8.35,,Boston Hockey Academy 19U,OZ play,3
+168,3012,3024,12,56.19,8.35,,Boston Hockey Academy 19U,Shots,3
+169,3016,3028,12,49.59,24.49,,Boston Hockey Academy 19U,OZ play,3
+170,3016,3028,12,49.59,24.49,,Boston Hockey Academy 19U,Shots,3
+171,3024,3036,12,45.65,19.46,,Boston Hockey Academy 19U,OZ play,3
+172,3024,3036,12,45.65,19.46,,Boston Hockey Academy 19U,Shots,3
+173,3031,3043,12,49.32,2.66,,Boston Hockey Academy 19U,OZ play,3
+174,3031,3043,12,49.32,2.66,,Boston Hockey Academy 19U,Shots,3
+175,3051,3063,12,9.45,19.67,,BioSteel Sports Academy U22 AAA,OZ play,3
+176,3141,3153,12,45.83,3.04,,BioSteel Sports Academy U22 AAA,OZ play,3
+177,3141,3153,12,45.83,3.04,,BioSteel Sports Academy U22 AAA,Shots,3
+178,3165,3177,12,44.37,19.93,,BioSteel Sports Academy U22 AAA,OZ play,3
+179,3165,3177,12,44.37,19.93,,BioSteel Sports Academy U22 AAA,Shots,3
+180,3227,3239,12,48.13,18.22,,Boston Hockey Academy 19U,Goals,3
+181,3227,3239,12,48.13,18.22,,Boston Hockey Academy 19U,OZ play,3
+182,3227,3239,12,48.13,18.22,,Boston Hockey Academy 19U,Shots,3
+183,3262,3274,12,30.48,12.96,,BioSteel Sports Academy U22 AAA,OZ play,3
+184,3347,3359,12,52.89,18.22,,BioSteel Sports Academy U22 AAA,OZ play,3
+185,3347,3359,12,52.89,18.22,,BioSteel Sports Academy U22 AAA,Shots,3
+186,3393,3405,12,51.51,6.25,,Boston Hockey Academy 19U,OZ play,3
+187,3393,3405,12,51.7,12.72,,Boston Hockey Academy 19U,OZ play,3
+188,3421,3433,12,51.7,12.72,,Boston Hockey Academy 19U,OZ play,3
+189,3421,3433,12,51.7,12.72,,Boston Hockey Academy 19U,Shots,3
+190,3438,3450,12,44.37,18.6,,BioSteel Sports Academy U22 AAA,OZ play,3
+191,3438,3450,12,44.37,18.6,,BioSteel Sports Academy U22 AAA,Shots,3
+192,3460,3472,12,49.96,16.04,,Boston Hockey Academy 19U,OZ play,3
+193,3460,3472,12,51.51,19.67,,Boston Hockey Academy 19U,OZ play,3
+194,3495,3507,12,49.96,16.04,,Boston Hockey Academy 19U,OZ play,3
+195,3495,3507,12,49.96,16.04,,Boston Hockey Academy 19U,Shots,3
+196,3513,3525,12,51.43,10.91,,BioSteel Sports Academy U22 AAA,OZ play,3
+197,3513,3525,12,51.43,10.91,,BioSteel Sports Academy U22 AAA,Shots,3
+198,3514,3526,12,49.96,14.9,,BioSteel Sports Academy U22 AAA,OZ play,3
+199,3514,3526,12,49.96,14.9,,BioSteel Sports Academy U22 AAA,Shots,3
+200,3556,3568,12,53.9,20.6,,Boston Hockey Academy 19U,OZ play,3
+201,3556,3568,12,53.9,20.6,,Boston Hockey Academy 19U,Shots,3
+202,3563,3575,12,50.51,23.16,,BioSteel Sports Academy U22 AAA,OZ play,3
+203,3594,3606,12,51.51,6.25,,BioSteel Sports Academy U22 AAA,OZ play,3
+204,3614,3626,12,53.99,11.96,,BioSteel Sports Academy U22 AAA,OZ play,3
+205,3614,3626,12,53.99,11.96,,BioSteel Sports Academy U22 AAA,Shots,3
+206,3619,3631,12,5.87,23.92,,BioSteel Sports Academy U22 AAA,OZ play,3
+207,3626,3638,12,53.08,13,,BioSteel Sports Academy U22 AAA,OZ play,3
+208,3626,3638,12,53.08,13,,BioSteel Sports Academy U22 AAA,Shots,3
+209,3663,3675,12,51.51,6.25,,BioSteel Sports Academy U22 AAA,OZ play,3
+210,3671,3683,12,44.18,15.66,,BioSteel Sports Academy U22 AAA,OZ play,3
+211,3671,3683,12,44.18,15.66,,BioSteel Sports Academy U22 AAA,Shots,3
+212,3682,3694,12,46.84,14.71,,BioSteel Sports Academy U22 AAA,OZ play,3
+213,3682,3694,12,46.84,14.71,,BioSteel Sports Academy U22 AAA,Shots,3
+214,3693,3705,12,2,15,,BioSteel Sports Academy U22 AAA,OZ play,3
+215,3717,3729,12,49.68,12.53,,BioSteel Sports Academy U22 AAA,Goals,3
+216,3717,3729,12,49.68,12.53,,BioSteel Sports Academy U22 AAA,OZ play,3
+217,3717,3729,12,49.68,12.53,,BioSteel Sports Academy U22 AAA,Shots,3
+218,3748,3760,12,30.48,12.96,,BioSteel Sports Academy U22 AAA,OZ play,3
+219,3778,3790,12,52.16,10.63,,BioSteel Sports Academy U22 AAA,OZ play,3
+220,3778,3790,12,52.16,10.63,,BioSteel Sports Academy U22 AAA,Shots,3

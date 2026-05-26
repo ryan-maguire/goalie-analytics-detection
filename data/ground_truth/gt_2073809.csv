@@ -1,0 +1,194 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-2,10,12,30.48,12.96,,Amherst Lady Knights 19U,OZ play,1
+2,15,27,12,50.42,21.45,,Amherst Lady Knights 19U,OZ play,1
+3,15,27,12,50.42,21.45,,Amherst Lady Knights 19U,Shots,1
+4,82,94,12,54.73,12.91,,Amherst Lady Knights 19U,OZ play,1
+5,82,94,12,54.73,12.91,,Amherst Lady Knights 19U,Shots,1
+6,109,121,12,9.45,19.67,,Amherst Lady Knights 19U,OZ play,1
+7,113,125,12,54.73,13.1,,Amherst Lady Knights 19U,OZ play,1
+8,113,125,12,54.73,13.1,,Amherst Lady Knights 19U,Shots,1
+9,192,204,12,44.92,8.26,,Amherst Lady Knights 19U,OZ play,1
+10,192,204,12,44.92,8.26,,Amherst Lady Knights 19U,Shots,1
+11,208,220,12,2,15,,Amherst Lady Knights 19U,OZ play,1
+12,213,225,12,52.98,16.99,,Amherst Lady Knights 19U,OZ play,1
+13,213,225,12,52.98,16.99,,Amherst Lady Knights 19U,Shots,1
+14,237,249,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,1
+15,256,268,12,46.84,11.2,,North Shore Warhawks 19U AA,OZ play,1
+16,256,268,12,46.84,11.2,,North Shore Warhawks 19U AA,Shots,1
+17,258,270,12,54.91,12.62,,North Shore Warhawks 19U AA,OZ play,1
+18,258,270,12,54.91,12.62,,North Shore Warhawks 19U AA,Shots,1
+19,261,273,12,54.54,13,,North Shore Warhawks 19U AA,Goals,1
+20,261,273,12,54.54,13,,North Shore Warhawks 19U AA,OZ play,1
+21,261,273,12,54.54,13,,North Shore Warhawks 19U AA,Shots,1
+22,356,368,12,51.51,19.67,,Amherst Lady Knights 19U,OZ play,1
+23,376,388,12,49.78,13.76,,Amherst Lady Knights 19U,OZ play,1
+24,376,388,12,49.78,13.76,,Amherst Lady Knights 19U,Shots,1
+25,437,449,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,1
+26,472,484,12,2,15,,North Shore Warhawks 19U AA,OZ play,1
+27,472,484,12,48.95,20.12,,North Shore Warhawks 19U AA,OZ play,1
+28,477,489,12,48.95,20.12,,North Shore Warhawks 19U AA,OZ play,1
+29,477,489,12,48.95,20.12,,North Shore Warhawks 19U AA,Shots,1
+30,507,519,12,54.54,10.16,,Amherst Lady Knights 19U,OZ play,1
+31,507,519,12,54.54,10.16,,Amherst Lady Knights 19U,Shots,1
+32,527,539,12,48.77,9.68,,Amherst Lady Knights 19U,OZ play,1
+33,527,539,12,48.77,9.68,,Amherst Lady Knights 19U,Shots,1
+34,547,559,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,1
+35,576,588,12,54.54,3.89,,North Shore Warhawks 19U AA,OZ play,1
+36,576,588,12,54.54,3.89,,North Shore Warhawks 19U AA,Shots,1
+37,602,614,12,9.45,19.67,,Amherst Lady Knights 19U,OZ play,1
+38,629,641,12,53.9,9.68,,Amherst Lady Knights 19U,Goals,1
+39,629,641,12,53.9,9.68,,Amherst Lady Knights 19U,OZ play,1
+40,629,641,12,53.9,9.68,,Amherst Lady Knights 19U,Shots,1
+41,656,668,12,30.48,12.96,,Amherst Lady Knights 19U,OZ play,1
+42,667,679,12,2,15,,Amherst Lady Knights 19U,OZ play,1
+43,671,683,12,50.33,9.21,,Amherst Lady Knights 19U,OZ play,1
+44,671,683,12,50.33,9.21,,Amherst Lady Knights 19U,Shots,1
+45,697,709,12,40.24,1.52,,Amherst Lady Knights 19U,OZ play,1
+46,697,709,12,40.24,1.52,,Amherst Lady Knights 19U,Shots,1
+47,702,714,12,53.72,13,,Amherst Lady Knights 19U,OZ play,1
+48,702,714,12,53.72,13,,Amherst Lady Knights 19U,Shots,1
+49,796,808,12,51.51,6.25,,Amherst Lady Knights 19U,OZ play,1
+50,812,824,12,53.63,12.53,,Amherst Lady Knights 19U,Goals,1
+51,812,824,12,53.63,12.53,,Amherst Lady Knights 19U,OZ play,1
+52,812,824,12,53.63,12.53,,Amherst Lady Knights 19U,Shots,1
+53,854,866,12,30.48,12.96,,Amherst Lady Knights 19U,OZ play,1
+54,929,941,12,53.9,16.61,,Amherst Lady Knights 19U,OZ play,1
+55,929,941,12,53.9,16.61,,Amherst Lady Knights 19U,Shots,1
+56,946,958,12,9.45,6.25,,Amherst Lady Knights 19U,OZ play,1
+57,978,990,12,54.18,11.48,,Amherst Lady Knights 19U,Goals,1
+58,978,990,12,54.18,11.48,,Amherst Lady Knights 19U,OZ play,1
+59,978,990,12,54.18,11.48,,Amherst Lady Knights 19U,Shots,1
+60,1007,1019,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,1
+61,1032,1044,12,2,15,,North Shore Warhawks 19U AA,OZ play,1
+62,1032,1044,12,40.79,20.88,,North Shore Warhawks 19U AA,OZ play,1
+63,1035,1047,12,40.79,20.88,,North Shore Warhawks 19U AA,OZ play,1
+64,1035,1047,12,40.79,20.88,,North Shore Warhawks 19U AA,Shots,1
+65,1073,1085,12,48.68,19.93,,Amherst Lady Knights 19U,OZ play,1
+66,1073,1085,12,48.68,19.93,,Amherst Lady Knights 19U,Shots,1
+67,1084,1096,12,2,15,,Amherst Lady Knights 19U,OZ play,1
+68,1166,1178,12,52.89,11.96,,Amherst Lady Knights 19U,Goals,1
+69,1166,1178,12,52.89,11.96,,Amherst Lady Knights 19U,OZ play,1
+70,1166,1178,12,52.89,11.96,,Amherst Lady Knights 19U,Shots,1
+71,1216,1228,12,30.48,12.96,,Amherst Lady Knights 19U,OZ play,2
+72,1233,1245,12,2,15,,Amherst Lady Knights 19U,OZ play,2
+73,1240,1252,12,55.46,10.35,,Amherst Lady Knights 19U,Goals,2
+74,1240,1252,12,55.46,10.35,,Amherst Lady Knights 19U,OZ play,2
+75,1240,1252,12,55.46,10.35,,Amherst Lady Knights 19U,Shots,2
+76,1272,1284,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,2
+77,1290,1302,12,2,15,,North Shore Warhawks 19U AA,OZ play,2
+78,1290,1302,12,40.61,8.35,,North Shore Warhawks 19U AA,OZ play,2
+79,1295,1307,12,40.61,8.35,,North Shore Warhawks 19U AA,OZ play,2
+80,1295,1307,12,40.61,8.35,,North Shore Warhawks 19U AA,Shots,2
+81,1335,1347,12,54.08,9.97,,Amherst Lady Knights 19U,OZ play,2
+82,1335,1347,12,54.08,9.97,,Amherst Lady Knights 19U,Shots,2
+83,1397,1409,12,39.78,21.73,,Amherst Lady Knights 19U,OZ play,2
+84,1397,1409,12,39.78,21.73,,Amherst Lady Knights 19U,Shots,2
+85,1432,1444,12,54.91,13.48,,Amherst Lady Knights 19U,OZ play,2
+86,1432,1444,12,54.91,13.48,,Amherst Lady Knights 19U,Shots,2
+87,1460,1472,12,51.51,19.67,,Amherst Lady Knights 19U,OZ play,2
+88,1531,1543,12,42.81,22.87,,Amherst Lady Knights 19U,OZ play,2
+89,1531,1543,12,42.81,22.87,,Amherst Lady Knights 19U,Shots,2
+90,1607,1619,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+91,1607,1619,12,54.18,11.96,,North Shore Warhawks 19U AA,OZ play,2
+92,1636,1648,12,54.18,11.96,,North Shore Warhawks 19U AA,OZ play,2
+93,1636,1648,12,54.18,11.96,,North Shore Warhawks 19U AA,Shots,2
+94,1659,1671,12,52.98,9.3,,Amherst Lady Knights 19U,Goals,2
+95,1659,1671,12,52.98,9.3,,Amherst Lady Knights 19U,OZ play,2
+96,1659,1671,12,52.98,9.3,,Amherst Lady Knights 19U,Shots,2
+97,1701,1713,12,30.48,12.96,,Amherst Lady Knights 19U,OZ play,2
+98,1701,1713,12,49.13,20.97,,Amherst Lady Knights 19U,OZ play,2
+99,1717,1729,12,49.13,20.97,,Amherst Lady Knights 19U,OZ play,2
+100,1717,1729,12,49.13,20.97,,Amherst Lady Knights 19U,Shots,2
+101,1736,1748,12,47.67,1.52,,North Shore Warhawks 19U AA,OZ play,2
+102,1736,1748,12,47.67,1.52,,North Shore Warhawks 19U AA,Shots,2
+103,1749,1761,12,46.2,22.49,,North Shore Warhawks 19U AA,OZ play,2
+104,1749,1761,12,46.2,22.49,,North Shore Warhawks 19U AA,Shots,2
+105,1817,1829,12,53.08,20.88,,North Shore Warhawks 19U AA,OZ play,2
+106,1817,1829,12,53.08,20.88,,North Shore Warhawks 19U AA,Shots,2
+107,1839,1851,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,2
+108,1879,1891,12,46.57,20.88,,North Shore Warhawks 19U AA,OZ play,2
+109,1879,1891,12,46.57,20.88,,North Shore Warhawks 19U AA,Shots,2
+110,1905,1917,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+111,1908,1920,12,45.74,24.2,,North Shore Warhawks 19U AA,OZ play,2
+112,1908,1920,12,45.74,24.2,,North Shore Warhawks 19U AA,Shots,2
+113,1940,1952,12,51.15,3.13,,North Shore Warhawks 19U AA,OZ play,2
+114,1940,1952,12,51.15,3.13,,North Shore Warhawks 19U AA,Shots,2
+115,1965,1977,12,9.45,19.67,,Amherst Lady Knights 19U,OZ play,2
+116,1983,1995,12,52.25,13.57,,Amherst Lady Knights 19U,OZ play,2
+117,1983,1995,12,52.25,13.57,,Amherst Lady Knights 19U,Shots,2
+118,2022,2034,12,51.51,19.67,,Amherst Lady Knights 19U,OZ play,2
+119,2029,2041,12,53.17,19.65,,Amherst Lady Knights 19U,OZ play,2
+120,2029,2041,12,53.17,19.65,,Amherst Lady Knights 19U,Shots,2
+121,2038,2050,12,52.62,21.26,,Amherst Lady Knights 19U,OZ play,2
+122,2038,2050,12,52.62,21.26,,Amherst Lady Knights 19U,Shots,2
+123,2040,2052,12,54.91,12.91,,Amherst Lady Knights 19U,OZ play,2
+124,2040,2052,12,54.91,12.91,,Amherst Lady Knights 19U,Shots,2
+125,2066,2078,12,9.45,6.25,,Amherst Lady Knights 19U,OZ play,2
+126,2126,2138,12,49.5,14.05,,Amherst Lady Knights 19U,OZ play,2
+127,2126,2138,12,49.5,14.05,,Amherst Lady Knights 19U,Shots,2
+128,2128,2140,12,56.38,15,,Amherst Lady Knights 19U,OZ play,2
+129,2128,2140,12,56.38,15,,Amherst Lady Knights 19U,Shots,2
+130,2149,2161,12,2,15,,North Shore Warhawks 19U AA,OZ play,2
+131,2154,2166,12,40.7,3.8,,North Shore Warhawks 19U AA,OZ play,2
+132,2154,2166,12,40.7,3.8,,North Shore Warhawks 19U AA,Shots,2
+133,2167,2179,12,55.28,15.66,,Amherst Lady Knights 19U,OZ play,2
+134,2167,2179,12,55.28,15.66,,Amherst Lady Knights 19U,Shots,2
+135,2216,2228,12,24.38,6.25,,North Shore Warhawks 19U AA,OZ play,2
+136,2290,2302,12,46.48,13.95,,North Shore Warhawks 19U AA,OZ play,2
+137,2290,2302,12,46.48,13.95,,North Shore Warhawks 19U AA,Shots,2
+138,2299,2311,12,45.93,23.25,,North Shore Warhawks 19U AA,OZ play,2
+139,2299,2311,12,45.93,23.25,,North Shore Warhawks 19U AA,Shots,2
+140,2306,2318,12,56.01,18.32,,North Shore Warhawks 19U AA,OZ play,2
+141,2306,2318,12,56.01,18.32,,North Shore Warhawks 19U AA,Shots,2
+142,2336,2348,12,54.73,10.16,,Amherst Lady Knights 19U,OZ play,2
+143,2336,2348,12,54.73,10.16,,Amherst Lady Knights 19U,Shots,2
+144,2415,2427,12,30.48,12.96,,Amherst Lady Knights 19U,OZ play,3
+145,2428,2440,12,50.33,17.18,,Amherst Lady Knights 19U,OZ play,3
+146,2428,2440,12,50.33,17.18,,Amherst Lady Knights 19U,Shots,3
+147,2429,2441,12,53.9,12.72,,Amherst Lady Knights 19U,OZ play,3
+148,2429,2441,12,53.9,12.72,,Amherst Lady Knights 19U,Shots,3
+149,2574,2586,12,9.45,19.67,,Amherst Lady Knights 19U,OZ play,3
+150,2630,2642,12,52.43,11.1,,Amherst Lady Knights 19U,OZ play,3
+151,2630,2642,12,52.43,11.1,,Amherst Lady Knights 19U,Shots,3
+152,2653,2665,12,51.51,6.25,,Amherst Lady Knights 19U,OZ play,3
+153,2655,2667,12,45.56,2.09,,Amherst Lady Knights 19U,OZ play,3
+154,2655,2667,12,45.56,2.09,,Amherst Lady Knights 19U,Shots,3
+155,2666,2678,12,45.19,23.82,,Amherst Lady Knights 19U,OZ play,3
+156,2666,2678,12,45.19,23.82,,Amherst Lady Knights 19U,Shots,3
+157,2680,2692,12,52.07,17.46,,North Shore Warhawks 19U AA,OZ play,3
+158,2680,2692,12,52.07,17.46,,North Shore Warhawks 19U AA,Shots,3
+159,2687,2699,12,35.84,12.62,,Amherst Lady Knights 19U,OZ play,3
+160,2727,2739,12,51.51,6.25,,Amherst Lady Knights 19U,OZ play,3
+161,2754,2766,12,53.53,7.97,,Amherst Lady Knights 19U,OZ play,3
+162,2754,2766,12,53.53,7.97,,Amherst Lady Knights 19U,Shots,3
+163,2810,2822,12,2,15,,Amherst Lady Knights 19U,OZ play,3
+164,2818,2830,12,55.18,14.9,,Amherst Lady Knights 19U,OZ play,3
+165,2818,2830,12,55.18,14.9,,Amherst Lady Knights 19U,Shots,3
+166,2845,2857,12,51.51,19.67,,Amherst Lady Knights 19U,OZ play,3
+167,2845,2857,12,56.56,10.16,,Amherst Lady Knights 19U,OZ play,3
+168,2864,2876,12,56.56,10.16,,Amherst Lady Knights 19U,OZ play,3
+169,2864,2876,12,56.56,10.16,,Amherst Lady Knights 19U,Shots,3
+170,2925,2937,12,47.76,13.76,,North Shore Warhawks 19U AA,OZ play,3
+171,2925,2937,12,47.76,13.76,,North Shore Warhawks 19U AA,Shots,3
+172,2935,2947,12,54.08,19.84,,Amherst Lady Knights 19U,OZ play,3
+173,2935,2947,12,54.08,19.84,,Amherst Lady Knights 19U,Shots,3
+174,2956,2968,12,9.45,6.25,,Amherst Lady Knights 19U,OZ play,3
+175,2962,2974,12,52.07,12.62,,Amherst Lady Knights 19U,OZ play,3
+176,2962,2974,12,52.07,12.62,,Amherst Lady Knights 19U,Shots,3
+177,2974,2986,12,55,12.72,,Amherst Lady Knights 19U,OZ play,3
+178,2974,2986,12,55,12.72,,Amherst Lady Knights 19U,Shots,3
+179,2999,3011,12,51.51,19.67,,Amherst Lady Knights 19U,OZ play,3
+180,3002,3014,12,55.28,15.19,,Amherst Lady Knights 19U,OZ play,3
+181,3002,3014,12,55.28,15.19,,Amherst Lady Knights 19U,Shots,3
+182,3111,3123,12,48.86,1.04,,Amherst Lady Knights 19U,OZ play,3
+183,3111,3123,12,48.86,1.04,,Amherst Lady Knights 19U,Shots,3
+184,3157,3169,12,46.38,21.73,,North Shore Warhawks 19U AA,OZ play,3
+185,3157,3169,12,46.38,21.73,,North Shore Warhawks 19U AA,Shots,3
+186,3166,3178,12,2,15,,Amherst Lady Knights 19U,OZ play,3
+187,3174,3186,12,48.4,3.99,,Amherst Lady Knights 19U,OZ play,3
+188,3174,3186,12,48.4,3.99,,Amherst Lady Knights 19U,Shots,3
+189,3193,3205,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+190,3252,3264,12,44.55,21.16,,North Shore Warhawks 19U AA,OZ play,3
+191,3252,3264,12,44.55,21.16,,North Shore Warhawks 19U AA,Shots,3
+192,3285,3297,12,44.55,24.77,,North Shore Warhawks 19U AA,OZ play,3
+193,3285,3297,12,44.55,24.77,,North Shore Warhawks 19U AA,Shots,3

@@ -1,0 +1,5962 @@
+{
+  "generated_at": "2026-05-25T15:45:30Z",
+  "args": {
+    "window_diff": 20,
+    "iou_threshold": 0.3,
+    "gt_pad": 0.0,
+    "gt_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/ground_truth",
+    "pred_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/output/runs/cv_seg"
+  },
+  "summary": {
+    "videos_total": 3,
+    "videos_by_status": {
+      "ok": 3
+    },
+    "tp_window": 67,
+    "fp_window": 144,
+    "fn_window": 74,
+    "precision": 0.3175,
+    "recall": 0.4752,
+    "f1": 0.3807,
+    "midpoint_recall": 0.617,
+    "midpoint_precision": 0.2796,
+    "midpoint_f1": 0.3848,
+    "midpoint_gt_hits": 87,
+    "midpoint_gt_total": 141,
+    "midpoint_pred_hits": 59,
+    "midpoint_pred_total": 211,
+    "attribution_correct": 0,
+    "attribution_wrong": 0,
+    "attribution_skipped": 67,
+    "attribution_accuracy": null
+  },
+  "diagnostics_summary": {
+    "fn_classification": {
+      "no_spatial_overlap": 15,
+      "missed_entirely": 28,
+      "scale_mismatch": 31
+    },
+    "fp_classification": {
+      "spurious": 92,
+      "adjacent_to_gt": 12,
+      "scale_mismatch": 40
+    },
+    "fp_spurious_by_source": {
+      "net_cooccur": 56,
+      "fallback_motion_edge": 14,
+      "motion": 7,
+      "net_goalie_only": 6,
+      "net_goal_only": 9
+    },
+    "near_miss_iou_distribution": {
+      "n": 71,
+      "min": 0.05,
+      "p25": 0.105,
+      "median": 0.167,
+      "p75": 0.2,
+      "max": 0.273
+    }
+  },
+  "fp_trace_summary": {
+    "fp_total": 144,
+    "fp_by_source_combo": {
+      "motion_auto_close": 118,
+      "faceoff+motion_auto_close": 16,
+      "crowd_roar+motion_auto_close": 3,
+      "celebration+faceoff+motion_auto_close": 3,
+      "celebration+motion_auto_close": 2,
+      "motion": 1,
+      "motion_eof": 1
+    },
+    "fp_by_individual_signal": {
+      "motion_auto_close": 142,
+      "faceoff": 19,
+      "celebration": 5,
+      "crowd_roar": 3,
+      "motion": 1,
+      "motion_eof": 1
+    },
+    "fp_top_combo_per_video": {
+      "mjEeE7p2Hz8": [
+        [
+          "motion_auto_close",
+          40
+        ],
+        [
+          "faceoff+motion_auto_close",
+          2
+        ],
+        [
+          "crowd_roar+motion_auto_close",
+          2
+        ]
+      ],
+      "SX5xNJlh6eQ": [
+        [
+          "motion_auto_close",
+          24
+        ],
+        [
+          "faceoff+motion_auto_close",
+          14
+        ],
+        [
+          "celebration+faceoff+motion_auto_close",
+          2
+        ]
+      ],
+      "bfEKgtOIkQU": [
+        [
+          "motion_auto_close",
+          54
+        ],
+        [
+          "crowd_roar+motion_auto_close",
+          1
+        ],
+        [
+          "motion",
+          1
+        ]
+      ]
+    },
+    "fps_without_trace": 0
+  },
+  "videos": [
+    {
+      "vID": "mjEeE7p2Hz8",
+      "hudl_id": 2073809,
+      "status": "ok",
+      "duration": 3344,
+      "gt_windows": [
+        {
+          "start": 15,
+          "end": 27,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 82,
+          "end": 125,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 192,
+          "end": 225,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 256,
+          "end": 273,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 376,
+          "end": 388,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 477,
+          "end": 489,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 507,
+          "end": 539,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 576,
+          "end": 588,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 629,
+          "end": 641,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 671,
+          "end": 714,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 812,
+          "end": 824,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 929,
+          "end": 941,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 978,
+          "end": 990,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1035,
+          "end": 1047,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1073,
+          "end": 1085,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1166,
+          "end": 1178,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1240,
+          "end": 1252,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1295,
+          "end": 1307,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1335,
+          "end": 1347,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1397,
+          "end": 1409,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1432,
+          "end": 1444,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1531,
+          "end": 1543,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1636,
+          "end": 1648,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1659,
+          "end": 1671,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1717,
+          "end": 1729,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1736,
+          "end": 1761,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1817,
+          "end": 1829,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1879,
+          "end": 1920,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1940,
+          "end": 1952,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1983,
+          "end": 1995,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2029,
+          "end": 2052,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2126,
+          "end": 2140,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2154,
+          "end": 2166,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2167,
+          "end": 2179,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2290,
+          "end": 2318,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2336,
+          "end": 2348,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2428,
+          "end": 2441,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2630,
+          "end": 2678,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2680,
+          "end": 2692,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2754,
+          "end": 2766,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2818,
+          "end": 2830,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2864,
+          "end": 2876,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2925,
+          "end": 2937,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2935,
+          "end": 3014,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3111,
+          "end": 3123,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3157,
+          "end": 3169,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3174,
+          "end": 3186,
+          "team": "Amherst Lady Knights 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3252,
+          "end": 3264,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3285,
+          "end": 3297,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        }
+      ],
+      "pred_windows": [
+        {
+          "start": 5.0,
+          "end": 35.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 67.0,
+          "end": 97.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 98.0,
+          "end": 128.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 129.0,
+          "end": 159.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 191.0,
+          "end": 221.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 222.0,
+          "end": 252.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 315.0,
+          "end": 345.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 346.0,
+          "end": 373.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 377.0,
+          "end": 407.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 408.0,
+          "end": 435.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 439.0,
+          "end": 454.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 470.0,
+          "end": 500.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 501.0,
+          "end": 531.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 532.0,
+          "end": 547.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 625.0,
+          "end": 655.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 656.0,
+          "end": 686.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 687.0,
+          "end": 717.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 718.0,
+          "end": 748.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 749.0,
+          "end": 779.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 780.0,
+          "end": 796.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 811.0,
+          "end": 841.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 861.0,
+          "end": 891.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 892.0,
+          "end": 922.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 923.0,
+          "end": 953.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 954.0,
+          "end": 984.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 985.0,
+          "end": 1015.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1047.0,
+          "end": 1077.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1078.0,
+          "end": 1108.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1109.0,
+          "end": 1139.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1140.0,
+          "end": 1170.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1173.0,
+          "end": 1203.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 1235.0,
+          "end": 1265.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 1297.0,
+          "end": 1327.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 1328.0,
+          "end": 1358.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 1390.0,
+          "end": 1420.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1452.0,
+          "end": 1482.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1483.0,
+          "end": 1513.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1514.0,
+          "end": 1544.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1545.0,
+          "end": 1575.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1576.0,
+          "end": 1601.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1607.0,
+          "end": 1637.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1669.0,
+          "end": 1699.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 1860.0,
+          "end": 1884.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1984.0,
+          "end": 2013.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2015.0,
+          "end": 2039.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2083.0,
+          "end": 2113.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 2114.0,
+          "end": 2144.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 2145.0,
+          "end": 2175.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 2176.0,
+          "end": 2206.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2238.0,
+          "end": 2268.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2269.0,
+          "end": 2299.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2331.0,
+          "end": 2361.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 2362.0,
+          "end": 2414.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2416.0,
+          "end": 2422.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2424.0,
+          "end": 2450.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2455.0,
+          "end": 2515.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2517.0,
+          "end": 2547.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2613.0,
+          "end": 2643.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2644.0,
+          "end": 2674.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2675.0,
+          "end": 2705.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 2706.0,
+          "end": 2736.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2744.0,
+          "end": 2774.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2775.0,
+          "end": 2805.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2837.0,
+          "end": 2867.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2868.0,
+          "end": 2898.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2938.0,
+          "end": 2955.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 2986.0,
+          "end": 3023.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3091.0,
+          "end": 3121.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3122.0,
+          "end": 3152.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 3153.0,
+          "end": 3183.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3184.0,
+          "end": 3211.0,
+          "team": null,
+          "color": "White and Blue",
+          "period": null,
+          "source": "net_cooccur"
+        }
+      ],
+      "metrics": {
+        "tp": 26,
+        "fp": 45,
+        "fn": 23,
+        "precision": 0.3662,
+        "recall": 0.5306,
+        "f1": 0.4333,
+        "midpoint_recall": 0.6122,
+        "midpoint_precision": 0.3239,
+        "midpoint_gt_hits": 30,
+        "midpoint_gt_total": 49,
+        "midpoint_pred_hits": 23,
+        "midpoint_pred_total": 71,
+        "attribution_accuracy": null,
+        "attribution_correct": 0,
+        "attribution_wrong": 0,
+        "attribution_skipped": 26
+      },
+      "matches": [
+        {
+          "gt_start": 192,
+          "gt_end": 225,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 191.0,
+          "pred_end": 221.0,
+          "pred_color": "White and Blue",
+          "iou": 0.853,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 507,
+          "gt_end": 539,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 501.0,
+          "pred_end": 531.0,
+          "pred_color": "White and Blue",
+          "iou": 0.632,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2630,
+          "gt_end": 2678,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 2644.0,
+          "pred_end": 2674.0,
+          "pred_color": "White and Blue",
+          "iou": 0.625,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 671,
+          "gt_end": 714,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 687.0,
+          "pred_end": 717.0,
+          "pred_color": "White and Blue",
+          "iou": 0.587,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 82,
+          "gt_end": 125,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 98.0,
+          "pred_end": 128.0,
+          "pred_color": "White and Blue",
+          "iou": 0.587,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2428,
+          "gt_end": 2441,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 2424.0,
+          "pred_end": 2450.0,
+          "pred_color": "White and Blue",
+          "iou": 0.5,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2126,
+          "gt_end": 2140,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 2114.0,
+          "pred_end": 2144.0,
+          "pred_color": "White and Blue",
+          "iou": 0.467,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 3157,
+          "gt_end": 3169,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": 3153.0,
+          "pred_end": 3183.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2754,
+          "gt_end": 2766,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 2744.0,
+          "pred_end": 2774.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2680,
+          "gt_end": 2692,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": 2675.0,
+          "pred_end": 2705.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2336,
+          "gt_end": 2348,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 2331.0,
+          "pred_end": 2361.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2154,
+          "gt_end": 2166,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": 2145.0,
+          "pred_end": 2175.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1531,
+          "gt_end": 1543,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 1514.0,
+          "pred_end": 1544.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1397,
+          "gt_end": 1409,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 1390.0,
+          "pred_end": 1420.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1335,
+          "gt_end": 1347,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 1328.0,
+          "pred_end": 1358.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1240,
+          "gt_end": 1252,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 1235.0,
+          "pred_end": 1265.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 929,
+          "gt_end": 941,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 923.0,
+          "pred_end": 953.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 812,
+          "gt_end": 824,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 811.0,
+          "pred_end": 841.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 629,
+          "gt_end": 641,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 625.0,
+          "pred_end": 655.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 477,
+          "gt_end": 489,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": 470.0,
+          "pred_end": 500.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 15,
+          "gt_end": 27,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 5.0,
+          "pred_end": 35.0,
+          "pred_color": "White and Blue",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1983,
+          "gt_end": 1995,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 1984.0,
+          "pred_end": 2013.0,
+          "pred_color": "White and Blue",
+          "iou": 0.367,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 376,
+          "gt_end": 388,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 377.0,
+          "pred_end": 407.0,
+          "pred_color": "White and Blue",
+          "iou": 0.355,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2935,
+          "gt_end": 3014,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 2986.0,
+          "pred_end": 3023.0,
+          "pred_color": "White and Blue",
+          "iou": 0.318,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 3111,
+          "gt_end": 3123,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": 3091.0,
+          "pred_end": 3121.0,
+          "pred_color": "White and Blue",
+          "iou": 0.312,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1295,
+          "gt_end": 1307,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": 1297.0,
+          "pred_end": 1327.0,
+          "pred_color": "White and Blue",
+          "iou": 0.312,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 256,
+          "gt_end": 273,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 576,
+          "gt_end": 588,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 978,
+          "gt_end": 990,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1035,
+          "gt_end": 1047,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1073,
+          "gt_end": 1085,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1166,
+          "gt_end": 1178,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1432,
+          "gt_end": 1444,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1636,
+          "gt_end": 1648,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1659,
+          "gt_end": 1671,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1717,
+          "gt_end": 1729,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1736,
+          "gt_end": 1761,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1817,
+          "gt_end": 1829,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1879,
+          "gt_end": 1920,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1940,
+          "gt_end": 1952,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2029,
+          "gt_end": 2052,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2167,
+          "gt_end": 2179,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2290,
+          "gt_end": 2318,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2818,
+          "gt_end": 2830,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2864,
+          "gt_end": 2876,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2925,
+          "gt_end": 2937,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3174,
+          "gt_end": 3186,
+          "gt_team": "Amherst Lady Knights 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3252,
+          "gt_end": 3264,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3285,
+          "gt_end": 3297,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 67.0,
+          "pred_end": 97.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 129.0,
+          "pred_end": 159.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 222.0,
+          "pred_end": 252.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 315.0,
+          "pred_end": 345.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 346.0,
+          "pred_end": 373.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 408.0,
+          "pred_end": 435.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 439.0,
+          "pred_end": 454.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 532.0,
+          "pred_end": 547.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 656.0,
+          "pred_end": 686.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 718.0,
+          "pred_end": 748.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 749.0,
+          "pred_end": 779.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 780.0,
+          "pred_end": 796.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 861.0,
+          "pred_end": 891.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 892.0,
+          "pred_end": 922.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 954.0,
+          "pred_end": 984.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 985.0,
+          "pred_end": 1015.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1047.0,
+          "pred_end": 1077.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1078.0,
+          "pred_end": 1108.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1109.0,
+          "pred_end": 1139.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1140.0,
+          "pred_end": 1170.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1173.0,
+          "pred_end": 1203.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1452.0,
+          "pred_end": 1482.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1483.0,
+          "pred_end": 1513.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1545.0,
+          "pred_end": 1575.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1576.0,
+          "pred_end": 1601.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1607.0,
+          "pred_end": 1637.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1669.0,
+          "pred_end": 1699.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1860.0,
+          "pred_end": 1884.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2015.0,
+          "pred_end": 2039.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2083.0,
+          "pred_end": 2113.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2176.0,
+          "pred_end": 2206.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2238.0,
+          "pred_end": 2268.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2269.0,
+          "pred_end": 2299.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2362.0,
+          "pred_end": 2414.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2416.0,
+          "pred_end": 2422.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2455.0,
+          "pred_end": 2515.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2517.0,
+          "pred_end": 2547.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2613.0,
+          "pred_end": 2643.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2706.0,
+          "pred_end": 2736.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2775.0,
+          "pred_end": 2805.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2837.0,
+          "pred_end": 2867.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2868.0,
+          "pred_end": 2898.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2938.0,
+          "pred_end": 2955.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3122.0,
+          "pred_end": 3152.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3184.0,
+          "pred_end": 3211.0,
+          "pred_color": "White and Blue",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        }
+      ],
+      "notes": [
+        "no team→color mapping — attribution skipped",
+        "target_filter is ON in prediction but no team→color map available — recall will be artificially low (opponent-team GT rows have no matching predictions)"
+      ]
+    },
+    {
+      "vID": "SX5xNJlh6eQ",
+      "hudl_id": 2073056,
+      "status": "ok",
+      "duration": 3666,
+      "gt_windows": [
+        {
+          "start": 20,
+          "end": 32,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 86,
+          "end": 112,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 154,
+          "end": 166,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 205,
+          "end": 217,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 379,
+          "end": 391,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 569,
+          "end": 631,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 699,
+          "end": 711,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 767,
+          "end": 805,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 925,
+          "end": 937,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 959,
+          "end": 971,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 981,
+          "end": 993,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1163,
+          "end": 1202,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1382,
+          "end": 1407,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1413,
+          "end": 1450,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1481,
+          "end": 1495,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1563,
+          "end": 1575,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1600,
+          "end": 1627,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1652,
+          "end": 1664,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1706,
+          "end": 1746,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1819,
+          "end": 1831,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2002,
+          "end": 2014,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2013,
+          "end": 2025,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2122,
+          "end": 2134,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2186,
+          "end": 2200,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2199,
+          "end": 2211,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2290,
+          "end": 2302,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2329,
+          "end": 2341,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2394,
+          "end": 2406,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2488,
+          "end": 2500,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2556,
+          "end": 2568,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2658,
+          "end": 2676,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2719,
+          "end": 2731,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2754,
+          "end": 2766,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2795,
+          "end": 2807,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2877,
+          "end": 2889,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2924,
+          "end": 2936,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2982,
+          "end": 3000,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3016,
+          "end": 3028,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3090,
+          "end": 3131,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3232,
+          "end": 3244,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3309,
+          "end": 3331,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3357,
+          "end": 3396,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3549,
+          "end": 3561,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3599,
+          "end": 3611,
+          "team": "Philadelphia Jr. Flyers 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        }
+      ],
+      "pred_windows": [
+        {
+          "start": 32.0,
+          "end": 62.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 63.0,
+          "end": 93.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 94.0,
+          "end": 125.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 218.0,
+          "end": 248.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 280.0,
+          "end": 310.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 435.0,
+          "end": 462.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 497.0,
+          "end": 527.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 528.0,
+          "end": 558.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 559.0,
+          "end": 589.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 590.0,
+          "end": 620.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 621.0,
+          "end": 651.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 652.0,
+          "end": 682.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 693.0,
+          "end": 723.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 725.0,
+          "end": 755.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 787.0,
+          "end": 812.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 856.0,
+          "end": 886.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 887.0,
+          "end": 896.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 970.0,
+          "end": 1001.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 1053.0,
+          "end": 1083.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 1084.0,
+          "end": 1114.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 1115.0,
+          "end": 1175.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1175.0,
+          "end": 1235.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1239.0,
+          "end": 1269.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 1270.0,
+          "end": 1276.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 1298.0,
+          "end": 1300.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 1495.0,
+          "end": 1525.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 1526.0,
+          "end": 1556.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 1557.0,
+          "end": 1587.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1588.0,
+          "end": 1648.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1648.0,
+          "end": 1708.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1708.0,
+          "end": 1768.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1768.0,
+          "end": 1818.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1819.0,
+          "end": 1849.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1850.0,
+          "end": 1902.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 1912.0,
+          "end": 1942.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1943.0,
+          "end": 1973.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1988.0,
+          "end": 2005.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 2091.0,
+          "end": 2136.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2144.0,
+          "end": 2174.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2175.0,
+          "end": 2235.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 2247.0,
+          "end": 2298.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 2392.0,
+          "end": 2422.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2485.0,
+          "end": 2505.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 2552.0,
+          "end": 2582.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 2583.0,
+          "end": 2613.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 2614.0,
+          "end": 2674.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 2676.0,
+          "end": 2736.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 2738.0,
+          "end": 2768.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2784.0,
+          "end": 2815.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 2854.0,
+          "end": 2882.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 2984.0,
+          "end": 3014.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3082.0,
+          "end": 3112.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3113.0,
+          "end": 3143.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 3177.0,
+          "end": 3207.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 3208.0,
+          "end": 3238.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3247.0,
+          "end": 3266.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 3267.0,
+          "end": 3308.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 3498.0,
+          "end": 3528.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 3561.0,
+          "end": 3591.0,
+          "team": null,
+          "color": "Green",
+          "period": null,
+          "source": "motion"
+        }
+      ],
+      "metrics": {
+        "tp": 17,
+        "fp": 42,
+        "fn": 27,
+        "precision": 0.2881,
+        "recall": 0.3864,
+        "f1": 0.3301,
+        "midpoint_recall": 0.5455,
+        "midpoint_precision": 0.2712,
+        "midpoint_gt_hits": 24,
+        "midpoint_gt_total": 44,
+        "midpoint_pred_hits": 16,
+        "midpoint_pred_total": 59,
+        "attribution_accuracy": null,
+        "attribution_correct": 0,
+        "attribution_wrong": 0,
+        "attribution_skipped": 17
+      },
+      "matches": [
+        {
+          "gt_start": 1706,
+          "gt_end": 1746,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 1708.0,
+          "pred_end": 1768.0,
+          "pred_color": "Green",
+          "iou": 0.613,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2488,
+          "gt_end": 2500,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 2485.0,
+          "pred_end": 2505.0,
+          "pred_color": "Green",
+          "iou": 0.6,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2982,
+          "gt_end": 3000,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 2984.0,
+          "pred_end": 3014.0,
+          "pred_color": "Green",
+          "iou": 0.5,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 569,
+          "gt_end": 631,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 590.0,
+          "pred_end": 620.0,
+          "pred_color": "Green",
+          "iou": 0.484,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 86,
+          "gt_end": 112,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 94.0,
+          "pred_end": 125.0,
+          "pred_color": "Green",
+          "iou": 0.462,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1600,
+          "gt_end": 1627,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 1588.0,
+          "pred_end": 1648.0,
+          "pred_color": "Green",
+          "iou": 0.45,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 3090,
+          "gt_end": 3131,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 3082.0,
+          "pred_end": 3112.0,
+          "pred_color": "Green",
+          "iou": 0.449,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2754,
+          "gt_end": 2766,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 2738.0,
+          "pred_end": 2768.0,
+          "pred_color": "Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2556,
+          "gt_end": 2568,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 2552.0,
+          "pred_end": 2582.0,
+          "pred_color": "Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2394,
+          "gt_end": 2406,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 2392.0,
+          "pred_end": 2422.0,
+          "pred_color": "Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1819,
+          "gt_end": 1831,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 1819.0,
+          "pred_end": 1849.0,
+          "pred_color": "Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1563,
+          "gt_end": 1575,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 1557.0,
+          "pred_end": 1587.0,
+          "pred_color": "Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 767,
+          "gt_end": 805,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 787.0,
+          "pred_end": 812.0,
+          "pred_color": "Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 699,
+          "gt_end": 711,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 693.0,
+          "pred_end": 723.0,
+          "pred_color": "Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2795,
+          "gt_end": 2807,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 2784.0,
+          "pred_end": 2815.0,
+          "pred_color": "Green",
+          "iou": 0.387,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 981,
+          "gt_end": 993,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 970.0,
+          "pred_end": 1001.0,
+          "pred_color": "Green",
+          "iou": 0.387,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1163,
+          "gt_end": 1202,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": 1175.0,
+          "pred_end": 1235.0,
+          "pred_color": "Green",
+          "iou": 0.375,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 20,
+          "gt_end": 32,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 154,
+          "gt_end": 166,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 205,
+          "gt_end": 217,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 379,
+          "gt_end": 391,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 925,
+          "gt_end": 937,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 959,
+          "gt_end": 971,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1382,
+          "gt_end": 1407,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1413,
+          "gt_end": 1450,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1481,
+          "gt_end": 1495,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1652,
+          "gt_end": 1664,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2002,
+          "gt_end": 2014,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2013,
+          "gt_end": 2025,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2122,
+          "gt_end": 2134,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2186,
+          "gt_end": 2200,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2199,
+          "gt_end": 2211,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2290,
+          "gt_end": 2302,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2329,
+          "gt_end": 2341,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2658,
+          "gt_end": 2676,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2719,
+          "gt_end": 2731,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2877,
+          "gt_end": 2889,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2924,
+          "gt_end": 2936,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3016,
+          "gt_end": 3028,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3232,
+          "gt_end": 3244,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3309,
+          "gt_end": 3331,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3357,
+          "gt_end": 3396,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3549,
+          "gt_end": 3561,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3599,
+          "gt_end": 3611,
+          "gt_team": "Philadelphia Jr. Flyers 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 32.0,
+          "pred_end": 62.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 63.0,
+          "pred_end": 93.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 218.0,
+          "pred_end": 248.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 280.0,
+          "pred_end": 310.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 435.0,
+          "pred_end": 462.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 497.0,
+          "pred_end": 527.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 528.0,
+          "pred_end": 558.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 559.0,
+          "pred_end": 589.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 621.0,
+          "pred_end": 651.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 652.0,
+          "pred_end": 682.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 725.0,
+          "pred_end": 755.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 856.0,
+          "pred_end": 886.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 887.0,
+          "pred_end": 896.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1053.0,
+          "pred_end": 1083.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1084.0,
+          "pred_end": 1114.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1115.0,
+          "pred_end": 1175.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1239.0,
+          "pred_end": 1269.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1270.0,
+          "pred_end": 1276.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1298.0,
+          "pred_end": 1300.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1495.0,
+          "pred_end": 1525.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1526.0,
+          "pred_end": 1556.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1648.0,
+          "pred_end": 1708.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1768.0,
+          "pred_end": 1818.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1850.0,
+          "pred_end": 1902.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1912.0,
+          "pred_end": 1942.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1943.0,
+          "pred_end": 1973.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1988.0,
+          "pred_end": 2005.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2091.0,
+          "pred_end": 2136.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2144.0,
+          "pred_end": 2174.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2175.0,
+          "pred_end": 2235.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2247.0,
+          "pred_end": 2298.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2583.0,
+          "pred_end": 2613.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2614.0,
+          "pred_end": 2674.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2676.0,
+          "pred_end": 2736.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2854.0,
+          "pred_end": 2882.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3113.0,
+          "pred_end": 3143.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3177.0,
+          "pred_end": 3207.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3208.0,
+          "pred_end": 3238.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3247.0,
+          "pred_end": 3266.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3267.0,
+          "pred_end": 3308.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3498.0,
+          "pred_end": 3528.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3561.0,
+          "pred_end": 3591.0,
+          "pred_color": "Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        }
+      ],
+      "notes": [
+        "no team→color mapping — attribution skipped",
+        "target_filter is ON in prediction but no team→color map available — recall will be artificially low (opponent-team GT rows have no matching predictions)"
+      ]
+    },
+    {
+      "vID": "bfEKgtOIkQU",
+      "hudl_id": 2072195,
+      "status": "ok",
+      "duration": 4162,
+      "gt_windows": [
+        {
+          "start": 63,
+          "end": 84,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 169,
+          "end": 181,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 275,
+          "end": 314,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 344,
+          "end": 378,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 378,
+          "end": 390,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 424,
+          "end": 436,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 605,
+          "end": 617,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 640,
+          "end": 652,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 680,
+          "end": 692,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 786,
+          "end": 819,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 880,
+          "end": 892,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1153,
+          "end": 1174,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1230,
+          "end": 1242,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1251,
+          "end": 1263,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1288,
+          "end": 1300,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 1,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1336,
+          "end": 1348,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1413,
+          "end": 1452,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1480,
+          "end": 1518,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1540,
+          "end": 1583,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1600,
+          "end": 1612,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1731,
+          "end": 1743,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1876,
+          "end": 1888,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 1922,
+          "end": 1934,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2035,
+          "end": 2047,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2172,
+          "end": 2217,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2376,
+          "end": 2390,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2428,
+          "end": 2440,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2487,
+          "end": 2499,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2519,
+          "end": 2531,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2666,
+          "end": 2678,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2733,
+          "end": 2757,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2781,
+          "end": 2793,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 2,
+          "source": "shots+goals"
+        },
+        {
+          "start": 2875,
+          "end": 2904,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3002,
+          "end": 3014,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3055,
+          "end": 3067,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3136,
+          "end": 3148,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3275,
+          "end": 3287,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3409,
+          "end": 3424,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3504,
+          "end": 3533,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3688,
+          "end": 3700,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3754,
+          "end": 3766,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3802,
+          "end": 3814,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3871,
+          "end": 3883,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3907,
+          "end": 3919,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3960,
+          "end": 3972,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 3975,
+          "end": 3987,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 4070,
+          "end": 4082,
+          "team": "Chicago Hawks 19U",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        },
+        {
+          "start": 4082,
+          "end": 4098,
+          "team": "North Shore Warhawks 19U AA",
+          "color": null,
+          "period": 3,
+          "source": "shots+goals"
+        }
+      ],
+      "pred_windows": [
+        {
+          "start": 45.0,
+          "end": 75.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 76.0,
+          "end": 106.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 107.0,
+          "end": 137.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 139.0,
+          "end": 169.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 170.0,
+          "end": 192.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 217.0,
+          "end": 247.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 375.0,
+          "end": 401.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 409.0,
+          "end": 439.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 440.0,
+          "end": 470.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 521.0,
+          "end": 551.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 562.0,
+          "end": 592.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 593.0,
+          "end": 623.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 629.0,
+          "end": 658.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 662.0,
+          "end": 692.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 693.0,
+          "end": 723.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 724.0,
+          "end": 754.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 766.0,
+          "end": 796.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 797.0,
+          "end": 827.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 880.0,
+          "end": 902.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 918.0,
+          "end": 948.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 954.0,
+          "end": 984.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1047.0,
+          "end": 1077.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1078.0,
+          "end": 1108.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1140.0,
+          "end": 1170.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 1202.0,
+          "end": 1232.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1267.0,
+          "end": 1297.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1298.0,
+          "end": 1314.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1362.0,
+          "end": 1383.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1393.0,
+          "end": 1423.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1430.0,
+          "end": 1460.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1476.0,
+          "end": 1506.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1516.0,
+          "end": 1546.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1639.0,
+          "end": 1669.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 1670.0,
+          "end": 1700.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1701.0,
+          "end": 1731.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 1732.0,
+          "end": 1753.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1766.0,
+          "end": 1796.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1898.0,
+          "end": 1928.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 1940.0,
+          "end": 1970.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 1977.0,
+          "end": 2007.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 2008.0,
+          "end": 2038.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2039.0,
+          "end": 2069.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2107.0,
+          "end": 2137.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2205.0,
+          "end": 2235.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2243.0,
+          "end": 2273.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2274.0,
+          "end": 2304.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2305.0,
+          "end": 2335.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 2413.0,
+          "end": 2443.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goalie_only"
+        },
+        {
+          "start": 2458.0,
+          "end": 2488.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 2520.0,
+          "end": 2540.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 2637.0,
+          "end": 2667.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2668.0,
+          "end": 2698.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2707.0,
+          "end": 2737.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2779.0,
+          "end": 2804.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 2819.0,
+          "end": 2823.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 2845.0,
+          "end": 2874.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "motion"
+        },
+        {
+          "start": 2875.0,
+          "end": 2905.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2916.0,
+          "end": 2946.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 2978.0,
+          "end": 3008.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3009.0,
+          "end": 3039.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3047.0,
+          "end": 3077.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3080.0,
+          "end": 3110.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3111.0,
+          "end": 3141.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3142.0,
+          "end": 3172.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3173.0,
+          "end": 3203.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3266.0,
+          "end": 3296.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3297.0,
+          "end": 3327.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 3359.0,
+          "end": 3389.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3390.0,
+          "end": 3420.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3427.0,
+          "end": 3457.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 3485.0,
+          "end": 3515.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 3667.0,
+          "end": 3697.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3698.0,
+          "end": 3728.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3730.0,
+          "end": 3760.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3761.0,
+          "end": 3791.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "fallback_motion_edge"
+        },
+        {
+          "start": 3902.0,
+          "end": 3932.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3964.0,
+          "end": 3994.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 3996.0,
+          "end": 4026.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 4069.0,
+          "end": 4091.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        },
+        {
+          "start": 4100.0,
+          "end": 4130.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_cooccur"
+        },
+        {
+          "start": 4131.0,
+          "end": 4140.0,
+          "team": null,
+          "color": "White and Green",
+          "period": null,
+          "source": "net_goal_only"
+        }
+      ],
+      "metrics": {
+        "tp": 24,
+        "fp": 57,
+        "fn": 24,
+        "precision": 0.2963,
+        "recall": 0.5,
+        "f1": 0.3721,
+        "midpoint_recall": 0.6875,
+        "midpoint_precision": 0.2469,
+        "midpoint_gt_hits": 33,
+        "midpoint_gt_total": 48,
+        "midpoint_pred_hits": 20,
+        "midpoint_pred_total": 81,
+        "attribution_accuracy": null,
+        "attribution_correct": 0,
+        "attribution_wrong": 0,
+        "attribution_skipped": 24
+      },
+      "matches": [
+        {
+          "gt_start": 2875,
+          "gt_end": 2904,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 2875.0,
+          "pred_end": 2905.0,
+          "pred_color": "White and Green",
+          "iou": 0.967,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1480,
+          "gt_end": 1518,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 1476.0,
+          "pred_end": 1506.0,
+          "pred_color": "White and Green",
+          "iou": 0.619,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 4070,
+          "gt_end": 4082,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 4069.0,
+          "pred_end": 4091.0,
+          "pred_color": "White and Green",
+          "iou": 0.545,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 880,
+          "gt_end": 892,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 880.0,
+          "pred_end": 902.0,
+          "pred_color": "White and Green",
+          "iou": 0.545,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 786,
+          "gt_end": 819,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 797.0,
+          "pred_end": 827.0,
+          "pred_color": "White and Green",
+          "iou": 0.537,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2519,
+          "gt_end": 2531,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 2520.0,
+          "pred_end": 2540.0,
+          "pred_color": "White and Green",
+          "iou": 0.524,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1731,
+          "gt_end": 1743,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 1732.0,
+          "pred_end": 1753.0,
+          "pred_color": "White and Green",
+          "iou": 0.5,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1153,
+          "gt_end": 1174,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 1140.0,
+          "pred_end": 1170.0,
+          "pred_color": "White and Green",
+          "iou": 0.5,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2781,
+          "gt_end": 2793,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 2779.0,
+          "pred_end": 2804.0,
+          "pred_color": "White and Green",
+          "iou": 0.48,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 169,
+          "gt_end": 181,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 170.0,
+          "pred_end": 192.0,
+          "pred_color": "White and Green",
+          "iou": 0.478,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 1413,
+          "gt_end": 1452,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 1430.0,
+          "pred_end": 1460.0,
+          "pred_color": "White and Green",
+          "iou": 0.468,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 378,
+          "gt_end": 390,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 375.0,
+          "pred_end": 401.0,
+          "pred_color": "White and Green",
+          "iou": 0.462,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 640,
+          "gt_end": 652,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 629.0,
+          "pred_end": 658.0,
+          "pred_color": "White and Green",
+          "iou": 0.414,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 3975,
+          "gt_end": 3987,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 3964.0,
+          "pred_end": 3994.0,
+          "pred_color": "White and Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 3907,
+          "gt_end": 3919,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 3902.0,
+          "pred_end": 3932.0,
+          "pred_color": "White and Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 3275,
+          "gt_end": 3287,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": 3266.0,
+          "pred_end": 3296.0,
+          "pred_color": "White and Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 3055,
+          "gt_end": 3067,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 3047.0,
+          "pred_end": 3077.0,
+          "pred_color": "White and Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2428,
+          "gt_end": 2440,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": 2413.0,
+          "pred_end": 2443.0,
+          "pred_color": "White and Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 680,
+          "gt_end": 692,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 662.0,
+          "pred_end": 692.0,
+          "pred_color": "White and Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 605,
+          "gt_end": 617,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 593.0,
+          "pred_end": 623.0,
+          "pred_color": "White and Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 424,
+          "gt_end": 436,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 409.0,
+          "pred_end": 439.0,
+          "pred_color": "White and Green",
+          "iou": 0.4,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 3409,
+          "gt_end": 3424,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 3390.0,
+          "pred_end": 3420.0,
+          "pred_color": "White and Green",
+          "iou": 0.324,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 2666,
+          "gt_end": 2678,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 2668.0,
+          "pred_end": 2698.0,
+          "pred_color": "White and Green",
+          "iou": 0.312,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 63,
+          "gt_end": 84,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": 45.0,
+          "pred_end": 75.0,
+          "pred_color": "White and Green",
+          "iou": 0.308,
+          "iou_raw": null,
+          "attribution": "skipped"
+        },
+        {
+          "gt_start": 275,
+          "gt_end": 314,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 344,
+          "gt_end": 378,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1230,
+          "gt_end": 1242,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1251,
+          "gt_end": 1263,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1288,
+          "gt_end": 1300,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1336,
+          "gt_end": 1348,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1540,
+          "gt_end": 1583,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1600,
+          "gt_end": 1612,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1876,
+          "gt_end": 1888,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 1922,
+          "gt_end": 1934,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2035,
+          "gt_end": 2047,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2172,
+          "gt_end": 2217,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2376,
+          "gt_end": 2390,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2487,
+          "gt_end": 2499,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 2733,
+          "gt_end": 2757,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3002,
+          "gt_end": 3014,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3136,
+          "gt_end": 3148,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3504,
+          "gt_end": 3533,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3688,
+          "gt_end": 3700,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3754,
+          "gt_end": 3766,
+          "gt_team": "Chicago Hawks 19U",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3802,
+          "gt_end": 3814,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3871,
+          "gt_end": 3883,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 3960,
+          "gt_end": 3972,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": 4082,
+          "gt_end": 4098,
+          "gt_team": "North Shore Warhawks 19U AA",
+          "pred_start": null,
+          "pred_end": null,
+          "pred_color": null,
+          "iou": 0.0,
+          "attribution": "n/a (FN)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 76.0,
+          "pred_end": 106.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 107.0,
+          "pred_end": 137.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 139.0,
+          "pred_end": 169.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 217.0,
+          "pred_end": 247.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 440.0,
+          "pred_end": 470.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 521.0,
+          "pred_end": 551.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 562.0,
+          "pred_end": 592.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 693.0,
+          "pred_end": 723.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 724.0,
+          "pred_end": 754.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 766.0,
+          "pred_end": 796.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 918.0,
+          "pred_end": 948.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 954.0,
+          "pred_end": 984.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1047.0,
+          "pred_end": 1077.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1078.0,
+          "pred_end": 1108.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1202.0,
+          "pred_end": 1232.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1267.0,
+          "pred_end": 1297.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1298.0,
+          "pred_end": 1314.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1362.0,
+          "pred_end": 1383.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1393.0,
+          "pred_end": 1423.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1516.0,
+          "pred_end": 1546.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1639.0,
+          "pred_end": 1669.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1670.0,
+          "pred_end": 1700.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1701.0,
+          "pred_end": 1731.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1766.0,
+          "pred_end": 1796.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1898.0,
+          "pred_end": 1928.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1940.0,
+          "pred_end": 1970.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 1977.0,
+          "pred_end": 2007.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2008.0,
+          "pred_end": 2038.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2039.0,
+          "pred_end": 2069.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2107.0,
+          "pred_end": 2137.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2205.0,
+          "pred_end": 2235.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2243.0,
+          "pred_end": 2273.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2274.0,
+          "pred_end": 2304.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2305.0,
+          "pred_end": 2335.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2458.0,
+          "pred_end": 2488.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2637.0,
+          "pred_end": 2667.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2707.0,
+          "pred_end": 2737.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2819.0,
+          "pred_end": 2823.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2845.0,
+          "pred_end": 2874.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2916.0,
+          "pred_end": 2946.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 2978.0,
+          "pred_end": 3008.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3009.0,
+          "pred_end": 3039.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3080.0,
+          "pred_end": 3110.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3111.0,
+          "pred_end": 3141.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3142.0,
+          "pred_end": 3172.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3173.0,
+          "pred_end": 3203.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3297.0,
+          "pred_end": 3327.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3359.0,
+          "pred_end": 3389.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3427.0,
+          "pred_end": 3457.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3485.0,
+          "pred_end": 3515.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3667.0,
+          "pred_end": 3697.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3698.0,
+          "pred_end": 3728.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3730.0,
+          "pred_end": 3760.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3761.0,
+          "pred_end": 3791.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 3996.0,
+          "pred_end": 4026.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 4100.0,
+          "pred_end": 4130.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        },
+        {
+          "gt_start": null,
+          "gt_end": null,
+          "gt_team": null,
+          "pred_start": 4131.0,
+          "pred_end": 4140.0,
+          "pred_color": "White and Green",
+          "iou": 0.0,
+          "attribution": "n/a (FP)"
+        }
+      ],
+      "notes": [
+        "no team→color mapping — attribution skipped",
+        "target_filter is ON in prediction but no team→color map available — recall will be artificially low (opponent-team GT rows have no matching predictions)"
+      ]
+    }
+  ]
+}

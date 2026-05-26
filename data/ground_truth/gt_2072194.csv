@@ -1,0 +1,244 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,94,106,12,36.58,6.25,,Grand Rapids Griffins 19U,OZ play,1
+2,111,123,12,52.34,8.83,,Grand Rapids Griffins 19U,OZ play,1
+3,111,123,12,52.34,8.83,,Grand Rapids Griffins 19U,Shots,1
+4,169,181,12,30.48,12.96,,Grand Rapids Griffins 19U,OZ play,1
+5,187,199,12,39.14,21.54,,Grand Rapids Griffins 19U,OZ play,1
+6,187,199,12,39.14,21.54,,Grand Rapids Griffins 19U,Shots,1
+7,205,217,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,1
+8,292,304,12,53.99,19.46,,Grand Rapids Griffins 19U,OZ play,1
+9,292,304,12,53.99,19.46,,Grand Rapids Griffins 19U,Shots,1
+10,361,373,12,51.51,6.25,,Grand Rapids Griffins 19U,OZ play,1
+11,383,395,12,57.29,16.13,,Grand Rapids Griffins 19U,OZ play,1
+12,383,395,12,57.29,16.13,,Grand Rapids Griffins 19U,Shots,1
+13,387,399,12,53.99,19.65,,Grand Rapids Griffins 19U,OZ play,1
+14,387,399,12,53.99,19.65,,Grand Rapids Griffins 19U,Shots,1
+15,393,405,12,53.35,10.16,,Grand Rapids Griffins 19U,OZ play,1
+16,393,405,12,53.35,10.16,,Grand Rapids Griffins 19U,Shots,1
+17,394,406,12,5.59,12.24,,Grand Rapids Griffins 19U,OZ play,1
+18,395,407,12,53.35,12.53,,Grand Rapids Griffins 19U,OZ play,1
+19,395,407,12,53.35,12.53,,Grand Rapids Griffins 19U,Shots,1
+20,454,466,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,1
+21,458,470,12,45.83,18.79,,Grand Rapids Griffins 19U,OZ play,1
+22,476,488,12,51.43,22.21,,Grand Rapids Griffins 19U,OZ play,1
+23,476,488,12,51.43,22.21,,Grand Rapids Griffins 19U,Shots,1
+24,498,510,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,1
+25,513,525,12,52.62,8.64,,Grand Rapids Griffins 19U,OZ play,1
+26,513,525,12,52.62,8.64,,Grand Rapids Griffins 19U,Shots,1
+27,524,536,12,49.23,3.32,,Grand Rapids Griffins 19U,OZ play,1
+28,524,536,12,49.23,3.32,,Grand Rapids Griffins 19U,Shots,1
+29,535,547,12,55.28,20.6,,Grand Rapids Griffins 19U,OZ play,1
+30,535,547,12,55.28,20.6,,Grand Rapids Griffins 19U,Shots,1
+31,551,563,12,52.98,9.97,,Grand Rapids Griffins 19U,OZ play,1
+32,551,563,12,52.98,9.97,,Grand Rapids Griffins 19U,Shots,1
+33,567,579,12,53.35,12.05,,Grand Rapids Griffins 19U,OZ play,1
+34,567,579,12,53.35,12.05,,Grand Rapids Griffins 19U,Shots,1
+35,570,582,12,54.82,13.86,,Grand Rapids Griffins 19U,Goals,1
+36,570,582,12,54.82,13.86,,Grand Rapids Griffins 19U,OZ play,1
+37,570,582,12,54.82,13.86,,Grand Rapids Griffins 19U,Shots,1
+38,604,616,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,1
+39,610,622,12,38.41,19.08,,North Shore Warhawks 19U AA,OZ play,1
+40,610,622,12,38.41,19.08,,North Shore Warhawks 19U AA,Shots,1
+41,630,642,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,1
+42,630,642,12,55.28,5.88,,North Shore Warhawks 19U AA,OZ play,1
+43,683,695,12,55.28,5.88,,North Shore Warhawks 19U AA,OZ play,1
+44,683,695,12,55.28,5.88,,North Shore Warhawks 19U AA,Shots,1
+45,719,731,12,54.91,13.1,,Grand Rapids Griffins 19U,OZ play,1
+46,719,731,12,54.91,13.1,,Grand Rapids Griffins 19U,Shots,1
+47,722,734,12,42.53,13.76,,Grand Rapids Griffins 19U,OZ play,1
+48,722,734,12,42.53,13.76,,Grand Rapids Griffins 19U,Shots,1
+49,740,752,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,1
+50,748,760,12,57.84,16.8,,Grand Rapids Griffins 19U,OZ play,1
+51,748,760,12,57.84,16.8,,Grand Rapids Griffins 19U,Shots,1
+52,749,761,12,55,15.75,,Grand Rapids Griffins 19U,OZ play,1
+53,749,761,12,55,15.75,,Grand Rapids Griffins 19U,Shots,1
+54,831,843,12,53.53,13.19,,North Shore Warhawks 19U AA,OZ play,1
+55,831,843,12,53.53,13.19,,North Shore Warhawks 19U AA,Shots,1
+56,852,864,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,1
+57,922,934,12,36.39,2.85,,North Shore Warhawks 19U AA,OZ play,1
+58,922,934,12,36.39,2.85,,North Shore Warhawks 19U AA,Shots,1
+59,1065,1077,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,1
+60,1065,1077,12,44.83,5.03,,North Shore Warhawks 19U AA,OZ play,1
+61,1072,1084,12,44.83,5.03,,North Shore Warhawks 19U AA,OZ play,1
+62,1072,1084,12,44.83,5.03,,North Shore Warhawks 19U AA,Shots,1
+63,1160,1172,12,42.44,23.82,,Grand Rapids Griffins 19U,OZ play,1
+64,1160,1172,12,42.44,23.82,,Grand Rapids Griffins 19U,Shots,1
+65,1169,1181,12,54.36,13.48,,Grand Rapids Griffins 19U,OZ play,1
+66,1169,1181,12,54.36,13.48,,Grand Rapids Griffins 19U,Shots,1
+67,1177,1189,12,47.58,23.82,,North Shore Warhawks 19U AA,OZ play,1
+68,1177,1189,12,47.58,23.82,,North Shore Warhawks 19U AA,Shots,1
+69,1220,1232,12,45.47,3.7,,Grand Rapids Griffins 19U,OZ play,1
+70,1220,1232,12,45.47,3.7,,Grand Rapids Griffins 19U,Shots,1
+71,1236,1248,12,49.04,20.88,,Grand Rapids Griffins 19U,OZ play,1
+72,1236,1248,12,49.04,20.88,,Grand Rapids Griffins 19U,Shots,1
+73,1254,1266,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,1
+74,1271,1283,12,54.27,14.33,,Grand Rapids Griffins 19U,OZ play,1
+75,1271,1283,12,54.27,14.33,,Grand Rapids Griffins 19U,Shots,1
+76,1337,1349,12,51.51,6.25,,Grand Rapids Griffins 19U,OZ play,1
+77,1358,1370,12,55.09,11.67,,Grand Rapids Griffins 19U,Goals,1
+78,1358,1370,12,55.09,11.67,,Grand Rapids Griffins 19U,OZ play,1
+79,1358,1370,12,55.09,11.67,,Grand Rapids Griffins 19U,Shots,1
+80,1495,1507,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+81,1497,1509,12,46.57,24.11,,North Shore Warhawks 19U AA,OZ play,2
+82,1497,1509,12,46.57,24.11,,North Shore Warhawks 19U AA,Shots,2
+83,1512,1524,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+84,1516,1528,12,50.23,19.36,,North Shore Warhawks 19U AA,OZ play,2
+85,1516,1528,12,50.23,19.36,,North Shore Warhawks 19U AA,Shots,2
+86,1543,1555,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,2
+87,1575,1587,12,7.61,22.3,,Grand Rapids Griffins 19U,OZ play,2
+88,1575,1587,12,7.61,22.3,,Grand Rapids Griffins 19U,Shots,2
+89,1592,1604,12,7.61,22.3,,Grand Rapids Griffins 19U,OZ play,2
+90,1606,1618,12,7.61,22.3,,Grand Rapids Griffins 19U,OZ play,2
+91,1637,1649,12,49.96,1.52,,Grand Rapids Griffins 19U,OZ play,2
+92,1637,1649,12,49.96,1.52,,Grand Rapids Griffins 19U,Shots,2
+93,1640,1652,12,54.08,5.22,,Grand Rapids Griffins 19U,OZ play,2
+94,1640,1652,12,54.08,5.22,,Grand Rapids Griffins 19U,Shots,2
+95,1714,1726,12,9.45,19.67,,Grand Rapids Griffins 19U,OZ play,2
+96,1725,1737,12,42.26,10.63,,Grand Rapids Griffins 19U,OZ play,2
+97,1725,1737,12,42.26,10.63,,Grand Rapids Griffins 19U,Shots,2
+98,1735,1747,12,48.77,10.91,,Grand Rapids Griffins 19U,OZ play,2
+99,1735,1747,12,48.77,10.91,,Grand Rapids Griffins 19U,Shots,2
+100,1738,1750,12,55.37,8.64,,Grand Rapids Griffins 19U,OZ play,2
+101,1738,1750,12,55.37,8.64,,Grand Rapids Griffins 19U,Shots,2
+102,1740,1752,12,54.27,15.38,,Grand Rapids Griffins 19U,Goals,2
+103,1740,1752,12,54.27,15.38,,Grand Rapids Griffins 19U,OZ play,2
+104,1740,1752,12,54.27,15.38,,Grand Rapids Griffins 19U,Shots,2
+105,1927,1939,12,30.48,12.96,,Grand Rapids Griffins 19U,OZ play,2
+106,1944,1956,12,47.21,8.26,,Grand Rapids Griffins 19U,OZ play,2
+107,1944,1956,12,47.21,8.26,,Grand Rapids Griffins 19U,Shots,2
+108,1960,1972,12,51.51,6.25,,Grand Rapids Griffins 19U,OZ play,2
+109,1973,1985,12,40.24,23.44,,Grand Rapids Griffins 19U,OZ play,2
+110,1973,1985,12,40.24,23.44,,Grand Rapids Griffins 19U,Shots,2
+111,1983,1995,12,39.78,23.35,,Grand Rapids Griffins 19U,OZ play,2
+112,1983,1995,12,39.78,23.35,,Grand Rapids Griffins 19U,Shots,2
+113,1991,2003,12,40.06,3.61,,Grand Rapids Griffins 19U,OZ play,2
+114,1991,2003,12,40.06,3.61,,Grand Rapids Griffins 19U,Shots,2
+115,2070,2082,12,49.23,24.49,,Grand Rapids Griffins 19U,OZ play,2
+116,2070,2082,12,49.23,24.49,,Grand Rapids Griffins 19U,Shots,2
+117,2116,2128,12,55.46,1.42,,Grand Rapids Griffins 19U,OZ play,2
+118,2116,2128,12,55.46,1.42,,Grand Rapids Griffins 19U,Shots,2
+119,2143,2155,12,51.51,6.25,,Grand Rapids Griffins 19U,OZ play,2
+120,2147,2159,12,41.25,13.86,,Grand Rapids Griffins 19U,OZ play,2
+121,2147,2159,12,41.25,13.86,,Grand Rapids Griffins 19U,Shots,2
+122,2150,2162,12,54.36,13.95,,Grand Rapids Griffins 19U,OZ play,2
+123,2150,2162,12,54.36,13.95,,Grand Rapids Griffins 19U,Shots,2
+124,2168,2180,12,49.41,16.8,,Grand Rapids Griffins 19U,OZ play,2
+125,2168,2180,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,2
+126,2171,2183,12,49.41,16.8,,Grand Rapids Griffins 19U,OZ play,2
+127,2171,2183,12,49.41,16.8,,Grand Rapids Griffins 19U,Shots,2
+128,2207,2219,12,43.18,1.8,,North Shore Warhawks 19U AA,OZ play,2
+129,2207,2219,12,43.18,1.8,,North Shore Warhawks 19U AA,Shots,2
+130,2300,2312,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,2
+131,2303,2315,12,54.54,6.45,,North Shore Warhawks 19U AA,OZ play,2
+132,2303,2315,12,54.54,6.45,,North Shore Warhawks 19U AA,Shots,2
+133,2325,2337,12,49.41,3.13,,North Shore Warhawks 19U AA,OZ play,2
+134,2325,2337,12,49.41,3.13,,North Shore Warhawks 19U AA,Shots,2
+135,2330,2342,12,56.74,20.78,,North Shore Warhawks 19U AA,OZ play,2
+136,2330,2342,12,56.74,20.78,,North Shore Warhawks 19U AA,Shots,2
+137,2382,2394,12,57.38,5.6,,North Shore Warhawks 19U AA,OZ play,2
+138,2382,2394,12,57.38,5.6,,North Shore Warhawks 19U AA,Shots,2
+139,2421,2433,12,9.45,19.67,,Grand Rapids Griffins 19U,OZ play,2
+140,2438,2450,12,54.45,22.3,,Grand Rapids Griffins 19U,OZ play,2
+141,2438,2450,12,54.45,22.3,,Grand Rapids Griffins 19U,Shots,2
+142,2458,2470,12,9.45,6.25,,Grand Rapids Griffins 19U,OZ play,2
+143,2471,2483,12,41.43,13.38,,Grand Rapids Griffins 19U,OZ play,2
+144,2471,2483,12,41.43,13.38,,Grand Rapids Griffins 19U,Shots,2
+145,2622,2634,12,54.73,13.19,,Grand Rapids Griffins 19U,Goals,2
+146,2622,2634,12,54.73,13.19,,Grand Rapids Griffins 19U,OZ play,2
+147,2622,2634,12,54.73,13.19,,Grand Rapids Griffins 19U,Shots,2
+148,2755,2767,12,51.51,6.25,,Grand Rapids Griffins 19U,OZ play,2
+149,2806,2818,12,56.65,10.35,,Grand Rapids Griffins 19U,OZ play,2
+150,2806,2818,12,56.65,10.35,,Grand Rapids Griffins 19U,Shots,2
+151,2808,2820,12,50.14,15.85,,Grand Rapids Griffins 19U,OZ play,2
+152,2808,2820,12,50.14,15.85,,Grand Rapids Griffins 19U,Shots,2
+153,2880,2892,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,2
+154,2896,2908,12,56.38,22.4,,Grand Rapids Griffins 19U,OZ play,2
+155,2896,2908,12,56.38,22.4,,Grand Rapids Griffins 19U,Shots,2
+156,2900,2912,12,51.7,13.95,,Grand Rapids Griffins 19U,OZ play,2
+157,2900,2912,12,51.7,13.95,,Grand Rapids Griffins 19U,Shots,2
+158,2903,2915,12,56.83,2.28,,Grand Rapids Griffins 19U,OZ play,2
+159,2903,2915,12,56.83,2.28,,Grand Rapids Griffins 19U,Shots,2
+160,2905,2917,12,55,8.45,,Grand Rapids Griffins 19U,OZ play,2
+161,2905,2917,12,55,8.45,,Grand Rapids Griffins 19U,Shots,2
+162,2982,2994,12,51.51,6.25,,Grand Rapids Griffins 19U,OZ play,2
+163,3002,3014,12,40.7,3.23,,Grand Rapids Griffins 19U,OZ play,2
+164,3002,3014,12,40.7,3.23,,Grand Rapids Griffins 19U,Shots,2
+165,3055,3067,12,30.48,12.96,,Grand Rapids Griffins 19U,OZ play,3
+166,3122,3134,12,59.77,11.58,,Grand Rapids Griffins 19U,OZ play,3
+167,3137,3149,12,1.65,6.45,,Grand Rapids Griffins 19U,OZ play,3
+168,3143,3155,12,49.87,21.07,,Grand Rapids Griffins 19U,OZ play,3
+169,3143,3155,12,49.87,21.07,,Grand Rapids Griffins 19U,Shots,3
+170,3166,3178,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,3
+171,3170,3182,12,39.88,8.73,,Grand Rapids Griffins 19U,OZ play,3
+172,3170,3182,12,39.88,8.73,,Grand Rapids Griffins 19U,Shots,3
+173,3182,3194,12,47.48,20.88,,Grand Rapids Griffins 19U,OZ play,3
+174,3182,3194,12,47.48,20.88,,Grand Rapids Griffins 19U,Shots,3
+175,3212,3224,12,2,15,,Grand Rapids Griffins 19U,OZ play,3
+176,3238,3250,12,58.21,22.3,,Grand Rapids Griffins 19U,OZ play,3
+177,3238,3250,12,58.21,22.3,,Grand Rapids Griffins 19U,Shots,3
+178,3263,3275,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,3
+179,3339,3351,12,42.08,24.49,,Grand Rapids Griffins 19U,OZ play,3
+180,3339,3351,12,42.08,24.49,,Grand Rapids Griffins 19U,Shots,3
+181,3344,3356,12,49.04,18.03,,Grand Rapids Griffins 19U,OZ play,3
+182,3344,3356,12,49.04,18.03,,Grand Rapids Griffins 19U,Shots,3
+183,3369,3381,12,9.45,6.25,,Grand Rapids Griffins 19U,OZ play,3
+184,3369,3381,12,42.08,10.82,,Grand Rapids Griffins 19U,OZ play,3
+185,3373,3385,12,42.08,10.82,,Grand Rapids Griffins 19U,OZ play,3
+186,3373,3385,12,42.08,10.82,,Grand Rapids Griffins 19U,Shots,3
+187,3374,3386,12,55.09,13.67,,North Shore Warhawks 19U AA,OZ play,3
+188,3416,3428,12,51.51,19.67,,Grand Rapids Griffins 19U,OZ play,3
+189,3416,3428,12,58.96,10.91,,Grand Rapids Griffins 19U,OZ play,3
+190,3457,3469,12,2,15,,Grand Rapids Griffins 19U,OZ play,3
+191,3552,3564,12,54.08,9.49,,Grand Rapids Griffins 19U,OZ play,3
+192,3552,3564,12,54.08,9.49,,Grand Rapids Griffins 19U,Shots,3
+193,3586,3598,12,38.23,2.37,,North Shore Warhawks 19U AA,OZ play,3
+194,3586,3598,12,38.23,2.37,,North Shore Warhawks 19U AA,Shots,3
+195,3646,3658,12,48.49,19.93,,Grand Rapids Griffins 19U,OZ play,3
+196,3646,3658,12,48.49,19.93,,Grand Rapids Griffins 19U,Shots,3
+197,3652,3664,12,53.81,13.48,,Grand Rapids Griffins 19U,OZ play,3
+198,3652,3664,12,53.81,13.48,,Grand Rapids Griffins 19U,Shots,3
+199,3658,3670,12,55.73,18.32,,Grand Rapids Griffins 19U,OZ play,3
+200,3658,3670,12,55.73,18.32,,Grand Rapids Griffins 19U,Shots,3
+201,3666,3678,12,55.83,15.47,,Grand Rapids Griffins 19U,OZ play,3
+202,3666,3678,12,55.83,15.47,,Grand Rapids Griffins 19U,Shots,3
+203,3677,3689,12,45.93,10.16,,Grand Rapids Griffins 19U,OZ play,3
+204,3677,3689,12,45.93,10.16,,Grand Rapids Griffins 19U,Shots,3
+205,3678,3690,12,53.63,13.48,,Grand Rapids Griffins 19U,OZ play,3
+206,3678,3690,12,53.63,13.48,,Grand Rapids Griffins 19U,Shots,3
+207,3731,3743,12,2,15,,North Shore Warhawks 19U AA,OZ play,3
+208,3765,3777,12,1.56,7.31,,North Shore Warhawks 19U AA,OZ play,3
+209,3792,3804,12,49.23,4.56,,North Shore Warhawks 19U AA,OZ play,3
+210,3792,3804,12,49.23,4.56,,North Shore Warhawks 19U AA,Shots,3
+211,3805,3817,12,49.23,23.06,,Grand Rapids Griffins 19U,OZ play,3
+212,3805,3817,12,49.23,23.06,,Grand Rapids Griffins 19U,Shots,3
+213,3826,3838,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+214,3834,3846,12,29.79,3.23,,North Shore Warhawks 19U AA,OZ play,3
+215,3872,3884,12,9.45,6.25,,Grand Rapids Griffins 19U,OZ play,3
+216,3872,3884,12,49.23,21.73,,Grand Rapids Griffins 19U,OZ play,3
+217,3900,3912,12,49.23,21.73,,Grand Rapids Griffins 19U,OZ play,3
+218,3900,3912,12,49.23,21.73,,Grand Rapids Griffins 19U,Shots,3
+219,3907,3919,12,49.32,0.57,,North Shore Warhawks 19U AA,OZ play,3
+220,3918,3930,12,56.1,10.53,,North Shore Warhawks 19U AA,OZ play,3
+221,3918,3930,12,56.1,10.53,,North Shore Warhawks 19U AA,Shots,3
+222,3942,3954,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+223,3970,3982,12,39.78,21.54,,North Shore Warhawks 19U AA,OZ play,3
+224,3970,3982,12,39.78,21.54,,North Shore Warhawks 19U AA,Shots,3
+225,4036,4048,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,3
+226,4055,4067,12,44.18,6.83,,North Shore Warhawks 19U AA,OZ play,3
+227,4055,4067,12,44.18,6.83,,North Shore Warhawks 19U AA,Shots,3
+228,4083,4095,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+229,4083,4095,12,40.24,8.73,,North Shore Warhawks 19U AA,OZ play,3
+230,4128,4140,12,40.24,8.73,,North Shore Warhawks 19U AA,OZ play,3
+231,4128,4140,12,40.24,8.73,,North Shore Warhawks 19U AA,Shots,3
+232,4156,4168,12,44.73,6.93,,Grand Rapids Griffins 19U,OZ play,3
+233,4156,4168,12,44.73,6.93,,Grand Rapids Griffins 19U,Shots,3
+234,4179,4191,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+235,4213,4225,12,40.43,7.21,,North Shore Warhawks 19U AA,OZ play,3
+236,4213,4225,12,40.43,7.21,,North Shore Warhawks 19U AA,Shots,3
+237,4289,4301,12,54.08,12.15,,North Shore Warhawks 19U AA,OZ play,3
+238,4289,4301,12,54.08,12.15,,North Shore Warhawks 19U AA,Shots,3
+239,4309,4321,12,52.43,22.3,,Grand Rapids Griffins 19U,OZ play,3
+240,4309,4321,12,52.43,22.3,,Grand Rapids Griffins 19U,Shots,3
+241,4327,4339,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,3
+242,4334,4346,12,36.76,1.52,,North Shore Warhawks 19U AA,OZ play,3
+243,4334,4346,12,36.76,1.52,,North Shore Warhawks 19U AA,Shots,3

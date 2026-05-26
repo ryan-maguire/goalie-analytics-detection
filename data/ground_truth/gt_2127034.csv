@@ -1,0 +1,209 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,3,15,12,30.48,12.96,,Boston Hockey Academy 16U,OZ play,1
+2,91,103,12,41.72,22.15,,Boston Hockey Academy 16U,OZ play,1
+3,91,103,12,41.72,22.15,,Boston Hockey Academy 16U,Shots,1
+4,105,117,12,57.38,10.82,,Boston Hockey Academy 16U,OZ play,1
+5,105,117,12,57.38,10.82,,Boston Hockey Academy 16U,Shots,1
+6,129,141,12,42.17,1.04,,Boston Hockey Academy 16U,OZ play,1
+7,129,141,12,51.51,6.25,,Boston Hockey Academy 16U,OZ play,1
+8,152,164,12,42.17,1.04,,Boston Hockey Academy 16U,OZ play,1
+9,152,164,12,42.17,1.04,,Boston Hockey Academy 16U,Shots,1
+10,183,195,12,47.12,7.4,,North Shore Warhawks 19U AA,OZ play,1
+11,183,195,12,47.12,7.4,,North Shore Warhawks 19U AA,Shots,1
+12,213,225,12,44.55,1.04,,Boston Hockey Academy 16U,OZ play,1
+13,213,225,12,44.55,1.04,,Boston Hockey Academy 16U,Shots,1
+14,225,237,12,38.87,10.06,,North Shore Warhawks 19U AA,OZ play,1
+15,225,237,12,38.87,10.06,,North Shore Warhawks 19U AA,Shots,1
+16,276,288,12,54.91,5.31,,Boston Hockey Academy 16U,OZ play,1
+17,276,288,12,54.91,5.31,,Boston Hockey Academy 16U,Shots,1
+18,292,304,12,53.63,9.4,,Boston Hockey Academy 16U,OZ play,1
+19,292,304,12,53.63,9.4,,Boston Hockey Academy 16U,Shots,1
+20,323,335,12,9.45,6.25,,Boston Hockey Academy 16U,OZ play,1
+21,337,349,12,51.72,14.12,,Boston Hockey Academy 16U,OZ play,1
+22,337,349,12,51.72,14.12,,Boston Hockey Academy 16U,Shots,1
+23,399,411,12,51.51,19.67,,Boston Hockey Academy 16U,OZ play,1
+24,403,415,12,48.68,12.15,,Boston Hockey Academy 16U,OZ play,1
+25,403,415,12,48.68,12.15,,Boston Hockey Academy 16U,Shots,1
+26,423,435,12,39.6,1.42,,Boston Hockey Academy 16U,OZ play,1
+27,423,435,12,51.51,19.67,,Boston Hockey Academy 16U,OZ play,1
+28,437,449,12,39.6,1.42,,Boston Hockey Academy 16U,OZ play,1
+29,437,449,12,39.6,1.42,,Boston Hockey Academy 16U,Shots,1
+30,473,485,12,47.94,11.01,,North Shore Warhawks 19U AA,OZ play,1
+31,473,485,12,47.94,11.01,,North Shore Warhawks 19U AA,Shots,1
+32,474,486,12,54.91,12.62,,North Shore Warhawks 19U AA,OZ play,1
+33,474,486,12,54.91,12.62,,North Shore Warhawks 19U AA,Shots,1
+34,481,493,12,39.14,24.01,,North Shore Warhawks 19U AA,OZ play,1
+35,481,493,12,39.14,24.01,,North Shore Warhawks 19U AA,Shots,1
+36,485,497,12,47.94,15.09,,North Shore Warhawks 19U AA,OZ play,1
+37,485,497,12,47.94,15.09,,North Shore Warhawks 19U AA,Shots,1
+38,573,585,12,2,15,,Boston Hockey Academy 16U,OZ play,1
+39,599,611,12,40.98,19.93,,Boston Hockey Academy 16U,Goals,1
+40,599,611,12,40.98,19.93,,Boston Hockey Academy 16U,OZ play,1
+41,599,611,12,40.98,19.93,,Boston Hockey Academy 16U,Shots,1
+42,645,657,12,30.48,12.96,,Boston Hockey Academy 16U,OZ play,1
+43,671,683,12,52.07,11.39,,Boston Hockey Academy 16U,OZ play,1
+44,671,683,12,52.07,11.39,,Boston Hockey Academy 16U,Shots,1
+45,791,803,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,1
+46,806,818,12,41.43,24.96,,North Shore Warhawks 19U AA,OZ play,1
+47,806,818,12,41.43,24.96,,North Shore Warhawks 19U AA,Shots,1
+48,879,891,12,9.45,6.25,,Boston Hockey Academy 16U,OZ play,1
+49,901,913,12,48.31,18.89,,Boston Hockey Academy 16U,OZ play,1
+50,901,913,12,48.31,18.89,,Boston Hockey Academy 16U,Shots,1
+51,918,930,12,51.51,19.67,,Boston Hockey Academy 16U,OZ play,1
+52,923,935,12,51.06,9.11,,Boston Hockey Academy 16U,OZ play,1
+53,923,935,12,51.06,9.11,,Boston Hockey Academy 16U,Shots,1
+54,925,937,12,46.93,3.8,,Boston Hockey Academy 16U,OZ play,1
+55,925,937,12,46.93,3.8,,Boston Hockey Academy 16U,Shots,1
+56,960,972,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,1
+57,994,1006,12,22.18,24.77,,North Shore Warhawks 19U AA,OZ play,1
+58,1030,1042,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,1
+59,1054,1066,12,49.78,3.23,,North Shore Warhawks 19U AA,OZ play,1
+60,1054,1066,12,49.78,3.23,,North Shore Warhawks 19U AA,Shots,1
+61,1072,1084,12,51.51,6.25,,Boston Hockey Academy 16U,OZ play,1
+62,1113,1125,12,45.65,1.8,,Boston Hockey Academy 16U,OZ play,1
+63,1113,1125,12,45.65,1.8,,Boston Hockey Academy 16U,Shots,1
+64,1136,1148,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,1
+65,1136,1148,12,53.53,15.94,,North Shore Warhawks 19U AA,OZ play,1
+66,1168,1180,12,53.53,15.94,,North Shore Warhawks 19U AA,OZ play,1
+67,1168,1180,12,53.53,15.94,,North Shore Warhawks 19U AA,Shots,1
+68,1190,1202,12,55.28,10.53,,Boston Hockey Academy 16U,OZ play,1
+69,1190,1202,12,55.28,10.53,,Boston Hockey Academy 16U,Shots,1
+70,1277,1289,12,51.51,6.25,,Boston Hockey Academy 16U,OZ play,2
+71,1314,1326,12,52.98,16.23,,Boston Hockey Academy 16U,OZ play,2
+72,1314,1326,12,52.98,16.23,,Boston Hockey Academy 16U,Shots,2
+73,1385,1397,12,36.58,6.25,,North Shore Warhawks 19U AA,OZ play,2
+74,1406,1418,12,49.13,2.85,,North Shore Warhawks 19U AA,OZ play,2
+75,1406,1418,12,49.13,2.85,,North Shore Warhawks 19U AA,Shots,2
+76,1419,1431,12,16.23,14.05,,North Shore Warhawks 19U AA,OZ play,2
+77,1421,1433,12,48.58,17.18,,North Shore Warhawks 19U AA,OZ play,2
+78,1421,1433,12,48.58,17.18,,North Shore Warhawks 19U AA,Shots,2
+79,1462,1474,12,9.45,19.67,,Boston Hockey Academy 16U,OZ play,2
+80,1517,1529,12,49.59,17.94,,Boston Hockey Academy 16U,OZ play,2
+81,1517,1529,12,49.59,17.94,,Boston Hockey Academy 16U,Shots,2
+82,1583,1595,12,51.52,13.57,,Boston Hockey Academy 16U,OZ play,2
+83,1583,1595,12,51.52,13.57,,Boston Hockey Academy 16U,Shots,2
+84,1613,1625,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+85,1639,1651,12,55.64,16.42,,North Shore Warhawks 19U AA,OZ play,2
+86,1639,1651,12,55.64,16.42,,North Shore Warhawks 19U AA,Shots,2
+87,1690,1702,12,51.51,19.67,,Boston Hockey Academy 16U,OZ play,2
+88,1780,1792,12,40.06,3.7,,Boston Hockey Academy 16U,OZ play,2
+89,1780,1792,12,40.06,3.7,,Boston Hockey Academy 16U,Shots,2
+90,1781,1793,12,53.44,15.47,,Boston Hockey Academy 16U,OZ play,2
+91,1781,1793,12,53.44,15.47,,Boston Hockey Academy 16U,Shots,2
+92,1803,1815,12,51.51,19.67,,Boston Hockey Academy 16U,OZ play,2
+93,1809,1821,12,44.83,20.22,,Boston Hockey Academy 16U,OZ play,2
+94,1809,1821,12,44.83,20.22,,Boston Hockey Academy 16U,Shots,2
+95,1823,1835,12,9.45,6.25,,Boston Hockey Academy 16U,OZ play,2
+96,1872,1884,12,40.43,23.16,,Boston Hockey Academy 16U,OZ play,2
+97,1872,1884,12,40.43,23.16,,Boston Hockey Academy 16U,Shots,2
+98,1932,1944,12,55.64,13.95,,Boston Hockey Academy 16U,OZ play,2
+99,1932,1944,12,55.64,13.95,,Boston Hockey Academy 16U,Shots,2
+100,1954,1966,12,51.51,19.67,,Boston Hockey Academy 16U,OZ play,2
+101,1962,1974,12,52.53,3.61,,Boston Hockey Academy 16U,OZ play,2
+102,1962,1974,12,52.53,3.61,,Boston Hockey Academy 16U,Shots,2
+103,1969,1981,12,42.63,2.09,,Boston Hockey Academy 16U,OZ play,2
+104,1969,1981,12,42.63,2.09,,Boston Hockey Academy 16U,Shots,2
+105,1985,1997,12,52.25,22.3,,Boston Hockey Academy 16U,OZ play,2
+106,1985,1997,12,52.25,22.3,,Boston Hockey Academy 16U,Shots,2
+107,2053,2065,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+108,2086,2098,12,44.37,1.9,,North Shore Warhawks 19U AA,OZ play,2
+109,2086,2098,12,44.37,1.9,,North Shore Warhawks 19U AA,Shots,2
+110,2090,2102,12,12.56,1.52,,North Shore Warhawks 19U AA,OZ play,2
+111,2134,2146,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+112,2134,2146,12,53.99,21.16,,North Shore Warhawks 19U AA,OZ play,2
+113,2184,2196,12,53.99,21.16,,North Shore Warhawks 19U AA,OZ play,2
+114,2184,2196,12,53.99,21.16,,North Shore Warhawks 19U AA,Shots,2
+115,2223,2235,12,51.7,10.16,,Boston Hockey Academy 16U,OZ play,2
+116,2223,2235,12,51.7,10.16,,Boston Hockey Academy 16U,Shots,2
+117,2260,2272,12,56.65,10.63,,Boston Hockey Academy 16U,OZ play,2
+118,2260,2272,12,56.65,10.63,,Boston Hockey Academy 16U,Shots,2
+119,2277,2289,12,44.73,18.51,,North Shore Warhawks 19U AA,OZ play,2
+120,2277,2289,12,44.73,18.51,,North Shore Warhawks 19U AA,Shots,2
+121,2296,2308,12,52.34,9.97,,Boston Hockey Academy 16U,OZ play,2
+122,2296,2308,12,52.34,9.97,,Boston Hockey Academy 16U,Shots,2
+123,2325,2337,12,44,24.49,,Boston Hockey Academy 16U,OZ play,2
+124,2325,2337,12,51.51,6.25,,Boston Hockey Academy 16U,OZ play,2
+125,2373,2385,12,44,24.49,,Boston Hockey Academy 16U,OZ play,2
+126,2373,2385,12,44,24.49,,Boston Hockey Academy 16U,Shots,2
+127,2384,2396,12,49.32,9.97,,North Shore Warhawks 19U AA,OZ play,2
+128,2384,2396,12,49.32,9.97,,North Shore Warhawks 19U AA,Shots,2
+129,2411,2423,12,9.45,19.67,,Boston Hockey Academy 16U,OZ play,2
+130,2432,2444,12,52.25,15.47,,Boston Hockey Academy 16U,OZ play,2
+131,2432,2444,12,52.25,15.47,,Boston Hockey Academy 16U,Shots,2
+132,2478,2490,12,30.48,12.96,,Boston Hockey Academy 16U,OZ play,3
+133,2493,2505,12,51.33,20.22,,Boston Hockey Academy 16U,OZ play,3
+134,2493,2505,12,51.33,20.22,,Boston Hockey Academy 16U,Shots,3
+135,2519,2531,12,49.5,16.89,,Boston Hockey Academy 16U,Goals,3
+136,2519,2531,12,49.5,16.89,,Boston Hockey Academy 16U,OZ play,3
+137,2519,2531,12,49.5,16.89,,Boston Hockey Academy 16U,Shots,3
+138,2556,2568,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,3
+139,2588,2600,12,36.58,23.92,,North Shore Warhawks 19U AA,OZ play,3
+140,2588,2600,12,36.58,23.92,,North Shore Warhawks 19U AA,Shots,3
+141,2606,2618,12,41.07,21.26,,North Shore Warhawks 19U AA,OZ play,3
+142,2606,2618,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+143,2608,2620,12,41.07,21.26,,North Shore Warhawks 19U AA,OZ play,3
+144,2608,2620,12,41.07,21.26,,North Shore Warhawks 19U AA,Shots,3
+145,2619,2631,12,42.44,3.23,,Boston Hockey Academy 16U,OZ play,3
+146,2619,2631,12,42.44,3.23,,Boston Hockey Academy 16U,Shots,3
+147,2776,2788,12,55.64,14.33,,North Shore Warhawks 19U AA,OZ play,3
+148,2776,2788,12,55.64,14.33,,North Shore Warhawks 19U AA,Shots,3
+149,2798,2810,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,3
+150,2808,2820,12,47.85,13.48,,North Shore Warhawks 19U AA,OZ play,3
+151,2808,2820,12,47.85,13.48,,North Shore Warhawks 19U AA,Shots,3
+152,2866,2878,12,53.81,6.26,,North Shore Warhawks 19U AA,OZ play,3
+153,2866,2878,12,53.81,6.26,,North Shore Warhawks 19U AA,Shots,3
+154,2902,2914,12,56.38,10.63,,North Shore Warhawks 19U AA,OZ play,3
+155,2902,2914,12,56.38,10.63,,North Shore Warhawks 19U AA,Shots,3
+156,2942,2954,12,48.58,2.66,,North Shore Warhawks 19U AA,OZ play,3
+157,2942,2954,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,3
+158,2944,2956,12,48.58,2.66,,North Shore Warhawks 19U AA,OZ play,3
+159,2944,2956,12,48.58,2.66,,North Shore Warhawks 19U AA,Shots,3
+160,2961,2973,12,52.07,16.99,,Boston Hockey Academy 16U,OZ play,3
+161,2961,2973,12,52.07,16.99,,Boston Hockey Academy 16U,Shots,3
+162,2996,3008,12,26.68,1.42,,North Shore Warhawks 19U AA,OZ play,3
+163,3042,3054,12,45.56,13.29,,North Shore Warhawks 19U AA,OZ play,3
+164,3042,3054,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+165,3054,3066,12,45.56,13.29,,North Shore Warhawks 19U AA,OZ play,3
+166,3054,3066,12,45.56,13.29,,North Shore Warhawks 19U AA,Shots,3
+167,3079,3091,12,49.96,12.05,,Boston Hockey Academy 16U,OZ play,3
+168,3079,3091,12,49.96,12.05,,Boston Hockey Academy 16U,Shots,3
+169,3082,3094,12,57.29,15.19,,Boston Hockey Academy 16U,OZ play,3
+170,3082,3094,12,57.29,15.19,,Boston Hockey Academy 16U,Shots,3
+171,3083,3095,12,56.1,14.52,,Boston Hockey Academy 16U,OZ play,3
+172,3083,3095,12,56.1,14.52,,Boston Hockey Academy 16U,Shots,3
+173,3160,3172,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+174,3172,3184,12,2.75,4.27,,North Shore Warhawks 19U AA,OZ play,3
+175,3172,3184,12,54.82,1.8,,North Shore Warhawks 19U AA,OZ play,3
+176,3197,3209,12,54.82,1.8,,North Shore Warhawks 19U AA,OZ play,3
+177,3197,3209,12,54.82,1.8,,North Shore Warhawks 19U AA,Shots,3
+178,3214,3226,12,51.15,4.56,,Boston Hockey Academy 16U,OZ play,3
+179,3214,3226,12,51.15,4.56,,Boston Hockey Academy 16U,Shots,3
+180,3222,3234,12,53.9,11.01,,North Shore Warhawks 19U AA,OZ play,3
+181,3222,3234,12,53.9,11.01,,North Shore Warhawks 19U AA,Shots,3
+182,3244,3256,12,55.46,12.05,,Boston Hockey Academy 16U,OZ play,3
+183,3244,3256,12,55.46,12.05,,Boston Hockey Academy 16U,Shots,3
+184,3306,3318,12,9.45,19.67,,Boston Hockey Academy 16U,OZ play,3
+185,3336,3348,12,40.15,23.54,,Boston Hockey Academy 16U,OZ play,3
+186,3336,3348,12,40.15,23.54,,Boston Hockey Academy 16U,Shots,3
+187,3422,3434,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+188,3425,3437,12,51.15,17.84,,North Shore Warhawks 19U AA,OZ play,3
+189,3425,3437,12,51.15,17.84,,North Shore Warhawks 19U AA,Shots,3
+190,3446,3458,12,11.46,17.65,,North Shore Warhawks 19U AA,OZ play,3
+191,3498,3510,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,3
+192,3498,3510,12,45.1,11.1,,North Shore Warhawks 19U AA,OZ play,3
+193,3530,3542,12,45.1,11.1,,North Shore Warhawks 19U AA,OZ play,3
+194,3530,3542,12,45.1,11.1,,North Shore Warhawks 19U AA,Shots,3
+195,3566,3578,12,2,15,,Boston Hockey Academy 16U,OZ play,3
+196,3600,3612,12,48.22,11.67,,Boston Hockey Academy 16U,Goals,3
+197,3600,3612,12,48.22,11.67,,Boston Hockey Academy 16U,OZ play,3
+198,3600,3612,12,48.22,11.67,,Boston Hockey Academy 16U,Shots,3
+199,3653,3665,12,30.48,12.96,,Boston Hockey Academy 16U,OZ play,3
+200,3653,3665,12,44,3.99,,Boston Hockey Academy 16U,OZ play,3
+201,3664,3676,12,44,3.99,,Boston Hockey Academy 16U,OZ play,3
+202,3664,3676,12,44,3.99,,Boston Hockey Academy 16U,Shots,3
+203,3742,3754,12,55.64,15.57,,North Shore Warhawks 19U AA,OZ play,3
+204,3742,3754,12,55.64,15.57,,North Shore Warhawks 19U AA,Shots,3
+205,3748,3760,12,49.41,18.89,,North Shore Warhawks 19U AA,OZ play,3
+206,3748,3760,12,49.41,18.89,,North Shore Warhawks 19U AA,Shots,3
+207,3758,3770,12,55.73,20.41,,Boston Hockey Academy 16U,OZ play,3
+208,3758,3770,12,55.73,20.41,,Boston Hockey Academy 16U,Shots,3

@@ -1,0 +1,115 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+dwGsP6QKDs8	25.0	50.0	00:25	left point	wrist shot	save	False	no_match			
+dwGsP6QKDs8	64.0	67.0	00:03	right circle	wrist shot	miss	False	no_match			
+dwGsP6QKDs8	64.0	77.0	00:13	left point	wrist shot	save	False	no_match			
+dwGsP6QKDs8	118.0	122.0	00:04	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	145.0	147.0	00:02	left circle	wrist shot	save	True	inside	140.0	152.0	Nashville Preditors 19U
+dwGsP6QKDs8	261.0	263.0	00:02	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	261.0	264.0	00:03	right circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	261.0	267.0	00:06	left point	wrist shot	save	False	no_match			
+dwGsP6QKDs8	261.0	270.0	00:09	left point	wrist shot	save	False	no_match			
+dwGsP6QKDs8	303.0	306.0	00:03	low slot	snap shot	save	False	no_match			
+dwGsP6QKDs8	303.0	323.0	00:20	high slot	wrist shot	save	True	inside	319.0	331.0	Nashville Preditors 19U
+dwGsP6QKDs8	303.0	327.0	00:24	right circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	303.0	328.0	00:25	low slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	441.0	443.0	00:02	low slot	snap shot	save	False	no_match			
+dwGsP6QKDs8	441.0	445.0	00:04	left circle	wrist shot	miss	False	no_match			
+dwGsP6QKDs8	462.0	466.0	00:04	high slot	wrist shot	save	True	inside	465.0	477.0	Northshore Warhawks 19U
+dwGsP6QKDs8	663.0	692.0	00:29	left circle	wrist shot	goal	True	inside	688.0	700.0	Nashville Preditors 19U
+dwGsP6QKDs8	738.0	739.0	00:01	high slot	wrist shot	save	True	inside	733.0	745.0	Nashville Preditors 19U
+dwGsP6QKDs8	738.0	740.0	00:02	in close	backhand	save	False	no_match			
+dwGsP6QKDs8	774.0	776.0	00:02	low slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	774.0	777.0	00:03	low slot	snap shot	save	False	no_match			
+dwGsP6QKDs8	837.0	841.0	00:04	left circle	wrist shot	save	True	inside	837.0	849.0	Northshore Warhawks 19U
+dwGsP6QKDs8	837.0	842.0	00:05	in close	backhand	save	True	tolerance	843.0	855.0	Northshore Warhawks 19U
+dwGsP6QKDs8	837.0	849.0	00:12	right point	wrist shot	blocked	False	no_match			
+dwGsP6QKDs8	837.0	853.0	00:16	right point	wrist shot	miss	True	tolerance	855.0	867.0	Northshore Warhawks 19U
+dwGsP6QKDs8	837.0	860.0	00:23	left point	snap shot	save	True	tolerance	861.0	873.0	Northshore Warhawks 19U
+dwGsP6QKDs8	837.0	866.0	00:29	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	837.0	872.0	00:35	low slot	backhand	save	False	no_match			
+dwGsP6QKDs8	915.0	917.0	00:02	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	915.0	931.0	00:16	right circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	915.0	936.0	00:21	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	915.0	937.0	00:22	in close	wrist shot	save	False	no_match			
+dwGsP6QKDs8	915.0	949.0	00:34	right circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	1025.0	1033.0	00:08	low slot	snap shot	save	True	inside	1031.0	1043.0	Northshore Warhawks 19U
+dwGsP6QKDs8	1025.0	1039.0	00:14	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	1082.0	1090.0	00:08	right circle	wrist shot	save	True	inside	1088.0	1100.0	Nashville Preditors 19U
+dwGsP6QKDs8	1082.0	1099.0	00:17	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	1167.0	1172.0	00:05	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	1208.0	1208.0	00:00	left circle	wrist shot	save	True	tolerance	1211.0	1223.0	Northshore Warhawks 19U
+dwGsP6QKDs8	1208.0	1209.0	00:01	low slot	backhand	save	False	no_match			
+dwGsP6QKDs8	1241.0	1245.0	00:04	low slot	wrist shot	save	True	inside	1238.0	1250.0	Northshore Warhawks 19U
+dwGsP6QKDs8	1286.0	1289.0	00:03	high slot	snap shot	save	True	inside	1284.0	1296.0	Northshore Warhawks 19U
+dwGsP6QKDs8	1286.0	1290.0	00:04	low slot	backhand	save	False	no_match			
+dwGsP6QKDs8	1317.0	1328.0	00:11	left point	snap shot	blocked	True	tolerance	1313.0	1325.0	Nashville Preditors 19U
+dwGsP6QKDs8	1505.0	1522.0	00:17	high slot	snap shot	save	True	inside	1516.0	1528.0	Nashville Preditors 19U
+dwGsP6QKDs8	1505.0	1523.0	00:18	low slot	snap shot	miss	False	no_match			
+dwGsP6QKDs8	1642.0	1647.0	00:05	left circle	wrist shot	save	True	inside	1640.0	1652.0	Northshore Warhawks 19U
+dwGsP6QKDs8	1674.0	1677.0	00:03	high slot	wrist shot	save	True	inside	1671.0	1683.0	Northshore Warhawks 19U
+dwGsP6QKDs8	1701.0	1703.0	00:02	high slot	snap shot	save	True	inside	1698.0	1710.0	Northshore Warhawks 19U
+dwGsP6QKDs8	1701.0	1717.0	00:16	left point	wrist shot	save	True	inside	1713.0	1725.0	Nashville Preditors 19U
+dwGsP6QKDs8	2070.0	2086.0	00:16	left circle	wrist shot	save	True	inside	2080.0	2092.0	Nashville Preditors 19U
+dwGsP6QKDs8	2116.0	2122.0	00:06	low slot	snap shot	save	True	inside	2116.0	2128.0	Nashville Preditors 19U
+dwGsP6QKDs8	2116.0	2128.0	00:12	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2116.0	2131.0	00:15	right point	slap shot	save	False	no_match			
+dwGsP6QKDs8	2148.0	2152.0	00:04	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2201.0	2205.0	00:04	left circle	wrist shot	save	True	inside	2199.0	2211.0	Nashville Preditors 19U
+dwGsP6QKDs8	2247.0	2250.0	00:03	low slot	wrist shot	save	True	inside	2243.0	2255.0	Nashville Preditors 19U
+dwGsP6QKDs8	2247.0	2253.0	00:06	left circle	wrist shot	save	True	inside	2246.0	2258.0	Nashville Preditors 19U
+dwGsP6QKDs8	2275.0	2283.0	00:08	left circle	wrist shot	save	True	inside	2277.0	2289.0	Nashville Preditors 19U
+dwGsP6QKDs8	2275.0	2285.0	00:10	low slot	snap shot	save	True	inside	2279.0	2291.0	Nashville Preditors 19U
+dwGsP6QKDs8	2275.0	2289.0	00:14	right circle	wrist shot	save	True	inside	2284.0	2296.0	Nashville Preditors 19U
+dwGsP6QKDs8	2275.0	2296.0	00:21	high slot	wrist shot	save	True	inside	2294.0	2306.0	Nashville Preditors 19U
+dwGsP6QKDs8	2275.0	2300.0	00:25	left point	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2330.0	2335.0	00:05	left point	wrist shot	save	True	inside	2330.0	2342.0	Nashville Preditors 19U
+dwGsP6QKDs8	2330.0	2337.0	00:07	low slot	snap shot	miss	False	no_match			
+dwGsP6QKDs8	2384.0	2387.0	00:03	low slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2384.0	2388.0	00:04	in close	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2384.0	2390.0	00:06	in close	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2532.0	2536.0	00:04	right circle	snap shot	save	True	inside	2529.0	2541.0	Northshore Warhawks 19U
+dwGsP6QKDs8	2616.0	2622.0	00:06	left circle	wrist shot	goal	True	inside	2617.0	2629.0	Nashville Preditors 19U
+dwGsP6QKDs8	2676.0	2691.0	00:15	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2721.0	2726.0	00:05	low slot	snap shot	save	False	no_match			
+dwGsP6QKDs8	2721.0	2733.0	00:12	left point	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2792.0	2796.0	00:04	high slot	wrist shot	save	True	inside	2790.0	2802.0	Nashville Preditors 19U
+dwGsP6QKDs8	2792.0	2801.0	00:09	in close	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2852.0	2853.0	00:01	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2852.0	2857.0	00:05	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2852.0	2865.0	00:13	left point	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2852.0	2868.0	00:16	left point	wrist shot	blocked	False	no_match			
+dwGsP6QKDs8	2959.0	2960.0	00:01	right circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	2959.0	2968.0	00:09	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	3027.0	3053.0	00:26	low slot	wrist shot	save	True	inside	3046.0	3058.0	Nashville Preditors 19U
+dwGsP6QKDs8	3027.0	3061.0	00:34	right circle	wrist shot	save	True	inside	3055.0	3067.0	Nashville Preditors 19U
+dwGsP6QKDs8	3244.0	3249.0	00:05	high slot	wrist shot	save	True	inside	3242.0	3254.0	Nashville Preditors 19U
+dwGsP6QKDs8	3244.0	3251.0	00:07	in close	backhand	save	True	inside	3244.0	3256.0	Nashville Preditors 19U
+dwGsP6QKDs8	3244.0	3259.0	00:15	right circle	wrist shot	save	True	inside	3251.0	3263.0	Nashville Preditors 19U
+dwGsP6QKDs8	3323.0	3331.0	00:08	high slot	wrist shot	save	True	inside	3328.0	3340.0	Nashville Preditors 19U
+dwGsP6QKDs8	3323.0	3334.0	00:11	low slot	backhand	save	False	no_match			
+dwGsP6QKDs8	3408.0	3413.0	00:05	high slot	wrist shot	save	True	inside	3407.0	3419.0	Nashville Preditors 19U
+dwGsP6QKDs8	3451.0	3452.0	00:01	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	3553.0	3558.0	00:05	high slot	wrist shot	goal	True	inside	3553.0	3565.0	Nashville Preditors 19U
+dwGsP6QKDs8	3633.0	3636.0	00:03	left point	slap shot	miss	True	inside	3627.0	3639.0	Northshore Warhawks 19U
+dwGsP6QKDs8	3633.0	3639.0	00:06	right circle	wrist shot	blocked	False	no_match			
+dwGsP6QKDs8	3633.0	3640.0	00:07	low slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	3731.0	3736.0	00:05	low slot	wrist shot	save	True	tolerance	3738.0	3750.0	Nashville Preditors 19U
+dwGsP6QKDs8	3852.0	3855.0	00:03	high slot	wrist shot	save	True	inside	3849.0	3861.0	Nashville Preditors 19U
+dwGsP6QKDs8	3886.0	3892.0	00:06	in close	snap shot	save	True	inside	3885.0	3897.0	Northshore Warhawks 19U
+dwGsP6QKDs8	3886.0	3902.0	00:16	right circle	wrist shot	save	True	inside	3895.0	3907.0	Nashville Preditors 19U
+dwGsP6QKDs8	3971.0	3975.0	00:04	slot	snap shot	save	True	inside	3969.0	3981.0	Nashville Preditors 19U
+dwGsP6QKDs8	4077.0	4080.0	00:03	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	4262.0	4266.0	00:04	right point	wrist shot	save	True	inside	4258.0	4270.0	Northshore Warhawks 19U
+dwGsP6QKDs8	4292.0	4294.0	00:02	left circle	wrist shot	save	False	no_match			
+dwGsP6QKDs8	4356.0	4361.0	00:05	low slot	snap shot	save	False	no_match			
+dwGsP6QKDs8	4412.0	4420.0	00:08	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	4597.0	4601.0	00:04	high slot	wrist shot	save	True	inside	4596.0	4608.0	Nashville Preditors 19U
+dwGsP6QKDs8	4597.0	4602.0	00:05	right circle	wrist shot	save	True	inside	4593.0	4605.0	Nashville Preditors 19U
+dwGsP6QKDs8	4597.0	4603.0	00:06	low slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	4652.0	4657.0	00:05	right circle	wrist shot	save	True	inside	4651.0	4663.0	Nashville Preditors 19U
+dwGsP6QKDs8	4652.0	4667.0	00:15	left point	wrist shot	save	True	inside	4662.0	4674.0	Nashville Preditors 19U
+dwGsP6QKDs8	4696.0	4700.0	00:04	left point	wrist shot	save	True	inside	4693.0	4705.0	Nashville Preditors 19U
+dwGsP6QKDs8	4761.0	4771.0	00:10	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	4824.0	4828.0	00:04	low slot	snap shot	save	False	no_match			
+dwGsP6QKDs8	4850.0	4856.0	00:06	high slot	wrist shot	save	False	no_match			
+dwGsP6QKDs8	4892.0	4893.0	00:01	high slot	wrist shot	save	True	inside	4886.0	4898.0	Nashville Preditors 19U

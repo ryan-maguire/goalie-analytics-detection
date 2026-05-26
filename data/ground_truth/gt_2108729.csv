@@ -1,0 +1,180 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,1,13,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,1
+2,1,13,12,44.81,12.78,,North Shore Warhawks 19U AA,OZ play,1
+3,102,114,12,44.81,12.78,,North Shore Warhawks 19U AA,OZ play,1
+4,102,114,12,44.81,12.78,,North Shore Warhawks 19U AA,Shots,1
+5,145,157,12,41.36,1.31,,Mon Valley Thunder 19U,OZ play,1
+6,145,157,12,41.36,1.31,,Mon Valley Thunder 19U,Shots,1
+7,169,181,12,9.45,19.67,,Mon Valley Thunder 19U,OZ play,1
+8,181,193,12,54.18,14.62,,Mon Valley Thunder 19U,OZ play,1
+9,181,193,12,54.18,14.62,,Mon Valley Thunder 19U,Shots,1
+10,184,196,12,51.84,16.46,,Mon Valley Thunder 19U,OZ play,1
+11,184,196,12,51.84,16.46,,Mon Valley Thunder 19U,Shots,1
+12,214,226,12,47.71,20.15,,North Shore Warhawks 19U AA,OZ play,1
+13,214,226,12,47.71,20.15,,North Shore Warhawks 19U AA,Shots,1
+14,235,247,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,1
+15,245,257,12,54.24,9.92,,North Shore Warhawks 19U AA,OZ play,1
+16,245,257,12,54.24,9.92,,North Shore Warhawks 19U AA,Shots,1
+17,311,323,12,44.71,8.75,,North Shore Warhawks 19U AA,OZ play,1
+18,311,323,12,44.71,8.75,,North Shore Warhawks 19U AA,Shots,1
+19,347,359,12,40.72,5.84,,Mon Valley Thunder 19U,OZ play,1
+20,347,359,12,40.72,5.84,,Mon Valley Thunder 19U,Shots,1
+21,350,362,12,55.87,16.81,,Mon Valley Thunder 19U,OZ play,1
+22,350,362,12,55.87,16.81,,Mon Valley Thunder 19U,Shots,1
+23,373,385,12,40.84,25.03,,Mon Valley Thunder 19U,OZ play,1
+24,373,385,12,40.84,25.03,,Mon Valley Thunder 19U,Shots,1
+25,428,440,12,45.14,6.19,,North Shore Warhawks 19U AA,OZ play,1
+26,428,440,12,45.14,6.19,,North Shore Warhawks 19U AA,Shots,1
+27,489,501,12,24.38,6.25,,North Shore Warhawks 19U AA,OZ play,1
+28,501,513,12,45.44,9.1,,North Shore Warhawks 19U AA,OZ play,1
+29,501,513,12,45.44,9.1,,North Shore Warhawks 19U AA,Shots,1
+30,542,554,12,52.5,7.82,,North Shore Warhawks 19U AA,OZ play,1
+31,542,554,12,52.5,7.82,,North Shore Warhawks 19U AA,Shots,1
+32,563,575,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,1
+33,574,586,12,43.24,9.86,,North Shore Warhawks 19U AA,OZ play,1
+34,574,586,12,43.24,9.86,,North Shore Warhawks 19U AA,Shots,1
+35,592,604,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,1
+36,595,607,12,45.63,22.99,,North Shore Warhawks 19U AA,OZ play,1
+37,595,607,12,45.63,22.99,,North Shore Warhawks 19U AA,Shots,1
+38,607,619,12,9.45,6.25,,Mon Valley Thunder 19U,OZ play,1
+39,630,642,12,54.95,12.6,,Mon Valley Thunder 19U,Goals,1
+40,630,642,12,54.95,12.6,,Mon Valley Thunder 19U,OZ play,1
+41,630,642,12,54.95,12.6,,Mon Valley Thunder 19U,Shots,1
+42,661,673,12,30.48,12.96,,Mon Valley Thunder 19U,OZ play,1
+43,690,702,12,43.3,21.3,,Mon Valley Thunder 19U,OZ play,1
+44,690,702,12,43.3,21.3,,Mon Valley Thunder 19U,Shots,1
+45,740,752,12,9.45,19.67,,Mon Valley Thunder 19U,OZ play,1
+46,740,752,12,55.26,10.1,,Mon Valley Thunder 19U,OZ play,1
+47,763,775,12,55.26,10.1,,Mon Valley Thunder 19U,OZ play,1
+48,763,775,12,55.26,10.1,,Mon Valley Thunder 19U,Shots,1
+49,808,820,12,47.41,18.56,,North Shore Warhawks 19U AA,OZ play,1
+50,808,820,12,47.41,18.56,,North Shore Warhawks 19U AA,Shots,1
+51,882,894,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,1
+52,940,952,12,54.09,10.27,,North Shore Warhawks 19U AA,OZ play,1
+53,940,952,12,54.09,10.27,,North Shore Warhawks 19U AA,Shots,1
+54,963,975,12,49.43,1.63,,North Shore Warhawks 19U AA,OZ play,1
+55,963,975,12,49.43,1.63,,North Shore Warhawks 19U AA,Shots,1
+56,963,975,12,51.51,6.25,,North Shore Warhawks 19U AA,OZ play,1
+57,1014,1026,12,36.58,6.25,,North Shore Warhawks 19U AA,OZ play,1
+58,1014,1026,12,44.46,10.5,,North Shore Warhawks 19U AA,OZ play,1
+59,1021,1033,12,44.46,10.5,,North Shore Warhawks 19U AA,OZ play,1
+60,1021,1033,12,44.46,10.5,,North Shore Warhawks 19U AA,Shots,1
+61,1081,1093,12,54.83,14.59,,Mon Valley Thunder 19U,OZ play,1
+62,1081,1093,12,54.83,14.59,,Mon Valley Thunder 19U,Shots,1
+63,1087,1099,12,45.2,15.11,,Mon Valley Thunder 19U,OZ play,1
+64,1087,1099,12,45.2,15.11,,Mon Valley Thunder 19U,Shots,1
+65,1105,1117,12,9.45,6.25,,North Shore Warhawks 19U AA,OZ play,1
+66,1150,1162,12,45.75,24.63,,North Shore Warhawks 19U AA,OZ play,1
+67,1150,1162,12,45.75,24.63,,North Shore Warhawks 19U AA,Shots,1
+68,1212,1224,12,30.48,12.96,,Mon Valley Thunder 19U,OZ play,2
+69,1331,1343,12,40.82,2.08,,Mon Valley Thunder 19U,OZ play,2
+70,1331,1343,12,40.82,2.08,,Mon Valley Thunder 19U,Shots,2
+71,1364,1376,12,30.48,12.96,,Mon Valley Thunder 19U,OZ play,2
+72,1374,1386,12,53.01,11.33,,Mon Valley Thunder 19U,OZ play,2
+73,1374,1386,12,53.01,11.33,,Mon Valley Thunder 19U,Shots,2
+74,1391,1403,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+75,1399,1411,12,52.54,12.69,,North Shore Warhawks 19U AA,OZ play,2
+76,1399,1411,12,52.54,12.69,,North Shore Warhawks 19U AA,Shots,2
+77,1579,1591,12,51.51,19.67,,Mon Valley Thunder 19U,OZ play,2
+78,1597,1609,12,46.03,7.29,,Mon Valley Thunder 19U,OZ play,2
+79,1597,1609,12,46.03,7.29,,Mon Valley Thunder 19U,Shots,2
+80,1697,1709,12,51.51,6.25,,Mon Valley Thunder 19U,OZ play,2
+81,1701,1713,12,46.78,9.24,,Mon Valley Thunder 19U,OZ play,2
+82,1701,1713,12,46.78,9.24,,Mon Valley Thunder 19U,Shots,2
+83,1719,1731,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+84,1732,1744,12,49.18,17.19,,North Shore Warhawks 19U AA,OZ play,2
+85,1732,1744,12,49.18,17.19,,North Shore Warhawks 19U AA,Shots,2
+86,1738,1750,12,48.49,11.78,,North Shore Warhawks 19U AA,OZ play,2
+87,1738,1750,12,48.49,11.78,,North Shore Warhawks 19U AA,Shots,2
+88,1744,1756,12,55.34,13.02,,North Shore Warhawks 19U AA,OZ play,2
+89,1744,1756,12,55.34,13.02,,North Shore Warhawks 19U AA,Shots,2
+90,1786,1798,12,55.14,13.22,,Mon Valley Thunder 19U,OZ play,2
+91,1786,1798,12,55.14,13.22,,Mon Valley Thunder 19U,Shots,2
+92,1816,1828,12,56.58,9.11,,North Shore Warhawks 19U AA,OZ play,2
+93,1816,1828,12,56.58,9.11,,North Shore Warhawks 19U AA,Shots,2
+94,1849,1861,12,53.36,19.86,,Mon Valley Thunder 19U,OZ play,2
+95,1849,1861,12,53.36,19.86,,Mon Valley Thunder 19U,Shots,2
+96,1860,1872,12,45.69,24.87,,North Shore Warhawks 19U AA,OZ play,2
+97,1860,1872,12,45.69,24.87,,North Shore Warhawks 19U AA,Shots,2
+98,1884,1896,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,2
+99,1910,1922,12,49.52,9.11,,North Shore Warhawks 19U AA,OZ play,2
+100,1910,1922,12,49.52,9.11,,North Shore Warhawks 19U AA,Shots,2
+101,1932,1944,12,51.51,6.25,,Mon Valley Thunder 19U,OZ play,2
+102,1957,1969,12,51.58,0.78,,Mon Valley Thunder 19U,OZ play,2
+103,1957,1969,12,51.58,0.78,,Mon Valley Thunder 19U,Shots,2
+104,1979,1991,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+105,2005,2017,12,56.51,10.03,,North Shore Warhawks 19U AA,OZ play,2
+106,2005,2017,12,56.51,10.03,,North Shore Warhawks 19U AA,Shots,2
+107,2027,2039,12,9.45,19.67,,Mon Valley Thunder 19U,OZ play,2
+108,2056,2068,12,6.3,17.12,,Mon Valley Thunder 19U,OZ play,2
+109,2061,2073,12,56.37,9.24,,Mon Valley Thunder 19U,OZ play,2
+110,2061,2073,12,56.37,9.24,,Mon Valley Thunder 19U,Shots,2
+111,2116,2128,12,9.45,19.67,,Mon Valley Thunder 19U,OZ play,2
+112,2125,2137,12,43.7,5.14,,Mon Valley Thunder 19U,OZ play,2
+113,2125,2137,12,43.7,5.14,,Mon Valley Thunder 19U,Shots,2
+114,2142,2154,12,51.51,6.25,,Mon Valley Thunder 19U,OZ play,2
+115,2192,2204,12,55,5.53,,Mon Valley Thunder 19U,OZ play,2
+116,2192,2204,12,55,5.53,,Mon Valley Thunder 19U,Shots,2
+117,2206,2218,12,56.23,15.17,,Mon Valley Thunder 19U,OZ play,2
+118,2206,2218,12,56.23,15.17,,Mon Valley Thunder 19U,Shots,2
+119,2208,2220,12,55.41,13.67,,Mon Valley Thunder 19U,OZ play,2
+120,2208,2220,12,55.41,13.67,,Mon Valley Thunder 19U,Shots,2
+121,2235,2247,12,51.51,19.67,,Mon Valley Thunder 19U,OZ play,2
+122,2242,2254,12,46.71,2.02,,Mon Valley Thunder 19U,OZ play,2
+123,2242,2254,12,46.71,2.02,,Mon Valley Thunder 19U,Shots,2
+124,2352,2364,12,51.51,6.25,,Mon Valley Thunder 19U,OZ play,2
+125,2398,2410,12,52.33,13.74,,Mon Valley Thunder 19U,OZ play,2
+126,2398,2410,12,52.33,13.74,,Mon Valley Thunder 19U,Shots,2
+127,2505,2517,12,9.45,19.67,,North Shore Warhawks 19U AA,OZ play,2
+128,2529,2541,12,33.49,9.37,,North Shore Warhawks 19U AA,OZ play,2
+129,2529,2541,12,33.49,9.37,,North Shore Warhawks 19U AA,Shots,2
+130,2564,2576,12,30.48,12.96,,Mon Valley Thunder 19U,OZ play,3
+131,2591,2603,12,48.08,20.18,,Mon Valley Thunder 19U,OZ play,3
+132,2591,2603,12,48.08,20.18,,Mon Valley Thunder 19U,Shots,3
+133,2797,2809,12,55.69,11.91,,Mon Valley Thunder 19U,Goals,3
+134,2797,2809,12,55.69,11.91,,Mon Valley Thunder 19U,OZ play,3
+135,2797,2809,12,55.69,11.91,,Mon Valley Thunder 19U,Shots,3
+136,2830,2842,12,30.48,12.96,,North Shore Warhawks 19U AA,OZ play,3
+137,2830,2842,12,54.18,12.69,,North Shore Warhawks 19U AA,OZ play,3
+138,2853,2865,12,54.18,12.69,,North Shore Warhawks 19U AA,OZ play,3
+139,2853,2865,12,54.18,12.69,,North Shore Warhawks 19U AA,Shots,3
+140,2908,2920,12,47.33,2.02,,Mon Valley Thunder 19U,OZ play,3
+141,2908,2920,12,47.33,2.02,,Mon Valley Thunder 19U,Shots,3
+142,2927,2939,12,48.22,23.11,,North Shore Warhawks 19U AA,OZ play,3
+143,2927,2939,12,48.22,23.11,,North Shore Warhawks 19U AA,Shots,3
+144,2936,2948,12,54.8,10.48,,Mon Valley Thunder 19U,OZ play,3
+145,2936,2948,12,54.8,10.48,,Mon Valley Thunder 19U,Shots,3
+146,2963,2975,12,41.71,1.04,,North Shore Warhawks 19U AA,OZ play,3
+147,2963,2975,12,41.71,1.04,,North Shore Warhawks 19U AA,Shots,3
+148,2995,3007,12,49.59,20.44,,North Shore Warhawks 19U AA,OZ play,3
+149,2995,3007,12,49.59,20.44,,North Shore Warhawks 19U AA,Shots,3
+150,3113,3125,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+151,3120,3132,12,54.38,10.68,,North Shore Warhawks 19U AA,OZ play,3
+152,3120,3132,12,54.38,10.68,,North Shore Warhawks 19U AA,Shots,3
+153,3121,3133,12,56.1,10.87,,North Shore Warhawks 19U AA,OZ play,3
+154,3121,3133,12,56.1,10.87,,North Shore Warhawks 19U AA,Shots,3
+155,3136,3148,12,53.36,5.92,,North Shore Warhawks 19U AA,OZ play,3
+156,3136,3148,12,53.36,5.92,,North Shore Warhawks 19U AA,Shots,3
+157,3158,3170,12,40.07,0.65,,Mon Valley Thunder 19U,OZ play,3
+158,3158,3170,12,40.07,0.65,,Mon Valley Thunder 19U,Shots,3
+159,3184,3196,12,55.41,13.67,,North Shore Warhawks 19U AA,OZ play,3
+160,3184,3196,12,55.41,13.67,,North Shore Warhawks 19U AA,Shots,3
+161,3212,3224,12,51.51,6.25,,Mon Valley Thunder 19U,OZ play,3
+162,3253,3265,12,47.6,2.02,,Mon Valley Thunder 19U,OZ play,3
+163,3253,3265,12,47.6,2.02,,Mon Valley Thunder 19U,Shots,3
+164,3257,3269,12,47.4,19.86,,Mon Valley Thunder 19U,OZ play,3
+165,3257,3269,12,47.4,19.86,,Mon Valley Thunder 19U,Shots,3
+166,3360,3372,12,52.54,18.1,,Mon Valley Thunder 19U,OZ play,3
+167,3360,3372,12,52.54,18.1,,Mon Valley Thunder 19U,Shots,3
+168,3445,3457,12,54.25,20.57,,Mon Valley Thunder 19U,OZ play,3
+169,3445,3457,12,54.25,20.57,,Mon Valley Thunder 19U,Shots,3
+170,3496,3508,12,48.08,22.46,,North Shore Warhawks 19U AA,OZ play,3
+171,3496,3508,12,48.08,22.46,,North Shore Warhawks 19U AA,Shots,3
+172,3520,3532,12,51.51,19.67,,North Shore Warhawks 19U AA,OZ play,3
+173,3522,3534,12,50.55,24.61,,North Shore Warhawks 19U AA,OZ play,3
+174,3522,3534,12,50.55,24.61,,North Shore Warhawks 19U AA,Shots,3
+175,3528,3540,12,46.64,23.76,,North Shore Warhawks 19U AA,OZ play,3
+176,3528,3540,12,46.64,23.76,,North Shore Warhawks 19U AA,Shots,3
+177,3599,3611,12,6.23,3.06,,North Shore Warhawks 19U AA,OZ play,3
+178,3605,3617,12,52.6,10.16,,North Shore Warhawks 19U AA,OZ play,3
+179,3605,3617,12,52.6,10.16,,North Shore Warhawks 19U AA,Shots,3

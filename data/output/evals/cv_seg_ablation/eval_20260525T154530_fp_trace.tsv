@@ -1,0 +1,145 @@
+vID	pred_start	pred_end	pred_dur	pred_color	attr_src	source_combo	n_raw
+mjEeE7p2Hz8	67.0	97.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	129.0	159.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	222.0	252.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	315.0	345.0	30.0	White and Blue	fallback_motion_edge	motion_auto_close	1
+mjEeE7p2Hz8	346.0	373.0	27.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	408.0	435.0	27.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	439.0	454.0	15.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	532.0	547.0	15.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	656.0	686.0	30.0	White and Blue	fallback_motion_edge	motion_auto_close	1
+mjEeE7p2Hz8	718.0	748.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	749.0	779.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	780.0	796.0	16.0	White and Blue	fallback_motion_edge	motion_auto_close	1
+mjEeE7p2Hz8	861.0	891.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	892.0	922.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	954.0	984.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	985.0	1015.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1047.0	1077.0	30.0	White and Blue	net_cooccur	faceoff+motion_auto_close	2
+mjEeE7p2Hz8	1078.0	1108.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1109.0	1139.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1140.0	1170.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1173.0	1203.0	30.0	White and Blue	net_goalie_only	motion_auto_close	1
+mjEeE7p2Hz8	1452.0	1482.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1483.0	1513.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1545.0	1575.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1576.0	1601.0	25.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1607.0	1637.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	1669.0	1699.0	30.0	White and Blue	net_goal_only	motion_auto_close	1
+mjEeE7p2Hz8	1860.0	1884.0	24.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2015.0	2039.0	24.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2083.0	2113.0	30.0	White and Blue	motion	motion_auto_close	1
+mjEeE7p2Hz8	2176.0	2206.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2238.0	2268.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2269.0	2299.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2362.0	2414.0	52.0	White and Blue	net_cooccur	crowd_roar+motion_auto_close	3
+mjEeE7p2Hz8	2416.0	2422.0	6.0	White and Blue	net_cooccur	crowd_roar+motion_auto_close	2
+mjEeE7p2Hz8	2455.0	2515.0	60.0	White and Blue	net_cooccur	faceoff+motion_auto_close	3
+mjEeE7p2Hz8	2517.0	2547.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2613.0	2643.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2706.0	2736.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2775.0	2805.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2837.0	2867.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2868.0	2898.0	30.0	White and Blue	net_cooccur	motion_auto_close	1
+mjEeE7p2Hz8	2938.0	2955.0	17.0	White and Blue	net_goal_only	celebration+faceoff+motion_auto_close	3
+mjEeE7p2Hz8	3122.0	3152.0	30.0	White and Blue	fallback_motion_edge	motion_auto_close	1
+mjEeE7p2Hz8	3184.0	3211.0	27.0	White and Blue	net_cooccur	motion_auto_close	1
+SX5xNJlh6eQ	32.0	62.0	30.0	Green	net_goalie_only	faceoff+motion_auto_close	2
+SX5xNJlh6eQ	63.0	93.0	30.0	Green	net_goalie_only	motion_auto_close	1
+SX5xNJlh6eQ	218.0	248.0	30.0	Green	net_goalie_only	motion_auto_close	1
+SX5xNJlh6eQ	280.0	310.0	30.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	435.0	462.0	27.0	Green	net_goalie_only	faceoff+motion_auto_close	4
+SX5xNJlh6eQ	497.0	527.0	30.0	Green	net_cooccur	faceoff+motion_auto_close	2
+SX5xNJlh6eQ	528.0	558.0	30.0	Green	net_cooccur	motion_auto_close	1
+SX5xNJlh6eQ	559.0	589.0	30.0	Green	motion	motion_auto_close	1
+SX5xNJlh6eQ	621.0	651.0	30.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	652.0	682.0	30.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	725.0	755.0	30.0	Green	net_goalie_only	motion_auto_close	1
+SX5xNJlh6eQ	856.0	886.0	30.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	887.0	896.0	9.0	Green	net_cooccur	motion_auto_close	1
+SX5xNJlh6eQ	1053.0	1083.0	30.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	1084.0	1114.0	30.0	Green	net_goalie_only	motion_auto_close	1
+SX5xNJlh6eQ	1115.0	1175.0	60.0	Green	net_cooccur	celebration+faceoff+motion_auto_close	6
+SX5xNJlh6eQ	1239.0	1269.0	30.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	1270.0	1276.0	6.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	1298.0	1300.0	2.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	1495.0	1525.0	30.0	Green	fallback_motion_edge	motion_auto_close	1
+SX5xNJlh6eQ	1526.0	1556.0	30.0	Green	net_goal_only	motion_auto_close	1
+SX5xNJlh6eQ	1648.0	1708.0	60.0	Green	net_cooccur	celebration+motion_auto_close	10
+SX5xNJlh6eQ	1768.0	1818.0	50.0	Green	net_cooccur	celebration+motion_auto_close	5
+SX5xNJlh6eQ	1850.0	1902.0	52.0	Green	net_goal_only	faceoff+motion_auto_close	3
+SX5xNJlh6eQ	1912.0	1942.0	30.0	Green	net_cooccur	faceoff+motion_auto_close	3
+SX5xNJlh6eQ	1943.0	1973.0	30.0	Green	net_cooccur	faceoff+motion_auto_close	2
+SX5xNJlh6eQ	1988.0	2005.0	17.0	Green	net_goal_only	faceoff+motion_auto_close	2
+SX5xNJlh6eQ	2091.0	2136.0	45.0	Green	net_cooccur	celebration+faceoff+motion_auto_close	4
+SX5xNJlh6eQ	2144.0	2174.0	30.0	Green	net_cooccur	motion_auto_close	1
+SX5xNJlh6eQ	2175.0	2235.0	60.0	Green	fallback_motion_edge	faceoff+motion_auto_close	4
+SX5xNJlh6eQ	2247.0	2298.0	51.0	Green	net_goal_only	faceoff+motion_auto_close	4
+SX5xNJlh6eQ	2583.0	2613.0	30.0	Green	motion	motion_auto_close	1
+SX5xNJlh6eQ	2614.0	2674.0	60.0	Green	motion	faceoff+motion_auto_close	4
+SX5xNJlh6eQ	2676.0	2736.0	60.0	Green	net_goalie_only	faceoff+motion_auto_close	3
+SX5xNJlh6eQ	2854.0	2882.0	28.0	Green	fallback_motion_edge	faceoff+motion_auto_close	2
+SX5xNJlh6eQ	3113.0	3143.0	30.0	Green	net_goal_only	motion_auto_close	1
+SX5xNJlh6eQ	3177.0	3207.0	30.0	Green	motion	motion_auto_close	1
+SX5xNJlh6eQ	3208.0	3238.0	30.0	Green	net_cooccur	motion_auto_close	1
+SX5xNJlh6eQ	3247.0	3266.0	19.0	Green	net_goalie_only	motion_auto_close	1
+SX5xNJlh6eQ	3267.0	3308.0	41.0	Green	net_goalie_only	faceoff+motion_auto_close	5
+SX5xNJlh6eQ	3498.0	3528.0	30.0	Green	net_goalie_only	faceoff+motion_auto_close	4
+SX5xNJlh6eQ	3561.0	3591.0	30.0	Green	motion	motion_auto_close	1
+bfEKgtOIkQU	76.0	106.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	107.0	137.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	139.0	169.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	217.0	247.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	440.0	470.0	30.0	White and Green	fallback_motion_edge	motion_auto_close	1
+bfEKgtOIkQU	521.0	551.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	562.0	592.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	693.0	723.0	30.0	White and Green	net_goal_only	motion_auto_close	1
+bfEKgtOIkQU	724.0	754.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	766.0	796.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	918.0	948.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	954.0	984.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1047.0	1077.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1078.0	1108.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1202.0	1232.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1267.0	1297.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1298.0	1314.0	16.0	White and Green	net_cooccur	crowd_roar+motion_auto_close	2
+bfEKgtOIkQU	1362.0	1383.0	21.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1393.0	1423.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1516.0	1546.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1639.0	1669.0	30.0	White and Green	fallback_motion_edge	motion_auto_close	1
+bfEKgtOIkQU	1670.0	1700.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1701.0	1731.0	30.0	White and Green	motion	motion_auto_close	1
+bfEKgtOIkQU	1766.0	1796.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1898.0	1928.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	1940.0	1970.0	30.0	White and Green	net_goalie_only	motion_auto_close	1
+bfEKgtOIkQU	1977.0	2007.0	30.0	White and Green	motion	motion_auto_close	1
+bfEKgtOIkQU	2008.0	2038.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2039.0	2069.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2107.0	2137.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2205.0	2235.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2243.0	2273.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2274.0	2304.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2305.0	2335.0	30.0	White and Green	net_goal_only	motion_auto_close	1
+bfEKgtOIkQU	2458.0	2488.0	30.0	White and Green	motion	motion_auto_close	1
+bfEKgtOIkQU	2637.0	2667.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2707.0	2737.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2819.0	2823.0	4.0	White and Green	net_goal_only	motion	1
+bfEKgtOIkQU	2845.0	2874.0	29.0	White and Green	motion	motion_auto_close	1
+bfEKgtOIkQU	2916.0	2946.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	2978.0	3008.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3009.0	3039.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3080.0	3110.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3111.0	3141.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3142.0	3172.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3173.0	3203.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3297.0	3327.0	30.0	White and Green	net_goal_only	motion_auto_close	1
+bfEKgtOIkQU	3359.0	3389.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3427.0	3457.0	30.0	White and Green	net_goal_only	motion_auto_close	1
+bfEKgtOIkQU	3485.0	3515.0	30.0	White and Green	fallback_motion_edge	motion_auto_close	1
+bfEKgtOIkQU	3667.0	3697.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3698.0	3728.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3730.0	3760.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	3761.0	3791.0	30.0	White and Green	fallback_motion_edge	motion_auto_close	1
+bfEKgtOIkQU	3996.0	4026.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	4100.0	4130.0	30.0	White and Green	net_cooccur	motion_auto_close	1
+bfEKgtOIkQU	4131.0	4140.0	9.0	White and Green	net_goal_only	motion_eof	1

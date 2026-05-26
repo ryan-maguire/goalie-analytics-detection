@@ -1,0 +1,104 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+J8WkcuTsD5I	29.0	31.0	00:02	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	29.0	32.0	00:03	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	113.0	115.0	00:02	left circle	wrist shot	save	True	inside	111.0	123.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	113.0	120.0	00:07	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	113.0	123.0	00:10	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	113.0	130.0	00:17	right point	wrist shot	save	False	no_match			
+J8WkcuTsD5I	135.0	142.0	00:07	high slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	204.0	213.0	00:09	low slot	redirect/tip	save	False	no_match			
+J8WkcuTsD5I	204.0	216.0	00:12	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	204.0	222.0	00:18	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	204.0	229.0	00:25	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	255.0	273.0	00:18	left wing	wrist shot	save	False	no_match			
+J8WkcuTsD5I	255.0	282.0	00:27	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	336.0	342.0	00:06	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	521.0	530.0	00:09	low slot	wrist shot	save	True	inside	524.0	536.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	521.0	541.0	00:20	right circle	wrist shot	save	True	inside	535.0	547.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	708.0	718.0	00:10	right wing	wrist shot	save	True	tolerance	719.0	731.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	708.0	720.0	00:12	in close	backhand	save	True	tolerance	722.0	734.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	708.0	724.0	00:16	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	708.0	729.0	00:21	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	888.0	890.0	00:02	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	888.0	913.0	00:25	slot	redirect/tip	save	False	no_match			
+J8WkcuTsD5I	888.0	915.0	00:27	in close	wrist shot	save	False	no_match			
+J8WkcuTsD5I	953.0	954.0	00:01	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	953.0	981.0	00:28	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	992.0	996.0	00:04	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	992.0	998.0	00:06	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	992.0	999.0	00:07	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	1100.0	1103.0	00:03	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	1100.0	1123.0	00:23	left point	wrist shot	blocked	False	no_match			
+J8WkcuTsD5I	1177.0	1198.0	00:21	right circle	wrist shot	miss	False	no_match			
+J8WkcuTsD5I	1177.0	1204.0	00:27	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	1208.0	1228.0	00:20	low slot	wrist shot	save	True	inside	1220.0	1232.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	1208.0	1229.0	00:21	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	1208.0	1231.0	00:23	right point	wrist shot	miss	False	no_match			
+J8WkcuTsD5I	1362.0	1362.0	00:00	high slot	wrist shot	goal	True	inside	1358.0	1370.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	1611.0	1619.0	00:08	right wing	snap shot	save	False	no_match			
+J8WkcuTsD5I	1611.0	1633.0	00:22	left circle	wrist shot	blocked	False	no_match			
+J8WkcuTsD5I	1611.0	1639.0	00:28	right wing	snap shot	save	True	inside	1637.0	1649.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	1642.0	1646.0	00:04	left circle	wrist shot	save	True	inside	1640.0	1652.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	1681.0	1721.0	00:40	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	1681.0	1724.0	00:43	high slot	snap shot	blocked	False	no_match			
+J8WkcuTsD5I	1681.0	1726.0	00:45	in close	wrist shot	save	False	no_match			
+J8WkcuTsD5I	1733.0	1742.0	00:09	low slot	wrist shot	save	True	inside	1735.0	1747.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	1733.0	1745.0	00:12	in close	backhand	save	True	inside	1738.0	1750.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	2064.0	2075.0	00:11	high slot	wrist shot	save	True	inside	2070.0	2082.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	2064.0	2076.0	00:12	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	2064.0	2082.0	00:18	right circle	snap shot	save	False	no_match			
+J8WkcuTsD5I	2064.0	2087.0	00:23	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	2135.0	2153.0	00:18	left point	wrist shot	blocked	True	inside	2147.0	2159.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	2135.0	2156.0	00:21	low slot	wrist shot	save	True	inside	2150.0	2162.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	2241.0	2245.0	00:04	high slot	snap shot	save	False	no_match			
+J8WkcuTsD5I	2437.0	2441.0	00:04	left circle	wrist shot	save	True	inside	2438.0	2450.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	2541.0	2554.0	00:13	high slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	2541.0	2562.0	00:21	high slot	wrist shot	miss	False	no_match			
+J8WkcuTsD5I	2673.0	2687.0	00:14	high slot	wrist shot	miss	False	no_match			
+J8WkcuTsD5I	2673.0	2701.0	00:28	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	2819.0	2823.0	00:04	low slot	snap shot	save	False	no_match			
+J8WkcuTsD5I	2901.0	2903.0	00:02	left circle	wrist shot	save	True	inside	2896.0	2908.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	2901.0	2907.0	00:06	in close	snap shot	save	True	inside	2900.0	2912.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	2901.0	2910.0	00:09	right circle	wrist shot	save	True	inside	2903.0	2915.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	2901.0	2912.0	00:11	high slot	slap shot	save	True	inside	2905.0	2917.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3110.0	3128.0	00:18	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	3110.0	3137.0	00:27	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3149.0	3173.0	00:24	left circle	wrist shot	save	True	inside	3170.0	3182.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3149.0	3174.0	00:25	low slot	backhand	save	False	no_match			
+J8WkcuTsD5I	3187.0	3188.0	00:01	left circle	wrist shot	save	True	inside	3182.0	3194.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3187.0	3189.0	00:02	low slot	backhand	save	False	no_match			
+J8WkcuTsD5I	3226.0	3239.0	00:13	left circle	wrist shot	save	True	inside	3238.0	3250.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3226.0	3242.0	00:16	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	3226.0	3246.0	00:20	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3277.0	3302.0	00:25	high slot	snap shot	save	False	no_match			
+J8WkcuTsD5I	3372.0	3375.0	00:03	low slot	wrist shot	save	True	inside	3373.0	3385.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3372.0	3376.0	00:04	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	3372.0	3378.0	00:06	in close	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3372.0	3381.0	00:09	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3457.0	3474.0	00:17	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3457.0	3482.0	00:25	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3540.0	3547.0	00:07	left circle	wrist shot	miss	False	no_match			
+J8WkcuTsD5I	3540.0	3557.0	00:17	right circle	wrist shot	save	True	inside	3552.0	3564.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3540.0	3559.0	00:19	low slot	backhand	save	False	no_match			
+J8WkcuTsD5I	3540.0	3560.0	00:20	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	3540.0	3564.0	00:24	right circle	wrist shot	blocked	False	no_match			
+J8WkcuTsD5I	3610.0	3618.0	00:08	left circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3647.0	3653.0	00:06	low slot	wrist shot	save	True	inside	3646.0	3658.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3647.0	3654.0	00:07	in close	backhand	save	True	inside	3652.0	3664.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3733.0	3743.0	00:10	high slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3733.0	3744.0	00:11	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	3733.0	3760.0	00:27	low slot	redirect/tip	save	False	no_match			
+J8WkcuTsD5I	3764.0	3766.0	00:02	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3764.0	3767.0	00:03	in close	backhand	save	False	no_match			
+J8WkcuTsD5I	3764.0	3780.0	00:16	left circle	wrist shot	miss	False	no_match			
+J8WkcuTsD5I	3795.0	3799.0	00:04	left circle	wrist shot	save	True	inside	3792.0	3804.0	North Shore Warhawks 19U AA
+J8WkcuTsD5I	3795.0	3803.0	00:08	low slot	wrist shot	save	True	tolerance	3805.0	3817.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3829.0	3833.0	00:04	low slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3829.0	3840.0	00:11	high slot	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3887.0	3905.0	00:18	high slot	wrist shot	save	True	inside	3900.0	3912.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	3949.0	3956.0	00:07	right circle	wrist shot	save	False	no_match			
+J8WkcuTsD5I	3949.0	3961.0	00:12	high slot	snap shot	save	False	no_match			
+J8WkcuTsD5I	3949.0	3977.0	00:28	high slot	redirect/tip	save	True	inside	3970.0	3982.0	North Shore Warhawks 19U AA
+J8WkcuTsD5I	4141.0	4162.0	00:21	left circle	wrist shot	save	True	inside	4156.0	4168.0	Grand Rapids Griffins 19U
+J8WkcuTsD5I	4289.0	4293.0	00:04	high slot	wrist shot	save	True	inside	4289.0	4301.0	North Shore Warhawks 19U AA
+J8WkcuTsD5I	4289.0	4295.0	00:06	low slot	backhand	save	False	no_match			
