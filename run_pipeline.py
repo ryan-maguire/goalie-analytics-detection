@@ -172,9 +172,17 @@ FUSION_PIPELINE_SCRIPT = PROJECT_ROOT / "tools" / "run_fusion_pipeline.py"
 
 # Pad seconds for fusion windows. Wider --post gives Gemini enough
 # aftermath context for goal-confirmation paths (Path B / Path C in
-# metrics_v13.txt). 5/15 was the validated sweet spot.
+# metrics_v13.txt).
+#
+# History:
+#   --post=5  → too narrow; goal F1 undefined (no aftermath context)
+#   --post=15 → 3-game ship default; 11-game re-validation showed
+#               goal recall regression (0.493 → 0.422 aggregate vs cv_seg)
+#   --post=25 → current default; +10s aftermath to recover the goal
+#               recall regressors (krxhP 1.0→0.0, v0lxS 1.0→0.25,
+#               Fjc9h 1.0→0.5). Re-validation pending.
 FUSION_PRE_SEC  = 5
-FUSION_POST_SEC = 15
+FUSION_POST_SEC = 25
 
 # Hybrid stage-1 fallback threshold: if fusion produces fewer than this
 # many windows, run cv_seg as a safety-net fallback for that vID.

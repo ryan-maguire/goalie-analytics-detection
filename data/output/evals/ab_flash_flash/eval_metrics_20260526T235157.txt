@@ -1,0 +1,108 @@
+==============================================================================
+metrics_seg evaluation report
+  generated:    2026-05-26 23:51:57 UTC
+  gt_dir:       /Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/ground_truth
+  metrics_dir:  data/output/runs/metrics_flash35
+  cv_seg_dir:   /Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/output/runs/cv_seg
+==============================================================================
+
+Two views are reported throughout:
+  STRICT     — only counts Hudl events from the team SHOOTING
+               at the window's threat_goalie_color. End-to-end
+               eval (depends on cv_seg attribution being correct).
+  UNFILTERED — counts ALL Hudl events overlapping the window
+               regardless of team. Tests the metric model in
+               isolation, independent of cv_seg attribution.
+
+If STRICT looks much worse than UNFILTERED, the gap is upstream
+cv_seg attribution error, not metric-model error.
+
+OVERALL — game-level totals
+------------------------------------------------------------------------------
+  videos:                 3
+  windows compared:       175
+
+                             STRICT     UNFILTERED
+  predicted shots               272            272
+  actual shots                  132            144
+  shots diff                   +140           +128
+  pred/actual ratio            2.06           1.89
+
+  predicted goals                 5              5
+  actual goals                    3              3
+  goals diff                     +2             +2
+
+PER-WINDOW shot-count accuracy
+------------------------------------------------------------------------------
+  windows:        175
+                             STRICT   UNFILTERED
+  mean abs error (MAE)         1.04        1.006
+  root mean sq error           1.39        1.361
+  signed bias                +0.800       +0.731
+  exact-match rate            31.4%        33.1%
+
+GOAL DETECTION — binary classifier (goals>=1 in window)
+------------------------------------------------------------------------------
+                         STRICT   UNFILTERED
+  TP                          1            1
+  FP                          4            4
+  FN                          2            2
+  TN                        168          168
+  precision               0.200        0.200
+  recall                  0.333        0.333
+  F1                      0.250        0.250
+
+PER VIDEO (STRICT counts)
+------------------------------------------------------------------------------
+  vID               hudl  status             win  PrSh  GtSh   ΔSh PrGl GtGl  ΔGl
+  Fjc9hmK8_3U    2070260  ok                  89   167    79   +88    3    1   +2
+      note: target_filter mode: game totals restricted to opponent team 'Team South Dakota' only (shots 110 → 82, goals 2 → 1)
+  q5yj6sAFQeY    2127052  ok                  49    53    27   +26    1    0   +1
+      note: target/opponent share color token(s) ['blue'] — per-window team filtering disabled, counting all overlapping events
+      note: target_filter is ON in cv_seg meta but no team→color map available — game totals will look ~50% under-predicted
+  KYtM20r9BuM    2072196  ok                  37    52    26   +26    1    2   -1
+      note: target_filter mode: game totals restricted to opponent team 'Wisconsin Selects' only (shots 67 → 51, goals 5 → 5)
+
+SANITY — Hudl game totals (all teams) vs window-level coverage
+------------------------------------------------------------------------------
+  Helps catch attribution mistakes — if Hudl recorded N shots in a game but only M show up in our window-level totals, the missing N-M either (a) fell outside any cv_seg window, or (b) belonged to a team we filtered out.
+  Fjc9hmK8_3U    hudl-game shots:  82, window-attributed STRICT:  79 ( 96.3%), UNFILTERED:  89 (108.5%)
+  Fjc9hmK8_3U    hudl-game goals:   1, window-attributed STRICT:   1, UNFILTERED:   1
+  q5yj6sAFQeY    hudl-game shots:  78, window-attributed STRICT:  27 ( 34.6%), UNFILTERED:  27 ( 34.6%)
+  q5yj6sAFQeY    hudl-game goals:   3, window-attributed STRICT:   0, UNFILTERED:   0
+  KYtM20r9BuM    hudl-game shots:  51, window-attributed STRICT:  26 ( 51.0%), UNFILTERED:  28 ( 54.9%)
+  KYtM20r9BuM    hudl-game goals:   5, window-attributed STRICT:   2, UNFILTERED:   2
+
+==============================================================================
+SHOT-TIMESTAMPS EVAL (v11)
+------------------------------------------------------------------------------
+  Videos with shot_timestamps:   3
+  Total predicted shots:         276
+  Total Hudl GT shots:           211
+    in cv_seg-covered time:      112
+    in uncovered time (cv miss): 99
+
+  Counts (one-to-one matching, ±3s tolerance for lenient):
+    TP (pred inside GT window):  78
+    TP (lenient — w/ tolerance): 95
+    FP (pred matched no GT):     198
+    FN (GT missed in coverage):  17
+    FN (GT in cv_seg miss):      99
+
+  End-to-end (P/R/F1):           P=0.2826  R=0.4021  F1=0.3319
+  Within-coverage  (P/R/F1):     P=0.2826  R=0.8211  F1=0.4205
+
+  Per-video shot-eval (sorted by F1):
+    vID               TP  FP  FN FN_u      P    R   F1   R_in F1_in
+    Fjc9hmK8_3U       50 121   4   16   0.29 0.71 0.41   0.93  0.44
+    KYtM20r9BuM       14  38   5   30   0.27 0.29 0.28   0.74  0.39
+    q5yj6sAFQeY       14  39   8   53   0.26 0.19 0.22   0.64  0.37
+
+==============================================================================
+WINDOW REFINEMENT (v11+ shot-centered tightening)
+------------------------------------------------------------------------------
+  Per video — median segment width before/after shot-centering refinement
+  vID               N  orig med   ref med  orig mean  ref mean  sources
+  Fjc9hmK8_3U      89       30s       25s        31s       24s  shot_timestamps=75, fallback_no_shots=14
+  q5yj6sAFQeY      50       30s       22s        30s       22s  shot_timestamps=35, fallback_no_shots=14, fallback_no_metrics=1
+  KYtM20r9BuM      38       30s       16s        26s       20s  shot_timestamps=29, fallback_no_shots=8, fallback_no_metrics=1

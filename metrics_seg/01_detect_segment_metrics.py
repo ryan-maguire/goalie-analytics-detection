@@ -207,6 +207,9 @@ def _v14_load_probs_for_vid(vid: str):
 
 GEMINI_MODEL   = "gemini-2.5-pro"
 # NOTE: Must match GEMINI_MODEL in 01_detect_goalie_segments.py — update both together.
+# Overridable at runtime via the --model CLI flag (see parse_args()).
+# The cache layer (v14) keys on model_name, so switching models naturally
+# invalidates cached responses for the new model.
 # See SegmentDict in 01_detect_goalie_segments.py for the shared segment schema.
 PROJECT_ID = "goalie-analytics-pro-dev"
 REGION     = "us-central1"
@@ -2107,6 +2110,20 @@ def parse_args():
     g2.add_argument("--no-gcs-upload", action="store_true",
                      help="Skip uploading gt_metrics_*.json to GCS. "
                           "Output still written to --output-dir if set.")
+    parser.add_argument("--model", default=None,
+                        help=f"Override the Gemini model used for metrics "
+                             f"extraction. Default: {GEMINI_MODEL}. Useful "
+                             f"for A/B testing cheaper Flash variants "
+                             f"(e.g. gemini-2.5-flash, gemini-3.5-flash). "
+                             f"The v14 cache (when enabled) keys on the "
+                             f"model name, so switching models cleanly "
+                             f"invalidates cached responses.")
+    parser.add_argument("--vertex-location", default=None,
+                        help=f"Override the Vertex AI location used by the "
+                             f"genai client. Default: {REGION}. Some preview "
+                             f"models (e.g. gemini-3.x family) are only "
+                             f"served through the 'global' routing pool — "
+                             f"pass --vertex-location global to reach them.")
     return parser.parse_args()
 
 
@@ -2202,6 +2219,18 @@ def _v14_log_calibration(vid: str, args) -> None:
 def main():
     _setup_logging()  # configure handlers; no-op if already configured
     args = parse_args()
+
+    # Honor --model + --vertex-location overrides before any Gemini
+    # client constructs. The client is module-cached, so these mutations
+    # need to happen before the first _get_gemini_client() call.
+    if args.model:
+        global GEMINI_MODEL
+        log.info(f"Overriding Gemini model: {GEMINI_MODEL} → {args.model}")
+        GEMINI_MODEL = args.model
+    if args.vertex_location:
+        global REGION
+        log.info(f"Overriding Vertex location: {REGION} → {args.vertex_location}")
+        REGION = args.vertex_location
 
     # Populate v14 improvements config from CLI flags. Flags default such
     # that this is a no-op unless the user opts in.

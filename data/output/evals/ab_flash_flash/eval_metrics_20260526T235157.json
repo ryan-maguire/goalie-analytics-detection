@@ -1,0 +1,213 @@
+{
+  "generated_at": "2026-05-26T23:51:57Z",
+  "args": {
+    "gt_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/ground_truth",
+    "metrics_dir": "data/output/runs/metrics_flash35",
+    "cv_seg_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/output/runs/cv_seg"
+  },
+  "summary": {
+    "n_videos": 3,
+    "n_windows": 175,
+    "total_pred_shots": 272,
+    "total_gt_shots": 132,
+    "shots_diff": 140,
+    "shots_ratio": 2.061,
+    "total_pred_goals": 5,
+    "total_gt_goals": 3,
+    "goals_diff": 2,
+    "shot_window_metrics": {
+      "n": 175,
+      "mae": 1.04,
+      "rmse": 1.39,
+      "bias": 0.8,
+      "exact_pct": 31.4
+    },
+    "goal_classifier": {
+      "tp": 1,
+      "fp": 4,
+      "fn": 2,
+      "tn": 168,
+      "precision": 0.2,
+      "recall": 0.3333,
+      "f1": 0.25
+    },
+    "total_gt_shots_unfiltered": 144,
+    "shots_diff_unfiltered": 128,
+    "shots_ratio_unfiltered": 1.889,
+    "total_gt_goals_unfiltered": 3,
+    "goals_diff_unfiltered": 2,
+    "shot_window_metrics_unfiltered": {
+      "n": 175,
+      "mae": 1.006,
+      "rmse": 1.361,
+      "bias": 0.731,
+      "exact_pct": 33.1
+    },
+    "goal_classifier_unfiltered": {
+      "tp": 1,
+      "fp": 4,
+      "fn": 2,
+      "tn": 168,
+      "precision": 0.2,
+      "recall": 0.3333,
+      "f1": 0.25
+    },
+    "shot_timestamps_eval": {
+      "n_videos_with_shot_timestamps": 3,
+      "n_total_pred_shots": 276,
+      "n_total_gt_shots": 211,
+      "n_gt_covered": 112,
+      "n_gt_uncovered": 99,
+      "tp_strict": 78,
+      "tp_lenient": 95,
+      "fp": 198,
+      "fn": 17,
+      "fn_uncovered": 99,
+      "precision": 0.2826,
+      "recall": 0.4021,
+      "recall_within_coverage": 0.8211,
+      "f1": 0.3319,
+      "f1_within_coverage": 0.4205
+    }
+  },
+  "videos": [
+    {
+      "vID": "Fjc9hmK8_3U",
+      "hudl_id": 2070260,
+      "status": "ok",
+      "n_windows": 89,
+      "total_pred_shots": 167,
+      "total_gt_shots": 79,
+      "total_gt_shots_unfiltered": 89,
+      "total_pred_goals": 3,
+      "total_gt_goals": 1,
+      "total_gt_goals_unfiltered": 1,
+      "hudl_total_shots": 82,
+      "hudl_total_goals": 1,
+      "shot_eval": {
+        "n_total_pred": 171,
+        "n_total_gt": 82,
+        "n_gt_covered": 66,
+        "n_gt_uncovered": 16,
+        "tp_strict": 50,
+        "tp_lenient": 62,
+        "fp": 121,
+        "fn": 4,
+        "fn_uncovered": 16,
+        "precision": 0.2924,
+        "recall": 0.7143,
+        "recall_within_coverage": 0.9259,
+        "f1": 0.4149,
+        "f1_within_coverage": 0.4444
+      },
+      "refinement": {
+        "n_threat_segments": 89,
+        "refinement_sources": {
+          "shot_timestamps": 75,
+          "fallback_no_shots": 14
+        },
+        "orig_width_median": 30,
+        "orig_width_mean": 30.9,
+        "refined_width_median": 25,
+        "refined_width_mean": 24.2,
+        "median_shrinkage": 5
+      },
+      "notes": [
+        "target_filter mode: game totals restricted to opponent team 'Team South Dakota' only (shots 110 → 82, goals 2 → 1)"
+      ]
+    },
+    {
+      "vID": "q5yj6sAFQeY",
+      "hudl_id": 2127052,
+      "status": "ok",
+      "n_windows": 49,
+      "total_pred_shots": 53,
+      "total_gt_shots": 27,
+      "total_gt_shots_unfiltered": 27,
+      "total_pred_goals": 1,
+      "total_gt_goals": 0,
+      "total_gt_goals_unfiltered": 0,
+      "hudl_total_shots": 78,
+      "hudl_total_goals": 3,
+      "shot_eval": {
+        "n_total_pred": 53,
+        "n_total_gt": 78,
+        "n_gt_covered": 25,
+        "n_gt_uncovered": 53,
+        "tp_strict": 14,
+        "tp_lenient": 17,
+        "fp": 39,
+        "fn": 8,
+        "fn_uncovered": 53,
+        "precision": 0.2642,
+        "recall": 0.1867,
+        "recall_within_coverage": 0.6364,
+        "f1": 0.2187,
+        "f1_within_coverage": 0.3733
+      },
+      "refinement": {
+        "n_threat_segments": 50,
+        "refinement_sources": {
+          "shot_timestamps": 35,
+          "fallback_no_shots": 14,
+          "fallback_no_metrics": 1
+        },
+        "orig_width_median": 30.0,
+        "orig_width_mean": 30.0,
+        "refined_width_median": 21.5,
+        "refined_width_mean": 21.9,
+        "median_shrinkage": 8.5
+      },
+      "notes": [
+        "target/opponent share color token(s) ['blue'] — per-window team filtering disabled, counting all overlapping events",
+        "target_filter is ON in cv_seg meta but no team→color map available — game totals will look ~50% under-predicted"
+      ]
+    },
+    {
+      "vID": "KYtM20r9BuM",
+      "hudl_id": 2072196,
+      "status": "ok",
+      "n_windows": 37,
+      "total_pred_shots": 52,
+      "total_gt_shots": 26,
+      "total_gt_shots_unfiltered": 28,
+      "total_pred_goals": 1,
+      "total_gt_goals": 2,
+      "total_gt_goals_unfiltered": 2,
+      "hudl_total_shots": 51,
+      "hudl_total_goals": 5,
+      "shot_eval": {
+        "n_total_pred": 52,
+        "n_total_gt": 51,
+        "n_gt_covered": 21,
+        "n_gt_uncovered": 30,
+        "tp_strict": 14,
+        "tp_lenient": 16,
+        "fp": 38,
+        "fn": 5,
+        "fn_uncovered": 30,
+        "precision": 0.2692,
+        "recall": 0.2857,
+        "recall_within_coverage": 0.7368,
+        "f1": 0.2772,
+        "f1_within_coverage": 0.3944
+      },
+      "refinement": {
+        "n_threat_segments": 38,
+        "refinement_sources": {
+          "shot_timestamps": 29,
+          "fallback_no_shots": 8,
+          "fallback_no_metrics": 1
+        },
+        "orig_width_median": 30.0,
+        "orig_width_mean": 26.5,
+        "refined_width_median": 16.0,
+        "refined_width_mean": 20.0,
+        "median_shrinkage": 14.0
+      },
+      "notes": [
+        "target_filter mode: game totals restricted to opponent team 'Wisconsin Selects' only (shots 67 → 51, goals 5 → 5)"
+      ]
+    }
+  ]
+}
