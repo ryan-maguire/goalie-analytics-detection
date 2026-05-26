@@ -103,6 +103,11 @@ def main():
         if not os.path.exists(video_path):
             continue
         hudl = VID_TO_HUDL.get(vid)
+        # Fallback: hudl-fetched matches have vID == hudl_id (numeric string)
+        # and aren't in VID_TO_HUDL (which is curated for the original
+        # YouTube-stem videos). Use the vID directly when it's numeric.
+        if hudl is None and vid.isdigit():
+            hudl = int(vid)
         gt_csv = os.path.join(args.gt_dir, f"gt_{hudl}.csv")
         if not os.path.exists(gt_csv):
             continue

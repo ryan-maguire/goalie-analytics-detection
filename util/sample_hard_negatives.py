@@ -121,9 +121,12 @@ def main():
 
     for tsv in feature_files:
         vid = tsv.stem
-        if vid not in VID_TO_HUDL:
+        # Fallback: hudl-fetched matches have vID == hudl_id (numeric).
+        # Skip non-numeric vIDs that aren't in VID_TO_HUDL (those are
+        # genuinely unknown).
+        if vid not in VID_TO_HUDL and not vid.isdigit():
             continue
-        hudl = VID_TO_HUDL[vid]
+        hudl = VID_TO_HUDL[vid] if vid in VID_TO_HUDL else int(vid)
         gt_csv = os.path.join(args.gt_dir, f"gt_{hudl}.csv")
         if not os.path.exists(gt_csv):
             continue

@@ -146,6 +146,10 @@ def main():
     yolo = YOLO(base_weights)
     print(f"Training: epochs={args.epochs}  batch={args.batch}  "
           f"device={args.device}  imgsz={args.imgsz}", file=sys.stderr)
+    # ultralytics prepends `runs/<task>/` to the project path unless it's
+    # absolute — pass the resolved absolute path so the output lands
+    # under work_dir as advertised, not under cwd/runs/detect/...
+    project_path = (work_dir / "runs").resolve()
     yolo.train(
         data=str(yaml_path),
         epochs=args.epochs,
@@ -153,7 +157,7 @@ def main():
         imgsz=args.imgsz,
         device=args.device,
         name=args.run_name,
-        project=str(work_dir / "runs"),
+        project=str(project_path),
         exist_ok=True,
     )
     print("Training complete.", file=sys.stderr)

@@ -45,11 +45,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 CLS_GOAL_ID = 2
 CLS_SHOT_ID = 7
 
-# Expansion factors — how much bigger than the goal bbox the shot
-# bbox is. Goal mouth is small; the shot/slot area extends meaningfully
-# in front of the goal.
-W_FACTOR = 1.8   # 1.8x wider — covers slot
-H_FACTOR = 1.5   # 1.5x taller — covers above/below goalmouth
+# Default expansion factors. Overridable via --w-factor / --h-factor.
+# History: 1.8 × 1.5 was the original tuning. Prior approach-2 retrain
+# (test F1 0.232) showed it was too generous — the model learned to
+# fire on any goal+player vicinity. Recommended tighter defaults for
+# retraining: --w-factor 1.0 --h-factor 0.8 (covers goalmouth + slot
+# but not the whole offensive zone).
+W_FACTOR = 1.8
+H_FACTOR = 1.5
 
 
 def _parse_yolo_txt(path: Path) -> list[tuple[int, float, float, float, float]]:
@@ -101,6 +104,7 @@ def _yolo_to_xyxy(cx, cy, w, h, W, H):
 
 
 def main():
+    global W_FACTOR, H_FACTOR
     ap = argparse.ArgumentParser()
     ap.add_argument("--images-dir", default="data/labels/images")
     ap.add_argument("--labels-dir", default="data/labels/labels")
@@ -114,7 +118,15 @@ def main():
     ap.add_argument("--fallback-yolo", action="store_true",
                     help="if pre-label has no goal, run HockeyAI on the .jpg "
                          "with conf=0.05 to try to find one (slower)")
+    ap.add_argument("--w-factor", type=float, default=W_FACTOR,
+                    help=f"width-expansion factor for shot bbox (default {W_FACTOR})")
+    ap.add_argument("--h-factor", type=float, default=H_FACTOR,
+                    help=f"height-expansion factor for shot bbox (default {H_FACTOR})")
     args = ap.parse_args()
+
+    # Override the module-level defaults so the rest of main() picks them up
+    W_FACTOR = args.w_factor
+    H_FACTOR = args.h_factor
 
     if not args.preview and not args.commit:
         print("ERROR: pick at least one of --preview or --commit", file=sys.stderr)
