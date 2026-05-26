@@ -897,10 +897,15 @@ def main() -> int:
             pub = "—"
         total_seconds = sum(s.values()) + (r["publish_elapsed"] or 0.0)
         total = fmt_duration(total_seconds)
-        if r["success"] and r["publish_success"]:
-            status = "OK"
-        elif r["success"] and r["publish_success"] is False:
-            status = "FAIL @ publish_final"
+        if r["success"]:
+            if r["publish_success"] is True:
+                status = "OK"
+            elif r["publish_success"] is False:
+                status = "FAIL @ publish_final"
+            else:
+                # publish_success is None — step 3 wasn't requested,
+                # so a successful partial run is still OK.
+                status = "OK"
         else:
             status = f"FAIL @ {r['failure_stage']}"
         tee.write(f"  {vID:<16}  {cv:>10}  {fbk:>10}  {me:>12}  {fb:>13}  "
