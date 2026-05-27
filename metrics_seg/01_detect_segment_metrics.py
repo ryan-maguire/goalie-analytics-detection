@@ -141,6 +141,16 @@ import tempfile
 import time
 from concurrent.futures import ThreadPoolExecutor
 
+# Make `from metrics_seg import X` resolvable when this file is run
+# directly as `python3 metrics_seg/01_detect_segment_metrics.py` (the
+# common invocation in tools/* harnesses). Without this, the v14
+# subpackage imports below silently fall through to
+# _V14_IMPROVEMENTS_AVAILABLE=False and every --flash-screen /
+# --goal-ensemble / --prefilter-threshold flag becomes a no-op.
+_REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
 from google.api_core import exceptions as gcore_exceptions
 from google.cloud import storage
 from google import genai
@@ -1480,6 +1490,37 @@ def analyze_clip_metrics(
         opponent_color=opponent_color,
         side=goalie_side or SIDE_UNKNOWN,
     )
+
+    # ── v14 Phase 2: Flash pre-filter screening ────────────────────────
+    # When --flash-screen is on, ask Flash (cheap) whether this clip has
+    # any shot activity before paying for a Pro call. Fail-safe: any
+    # Flash error escalates to Pro anyway.
+    if _V14_IMPROVEMENTS_AVAILABLE and _V14_CONFIG.get("flash_screen"):
+        screen = _v14_flash.screen_clip(
+            video_bytes, duration, gemini_client,
+            enabled=True, fail_safe=True,
+        )
+        trace["flash_screen_fired"]      = True
+        trace["flash_screen_shots_any"]  = screen.shots_any
+        trace["flash_screen_confidence"] = screen.confidence
+        trace["flash_screen_failed"]     = screen.failed
+        trace["flash_screen_fail_reason"] = screen.fail_reason
+        if _v14_flash.should_skip_pro(screen):
+            log.info(
+                "Flash screen → skip Pro",
+                extra={
+                    "segment_start": segment_start,
+                    "shots_any":  screen.shots_any,
+                    "confidence": screen.confidence,
+                }
+            )
+            trace["flash_screen_skipped_pro"] = True
+            trace["final_shots"]      = 0
+            trace["final_shotsOnNet"] = 0
+            trace["final_goals"]      = 0
+            return _v14_flash.null_metrics_for_skip(
+                segment_start, segment_start + duration), trace
+        trace["flash_screen_skipped_pro"] = False
 
     # ── First call (temperature=0, deterministic anchor) ──────────────
     first = _call_gemini_for_metrics(video_bytes, prompt, segment_start, gemini_client)
