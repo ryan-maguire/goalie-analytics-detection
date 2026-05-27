@@ -93,8 +93,8 @@ def run_cv_seg(vid: str, cust: str, *, dry_run: bool) -> Path:
 
 
 def run_fusion_seg(vid: str, cust: str, *, pre: int, post: int,
-                     dry_run: bool) -> Path:
-    out_dir = REPO / "data" / "output" / "runs" / "cv_seg_fusion_wide"
+                     dry_run: bool, suffix: str = "") -> Path:
+    out_dir = REPO / "data" / "output" / "runs" / f"cv_seg_fusion_wide{suffix}"
     out_path = out_dir / f"gt_seg_{vid}.json"
     if out_path.exists() and not dry_run:
         print(f"  [fusion_seg] {vid}: cached → skip")
@@ -110,11 +110,11 @@ def run_fusion_seg(vid: str, cust: str, *, pre: int, post: int,
 
 def run_metrics_seg(vid: str, cust: str, variant: str,
                       segments_dir: Path, *, workers: int,
-                      dry_run: bool) -> Path:
-    out_dir = REPO / "data" / "output" / "runs" / f"metrics_{variant}"
+                      dry_run: bool, suffix: str = "") -> Path:
+    out_dir = REPO / "data" / "output" / "runs" / f"metrics_{variant}{suffix}"
     out_path = out_dir / f"gt_metrics_{vid}.json"
     if out_path.exists() and not dry_run:
-        print(f"  [metrics_seg/{variant}] {vid}: cached → skip ${0}")
+        print(f"  [metrics_seg/{variant}{suffix}] {vid}: cached → skip ${0}")
         return out_path
     out_dir.mkdir(parents=True, exist_ok=True)
     sh([sys.executable, "metrics_seg/01_detect_segment_metrics.py",
@@ -128,12 +128,12 @@ def run_metrics_seg(vid: str, cust: str, variant: str,
 
 
 def run_eval(vid: str, variant: str, segments_dir: Path,
-              *, dry_run: bool) -> Path:
-    out_dir = REPO / "data" / "output" / "evals" / f"validate_{variant}"
+              *, dry_run: bool, suffix: str = "") -> Path:
+    out_dir = REPO / "data" / "output" / "evals" / f"validate_{variant}{suffix}"
     out_dir.mkdir(parents=True, exist_ok=True)
     sh([sys.executable, "eval/eval_metric_seg_output.py",
         "--vIDs", vid,
-        "--metrics-dir", str(REPO / "data" / "output" / "runs" / f"metrics_{variant}"),
+        "--metrics-dir", str(REPO / "data" / "output" / "runs" / f"metrics_{variant}{suffix}"),
         "--cv-seg-dir",  str(segments_dir),
         "--gt-dir",      str(REPO / "data" / "ground_truth"),
         "--output-dir",  str(out_dir),
@@ -292,7 +292,17 @@ def main():
                     help="skip the cost-confirmation prompt")
     ap.add_argument("--report-path", type=Path,
                     default=REPO / "data" / "output" / "evals" / "fusion_wide_validation.md")
+    ap.add_argument("--variant-suffix", default="",
+                    help="Append a suffix to all fusion + metrics output "
+                         "directories. Use to keep multiple POST settings "
+                         "side by side, e.g. '--variant-suffix _post25'. "
+                         "v13 (cv_seg) outputs are unaffected since they "
+                         "don't depend on POST.")
     args = ap.parse_args()
+
+    # Only the FUSION-side dirs need the suffix; v13 (cv_seg) is the
+    # same regardless of POST.
+    SUFFIX = args.variant_suffix
 
     os.chdir(REPO)
 
@@ -313,12 +323,15 @@ def main():
             print(f"  ⚠️  {vid}: no YOLO/audio probs cached — fusion won't fire, SKIPPING")
             continue
         for variant in ("v13", "fusion_wide"):
-            out_path = REPO / "data" / "output" / "runs" / f"metrics_{variant}" / f"gt_metrics_{vid}.json"
+            # v13 is POST-independent; only fusion gets the suffix
+            v_suffix = SUFFIX if variant == "fusion_wide" else ""
+            out_path = (REPO / "data" / "output" / "runs"
+                         / f"metrics_{variant}{v_suffix}" / f"gt_metrics_{vid}.json")
             if not out_path.exists():
                 runs_needed.append((vid, variant, cust))
-                print(f"    needed: {vid} / {variant}  (cust={cust})")
+                print(f"    needed: {vid} / {variant}{v_suffix}  (cust={cust})")
             else:
-                print(f"    cached: {vid} / {variant}")
+                print(f"    cached: {vid} / {variant}{v_suffix}")
     print()
     est_cost = len(runs_needed) * 3
     est_time = len(runs_needed) * 15
@@ -340,7 +353,8 @@ def main():
 
     # ── Execute ───────────────────────────────────────────────
     cv_seg_dir = REPO / "data" / "output" / "runs" / "cv_seg"
-    fusion_seg_dir = REPO / "data" / "output" / "runs" / "cv_seg_fusion_wide"
+    fusion_seg_dir = (REPO / "data" / "output" / "runs"
+                       / f"cv_seg_fusion_wide{SUFFIX}")
 
     for vid in vids_to_process:
         cust = VID_TO_CUST[vid]
@@ -355,21 +369,22 @@ def main():
         # 2. fusion-wide seg JSON (cached)
         try:
             run_fusion_seg(vid, cust, pre=args.pre, post=args.post,
-                            dry_run=args.dry_run)
+                            dry_run=args.dry_run, suffix=SUFFIX)
         except Exception as e:
             print(f"  fusion_seg FAILED: {e} — skipping vid"); continue
 
-        # 3. v13 baseline metrics (cached)
+        # 3. v13 baseline metrics (cached, POST-independent)
         try:
             run_metrics_seg(vid, cust, "v13", cv_seg_dir,
                               workers=args.workers, dry_run=args.dry_run)
         except Exception as e:
             print(f"  v13 metrics_seg FAILED: {e}")
 
-        # 4. fusion-wide metrics (cached)
+        # 4. fusion-wide metrics (cached, suffix-aware)
         try:
             run_metrics_seg(vid, cust, "fusion_wide", fusion_seg_dir,
-                              workers=args.workers, dry_run=args.dry_run)
+                              workers=args.workers, dry_run=args.dry_run,
+                              suffix=SUFFIX)
         except Exception as e:
             print(f"  fusion_wide metrics_seg FAILED: {e}")
 
@@ -378,7 +393,8 @@ def main():
             run_eval(vid, "v13", cv_seg_dir, dry_run=args.dry_run)
         except Exception: pass
         try:
-            run_eval(vid, "fusion_wide", fusion_seg_dir, dry_run=args.dry_run)
+            run_eval(vid, "fusion_wide", fusion_seg_dir,
+                      dry_run=args.dry_run, suffix=SUFFIX)
         except Exception: pass
 
     # ── Parse + report ────────────────────────────────────────
@@ -390,7 +406,9 @@ def main():
     for vid in vids_to_process:
         results[vid] = {}
         for variant in ("v13", "fusion_wide"):
-            eval_dir = REPO / "data" / "output" / "evals" / f"validate_{variant}"
+            v_suffix = SUFFIX if variant == "fusion_wide" else ""
+            eval_dir = (REPO / "data" / "output" / "evals"
+                         / f"validate_{variant}{v_suffix}")
             txt = find_eval_txt(eval_dir, vid)
             if txt is None:
                 continue
