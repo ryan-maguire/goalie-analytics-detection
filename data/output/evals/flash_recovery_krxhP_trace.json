@@ -1,0 +1,563 @@
+{
+  "vID": "krxhPVLGLz8",
+  "chunk_sec": 30,
+  "min_confidence": 0.7,
+  "n_original_windows": 44,
+  "n_chunks": 69,
+  "n_recovered": 55,
+  "elapsed_sec": 3032.1678080558777,
+  "trace": [
+    {
+      "start": 62,
+      "end": 92,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 92,
+      "end": 122,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 122,
+      "end": 152,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 152,
+      "end": 182,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 182,
+      "end": 212,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 212,
+      "end": 242,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 242,
+      "end": 272,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 272,
+      "end": 302,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 302,
+      "end": 324,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 354,
+      "end": 384,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 384,
+      "end": 414,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 485,
+      "end": 511,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 517,
+      "end": 547,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 578,
+      "end": 608,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 608,
+      "end": 638,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 671,
+      "end": 701,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 804,
+      "end": 834,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 866,
+      "end": 896,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 896,
+      "end": 926,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 926,
+      "end": 956,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1021,
+      "end": 1051,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1051,
+      "end": 1081,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1081,
+      "end": 1111,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1111,
+      "end": 1141,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1141,
+      "end": 1171,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1171,
+      "end": 1201,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1201,
+      "end": 1231,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1231,
+      "end": 1261,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1261,
+      "end": 1291,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1291,
+      "end": 1321,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1321,
+      "end": 1351,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 1351,
+      "end": 1381,
+      "shot_attempt": false,
+      "confidence": 0.95,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 1381,
+      "end": 1411,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1411,
+      "end": 1426,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1580,
+      "end": 1610,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1610,
+      "end": 1640,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1640,
+      "end": 1670,
+      "shot_attempt": false,
+      "confidence": 0.0,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 1670,
+      "end": 1685,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 1776,
+      "end": 1806,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1806,
+      "end": 1836,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1836,
+      "end": 1866,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1866,
+      "end": 1896,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 1896,
+      "end": 1926,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 1963,
+      "end": 1993,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 1993,
+      "end": 2023,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2087,
+      "end": 2117,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2117,
+      "end": 2147,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2270,
+      "end": 2290,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 2320,
+      "end": 2350,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2350,
+      "end": 2380,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2413,
+      "end": 2443,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2475,
+      "end": 2505,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2505,
+      "end": 2535,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 2535,
+      "end": 2565,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2599,
+      "end": 2629,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2661,
+      "end": 2691,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 2691,
+      "end": 2721,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 2847,
+      "end": 2877,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 2877,
+      "end": 2907,
+      "shot_attempt": false,
+      "confidence": 1.0,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 2907,
+      "end": 2927,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 3051,
+      "end": 3081,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 3144,
+      "end": 3174,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 3174,
+      "end": 3204,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 3268,
+      "end": 3298,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 3298,
+      "end": 3328,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 3328,
+      "end": 3358,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 3358,
+      "end": 3388,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    },
+    {
+      "start": 3388,
+      "end": 3418,
+      "shot_attempt": false,
+      "confidence": 0.9,
+      "kept": false,
+      "error": ""
+    },
+    {
+      "start": 3462,
+      "end": 3487,
+      "shot_attempt": true,
+      "confidence": 0.9,
+      "kept": true,
+      "error": ""
+    }
+  ]
+}

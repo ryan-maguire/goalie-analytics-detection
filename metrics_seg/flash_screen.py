@@ -44,9 +44,12 @@ log = logging.getLogger("metrics_seg.flash_screen")
 FLASH_MODEL = "gemini-2.5-flash"
 
 # Token budget for the screening call. Two-field JSON {shots_any:bool,
-# confidence:float} is small — 64 is generous, prevents MAX_TOKENS
-# truncation from clipping the JSON before the closing brace.
-SCREEN_MAX_TOKENS = 128
+# confidence:float} is small, BUT Gemini 2.5 Flash uses "thinking"
+# tokens before structured output is emitted — 128 gets consumed by
+# the reasoning prefix and finish_reason becomes MAX_TOKENS with no
+# JSON. Two compensations: (1) raise the cap to 256 for safety margin,
+# (2) disable thinking via ThinkingConfig in screen_clip().
+SCREEN_MAX_TOKENS = 256
 
 # Permissive screening prompt — bias toward escalation. False negatives
 # cost a window's coaching signal; false positives only cost a Pro call.
@@ -138,6 +141,8 @@ def screen_clip(
                 temperature=0.0,
                 response_mime_type="application/json",
                 response_schema=SCREEN_RESPONSE_SCHEMA,
+                # Disable thinking so the JSON lands within budget
+                thinking_config=types.ThinkingConfig(thinking_budget=0),
             ),
         )
 
