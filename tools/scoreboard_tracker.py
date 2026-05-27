@@ -59,8 +59,14 @@ def _import_runtime():
 
 _CLOCK_RE  = re.compile(r"^\d{1,2}[:.]\d{2}$")     # 5:51 or 5.51 (OCR sometimes reads : as .)
 _PERIOD_RE = re.compile(r"^(?:1st|2nd|3rd|OT|ot|SO|so)$", re.IGNORECASE)
-_SCORE_RE  = re.compile(r"^\d{1,2}$")              # 0-99 score (usually 0-15 for hockey)
+_SCORE_RE  = re.compile(r"^\d{1,2}$")              # 0-99 from regex; capped at MAX_SCORE below
 _TEAM_RE   = re.compile(r"^[A-Z]{2,5}[a-z]?$")     # NW, NAS, COLTIA, NAs (case noise)
+
+# Max plausible hockey score per side per game. Any OCR result above
+# this is almost certainly a misread (e.g. picking up shot-on-goal or
+# penalty-minute totals which can hit 30+, OR misreading "2" as "29").
+# Hockey games very rarely exceed 10 per side; 15 is a safe ceiling.
+MAX_PLAUSIBLE_SCORE = 15
 
 
 @dataclass
@@ -140,9 +146,15 @@ def parse_overlay(detections: list[tuple],
     home_candidates = [(x, v, c) for (x, v, c) in nums if x < 0.40]
     away_candidates = [(x, v, c) for (x, v, c) in nums if x > 0.60]
 
-    # Pick highest-confidence numeric per side
-    home_score = max(home_candidates, key=lambda t: t[2])[1] if home_candidates else None
-    away_score = max(away_candidates, key=lambda t: t[2])[1] if away_candidates else None
+    # Pick highest-confidence numeric per side, capped at MAX_PLAUSIBLE_SCORE.
+    # Out-of-range values are almost certainly OCR misreads of stats
+    # (shots, PIM) or single-digit misreads like 2→29.
+    def _pick(cands):
+        if not cands: return None
+        best = max(cands, key=lambda t: t[2])
+        return best[1] if 0 <= best[1] <= MAX_PLAUSIBLE_SCORE else None
+    home_score = _pick(home_candidates)
+    away_score = _pick(away_candidates)
 
     return home_score, away_score, clock, period, raw_strs, mean_conf
 
@@ -241,40 +253,103 @@ def sample_video_to_snapshots(video_path: Path, reader,
 # ─── Score-change detection ───────────────────────────────────────────
 
 def smoothed_scores(snapshots: list[OcrSnapshot],
-                     window: int = 5) -> list[tuple[int, Optional[int], Optional[int]]]:
-    """Median-filter the home/away scores over a rolling window to absorb
-    OCR jitter (a single mis-read 0 vs 6 doesn't trip a goal event).
-    Returns [(t, home_med, away_med), ...].
+                     window: int = 5,
+                     min_consecutive: int = 3) -> list[tuple[int, Optional[int], Optional[int]]]:
+    """Three-pass cleaning:
 
-    Two passes:
-      Pass 1 — median over the rolling window (handles OCR noise within
-               a tight time slice).
-      Pass 2 — forward-fill nulls with the last-known value. Important
-               because EasyOCR has frame-level dropouts (e.g., overlay
-               temporarily occluded by graphics) that would otherwise
-               break our delta detection.
+    Pass 1 — Rolling-window MEDIAN over `window` samples (per side).
+             Absorbs single-frame OCR misreads like 0→7→0.
+
+    Pass 2 — MONOTONIC NON-DECREASING constraint per side. Scores can
+             only go up. If the median series tries to dip (e.g. from a
+             stale OCR misread), keep the previous value. Crucial
+             because the broadcast overlay can flicker between display
+             modes and OCR can pick up stale or unrelated digits.
+
+    Pass 3 — Forward-fill nulls so the score is defined at every
+             timestamp once the first valid reading lands. Lets
+             score-change detection see continuous values.
+
+    A new score value is also required to appear in `min_consecutive`
+    samples within a 10-sample neighborhood to be accepted — prevents
+    a single-frame OCR spike (like "2" → "5") from triggering a fake
+    +3-goal cascade.
     """
     out = []
     n = len(snapshots)
     half = window // 2
-    for i, s in enumerate(snapshots):
+
+    # Pass 1: rolling median. Require >= MIN_QUORUM non-null values in
+    # the window for the median to be considered meaningful. Otherwise
+    # a single-frame OCR misread in a sparse neighborhood becomes the
+    # "median" (median of [15] = 15 even though 15 is OCR noise).
+    MIN_QUORUM = 3
+    medians = []
+    for i in range(n):
         lo, hi = max(0, i - half), min(n, i + half + 1)
         homes = sorted([x.home_score for x in snapshots[lo:hi]
                          if x.home_score is not None])
         aways = sorted([x.away_score for x in snapshots[lo:hi]
                          if x.away_score is not None])
-        h_med = homes[len(homes)//2] if homes else None
-        a_med = aways[len(aways)//2] if aways else None
-        out.append((s.t_sec, h_med, a_med))
+        h_med = homes[len(homes)//2] if len(homes) >= MIN_QUORUM else None
+        a_med = aways[len(aways)//2] if len(aways) >= MIN_QUORUM else None
+        medians.append((snapshots[i].t_sec, h_med, a_med))
 
-    # Forward-fill nulls per side independently
-    filled = []
-    last_h = last_a = None
-    for (t, h, a) in out:
-        if h is not None: last_h = h
-        if a is not None: last_a = a
-        filled.append((t, last_h, last_a))
-    return filled
+    # Pass 2: monotonic non-decreasing, accept jumps up to MAX_STEP
+    # provided they have sustained support. Larger jumps are rejected
+    # as OCR noise.
+    #
+    # Why allow >+1: OCR has dropouts so we might miss a stretch where
+    # the score went from 1 → 2 (never seeing "1"). When score then
+    # appears as 2 with sustained support, we accept the jump and
+    # emit goal events for each integer in between in detect_score_changes.
+    #
+    # Goals don't realistically come >3 apart in close succession in
+    # the same OCR window, so MAX_STEP=4 catches almost all real cases
+    # while rejecting 0→15 style misreads.
+    LOOKAHEAD = 15
+    MAX_STEP = 4
+    def _monotonic_with_support(series: list[tuple[int, Optional[int], Optional[int]]],
+                                  side: str) -> list[Optional[int]]:
+        accepted: list[Optional[int]] = []
+        cur: Optional[int] = None
+        for i, row in enumerate(series):
+            v = row[1] if side == "home" else row[2]
+            if v is None:
+                accepted.append(cur); continue
+            if cur is None:
+                # First valid reading. Be conservative: require sustained
+                # support (multiple consistent readings) before locking
+                # in the initial score — single-frame initial misreads
+                # are the largest source of error.
+                lookahead = [x[1] if side == "home" else x[2]
+                              for x in series[i:i+LOOKAHEAD]]
+                support = sum(1 for x in lookahead if x == v)
+                if support >= min_consecutive:
+                    cur = v
+                accepted.append(cur); continue
+            if v == cur:
+                accepted.append(cur); continue
+            if v < cur:
+                # Score went DOWN — impossible, ignore
+                accepted.append(cur); continue
+            if v - cur > MAX_STEP:
+                # Jump too large — almost certainly OCR misread (e.g.
+                # 2 → 15 because Tesseract read shots-on-goal as score).
+                accepted.append(cur); continue
+            # v in (cur, cur+MAX_STEP]: candidate forward jump. Require
+            # sustained support to commit.
+            lookahead = [x[1] if side == "home" else x[2]
+                          for x in series[i:i+LOOKAHEAD]]
+            support = sum(1 for x in lookahead if x == v)
+            if support >= min_consecutive:
+                cur = v
+            accepted.append(cur)
+        return accepted
+
+    home_filt = _monotonic_with_support(medians, "home")
+    away_filt = _monotonic_with_support(medians, "away")
+    return [(medians[i][0], home_filt[i], away_filt[i]) for i in range(n)]
 
 
 @dataclass
