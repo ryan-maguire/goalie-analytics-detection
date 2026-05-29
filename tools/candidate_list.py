@@ -89,7 +89,7 @@ def generate_candidates(
     for rank, (t, conf) in enumerate(peaks, start=1):
         rows.append({
             "rank":       rank,
-            "t_seconds":  int(t),
+            "t_seconds":  round(float(t), 1),
             "t_mmss":     fmt_mmss(t),
             "confidence": round(float(conf), 4),
         })

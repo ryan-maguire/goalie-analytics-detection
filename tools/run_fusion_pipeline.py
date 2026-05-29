@@ -159,8 +159,11 @@ def main():
         print(f"  no candidates above threshold — exiting", file=sys.stderr)
         return 0
 
-    # 2. Expand peaks into windows + merge overlaps
-    peak_secs = [r["t_seconds"] for r in rows]
+    # 2. Expand peaks into windows + merge overlaps. t_seconds may be a
+    # float (e.g. 12.7s) — round to the nearest int rather than letting
+    # downstream int() truncate so a 12.7s peak gives a window centred
+    # on 13s, not 12s.
+    peak_secs = [round(float(r["t_seconds"])) for r in rows]
     # Determine video duration from the probs TSV (max t)
     probs_tsv = args.yolo_probs_dir / f"{args.vID}.tsv"
     max_t = 7200       # 2-hour default cap

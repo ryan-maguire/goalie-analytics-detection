@@ -190,6 +190,49 @@ def find_eval_txt(eval_dir: Path, vid: str) -> Optional[Path]:
     return max(matching, key=lambda p: p.stat().st_mtime)
 
 
+def _bootstrap_ci(samples: list[float], *, n_bootstrap: int = 2000,
+                   alpha: float = 0.05, seed: int = 42) -> tuple[float, float]:
+    """Return (low, high) for the (1-alpha)*100% percentile bootstrap CI
+    on the mean of `samples`. Empty input → (0, 0)."""
+    if not samples:
+        return (0.0, 0.0)
+    import random
+    rng = random.Random(seed)
+    n = len(samples)
+    means = []
+    for _ in range(n_bootstrap):
+        resample = [samples[rng.randrange(n)] for _ in range(n)]
+        means.append(sum(resample) / n)
+    means.sort()
+    lo_idx = int(alpha / 2 * n_bootstrap)
+    hi_idx = int((1 - alpha / 2) * n_bootstrap) - 1
+    return (means[lo_idx], means[hi_idx])
+
+
+def _paired_delta_ci(samples_a: list[float], samples_b: list[float], *,
+                       n_bootstrap: int = 2000, alpha: float = 0.05,
+                       seed: int = 42) -> tuple[float, float, float]:
+    """Bootstrap on paired diffs (b - a). Returns (mean_delta, ci_lo, ci_hi).
+    Resamples PAIRED indices to preserve within-vID correlation —
+    important because some games are systematically harder than others."""
+    if not samples_a or len(samples_a) != len(samples_b):
+        return (0.0, 0.0, 0.0)
+    import random
+    rng = random.Random(seed)
+    n = len(samples_a)
+    diffs = [b - a for a, b in zip(samples_a, samples_b)]
+    mean_d = sum(diffs) / n
+    delta_means = []
+    for _ in range(n_bootstrap):
+        idx = [rng.randrange(n) for _ in range(n)]
+        d = [diffs[i] for i in idx]
+        delta_means.append(sum(d) / n)
+    delta_means.sort()
+    lo_idx = int(alpha / 2 * n_bootstrap)
+    hi_idx = int((1 - alpha / 2) * n_bootstrap) - 1
+    return (mean_d, delta_means[lo_idx], delta_means[hi_idx])
+
+
 def report(results: dict) -> str:
     """results = {vid: {variant: parsed_eval_dict}}"""
     lines = ["# fusion-wide validation report",
@@ -238,8 +281,14 @@ def report(results: dict) -> str:
             lines.append(f"| {label} | {sa} | {sb} | {sd} |")
 
     # Aggregate
-    lines += ["", "## Aggregate (mean across vIDs that have both runs)", ""]
-    lines += ["| metric | v13 (mean) | fusion_wide (mean) | Δ |",
+    lines += ["", "## Aggregate (mean across vIDs that have both runs)", "",
+               "Means are reported with 95% percentile bootstrap CIs "
+               "(2000 resamples). Δ is the **paired** bootstrap on per-vID "
+               "differences — so it preserves within-vID correlation that "
+               "an unpaired bootstrap would dilute. A Δ CI that crosses "
+               "zero means the result is consistent with noise.",
+               ""]
+    lines += ["| metric | v13 (mean [95% CI]) | fusion_wide (mean [95% CI]) | Δ (paired [95% CI]) |",
                "|---|---|---|---|"]
     for label, key in [
         ("Goal F1",           "goal_f1"),
@@ -260,15 +309,24 @@ def report(results: dict) -> str:
         if not v13s:
             lines.append(f"| {label} | — | — | — |"); continue
         m13 = sum(v13s) / len(v13s); mfw = sum(fws) / len(fws)
-        d = mfw - m13
-        sign = "+" if d >= 0 else ""
+        ci13_lo, ci13_hi = _bootstrap_ci(v13s)
+        cifw_lo, cifw_hi = _bootstrap_ci(fws)
+        mean_d, dlo, dhi = _paired_delta_ci(v13s, fws)
         better = "lower" if key == "shot_mae" else "higher"
-        arrow = ""
+        # CI crosses zero → not significant
         if better == "higher":
-            arrow = " ✅" if d > 0.01 else " ❌" if d < -0.01 else ""
+            sig = " ✅" if dlo > 0 else " ❌" if dhi < 0 else " ~"
         else:
-            arrow = " ✅" if d < -0.01 else " ❌" if d > 0.01 else ""
-        lines.append(f"| {label} | {m13:.3f} | {mfw:.3f} | {sign}{d:.3f}{arrow} |")
+            sig = " ✅" if dhi < 0 else " ❌" if dlo > 0 else " ~"
+        sign = "+" if mean_d >= 0 else ""
+        lines.append(
+            f"| {label} | {m13:.3f} [{ci13_lo:.3f}, {ci13_hi:.3f}] "
+            f"| {mfw:.3f} [{cifw_lo:.3f}, {cifw_hi:.3f}] "
+            f"| {sign}{mean_d:.3f} [{dlo:+.3f}, {dhi:+.3f}]{sig} |")
+    lines += ["",
+               "Legend: ✅ = CI excludes zero in the favorable direction. "
+               "❌ = CI excludes zero in the unfavorable direction. "
+               "`~` = CI crosses zero (no signal above noise on this sample size)."]
 
     lines += ["", "## Headline",
                "",

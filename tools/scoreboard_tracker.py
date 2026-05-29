@@ -445,10 +445,23 @@ def main():
     ap.add_argument("--target-fps", type=float, default=1.0)
     ap.add_argument("--crop-bottom", type=float, default=0.15,
                      help="Fraction of frame height (from bottom) to OCR. 0.15 = bottom 15%%.")
+    ap.add_argument("--min-consecutive", type=int, default=2,
+                    help="Sustained-support count for accepting a score "
+                         "value (out of LOOKAHEAD=15 samples). Default was "
+                         "3 — empirically too strict on broadcast overlays "
+                         "with brief flickers (validated F1=0.571 / R=0.40 "
+                         "on dwGs+v0lxS). Default lowered to 2 on 2026-05-29.")
     ap.add_argument("--smooth-window", type=int, default=5,
                      help="Median filter window in seconds.")
-    ap.add_argument("--lookback-pre",  type=int, default=60)
-    ap.add_argument("--lookback-post", type=int, default=20)
+    ap.add_argument("--lookback-pre",  type=int, default=180,
+                    help="Backward search horizon: goal moment expected "
+                         "between [t-pre, t-post] of the OCR score-change. "
+                         "Default 180s matches the empirically validated "
+                         "config on dwGs/v0lxS (F1=0.571 at mc=3, 0.667 at "
+                         "mc=2 on dwGs). The previous 60s default was "
+                         "aspirational, not measured.")
+    ap.add_argument("--lookback-post", type=int, default=5,
+                    help="See --lookback-pre. Default 5s matches validated config.")
     ap.add_argument("--out-dir", type=Path, default=None,
                      help="Default: data/output/scoreboard/<vID>/")
     args = ap.parse_args()
@@ -481,7 +494,8 @@ def main():
     print(f"  wrote {ts_path}  ({len(snapshots)} samples)", file=sys.stderr)
 
     # Smooth + detect events
-    smoothed = smoothed_scores(snapshots, window=args.smooth_window)
+    smoothed = smoothed_scores(snapshots, window=args.smooth_window,
+                                  min_consecutive=args.min_consecutive)
     events   = detect_score_changes(smoothed,
                                       lookback_pre=args.lookback_pre,
                                       lookback_post=args.lookback_post)

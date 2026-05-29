@@ -105,7 +105,10 @@ def peak_in_window(
     window_start: int,
     window_end: int,
 ) -> float:
-    """Max prob within [window_start, window_end) in seconds."""
+    """Max prob within the CLOSED interval [window_start, window_end] in
+    seconds (both endpoints inclusive). The `+ 1` on `hi` is intentional
+    — `probs[lo:hi]` is half-open in NumPy, so `hi = end + 1` makes the
+    actual range covered include the `end` second."""
     if probs.probs.size == 0:
         return 1.0   # no probs available → treat as "definitely keep"
     lo = max(0, int(window_start))
