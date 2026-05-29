@@ -42,7 +42,7 @@ REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
 VIDEOS_DIR = REPO / "data" / "videos"
-DEFAULT_MODEL    = "gemini-2.5-flash"
+DEFAULT_MODEL    = "gemini-3.5-flash"
 DEFAULT_LOCATION = "us-central1"
 DEFAULT_PROJECT  = "goalie-analytics-pro-dev"
 

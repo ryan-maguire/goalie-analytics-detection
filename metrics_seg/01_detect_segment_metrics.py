@@ -124,7 +124,7 @@ Usage:
     # Limit parallel workers (default: 2)
     python3 01_detect_segment_metrics.py --vID U7NUbWad0A8 --customID CUST000048 --workers 3
 
-Model: gemini-2.5-pro
+Model: gemini-3.1-pro-preview
 """
 
 import argparse
@@ -215,7 +215,7 @@ def _v14_load_probs_for_vid(vid: str):
 # Configuration
 # ---------------------------------------------------------------------------
 
-GEMINI_MODEL   = "gemini-2.5-pro"
+GEMINI_MODEL   = "gemini-3.1-pro-preview"
 # NOTE: Must match GEMINI_MODEL in 01_detect_goalie_segments.py — update both together.
 # Overridable at runtime via the --model CLI flag (see parse_args()).
 # The cache layer (v14) keys on model_name, so switching models naturally
@@ -2155,7 +2155,7 @@ def parse_args():
                         help=f"Override the Gemini model used for metrics "
                              f"extraction. Default: {GEMINI_MODEL}. Useful "
                              f"for A/B testing cheaper Flash variants "
-                             f"(e.g. gemini-2.5-flash, gemini-3.5-flash). "
+                             f"(e.g. gemini-3.5-flash, gemini-2.5-flash). "
                              f"The v14 cache (when enabled) keys on the "
                              f"model name, so switching models cleanly "
                              f"invalidates cached responses.")

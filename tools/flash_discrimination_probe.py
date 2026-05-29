@@ -79,7 +79,7 @@ SHOT_PROBE_SCHEMA = {
     "required": ["shot_attempt"],
 }
 
-DEFAULT_MODEL    = "gemini-2.5-flash"
+DEFAULT_MODEL    = "gemini-3.5-flash"
 DEFAULT_LOCATION = "us-central1"
 DEFAULT_PROJECT  = "goalie-analytics-pro-dev"
 DEFAULT_CHUNK_S  = 25
