@@ -1,0 +1,266 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,2,14,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,1
+2,8,20,12,52.53,4.56,,Chicago Mission 19U AAA,OZ play,1
+3,8,20,12,52.53,4.56,,Chicago Mission 19U AAA,Shots,1
+4,13,25,12,54.54,1.9,,Chicago Mission 19U AAA,OZ play,1
+5,13,25,12,54.54,1.9,,Chicago Mission 19U AAA,Shots,1
+6,40,52,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,1
+7,48,60,12,53.26,12.91,,Chicago Mission 19U AAA,OZ play,1
+8,48,60,12,53.26,12.91,,Chicago Mission 19U AAA,Shots,1
+9,86,98,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,1
+10,111,123,12,44.83,19.08,,Chicago Mission 19U AAA,OZ play,1
+11,111,123,12,44.83,19.08,,Chicago Mission 19U AAA,Shots,1
+12,140,152,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,1
+13,152,164,12,59.13,9.78,,Chicago Mission 19U AAA,OZ play,1
+14,152,164,12,59.13,9.78,,Chicago Mission 19U AAA,Shots,1
+15,154,166,12,45.38,9.78,,Chicago Mission 19U AAA,OZ play,1
+16,154,166,12,45.38,9.78,,Chicago Mission 19U AAA,Shots,1
+17,246,258,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,1
+18,274,286,12,43.36,5.6,,Chicago Mission 19U AAA,OZ play,1
+19,274,286,12,43.36,5.6,,Chicago Mission 19U AAA,Shots,1
+20,313,325,12,42.53,23.73,,Chicago Mission 19U AAA,OZ play,1
+21,313,325,12,42.53,23.73,,Chicago Mission 19U AAA,Shots,1
+22,332,344,12,45.19,21.35,,Chicago Mission 19U AAA,OZ play,1
+23,332,344,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+24,334,346,12,45.19,21.35,,Chicago Mission 19U AAA,OZ play,1
+25,334,346,12,45.19,21.35,,Chicago Mission 19U AAA,Shots,1
+26,422,434,12,55,18.41,,Culver Academy U19 Prep,OZ play,1
+27,422,434,12,55,18.41,,Culver Academy U19 Prep,Shots,1
+28,453,465,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+29,455,467,12,45.83,21.73,,Chicago Mission 19U AAA,OZ play,1
+30,455,467,12,45.83,21.73,,Chicago Mission 19U AAA,Shots,1
+31,469,481,12,49.23,5.22,,Chicago Mission 19U AAA,OZ play,1
+32,469,481,12,49.23,5.22,,Chicago Mission 19U AAA,Shots,1
+33,486,498,12,2,15,,Culver Academy U19 Prep,OZ play,1
+34,496,508,12,49.78,12.15,,Culver Academy U19 Prep,OZ play,1
+35,496,508,12,49.78,12.15,,Culver Academy U19 Prep,Shots,1
+36,499,511,12,54.36,11.86,,Culver Academy U19 Prep,Goals,1
+37,499,511,12,54.36,11.86,,Culver Academy U19 Prep,OZ play,1
+38,499,511,12,54.36,11.86,,Culver Academy U19 Prep,Shots,1
+39,603,615,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,1
+40,605,617,12,40.7,13.38,,Culver Academy U19 Prep,OZ play,1
+41,605,617,12,40.7,13.38,,Culver Academy U19 Prep,Shots,1
+42,610,622,12,42.99,24.3,,Culver Academy U19 Prep,OZ play,1
+43,610,622,12,42.99,24.3,,Culver Academy U19 Prep,Shots,1
+44,641,653,12,47.12,12.43,,Culver Academy U19 Prep,Goals,1
+45,641,653,12,47.12,12.43,,Culver Academy U19 Prep,OZ play,1
+46,641,653,12,47.12,12.43,,Culver Academy U19 Prep,Shots,1
+47,675,687,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,1
+48,693,705,12,40.52,7.88,,Chicago Mission 19U AAA,OZ play,1
+49,693,705,12,40.52,7.88,,Chicago Mission 19U AAA,Shots,1
+50,720,732,12,2,15,,Chicago Mission 19U AAA,OZ play,1
+51,779,791,12,41.62,12.91,,Chicago Mission 19U AAA,OZ play,1
+52,779,791,12,41.62,12.91,,Chicago Mission 19U AAA,Shots,1
+53,799,811,12,48.22,20.41,,Chicago Mission 19U AAA,OZ play,1
+54,799,811,12,48.22,20.41,,Chicago Mission 19U AAA,Shots,1
+55,806,818,12,42.26,6.55,,Chicago Mission 19U AAA,OZ play,1
+56,806,818,12,42.26,6.55,,Chicago Mission 19U AAA,Shots,1
+57,838,850,12,40.7,22.4,,Culver Academy U19 Prep,OZ play,1
+58,838,850,12,40.7,22.4,,Culver Academy U19 Prep,Shots,1
+59,916,928,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,1
+60,916,928,12,45.65,11.1,,Chicago Mission 19U AAA,OZ play,1
+61,933,945,12,45.65,11.1,,Chicago Mission 19U AAA,OZ play,1
+62,933,945,12,45.65,11.1,,Chicago Mission 19U AAA,Shots,1
+63,968,980,12,48.22,7.02,,Culver Academy U19 Prep,OZ play,1
+64,968,980,12,48.22,7.02,,Culver Academy U19 Prep,Shots,1
+65,1000,1012,12,50.05,4.75,,Culver Academy U19 Prep,OZ play,1
+66,1000,1012,12,50.05,4.75,,Culver Academy U19 Prep,Shots,1
+67,1027,1039,12,40.15,21.16,,Culver Academy U19 Prep,OZ play,1
+68,1027,1039,12,40.15,21.16,,Culver Academy U19 Prep,Shots,1
+69,1038,1050,12,42.72,12.34,,Chicago Mission 19U AAA,OZ play,1
+70,1038,1050,12,42.72,12.34,,Chicago Mission 19U AAA,Shots,1
+71,1071,1083,12,49.87,6.74,,Chicago Mission 19U AAA,OZ play,1
+72,1071,1083,12,49.87,6.74,,Chicago Mission 19U AAA,Shots,1
+73,1084,1096,12,48.68,17.46,,Culver Academy U19 Prep,OZ play,1
+74,1084,1096,12,48.68,17.46,,Culver Academy U19 Prep,Shots,1
+75,1169,1181,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,1
+76,1179,1191,12,32.18,1.52,,Chicago Mission 19U AAA,OZ play,1
+77,1198,1210,12,52.62,6.07,,Chicago Mission 19U AAA,OZ play,1
+78,1198,1210,12,52.62,6.07,,Chicago Mission 19U AAA,Shots,1
+79,1224,1236,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,1
+80,1225,1237,12,48.77,8.54,,Chicago Mission 19U AAA,OZ play,1
+81,1225,1237,12,48.77,8.54,,Chicago Mission 19U AAA,Shots,1
+82,1243,1255,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,1
+83,1266,1278,12,46.02,13.19,,Chicago Mission 19U AAA,OZ play,1
+84,1266,1278,12,46.02,13.19,,Chicago Mission 19U AAA,Shots,1
+85,1291,1303,12,47.3,8.92,,Chicago Mission 19U AAA,OZ play,1
+86,1291,1303,12,47.3,8.92,,Chicago Mission 19U AAA,Shots,1
+87,1310,1322,12,46.11,1.52,,Chicago Mission 19U AAA,OZ play,1
+88,1310,1322,12,46.11,1.52,,Chicago Mission 19U AAA,Shots,1
+89,1321,1333,12,54.63,8.16,,Chicago Mission 19U AAA,OZ play,1
+90,1321,1333,12,54.63,8.16,,Chicago Mission 19U AAA,Shots,1
+91,1345,1357,12,51.06,13.86,,Chicago Mission 19U AAA,OZ play,1
+92,1345,1357,12,51.06,13.86,,Chicago Mission 19U AAA,Shots,1
+93,1457,1469,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,2
+94,1459,1471,12,43.27,21.83,,Culver Academy U19 Prep,OZ play,2
+95,1459,1471,12,43.27,21.83,,Culver Academy U19 Prep,Shots,2
+96,1550,1562,12,48.49,7.69,,Culver Academy U19 Prep,OZ play,2
+97,1550,1562,12,48.49,7.69,,Culver Academy U19 Prep,Shots,2
+98,1600,1612,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,2
+99,1604,1616,12,41.89,17.94,,Chicago Mission 19U AAA,OZ play,2
+100,1604,1616,12,41.89,17.94,,Chicago Mission 19U AAA,Shots,2
+101,1613,1625,12,44.37,21.54,,Chicago Mission 19U AAA,OZ play,2
+102,1613,1625,12,44.37,21.54,,Chicago Mission 19U AAA,Shots,2
+103,1631,1643,12,53.35,13.38,,Chicago Mission 19U AAA,OZ play,2
+104,1631,1643,12,53.35,13.38,,Chicago Mission 19U AAA,Shots,2
+105,1663,1675,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,2
+106,1664,1676,12,49.13,14.52,,Chicago Mission 19U AAA,OZ play,2
+107,1664,1676,12,49.13,14.52,,Chicago Mission 19U AAA,Shots,2
+108,1714,1726,12,52.89,8.54,,Chicago Mission 19U AAA,Goals,2
+109,1714,1726,12,52.89,8.54,,Chicago Mission 19U AAA,OZ play,2
+110,1714,1726,12,52.89,8.54,,Chicago Mission 19U AAA,Shots,2
+111,1750,1762,12,30.48,12.96,,Culver Academy U19 Prep,OZ play,2
+112,1806,1818,12,43.08,4.18,,Culver Academy U19 Prep,OZ play,2
+113,1806,1818,12,43.08,4.18,,Culver Academy U19 Prep,Shots,2
+114,1833,1845,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,2
+115,1834,1846,12,53.08,12.43,,Culver Academy U19 Prep,OZ play,2
+116,1834,1846,12,53.08,12.43,,Culver Academy U19 Prep,Shots,2
+117,1855,1867,12,40.06,8.45,,Culver Academy U19 Prep,OZ play,2
+118,1855,1867,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,2
+119,1857,1869,12,40.06,8.45,,Culver Academy U19 Prep,OZ play,2
+120,1857,1869,12,40.06,8.45,,Culver Academy U19 Prep,Shots,2
+121,1865,1877,12,53.26,20.88,,Chicago Mission 19U AAA,OZ play,2
+122,1865,1877,12,53.26,20.88,,Chicago Mission 19U AAA,Shots,2
+123,1900,1912,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,2
+124,1915,1927,12,52.34,7.88,,Chicago Mission 19U AAA,OZ play,2
+125,1915,1927,12,52.34,7.88,,Chicago Mission 19U AAA,Shots,2
+126,1966,1978,12,53.72,12.24,,Chicago Mission 19U AAA,OZ play,2
+127,1966,1978,12,53.72,12.24,,Chicago Mission 19U AAA,Shots,2
+128,1996,2008,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,2
+129,2005,2017,12,41.07,3.89,,Chicago Mission 19U AAA,OZ play,2
+130,2005,2017,12,41.07,3.89,,Chicago Mission 19U AAA,Shots,2
+131,2036,2048,12,49.13,13.48,,Chicago Mission 19U AAA,OZ play,2
+132,2036,2048,12,49.13,13.48,,Chicago Mission 19U AAA,Shots,2
+133,2048,2060,12,2,15,,Chicago Mission 19U AAA,OZ play,2
+134,2056,2068,12,48.03,6.26,,Chicago Mission 19U AAA,OZ play,2
+135,2056,2068,12,48.03,6.26,,Chicago Mission 19U AAA,Shots,2
+136,2332,2344,12,9.45,6.25,,Culver Academy U19 Prep,OZ play,2
+137,2348,2360,12,10.18,18.89,,Culver Academy U19 Prep,OZ play,2
+138,2398,2410,12,9.45,19.67,,Culver Academy U19 Prep,OZ play,2
+139,2449,2461,12,40.15,13.29,,Culver Academy U19 Prep,OZ play,2
+140,2449,2461,12,40.15,13.29,,Culver Academy U19 Prep,Shots,2
+141,2475,2487,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,2
+142,2507,2519,12,52.53,10.25,,Culver Academy U19 Prep,OZ play,2
+143,2507,2519,12,52.53,10.25,,Culver Academy U19 Prep,Shots,2
+144,2535,2547,12,49.68,13.76,,Culver Academy U19 Prep,OZ play,2
+145,2535,2547,12,49.68,13.76,,Culver Academy U19 Prep,Shots,2
+146,2568,2580,12,9.45,19.67,,Culver Academy U19 Prep,OZ play,2
+147,2658,2670,12,52.34,9.59,,Culver Academy U19 Prep,OZ play,2
+148,2658,2670,12,52.34,9.59,,Culver Academy U19 Prep,Shots,2
+149,2724,2736,12,36.58,6.25,,Chicago Mission 19U AAA,OZ play,2
+150,2724,2736,12,46.29,2.56,,Chicago Mission 19U AAA,OZ play,2
+151,2736,2748,12,46.29,2.56,,Chicago Mission 19U AAA,OZ play,2
+152,2736,2748,12,46.29,2.56,,Chicago Mission 19U AAA,Shots,2
+153,2815,2827,12,48.68,19.08,,Culver Academy U19 Prep,OZ play,2
+154,2815,2827,12,48.68,19.08,,Culver Academy U19 Prep,Shots,2
+155,2874,2886,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,2
+156,2883,2895,12,51.33,9.78,,Chicago Mission 19U AAA,OZ play,2
+157,2883,2895,12,51.33,9.78,,Chicago Mission 19U AAA,Shots,2
+158,2908,2920,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+159,2908,2920,12,43.73,1.42,,Chicago Mission 19U AAA,OZ play,3
+160,2912,2924,12,43.73,1.42,,Chicago Mission 19U AAA,OZ play,3
+161,2912,2924,12,43.73,1.42,,Chicago Mission 19U AAA,Shots,3
+162,2942,2954,12,45.93,3.89,,Culver Academy U19 Prep,OZ play,3
+163,2942,2954,12,45.93,3.89,,Culver Academy U19 Prep,Shots,3
+164,2967,2979,12,46.84,9.3,,Culver Academy U19 Prep,OZ play,3
+165,2967,2979,12,46.84,9.3,,Culver Academy U19 Prep,Shots,3
+166,2967,2979,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,3
+167,2978,2990,12,46.11,3.04,,Chicago Mission 19U AAA,OZ play,3
+168,2978,2990,12,46.11,3.04,,Chicago Mission 19U AAA,Shots,3
+169,2988,3000,12,42.44,3.13,,Chicago Mission 19U AAA,OZ play,3
+170,2988,3000,12,42.44,3.13,,Chicago Mission 19U AAA,Shots,3
+171,3007,3019,12,47.12,11.2,,Chicago Mission 19U AAA,OZ play,3
+172,3007,3019,12,47.12,11.2,,Chicago Mission 19U AAA,Shots,3
+173,3022,3034,12,49.78,21.26,,Chicago Mission 19U AAA,OZ play,3
+174,3022,3034,12,49.78,21.26,,Chicago Mission 19U AAA,Shots,3
+175,3047,3059,12,9.45,6.25,,Culver Academy U19 Prep,OZ play,3
+176,3047,3059,12,52.34,13.29,,Culver Academy U19 Prep,OZ play,3
+177,3056,3068,12,52.34,13.29,,Culver Academy U19 Prep,OZ play,3
+178,3056,3068,12,52.34,13.29,,Culver Academy U19 Prep,Shots,3
+179,3067,3079,12,43.91,11.29,,Chicago Mission 19U AAA,OZ play,3
+180,3067,3079,12,43.91,11.29,,Chicago Mission 19U AAA,Shots,3
+181,3120,3132,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,3
+182,3124,3136,12,50.97,13.48,,Chicago Mission 19U AAA,OZ play,3
+183,3124,3136,12,50.97,13.48,,Chicago Mission 19U AAA,Shots,3
+184,3175,3187,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,3
+185,3189,3201,12,19.43,24.68,,Chicago Mission 19U AAA,OZ play,3
+186,3226,3238,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,3
+187,3233,3245,12,47.76,21.73,,Chicago Mission 19U AAA,OZ play,3
+188,3233,3245,12,47.76,21.73,,Chicago Mission 19U AAA,Shots,3
+189,3254,3266,12,44.18,23.54,,Chicago Mission 19U AAA,OZ play,3
+190,3254,3266,12,44.18,23.54,,Chicago Mission 19U AAA,Shots,3
+191,3263,3275,12,46.02,17.94,,Chicago Mission 19U AAA,OZ play,3
+192,3263,3275,12,46.02,17.94,,Chicago Mission 19U AAA,Shots,3
+193,3268,3280,12,56.93,8.26,,Chicago Mission 19U AAA,Goals,3
+194,3268,3280,12,56.93,8.26,,Chicago Mission 19U AAA,OZ play,3
+195,3268,3280,12,56.93,8.26,,Chicago Mission 19U AAA,Shots,3
+196,3361,3373,12,42.35,16.23,,Chicago Mission 19U AAA,OZ play,3
+197,3361,3373,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,3
+198,3411,3423,12,42.35,16.23,,Chicago Mission 19U AAA,OZ play,3
+199,3411,3423,12,42.35,16.23,,Chicago Mission 19U AAA,Shots,3
+200,3435,3447,12,51.15,10.35,,Culver Academy U19 Prep,OZ play,3
+201,3435,3447,12,51.15,10.35,,Culver Academy U19 Prep,Shots,3
+202,3462,3474,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,3
+203,3545,3557,12,50.88,7.69,,Chicago Mission 19U AAA,OZ play,3
+204,3545,3557,12,50.88,7.69,,Chicago Mission 19U AAA,Shots,3
+205,3564,3576,12,43.73,6.07,,Chicago Mission 19U AAA,OZ play,3
+206,3564,3576,12,43.73,6.07,,Chicago Mission 19U AAA,Shots,3
+207,3587,3599,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,3
+208,3587,3599,12,47.03,23.06,,Chicago Mission 19U AAA,OZ play,3
+209,3605,3617,12,47.03,23.06,,Chicago Mission 19U AAA,OZ play,3
+210,3605,3617,12,47.03,23.06,,Chicago Mission 19U AAA,Shots,3
+211,3645,3657,12,50.69,17.08,,Culver Academy U19 Prep,OZ play,3
+212,3645,3657,12,50.69,17.08,,Culver Academy U19 Prep,Shots,3
+213,3673,3685,12,49.78,18.32,,Chicago Mission 19U AAA,OZ play,3
+214,3673,3685,12,49.78,18.32,,Chicago Mission 19U AAA,Shots,3
+215,3703,3715,12,47.58,21.73,,Chicago Mission 19U AAA,OZ play,3
+216,3703,3715,12,47.58,21.73,,Chicago Mission 19U AAA,Shots,3
+217,3781,3793,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,3
+218,3781,3793,12,52.25,20.88,,Culver Academy U19 Prep,OZ play,3
+219,3784,3796,12,52.25,20.88,,Culver Academy U19 Prep,OZ play,3
+220,3784,3796,12,52.25,20.88,,Culver Academy U19 Prep,Shots,3
+221,3807,3819,12,41.8,23.63,,Chicago Mission 19U AAA,OZ play,3
+222,3807,3819,12,41.8,23.63,,Chicago Mission 19U AAA,Shots,3
+223,3831,3843,12,18.33,7.31,,Culver Academy U19 Prep,OZ play,3
+224,3832,3844,12,42.53,1.61,,Culver Academy U19 Prep,OZ play,3
+225,3832,3844,12,42.53,1.61,,Culver Academy U19 Prep,Shots,3
+226,3960,3972,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,3
+227,3975,3987,12,43.18,1.52,,Culver Academy U19 Prep,OZ play,3
+228,3975,3987,12,43.18,1.52,,Culver Academy U19 Prep,Shots,3
+229,3993,4005,12,42.17,8.07,,Culver Academy U19 Prep,OZ play,3
+230,3993,4005,12,42.17,8.07,,Culver Academy U19 Prep,Shots,3
+231,4003,4015,12,46.75,24.39,,Culver Academy U19 Prep,OZ play,3
+232,4003,4015,12,46.75,24.39,,Culver Academy U19 Prep,Shots,3
+233,4038,4050,12,2,15,,Chicago Mission 19U AAA,OZ play,3
+234,4088,4100,12,52.16,13.19,,Chicago Mission 19U AAA,OZ play,3
+235,4088,4100,12,52.16,13.19,,Chicago Mission 19U AAA,Shots,3
+236,4092,4104,12,49.68,12.81,,Chicago Mission 19U AAA,OZ play,3
+237,4092,4104,12,49.68,12.81,,Chicago Mission 19U AAA,Shots,3
+238,4099,4111,12,55.18,5.6,,Chicago Mission 19U AAA,OZ play,3
+239,4099,4111,12,55.18,5.6,,Chicago Mission 19U AAA,Shots,3
+240,4144,4156,12,52.98,13.86,,Chicago Mission 19U AAA,OZ play,3
+241,4144,4156,12,52.98,13.86,,Chicago Mission 19U AAA,Shots,3
+242,4158,4170,12,50.23,12.62,,Chicago Mission 19U AAA,OZ play,3
+243,4158,4170,12,50.23,12.62,,Chicago Mission 19U AAA,Shots,3
+244,4165,4177,12,42.44,4.84,,Chicago Mission 19U AAA,OZ play,3
+245,4165,4177,12,42.44,4.84,,Chicago Mission 19U AAA,Shots,3
+246,4171,4183,12,49.41,17.94,,Chicago Mission 19U AAA,OZ play,3
+247,4171,4183,12,49.41,17.94,,Chicago Mission 19U AAA,Shots,3
+248,4177,4189,12,59.77,9.87,,Chicago Mission 19U AAA,OZ play,3
+249,4177,4189,12,59.77,9.87,,Chicago Mission 19U AAA,Shots,3
+250,4225,4237,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,3
+251,4262,4274,12,47.67,19.08,,Chicago Mission 19U AAA,OZ play,3
+252,4262,4274,12,47.67,19.08,,Chicago Mission 19U AAA,Shots,3
+253,4265,4277,12,50.14,20.31,,Chicago Mission 19U AAA,OZ play,3
+254,4265,4277,12,50.14,20.31,,Chicago Mission 19U AAA,Shots,3
+255,4290,4302,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,3
+256,4297,4309,12,39.6,5.22,,Chicago Mission 19U AAA,OZ play,3
+257,4297,4309,12,39.6,5.22,,Chicago Mission 19U AAA,Shots,3
+258,4342,4354,12,50.51,17.27,,Chicago Mission 19U AAA,OZ play,3
+259,4342,4354,12,50.51,17.27,,Chicago Mission 19U AAA,Shots,3
+260,4455,4467,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,3
+261,4469,4481,12,40.61,22.97,,Chicago Mission 19U AAA,OZ play,3
+262,4469,4481,12,40.61,22.97,,Chicago Mission 19U AAA,Shots,3
+263,4506,4518,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,3
+264,4510,4522,12,45.01,3.7,,Chicago Mission 19U AAA,OZ play,3
+265,4510,4522,12,45.01,3.7,,Chicago Mission 19U AAA,Shots,3

@@ -1,0 +1,212 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-2,10,12,30.48,12.96,,Madison Capitols 14U AAA,OZ play,1
+2,11,23,12,39.97,18.98,,Madison Capitols 14U AAA,OZ play,1
+3,11,23,12,39.97,18.98,,Madison Capitols 14U AAA,Shots,1
+4,30,42,12,51.51,19.67,,Madison Capitols 14U AAA,OZ play,1
+5,34,46,12,40.06,23.82,,Madison Capitols 14U AAA,OZ play,1
+6,34,46,12,40.06,23.82,,Madison Capitols 14U AAA,Shots,1
+7,89,101,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+8,137,149,12,50.33,5.22,,Chicago Mission 14U,OZ play,1
+9,137,149,12,50.33,5.22,,Chicago Mission 14U,Shots,1
+10,176,188,12,9.45,19.67,,Chicago Mission 14U,OZ play,1
+11,186,198,12,51.24,18.13,,Chicago Mission 14U,OZ play,1
+12,186,198,12,51.24,18.13,,Chicago Mission 14U,Shots,1
+13,187,199,12,51.15,18.03,,Chicago Mission 14U,OZ play,1
+14,187,199,12,51.15,18.03,,Chicago Mission 14U,Shots,1
+15,202,214,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+16,202,214,12,48.03,19.08,,Chicago Mission 14U,OZ play,1
+17,277,289,12,48.03,19.08,,Chicago Mission 14U,OZ play,1
+18,277,289,12,48.03,19.08,,Chicago Mission 14U,Shots,1
+19,304,316,12,39.88,2.75,,Madison Capitols 14U AAA,OZ play,1
+20,304,316,12,39.88,2.75,,Madison Capitols 14U AAA,Shots,1
+21,409,421,12,36.58,19.67,,Chicago Mission 14U,OZ play,1
+22,475,487,12,48.95,3.61,,Chicago Mission 14U,OZ play,1
+23,475,487,12,48.95,3.61,,Chicago Mission 14U,Shots,1
+24,481,493,12,47.3,16.99,,Chicago Mission 14U,OZ play,1
+25,481,493,12,47.3,16.99,,Chicago Mission 14U,Shots,1
+26,516,528,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+27,562,574,12,54.36,17.75,,Chicago Mission 14U,OZ play,1
+28,562,574,12,54.36,17.75,,Chicago Mission 14U,Shots,1
+29,585,597,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+30,589,601,12,52.25,16.23,,Chicago Mission 14U,OZ play,1
+31,589,601,12,52.25,16.23,,Chicago Mission 14U,Shots,1
+32,764,776,12,36.58,6.25,,Madison Capitols 14U AAA,OZ play,1
+33,780,792,12,40.52,16.61,,Madison Capitols 14U AAA,OZ play,1
+34,780,792,12,40.52,16.61,,Madison Capitols 14U AAA,Shots,1
+35,799,811,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+36,819,831,12,54.36,17.46,,Chicago Mission 14U,OZ play,1
+37,819,831,12,54.36,17.46,,Chicago Mission 14U,Shots,1
+38,844,856,12,48.58,15.19,,Chicago Mission 14U,OZ play,1
+39,844,856,12,48.58,15.19,,Chicago Mission 14U,Shots,1
+40,859,871,12,50.33,17.84,,Madison Capitols 14U AAA,OZ play,1
+41,859,871,12,50.33,17.84,,Madison Capitols 14U AAA,Shots,1
+42,878,890,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+43,901,913,12,46.02,18.41,,Chicago Mission 14U,OZ play,1
+44,901,913,12,46.02,18.41,,Chicago Mission 14U,Shots,1
+45,923,935,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+46,976,988,12,54.82,13,,Chicago Mission 14U,OZ play,1
+47,976,988,12,54.82,13,,Chicago Mission 14U,Shots,1
+48,999,1011,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+49,1001,1013,12,47.76,19.46,,Chicago Mission 14U,OZ play,1
+50,1001,1013,12,47.76,19.46,,Chicago Mission 14U,Shots,1
+51,1016,1028,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+52,1164,1176,12,46.38,21.83,,Chicago Mission 14U,OZ play,1
+53,1164,1176,12,46.38,21.83,,Chicago Mission 14U,Shots,1
+54,1204,1216,12,44.37,9.49,,Chicago Mission 14U,OZ play,1
+55,1204,1216,12,44.37,9.49,,Chicago Mission 14U,Shots,1
+56,1207,1219,12,52.43,14.71,,Chicago Mission 14U,OZ play,1
+57,1207,1219,12,52.43,14.71,,Chicago Mission 14U,Shots,1
+58,1247,1259,12,30.48,12.96,,Madison Capitols 14U AAA,OZ play,2
+59,1258,1270,12,27.04,0.66,,Madison Capitols 14U AAA,OZ play,2
+60,1292,1304,12,9.45,6.25,,Madison Capitols 14U AAA,OZ play,2
+61,1304,1316,12,51.61,8.35,,Madison Capitols 14U AAA,OZ play,2
+62,1304,1316,12,51.61,8.35,,Madison Capitols 14U AAA,Shots,2
+63,1306,1318,12,56.83,15.66,,Madison Capitols 14U AAA,OZ play,2
+64,1306,1318,12,56.83,15.66,,Madison Capitols 14U AAA,Shots,2
+65,1329,1341,12,9.45,6.25,,Chicago Mission 14U,OZ play,2
+66,1344,1356,12,48.58,24.2,,Chicago Mission 14U,OZ play,2
+67,1344,1356,12,48.58,24.2,,Chicago Mission 14U,Shots,2
+68,1374,1386,12,42.67,3.19,,Chicago Mission 14U,OZ play,2
+69,1374,1386,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+70,1376,1388,12,42.67,3.19,,Chicago Mission 14U,OZ play,2
+71,1376,1388,12,42.67,3.19,,Chicago Mission 14U,Shots,2
+72,1430,1442,12,53.53,6.55,,Madison Capitols 14U AAA,OZ play,2
+73,1430,1442,12,53.53,6.55,,Madison Capitols 14U AAA,Shots,2
+74,1449,1461,12,51.51,6.25,,Madison Capitols 14U AAA,OZ play,2
+75,1464,1476,12,56.56,10.35,,Madison Capitols 14U AAA,OZ play,2
+76,1464,1476,12,56.56,10.35,,Madison Capitols 14U AAA,Shots,2
+77,1608,1620,12,36.58,19.67,,Chicago Mission 14U,OZ play,2
+78,1631,1643,12,50.05,13.19,,Chicago Mission 14U,Goals,2
+79,1631,1643,12,50.05,13.19,,Chicago Mission 14U,OZ play,2
+80,1631,1643,12,50.05,13.19,,Chicago Mission 14U,Shots,2
+81,1664,1676,12,30.48,12.96,,Chicago Mission 14U,OZ play,2
+82,1701,1713,12,50.29,16.73,,Chicago Mission 14U,OZ play,2
+83,1701,1713,12,50.29,16.73,,Chicago Mission 14U,Shots,2
+84,1728,1740,12,51.51,19.67,,Madison Capitols 14U AAA,OZ play,2
+85,1770,1782,12,40.06,3.42,,Madison Capitols 14U AAA,OZ play,2
+86,1770,1782,12,40.06,3.42,,Madison Capitols 14U AAA,Shots,2
+87,1843,1855,12,9.45,6.25,,Madison Capitols 14U AAA,OZ play,2
+88,1868,1880,12,31.9,12.53,,Madison Capitols 14U AAA,OZ play,2
+89,1957,1969,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+90,1966,1978,12,27.68,1.14,,Chicago Mission 14U,OZ play,2
+91,2036,2048,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+92,2043,2055,12,41.16,5.88,,Chicago Mission 14U,OZ play,2
+93,2043,2055,12,41.16,5.88,,Chicago Mission 14U,Shots,2
+94,2075,2087,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+95,2112,2124,12,54.36,16.42,,Chicago Mission 14U,Goals,2
+96,2112,2124,12,54.36,16.42,,Chicago Mission 14U,OZ play,2
+97,2112,2124,12,54.36,16.42,,Chicago Mission 14U,Shots,2
+98,2139,2151,12,30.48,12.96,,Chicago Mission 14U,OZ play,2
+99,2164,2176,12,55.22,13.82,,Chicago Mission 14U,OZ play,2
+100,2164,2176,12,55.22,13.82,,Chicago Mission 14U,Shots,2
+101,2227,2239,12,9.45,6.25,,Chicago Mission 14U,OZ play,2
+102,2268,2280,12,52.34,8.64,,Chicago Mission 14U,OZ play,2
+103,2268,2280,12,52.34,8.64,,Chicago Mission 14U,Shots,2
+104,2274,2286,12,47.12,19.46,,Chicago Mission 14U,OZ play,2
+105,2274,2286,12,47.12,19.46,,Chicago Mission 14U,Shots,2
+106,2297,2309,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+107,2301,2313,12,42.86,24.13,,Chicago Mission 14U,OZ play,2
+108,2301,2313,12,42.86,24.13,,Chicago Mission 14U,Shots,2
+109,2327,2339,12,51.7,17.37,,Chicago Mission 14U,OZ play,2
+110,2327,2339,12,51.7,17.37,,Chicago Mission 14U,Shots,2
+111,2337,2349,12,55,16.32,,Chicago Mission 14U,OZ play,2
+112,2337,2349,12,55,16.32,,Chicago Mission 14U,Shots,2
+113,2385,2397,12,51.88,17.56,,Chicago Mission 14U,OZ play,2
+114,2385,2397,12,51.88,17.56,,Chicago Mission 14U,Shots,2
+115,2416,2428,12,46.29,2.75,,Madison Capitols 14U AAA,OZ play,2
+116,2416,2428,12,46.29,2.75,,Madison Capitols 14U AAA,Shots,2
+117,2464,2476,12,43.36,2.09,,Madison Capitols 14U AAA,OZ play,2
+118,2464,2476,12,43.36,2.09,,Madison Capitols 14U AAA,Shots,2
+119,2472,2484,12,56.83,14.9,,Chicago Mission 14U,OZ play,2
+120,2472,2484,12,56.83,14.9,,Chicago Mission 14U,Shots,2
+121,2501,2513,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+122,2505,2517,12,46.66,14.81,,Chicago Mission 14U,OZ play,2
+123,2505,2517,12,46.66,14.81,,Chicago Mission 14U,Shots,2
+124,2521,2533,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+125,2532,2544,12,49.32,3.42,,Chicago Mission 14U,OZ play,2
+126,2532,2544,12,49.32,3.42,,Chicago Mission 14U,Shots,2
+127,2549,2561,12,9.45,19.67,,Madison Capitols 14U AAA,OZ play,2
+128,2632,2644,12,45.56,1.8,,Madison Capitols 14U AAA,OZ play,2
+129,2632,2644,12,45.56,1.8,,Madison Capitols 14U AAA,Shots,2
+130,2642,2654,12,52.25,24.77,,Madison Capitols 14U AAA,OZ play,2
+131,2642,2654,12,52.25,24.77,,Madison Capitols 14U AAA,Shots,2
+132,2689,2701,12,53.99,14.62,,Chicago Mission 14U,OZ play,2
+133,2689,2701,12,53.99,14.62,,Chicago Mission 14U,Shots,2
+134,2711,2723,12,30.48,12.96,,Madison Capitols 14U AAA,OZ play,3
+135,2724,2736,12,41.53,23.35,,Madison Capitols 14U AAA,OZ play,3
+136,2724,2736,12,41.53,23.35,,Madison Capitols 14U AAA,Shots,3
+137,2726,2738,12,55.64,16.32,,Madison Capitols 14U AAA,OZ play,3
+138,2726,2738,12,55.64,16.32,,Madison Capitols 14U AAA,Shots,3
+139,2753,2765,12,39.51,23.73,,Madison Capitols 14U AAA,OZ play,3
+140,2753,2765,12,39.51,23.73,,Madison Capitols 14U AAA,Shots,3
+141,2763,2775,12,46.66,16.99,,Chicago Mission 14U,OZ play,3
+142,2763,2775,12,46.66,16.99,,Chicago Mission 14U,Shots,3
+143,2802,2814,12,9.45,6.25,,Chicago Mission 14U,OZ play,3
+144,2857,2869,12,2,15,,Chicago Mission 14U,OZ play,3
+145,2920,2932,12,2,15,,Chicago Mission 14U,OZ play,3
+146,2927,2939,12,42.81,4.84,,Chicago Mission 14U,OZ play,3
+147,2927,2939,12,42.81,4.84,,Chicago Mission 14U,Shots,3
+148,2948,2960,12,48.22,5.98,,Chicago Mission 14U,OZ play,3
+149,2948,2960,12,48.22,5.98,,Chicago Mission 14U,Shots,3
+150,2970,2982,12,44.46,23.63,,Madison Capitols 14U AAA,OZ play,3
+151,2970,2982,12,44.46,23.63,,Madison Capitols 14U AAA,Shots,3
+152,3016,3028,12,44,7.02,,Chicago Mission 14U,OZ play,3
+153,3016,3028,12,44,7.02,,Chicago Mission 14U,Shots,3
+154,3029,3041,12,44.73,11.01,,Chicago Mission 14U,OZ play,3
+155,3029,3041,12,44.73,11.01,,Chicago Mission 14U,Shots,3
+156,3053,3065,12,51.51,6.25,,Chicago Mission 14U,OZ play,3
+157,3055,3067,12,43.91,17.37,,Chicago Mission 14U,OZ play,3
+158,3055,3067,12,43.91,17.37,,Chicago Mission 14U,Shots,3
+159,3082,3094,12,44.09,8.16,,Chicago Mission 14U,OZ play,3
+160,3082,3094,12,44.09,8.16,,Chicago Mission 14U,Shots,3
+161,3114,3126,12,36.58,19.67,,Chicago Mission 14U,OZ play,3
+162,3147,3159,12,51.06,17.37,,Chicago Mission 14U,OZ play,3
+163,3147,3159,12,51.06,17.37,,Chicago Mission 14U,Shots,3
+164,3179,3191,12,24.38,6.25,,Madison Capitols 14U AAA,OZ play,3
+165,3193,3205,12,48.4,21.73,,Madison Capitols 14U AAA,OZ play,3
+166,3193,3205,12,48.4,21.73,,Madison Capitols 14U AAA,Shots,3
+167,3208,3220,12,9.45,6.25,,Madison Capitols 14U AAA,OZ play,3
+168,3208,3220,12,51.15,19.93,,Madison Capitols 14U AAA,OZ play,3
+169,3211,3223,12,51.15,19.93,,Madison Capitols 14U AAA,OZ play,3
+170,3211,3223,12,51.15,19.93,,Madison Capitols 14U AAA,Shots,3
+171,3227,3239,12,51.88,18.41,,Chicago Mission 14U,OZ play,3
+172,3227,3239,12,51.88,18.41,,Chicago Mission 14U,Shots,3
+173,3246,3258,12,9.45,6.25,,Chicago Mission 14U,OZ play,3
+174,3267,3279,12,54.29,9.62,,Chicago Mission 14U,OZ play,3
+175,3267,3279,12,54.29,9.62,,Chicago Mission 14U,Shots,3
+176,3287,3299,12,51.51,6.25,,Chicago Mission 14U,OZ play,3
+177,3288,3300,12,47.33,4.12,,Chicago Mission 14U,OZ play,3
+178,3288,3300,12,47.33,4.12,,Chicago Mission 14U,Shots,3
+179,3302,3314,12,51.33,3.89,,Chicago Mission 14U,OZ play,3
+180,3302,3314,12,51.33,3.89,,Chicago Mission 14U,Shots,3
+181,3425,3437,12,9.45,6.25,,Madison Capitols 14U AAA,OZ play,3
+182,3443,3455,12,51.98,6.17,,Madison Capitols 14U AAA,OZ play,3
+183,3443,3455,12,51.98,6.17,,Madison Capitols 14U AAA,Shots,3
+184,3461,3473,12,45.28,6.74,,Madison Capitols 14U AAA,OZ play,3
+185,3461,3473,12,45.28,6.74,,Madison Capitols 14U AAA,Shots,3
+186,3513,3525,12,41.8,1.99,,Madison Capitols 14U AAA,OZ play,3
+187,3513,3525,12,41.8,1.99,,Madison Capitols 14U AAA,Shots,3
+188,3540,3552,12,42.31,24.98,,Madison Capitols 14U AAA,OZ play,3
+189,3540,3552,12,51.51,6.25,,Madison Capitols 14U AAA,OZ play,3
+190,3569,3581,12,42.31,24.98,,Madison Capitols 14U AAA,OZ play,3
+191,3569,3581,12,42.31,24.98,,Madison Capitols 14U AAA,Shots,3
+192,3582,3594,12,55.73,17.27,,Chicago Mission 14U,OZ play,3
+193,3582,3594,12,55.73,17.27,,Chicago Mission 14U,Shots,3
+194,3594,3606,12,46.11,5.13,,Chicago Mission 14U,OZ play,3
+195,3594,3606,12,46.11,5.13,,Chicago Mission 14U,Shots,3
+196,3615,3627,12,51.51,6.25,,Chicago Mission 14U,OZ play,3
+197,3665,3677,12,50.88,6.17,,Chicago Mission 14U,OZ play,3
+198,3665,3677,12,50.88,6.17,,Chicago Mission 14U,Shots,3
+199,3724,3736,12,51.51,19.67,,Madison Capitols 14U AAA,OZ play,3
+200,3758,3770,12,50.14,10.35,,Madison Capitols 14U AAA,Goals,3
+201,3758,3770,12,50.14,10.35,,Madison Capitols 14U AAA,OZ play,3
+202,3758,3770,12,50.14,10.35,,Madison Capitols 14U AAA,Shots,3
+203,3815,3827,12,30.48,12.96,,Chicago Mission 14U,OZ play,3
+204,3847,3859,12,51.88,6.17,,Chicago Mission 14U,OZ play,3
+205,3847,3859,12,51.88,6.17,,Chicago Mission 14U,Shots,3
+206,3871,3883,12,9.45,19.67,,Chicago Mission 14U,OZ play,3
+207,3938,3950,12,31.53,17.37,,Chicago Mission 14U,OZ play,3
+208,3938,3950,12,31.53,17.37,,Chicago Mission 14U,Shots,3
+209,3942,3954,12,31.53,17.37,,Chicago Mission 14U,OZ play,3
+210,3945,3957,12,55.46,16.89,,Chicago Mission 14U,OZ play,3
+211,3945,3957,12,55.46,16.89,,Chicago Mission 14U,Shots,3

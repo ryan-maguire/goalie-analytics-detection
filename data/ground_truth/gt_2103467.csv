@@ -1,0 +1,228 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,7,19,12,30.48,12.96,,Florida Alliance 16U AAA,OZ play,1
+2,44,56,12,54.91,16.42,,Florida Alliance 16U AAA,OZ play,1
+3,44,56,12,54.91,16.42,,Florida Alliance 16U AAA,Shots,1
+4,98,110,12,24.38,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+5,103,115,12,51.06,20.22,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+6,103,115,12,51.06,20.22,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+7,109,121,12,45.01,9.11,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+8,109,121,12,45.01,9.11,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+9,133,145,12,9.45,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+10,202,214,12,53.53,15,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+11,202,214,12,53.53,15,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+12,209,221,12,41.25,12.15,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+13,209,221,12,41.25,12.15,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+14,216,228,12,39.78,18.41,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+15,216,228,12,39.78,18.41,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+16,238,250,12,45.93,24.01,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+17,238,250,12,45.93,24.01,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+18,269,281,12,56.83,10.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+19,269,281,12,56.83,10.25,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+20,292,304,12,51.51,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+21,309,321,12,55.37,10.53,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+22,309,321,12,55.37,10.53,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+23,352,364,12,43.45,14.71,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+24,352,364,12,43.45,14.71,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+25,421,433,12,44.83,12.53,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+26,421,433,12,44.83,12.53,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+27,458,470,12,55.64,17.08,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+28,458,470,12,55.64,17.08,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+29,484,496,12,36.58,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+30,505,517,12,53.81,13.76,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+31,505,517,12,53.81,13.76,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+32,645,657,12,53.81,13.86,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+33,645,657,12,53.81,13.86,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+34,687,699,12,47.94,3.42,,Florida Alliance 16U AAA,OZ play,1
+35,687,699,12,51.51,6.25,,Florida Alliance 16U AAA,OZ play,1
+36,689,701,12,47.94,3.42,,Florida Alliance 16U AAA,OZ play,1
+37,689,701,12,47.94,3.42,,Florida Alliance 16U AAA,Shots,1
+38,700,712,12,52.71,11.39,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+39,700,712,12,52.71,11.39,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+40,710,722,12,45.19,12.62,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+41,710,722,12,45.19,12.62,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+42,759,771,12,55.28,10.44,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+43,759,771,12,55.28,10.44,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+44,765,777,12,41.8,6.07,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+45,765,777,12,41.8,6.07,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+46,883,895,12,44.55,2.75,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+47,883,895,12,44.55,2.75,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+48,908,920,12,9.45,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+49,921,933,12,44.18,19.74,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+50,921,933,12,44.18,19.74,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+51,929,941,12,40.79,16.04,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+52,929,941,12,40.79,16.04,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+53,963,975,12,9.45,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+54,983,995,12,42.17,18.32,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+55,983,995,12,42.17,18.32,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+56,985,997,12,54.18,10.82,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+57,985,997,12,54.18,10.82,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+58,1027,1039,12,42.35,2.85,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+59,1027,1039,12,42.35,2.85,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+60,1055,1067,12,51.51,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+61,1084,1096,12,56.01,15.94,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+62,1084,1096,12,56.01,15.94,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+63,1086,1098,12,56.01,13.95,,Pittsburgh Penguins Elite 16U Girls,Goals,1
+64,1086,1098,12,56.01,13.95,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+65,1086,1098,12,56.01,13.95,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+66,1180,1192,12,36.58,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+67,1230,1242,12,58.94,4.94,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+68,1289,1301,12,9.45,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+69,1324,1336,12,47.76,24.3,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+70,1324,1336,12,47.76,24.3,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+71,1329,1341,12,53.44,6.45,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+72,1329,1341,12,53.44,6.45,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+73,1337,1349,12,56.65,19.27,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+74,1337,1349,12,56.65,19.27,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+75,1342,1354,12,54.91,13.38,,Florida Alliance 16U AAA,OZ play,2
+76,1385,1397,12,9.45,6.25,,Florida Alliance 16U AAA,OZ play,2
+77,1391,1403,12,44.73,1.8,,Florida Alliance 16U AAA,OZ play,2
+78,1391,1403,12,44.73,1.8,,Florida Alliance 16U AAA,Shots,2
+79,1404,1416,12,54.73,14.33,,Florida Alliance 16U AAA,OZ play,2
+80,1404,1416,12,54.73,14.33,,Florida Alliance 16U AAA,Shots,2
+81,1479,1491,12,9.45,6.25,,Florida Alliance 16U AAA,OZ play,2
+82,1479,1491,12,41.07,1.71,,Florida Alliance 16U AAA,OZ play,2
+83,1609,1621,12,41.07,1.71,,Florida Alliance 16U AAA,OZ play,2
+84,1609,1621,12,41.07,1.71,,Florida Alliance 16U AAA,Shots,2
+85,1618,1630,12,54.36,11.48,,Pittsburgh Penguins Elite 16U Girls,Goals,2
+86,1618,1630,12,54.36,11.48,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+87,1618,1630,12,54.36,11.48,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+88,1657,1669,12,30.48,12.96,,Florida Alliance 16U AAA,OZ play,2
+89,1673,1685,12,50.42,16.32,,Florida Alliance 16U AAA,OZ play,2
+90,1673,1685,12,50.42,16.32,,Florida Alliance 16U AAA,Shots,2
+91,1708,1720,12,44.55,2.18,,Florida Alliance 16U AAA,OZ play,2
+92,1708,1720,12,44.55,2.18,,Florida Alliance 16U AAA,Shots,2
+93,1763,1775,12,9.45,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+94,1775,1787,12,54.63,12.15,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+95,1775,1787,12,54.63,12.15,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+96,1824,1836,12,53.72,13.1,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+97,1824,1836,12,53.72,13.1,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+98,1853,1865,12,9.45,19.67,,Florida Alliance 16U AAA,OZ play,2
+99,1969,1981,12,48.58,11.2,,Florida Alliance 16U AAA,OZ play,2
+100,1969,1981,12,48.58,11.2,,Florida Alliance 16U AAA,Shots,2
+101,2008,2020,12,24.38,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+102,2016,2028,12,48.86,22.49,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+103,2016,2028,12,48.86,22.49,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+104,2019,2031,12,55.46,16.13,,Pittsburgh Penguins Elite 16U Girls,Goals,2
+105,2019,2031,12,55.46,16.13,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+106,2019,2031,12,55.46,16.13,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+107,2054,2066,12,30.48,12.96,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+108,2083,2095,12,55.18,11.96,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+109,2083,2095,12,55.18,11.96,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+110,2102,2114,12,39.97,3.13,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+111,2102,2114,12,39.97,3.13,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+112,2134,2146,12,56.1,10.53,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+113,2134,2146,12,56.1,10.53,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+114,2136,2148,12,55.18,13,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+115,2136,2148,12,55.18,13,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+116,2166,2178,12,9.45,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+117,2189,2201,12,54.18,10.16,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+118,2189,2201,12,54.18,10.16,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+119,2199,2211,12,40.88,18.41,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+120,2199,2211,12,40.88,18.41,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+121,2204,2216,12,50.88,8.92,,Florida Alliance 16U AAA,OZ play,2
+122,2204,2216,12,50.88,8.92,,Florida Alliance 16U AAA,Shots,2
+123,2222,2234,12,48.22,6.55,,Florida Alliance 16U AAA,OZ play,2
+124,2222,2234,12,48.22,6.55,,Florida Alliance 16U AAA,Shots,2
+125,2224,2236,12,53.9,9.02,,Florida Alliance 16U AAA,OZ play,2
+126,2224,2236,12,53.9,9.02,,Florida Alliance 16U AAA,Shots,2
+127,2272,2284,12,50.14,8.45,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+128,2272,2284,12,50.14,8.45,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+129,2295,2307,12,50.69,19.27,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+130,2295,2307,12,50.69,19.27,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+131,2317,2329,12,45.38,3.99,,Florida Alliance 16U AAA,OZ play,2
+132,2317,2329,12,45.38,3.99,,Florida Alliance 16U AAA,Shots,2
+133,2335,2347,12,49.96,16.42,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+134,2335,2347,12,49.96,16.42,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+135,2391,2403,12,24.38,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+136,2396,2408,12,55,11.77,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+137,2396,2408,12,55,11.77,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+138,2411,2423,12,30.48,12.96,,Florida Alliance 16U AAA,OZ play,3
+139,2427,2439,12,43.73,9.11,,Florida Alliance 16U AAA,OZ play,3
+140,2427,2439,12,43.73,9.11,,Florida Alliance 16U AAA,Shots,3
+141,2454,2466,12,51.51,6.25,,Florida Alliance 16U AAA,OZ play,3
+142,2455,2467,12,48.58,3.23,,Florida Alliance 16U AAA,OZ play,3
+143,2455,2467,12,48.58,3.23,,Florida Alliance 16U AAA,Shots,3
+144,2459,2471,12,45.93,24.2,,Florida Alliance 16U AAA,OZ play,3
+145,2459,2471,12,45.93,24.2,,Florida Alliance 16U AAA,Shots,3
+146,2525,2537,12,36.58,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+147,2550,2562,12,44.46,20.97,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+148,2550,2562,12,44.46,20.97,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+149,2564,2576,12,40.52,24.11,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+150,2564,2576,12,40.52,24.11,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+151,2573,2585,12,46.38,16.7,,Florida Alliance 16U AAA,OZ play,3
+152,2573,2585,12,46.38,16.7,,Florida Alliance 16U AAA,Shots,3
+153,2655,2667,12,48.68,11.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+154,2655,2667,12,48.68,11.67,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+155,2675,2687,12,43.08,17.18,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+156,2675,2687,12,43.08,17.18,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+157,2677,2689,12,53.81,13.1,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+158,2677,2689,12,53.81,13.1,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+159,2686,2698,12,46.66,14.14,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+160,2686,2698,12,46.66,14.14,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+161,2732,2744,12,9.45,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+162,2735,2747,12,41.07,2.18,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+163,2735,2747,12,41.07,2.18,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+164,2749,2761,12,51.51,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+165,2754,2766,12,50.42,13,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+166,2754,2766,12,50.42,13,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+167,2772,2784,12,51.51,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+168,2776,2788,12,52.71,9.78,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+169,2776,2788,12,52.71,9.78,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+170,2802,2814,12,36.58,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+171,2961,2973,12,40.33,21.83,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+172,2961,2973,12,40.33,21.83,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+173,2968,2980,12,55.55,14.52,,Pittsburgh Penguins Elite 16U Girls,Goals,3
+174,2968,2980,12,55.55,14.52,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+175,2968,2980,12,55.55,14.52,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+176,3004,3016,12,30.48,12.96,,Florida Alliance 16U AAA,OZ play,3
+177,3008,3020,12,45.74,12.81,,Florida Alliance 16U AAA,OZ play,3
+178,3008,3020,12,45.74,12.81,,Florida Alliance 16U AAA,Shots,3
+179,3035,3047,12,51.51,19.67,,Florida Alliance 16U AAA,OZ play,3
+180,3038,3050,12,41.34,24.49,,Florida Alliance 16U AAA,OZ play,3
+181,3038,3050,12,41.34,24.49,,Florida Alliance 16U AAA,Shots,3
+182,3042,3054,12,55,6.55,,Florida Alliance 16U AAA,OZ play,3
+183,3042,3054,12,55,6.55,,Florida Alliance 16U AAA,Shots,3
+184,3064,3076,12,43.54,20.6,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+185,3064,3076,12,43.54,20.6,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+186,3084,3096,12,39.88,24.11,,Florida Alliance 16U AAA,OZ play,3
+187,3084,3096,12,39.88,24.11,,Florida Alliance 16U AAA,Shots,3
+188,3217,3229,12,24.38,6.25,,Florida Alliance 16U AAA,OZ play,3
+189,3217,3229,12,56.47,17.84,,Florida Alliance 16U AAA,OZ play,3
+190,3240,3252,12,56.47,17.84,,Florida Alliance 16U AAA,OZ play,3
+191,3240,3252,12,56.47,17.84,,Florida Alliance 16U AAA,Shots,3
+192,3253,3265,12,49.32,11.58,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+193,3253,3265,12,49.32,11.58,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+194,3286,3298,12,52.07,20.12,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+195,3286,3298,12,52.07,20.12,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+196,3303,3315,12,41.53,11.86,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+197,3303,3315,12,41.53,11.86,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+198,3341,3353,12,51.51,19.67,,Florida Alliance 16U AAA,OZ play,3
+199,3341,3353,12,51.52,22.68,,Florida Alliance 16U AAA,OZ play,3
+200,3345,3357,12,51.52,22.68,,Florida Alliance 16U AAA,OZ play,3
+201,3345,3357,12,51.52,22.68,,Florida Alliance 16U AAA,Shots,3
+202,3386,3398,12,40.79,3.89,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+203,3386,3398,12,40.79,3.89,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+204,3464,3476,12,48.95,9.4,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+205,3464,3476,12,48.95,9.4,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+206,3472,3484,12,45.28,18.7,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+207,3472,3484,12,45.28,18.7,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+208,3476,3488,12,49.32,4.27,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+209,3476,3488,12,49.32,4.27,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+210,3479,3491,12,49.5,22.87,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+211,3479,3491,12,49.5,22.87,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+212,3517,3529,12,51.51,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+213,3526,3538,12,52.16,15.85,,Pittsburgh Penguins Elite 16U Girls,Goals,3
+214,3526,3538,12,52.16,15.85,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+215,3526,3538,12,52.16,15.85,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+216,3557,3569,12,30.48,12.96,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+217,3557,3569,12,45.56,6.45,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+218,3570,3582,12,45.56,6.45,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+219,3570,3582,12,45.56,6.45,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+220,3577,3589,12,40.88,0.57,,Florida Alliance 16U AAA,OZ play,3
+221,3617,3629,12,51.51,6.25,,Florida Alliance 16U AAA,OZ play,3
+222,3618,3630,12,45.19,3.42,,Florida Alliance 16U AAA,OZ play,3
+223,3618,3630,12,45.19,3.42,,Florida Alliance 16U AAA,Shots,3
+224,3632,3644,12,45.19,8.07,,Florida Alliance 16U AAA,OZ play,3
+225,3632,3644,12,45.19,8.07,,Florida Alliance 16U AAA,Shots,3
+226,3640,3652,12,52.98,12.91,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+227,3640,3652,12,52.98,12.91,,Pittsburgh Penguins Elite 16U Girls,Shots,3

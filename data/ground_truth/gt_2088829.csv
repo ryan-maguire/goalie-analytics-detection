@@ -1,0 +1,252 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,1,13,12,30.48,12.96,,Chicago Mission 14U,OZ play,1
+2,28,40,12,54.19,10.13,,Chicago Mission 14U,OZ play,1
+3,28,40,12,54.19,10.13,,Chicago Mission 14U,Shots,1
+4,48,60,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+5,48,60,12,54.88,15.96,,Chicago Mission 14U,OZ play,1
+6,60,72,12,54.88,15.96,,Chicago Mission 14U,OZ play,1
+7,60,72,12,54.88,15.96,,Chicago Mission 14U,Shots,1
+8,82,94,12,2,15,,Oakville Hornets U15 AA,OZ play,1
+9,116,128,12,49.05,8.71,,Oakville Hornets U15 AA,OZ play,1
+10,116,128,12,49.05,8.71,,Oakville Hornets U15 AA,Shots,1
+11,119,131,12,55.38,13.37,,Oakville Hornets U15 AA,Goals,1
+12,119,131,12,55.38,13.37,,Oakville Hornets U15 AA,OZ play,1
+13,119,131,12,55.38,13.37,,Oakville Hornets U15 AA,Shots,1
+14,146,158,12,30.48,12.96,,Oakville Hornets U15 AA,OZ play,1
+15,186,198,12,44.8,24.09,,Oakville Hornets U15 AA,OZ play,1
+16,186,198,12,44.8,24.09,,Oakville Hornets U15 AA,Shots,1
+17,209,221,12,44.98,0.77,,Oakville Hornets U15 AA,OZ play,1
+18,209,221,12,44.98,0.77,,Oakville Hornets U15 AA,Shots,1
+19,261,273,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,1
+20,287,299,12,44.98,19.35,,Oakville Hornets U15 AA,OZ play,1
+21,287,299,12,44.98,19.35,,Oakville Hornets U15 AA,Shots,1
+22,304,316,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+23,321,333,12,50.56,9.8,,Chicago Mission 14U,OZ play,1
+24,321,333,12,50.56,9.8,,Chicago Mission 14U,Shots,1
+25,345,357,12,46.17,18.55,,Chicago Mission 14U,OZ play,1
+26,345,357,12,46.17,18.55,,Chicago Mission 14U,Shots,1
+27,397,409,12,55.17,12.94,,Chicago Mission 14U,OZ play,1
+28,397,409,12,55.17,12.94,,Chicago Mission 14U,Shots,1
+29,452,464,12,51.51,19.67,,Oakville Hornets U15 AA,OZ play,1
+30,456,468,12,40.34,16.47,,Oakville Hornets U15 AA,OZ play,1
+31,456,468,12,40.34,16.47,,Oakville Hornets U15 AA,Shots,1
+32,529,541,12,9.45,19.67,,Oakville Hornets U15 AA,OZ play,1
+33,534,546,12,50.24,10.17,,Oakville Hornets U15 AA,OZ play,1
+34,534,546,12,50.24,10.17,,Oakville Hornets U15 AA,Shots,1
+35,562,574,12,41.17,10.17,,Oakville Hornets U15 AA,OZ play,1
+36,562,574,12,41.17,10.17,,Oakville Hornets U15 AA,Shots,1
+37,578,590,12,9.45,19.67,,Oakville Hornets U15 AA,OZ play,1
+38,610,622,12,2,15,,Oakville Hornets U15 AA,OZ play,1
+39,616,628,12,48.44,9.11,,Oakville Hornets U15 AA,OZ play,1
+40,616,628,12,48.44,9.11,,Oakville Hornets U15 AA,Shots,1
+41,638,650,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,1
+42,642,654,12,52.14,5.79,,Oakville Hornets U15 AA,OZ play,1
+43,642,654,12,52.14,5.79,,Oakville Hornets U15 AA,Shots,1
+44,655,667,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,1
+45,658,670,12,39.62,4.74,,Oakville Hornets U15 AA,OZ play,1
+46,658,670,12,39.62,4.74,,Oakville Hornets U15 AA,Shots,1
+47,708,720,12,40.09,16,,Oakville Hornets U15 AA,OZ play,1
+48,708,720,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,1
+49,720,732,12,40.09,16,,Oakville Hornets U15 AA,OZ play,1
+50,720,732,12,40.09,16,,Oakville Hornets U15 AA,Shots,1
+51,743,755,12,46.75,19.93,,Chicago Mission 14U,OZ play,1
+52,743,755,12,46.75,19.93,,Chicago Mission 14U,Shots,1
+53,758,770,12,51.86,15.31,,Oakville Hornets U15 AA,OZ play,1
+54,758,770,12,51.86,15.31,,Oakville Hornets U15 AA,Shots,1
+55,795,807,12,53.26,7.69,,Oakville Hornets U15 AA,OZ play,1
+56,795,807,12,53.26,7.69,,Oakville Hornets U15 AA,Shots,1
+57,930,942,12,36.58,19.67,,Chicago Mission 14U,OZ play,1
+58,983,995,12,41.02,20.52,,Chicago Mission 14U,OZ play,1
+59,983,995,12,41.02,20.52,,Chicago Mission 14U,Shots,1
+60,985,997,12,48.62,16.25,,Chicago Mission 14U,OZ play,1
+61,985,997,12,48.62,16.25,,Chicago Mission 14U,Shots,1
+62,990,1002,12,39.76,23.29,,Chicago Mission 14U,OZ play,1
+63,990,1002,12,39.76,23.29,,Chicago Mission 14U,Shots,1
+64,1016,1028,12,55.06,14.39,,Chicago Mission 14U,OZ play,1
+65,1016,1028,12,55.06,14.39,,Chicago Mission 14U,Shots,1
+66,1031,1043,12,59.84,15.6,,Oakville Hornets U15 AA,OZ play,1
+67,1070,1082,12,9.45,19.67,,Oakville Hornets U15 AA,OZ play,1
+68,1090,1102,12,2,15,,Oakville Hornets U15 AA,OZ play,1
+69,1118,1130,12,49.41,5.07,,Oakville Hornets U15 AA,OZ play,1
+70,1118,1130,12,49.41,5.07,,Oakville Hornets U15 AA,Shots,1
+71,1192,1204,12,9.45,19.67,,Chicago Mission 14U,OZ play,2
+72,1205,1217,12,52.04,7.07,,Chicago Mission 14U,OZ play,2
+73,1205,1217,12,52.04,7.07,,Chicago Mission 14U,Shots,2
+74,1207,1219,12,52.04,10.68,,Chicago Mission 14U,OZ play,2
+75,1207,1219,12,52.04,10.68,,Chicago Mission 14U,Shots,2
+76,1215,1227,12,38.9,23.4,,Chicago Mission 14U,OZ play,2
+77,1215,1227,12,38.9,23.4,,Chicago Mission 14U,Shots,2
+78,1237,1249,12,53.4,15.38,,Chicago Mission 14U,OZ play,2
+79,1237,1249,12,53.4,15.38,,Chicago Mission 14U,Shots,2
+80,1266,1278,12,52.43,0.91,,Chicago Mission 14U,OZ play,2
+81,1266,1278,12,52.43,0.91,,Chicago Mission 14U,Shots,2
+82,1385,1397,12,24.38,19.67,,Oakville Hornets U15 AA,OZ play,2
+83,1394,1406,12,45.77,4.88,,Oakville Hornets U15 AA,OZ play,2
+84,1394,1406,12,45.77,4.88,,Oakville Hornets U15 AA,Shots,2
+85,1408,1420,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,2
+86,1410,1422,12,46.67,5.58,,Oakville Hornets U15 AA,OZ play,2
+87,1410,1422,12,46.67,5.58,,Oakville Hornets U15 AA,Shots,2
+88,1420,1432,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,2
+89,1422,1434,12,46.13,2.51,,Oakville Hornets U15 AA,OZ play,2
+90,1422,1434,12,46.13,2.51,,Oakville Hornets U15 AA,Shots,2
+91,1461,1473,12,24.38,6.25,,Oakville Hornets U15 AA,OZ play,2
+92,1461,1473,12,47.47,13.19,,Oakville Hornets U15 AA,OZ play,2
+93,1475,1487,12,47.47,13.19,,Oakville Hornets U15 AA,OZ play,2
+94,1475,1487,12,47.47,13.19,,Oakville Hornets U15 AA,Shots,2
+95,1509,1521,12,49.01,22.85,,Chicago Mission 14U,OZ play,2
+96,1509,1521,12,49.01,22.85,,Chicago Mission 14U,Shots,2
+97,1515,1527,12,3.24,8.35,,Chicago Mission 14U,OZ play,2
+98,1520,1532,12,39.4,19.13,,Chicago Mission 14U,OZ play,2
+99,1520,1532,12,39.4,19.13,,Chicago Mission 14U,Shots,2
+100,1564,1576,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+101,1572,1584,12,54.37,22.34,,Chicago Mission 14U,OZ play,2
+102,1572,1584,12,54.37,22.34,,Chicago Mission 14U,Shots,2
+103,1584,1596,12,55.13,10.13,,Chicago Mission 14U,OZ play,2
+104,1584,1596,12,55.13,10.13,,Chicago Mission 14U,Shots,2
+105,1619,1631,12,40.27,14.54,,Chicago Mission 14U,OZ play,2
+106,1619,1631,12,40.27,14.54,,Chicago Mission 14U,Shots,2
+107,1656,1668,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+108,1668,1680,12,53.55,12.35,,Chicago Mission 14U,OZ play,2
+109,1668,1680,12,53.55,12.35,,Chicago Mission 14U,Shots,2
+110,1734,1746,12,9.45,6.25,,Chicago Mission 14U,OZ play,2
+111,1743,1755,12,48.87,15.74,,Chicago Mission 14U,OZ play,2
+112,1743,1755,12,48.87,15.74,,Chicago Mission 14U,Shots,2
+113,1750,1762,12,47.83,4.52,,Chicago Mission 14U,OZ play,2
+114,1750,1762,12,47.83,4.52,,Chicago Mission 14U,Shots,2
+115,1752,1764,12,55.02,12.32,,Chicago Mission 14U,Goals,2
+116,1752,1764,12,55.02,12.32,,Chicago Mission 14U,OZ play,2
+117,1752,1764,12,55.02,12.32,,Chicago Mission 14U,Shots,2
+118,1844,1856,12,36.58,6.25,,Chicago Mission 14U,OZ play,2
+119,1859,1871,12,49.95,9.18,,Chicago Mission 14U,OZ play,2
+120,1859,1871,12,49.95,9.18,,Chicago Mission 14U,Shots,2
+121,1869,1881,12,50.88,10.35,,Chicago Mission 14U,OZ play,2
+122,1869,1881,12,50.88,10.35,,Chicago Mission 14U,Shots,2
+123,1871,1883,12,54.73,12.28,,Chicago Mission 14U,OZ play,2
+124,1871,1883,12,54.73,12.28,,Chicago Mission 14U,Shots,2
+125,1878,1890,12,39.12,21.57,,Chicago Mission 14U,OZ play,2
+126,1878,1890,12,39.12,21.57,,Chicago Mission 14U,Shots,2
+127,1889,1901,12,40.84,3.79,,Oakville Hornets U15 AA,OZ play,2
+128,2612,2624,12,9.45,6.25,,Chicago Mission 14U,OZ play,2
+129,2623,2635,12,2,15,,Chicago Mission 14U,OZ play,2
+130,2634,2646,12,59.27,13.19,,Chicago Mission 14U,OZ play,2
+131,2672,2684,12,9.45,19.67,,Chicago Mission 14U,OZ play,2
+132,2688,2700,12,44.59,17.86,,Chicago Mission 14U,OZ play,2
+133,2688,2700,12,44.59,17.86,,Chicago Mission 14U,Shots,2
+134,2690,2702,12,53.33,14.9,,Chicago Mission 14U,OZ play,2
+135,2690,2702,12,53.33,14.9,,Chicago Mission 14U,Shots,2
+136,2705,2717,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+137,2708,2720,12,39.62,22.63,,Chicago Mission 14U,OZ play,2
+138,2708,2720,12,39.62,22.63,,Chicago Mission 14U,Shots,2
+139,2763,2775,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+140,2768,2780,12,46.53,18.73,,Chicago Mission 14U,OZ play,2
+141,2768,2780,12,46.53,18.73,,Chicago Mission 14U,Shots,2
+142,2788,2800,12,41.42,12.35,,Chicago Mission 14U,OZ play,2
+143,2788,2800,12,41.42,12.35,,Chicago Mission 14U,Shots,2
+144,2799,2811,12,55.81,24.71,,Oakville Hornets U15 AA,OZ play,2
+145,2833,2845,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,2
+146,2848,2860,12,50.92,16.76,,Oakville Hornets U15 AA,OZ play,2
+147,2848,2860,12,50.92,16.76,,Oakville Hornets U15 AA,Shots,2
+148,2865,2877,12,2,15,,Oakville Hornets U15 AA,OZ play,2
+149,2885,2897,12,50.81,7.47,,Oakville Hornets U15 AA,OZ play,2
+150,2885,2897,12,50.81,7.47,,Oakville Hornets U15 AA,Shots,2
+151,2911,2923,12,46.89,7.65,,Oakville Hornets U15 AA,OZ play,2
+152,2911,2923,12,46.89,7.65,,Oakville Hornets U15 AA,Shots,2
+153,2932,2944,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+154,2943,2955,12,49.91,9.26,,Chicago Mission 14U,OZ play,2
+155,2943,2955,12,49.91,9.26,,Chicago Mission 14U,Shots,2
+156,3049,3061,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+157,3057,3069,12,49.16,9.15,,Chicago Mission 14U,OZ play,2
+158,3057,3069,12,49.16,9.15,,Chicago Mission 14U,Shots,2
+159,3141,3153,12,9.45,19.67,,Oakville Hornets U15 AA,OZ play,2
+160,3141,3153,12,44.59,11.11,,Oakville Hornets U15 AA,OZ play,2
+161,3163,3175,12,44.59,11.11,,Oakville Hornets U15 AA,OZ play,2
+162,3163,3175,12,44.59,11.11,,Oakville Hornets U15 AA,Shots,2
+163,3192,3204,12,44.91,18.55,,Chicago Mission 14U,OZ play,2
+164,3192,3204,12,44.91,18.55,,Chicago Mission 14U,Shots,2
+165,3201,3213,12,49.66,9.99,,Chicago Mission 14U,Goals,2
+166,3201,3213,12,49.66,9.99,,Chicago Mission 14U,OZ play,2
+167,3201,3213,12,49.66,9.99,,Chicago Mission 14U,Shots,2
+168,3280,3292,12,30.48,12.96,,Oakville Hornets U15 AA,OZ play,3
+169,3338,3350,12,2,15,,Oakville Hornets U15 AA,OZ play,3
+170,3371,3383,12,54.34,12.83,,Oakville Hornets U15 AA,OZ play,3
+171,3371,3383,12,54.34,12.83,,Oakville Hornets U15 AA,Shots,3
+172,3425,3437,12,40.12,14.14,,Oakville Hornets U15 AA,OZ play,3
+173,3425,3437,12,40.12,14.14,,Oakville Hornets U15 AA,Shots,3
+174,3444,3456,12,9.45,6.25,,Chicago Mission 14U,OZ play,3
+175,3450,3462,12,49.01,22.23,,Chicago Mission 14U,OZ play,3
+176,3450,3462,12,49.01,22.23,,Chicago Mission 14U,Shots,3
+177,3580,3592,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,3
+178,3619,3631,12,46.06,5.28,,Oakville Hornets U15 AA,OZ play,3
+179,3619,3631,12,46.06,5.28,,Oakville Hornets U15 AA,Shots,3
+180,3639,3651,12,9.45,19.67,,Oakville Hornets U15 AA,OZ play,3
+181,3671,3683,12,54.91,13.85,,Oakville Hornets U15 AA,OZ play,3
+182,3671,3683,12,54.91,13.85,,Oakville Hornets U15 AA,Shots,3
+183,3693,3705,12,45.56,10.5,,Oakville Hornets U15 AA,OZ play,3
+184,3693,3705,12,45.56,10.5,,Oakville Hornets U15 AA,Shots,3
+185,3748,3760,12,9.45,19.67,,Oakville Hornets U15 AA,OZ play,3
+186,3750,3762,12,50.56,6.81,,Oakville Hornets U15 AA,OZ play,3
+187,3750,3762,12,50.56,6.81,,Oakville Hornets U15 AA,Shots,3
+188,3797,3809,12,30.48,12.96,,Chicago Mission 14U,OZ play,3
+189,3852,3864,12,43.83,15.89,,Chicago Mission 14U,OZ play,3
+190,3852,3864,12,43.83,15.89,,Chicago Mission 14U,Shots,3
+191,3864,3876,12,55.24,12.86,,Chicago Mission 14U,OZ play,3
+192,3864,3876,12,55.24,12.86,,Chicago Mission 14U,Shots,3
+193,3874,3886,12,47.57,18.91,,Chicago Mission 14U,OZ play,3
+194,3874,3886,12,47.57,18.91,,Chicago Mission 14U,Shots,3
+195,3922,3934,12,2,15,,Oakville Hornets U15 AA,OZ play,3
+196,3930,3942,12,53.55,14.87,,Oakville Hornets U15 AA,OZ play,3
+197,3930,3942,12,53.55,14.87,,Oakville Hornets U15 AA,Shots,3
+198,3934,3946,12,54.84,12.75,,Oakville Hornets U15 AA,OZ play,3
+199,3934,3946,12,54.84,12.75,,Oakville Hornets U15 AA,Shots,3
+200,3961,3973,12,9.45,6.25,,Oakville Hornets U15 AA,OZ play,3
+201,3974,3986,12,53.04,14.9,,Oakville Hornets U15 AA,OZ play,3
+202,3974,3986,12,53.04,14.9,,Oakville Hornets U15 AA,Shots,3
+203,3990,4002,12,51.51,19.67,,Oakville Hornets U15 AA,OZ play,3
+204,3995,4007,12,47.11,2.84,,Oakville Hornets U15 AA,OZ play,3
+205,3995,4007,12,47.11,2.84,,Oakville Hornets U15 AA,Shots,3
+206,4038,4050,12,36.58,6.25,,Oakville Hornets U15 AA,OZ play,3
+207,4038,4050,12,45.63,3.9,,Oakville Hornets U15 AA,OZ play,3
+208,4053,4065,12,45.63,3.9,,Oakville Hornets U15 AA,OZ play,3
+209,4053,4065,12,45.63,3.9,,Oakville Hornets U15 AA,Shots,3
+210,4075,4087,12,42.07,7.29,,Chicago Mission 14U,OZ play,3
+211,4075,4087,12,42.07,7.29,,Chicago Mission 14U,Shots,3
+212,4109,4121,12,47.03,15.6,,Oakville Hornets U15 AA,OZ play,3
+213,4109,4121,12,47.03,15.6,,Oakville Hornets U15 AA,Shots,3
+214,4131,4143,12,51.51,19.67,,Oakville Hornets U15 AA,OZ play,3
+215,4134,4146,12,51.82,18.55,,Oakville Hornets U15 AA,OZ play,3
+216,4134,4146,12,51.82,18.55,,Oakville Hornets U15 AA,Shots,3
+217,4155,4167,12,9.45,6.25,,Oakville Hornets U15 AA,OZ play,3
+218,4163,4175,12,4.75,24.12,,Oakville Hornets U15 AA,OZ play,3
+219,4194,4206,12,51.51,6.25,,Oakville Hornets U15 AA,OZ play,3
+220,4205,4217,12,49.95,18.48,,Oakville Hornets U15 AA,OZ play,3
+221,4205,4217,12,49.95,18.48,,Oakville Hornets U15 AA,Shots,3
+222,4229,4241,12,51.51,19.67,,Oakville Hornets U15 AA,OZ play,3
+223,4253,4265,12,53.47,10.42,,Oakville Hornets U15 AA,OZ play,3
+224,4253,4265,12,53.47,10.42,,Oakville Hornets U15 AA,Shots,3
+225,4277,4289,12,9.45,19.67,,Chicago Mission 14U,OZ play,3
+226,4277,4289,12,46.89,10.53,,Chicago Mission 14U,OZ play,3
+227,4298,4310,12,46.89,10.53,,Chicago Mission 14U,OZ play,3
+228,4298,4310,12,46.89,10.53,,Chicago Mission 14U,Shots,3
+229,4374,4386,12,52.97,9.4,,Oakville Hornets U15 AA,OZ play,3
+230,4374,4386,12,52.97,9.4,,Oakville Hornets U15 AA,Shots,3
+231,4420,4432,12,55.78,14.47,,Oakville Hornets U15 AA,OZ play,3
+232,4420,4432,12,55.78,14.47,,Oakville Hornets U15 AA,Shots,3
+233,4423,4435,12,56.71,11.22,,Oakville Hornets U15 AA,OZ play,3
+234,4423,4435,12,56.71,11.22,,Oakville Hornets U15 AA,Shots,3
+235,4425,4437,12,56.82,11.22,,Oakville Hornets U15 AA,Goals,3
+236,4425,4437,12,56.82,11.22,,Oakville Hornets U15 AA,OZ play,3
+237,4425,4437,12,56.82,11.22,,Oakville Hornets U15 AA,Shots,3
+238,4564,4576,12,30.48,12.96,,Chicago Mission 14U,OZ play,3
+239,4564,4576,12,39.76,3.35,,Chicago Mission 14U,OZ play,3
+240,4576,4588,12,39.76,3.35,,Chicago Mission 14U,OZ play,3
+241,4576,4588,12,39.76,3.35,,Chicago Mission 14U,Shots,3
+242,4588,4600,12,51.82,14.1,,Oakville Hornets U15 AA,OZ play,3
+243,4588,4600,12,51.82,14.1,,Oakville Hornets U15 AA,Shots,3
+244,4597,4609,12,55.35,12.9,,Chicago Mission 14U,Goals,3
+245,4597,4609,12,55.35,12.9,,Chicago Mission 14U,OZ play,3
+246,4597,4609,12,55.35,12.9,,Chicago Mission 14U,Shots,3
+247,4630,4642,12,30.48,12.96,,Oakville Hornets U15 AA,OZ play,3
+248,4649,4661,12,53.73,11.95,,Oakville Hornets U15 AA,OZ play,3
+249,4649,4661,12,53.73,11.95,,Oakville Hornets U15 AA,Shots,3
+250,4651,4663,12,48.69,19.79,,Oakville Hornets U15 AA,OZ play,3
+251,4651,4663,12,48.69,19.79,,Oakville Hornets U15 AA,Shots,3

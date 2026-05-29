@@ -1,0 +1,258 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-2,10,12,24.38,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+2,-2,10,12,48.31,13.95,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+3,4,16,12,48.31,13.95,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+4,4,16,12,48.31,13.95,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+5,20,32,12,46.02,7.78,,Team Illinois 14U AAA,OZ play,1
+6,20,32,12,46.02,7.78,,Team Illinois 14U AAA,Shots,1
+7,48,60,12,9.45,19.67,,Team Illinois 14U AAA,OZ play,1
+8,74,86,12,52.71,3.04,,Team Illinois 14U AAA,OZ play,1
+9,74,86,12,52.71,3.04,,Team Illinois 14U AAA,Shots,1
+10,93,105,12,45.38,23.06,,Team Illinois 14U AAA,OZ play,1
+11,93,105,12,45.38,23.06,,Team Illinois 14U AAA,Shots,1
+12,129,141,12,41.89,12.81,,Team Illinois 14U AAA,OZ play,1
+13,129,141,12,41.89,12.81,,Team Illinois 14U AAA,Shots,1
+14,158,170,12,52.16,3.04,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+15,158,170,12,52.16,3.04,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+16,180,192,12,9.45,19.67,,Team Illinois 14U AAA,OZ play,1
+17,191,203,12,54.63,18.22,,Team Illinois 14U AAA,OZ play,1
+18,191,203,12,54.63,18.22,,Team Illinois 14U AAA,Shots,1
+19,206,218,12,55,13.86,,Team Illinois 14U AAA,OZ play,1
+20,206,218,12,55,13.86,,Team Illinois 14U AAA,Shots,1
+21,286,298,12,36.58,6.25,,Team Illinois 14U AAA,OZ play,1
+22,286,298,12,49.04,15.28,,Team Illinois 14U AAA,OZ play,1
+23,296,308,12,49.04,15.28,,Team Illinois 14U AAA,OZ play,1
+24,296,308,12,49.04,15.28,,Team Illinois 14U AAA,Shots,1
+25,307,319,12,40.15,5.69,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+26,393,405,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+27,397,409,12,51.79,5.88,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+28,397,409,12,51.79,5.88,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+29,426,438,12,41.62,3.32,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+30,426,438,12,41.62,3.32,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+31,462,474,12,51.61,20.03,,Team Illinois 14U AAA,OZ play,1
+32,462,474,12,51.61,20.03,,Team Illinois 14U AAA,Shots,1
+33,497,509,12,51.51,19.67,,Team Illinois 14U AAA,OZ play,1
+34,517,529,12,40.15,20.78,,Team Illinois 14U AAA,OZ play,1
+35,517,529,12,40.15,20.78,,Team Illinois 14U AAA,Shots,1
+36,523,535,12,42.17,2.09,,Team Illinois 14U AAA,OZ play,1
+37,523,535,12,42.17,2.09,,Team Illinois 14U AAA,Shots,1
+38,536,548,12,42.44,6.83,,Team Illinois 14U AAA,OZ play,1
+39,536,548,12,42.44,6.83,,Team Illinois 14U AAA,Shots,1
+40,558,570,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+41,578,590,12,39.23,14.33,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+42,612,624,12,47.03,4.94,,Team Illinois 14U AAA,OZ play,1
+43,612,624,12,51.51,19.67,,Team Illinois 14U AAA,OZ play,1
+44,691,703,12,47.03,4.94,,Team Illinois 14U AAA,OZ play,1
+45,691,703,12,47.03,4.94,,Team Illinois 14U AAA,Shots,1
+46,704,716,12,55,6.45,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+47,704,716,12,55,6.45,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+48,732,744,12,24.38,6.25,,Team Illinois 14U AAA,OZ play,1
+49,812,824,12,53.08,3.61,,Team Illinois 14U AAA,OZ play,1
+50,812,824,12,53.08,3.61,,Team Illinois 14U AAA,Shots,1
+51,845,857,12,46.38,2.85,,Team Illinois 14U AAA,OZ play,1
+52,845,857,12,46.38,2.85,,Team Illinois 14U AAA,Shots,1
+53,871,883,12,9.45,19.67,,Team Illinois 14U AAA,OZ play,1
+54,884,896,12,23.83,20.03,,Team Illinois 14U AAA,OZ play,1
+55,895,907,12,44.18,4.18,,Team Illinois 14U AAA,OZ play,1
+56,895,907,12,44.18,4.18,,Team Illinois 14U AAA,Shots,1
+57,977,989,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+58,997,1009,12,56.1,17.18,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+59,1037,1049,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+60,1040,1052,12,42.35,24.68,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+61,1040,1052,12,42.35,24.68,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+62,1048,1060,12,42.26,8.64,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+63,1048,1060,12,42.26,8.64,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+64,1070,1082,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+65,1070,1082,12,42.72,12.62,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+66,1103,1115,12,42.72,12.62,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+67,1103,1115,12,42.72,12.62,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+68,1116,1128,12,50.6,21.35,,Team Illinois 14U AAA,OZ play,1
+69,1116,1128,12,50.6,21.35,,Team Illinois 14U AAA,Shots,1
+70,1142,1154,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+71,1142,1154,12,53.17,11.29,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+72,1160,1172,12,53.17,11.29,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+73,1160,1172,12,53.17,11.29,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+74,1180,1192,12,51.33,3.23,,Team Illinois 14U AAA,OZ play,1
+75,1180,1192,12,51.33,3.23,,Team Illinois 14U AAA,Shots,1
+76,1238,1250,12,16.87,17.27,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+77,1277,1289,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+78,1281,1293,12,42.44,16.7,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+79,1281,1293,12,42.44,16.7,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+80,1325,1337,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+81,1326,1338,12,46.57,11.48,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+82,1326,1338,12,46.57,11.48,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+83,1335,1347,12,49.87,7.21,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+84,1335,1347,12,49.87,7.21,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+85,1368,1380,12,30.48,12.96,,Team Illinois 14U AAA,OZ play,2
+86,1393,1405,12,52.34,2.94,,Team Illinois 14U AAA,OZ play,2
+87,1393,1405,12,52.34,2.94,,Team Illinois 14U AAA,Shots,2
+88,1438,1450,12,51.51,19.67,,Team Illinois 14U AAA,OZ play,2
+89,1498,1510,12,50.6,13.19,,Team Illinois 14U AAA,OZ play,2
+90,1498,1510,12,50.6,13.19,,Team Illinois 14U AAA,Shots,2
+91,1500,1512,12,56.28,14.62,,Team Illinois 14U AAA,Goals,2
+92,1500,1512,12,56.28,14.62,,Team Illinois 14U AAA,OZ play,2
+93,1500,1512,12,56.28,14.62,,Team Illinois 14U AAA,Shots,2
+94,1538,1550,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+95,1646,1658,12,52.53,13.38,,Pittsburgh Penguins Elite 14U Girls,Goals,2
+96,1646,1658,12,52.53,13.38,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+97,1646,1658,12,52.53,13.38,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+98,1692,1704,12,24.38,6.25,,Team Illinois 14U AAA,OZ play,2
+99,1726,1738,12,44.46,1.14,,Team Illinois 14U AAA,OZ play,2
+100,1726,1738,12,44.46,1.14,,Team Illinois 14U AAA,Shots,2
+101,1751,1763,12,9.45,19.67,,Team Illinois 14U AAA,OZ play,2
+102,1757,1769,12,47.76,5.88,,Team Illinois 14U AAA,OZ play,2
+103,1757,1769,12,47.76,5.88,,Team Illinois 14U AAA,Shots,2
+104,1783,1795,12,51.51,6.25,,Team Illinois 14U AAA,OZ play,2
+105,1785,1797,12,44.28,5.22,,Team Illinois 14U AAA,OZ play,2
+106,1785,1797,12,44.28,5.22,,Team Illinois 14U AAA,Shots,2
+107,1801,1813,12,46.11,1.33,,Team Illinois 14U AAA,OZ play,2
+108,1801,1813,12,46.11,1.33,,Team Illinois 14U AAA,Shots,2
+109,1814,1826,12,53.81,6.45,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+110,1814,1826,12,53.81,6.45,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+111,1844,1856,12,9.45,19.67,,Team Illinois 14U AAA,OZ play,2
+112,1867,1879,12,52.71,24.2,,Team Illinois 14U AAA,OZ play,2
+113,1867,1879,12,52.71,24.2,,Team Illinois 14U AAA,Shots,2
+114,1878,1890,12,42.26,18.03,,Team Illinois 14U AAA,OZ play,2
+115,1878,1890,12,42.26,18.03,,Team Illinois 14U AAA,Shots,2
+116,1890,1902,12,13.11,2.47,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+117,1928,1940,12,51.51,19.67,,Team Illinois 14U AAA,OZ play,2
+118,1947,1959,12,60.04,17.18,,Team Illinois 14U AAA,OZ play,2
+119,1990,2002,12,9.45,6.25,,Team Illinois 14U AAA,OZ play,2
+120,2017,2029,12,42.26,5.41,,Team Illinois 14U AAA,OZ play,2
+121,2017,2029,12,42.26,5.41,,Team Illinois 14U AAA,Shots,2
+122,2054,2066,12,51.79,24.49,,Team Illinois 14U AAA,OZ play,2
+123,2054,2066,12,51.79,24.49,,Team Illinois 14U AAA,Shots,2
+124,2056,2068,12,54.45,9.87,,Team Illinois 14U AAA,OZ play,2
+125,2056,2068,12,54.45,9.87,,Team Illinois 14U AAA,Shots,2
+126,2085,2097,12,51.51,6.25,,Team Illinois 14U AAA,OZ play,2
+127,2090,2102,12,41.62,9.87,,Team Illinois 14U AAA,OZ play,2
+128,2090,2102,12,41.62,9.87,,Team Illinois 14U AAA,Shots,2
+129,2108,2120,12,45.93,19.36,,Team Illinois 14U AAA,OZ play,2
+130,2108,2120,12,45.93,19.36,,Team Illinois 14U AAA,Shots,2
+131,2115,2127,12,47.85,18.03,,Team Illinois 14U AAA,OZ play,2
+132,2115,2127,12,47.85,18.03,,Team Illinois 14U AAA,Shots,2
+133,2226,2238,12,36.58,19.67,,Team Illinois 14U AAA,OZ play,2
+134,2231,2243,12,51.88,7.97,,Team Illinois 14U AAA,OZ play,2
+135,2231,2243,12,51.88,7.97,,Team Illinois 14U AAA,Shots,2
+136,2290,2302,12,43.91,4.37,,Team Illinois 14U AAA,OZ play,2
+137,2290,2302,12,43.91,4.37,,Team Illinois 14U AAA,Shots,2
+138,2321,2333,12,9.45,19.67,,Team Illinois 14U AAA,OZ play,2
+139,2334,2346,12,46.93,20.12,,Team Illinois 14U AAA,OZ play,2
+140,2334,2346,12,46.93,20.12,,Team Illinois 14U AAA,Shots,2
+141,2425,2437,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+142,2462,2474,12,51.06,9.59,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+143,2462,2474,12,51.06,9.59,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+144,2469,2481,12,50.42,22.97,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+145,2469,2481,12,50.42,22.97,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+146,2498,2510,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+147,2510,2522,12,50.23,19.93,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+148,2510,2522,12,50.23,19.93,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+149,2518,2530,12,54.63,15.75,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+150,2518,2530,12,54.63,15.75,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+151,2558,2570,12,42.9,5.88,,Team Illinois 14U AAA,OZ play,2
+152,2558,2570,12,42.9,5.88,,Team Illinois 14U AAA,Shots,2
+153,2580,2592,12,47.67,5.13,,Team Illinois 14U AAA,OZ play,2
+154,2580,2592,12,47.67,5.13,,Team Illinois 14U AAA,Shots,2
+155,2601,2613,12,51.51,6.25,,Team Illinois 14U AAA,OZ play,2
+156,2603,2615,12,46.2,3.42,,Team Illinois 14U AAA,OZ play,2
+157,2603,2615,12,46.2,3.42,,Team Illinois 14U AAA,Shots,2
+158,2613,2625,12,52.8,9.87,,Team Illinois 14U AAA,Goals,2
+159,2613,2625,12,52.8,9.87,,Team Illinois 14U AAA,OZ play,2
+160,2613,2625,12,52.8,9.87,,Team Illinois 14U AAA,Shots,2
+161,2714,2726,12,51.51,6.25,,Team Illinois 14U AAA,OZ play,2
+162,2759,2771,12,44.73,12.34,,Team Illinois 14U AAA,OZ play,2
+163,2759,2771,12,44.73,12.34,,Team Illinois 14U AAA,Shots,2
+164,2788,2800,12,41.62,1.8,,Team Illinois 14U AAA,OZ play,2
+165,2788,2800,12,41.62,1.8,,Team Illinois 14U AAA,Shots,2
+166,2797,2809,12,55.73,20.12,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+167,2797,2809,12,55.73,20.12,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+168,2842,2854,12,36.58,6.25,,Team Illinois 14U AAA,OZ play,2
+169,2869,2881,12,49.59,19.74,,Team Illinois 14U AAA,OZ play,2
+170,2869,2881,12,49.59,19.74,,Team Illinois 14U AAA,Shots,2
+171,2899,2911,12,30.48,12.96,,Team Illinois 14U AAA,OZ play,3
+172,2918,2930,12,42.26,5.03,,Team Illinois 14U AAA,OZ play,3
+173,2918,2930,12,42.26,5.03,,Team Illinois 14U AAA,Shots,3
+174,2927,2939,12,39.88,23.06,,Team Illinois 14U AAA,OZ play,3
+175,2927,2939,12,39.88,23.06,,Team Illinois 14U AAA,Shots,3
+176,2938,2950,12,47.03,21.54,,Team Illinois 14U AAA,OZ play,3
+177,2938,2950,12,47.03,21.54,,Team Illinois 14U AAA,Shots,3
+178,2957,2969,12,48.4,16.8,,Team Illinois 14U AAA,OZ play,3
+179,2957,2969,12,48.4,16.8,,Team Illinois 14U AAA,Shots,3
+180,2982,2994,12,51.51,19.67,,Team Illinois 14U AAA,OZ play,3
+181,2986,2998,12,42.17,20.97,,Team Illinois 14U AAA,OZ play,3
+182,2986,2998,12,42.17,20.97,,Team Illinois 14U AAA,Shots,3
+183,2999,3011,12,49.59,22.21,,Team Illinois 14U AAA,OZ play,3
+184,2999,3011,12,49.59,22.21,,Team Illinois 14U AAA,Shots,3
+185,3007,3019,12,44.55,22.49,,Team Illinois 14U AAA,OZ play,3
+186,3007,3019,12,44.55,22.49,,Team Illinois 14U AAA,Shots,3
+187,3032,3044,12,41.07,13.38,,Team Illinois 14U AAA,OZ play,3
+188,3032,3044,12,41.07,13.38,,Team Illinois 14U AAA,Shots,3
+189,3043,3055,12,53.17,9.97,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+190,3043,3055,12,53.17,9.97,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+191,3045,3057,12,51.79,22.11,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+192,3045,3057,12,51.79,22.11,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+193,3079,3091,12,42.81,4.94,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+194,3079,3091,12,42.81,4.94,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+195,3108,3120,12,52.16,6.17,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+196,3108,3120,12,52.16,6.17,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+197,3120,3132,12,55.64,17.37,,Team Illinois 14U AAA,OZ play,3
+198,3120,3132,12,55.64,17.37,,Team Illinois 14U AAA,Shots,3
+199,3129,3141,12,43.08,2.09,,Team Illinois 14U AAA,OZ play,3
+200,3129,3141,12,43.08,2.09,,Team Illinois 14U AAA,Shots,3
+201,3145,3157,12,10.73,0.57,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+202,3202,3214,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+203,3205,3217,12,45.1,1.8,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+204,3205,3217,12,45.1,1.8,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+205,3258,3270,12,36.58,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+206,3263,3275,12,50.69,15.47,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+207,3263,3275,12,50.69,15.47,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+208,3290,3302,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+209,3294,3306,12,49.96,13.86,,Pittsburgh Penguins Elite 14U Girls,Goals,3
+210,3294,3306,12,49.96,13.86,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+211,3294,3306,12,49.96,13.86,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+212,3333,3345,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+213,3364,3376,12,47.76,9.97,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+214,3364,3376,12,47.76,9.97,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+215,3429,3441,12,51.51,6.25,,Team Illinois 14U AAA,OZ play,3
+216,3450,3462,12,41.71,2.94,,Team Illinois 14U AAA,OZ play,3
+217,3450,3462,12,41.71,2.94,,Team Illinois 14U AAA,Shots,3
+218,3484,3496,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+219,3500,3512,12,48.4,19.27,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+220,3500,3512,12,48.4,19.27,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+221,3521,3533,12,9.45,6.25,,Team Illinois 14U AAA,OZ play,3
+222,3556,3568,12,47.39,18.6,,Team Illinois 14U AAA,OZ play,3
+223,3556,3568,12,47.39,18.6,,Team Illinois 14U AAA,Shots,3
+224,3586,3598,12,43.82,24.68,,Team Illinois 14U AAA,OZ play,3
+225,3586,3598,12,43.82,24.68,,Team Illinois 14U AAA,Shots,3
+226,3603,3615,12,53.17,11.01,,Pittsburgh Penguins Elite 14U Girls,Goals,3
+227,3603,3615,12,53.17,11.01,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+228,3603,3615,12,53.17,11.01,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+229,3727,3739,12,51.51,6.25,,Team Illinois 14U AAA,OZ play,3
+230,3729,3741,12,46.29,7.5,,Team Illinois 14U AAA,OZ play,3
+231,3729,3741,12,46.29,7.5,,Team Illinois 14U AAA,Shots,3
+232,3735,3747,12,40.98,2.09,,Team Illinois 14U AAA,OZ play,3
+233,3735,3747,12,40.98,2.09,,Team Illinois 14U AAA,Shots,3
+234,3808,3820,12,46.75,6.17,,Team Illinois 14U AAA,OZ play,3
+235,3808,3820,12,46.75,6.17,,Team Illinois 14U AAA,Shots,3
+236,3830,3842,12,9.45,19.67,,Team Illinois 14U AAA,OZ play,3
+237,3832,3844,12,53.72,9.11,,Team Illinois 14U AAA,OZ play,3
+238,3832,3844,12,53.72,9.11,,Team Illinois 14U AAA,Shots,3
+239,3858,3870,12,51.51,19.67,,Team Illinois 14U AAA,OZ play,3
+240,3868,3880,12,48.86,22.87,,Team Illinois 14U AAA,OZ play,3
+241,3868,3880,12,48.86,22.87,,Team Illinois 14U AAA,Shots,3
+242,3953,3965,12,9.45,6.25,,Team Illinois 14U AAA,OZ play,3
+243,3990,4002,12,2,15,,Team Illinois 14U AAA,OZ play,3
+244,3996,4008,12,47.48,22.02,,Team Illinois 14U AAA,OZ play,3
+245,3996,4008,12,47.48,22.02,,Team Illinois 14U AAA,Shots,3
+246,4056,4068,12,40.7,7.69,,Team Illinois 14U AAA,OZ play,3
+247,4056,4068,12,40.7,7.69,,Team Illinois 14U AAA,Shots,3
+248,4122,4134,12,9.45,19.67,,Team Illinois 14U AAA,OZ play,3
+249,4122,4134,12,48.13,6.45,,Team Illinois 14U AAA,OZ play,3
+250,4136,4148,12,48.13,6.45,,Team Illinois 14U AAA,OZ play,3
+251,4136,4148,12,48.13,6.45,,Team Illinois 14U AAA,Shots,3
+252,4146,4158,12,54.18,5.79,,Pittsburgh Penguins Elite 14U Girls,Goals,3
+253,4146,4158,12,54.18,5.79,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+254,4146,4158,12,54.18,5.79,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+255,4177,4189,12,30.48,12.96,,Team Illinois 14U AAA,OZ play,3
+256,4196,4208,12,45.38,4.94,,Team Illinois 14U AAA,OZ play,3
+257,4196,4208,12,45.38,4.94,,Team Illinois 14U AAA,Shots,3

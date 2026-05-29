@@ -1,0 +1,227 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,49,61,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+2,56,68,12,54.27,16.23,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+3,56,68,12,54.27,16.23,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+4,71,83,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+5,89,101,12,48.4,8.45,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+6,89,101,12,48.4,8.45,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+7,110,122,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+8,131,143,12,31.99,7.69,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+9,161,173,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+10,201,213,12,52.8,2.09,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+11,201,213,12,52.8,2.09,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+12,223,235,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+13,240,252,12,45.83,8.07,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+14,240,252,12,45.83,8.07,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+15,251,263,12,40.24,13.76,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+16,251,263,12,40.24,13.76,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+17,274,286,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+18,329,341,12,52.07,18.03,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+19,329,341,12,52.07,18.03,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+20,404,416,12,51.51,6.25,,Durham West Lightning U15 AA,OZ play,1
+21,428,440,12,39.23,4.08,,Durham West Lightning U15 AA,OZ play,1
+22,458,470,12,51.51,19.67,,Durham West Lightning U15 AA,OZ play,1
+23,461,473,12,44.64,9.02,,Durham West Lightning U15 AA,OZ play,1
+24,461,473,12,44.64,9.02,,Durham West Lightning U15 AA,Shots,1
+25,473,485,12,49.96,9.11,,Durham West Lightning U15 AA,OZ play,1
+26,473,485,12,49.96,9.11,,Durham West Lightning U15 AA,Shots,1
+27,497,509,12,51.51,19.67,,Durham West Lightning U15 AA,OZ play,1
+28,503,515,12,41.53,17.56,,Durham West Lightning U15 AA,OZ play,1
+29,503,515,12,41.53,17.56,,Durham West Lightning U15 AA,Shots,1
+30,534,546,12,9.45,6.25,,Durham West Lightning U15 AA,OZ play,1
+31,557,569,12,45.01,8.07,,Durham West Lightning U15 AA,OZ play,1
+32,557,569,12,45.01,8.07,,Durham West Lightning U15 AA,Shots,1
+33,595,607,12,36.58,6.25,,Durham West Lightning U15 AA,OZ play,1
+34,603,615,12,55.18,5.41,,Durham West Lightning U15 AA,OZ play,1
+35,603,615,12,55.18,5.41,,Durham West Lightning U15 AA,Shots,1
+36,667,679,12,9.45,6.25,,Durham West Lightning U15 AA,OZ play,1
+37,695,707,12,55.37,15.85,,Durham West Lightning U15 AA,OZ play,1
+38,695,707,12,55.37,15.85,,Durham West Lightning U15 AA,Shots,1
+39,709,721,12,53.08,10.91,,Durham West Lightning U15 AA,OZ play,1
+40,709,721,12,53.08,10.91,,Durham West Lightning U15 AA,Shots,1
+41,743,755,12,53.81,8.64,,Durham West Lightning U15 AA,OZ play,1
+42,743,755,12,53.81,8.64,,Durham West Lightning U15 AA,Shots,1
+43,784,796,12,9.45,19.67,,Durham West Lightning U15 AA,OZ play,1
+44,843,855,12,48.86,10.91,,Durham West Lightning U15 AA,OZ play,1
+45,843,855,12,48.86,10.91,,Durham West Lightning U15 AA,Shots,1
+46,951,963,12,52.98,6.36,,Durham West Lightning U15 AA,OZ play,1
+47,951,963,12,52.98,6.36,,Durham West Lightning U15 AA,Shots,1
+48,977,989,12,42.44,3.51,,Durham West Lightning U15 AA,OZ play,1
+49,977,989,12,42.44,3.51,,Durham West Lightning U15 AA,Shots,1
+50,1060,1072,12,30.48,12.96,,Durham West Lightning U15 AA,OZ play,1
+51,1091,1103,12,53.17,13.1,,Durham West Lightning U15 AA,OZ play,1
+52,1091,1103,12,53.17,13.1,,Durham West Lightning U15 AA,Shots,1
+53,1092,1104,12,0.46,13.67,,Durham West Lightning U15 AA,OZ play,1
+54,1171,1183,12,9.45,6.25,,Durham West Lightning U15 AA,OZ play,1
+55,1197,1209,12,52.25,17.27,,Durham West Lightning U15 AA,OZ play,1
+56,1197,1209,12,52.25,17.27,,Durham West Lightning U15 AA,Shots,1
+57,1215,1227,12,43.08,6.17,,Durham West Lightning U15 AA,OZ play,1
+58,1215,1227,12,43.08,6.17,,Durham West Lightning U15 AA,Shots,1
+59,1236,1248,12,45.56,6.83,,Durham West Lightning U15 AA,OZ play,1
+60,1236,1248,12,45.56,6.83,,Durham West Lightning U15 AA,Shots,1
+61,1261,1273,12,48.03,10.35,,Durham West Lightning U15 AA,OZ play,1
+62,1261,1273,12,48.03,10.35,,Durham West Lightning U15 AA,Shots,1
+63,1273,1285,12,45.93,19.08,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+64,1311,1323,12,51.51,6.25,,Durham West Lightning U15 AA,OZ play,1
+65,1333,1345,12,1.38,8.16,,Durham West Lightning U15 AA,OZ play,1
+66,1429,1441,12,30.48,12.96,,Durham West Lightning U15 AA,OZ play,2
+67,1440,1452,12,39.42,14.05,,Durham West Lightning U15 AA,OZ play,2
+68,1440,1452,12,39.42,14.05,,Durham West Lightning U15 AA,Shots,2
+69,1452,1464,12,39.23,19.17,,Durham West Lightning U15 AA,OZ play,2
+70,1452,1464,12,39.23,19.17,,Durham West Lightning U15 AA,Shots,2
+71,1464,1476,12,42.63,7.78,,Durham West Lightning U15 AA,OZ play,2
+72,1464,1476,12,42.63,7.78,,Durham West Lightning U15 AA,Shots,2
+73,1485,1497,12,53.44,11.86,,Durham West Lightning U15 AA,Goals,2
+74,1485,1497,12,53.44,11.86,,Durham West Lightning U15 AA,OZ play,2
+75,1485,1497,12,53.44,11.86,,Durham West Lightning U15 AA,Shots,2
+76,1523,1535,12,30.48,12.96,,Durham West Lightning U15 AA,OZ play,2
+77,1538,1550,12,48.77,12.15,,Durham West Lightning U15 AA,OZ play,2
+78,1538,1550,12,48.77,12.15,,Durham West Lightning U15 AA,Shots,2
+79,1540,1552,12,53.9,15.38,,Durham West Lightning U15 AA,OZ play,2
+80,1540,1552,12,53.9,15.38,,Durham West Lightning U15 AA,Shots,2
+81,1568,1580,12,51.51,19.67,,Durham West Lightning U15 AA,OZ play,2
+82,1574,1586,12,49.96,10.25,,Durham West Lightning U15 AA,OZ play,2
+83,1574,1586,12,49.96,10.25,,Durham West Lightning U15 AA,Shots,2
+84,1586,1598,12,41.53,11.58,,Durham West Lightning U15 AA,OZ play,2
+85,1586,1598,12,41.53,11.58,,Durham West Lightning U15 AA,Shots,2
+86,1624,1636,12,47.39,19.55,,Durham West Lightning U15 AA,OZ play,2
+87,1624,1636,12,47.39,19.55,,Durham West Lightning U15 AA,Shots,2
+88,1741,1753,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+89,1765,1777,12,53.26,14.24,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+90,1765,1777,12,53.26,14.24,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+91,1792,1804,12,51.51,19.67,,Durham West Lightning U15 AA,OZ play,2
+92,1845,1857,12,56.1,15.09,,Durham West Lightning U15 AA,OZ play,2
+93,1845,1857,12,56.1,15.09,,Durham West Lightning U15 AA,Shots,2
+94,1862,1874,12,41.71,7.31,,Durham West Lightning U15 AA,OZ play,2
+95,1862,1874,12,41.71,7.31,,Durham West Lightning U15 AA,Shots,2
+96,1869,1881,12,39.33,19.17,,Durham West Lightning U15 AA,OZ play,2
+97,1869,1881,12,39.33,19.17,,Durham West Lightning U15 AA,Shots,2
+98,1929,1941,12,9.45,6.25,,Durham West Lightning U15 AA,OZ play,2
+99,1945,1957,12,52.07,21.83,,Durham West Lightning U15 AA,OZ play,2
+100,1945,1957,12,52.07,21.83,,Durham West Lightning U15 AA,Shots,2
+101,1973,1985,12,9.45,6.25,,Durham West Lightning U15 AA,OZ play,2
+102,1986,1998,12,44.18,16.13,,Durham West Lightning U15 AA,OZ play,2
+103,1986,1998,12,44.18,16.13,,Durham West Lightning U15 AA,Shots,2
+104,2020,2032,12,42.72,6.74,,Durham West Lightning U15 AA,OZ play,2
+105,2020,2032,12,42.72,6.74,,Durham West Lightning U15 AA,Shots,2
+106,2029,2041,12,46.02,6.74,,Durham West Lightning U15 AA,OZ play,2
+107,2029,2041,12,46.02,6.74,,Durham West Lightning U15 AA,Shots,2
+108,2055,2067,12,9.45,19.67,,Durham West Lightning U15 AA,OZ play,2
+109,2066,2078,12,44.55,14.33,,Durham West Lightning U15 AA,OZ play,2
+110,2066,2078,12,44.55,14.33,,Durham West Lightning U15 AA,Shots,2
+111,2073,2085,12,43.08,7.12,,Durham West Lightning U15 AA,OZ play,2
+112,2073,2085,12,43.08,7.12,,Durham West Lightning U15 AA,Shots,2
+113,2075,2087,12,56.1,9.4,,Durham West Lightning U15 AA,OZ play,2
+114,2075,2087,12,56.1,9.4,,Durham West Lightning U15 AA,Shots,2
+115,2087,2099,12,46.57,10.25,,Durham West Lightning U15 AA,OZ play,2
+116,2087,2099,12,46.57,10.25,,Durham West Lightning U15 AA,Shots,2
+117,2140,2152,12,6.05,2.28,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+118,2174,2186,12,40.43,19.46,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+119,2174,2186,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+120,2177,2189,12,40.43,19.46,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+121,2177,2189,12,40.43,19.46,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+122,2184,2196,12,53.53,13.76,,Durham West Lightning U15 AA,Goals,2
+123,2184,2196,12,53.53,13.76,,Durham West Lightning U15 AA,OZ play,2
+124,2184,2196,12,53.53,13.76,,Durham West Lightning U15 AA,Shots,2
+125,2212,2224,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+126,2219,2231,12,40.98,23.73,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+127,2219,2231,12,40.98,23.73,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+128,2307,2319,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+129,2326,2338,12,46.84,9.97,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+130,2326,2338,12,46.84,9.97,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+131,2356,2368,12,36.58,6.25,,Durham West Lightning U15 AA,OZ play,2
+132,2411,2423,12,46.93,11.48,,Durham West Lightning U15 AA,OZ play,2
+133,2411,2423,12,46.93,11.48,,Durham West Lightning U15 AA,Shots,2
+134,2451,2463,12,51.51,6.25,,Durham West Lightning U15 AA,OZ play,2
+135,2455,2467,12,42.44,19.65,,Durham West Lightning U15 AA,OZ play,2
+136,2455,2467,12,42.44,19.65,,Durham West Lightning U15 AA,Shots,2
+137,2482,2494,12,45.1,6.26,,Durham West Lightning U15 AA,OZ play,2
+138,2482,2494,12,45.1,6.26,,Durham West Lightning U15 AA,Shots,2
+139,2539,2551,12,53.08,5.98,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+140,2539,2551,12,53.08,5.98,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+141,2545,2557,12,49.96,5.88,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+142,2545,2557,12,49.96,5.88,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+143,2603,2615,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+144,2616,2628,12,47.67,9.87,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+145,2616,2628,12,47.67,9.87,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+146,2643,2655,12,9.45,19.67,,Durham West Lightning U15 AA,OZ play,2
+147,2643,2655,12,51.88,7.02,,Durham West Lightning U15 AA,OZ play,2
+148,2663,2675,12,51.88,7.02,,Durham West Lightning U15 AA,OZ play,2
+149,2663,2675,12,51.88,7.02,,Durham West Lightning U15 AA,Shots,2
+150,2757,2769,12,52.07,21.35,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+151,2757,2769,12,52.07,21.35,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+152,2774,2786,12,36.67,21.54,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+153,2774,2786,12,36.67,21.54,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+154,2840,2852,12,30.48,12.96,,Durham West Lightning U15 AA,OZ play,3
+155,2840,2852,12,48.22,19.55,,Durham West Lightning U15 AA,OZ play,3
+156,2883,2895,12,48.22,19.55,,Durham West Lightning U15 AA,OZ play,3
+157,2883,2895,12,48.22,19.55,,Durham West Lightning U15 AA,Shots,3
+158,2893,2905,12,50.69,18.6,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+159,2893,2905,12,50.69,18.6,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+160,2962,2974,12,36.58,19.67,,Durham West Lightning U15 AA,OZ play,3
+161,2971,2983,12,50.6,5.03,,Durham West Lightning U15 AA,OZ play,3
+162,2971,2983,12,50.6,5.03,,Durham West Lightning U15 AA,Shots,3
+163,3002,3014,12,24.38,6.25,,Durham West Lightning U15 AA,OZ play,3
+164,3013,3025,12,44.09,15.19,,Durham West Lightning U15 AA,OZ play,3
+165,3013,3025,12,44.09,15.19,,Durham West Lightning U15 AA,Shots,3
+166,3049,3061,12,56.01,14.62,,Durham West Lightning U15 AA,OZ play,3
+167,3049,3061,12,56.01,14.62,,Durham West Lightning U15 AA,Shots,3
+168,3084,3096,12,9.45,19.67,,Durham West Lightning U15 AA,OZ play,3
+169,3084,3096,12,42.35,16.13,,Durham West Lightning U15 AA,OZ play,3
+170,3124,3136,12,42.35,16.13,,Durham West Lightning U15 AA,OZ play,3
+171,3124,3136,12,42.35,16.13,,Durham West Lightning U15 AA,Shots,3
+172,3140,3152,12,46.66,21.54,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+173,3140,3152,12,46.66,21.54,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+174,3179,3191,12,55.37,15.66,,Durham West Lightning U15 AA,Goals,3
+175,3179,3191,12,55.37,15.66,,Durham West Lightning U15 AA,OZ play,3
+176,3179,3191,12,55.37,15.66,,Durham West Lightning U15 AA,Shots,3
+177,3216,3228,12,30.48,12.96,,Durham West Lightning U15 AA,OZ play,3
+178,3222,3234,12,44.83,17.65,,Durham West Lightning U15 AA,OZ play,3
+179,3222,3234,12,44.83,17.65,,Durham West Lightning U15 AA,Shots,3
+180,3248,3260,12,48.86,14.43,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+181,3248,3260,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+182,3285,3297,12,48.86,14.43,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+183,3285,3297,12,48.86,14.43,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+184,3359,3371,12,53.17,13.19,,Durham West Lightning U15 AA,OZ play,3
+185,3359,3371,12,53.17,13.19,,Durham West Lightning U15 AA,Shots,3
+186,3374,3386,12,47.3,19.65,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+187,3374,3386,12,47.3,19.65,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+188,3399,3411,12,9.45,6.25,,Durham West Lightning U15 AA,OZ play,3
+189,3428,3440,12,46.2,15.85,,Durham West Lightning U15 AA,OZ play,3
+190,3428,3440,12,46.2,15.85,,Durham West Lightning U15 AA,Shots,3
+191,3452,3464,12,51.51,19.67,,Durham West Lightning U15 AA,OZ play,3
+192,3454,3466,12,52.89,20.6,,Durham West Lightning U15 AA,OZ play,3
+193,3454,3466,12,52.89,20.6,,Durham West Lightning U15 AA,Shots,3
+194,3471,3483,12,51.51,19.67,,Durham West Lightning U15 AA,OZ play,3
+195,3473,3485,12,41.07,15.94,,Durham West Lightning U15 AA,OZ play,3
+196,3473,3485,12,41.07,15.94,,Durham West Lightning U15 AA,Shots,3
+197,3522,3534,12,24.38,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+198,3522,3534,12,47.76,0.85,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+199,3531,3543,12,47.76,0.85,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+200,3531,3543,12,47.76,0.85,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+201,3552,3564,12,52.98,8.26,,Durham West Lightning U15 AA,OZ play,3
+202,3552,3564,12,52.98,8.26,,Durham West Lightning U15 AA,Shots,3
+203,3574,3586,12,53.9,12.34,,Durham West Lightning U15 AA,OZ play,3
+204,3574,3586,12,53.9,12.34,,Durham West Lightning U15 AA,Shots,3
+205,3691,3703,12,9.45,19.67,,Durham West Lightning U15 AA,OZ play,3
+206,3703,3715,12,53.26,18.32,,Durham West Lightning U15 AA,OZ play,3
+207,3703,3715,12,53.26,18.32,,Durham West Lightning U15 AA,Shots,3
+208,3806,3818,12,51.51,6.25,,Durham West Lightning U15 AA,OZ play,3
+209,3820,3832,12,56.83,3.32,,Durham West Lightning U15 AA,OZ play,3
+210,3820,3832,12,56.83,3.32,,Durham West Lightning U15 AA,Shots,3
+211,3856,3868,12,9.45,19.67,,Durham West Lightning U15 AA,OZ play,3
+212,3882,3894,12,54.63,12.43,,Durham West Lightning U15 AA,OZ play,3
+213,3882,3894,12,54.63,12.43,,Durham West Lightning U15 AA,Shots,3
+214,3887,3899,12,54.54,13.1,,Durham West Lightning U15 AA,Goals,3
+215,3887,3899,12,54.54,13.1,,Durham West Lightning U15 AA,OZ play,3
+216,3887,3899,12,54.54,13.1,,Durham West Lightning U15 AA,Shots,3
+217,3922,3934,12,30.48,12.96,,Durham West Lightning U15 AA,OZ play,3
+218,4001,4013,12,46.57,11.48,,Durham West Lightning U15 AA,OZ play,3
+219,4001,4013,12,46.57,11.48,,Durham West Lightning U15 AA,Shots,3
+220,4023,4035,12,45.93,19.46,,Durham West Lightning U15 AA,OZ play,3
+221,4023,4035,12,45.93,19.46,,Durham West Lightning U15 AA,Shots,3
+222,4084,4096,12,24.38,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+223,4130,4142,12,54.45,17.65,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+224,4130,4142,12,54.45,17.65,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+225,4154,4166,12,49.23,24.77,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+226,4154,4166,12,49.23,24.77,,Pittsburgh Penguins Elite 14U Girls,Shots,3

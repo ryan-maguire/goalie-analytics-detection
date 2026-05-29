@@ -1,0 +1,174 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,61,73,12,24.38,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+2,61,73,12,54.08,6.83,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+3,114,126,12,54.08,6.83,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+4,114,126,12,54.08,6.83,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+5,154,166,12,8.89,25.25,,Florida Alliance 19U AAA,OZ play,1
+6,194,206,12,9.45,19.67,,Florida Alliance 19U AAA,OZ play,1
+7,194,206,12,46.57,18.89,,Florida Alliance 19U AAA,OZ play,1
+8,284,296,12,46.57,18.89,,Florida Alliance 19U AAA,OZ play,1
+9,284,296,12,46.57,18.89,,Florida Alliance 19U AAA,Shots,1
+10,296,308,12,52.25,9.3,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+11,296,308,12,52.25,9.3,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+12,317,329,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+13,317,329,12,54.45,14.33,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+14,342,354,12,54.45,14.33,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+15,342,354,12,54.45,14.33,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+16,378,390,12,50.97,9.87,,Florida Alliance 19U AAA,OZ play,1
+17,378,390,12,50.97,9.87,,Florida Alliance 19U AAA,Shots,1
+18,448,460,12,52.34,7.4,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+19,448,460,12,52.34,7.4,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+20,506,518,12,49.59,20.6,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+21,506,518,12,49.59,20.6,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+22,512,524,12,39.6,20.41,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+23,512,524,12,39.6,20.41,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+24,513,525,12,53.9,16.23,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+25,513,525,12,53.9,16.23,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+26,682,694,12,43.82,20.6,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+27,682,694,12,43.82,20.6,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+28,700,712,12,49.87,10.06,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+29,700,712,12,49.87,10.06,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+30,739,751,12,29.24,1.14,,Florida Alliance 19U AAA,OZ play,1
+31,747,759,12,46.48,2.47,,Florida Alliance 19U AAA,OZ play,1
+32,747,759,12,46.48,2.47,,Florida Alliance 19U AAA,Shots,1
+33,778,790,12,51.51,6.25,,Florida Alliance 19U AAA,OZ play,1
+34,818,830,12,52.71,21.92,,Florida Alliance 19U AAA,OZ play,1
+35,818,830,12,52.71,21.92,,Florida Alliance 19U AAA,Shots,1
+36,832,844,12,41.16,12.91,,Florida Alliance 19U AAA,OZ play,1
+37,832,844,12,41.16,12.91,,Florida Alliance 19U AAA,Shots,1
+38,872,884,12,44.37,3.51,,Florida Alliance 19U AAA,OZ play,1
+39,872,884,12,44.37,3.51,,Florida Alliance 19U AAA,Shots,1
+40,890,902,12,41.43,15.94,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+41,890,902,12,41.43,15.94,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+42,917,929,12,47.39,24.39,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+43,917,929,12,47.39,24.39,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+44,934,946,12,58.12,4.75,,Florida Alliance 19U AAA,OZ play,1
+45,970,982,12,51.51,19.67,,Florida Alliance 19U AAA,OZ play,1
+46,988,1000,12,43.82,4.75,,Florida Alliance 19U AAA,OZ play,1
+47,988,1000,12,43.82,4.75,,Florida Alliance 19U AAA,Shots,1
+48,1001,1013,12,43.08,21.07,,Florida Alliance 19U AAA,OZ play,1
+49,1001,1013,12,43.08,21.07,,Florida Alliance 19U AAA,Shots,1
+50,1003,1015,12,45.74,18.41,,Florida Alliance 19U AAA,OZ play,1
+51,1003,1015,12,45.74,18.41,,Florida Alliance 19U AAA,Shots,1
+52,1021,1033,12,55.09,10.72,,Florida Alliance 19U AAA,OZ play,1
+53,1021,1033,12,55.09,10.72,,Florida Alliance 19U AAA,Shots,1
+54,1113,1125,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+55,1170,1182,12,47.85,10.82,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+56,1170,1182,12,47.85,10.82,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+57,1224,1236,12,48.13,18.6,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+58,1224,1236,12,48.13,18.6,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+59,1348,1360,12,51.51,19.67,,Florida Alliance 19U AAA,OZ play,2
+60,1367,1379,12,54.27,14.33,,Florida Alliance 19U AAA,OZ play,2
+61,1367,1379,12,54.27,14.33,,Florida Alliance 19U AAA,Shots,2
+62,1394,1406,12,51.51,19.67,,Florida Alliance 19U AAA,OZ play,2
+63,1398,1410,12,39.97,9.87,,Florida Alliance 19U AAA,OZ play,2
+64,1398,1410,12,39.97,9.87,,Florida Alliance 19U AAA,Shots,2
+65,1417,1429,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+66,1429,1441,12,55.09,14.62,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+67,1429,1441,12,55.09,14.62,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+68,1429,1441,12,55.09,14.62,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+69,1464,1476,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+70,1503,1515,12,49.04,2.66,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+71,1503,1515,12,49.04,2.66,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+72,1524,1536,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+73,1528,1540,12,51.15,12.24,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+74,1528,1540,12,51.15,12.24,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+75,1541,1553,12,54.91,15.19,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+76,1541,1553,12,54.91,15.19,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+77,1559,1571,12,46.48,14.24,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+78,1559,1571,12,46.48,14.24,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+79,1563,1575,12,54.82,13.29,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+80,1563,1575,12,54.82,13.29,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+81,1645,1657,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+82,1645,1657,12,52.71,15.75,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+83,1718,1730,12,52.71,15.75,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+84,1718,1730,12,52.71,15.75,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+85,1769,1781,12,53.53,13.29,,Florida Alliance 19U AAA,OZ play,2
+86,1769,1781,12,53.53,13.29,,Florida Alliance 19U AAA,Shots,2
+87,1770,1782,12,54.63,14.62,,Florida Alliance 19U AAA,OZ play,2
+88,1770,1782,12,54.63,14.62,,Florida Alliance 19U AAA,Shots,2
+89,1788,1800,12,50.78,10.82,,Florida Alliance 19U AAA,OZ play,2
+90,1788,1800,12,50.78,10.82,,Florida Alliance 19U AAA,Shots,2
+91,1817,1829,12,50.05,17.18,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+92,1817,1829,12,50.05,17.18,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+93,1837,1849,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+94,1838,1850,12,49.04,17.27,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+95,1838,1850,12,49.04,17.27,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+96,1841,1853,12,54.45,4.56,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+97,1841,1853,12,54.45,4.56,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+98,1860,1872,12,55.18,11.48,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+99,1860,1872,12,55.18,11.48,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+100,1985,1997,12,9.45,19.67,,Florida Alliance 19U AAA,OZ play,2
+101,2018,2030,12,54.36,13.86,,Florida Alliance 19U AAA,OZ play,2
+102,2018,2030,12,54.36,13.86,,Florida Alliance 19U AAA,Shots,2
+103,2082,2094,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+104,2085,2097,12,48.58,8.73,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+105,2085,2097,12,48.58,8.73,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+106,2097,2109,12,45.28,19.27,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+107,2097,2109,12,45.28,19.27,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+108,2113,2125,12,52.71,15.28,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+109,2113,2125,12,52.71,15.28,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+110,2141,2153,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+111,2142,2154,12,39.6,11.48,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+112,2142,2154,12,39.6,11.48,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+113,2163,2175,12,9.45,19.67,,Florida Alliance 19U AAA,OZ play,2
+114,2222,2234,12,14.67,1.04,,Florida Alliance 19U AAA,OZ play,2
+115,2261,2273,12,51.51,19.67,,Florida Alliance 19U AAA,OZ play,2
+116,2320,2332,12,41.98,19.27,,Florida Alliance 19U AAA,OZ play,2
+117,2320,2332,12,41.98,19.27,,Florida Alliance 19U AAA,Shots,2
+118,2339,2351,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+119,2369,2381,12,52.71,14.81,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+120,2369,2381,12,52.71,14.81,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+121,2369,2381,12,52.71,14.81,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+122,2410,2422,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+123,2428,2440,12,53.17,8.83,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+124,2428,2440,12,53.17,8.83,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+125,2444,2456,12,46.66,14.81,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+126,2444,2456,12,46.66,14.81,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+127,2447,2459,12,55.83,9.11,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+128,2447,2459,12,55.83,9.11,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+129,2447,2459,12,55.83,9.11,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+130,2483,2495,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+131,2540,2552,12,49.04,7.02,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+132,2540,2552,12,49.04,7.02,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+133,2681,2693,12,36.58,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+134,2738,2750,12,45.93,6.45,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+135,2738,2750,12,45.93,6.45,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+136,2738,2750,12,45.93,6.45,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+137,2769,2781,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+138,2826,2838,12,55.09,7.59,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+139,2826,2838,12,55.09,7.59,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+140,2828,2840,12,53.08,9.21,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+141,2828,2840,12,53.08,9.21,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+142,2859,2871,12,50.78,11.1,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+143,2859,2871,12,50.78,11.1,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+144,2877,2889,12,51.52,8.35,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+145,2877,2889,12,51.52,8.35,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+146,2880,2892,12,52.07,9.49,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+147,2880,2892,12,52.07,9.49,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+148,2904,2916,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+149,2922,2934,12,55.28,11.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+150,2922,2934,12,55.28,11.67,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+151,2978,2990,12,47.67,3.32,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+152,2978,2990,12,47.67,3.32,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+153,3003,3015,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+154,3010,3022,12,44.55,14.43,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+155,3010,3022,12,44.55,14.43,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+156,3028,3040,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+157,3028,3040,12,46.29,6.36,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+158,3062,3074,12,46.29,6.36,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+159,3062,3074,12,46.29,6.36,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+160,3145,3157,12,48.86,4.84,,Florida Alliance 19U AAA,OZ play,3
+161,3145,3157,12,48.86,4.84,,Florida Alliance 19U AAA,Shots,3
+162,3161,3173,12,51.24,12.91,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+163,3161,3173,12,51.24,12.91,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+164,3167,3179,12,58.12,15.28,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+165,3167,3179,12,58.12,15.28,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+166,3174,3186,12,53.35,4.84,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+167,3174,3186,12,53.35,4.84,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+168,3196,3208,12,51.51,6.25,,Florida Alliance 19U AAA,OZ play,3
+169,3228,3240,12,40.24,3.8,,Florida Alliance 19U AAA,OZ play,3
+170,3228,3240,12,40.24,3.8,,Florida Alliance 19U AAA,Shots,3
+171,3264,3276,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+172,3376,3388,12,46.57,2.66,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+173,3376,3388,12,46.57,2.66,,Pittsburgh Penguins Elite 19U Girls,Shots,3

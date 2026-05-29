@@ -1,0 +1,308 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,42,54,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+2,65,77,12,0.92,15.66,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+3,98,110,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+4,108,120,12,52.98,4.84,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+5,108,120,12,52.98,4.84,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+6,125,137,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+7,133,145,12,46.48,6.55,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+8,133,145,12,46.48,6.55,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+9,182,194,12,24.38,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+10,193,205,12,11.37,0.76,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+11,224,236,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+12,234,246,12,46.66,7.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+13,234,246,12,46.66,7.97,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+14,244,256,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+15,255,267,12,48.68,6.83,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+16,255,267,12,48.68,6.83,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+17,267,279,12,52.53,8.54,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+18,267,279,12,52.53,8.54,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+19,278,290,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+20,304,316,12,49.13,19.74,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+21,304,316,12,49.13,19.74,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+22,327,339,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+23,332,344,12,46.2,8.73,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+24,332,344,12,46.2,8.73,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+25,335,347,12,56.74,12.05,,Pittsburgh Penguins Elite 19U Girls,Goals,1
+26,335,347,12,56.74,12.05,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+27,335,347,12,56.74,12.05,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+28,369,381,12,30.48,12.96,,Culver Academy U19 Prep,OZ play,1
+29,390,402,12,56.65,15,,Culver Academy U19 Prep,OZ play,1
+30,390,402,12,56.65,15,,Culver Academy U19 Prep,Shots,1
+31,417,429,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,1
+32,420,432,12,40.06,11.67,,Culver Academy U19 Prep,OZ play,1
+33,420,432,12,40.06,11.67,,Culver Academy U19 Prep,Shots,1
+34,439,451,12,39.69,3.13,,Culver Academy U19 Prep,OZ play,1
+35,439,451,12,39.69,3.13,,Culver Academy U19 Prep,Shots,1
+36,460,472,12,48.58,24.49,,Culver Academy U19 Prep,OZ play,1
+37,460,472,12,48.58,24.49,,Culver Academy U19 Prep,Shots,1
+38,550,562,12,36.58,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+39,573,585,12,47.21,23.73,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+40,573,585,12,47.21,23.73,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+41,594,606,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+42,594,606,12,50.33,12.05,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+43,618,630,12,50.33,12.05,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+44,618,630,12,50.33,12.05,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+45,630,642,12,48.31,23.73,,Culver Academy U19 Prep,OZ play,1
+46,630,642,12,48.31,23.73,,Culver Academy U19 Prep,Shots,1
+47,657,669,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,1
+48,660,672,12,55,14.05,,Culver Academy U19 Prep,OZ play,1
+49,660,672,12,55,14.05,,Culver Academy U19 Prep,Shots,1
+50,665,677,12,40.43,10.25,,Culver Academy U19 Prep,OZ play,1
+51,665,677,12,40.43,10.25,,Culver Academy U19 Prep,Shots,1
+52,742,754,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+53,757,769,12,49.87,12.05,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+54,757,769,12,49.87,12.05,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+55,761,773,12,48.68,4.37,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+56,761,773,12,48.68,4.37,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+57,799,811,12,9.45,6.25,,Culver Academy U19 Prep,OZ play,1
+58,813,825,12,39.88,24.39,,Culver Academy U19 Prep,OZ play,1
+59,813,825,12,39.88,24.39,,Culver Academy U19 Prep,Shots,1
+60,837,849,12,45.93,24.11,,Culver Academy U19 Prep,OZ play,1
+61,837,849,12,45.93,24.11,,Culver Academy U19 Prep,Shots,1
+62,842,854,12,54.18,13.57,,Culver Academy U19 Prep,OZ play,1
+63,842,854,12,54.18,13.57,,Culver Academy U19 Prep,Shots,1
+64,865,877,12,15.31,8.92,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+65,867,879,12,45.19,11.01,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+66,867,879,12,45.19,11.01,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+67,903,915,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+68,916,928,12,43.54,11.48,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+69,916,928,12,43.54,11.48,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+70,927,939,12,47.76,15.57,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+71,927,939,12,47.76,15.57,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+72,950,962,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+73,960,972,12,48.22,5.03,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+74,960,972,12,48.22,5.03,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+75,978,990,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+76,1007,1019,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+77,1014,1026,12,51.88,8.26,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+78,1014,1026,12,51.88,8.26,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+79,1050,1062,12,52.25,10.35,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+80,1050,1062,12,52.25,10.35,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+81,1058,1070,12,50.78,22.78,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+82,1058,1070,12,50.78,22.78,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+83,1152,1164,12,7.79,11.96,,Culver Academy U19 Prep,OZ play,1
+84,1191,1203,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,1
+85,1210,1222,12,40.52,11.86,,Culver Academy U19 Prep,OZ play,1
+86,1210,1222,12,40.52,11.86,,Culver Academy U19 Prep,Shots,1
+87,1219,1231,12,43.54,11.67,,Culver Academy U19 Prep,OZ play,1
+88,1219,1231,12,43.54,11.67,,Culver Academy U19 Prep,Shots,1
+89,1245,1257,12,9.45,19.67,,Culver Academy U19 Prep,OZ play,1
+90,1260,1272,12,41.16,7.97,,Culver Academy U19 Prep,OZ play,1
+91,1260,1272,12,41.16,7.97,,Culver Academy U19 Prep,Shots,1
+92,1278,1290,12,44.64,8.73,,Culver Academy U19 Prep,OZ play,1
+93,1278,1290,12,44.64,8.73,,Culver Academy U19 Prep,Shots,1
+94,1290,1302,12,41.34,6.45,,Culver Academy U19 Prep,OZ play,1
+95,1290,1302,12,41.34,6.45,,Culver Academy U19 Prep,Shots,1
+96,1305,1317,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+97,1357,1369,12,40.7,9.68,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+98,1357,1369,12,40.7,9.68,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+99,1397,1409,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+100,1422,1434,12,41.98,21.07,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+101,1422,1434,12,41.98,21.07,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+102,1478,1490,12,36.58,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+103,1511,1523,12,40.06,22.87,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+104,1515,1527,12,55.18,15.57,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+105,1515,1527,12,55.18,15.57,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+106,1524,1536,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+107,1586,1598,12,44.18,2.37,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+108,1586,1598,12,44.18,2.37,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+109,1602,1614,12,42.99,8.83,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+110,1602,1614,12,42.99,8.83,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+111,1650,1662,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+112,1654,1666,12,40.98,23.44,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+113,1654,1666,12,40.98,23.44,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+114,1660,1672,12,55.18,11.01,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+115,1660,1672,12,55.18,11.01,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+116,1660,1672,12,55.18,11.01,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+117,1695,1707,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+118,1707,1719,12,50.6,13.86,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+119,1707,1719,12,50.6,13.86,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+120,1782,1794,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+121,1782,1794,12,43.73,23.06,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+122,1838,1850,12,43.73,23.06,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+123,1838,1850,12,43.73,23.06,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+124,1869,1881,12,52.53,12.72,,Culver Academy U19 Prep,OZ play,2
+125,1869,1881,12,52.53,12.72,,Culver Academy U19 Prep,Shots,2
+126,1890,1902,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,2
+127,1892,1904,12,41.16,13.48,,Culver Academy U19 Prep,OZ play,2
+128,1892,1904,12,41.16,13.48,,Culver Academy U19 Prep,Shots,2
+129,1894,1906,12,55.64,14.33,,Culver Academy U19 Prep,OZ play,2
+130,1894,1906,12,55.64,14.33,,Culver Academy U19 Prep,Shots,2
+131,1922,1934,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,2
+132,1925,1937,12,52.07,16.89,,Culver Academy U19 Prep,OZ play,2
+133,1925,1937,12,52.07,16.89,,Culver Academy U19 Prep,Shots,2
+134,1925,1937,12,54.82,13.1,,Culver Academy U19 Prep,OZ play,2
+135,1925,1937,12,54.82,13.1,,Culver Academy U19 Prep,Shots,2
+136,1960,1972,12,9.45,19.67,,Culver Academy U19 Prep,OZ play,2
+137,1960,1972,12,12.83,24.2,,Culver Academy U19 Prep,OZ play,2
+138,1963,1975,12,12.83,24.2,,Culver Academy U19 Prep,OZ play,2
+139,1963,1975,12,48.13,1.71,,Culver Academy U19 Prep,OZ play,2
+140,1966,1978,12,51.06,7.31,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+141,1966,1978,12,51.06,7.31,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+142,2006,2018,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+143,2006,2018,12,48.86,20.41,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+144,2034,2046,12,48.86,20.41,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+145,2034,2046,12,48.86,20.41,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+146,2047,2059,12,54.36,12.91,,Culver Academy U19 Prep,OZ play,2
+147,2047,2059,12,54.36,12.91,,Culver Academy U19 Prep,Shots,2
+148,2053,2065,12,44.46,8.92,,Culver Academy U19 Prep,OZ play,2
+149,2053,2065,12,44.46,8.92,,Culver Academy U19 Prep,Shots,2
+150,2081,2093,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,2
+151,2086,2098,12,45.47,20.97,,Culver Academy U19 Prep,OZ play,2
+152,2086,2098,12,45.47,20.97,,Culver Academy U19 Prep,Shots,2
+153,2181,2193,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+154,2187,2199,12,54.27,11.86,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+155,2187,2199,12,54.27,11.86,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+156,2246,2258,12,36.58,6.25,,Culver Academy U19 Prep,OZ play,2
+157,2291,2303,12,46.11,12.91,,Culver Academy U19 Prep,OZ play,2
+158,2291,2303,12,46.11,12.91,,Culver Academy U19 Prep,Shots,2
+159,2345,2357,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+160,2368,2380,12,48.95,9.02,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+161,2368,2380,12,48.95,9.02,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+162,2402,2414,12,9.45,19.67,,Culver Academy U19 Prep,OZ play,2
+163,2497,2509,12,39.88,23.63,,Culver Academy U19 Prep,OZ play,2
+164,2497,2509,12,39.88,23.63,,Culver Academy U19 Prep,Shots,2
+165,2593,2605,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,2
+166,2606,2618,12,50.97,1.52,,Culver Academy U19 Prep,OZ play,2
+167,2606,2618,12,50.97,1.52,,Culver Academy U19 Prep,Shots,2
+168,2608,2620,12,49.41,12.53,,Culver Academy U19 Prep,OZ play,2
+169,2608,2620,12,49.41,12.53,,Culver Academy U19 Prep,Shots,2
+170,2612,2624,12,49.96,6.93,,Culver Academy U19 Prep,OZ play,2
+171,2612,2624,12,49.96,6.93,,Culver Academy U19 Prep,Shots,2
+172,2628,2640,12,40.61,24.58,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+173,2628,2640,12,40.61,24.58,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+174,2649,2661,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+175,2683,2695,12,50.42,7.4,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+176,2683,2695,12,50.42,7.4,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+177,2706,2718,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+178,2711,2723,12,50.33,11.77,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+179,2711,2723,12,50.33,11.77,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+180,2711,2723,12,50.33,11.77,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+181,2750,2762,12,30.48,12.96,,Culver Academy U19 Prep,OZ play,2
+182,2793,2805,12,50.69,4.18,,Culver Academy U19 Prep,OZ play,2
+183,2793,2805,12,50.69,4.18,,Culver Academy U19 Prep,Shots,2
+184,2813,2825,12,52.71,13.67,,Culver Academy U19 Prep,OZ play,2
+185,2813,2825,12,52.71,13.67,,Culver Academy U19 Prep,Shots,2
+186,2849,2861,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+187,2871,2883,12,51.79,7.78,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+188,2871,2883,12,51.79,7.78,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+189,2916,2928,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+190,2922,2934,12,54.08,7.88,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+191,2922,2934,12,54.08,7.88,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+192,2949,2961,12,50.51,7.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+193,2949,2961,12,50.51,7.97,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+194,2977,2989,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,2
+195,2977,2989,12,54.91,10.53,,Culver Academy U19 Prep,OZ play,2
+196,2995,3007,12,54.91,10.53,,Culver Academy U19 Prep,OZ play,2
+197,2995,3007,12,54.91,10.53,,Culver Academy U19 Prep,Shots,2
+198,3010,3022,12,48.31,23.82,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+199,3010,3022,12,48.31,23.82,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+200,3044,3056,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+201,3044,3056,12,,,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+202,3098,3110,12,39.88,22.4,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+203,3098,3110,12,39.88,22.4,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+204,3101,3113,12,54.54,7.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+205,3101,3113,12,54.54,7.97,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+206,3251,3263,12,56.47,4.56,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+207,3251,3263,12,56.47,4.56,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+208,3259,3271,12,46.84,24.68,,Culver Academy U19 Prep,OZ play,3
+209,3352,3364,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,3
+210,3362,3374,12,41.16,9.97,,Culver Academy U19 Prep,OZ play,3
+211,3362,3374,12,41.16,9.97,,Culver Academy U19 Prep,Shots,3
+212,3371,3383,12,40.7,10.44,,Culver Academy U19 Prep,OZ play,3
+213,3371,3383,12,40.7,10.44,,Culver Academy U19 Prep,Shots,3
+214,3384,3396,12,40.43,21.83,,Culver Academy U19 Prep,OZ play,3
+215,3384,3396,12,40.43,21.83,,Culver Academy U19 Prep,Shots,3
+216,3407,3419,12,53.26,3.61,,Culver Academy U19 Prep,OZ play,3
+217,3407,3419,12,53.26,3.61,,Culver Academy U19 Prep,Shots,3
+218,3429,3441,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,3
+219,3438,3450,12,52.62,22.59,,Culver Academy U19 Prep,OZ play,3
+220,3438,3450,12,52.62,22.59,,Culver Academy U19 Prep,Shots,3
+221,3452,3464,12,48.49,19.84,,Culver Academy U19 Prep,OZ play,3
+222,3452,3464,12,48.49,19.84,,Culver Academy U19 Prep,Shots,3
+223,3466,3478,12,39.88,11.1,,Culver Academy U19 Prep,OZ play,3
+224,3466,3478,12,39.88,11.1,,Culver Academy U19 Prep,Shots,3
+225,3472,3484,12,51.33,22.4,,Culver Academy U19 Prep,OZ play,3
+226,3472,3484,12,51.33,22.4,,Culver Academy U19 Prep,Shots,3
+227,3496,3508,12,9.45,6.25,,Culver Academy U19 Prep,OZ play,3
+228,3508,3520,12,2,15,,Culver Academy U19 Prep,OZ play,3
+229,3508,3520,12,42.44,12.24,,Culver Academy U19 Prep,OZ play,3
+230,3540,3552,12,42.44,12.24,,Culver Academy U19 Prep,OZ play,3
+231,3540,3552,12,42.44,12.24,,Culver Academy U19 Prep,Shots,3
+232,3570,3582,12,47.03,22.68,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+233,3570,3582,12,47.03,22.68,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+234,3600,3612,12,9.45,19.67,,Culver Academy U19 Prep,OZ play,3
+235,3608,3620,12,14.58,0.95,,Culver Academy U19 Prep,OZ play,3
+236,3614,3626,12,48.31,19.27,,Culver Academy U19 Prep,OZ play,3
+237,3614,3626,12,48.31,19.27,,Culver Academy U19 Prep,Shots,3
+238,3645,3657,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,3
+239,3649,3661,12,40.7,10.06,,Culver Academy U19 Prep,OZ play,3
+240,3649,3661,12,40.7,10.06,,Culver Academy U19 Prep,Shots,3
+241,3652,3664,12,41.43,7.12,,Culver Academy U19 Prep,OZ play,3
+242,3652,3664,12,41.43,7.12,,Culver Academy U19 Prep,Shots,3
+243,3657,3669,12,54.91,10.16,,Culver Academy U19 Prep,Goals,3
+244,3657,3669,12,54.91,10.16,,Culver Academy U19 Prep,OZ play,3
+245,3657,3669,12,54.91,10.16,,Culver Academy U19 Prep,Shots,3
+246,3693,3705,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+247,3708,3720,12,40.24,23.82,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+248,3708,3720,12,40.24,23.82,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+249,3823,3835,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+250,3823,3835,12,52.71,17.94,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+251,3836,3848,12,52.71,17.94,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+252,3836,3848,12,52.71,17.94,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+253,3856,3868,12,40.06,19.27,,Culver Academy U19 Prep,OZ play,3
+254,3893,3905,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,3
+255,3907,3919,12,49.23,13.38,,Culver Academy U19 Prep,OZ play,3
+256,3907,3919,12,49.23,13.38,,Culver Academy U19 Prep,Shots,3
+257,3921,3933,12,42.44,11.58,,Culver Academy U19 Prep,OZ play,3
+258,3921,3933,12,42.44,11.58,,Culver Academy U19 Prep,Shots,3
+259,3946,3958,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,3
+260,3953,3965,12,51.06,3.99,,Culver Academy U19 Prep,OZ play,3
+261,3953,3965,12,51.06,3.99,,Culver Academy U19 Prep,Shots,3
+262,3981,3993,12,9.45,19.67,,Culver Academy U19 Prep,OZ play,3
+263,3987,3999,12,40.43,3.89,,Culver Academy U19 Prep,OZ play,3
+264,3987,3999,12,40.43,3.89,,Culver Academy U19 Prep,Shots,3
+265,4012,4024,12,2,15,,Culver Academy U19 Prep,OZ play,3
+266,4020,4032,12,44.18,10.25,,Culver Academy U19 Prep,OZ play,3
+267,4020,4032,12,44.18,10.25,,Culver Academy U19 Prep,Shots,3
+268,4026,4038,12,40.88,14.05,,Culver Academy U19 Prep,OZ play,3
+269,4026,4038,12,40.88,14.05,,Culver Academy U19 Prep,Shots,3
+270,4052,4064,12,51.51,6.25,,Culver Academy U19 Prep,OZ play,3
+271,4062,4074,12,50.69,21.16,,Culver Academy U19 Prep,OZ play,3
+272,4062,4074,12,50.69,21.16,,Culver Academy U19 Prep,Shots,3
+273,4069,4081,12,51.61,23.54,,Culver Academy U19 Prep,OZ play,3
+274,4069,4081,12,51.61,23.54,,Culver Academy U19 Prep,Shots,3
+275,4104,4116,12,52.98,13.86,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+276,4104,4116,12,52.98,13.86,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+277,4114,4126,12,47.03,6.17,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+278,4114,4126,12,47.03,6.17,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+279,4139,4151,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+280,4139,4151,12,52.89,21.64,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+281,4182,4194,12,52.89,21.64,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+282,4182,4194,12,52.89,21.64,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+283,4207,4219,12,45.38,6.45,,Culver Academy U19 Prep,OZ play,3
+284,4207,4219,12,45.38,6.45,,Culver Academy U19 Prep,Shots,3
+285,4277,4289,12,49.04,12.53,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+286,4277,4289,12,49.04,12.53,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+287,4302,4314,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,3
+288,4358,4370,12,48.49,19.46,,Culver Academy U19 Prep,OZ play,3
+289,4358,4370,12,48.49,19.46,,Culver Academy U19 Prep,Shots,3
+290,4387,4399,12,40.33,22.4,,Culver Academy U19 Prep,OZ play,3
+291,4387,4399,12,40.33,22.4,,Culver Academy U19 Prep,Shots,3
+292,4407,4419,12,54.18,13.76,,Culver Academy U19 Prep,OZ play,3
+293,4407,4419,12,54.18,13.76,,Culver Academy U19 Prep,Shots,3
+294,4431,4443,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,3
+295,4435,4447,12,53.99,13.67,,Culver Academy U19 Prep,OZ play,3
+296,4435,4447,12,53.99,13.67,,Culver Academy U19 Prep,Shots,3
+297,4455,4467,12,43.82,22.59,,Culver Academy U19 Prep,OZ play,3
+298,4455,4467,12,51.51,19.67,,Culver Academy U19 Prep,OZ play,3
+299,4456,4468,12,43.82,22.59,,Culver Academy U19 Prep,OZ play,3
+300,4456,4468,12,43.82,22.59,,Culver Academy U19 Prep,Shots,3
+301,4465,4477,12,19.98,6.36,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+302,4499,4511,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+303,4502,4514,12,56.74,4.65,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+304,4502,4514,12,56.74,4.65,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+305,4511,4523,12,42.81,15.57,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+306,4511,4523,12,42.81,15.57,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+307,4511,4523,12,42.81,15.57,,Pittsburgh Penguins Elite 19U Girls,Shots,3

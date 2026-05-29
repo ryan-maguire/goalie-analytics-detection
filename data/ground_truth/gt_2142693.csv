@@ -1,0 +1,214 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,24,36,12,24.38,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+2,25,37,12,,,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+3,35,47,12,47.94,12.53,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+4,35,47,12,47.94,12.53,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+5,40,52,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+6,40,52,12,53.63,9.3,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+7,44,56,12,53.63,9.3,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+8,44,56,12,53.63,9.3,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+9,92,104,12,24.75,1.14,,Little Caesars 19U AAA,OZ play,1
+10,100,112,12,51.51,6.25,,Little Caesars 19U AAA,OZ play,1
+11,107,119,12,44.09,13.86,,Little Caesars 19U AAA,OZ play,1
+12,107,119,12,44.09,13.86,,Little Caesars 19U AAA,Shots,1
+13,123,135,12,43.63,13.86,,Little Caesars 19U AAA,OZ play,1
+14,123,135,12,43.63,13.86,,Little Caesars 19U AAA,Shots,1
+15,128,140,12,51.51,19.67,,Little Caesars 19U AAA,OZ play,1
+16,136,148,12,53.44,8.64,,Little Caesars 19U AAA,OZ play,1
+17,136,148,12,53.44,8.64,,Little Caesars 19U AAA,Shots,1
+18,140,152,12,51.51,6.25,,Little Caesars 19U AAA,OZ play,1
+19,173,185,12,46.75,6.45,,Little Caesars 19U AAA,OZ play,1
+20,173,185,12,46.75,6.45,,Little Caesars 19U AAA,Shots,1
+21,179,191,12,46.75,22.21,,Little Caesars 19U AAA,OZ play,1
+22,179,191,12,46.75,22.21,,Little Caesars 19U AAA,Shots,1
+23,186,198,12,51.51,19.67,,Little Caesars 19U AAA,OZ play,1
+24,191,203,12,55.55,16.04,,Little Caesars 19U AAA,OZ play,1
+25,191,203,12,55.55,16.04,,Little Caesars 19U AAA,Shots,1
+26,342,354,12,36.58,19.67,,Little Caesars 19U AAA,OZ play,1
+27,345,357,12,29.15,25.34,,Little Caesars 19U AAA,OZ play,1
+28,350,362,12,51.51,6.25,,Little Caesars 19U AAA,OZ play,1
+29,356,368,12,49.59,3.99,,Little Caesars 19U AAA,OZ play,1
+30,356,368,12,49.59,3.99,,Little Caesars 19U AAA,Shots,1
+31,389,401,12,43.91,21.16,,Little Caesars 19U AAA,OZ play,1
+32,389,401,12,43.91,21.16,,Little Caesars 19U AAA,Shots,1
+33,426,438,12,9.45,19.67,,Little Caesars 19U AAA,OZ play,1
+34,440,452,12,40.33,13.38,,Little Caesars 19U AAA,OZ play,1
+35,440,452,12,40.33,13.38,,Little Caesars 19U AAA,Shots,1
+36,457,469,12,48.03,20.5,,Little Caesars 19U AAA,OZ play,1
+37,457,469,12,48.03,20.5,,Little Caesars 19U AAA,Shots,1
+38,473,485,12,24.38,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+39,523,535,12,46.48,19.36,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+40,523,535,12,46.48,19.36,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+41,570,582,12,9.45,6.25,,Little Caesars 19U AAA,OZ play,1
+42,570,582,12,44.46,21.92,,Little Caesars 19U AAA,OZ play,1
+43,610,622,12,44.46,21.92,,Little Caesars 19U AAA,OZ play,1
+44,610,622,12,44.46,21.92,,Little Caesars 19U AAA,Shots,1
+45,645,657,12,48.13,21.07,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+46,645,657,12,48.13,21.07,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+47,648,660,12,6.97,13.76,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+48,665,677,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+49,666,678,12,55.09,17.65,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+50,666,678,12,55.09,17.65,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+51,726,738,12,47.21,5.22,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+52,726,738,12,47.21,5.22,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+53,731,743,12,43.36,6.93,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+54,731,743,12,43.36,6.93,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+55,749,761,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+56,768,780,12,50.69,1.33,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+57,768,780,12,50.69,1.33,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+58,790,802,12,30.48,12.96,,Little Caesars 19U AAA,OZ play,2
+59,807,819,12,53.9,14.33,,Little Caesars 19U AAA,OZ play,2
+60,807,819,12,53.9,14.33,,Little Caesars 19U AAA,Shots,2
+61,815,827,12,9.45,6.25,,Little Caesars 19U AAA,OZ play,2
+62,843,855,12,40.15,7.97,,Little Caesars 19U AAA,OZ play,2
+63,843,855,12,40.15,7.97,,Little Caesars 19U AAA,Shots,2
+64,876,888,12,48.68,5.03,,Little Caesars 19U AAA,OZ play,2
+65,876,888,12,48.68,5.03,,Little Caesars 19U AAA,Shots,2
+66,886,898,12,41.98,13.86,,Little Caesars 19U AAA,OZ play,2
+67,886,898,12,41.98,13.86,,Little Caesars 19U AAA,Shots,2
+68,924,936,12,32.36,1.23,,Little Caesars 19U AAA,OZ play,2
+69,930,942,12,51.51,19.67,,Little Caesars 19U AAA,OZ play,2
+70,946,958,12,47.21,21.26,,Little Caesars 19U AAA,OZ play,2
+71,946,958,12,47.21,21.26,,Little Caesars 19U AAA,Shots,2
+72,953,965,12,51.51,19.67,,Little Caesars 19U AAA,OZ play,2
+73,974,986,12,40.24,12.43,,Little Caesars 19U AAA,OZ play,2
+74,974,986,12,40.24,12.43,,Little Caesars 19U AAA,Shots,2
+75,976,988,12,55.09,16.13,,Little Caesars 19U AAA,OZ play,2
+76,976,988,12,55.09,16.13,,Little Caesars 19U AAA,Shots,2
+77,986,998,12,46.93,17.75,,Little Caesars 19U AAA,OZ play,2
+78,986,998,12,46.93,17.75,,Little Caesars 19U AAA,Shots,2
+79,993,1005,12,51.33,8.16,,Little Caesars 19U AAA,OZ play,2
+80,993,1005,12,51.33,8.16,,Little Caesars 19U AAA,Shots,2
+81,1025,1037,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+82,1150,1162,12,50.42,22.59,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+83,1150,1162,12,50.42,22.59,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+84,1162,1174,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+85,1202,1214,12,49.87,22.87,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+86,1202,1214,12,49.87,22.87,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+87,1227,1239,12,9.45,19.67,,Little Caesars 19U AAA,OZ play,2
+88,1238,1250,12,53.63,5.88,,Little Caesars 19U AAA,OZ play,2
+89,1238,1250,12,53.63,5.88,,Little Caesars 19U AAA,Shots,2
+90,1307,1319,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+91,1324,1336,12,46.93,23.35,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+92,1324,1336,12,46.93,23.35,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+93,1333,1345,12,54.54,14.14,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+94,1333,1345,12,54.54,14.14,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+95,1339,1351,12,58.85,18.79,,Little Caesars 19U AAA,OZ play,2
+96,1356,1368,12,51.51,19.67,,Little Caesars 19U AAA,OZ play,2
+97,1380,1392,12,48.4,21.07,,Little Caesars 19U AAA,OZ play,2
+98,1380,1392,12,48.4,21.07,,Little Caesars 19U AAA,Shots,2
+99,1384,1396,12,51.51,19.67,,Little Caesars 19U AAA,OZ play,2
+100,1404,1416,12,52.43,3.61,,Little Caesars 19U AAA,OZ play,2
+101,1404,1416,12,52.43,3.61,,Little Caesars 19U AAA,Shots,2
+102,1411,1423,12,48.58,21.35,,Little Caesars 19U AAA,OZ play,2
+103,1411,1423,12,48.58,21.35,,Little Caesars 19U AAA,Shots,2
+104,1415,1427,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+105,1481,1493,12,1.65,15.94,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+106,1490,1502,12,9.45,19.67,,Little Caesars 19U AAA,OZ play,2
+107,1518,1530,12,5.68,10.63,,Little Caesars 19U AAA,OZ play,2
+108,1545,1557,12,55.28,10.91,,Little Caesars 19U AAA,Shots,2
+109,1550,1562,12,51.51,6.25,,Little Caesars 19U AAA,OZ play,2
+110,1595,1607,12,57.75,16.42,,Little Caesars 19U AAA,OZ play,2
+111,1604,1616,12,51.51,19.67,,Little Caesars 19U AAA,OZ play,2
+112,1615,1627,12,46.75,3.89,,Little Caesars 19U AAA,OZ play,2
+113,1615,1627,12,46.75,3.89,,Little Caesars 19U AAA,Shots,2
+114,1619,1631,12,51.51,6.25,,Little Caesars 19U AAA,OZ play,2
+115,1631,1643,12,50.42,4.94,,Little Caesars 19U AAA,OZ play,2
+116,1631,1643,12,50.42,4.94,,Little Caesars 19U AAA,Shots,2
+117,1665,1677,12,44.09,16.23,,Little Caesars 19U AAA,OZ play,2
+118,1665,1677,12,44.09,16.23,,Little Caesars 19U AAA,Shots,2
+119,1672,1684,12,51.52,5.6,,Little Caesars 19U AAA,OZ play,2
+120,1672,1684,12,51.52,5.6,,Little Caesars 19U AAA,Shots,2
+121,1679,1691,12,41.62,15.19,,Little Caesars 19U AAA,OZ play,2
+122,1679,1691,12,41.62,15.19,,Little Caesars 19U AAA,Shots,2
+123,1682,1694,12,54.91,15.38,,Little Caesars 19U AAA,OZ play,2
+124,1682,1694,12,54.91,15.38,,Little Caesars 19U AAA,Shots,2
+125,1689,1701,12,51.88,8.54,,Little Caesars 19U AAA,Goals,2
+126,1689,1701,12,51.88,8.54,,Little Caesars 19U AAA,OZ play,2
+127,1689,1701,12,51.88,8.54,,Little Caesars 19U AAA,Shots,2
+128,1693,1705,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+129,1710,1722,12,54.27,8.83,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+130,1710,1722,12,54.27,8.83,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+131,1710,1722,12,54.27,8.83,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+132,1718,1730,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+133,1783,1795,12,53.99,19.17,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+134,1783,1795,12,53.99,19.17,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+135,1790,1802,12,50.6,17.75,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+136,1790,1802,12,50.6,17.75,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+137,1810,1822,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+138,1810,1822,12,51.24,8.54,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+139,1851,1863,12,51.24,8.54,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+140,1851,1863,12,51.24,8.54,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+141,1866,1878,12,44.64,13,,Little Caesars 19U AAA,OZ play,3
+142,1866,1878,12,44.64,13,,Little Caesars 19U AAA,Shots,3
+143,1875,1887,12,9.45,19.67,,Little Caesars 19U AAA,OZ play,3
+144,1910,1922,12,55.18,9.21,,Little Caesars 19U AAA,OZ play,3
+145,1910,1922,12,55.18,9.21,,Little Caesars 19U AAA,Shots,3
+146,1912,1924,12,54.36,13.29,,Little Caesars 19U AAA,Goals,3
+147,1912,1924,12,54.36,13.29,,Little Caesars 19U AAA,OZ play,3
+148,1912,1924,12,54.36,13.29,,Little Caesars 19U AAA,Shots,3
+149,1920,1932,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+150,2025,2037,12,42.81,23.82,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+151,2025,2037,12,42.81,23.82,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+152,2026,2038,12,18.79,1.61,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+153,2033,2045,12,41.07,22.02,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+154,2033,2045,12,41.07,22.02,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+155,2047,2059,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+156,2067,2079,12,46.2,14.9,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+157,2067,2079,12,46.2,14.9,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+158,2105,2117,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+159,2117,2129,12,44.64,20.41,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+160,2117,2129,12,44.64,20.41,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+161,2141,2153,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+162,2163,2175,12,48.49,9.87,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+163,2163,2175,12,48.49,9.87,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+164,2192,2204,12,56.28,9.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+165,2192,2204,12,56.28,9.97,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+166,2211,2223,12,43.54,14.9,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+167,2211,2223,12,43.54,14.9,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+168,2221,2233,12,53.35,15.85,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+169,2221,2233,12,53.35,15.85,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+170,2268,2280,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+171,2276,2288,12,43.08,22.78,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+172,2276,2288,12,43.08,22.78,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+173,2303,2315,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+174,2303,2315,12,54.63,1.9,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+175,2305,2317,12,54.63,1.9,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+176,2305,2317,12,54.63,1.9,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+177,2323,2335,12,42.08,18.22,,Little Caesars 19U AAA,OZ play,3
+178,2323,2335,12,42.08,18.22,,Little Caesars 19U AAA,Shots,3
+179,2327,2339,12,54.54,10.25,,Little Caesars 19U AAA,Goals,3
+180,2327,2339,12,54.54,10.25,,Little Caesars 19U AAA,OZ play,3
+181,2327,2339,12,54.54,10.25,,Little Caesars 19U AAA,Shots,3
+182,2400,2412,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+183,2402,2414,12,49.13,22.11,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+184,2402,2414,12,49.13,22.11,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+185,2429,2441,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+186,2430,2442,12,,,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+187,2439,2451,12,21.18,2.18,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+188,2447,2459,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+189,2466,2478,12,40.88,19.65,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+190,2466,2478,12,40.88,19.65,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+191,2468,2480,12,50.78,12.81,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+192,2468,2480,12,50.78,12.81,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+193,2479,2491,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+194,2485,2497,12,43.54,19.84,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+195,2485,2497,12,43.54,19.84,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+196,2540,2552,12,54.91,15.28,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+197,2540,2552,12,54.91,15.28,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+198,2566,2578,12,42.26,7.88,,Little Caesars 19U AAA,OZ play,3
+199,2566,2578,12,42.26,7.88,,Little Caesars 19U AAA,Shots,3
+200,2606,2618,12,40.88,5.6,,Little Caesars 19U AAA,OZ play,3
+201,2606,2618,12,40.88,5.6,,Little Caesars 19U AAA,Shots,3
+202,2618,2630,12,49.32,13.1,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+203,2618,2630,12,49.32,13.1,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+204,2635,2647,12,48.49,13.1,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+205,2635,2647,12,48.49,13.1,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+206,2647,2659,12,51.51,19.67,,Little Caesars 19U AAA,OZ play,3
+207,2660,2672,12,46.66,23.63,,Little Caesars 19U AAA,OZ play,3
+208,2660,2672,12,46.66,23.63,,Little Caesars 19U AAA,Shots,3
+209,2669,2681,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+210,2682,2694,12,10.82,1.61,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+211,2691,2703,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+212,2693,2705,12,41.89,19.17,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+213,2693,2705,12,41.89,19.17,,Pittsburgh Penguins Elite 19U Girls,Shots,3

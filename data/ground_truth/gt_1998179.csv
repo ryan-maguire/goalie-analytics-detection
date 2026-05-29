@@ -1,0 +1,270 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,30,42,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+2,44,56,12,45.65,20.6,,Chicago Mission 14U,OZ play,1
+3,44,56,12,45.65,20.6,,Chicago Mission 14U,Shots,1
+4,114,126,12,24.38,6.25,,Chicago Mission 14U,OZ play,1
+5,129,141,12,45.83,3.13,,Chicago Mission 14U,OZ play,1
+6,129,141,12,45.83,3.13,,Chicago Mission 14U,Shots,1
+7,173,185,12,44.83,3.7,,Chicago Mission 14U,OZ play,1
+8,173,185,12,44.83,3.7,,Chicago Mission 14U,Shots,1
+9,192,204,12,9.45,19.67,,Chicago Mission 14U,OZ play,1
+10,217,229,12,42.53,10.63,,Chicago Mission 14U,OZ play,1
+11,217,229,12,42.53,10.63,,Chicago Mission 14U,Shots,1
+12,237,249,12,54.36,22.02,,Chicago Mission 14U,OZ play,1
+13,237,249,12,54.36,22.02,,Chicago Mission 14U,Shots,1
+14,287,299,12,36.58,19.67,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+15,303,315,12,36.94,3.89,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+16,303,315,12,36.94,3.89,,Ottawa Senators Womens Hockey Club U15 AA,Shots,1
+17,323,335,12,51.51,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+18,325,337,12,41.43,4.46,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+19,325,337,12,41.43,4.46,,Ottawa Senators Womens Hockey Club U15 AA,Shots,1
+20,329,341,12,52.89,12.05,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+21,329,341,12,52.89,12.05,,Ottawa Senators Womens Hockey Club U15 AA,Shots,1
+22,338,350,12,39.51,4.56,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+23,338,350,12,39.51,4.56,,Ottawa Senators Womens Hockey Club U15 AA,Shots,1
+24,350,362,12,6.51,21.26,,Chicago Mission 14U,OZ play,1
+25,384,396,12,51.51,6.25,,Chicago Mission 14U,OZ play,1
+26,387,399,12,41.89,12.62,,Chicago Mission 14U,OZ play,1
+27,387,399,12,41.89,12.62,,Chicago Mission 14U,Shots,1
+28,396,408,12,57.29,8.07,,Chicago Mission 14U,OZ play,1
+29,396,408,12,57.29,8.07,,Chicago Mission 14U,Shots,1
+30,417,429,12,2,15,,Chicago Mission 14U,OZ play,1
+31,427,439,12,50.78,10.91,,Chicago Mission 14U,OZ play,1
+32,427,439,12,50.78,10.91,,Chicago Mission 14U,Shots,1
+33,429,441,12,54.82,14.62,,Chicago Mission 14U,Goals,1
+34,429,441,12,54.82,14.62,,Chicago Mission 14U,OZ play,1
+35,429,441,12,54.82,14.62,,Chicago Mission 14U,Shots,1
+36,460,472,12,30.48,12.96,,Chicago Mission 14U,OZ play,1
+37,473,485,12,51.52,11.39,,Chicago Mission 14U,OZ play,1
+38,473,485,12,51.52,11.39,,Chicago Mission 14U,Shots,1
+39,474,486,12,54.54,11.67,,Chicago Mission 14U,OZ play,1
+40,474,486,12,54.54,11.67,,Chicago Mission 14U,Shots,1
+41,578,590,12,51.51,6.25,,Chicago Mission 14U,OZ play,1
+42,581,593,12,43.18,14.33,,Chicago Mission 14U,OZ play,1
+43,581,593,12,43.18,14.33,,Chicago Mission 14U,Shots,1
+44,597,609,12,51.33,4.75,,Chicago Mission 14U,OZ play,1
+45,597,609,12,51.33,4.75,,Chicago Mission 14U,Shots,1
+46,666,678,12,31.63,24.87,,Chicago Mission 14U,OZ play,1
+47,691,703,12,9.45,19.67,,Chicago Mission 14U,OZ play,1
+48,697,709,12,54.27,8.26,,Chicago Mission 14U,OZ play,1
+49,697,709,12,54.27,8.26,,Chicago Mission 14U,Shots,1
+50,726,738,12,9.45,19.67,,Chicago Mission 14U,OZ play,1
+51,731,743,12,46.66,8.26,,Chicago Mission 14U,OZ play,1
+52,731,743,12,46.66,8.26,,Chicago Mission 14U,Shots,1
+53,733,745,12,56.38,9.21,,Chicago Mission 14U,OZ play,1
+54,733,745,12,56.38,9.21,,Chicago Mission 14U,Shots,1
+55,740,752,12,55.18,14.81,,Chicago Mission 14U,OZ play,1
+56,740,752,12,55.18,14.81,,Chicago Mission 14U,Shots,1
+57,863,875,12,40.61,7.21,,Chicago Mission 14U,OZ play,1
+58,863,875,12,40.61,7.21,,Chicago Mission 14U,Shots,1
+59,892,904,12,51.51,6.25,,Chicago Mission 14U,OZ play,1
+60,897,909,12,47.85,2.56,,Chicago Mission 14U,OZ play,1
+61,897,909,12,47.85,2.56,,Chicago Mission 14U,Shots,1
+62,914,926,12,41.53,4.18,,Chicago Mission 14U,OZ play,1
+63,914,926,12,41.53,4.18,,Chicago Mission 14U,Shots,1
+64,977,989,12,49.13,22.02,,Chicago Mission 14U,OZ play,1
+65,977,989,12,49.13,22.02,,Chicago Mission 14U,Shots,1
+66,996,1008,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+67,1050,1062,12,55.09,12.34,,Chicago Mission 14U,OZ play,1
+68,1050,1062,12,55.09,12.34,,Chicago Mission 14U,Shots,1
+69,1053,1065,12,55.18,11.1,,Chicago Mission 14U,OZ play,1
+70,1053,1065,12,55.18,11.1,,Chicago Mission 14U,Shots,1
+71,1103,1115,12,9.45,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+72,1103,1115,12,43.54,11.29,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+73,1125,1137,12,43.54,11.29,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,1
+74,1125,1137,12,43.54,11.29,,Ottawa Senators Womens Hockey Club U15 AA,Shots,1
+75,1158,1170,12,55.09,9.97,,Chicago Mission 14U,OZ play,1
+76,1158,1170,12,55.09,9.97,,Chicago Mission 14U,Shots,1
+77,1163,1175,12,48.58,4.27,,Chicago Mission 14U,OZ play,1
+78,1163,1175,12,48.58,4.27,,Chicago Mission 14U,Shots,1
+79,1164,1176,12,54.82,11.67,,Chicago Mission 14U,OZ play,1
+80,1164,1176,12,54.82,11.67,,Chicago Mission 14U,Shots,1
+81,1168,1180,12,30.48,12.96,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+82,1205,1217,12,50.42,6.26,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+83,1205,1217,12,50.42,6.26,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+84,1234,1246,12,42.9,18.51,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+85,1234,1246,12,42.9,18.51,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+86,1240,1252,12,56.83,4.46,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+87,1240,1252,12,56.83,4.46,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+88,1265,1277,12,9.45,19.67,,Chicago Mission 14U,OZ play,2
+89,1281,1293,12,42.81,12.91,,Chicago Mission 14U,OZ play,2
+90,1281,1293,12,42.81,12.91,,Chicago Mission 14U,Shots,2
+91,1307,1319,12,44.64,8.73,,Chicago Mission 14U,OZ play,2
+92,1307,1319,12,44.64,8.73,,Chicago Mission 14U,Shots,2
+93,1368,1380,12,56.74,19.27,,Chicago Mission 14U,OZ play,2
+94,1368,1380,12,56.74,19.27,,Chicago Mission 14U,Shots,2
+95,1410,1422,12,48.03,24.01,,Chicago Mission 14U,OZ play,2
+96,1410,1422,12,48.03,24.01,,Chicago Mission 14U,Shots,2
+97,1447,1459,12,53.08,9.49,,Chicago Mission 14U,OZ play,2
+98,1447,1459,12,53.08,9.49,,Chicago Mission 14U,Shots,2
+99,1471,1483,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+100,1491,1503,12,52.07,13.95,,Chicago Mission 14U,OZ play,2
+101,1491,1503,12,52.07,13.95,,Chicago Mission 14U,Shots,2
+102,1497,1509,12,55,19.27,,Chicago Mission 14U,OZ play,2
+103,1497,1509,12,55,19.27,,Chicago Mission 14U,Shots,2
+104,1520,1532,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+105,1523,1535,12,4.58,5.79,,Chicago Mission 14U,OZ play,2
+106,1578,1590,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+107,1581,1593,12,43.08,14.62,,Chicago Mission 14U,OZ play,2
+108,1581,1593,12,43.08,14.62,,Chicago Mission 14U,Shots,2
+109,1588,1600,12,54.73,10.53,,Chicago Mission 14U,OZ play,2
+110,1588,1600,12,54.73,10.53,,Chicago Mission 14U,Shots,2
+111,1608,1620,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+112,1610,1622,12,44.92,15.66,,Chicago Mission 14U,OZ play,2
+113,1610,1622,12,44.92,15.66,,Chicago Mission 14U,Shots,2
+114,1631,1643,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+115,1636,1648,12,48.77,22.68,,Chicago Mission 14U,OZ play,2
+116,1636,1648,12,48.77,22.68,,Chicago Mission 14U,Shots,2
+117,1640,1652,12,54.63,12.43,,Chicago Mission 14U,OZ play,2
+118,1640,1652,12,54.63,12.43,,Chicago Mission 14U,Shots,2
+119,1641,1653,12,58.3,8.35,,Chicago Mission 14U,OZ play,2
+120,1641,1653,12,58.3,8.35,,Chicago Mission 14U,Shots,2
+121,1660,1672,12,44,8.45,,Chicago Mission 14U,OZ play,2
+122,1660,1672,12,44,8.45,,Chicago Mission 14U,Shots,2
+123,1685,1697,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+124,1699,1711,12,52.8,14.81,,Chicago Mission 14U,OZ play,2
+125,1699,1711,12,52.8,14.81,,Chicago Mission 14U,Shots,2
+126,1710,1722,12,55.18,4.84,,Chicago Mission 14U,OZ play,2
+127,1710,1722,12,55.18,4.84,,Chicago Mission 14U,Shots,2
+128,1712,1724,12,54.18,11.29,,Chicago Mission 14U,OZ play,2
+129,1712,1724,12,54.18,11.29,,Chicago Mission 14U,Shots,2
+130,1716,1728,12,51.88,6.93,,Chicago Mission 14U,OZ play,2
+131,1716,1728,12,51.88,6.93,,Chicago Mission 14U,Shots,2
+132,1740,1752,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+133,1741,1753,12,45.93,5.5,,Chicago Mission 14U,OZ play,2
+134,1741,1753,12,45.93,5.5,,Chicago Mission 14U,Shots,2
+135,1753,1765,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+136,1754,1766,12,46.57,4.37,,Chicago Mission 14U,OZ play,2
+137,1754,1766,12,46.57,4.37,,Chicago Mission 14U,Shots,2
+138,1780,1792,12,51.51,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+139,1781,1793,12,53.17,7.97,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+140,1781,1793,12,53.17,7.97,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+141,1839,1851,12,51.51,19.67,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+142,1841,1853,12,44.92,19.17,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+143,1841,1853,12,44.92,19.17,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+144,1870,1882,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+145,1901,1913,12,48.95,8.26,,Chicago Mission 14U,OZ play,2
+146,1901,1913,12,48.95,8.26,,Chicago Mission 14U,Shots,2
+147,1954,1966,12,51.51,19.67,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+148,1975,1987,12,40.24,21.26,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+149,1975,1987,12,40.24,21.26,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+150,1977,1989,12,48.58,20.97,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+151,1977,1989,12,48.58,20.97,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+152,2000,2012,12,9.45,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+153,2019,2031,12,54.91,15.57,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+154,2019,2031,12,54.91,15.57,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+155,2029,2041,12,41.89,5.03,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,2
+156,2029,2041,12,41.89,5.03,,Ottawa Senators Womens Hockey Club U15 AA,Shots,2
+157,2086,2098,12,53.44,8.92,,Chicago Mission 14U,Goals,2
+158,2086,2098,12,53.44,8.92,,Chicago Mission 14U,OZ play,2
+159,2086,2098,12,53.44,8.92,,Chicago Mission 14U,Shots,2
+160,2114,2126,12,30.48,12.96,,Chicago Mission 14U,OZ play,2
+161,2164,2176,12,54.18,14.05,,Chicago Mission 14U,OZ play,2
+162,2164,2176,12,54.18,14.05,,Chicago Mission 14U,Shots,2
+163,2237,2249,12,43.63,9.97,,Chicago Mission 14U,OZ play,2
+164,2237,2249,12,43.63,9.97,,Chicago Mission 14U,Shots,2
+165,2241,2253,12,44.92,16.32,,Chicago Mission 14U,OZ play,2
+166,2241,2253,12,44.92,16.32,,Chicago Mission 14U,Shots,2
+167,2312,2324,12,24.38,19.67,,Chicago Mission 14U,OZ play,2
+168,2322,2334,12,54.36,10.35,,Chicago Mission 14U,OZ play,2
+169,2322,2334,12,54.36,10.35,,Chicago Mission 14U,Shots,2
+170,2348,2360,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+171,2360,2372,12,47.67,12.91,,Chicago Mission 14U,OZ play,2
+172,2360,2372,12,47.67,12.91,,Chicago Mission 14U,Shots,2
+173,2379,2391,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+174,2428,2440,12,52.89,4.65,,Chicago Mission 14U,OZ play,2
+175,2428,2440,12,52.89,4.65,,Chicago Mission 14U,Shots,2
+176,2453,2465,12,53.35,18.98,,Chicago Mission 14U,OZ play,2
+177,2453,2465,12,53.35,18.98,,Chicago Mission 14U,Shots,2
+178,2478,2490,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+179,2480,2492,12,45.93,19.93,,Chicago Mission 14U,OZ play,2
+180,2480,2492,12,45.93,19.93,,Chicago Mission 14U,Shots,2
+181,2489,2501,12,50.88,16.61,,Chicago Mission 14U,OZ play,2
+182,2489,2501,12,50.88,16.61,,Chicago Mission 14U,Shots,2
+183,2497,2509,12,30.48,12.96,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+184,2504,2516,12,40.88,24.01,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+185,2504,2516,12,40.88,24.01,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+186,2531,2543,12,43.45,4.75,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+187,2531,2543,12,51.51,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+188,2533,2545,12,43.45,4.75,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+189,2533,2545,12,43.45,4.75,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+190,2551,2563,12,55.18,8.54,,Chicago Mission 14U,OZ play,3
+191,2551,2563,12,55.18,8.54,,Chicago Mission 14U,Shots,3
+192,2572,2584,12,9.45,19.67,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+193,2591,2603,12,51.52,9.11,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+194,2591,2603,12,51.52,9.11,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+195,2601,2613,12,47.39,1.61,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+196,2601,2613,12,47.39,1.61,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+197,2677,2689,12,36.58,6.25,,Chicago Mission 14U,OZ play,3
+198,2677,2689,12,43.73,7.59,,Chicago Mission 14U,OZ play,3
+199,2695,2707,12,43.73,7.59,,Chicago Mission 14U,OZ play,3
+200,2695,2707,12,43.73,7.59,,Chicago Mission 14U,Shots,3
+201,2710,2722,12,46.2,6.93,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+202,2710,2722,12,46.2,6.93,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+203,2766,2778,12,41.34,6.83,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+204,2766,2778,12,41.34,6.83,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+205,2769,2781,12,51.79,17.65,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+206,2769,2781,12,51.79,17.65,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+207,2788,2800,12,46.38,17.84,,Chicago Mission 14U,OZ play,3
+208,2788,2800,12,46.38,17.84,,Chicago Mission 14U,Shots,3
+209,2810,2822,12,51.51,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+210,2834,2846,12,20.9,8.35,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+211,2864,2876,12,48.22,21.35,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+212,2864,2876,12,51.51,19.67,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+213,2871,2883,12,48.22,21.35,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+214,2871,2883,12,48.22,21.35,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+215,2879,2891,12,52.43,11.48,,Chicago Mission 14U,OZ play,3
+216,2879,2891,12,52.43,11.48,,Chicago Mission 14U,Shots,3
+217,2881,2893,12,2,15,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+218,2903,2915,12,44.18,7.88,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+219,2903,2915,12,44.18,7.88,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+220,2925,2937,12,51.51,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+221,2932,2944,12,47.21,16.7,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+222,2932,2944,12,47.21,16.7,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+223,2954,2966,12,55.73,10.63,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+224,2954,2966,12,55.73,10.63,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+225,2986,2998,12,9.45,19.67,,Chicago Mission 14U,OZ play,3
+226,3015,3027,12,53.08,15.94,,Chicago Mission 14U,OZ play,3
+227,3015,3027,12,53.08,15.94,,Chicago Mission 14U,Shots,3
+228,3016,3028,12,56.47,16.23,,Chicago Mission 14U,OZ play,3
+229,3016,3028,12,56.47,16.23,,Chicago Mission 14U,Shots,3
+230,3048,3060,12,24.38,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+231,3072,3084,12,50.51,4.08,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+232,3072,3084,12,50.51,4.08,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+233,3110,3122,12,46.84,5.41,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+234,3110,3122,12,46.84,5.41,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+235,3114,3126,12,53.35,14.43,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+236,3114,3126,12,53.35,14.43,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+237,3138,3150,12,9.45,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+238,3162,3174,12,49.13,16.04,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+239,3162,3174,12,49.13,16.04,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+240,3284,3296,12,51.51,19.67,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+241,3299,3311,12,49.59,21.64,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+242,3299,3311,12,49.59,21.64,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+243,3322,3334,12,44.64,24.58,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+244,3322,3334,12,51.51,19.67,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+245,3324,3336,12,44.64,24.58,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+246,3324,3336,12,44.64,24.58,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+247,3369,3381,12,54.36,6.64,,Chicago Mission 14U,OZ play,3
+248,3369,3381,12,54.36,6.64,,Chicago Mission 14U,Shots,3
+249,3370,3382,12,54.36,14.05,,Chicago Mission 14U,OZ play,3
+250,3370,3382,12,54.36,14.05,,Chicago Mission 14U,Shots,3
+251,3392,3404,12,9.45,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+252,3402,3414,12,53.81,14.52,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+253,3402,3414,12,53.81,14.52,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+254,3422,3434,12,9.45,6.25,,Chicago Mission 14U,OZ play,3
+255,3457,3469,12,46.02,15,,Chicago Mission 14U,OZ play,3
+256,3457,3469,12,46.02,15,,Chicago Mission 14U,Shots,3
+257,3469,3481,12,42.53,6.55,,Chicago Mission 14U,OZ play,3
+258,3469,3481,12,42.53,6.55,,Chicago Mission 14U,Shots,3
+259,3484,3496,12,55,3.99,,Chicago Mission 14U,OZ play,3
+260,3484,3496,12,55,3.99,,Chicago Mission 14U,Shots,3
+261,3525,3537,12,9.45,6.25,,Chicago Mission 14U,OZ play,3
+262,3638,3650,12,55.64,19.55,,Chicago Mission 14U,OZ play,3
+263,3638,3650,12,55.64,19.55,,Chicago Mission 14U,Shots,3
+264,3673,3685,12,51.51,6.25,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+265,3713,3725,12,55.18,9.87,,Ottawa Senators Womens Hockey Club U15 AA,OZ play,3
+266,3713,3725,12,55.18,9.87,,Ottawa Senators Womens Hockey Club U15 AA,Shots,3
+267,3750,3762,12,9.45,19.67,,Chicago Mission 14U,OZ play,3
+268,3760,3772,12,48.22,19.08,,Chicago Mission 14U,OZ play,3
+269,3760,3772,12,48.22,19.08,,Chicago Mission 14U,Shots,3

@@ -1,0 +1,184 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-1,11,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,1
+2,42,54,12,52.34,2.47,,Chicago Mission 19U AAA,OZ play,1
+3,42,54,12,52.34,2.47,,Chicago Mission 19U AAA,Shots,1
+4,170,182,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+5,174,186,12,45.65,15.38,,Chicago Mission 19U AAA,OZ play,1
+6,174,186,12,45.65,15.38,,Chicago Mission 19U AAA,Shots,1
+7,253,265,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,1
+8,363,375,12,41.71,25.15,,Chicago Mission 19U AAA,OZ play,1
+9,363,375,12,41.71,25.15,,Chicago Mission 19U AAA,Shots,1
+10,401,413,12,53.17,10.35,,Chicago Mission 19U AAA,OZ play,1
+11,401,413,12,53.17,10.35,,Chicago Mission 19U AAA,Shots,1
+12,425,437,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,1
+13,426,438,12,47.94,7.88,,Chicago Mission 19U AAA,OZ play,1
+14,426,438,12,47.94,7.88,,Chicago Mission 19U AAA,Shots,1
+15,458,470,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,1
+16,466,478,12,40.33,2.66,,Chicago Mission 19U AAA,OZ play,1
+17,466,478,12,40.33,2.66,,Chicago Mission 19U AAA,Shots,1
+18,480,492,12,40.43,23.82,,Chicago Mission 19U AAA,OZ play,1
+19,480,492,12,40.43,23.82,,Chicago Mission 19U AAA,Shots,1
+20,557,569,12,50.88,8.92,,Chicago Mission 19U AAA,OZ play,1
+21,557,569,12,50.88,8.92,,Chicago Mission 19U AAA,Shots,1
+22,710,722,12,51.88,9.4,,Chicago Mission 19U AAA,OZ play,1
+23,710,722,12,51.88,9.4,,Chicago Mission 19U AAA,Shots,1
+24,742,754,12,54.18,12.15,,Chicago Mission 19U AAA,OZ play,1
+25,742,754,12,54.18,12.15,,Chicago Mission 19U AAA,Shots,1
+26,868,880,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,1
+27,876,888,12,54.08,13.48,,Chicago Mission 19U AAA,OZ play,1
+28,876,888,12,54.08,13.48,,Chicago Mission 19U AAA,Shots,1
+29,889,901,12,5.04,1.33,,Chicago Mission 19U AAA,OZ play,1
+30,922,934,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+31,948,960,12,54.18,11.48,,Chicago Mission 19U AAA,Goals,1
+32,948,960,12,54.18,11.48,,Chicago Mission 19U AAA,OZ play,1
+33,948,960,12,54.18,11.48,,Chicago Mission 19U AAA,Shots,1
+34,984,996,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,1
+35,1001,1013,12,30.16,6.45,,Chicago Mission 19U AAA,OZ play,1
+36,1149,1161,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,2
+37,1164,1176,12,52.89,12.24,,Chicago Mission 19U AAA,OZ play,2
+38,1164,1176,12,52.89,12.24,,Chicago Mission 19U AAA,Shots,2
+39,1178,1190,12,42.72,13.57,,Chicago Mission 19U AAA,OZ play,2
+40,1178,1190,12,42.72,13.57,,Chicago Mission 19U AAA,Shots,2
+41,1211,1223,12,53.9,7.12,,Chicago Mission 19U AAA,OZ play,2
+42,1211,1223,12,53.9,7.12,,Chicago Mission 19U AAA,Shots,2
+43,1264,1276,12,54.54,6.45,,Oakville Jr. Hornets,OZ play,2
+44,1264,1276,12,54.54,6.45,,Oakville Jr. Hornets,Shots,2
+45,1275,1287,12,39.97,24.3,,Oakville Jr. Hornets,OZ play,2
+46,1275,1287,12,39.97,24.3,,Oakville Jr. Hornets,Shots,2
+47,1352,1364,12,48.68,22.87,,Chicago Mission 19U AAA,OZ play,2
+48,1352,1364,12,48.68,22.87,,Chicago Mission 19U AAA,Shots,2
+49,1360,1372,12,44.55,10.35,,Oakville Jr. Hornets,OZ play,2
+50,1360,1372,12,44.55,10.35,,Oakville Jr. Hornets,Shots,2
+51,1376,1388,12,59.86,13.19,,Chicago Mission 19U AAA,OZ play,2
+52,1412,1424,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,2
+53,1428,1440,12,52.53,13.86,,Chicago Mission 19U AAA,OZ play,2
+54,1428,1440,12,52.53,13.86,,Chicago Mission 19U AAA,Shots,2
+55,1449,1461,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+56,1451,1463,12,45.1,12.91,,Chicago Mission 19U AAA,OZ play,2
+57,1451,1463,12,45.1,12.91,,Chicago Mission 19U AAA,Shots,2
+58,1477,1489,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+59,1486,1498,12,54.73,15,,Chicago Mission 19U AAA,Goals,2
+60,1486,1498,12,54.73,15,,Chicago Mission 19U AAA,OZ play,2
+61,1486,1498,12,54.73,15,,Chicago Mission 19U AAA,Shots,2
+62,1528,1540,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,2
+63,1552,1564,12,52.34,11.39,,Chicago Mission 19U AAA,Goals,2
+64,1552,1564,12,52.34,11.39,,Chicago Mission 19U AAA,OZ play,2
+65,1552,1564,12,52.34,11.39,,Chicago Mission 19U AAA,Shots,2
+66,1584,1596,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,2
+67,1584,1596,12,43.45,21.35,,Chicago Mission 19U AAA,OZ play,2
+68,1589,1601,12,43.45,21.35,,Chicago Mission 19U AAA,OZ play,2
+69,1589,1601,12,43.45,21.35,,Chicago Mission 19U AAA,Shots,2
+70,1684,1696,12,56.01,7.12,,Oakville Jr. Hornets,OZ play,2
+71,1684,1696,12,56.01,7.12,,Oakville Jr. Hornets,Shots,2
+72,1705,1717,12,56.28,15.75,,Chicago Mission 19U AAA,OZ play,2
+73,1705,1717,12,56.28,15.75,,Chicago Mission 19U AAA,Shots,2
+74,1760,1772,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,2
+75,1771,1783,12,51.52,17.37,,Chicago Mission 19U AAA,OZ play,2
+76,1771,1783,12,51.52,17.37,,Chicago Mission 19U AAA,Shots,2
+77,1793,1805,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,2
+78,1797,1809,12,43.63,8.73,,Chicago Mission 19U AAA,OZ play,2
+79,1797,1809,12,43.63,8.73,,Chicago Mission 19U AAA,Shots,2
+80,1799,1811,12,54.27,14.62,,Chicago Mission 19U AAA,OZ play,2
+81,1799,1811,12,54.27,14.62,,Chicago Mission 19U AAA,Shots,2
+82,1808,1820,12,54.73,11.58,,Oakville Jr. Hornets,OZ play,2
+83,1808,1820,12,54.73,11.58,,Oakville Jr. Hornets,Shots,2
+84,1866,1878,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,2
+85,1872,1884,12,35.02,11.58,,Chicago Mission 19U AAA,OZ play,2
+86,1941,1953,12,52.89,12.15,,Chicago Mission 19U AAA,OZ play,2
+87,1941,1953,12,52.89,12.15,,Chicago Mission 19U AAA,Shots,2
+88,1972,1984,12,24.38,6.25,,Oakville Jr. Hornets,OZ play,2
+89,1976,1988,12,36.48,9.97,,Oakville Jr. Hornets,OZ play,2
+90,2019,2031,12,9.45,19.67,,Oakville Jr. Hornets,OZ play,2
+91,2038,2050,12,42.9,10.25,,Oakville Jr. Hornets,Goals,2
+92,2038,2050,12,42.9,10.25,,Oakville Jr. Hornets,OZ play,2
+93,2038,2050,12,42.9,10.25,,Oakville Jr. Hornets,Shots,2
+94,2153,2165,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,2
+95,2161,2173,12,50.6,11.77,,Chicago Mission 19U AAA,OZ play,2
+96,2161,2173,12,50.6,11.77,,Chicago Mission 19U AAA,Shots,2
+97,2180,2192,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,2
+98,2186,2198,12,51.98,12.53,,Chicago Mission 19U AAA,OZ play,2
+99,2186,2198,12,51.98,12.53,,Chicago Mission 19U AAA,Shots,2
+100,2202,2214,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+101,2207,2219,12,41.43,3.32,,Chicago Mission 19U AAA,OZ play,2
+102,2207,2219,12,41.43,3.32,,Chicago Mission 19U AAA,Shots,2
+103,2217,2229,12,46.75,21.64,,Chicago Mission 19U AAA,OZ play,2
+104,2217,2229,12,46.75,21.64,,Chicago Mission 19U AAA,Shots,2
+105,2274,2286,12,1.83,6.64,,Chicago Mission 19U AAA,OZ play,2
+106,2317,2329,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,2
+107,2330,2342,12,49.5,14.33,,Chicago Mission 19U AAA,OZ play,2
+108,2330,2342,12,49.5,14.33,,Chicago Mission 19U AAA,Shots,2
+109,2331,2343,12,53.44,12.53,,Chicago Mission 19U AAA,OZ play,2
+110,2331,2343,12,53.44,12.53,,Chicago Mission 19U AAA,Shots,2
+111,2344,2356,12,45.83,20.12,,Chicago Mission 19U AAA,OZ play,2
+112,2344,2356,12,45.83,20.12,,Chicago Mission 19U AAA,Shots,2
+113,2360,2372,12,51.43,8.07,,Chicago Mission 19U AAA,OZ play,2
+114,2360,2372,12,51.43,8.07,,Chicago Mission 19U AAA,Shots,2
+115,2410,2422,12,53.72,13.38,,Chicago Mission 19U AAA,OZ play,2
+116,2410,2422,12,53.72,13.38,,Chicago Mission 19U AAA,Shots,2
+117,2472,2484,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,2
+118,2496,2508,12,47.39,7.21,,Chicago Mission 19U AAA,OZ play,2
+119,2496,2508,12,47.39,7.21,,Chicago Mission 19U AAA,Shots,2
+120,2500,2512,12,53.44,16.7,,Chicago Mission 19U AAA,OZ play,2
+121,2500,2512,12,53.44,16.7,,Chicago Mission 19U AAA,Shots,2
+122,2523,2535,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+123,2568,2580,12,45.38,19.08,,Chicago Mission 19U AAA,OZ play,3
+124,2568,2580,12,45.38,19.08,,Chicago Mission 19U AAA,Shots,3
+125,2606,2618,12,46.48,11.67,,Oakville Jr. Hornets,OZ play,3
+126,2606,2618,12,51.51,6.25,,Oakville Jr. Hornets,OZ play,3
+127,2624,2636,12,46.48,11.67,,Oakville Jr. Hornets,OZ play,3
+128,2624,2636,12,46.48,11.67,,Oakville Jr. Hornets,Shots,3
+129,2670,2682,12,50.51,18.6,,Chicago Mission 19U AAA,OZ play,3
+130,2670,2682,12,50.51,18.6,,Chicago Mission 19U AAA,Shots,3
+131,2733,2745,12,24.38,19.67,,Chicago Mission 19U AAA,OZ play,3
+132,2762,2774,12,53.26,9.3,,Chicago Mission 19U AAA,OZ play,3
+133,2762,2774,12,53.26,9.3,,Chicago Mission 19U AAA,Shots,3
+134,2801,2813,12,44.64,1.04,,Chicago Mission 19U AAA,OZ play,3
+135,2801,2813,12,44.64,1.04,,Chicago Mission 19U AAA,Shots,3
+136,2846,2858,12,52.53,21.64,,Oakville Jr. Hornets,OZ play,3
+137,2846,2858,12,52.53,21.64,,Oakville Jr. Hornets,Shots,3
+138,2864,2876,12,53.26,7.97,,Chicago Mission 19U AAA,OZ play,3
+139,2864,2876,12,53.26,7.97,,Chicago Mission 19U AAA,Shots,3
+140,2895,2907,12,53.08,6.55,,Chicago Mission 19U AAA,OZ play,3
+141,2895,2907,12,53.08,6.55,,Chicago Mission 19U AAA,Shots,3
+142,2914,2926,12,56.01,18.41,,Chicago Mission 19U AAA,OZ play,3
+143,2914,2926,12,56.01,18.41,,Chicago Mission 19U AAA,Shots,3
+144,2938,2950,12,54.63,15.47,,Chicago Mission 19U AAA,OZ play,3
+145,2938,2950,12,54.63,15.47,,Chicago Mission 19U AAA,Shots,3
+146,2973,2985,12,52.07,15.57,,Chicago Mission 19U AAA,OZ play,3
+147,2973,2985,12,52.07,15.57,,Chicago Mission 19U AAA,Shots,3
+148,2978,2990,12,42.72,1.33,,Chicago Mission 19U AAA,OZ play,3
+149,2978,2990,12,42.72,1.33,,Chicago Mission 19U AAA,Shots,3
+150,2979,2991,12,52.53,12.72,,Chicago Mission 19U AAA,OZ play,3
+151,2979,2991,12,52.53,12.72,,Chicago Mission 19U AAA,Shots,3
+152,3005,3017,12,51.51,6.25,,Oakville Jr. Hornets,OZ play,3
+153,3101,3113,12,53.26,23.63,,Oakville Jr. Hornets,OZ play,3
+154,3101,3113,12,53.26,23.63,,Oakville Jr. Hornets,Shots,3
+155,3107,3119,12,40.15,19.65,,Oakville Jr. Hornets,OZ play,3
+156,3107,3119,12,40.15,19.65,,Oakville Jr. Hornets,Shots,3
+157,3170,3182,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,3
+158,3182,3194,12,46.29,8.16,,Chicago Mission 19U AAA,OZ play,3
+159,3182,3194,12,46.29,8.16,,Chicago Mission 19U AAA,Shots,3
+160,3255,3267,12,53.99,15,,Chicago Mission 19U AAA,OZ play,3
+161,3255,3267,12,53.99,15,,Chicago Mission 19U AAA,Shots,3
+162,3288,3300,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,3
+163,3290,3302,12,49.59,9.87,,Chicago Mission 19U AAA,OZ play,3
+164,3290,3302,12,49.59,9.87,,Chicago Mission 19U AAA,Shots,3
+165,3323,3335,12,52.43,18.41,,Chicago Mission 19U AAA,OZ play,3
+166,3323,3335,12,52.43,18.41,,Chicago Mission 19U AAA,Shots,3
+167,3332,3344,12,44.55,5.79,,Oakville Jr. Hornets,OZ play,3
+168,3332,3344,12,44.55,5.79,,Oakville Jr. Hornets,Shots,3
+169,3372,3384,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,3
+170,3381,3393,12,51.33,10.16,,Chicago Mission 19U AAA,OZ play,3
+171,3381,3393,12,51.33,10.16,,Chicago Mission 19U AAA,Shots,3
+172,3483,3495,12,24.38,19.67,,Oakville Jr. Hornets,OZ play,3
+173,3483,3495,12,51.52,17.08,,Oakville Jr. Hornets,OZ play,3
+174,3534,3546,12,51.52,17.08,,Oakville Jr. Hornets,OZ play,3
+175,3534,3546,12,51.52,17.08,,Oakville Jr. Hornets,Shots,3
+176,3557,3569,12,53.35,14.33,,Chicago Mission 19U AAA,Goals,3
+177,3557,3569,12,53.35,14.33,,Chicago Mission 19U AAA,OZ play,3
+178,3557,3569,12,53.35,14.33,,Chicago Mission 19U AAA,Shots,3
+179,3591,3603,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+180,3616,3628,12,41.16,2.18,,Chicago Mission 19U AAA,OZ play,3
+181,3616,3628,12,41.16,2.18,,Chicago Mission 19U AAA,Shots,3
+182,3629,3641,12,47.67,1.52,,Chicago Mission 19U AAA,OZ play,3
+183,3629,3641,12,47.67,1.52,,Chicago Mission 19U AAA,Shots,3

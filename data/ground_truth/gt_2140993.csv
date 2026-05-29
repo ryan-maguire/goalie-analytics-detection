@@ -1,0 +1,220 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,2,14,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,1
+2,19,31,12,53.08,9.21,,Chicago Mission 19U AAA,OZ play,1
+3,19,31,12,53.08,9.21,,Chicago Mission 19U AAA,Shots,1
+4,46,58,12,49.32,24.87,,Chicago Mission 19U AAA,OZ play,1
+5,46,58,12,49.32,24.87,,Chicago Mission 19U AAA,Shots,1
+6,104,116,12,24.38,6.25,,Chicago Mission 19U AAA,OZ play,1
+7,132,144,12,47.67,6.17,,Chicago Mission 19U AAA,OZ play,1
+8,132,144,12,47.67,6.17,,Chicago Mission 19U AAA,Shots,1
+9,153,165,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,1
+10,228,240,12,51.43,17.84,,Chicago Mission 19U AAA,OZ play,1
+11,228,240,12,51.43,17.84,,Chicago Mission 19U AAA,Shots,1
+12,293,305,12,24.38,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+13,303,315,12,56.19,7.31,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+14,303,315,12,56.19,7.31,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+15,371,383,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,1
+16,432,444,12,51.61,17.18,,Chicago Mission 19U AAA,OZ play,1
+17,432,444,12,51.61,17.18,,Chicago Mission 19U AAA,Shots,1
+18,446,458,12,51.52,13.29,,Chicago Mission 19U AAA,OZ play,1
+19,446,458,12,51.52,13.29,,Chicago Mission 19U AAA,Shots,1
+20,449,461,12,6.23,2.66,,Chicago Mission 19U AAA,OZ play,1
+21,496,508,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+22,499,511,12,54.45,16.04,,Chicago Mission 19U AAA,OZ play,1
+23,499,511,12,54.45,16.04,,Chicago Mission 19U AAA,Shots,1
+24,507,519,12,54.73,13.57,,Chicago Mission 19U AAA,OZ play,1
+25,507,519,12,54.73,13.57,,Chicago Mission 19U AAA,Shots,1
+26,559,571,12,47.85,17.84,,Chicago Mission 19U AAA,OZ play,1
+27,559,571,12,47.85,17.84,,Chicago Mission 19U AAA,Shots,1
+28,577,589,12,54.27,12.62,,Chicago Mission 19U AAA,Goals,1
+29,577,589,12,54.27,12.62,,Chicago Mission 19U AAA,OZ play,1
+30,577,589,12,54.27,12.62,,Chicago Mission 19U AAA,Shots,1
+31,614,626,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+32,637,649,12,50.23,3.7,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+33,637,649,12,50.23,3.7,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+34,705,717,12,43.45,2.09,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+35,705,717,12,43.45,2.09,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+36,734,746,12,36.58,6.25,,Chicago Mission 19U AAA,OZ play,1
+37,738,750,12,47.39,5.41,,Chicago Mission 19U AAA,OZ play,1
+38,738,750,12,47.39,5.41,,Chicago Mission 19U AAA,Shots,1
+39,755,767,12,49.04,22.59,,Chicago Mission 19U AAA,OZ play,1
+40,755,767,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,1
+41,777,789,12,49.04,22.59,,Chicago Mission 19U AAA,OZ play,1
+42,777,789,12,49.04,22.59,,Chicago Mission 19U AAA,Shots,1
+43,789,801,12,47.76,25.15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+44,827,839,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+45,839,851,12,49.41,6.07,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+46,839,851,12,49.41,6.07,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+47,869,881,12,49.13,14.33,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+48,869,881,12,49.13,14.33,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+49,878,890,12,44.09,7.4,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+50,878,890,12,44.09,7.4,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+51,903,915,12,45.74,1.04,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+52,903,915,12,45.74,1.04,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+53,923,935,12,52.62,6.74,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+54,923,935,12,52.62,6.74,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+55,926,938,12,42.44,10.06,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+56,926,938,12,42.44,10.06,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+57,955,967,12,24.38,6.25,,Chicago Mission 19U AAA,OZ play,1
+58,1040,1052,12,54.63,18.32,,Chicago Mission 19U AAA,OZ play,1
+59,1040,1052,12,54.63,18.32,,Chicago Mission 19U AAA,Shots,1
+60,1102,1114,12,24.38,19.67,,Chicago Mission 19U AAA,OZ play,1
+61,1170,1182,12,52.89,11.29,,Chicago Mission 19U AAA,OZ play,1
+62,1170,1182,12,52.89,11.29,,Chicago Mission 19U AAA,Shots,1
+63,1179,1191,12,51.98,19.17,,Chicago Mission 19U AAA,OZ play,1
+64,1179,1191,12,51.98,19.17,,Chicago Mission 19U AAA,Shots,1
+65,1188,1200,12,43.36,24.68,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+66,1283,1295,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+67,1283,1295,12,51.73,22.52,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+68,1339,1351,12,51.73,22.52,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+69,1339,1351,12,51.73,22.52,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+70,1400,1412,12,41.1,0.5,,Chicago Mission 19U AAA,OZ play,2
+71,1400,1412,12,41.1,0.5,,Chicago Mission 19U AAA,Shots,2
+72,1410,1422,12,48.74,13.04,,Chicago Mission 19U AAA,OZ play,2
+73,1410,1422,12,48.74,13.04,,Chicago Mission 19U AAA,Shots,2
+74,1417,1429,12,41.06,6.01,,Chicago Mission 19U AAA,OZ play,2
+75,1417,1429,12,41.06,6.01,,Chicago Mission 19U AAA,Shots,2
+76,1445,1457,12,39.63,0.73,,Chicago Mission 19U AAA,OZ play,2
+77,1445,1457,12,39.63,0.73,,Chicago Mission 19U AAA,Shots,2
+78,1462,1474,12,43.2,4.88,,Chicago Mission 19U AAA,OZ play,2
+79,1462,1474,12,43.2,4.88,,Chicago Mission 19U AAA,Shots,2
+80,1468,1480,12,11.53,23.9,,Chicago Mission 19U AAA,OZ play,2
+81,1506,1518,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+82,1598,1610,12,50.58,21.82,,Chicago Mission 19U AAA,OZ play,2
+83,1598,1610,12,50.58,21.82,,Chicago Mission 19U AAA,Shots,2
+84,1644,1656,12,42.13,5.58,,Chicago Mission 19U AAA,OZ play,2
+85,1644,1656,12,42.13,5.58,,Chicago Mission 19U AAA,Shots,2
+86,1668,1680,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+87,1691,1703,12,54.48,11.22,,Chicago Mission 19U AAA,OZ play,2
+88,1691,1703,12,54.48,11.22,,Chicago Mission 19U AAA,Shots,2
+89,1704,1716,12,53.82,20.27,,Chicago Mission 19U AAA,OZ play,2
+90,1704,1716,12,53.82,20.27,,Chicago Mission 19U AAA,Shots,2
+91,1708,1720,12,54.15,15.41,,Chicago Mission 19U AAA,OZ play,2
+92,1708,1720,12,54.15,15.41,,Chicago Mission 19U AAA,Shots,2
+93,1734,1746,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,2
+94,1745,1757,12,49.39,17.99,,Chicago Mission 19U AAA,OZ play,2
+95,1745,1757,12,49.39,17.99,,Chicago Mission 19U AAA,Shots,2
+96,1746,1758,12,53.95,15.58,,Chicago Mission 19U AAA,OZ play,2
+97,1746,1758,12,53.95,15.58,,Chicago Mission 19U AAA,Shots,2
+98,1798,1810,12,36.58,19.67,,Chicago Mission 19U AAA,OZ play,2
+99,1806,1818,12,56.16,5.51,,Chicago Mission 19U AAA,OZ play,2
+100,1806,1818,12,56.16,5.51,,Chicago Mission 19U AAA,Shots,2
+101,1822,1834,12,45.04,19.04,,Chicago Mission 19U AAA,OZ play,2
+102,1822,1834,12,45.04,19.04,,Chicago Mission 19U AAA,Shots,2
+103,1839,1851,12,42.5,12.21,,Chicago Mission 19U AAA,OZ play,2
+104,1839,1851,12,42.5,12.21,,Chicago Mission 19U AAA,Shots,2
+105,1852,1864,12,46.07,15.71,,Chicago Mission 19U AAA,OZ play,2
+106,1852,1864,12,46.07,15.71,,Chicago Mission 19U AAA,Shots,2
+107,1918,1930,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,2
+108,1937,1949,12,54.52,2.31,,Chicago Mission 19U AAA,OZ play,2
+109,1937,1949,12,54.52,2.31,,Chicago Mission 19U AAA,Shots,2
+110,1983,1995,12,49.68,17.3,,Chicago Mission 19U AAA,OZ play,2
+111,1983,1995,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+112,1987,1999,12,49.68,17.3,,Chicago Mission 19U AAA,OZ play,2
+113,1987,1999,12,49.68,17.3,,Chicago Mission 19U AAA,Shots,2
+114,2004,2016,12,54.87,19.33,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+115,2049,2061,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+116,2053,2065,12,53.08,6.83,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+117,2053,2065,12,53.08,6.83,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+118,2076,2088,12,51.61,17.08,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+119,2076,2088,12,51.61,17.08,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+120,2093,2105,12,54.36,16.42,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+121,2093,2105,12,54.36,16.42,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+122,2105,2117,12,5.87,11.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+123,2109,2121,12,40.06,7.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+124,2109,2121,12,40.06,7.97,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+125,2151,2163,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+126,2158,2170,12,54.54,13.29,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+127,2158,2170,12,54.54,13.29,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+128,2173,2185,12,45.65,19.74,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+129,2173,2185,12,45.65,19.74,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+130,2195,2207,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+131,2275,2287,12,52.07,24.01,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+132,2275,2287,12,52.07,24.01,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+133,2306,2318,12,50.23,11.39,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+134,2306,2318,12,50.23,11.39,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+135,2350,2362,12,52.71,9.02,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+136,2350,2362,12,52.71,9.02,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+137,2380,2392,12,50.14,5.6,,Chicago Mission 19U AAA,OZ play,2
+138,2380,2392,12,50.14,5.6,,Chicago Mission 19U AAA,Shots,2
+139,2388,2400,12,46.66,6.26,,Chicago Mission 19U AAA,OZ play,2
+140,2388,2400,12,46.66,6.26,,Chicago Mission 19U AAA,Shots,2
+141,2395,2407,12,40.06,5.98,,Chicago Mission 19U AAA,OZ play,2
+142,2395,2407,12,40.06,5.98,,Chicago Mission 19U AAA,Shots,2
+143,2427,2439,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+144,2455,2467,12,53.08,12.72,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+145,2455,2467,12,53.08,12.72,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+146,2455,2467,12,53.08,12.72,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+147,2502,2514,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+148,2560,2572,12,53.17,17.75,,Chicago Mission 19U AAA,OZ play,3
+149,2560,2572,12,53.17,17.75,,Chicago Mission 19U AAA,Shots,3
+150,2578,2590,12,46.02,20.22,,Chicago Mission 19U AAA,OZ play,3
+151,2578,2590,12,46.02,20.22,,Chicago Mission 19U AAA,Shots,3
+152,2632,2644,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,3
+153,2636,2648,12,44.47,8.03,,Chicago Mission 19U AAA,OZ play,3
+154,2636,2648,12,44.47,8.03,,Chicago Mission 19U AAA,Shots,3
+155,2644,2656,12,54.36,15.85,,Chicago Mission 19U AAA,Goals,3
+156,2644,2656,12,54.36,15.85,,Chicago Mission 19U AAA,OZ play,3
+157,2644,2656,12,54.36,15.85,,Chicago Mission 19U AAA,Shots,3
+158,2676,2688,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+159,2687,2699,12,46.84,11.2,,Chicago Mission 19U AAA,OZ play,3
+160,2687,2699,12,46.84,11.2,,Chicago Mission 19U AAA,Shots,3
+161,2722,2734,12,45.65,10.53,,Chicago Mission 19U AAA,OZ play,3
+162,2722,2734,12,45.65,10.53,,Chicago Mission 19U AAA,Shots,3
+163,2764,2776,12,53.72,8.35,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+164,2764,2776,12,53.72,8.35,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+165,2764,2776,12,53.72,8.35,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+166,2855,2867,12,36.58,6.25,,Chicago Mission 19U AAA,OZ play,3
+167,2901,2913,12,53.99,14.81,,Chicago Mission 19U AAA,OZ play,3
+168,2901,2913,12,53.99,14.81,,Chicago Mission 19U AAA,Shots,3
+169,2925,2937,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,3
+170,2934,2946,12,40.7,21.35,,Chicago Mission 19U AAA,OZ play,3
+171,2934,2946,12,40.7,21.35,,Chicago Mission 19U AAA,Shots,3
+172,3028,3040,12,53.72,12.91,,Chicago Mission 19U AAA,OZ play,3
+173,3028,3040,12,53.72,12.91,,Chicago Mission 19U AAA,Shots,3
+174,3029,3041,12,54.73,12.05,,Chicago Mission 19U AAA,OZ play,3
+175,3029,3041,12,54.73,12.05,,Chicago Mission 19U AAA,Shots,3
+176,3056,3068,12,56.38,9.4,,Chicago Mission 19U AAA,OZ play,3
+177,3056,3068,12,56.38,9.4,,Chicago Mission 19U AAA,Shots,3
+178,3062,3074,12,51.79,16.04,,Chicago Mission 19U AAA,OZ play,3
+179,3062,3074,12,51.79,16.04,,Chicago Mission 19U AAA,Shots,3
+180,3070,3082,12,42.35,2.75,,Chicago Mission 19U AAA,OZ play,3
+181,3070,3082,12,42.35,2.75,,Chicago Mission 19U AAA,Shots,3
+182,3123,3135,12,35.11,2.09,,Chicago Mission 19U AAA,OZ play,3
+183,3123,3135,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,3
+184,3130,3142,12,35.11,2.09,,Chicago Mission 19U AAA,OZ play,3
+185,3130,3142,12,35.11,2.09,,Chicago Mission 19U AAA,Shots,3
+186,3143,3155,12,48.13,9.02,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+187,3143,3155,12,48.13,9.02,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+188,3182,3194,12,46.66,8.26,,Chicago Mission 19U AAA,OZ play,3
+189,3182,3194,12,46.66,8.26,,Chicago Mission 19U AAA,Shots,3
+190,3197,3209,12,54.18,13.48,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+191,3197,3209,12,54.18,13.48,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+192,3233,3245,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,3
+193,3238,3250,12,55.46,3.13,,Chicago Mission 19U AAA,OZ play,3
+194,3238,3250,12,55.46,3.13,,Chicago Mission 19U AAA,Shots,3
+195,3239,3251,12,56.47,10.25,,Chicago Mission 19U AAA,OZ play,3
+196,3239,3251,12,56.47,10.25,,Chicago Mission 19U AAA,Shots,3
+197,3310,3322,12,24.38,6.25,,Chicago Mission 19U AAA,OZ play,3
+198,3315,3327,12,46.02,5.41,,Chicago Mission 19U AAA,OZ play,3
+199,3315,3327,12,46.02,5.41,,Chicago Mission 19U AAA,Shots,3
+200,3355,3367,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,3
+201,3363,3375,12,41.34,3.99,,Chicago Mission 19U AAA,OZ play,3
+202,3363,3375,12,41.34,3.99,,Chicago Mission 19U AAA,Shots,3
+203,3388,3400,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,3
+204,3428,3440,12,55.73,21.64,,Chicago Mission 19U AAA,OZ play,3
+205,3428,3440,12,55.73,21.64,,Chicago Mission 19U AAA,Shots,3
+206,3454,3466,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+207,3468,3480,12,47.39,10.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+208,3468,3480,12,47.39,10.25,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+209,3493,3505,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+210,3493,3505,12,54.08,22.3,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+211,3594,3606,12,54.08,22.3,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+212,3594,3606,12,54.08,22.3,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+213,3605,3617,12,45.83,8.83,,Chicago Mission 19U AAA,OZ play,3
+214,3605,3617,12,45.83,8.83,,Chicago Mission 19U AAA,Shots,3
+215,3629,3641,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,3
+216,3648,3660,12,40.52,17.18,,Chicago Mission 19U AAA,OZ play,3
+217,3648,3660,12,40.52,17.18,,Chicago Mission 19U AAA,Shots,3
+218,3676,3688,12,55.46,15.19,,Chicago Mission 19U AAA,OZ play,3
+219,3676,3688,12,55.46,15.19,,Chicago Mission 19U AAA,Shots,3

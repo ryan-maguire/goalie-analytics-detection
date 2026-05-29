@@ -1,0 +1,209 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-6,6,12,30.48,12.96,,Burlington Barracudas U18 AA,OZ play,1
+2,-5,7,12,,,,Burlington Barracudas U18 AA,OZ play,1
+3,3,15,12,52.53,16.99,,Burlington Barracudas U18 AA,OZ play,1
+4,3,15,12,52.53,16.99,,Burlington Barracudas U18 AA,Shots,1
+5,20,32,12,9.45,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+6,46,58,12,52.16,8.64,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+7,46,58,12,52.16,8.64,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+8,52,64,12,40.43,22.21,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+9,52,64,12,40.43,22.21,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+10,65,77,12,48.22,10.44,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+11,65,77,12,48.22,10.44,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+12,91,103,12,44.73,7.12,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+13,91,103,12,44.73,7.12,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+14,117,129,12,9.45,19.67,,Burlington Barracudas U18 AA,OZ play,1
+15,153,165,12,52.53,19.84,,Burlington Barracudas U18 AA,OZ play,1
+16,153,165,12,52.53,19.84,,Burlington Barracudas U18 AA,Shots,1
+17,269,281,12,51.51,6.25,,Burlington Barracudas U18 AA,OZ play,1
+18,273,285,12,39.51,18.7,,Burlington Barracudas U18 AA,OZ play,1
+19,273,285,12,39.51,18.7,,Burlington Barracudas U18 AA,Shots,1
+20,278,290,12,45.19,24.2,,Burlington Barracudas U18 AA,OZ play,1
+21,278,290,12,45.19,24.2,,Burlington Barracudas U18 AA,Shots,1
+22,285,297,12,57.48,15.57,,Burlington Barracudas U18 AA,OZ play,1
+23,285,297,12,57.48,15.57,,Burlington Barracudas U18 AA,Shots,1
+24,305,317,12,50.69,21.45,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+25,305,317,12,50.69,21.45,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+26,320,332,12,52.34,17.56,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+27,320,332,12,52.34,17.56,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+28,333,345,12,40.7,23.82,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+29,333,345,12,40.7,23.82,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+30,521,533,12,51.51,6.25,,Burlington Barracudas U18 AA,OZ play,1
+31,592,604,12,56.1,10.16,,Burlington Barracudas U18 AA,OZ play,1
+32,592,604,12,56.1,10.16,,Burlington Barracudas U18 AA,Shots,1
+33,613,625,12,47.21,24.39,,Burlington Barracudas U18 AA,OZ play,1
+34,613,625,12,47.21,24.39,,Burlington Barracudas U18 AA,Shots,1
+35,637,649,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,1
+36,661,673,12,42.63,1.33,,Burlington Barracudas U18 AA,OZ play,1
+37,661,673,12,42.63,1.33,,Burlington Barracudas U18 AA,Shots,1
+38,676,688,12,54.91,19.08,,Burlington Barracudas U18 AA,OZ play,1
+39,676,688,12,54.91,19.08,,Burlington Barracudas U18 AA,Shots,1
+40,698,710,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,1
+41,727,739,12,56.38,16.04,,Burlington Barracudas U18 AA,OZ play,1
+42,727,739,12,56.38,16.04,,Burlington Barracudas U18 AA,Shots,1
+43,889,901,12,9.45,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+44,900,912,12,49.04,19.65,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+45,900,912,12,49.04,19.65,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+46,910,922,12,40.79,4.37,,Pittsburgh Penguins Elite 16U Girls,OZ play,1
+47,910,922,12,40.79,4.37,,Pittsburgh Penguins Elite 16U Girls,Shots,1
+48,940,952,12,2,15,,Burlington Barracudas U18 AA,OZ play,1
+49,944,956,12,41.8,24.58,,Burlington Barracudas U18 AA,OZ play,1
+50,944,956,12,41.8,24.58,,Burlington Barracudas U18 AA,Shots,1
+51,948,960,12,55.46,14.05,,Burlington Barracudas U18 AA,OZ play,1
+52,948,960,12,55.46,14.05,,Burlington Barracudas U18 AA,Shots,1
+53,950,962,12,44,21.16,,Burlington Barracudas U18 AA,OZ play,1
+54,950,962,12,44,21.16,,Burlington Barracudas U18 AA,Shots,1
+55,958,970,12,49.23,10.35,,Burlington Barracudas U18 AA,OZ play,1
+56,958,970,12,49.23,10.35,,Burlington Barracudas U18 AA,Shots,1
+57,980,992,12,47.58,12.91,,Burlington Barracudas U18 AA,OZ play,1
+58,980,992,12,47.58,12.91,,Burlington Barracudas U18 AA,Shots,1
+59,1111,1123,12,30.48,12.96,,Burlington Barracudas U18 AA,OZ play,2
+60,1125,1137,12,42.35,23.06,,Burlington Barracudas U18 AA,OZ play,2
+61,1125,1137,12,42.35,23.06,,Burlington Barracudas U18 AA,Shots,2
+62,1153,1165,12,9.45,6.25,,Burlington Barracudas U18 AA,OZ play,2
+63,1177,1189,12,52.8,23.63,,Burlington Barracudas U18 AA,OZ play,2
+64,1177,1189,12,52.8,23.63,,Burlington Barracudas U18 AA,Shots,2
+65,1202,1214,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,2
+66,1203,1215,12,42.53,20.41,,Burlington Barracudas U18 AA,OZ play,2
+67,1203,1215,12,42.53,20.41,,Burlington Barracudas U18 AA,Shots,2
+68,1245,1257,12,2,15,,Burlington Barracudas U18 AA,OZ play,2
+69,1252,1264,12,47.12,6.26,,Burlington Barracudas U18 AA,OZ play,2
+70,1252,1264,12,47.12,6.26,,Burlington Barracudas U18 AA,Shots,2
+71,1290,1302,12,36.58,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+72,1290,1302,12,48.68,20.88,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+73,1310,1322,12,48.68,20.88,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+74,1310,1322,12,48.68,20.88,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+75,1382,1394,12,49.32,24.77,,Burlington Barracudas U18 AA,OZ play,2
+76,1382,1394,12,49.32,24.77,,Burlington Barracudas U18 AA,Shots,2
+77,1396,1408,12,55.55,14.33,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+78,1396,1408,12,55.55,14.33,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+79,1412,1424,12,55,13.67,,Pittsburgh Penguins Elite 16U Girls,Goals,2
+80,1412,1424,12,55,13.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+81,1412,1424,12,55,13.67,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+82,1468,1480,12,36.58,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+83,1505,1517,12,54.54,20.69,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+84,1505,1517,12,54.54,20.69,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+85,1575,1587,12,51.51,6.25,,Burlington Barracudas U18 AA,OZ play,2
+86,1578,1590,12,57.66,5.22,,Burlington Barracudas U18 AA,OZ play,2
+87,1578,1590,12,57.66,5.22,,Burlington Barracudas U18 AA,Shots,2
+88,1601,1613,12,9.45,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+89,1644,1656,12,42.37,21.96,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+90,1644,1656,12,42.37,21.96,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+91,1682,1694,12,43.81,17.82,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+92,1682,1694,12,43.81,17.82,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+93,1720,1732,12,9.45,19.67,,Burlington Barracudas U18 AA,OZ play,2
+94,1728,1740,12,47.68,3.19,,Burlington Barracudas U18 AA,OZ play,2
+95,1728,1740,12,47.68,3.19,,Burlington Barracudas U18 AA,Shots,2
+96,1742,1754,12,51.51,6.25,,Burlington Barracudas U18 AA,OZ play,2
+97,1747,1759,12,51.63,15.17,,Burlington Barracudas U18 AA,OZ play,2
+98,1747,1759,12,51.63,15.17,,Burlington Barracudas U18 AA,Shots,2
+99,1748,1760,12,54.27,13.23,,Burlington Barracudas U18 AA,OZ play,2
+100,1748,1760,12,54.27,13.23,,Burlington Barracudas U18 AA,Shots,2
+101,1770,1782,12,15.83,25.6,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+102,1802,1814,12,51.51,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+103,1828,1840,12,52.95,17.97,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+104,1828,1840,12,52.95,17.97,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+105,1872,1884,12,46.83,22.95,,Pittsburgh Penguins Elite 16U Girls,OZ play,2
+106,1872,1884,12,46.83,22.95,,Pittsburgh Penguins Elite 16U Girls,Shots,2
+107,1893,1905,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,2
+108,1959,1971,12,56.44,4.98,,Burlington Barracudas U18 AA,OZ play,2
+109,1959,1971,12,56.44,4.98,,Burlington Barracudas U18 AA,Shots,2
+110,1982,1994,12,41.08,7.86,,Burlington Barracudas U18 AA,OZ play,2
+111,1982,1994,12,41.08,7.86,,Burlington Barracudas U18 AA,Shots,2
+112,2007,2019,12,9.45,6.25,,Burlington Barracudas U18 AA,OZ play,2
+113,2056,2068,12,55.97,15.95,,Burlington Barracudas U18 AA,OZ play,2
+114,2056,2068,12,55.97,15.95,,Burlington Barracudas U18 AA,Shots,2
+115,2078,2090,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,2
+116,2086,2098,12,54.27,25.05,,Burlington Barracudas U18 AA,OZ play,2
+117,2086,2098,12,54.27,25.05,,Burlington Barracudas U18 AA,Shots,2
+118,2101,2113,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,2
+119,2105,2117,12,53.33,13.62,,Burlington Barracudas U18 AA,OZ play,2
+120,2105,2117,12,53.33,13.62,,Burlington Barracudas U18 AA,Shots,2
+121,2208,2220,12,57.57,10.43,,Burlington Barracudas U18 AA,OZ play,2
+122,2208,2220,12,57.57,10.43,,Burlington Barracudas U18 AA,Shots,2
+123,2215,2227,12,23.08,4.59,,Burlington Barracudas U18 AA,OZ play,2
+124,2260,2272,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,2
+125,2321,2333,12,50.6,2.49,,Burlington Barracudas U18 AA,OZ play,2
+126,2321,2333,12,50.6,2.49,,Burlington Barracudas U18 AA,Shots,2
+127,2367,2379,12,30.48,12.96,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+128,2430,2442,12,55.55,7.69,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+129,2430,2442,12,55.55,7.69,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+130,2493,2505,12,9.45,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+131,2555,2567,12,46.38,9.21,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+132,2555,2567,12,46.38,9.21,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+133,2573,2585,12,9.45,19.67,,Burlington Barracudas U18 AA,OZ play,3
+134,2583,2595,12,55.83,20.69,,Burlington Barracudas U18 AA,OZ play,3
+135,2583,2595,12,55.83,20.69,,Burlington Barracudas U18 AA,Shots,3
+136,2588,2600,12,36.58,22.11,,Burlington Barracudas U18 AA,OZ play,3
+137,2588,2600,12,36.58,22.11,,Burlington Barracudas U18 AA,Shots,3
+138,2590,2602,12,36.58,22.11,,Burlington Barracudas U18 AA,OZ play,3
+139,2591,2603,12,53.26,16.8,,Burlington Barracudas U18 AA,OZ play,3
+140,2591,2603,12,53.26,16.8,,Burlington Barracudas U18 AA,Shots,3
+141,2644,2656,12,45.01,15.38,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+142,2644,2656,12,45.01,15.38,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+143,2692,2704,12,52.8,17.27,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+144,2692,2704,12,52.8,17.27,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+145,2702,2714,12,40.98,14.24,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+146,2702,2714,12,40.98,14.24,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+147,2731,2743,12,39.88,24.68,,Burlington Barracudas U18 AA,OZ play,3
+148,2731,2743,12,39.88,24.68,,Burlington Barracudas U18 AA,Shots,3
+149,2833,2845,12,9.45,19.67,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+150,2844,2856,12,55.92,9.97,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+151,2844,2856,12,55.92,9.97,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+152,2848,2860,12,55.09,14.05,,Pittsburgh Penguins Elite 16U Girls,Goals,3
+153,2848,2860,12,55.09,14.05,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+154,2848,2860,12,55.09,14.05,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+155,2882,2894,12,30.48,12.96,,Burlington Barracudas U18 AA,OZ play,3
+156,2989,3001,12,44.64,7.4,,Burlington Barracudas U18 AA,OZ play,3
+157,2989,3001,12,44.64,7.4,,Burlington Barracudas U18 AA,Shots,3
+158,3010,3022,12,51.51,6.25,,Burlington Barracudas U18 AA,OZ play,3
+159,3016,3028,12,57.48,16.51,,Burlington Barracudas U18 AA,OZ play,3
+160,3016,3028,12,57.48,16.51,,Burlington Barracudas U18 AA,Shots,3
+161,3019,3031,12,48.95,21.92,,Burlington Barracudas U18 AA,OZ play,3
+162,3019,3031,12,48.95,21.92,,Burlington Barracudas U18 AA,Shots,3
+163,3034,3046,12,53.63,18.13,,Burlington Barracudas U18 AA,OZ play,3
+164,3034,3046,12,53.63,18.13,,Burlington Barracudas U18 AA,Shots,3
+165,3038,3050,12,51.52,12.53,,Burlington Barracudas U18 AA,Goals,3
+166,3038,3050,12,51.52,12.53,,Burlington Barracudas U18 AA,OZ play,3
+167,3038,3050,12,51.52,12.53,,Burlington Barracudas U18 AA,Shots,3
+168,3070,3082,12,30.48,12.96,,Burlington Barracudas U18 AA,OZ play,3
+169,3097,3109,12,59.68,8.73,,Burlington Barracudas U18 AA,OZ play,3
+170,3140,3152,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,3
+171,3142,3154,12,44.37,23.44,,Burlington Barracudas U18 AA,OZ play,3
+172,3142,3154,12,44.37,23.44,,Burlington Barracudas U18 AA,Shots,3
+173,3150,3162,12,42.17,4.46,,Burlington Barracudas U18 AA,OZ play,3
+174,3150,3162,12,42.17,4.46,,Burlington Barracudas U18 AA,Shots,3
+175,3182,3194,12,9.45,19.67,,Burlington Barracudas U18 AA,OZ play,3
+176,3198,3210,12,53.81,13.29,,Burlington Barracudas U18 AA,OZ play,3
+177,3198,3210,12,53.81,13.29,,Burlington Barracudas U18 AA,Shots,3
+178,3213,3225,12,2,15,,Burlington Barracudas U18 AA,OZ play,3
+179,3218,3230,12,19.53,0.38,,Burlington Barracudas U18 AA,OZ play,3
+180,3256,3268,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,3
+181,3259,3271,12,49.5,13.95,,Burlington Barracudas U18 AA,OZ play,3
+182,3259,3271,12,49.5,13.95,,Burlington Barracudas U18 AA,Shots,3
+183,3276,3288,12,2,15,,Burlington Barracudas U18 AA,OZ play,3
+184,3299,3311,12,54.91,17.46,,Burlington Barracudas U18 AA,OZ play,3
+185,3299,3311,12,54.91,17.46,,Burlington Barracudas U18 AA,Shots,3
+186,3324,3336,12,52.98,22.68,,Burlington Barracudas U18 AA,OZ play,3
+187,3324,3336,12,52.98,22.68,,Burlington Barracudas U18 AA,Shots,3
+188,3347,3359,12,9.45,6.25,,Burlington Barracudas U18 AA,OZ play,3
+189,3352,3364,12,52.62,24.49,,Burlington Barracudas U18 AA,OZ play,3
+190,3352,3364,12,52.62,24.49,,Burlington Barracudas U18 AA,Shots,3
+191,3375,3387,12,48.22,7.21,,Burlington Barracudas U18 AA,OZ play,3
+192,3375,3387,12,48.22,7.21,,Burlington Barracudas U18 AA,Shots,3
+193,3401,3413,12,47.58,19.74,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+194,3401,3413,12,51.51,6.25,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+195,3471,3483,12,47.58,19.74,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+196,3471,3483,12,47.58,19.74,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+197,3524,3536,12,55.09,19.55,,Burlington Barracudas U18 AA,OZ play,3
+198,3524,3536,12,55.09,19.55,,Burlington Barracudas U18 AA,Shots,3
+199,3550,3562,12,51.51,19.67,,Burlington Barracudas U18 AA,OZ play,3
+200,3550,3562,12,54.27,14.9,,Burlington Barracudas U18 AA,OZ play,3
+201,3561,3573,12,54.27,14.9,,Burlington Barracudas U18 AA,OZ play,3
+202,3561,3573,12,54.27,14.9,,Burlington Barracudas U18 AA,Shots,3
+203,3574,3586,12,49.59,13.29,,Pittsburgh Penguins Elite 16U Girls,Goals,3
+204,3574,3586,12,49.59,13.29,,Pittsburgh Penguins Elite 16U Girls,OZ play,3
+205,3574,3586,12,49.59,13.29,,Pittsburgh Penguins Elite 16U Girls,Shots,3
+206,3607,3619,12,30.48,12.96,,Burlington Barracudas U18 AA,OZ play,3
+207,3614,3626,12,53.72,23.73,,Burlington Barracudas U18 AA,OZ play,3
+208,3614,3626,12,53.72,23.73,,Burlington Barracudas U18 AA,Shots,3

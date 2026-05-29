@@ -1,0 +1,184 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-6,6,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+2,49,61,12,56.1,9.59,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+3,49,61,12,56.1,9.59,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+4,57,69,12,52.98,7.21,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+5,57,69,12,52.98,7.21,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+6,70,82,12,51.7,14.05,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+7,70,82,12,51.7,14.05,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+8,107,119,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+9,177,189,12,54.91,12.53,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+10,177,189,12,54.91,12.53,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+11,182,194,12,9.45,6.25,,Toronto Leaside Jr. Wildcats,OZ play,1
+12,217,229,12,50.69,20.6,,Toronto Leaside Jr. Wildcats,OZ play,1
+13,217,229,12,50.69,20.6,,Toronto Leaside Jr. Wildcats,Shots,1
+14,221,233,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+15,221,233,12,54.82,14.24,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+16,240,252,12,54.82,14.24,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+17,240,252,12,54.82,14.24,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+18,310,322,12,54.18,6.45,,Toronto Leaside Jr. Wildcats,OZ play,1
+19,310,322,12,54.18,6.45,,Toronto Leaside Jr. Wildcats,Shots,1
+20,316,328,12,49.23,20.88,,Toronto Leaside Jr. Wildcats,OZ play,1
+21,316,328,12,49.23,20.88,,Toronto Leaside Jr. Wildcats,Shots,1
+22,325,337,12,42.72,16.23,,Toronto Leaside Jr. Wildcats,OZ play,1
+23,325,337,12,42.72,16.23,,Toronto Leaside Jr. Wildcats,Shots,1
+24,332,344,12,44.37,19.84,,Toronto Leaside Jr. Wildcats,OZ play,1
+25,332,344,12,44.37,19.84,,Toronto Leaside Jr. Wildcats,Shots,1
+26,363,375,12,50.97,4.27,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+27,363,375,12,50.97,4.27,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+28,392,404,12,48.13,20.78,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+29,392,404,12,48.13,20.78,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+30,470,482,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+31,516,528,12,46.66,4.56,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+32,516,528,12,46.66,4.56,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+33,521,533,12,44.55,14.33,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+34,521,533,12,44.55,14.33,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+35,533,545,12,9.45,6.25,,Toronto Leaside Jr. Wildcats,OZ play,1
+36,566,578,12,40.7,13.86,,Toronto Leaside Jr. Wildcats,OZ play,1
+37,566,578,12,40.7,13.86,,Toronto Leaside Jr. Wildcats,Shots,1
+38,585,597,12,49.68,3.13,,Toronto Leaside Jr. Wildcats,OZ play,1
+39,590,602,12,47.85,14.24,,Toronto Leaside Jr. Wildcats,OZ play,1
+40,590,602,12,47.85,14.24,,Toronto Leaside Jr. Wildcats,Shots,1
+41,591,603,12,6.14,14.43,,Toronto Leaside Jr. Wildcats,OZ play,1
+42,597,609,12,51.51,6.25,,Toronto Leaside Jr. Wildcats,OZ play,1
+43,603,615,12,45.65,13.95,,Toronto Leaside Jr. Wildcats,OZ play,1
+44,603,615,12,45.65,13.95,,Toronto Leaside Jr. Wildcats,Shots,1
+45,668,680,12,52.07,22.59,,Toronto Leaside Jr. Wildcats,OZ play,1
+46,668,680,12,52.07,22.59,,Toronto Leaside Jr. Wildcats,Shots,1
+47,760,772,12,56.38,8.54,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+48,760,772,12,56.38,8.54,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+49,852,864,12,36.58,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+50,879,891,12,55.64,8.35,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+51,879,891,12,55.64,8.35,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+52,918,930,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+53,943,955,12,58.94,20.69,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+54,975,987,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+55,998,1010,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+56,1005,1017,12,50.97,3.32,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+57,1005,1017,12,50.97,3.32,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+58,1037,1049,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+59,1037,1049,12,45.1,8.26,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+60,1061,1073,12,45.1,8.26,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+61,1061,1073,12,45.1,8.26,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+62,1121,1133,12,55.28,14.24,,Toronto Leaside Jr. Wildcats,Goals,2
+63,1121,1133,12,55.28,14.24,,Toronto Leaside Jr. Wildcats,OZ play,2
+64,1121,1133,12,55.28,14.24,,Toronto Leaside Jr. Wildcats,Shots,2
+65,1171,1183,12,9.45,6.25,,Toronto Leaside Jr. Wildcats,OZ play,2
+66,1196,1208,12,48.4,14.71,,Toronto Leaside Jr. Wildcats,OZ play,2
+67,1196,1208,12,48.4,14.71,,Toronto Leaside Jr. Wildcats,Shots,2
+68,1200,1212,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+69,1220,1232,12,50.42,6.93,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+70,1220,1232,12,50.42,6.93,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+71,1225,1237,12,40.61,2.85,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+72,1225,1237,12,40.61,2.85,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+73,1230,1242,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+74,1280,1292,12,49.5,4.84,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+75,1280,1292,12,49.5,4.84,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+76,1284,1296,12,51.51,6.25,,Toronto Leaside Jr. Wildcats,OZ play,2
+77,1393,1405,12,7.06,17.94,,Toronto Leaside Jr. Wildcats,OZ play,2
+78,1401,1413,12,51.51,19.67,,Toronto Leaside Jr. Wildcats,OZ play,2
+79,1409,1421,12,49.13,3.13,,Toronto Leaside Jr. Wildcats,OZ play,2
+80,1409,1421,12,49.13,3.13,,Toronto Leaside Jr. Wildcats,Shots,2
+81,1410,1422,12,55.55,10.25,,Toronto Leaside Jr. Wildcats,OZ play,2
+82,1410,1422,12,55.55,10.25,,Toronto Leaside Jr. Wildcats,Shots,2
+83,1436,1448,12,42.9,12.53,,Toronto Leaside Jr. Wildcats,OZ play,2
+84,1436,1448,12,42.9,12.53,,Toronto Leaside Jr. Wildcats,Shots,2
+85,1441,1453,12,51.51,19.67,,Toronto Leaside Jr. Wildcats,OZ play,2
+86,1457,1469,12,48.4,19.93,,Toronto Leaside Jr. Wildcats,OZ play,2
+87,1457,1469,12,48.4,19.93,,Toronto Leaside Jr. Wildcats,Shots,2
+88,1459,1471,12,51.51,19.67,,Toronto Leaside Jr. Wildcats,OZ play,2
+89,1508,1520,12,41.43,5.03,,Toronto Leaside Jr. Wildcats,Goals,2
+90,1508,1520,12,41.43,5.03,,Toronto Leaside Jr. Wildcats,OZ play,2
+91,1508,1520,12,41.43,5.03,,Toronto Leaside Jr. Wildcats,Shots,2
+92,1511,1523,12,30.48,12.96,,Toronto Leaside Jr. Wildcats,OZ play,2
+93,1527,1539,12,56.93,16.23,,Toronto Leaside Jr. Wildcats,OZ play,2
+94,1527,1539,12,56.93,16.23,,Toronto Leaside Jr. Wildcats,Shots,2
+95,1550,1562,12,44.37,5.69,,Toronto Leaside Jr. Wildcats,OZ play,2
+96,1550,1562,12,44.37,5.69,,Toronto Leaside Jr. Wildcats,Shots,2
+97,1556,1568,12,45.38,12.72,,Toronto Leaside Jr. Wildcats,OZ play,2
+98,1556,1568,12,45.38,12.72,,Toronto Leaside Jr. Wildcats,Shots,2
+99,1563,1575,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+100,1573,1585,12,20.72,3.13,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+101,1573,1585,12,46.2,23.63,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+102,1573,1585,12,46.2,23.63,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+103,1582,1594,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+104,1607,1619,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+105,1615,1627,12,55.55,19.08,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+106,1615,1627,12,55.55,19.08,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+107,1619,1631,12,41.98,15.19,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+108,1619,1631,12,41.98,15.19,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+109,1733,1745,12,24.38,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+110,1741,1753,12,47.94,20.41,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+111,1741,1753,12,47.94,20.41,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+112,1757,1769,12,24.38,19.67,,Toronto Leaside Jr. Wildcats,OZ play,2
+113,1770,1782,12,45.19,2.09,,Toronto Leaside Jr. Wildcats,OZ play,2
+114,1770,1782,12,45.19,2.09,,Toronto Leaside Jr. Wildcats,Shots,2
+115,1778,1790,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+116,1799,1811,12,43.63,20.6,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+117,1799,1811,12,43.63,20.6,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+118,1861,1873,12,40.98,3.8,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+119,1861,1873,12,40.98,3.8,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+120,1876,1888,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+121,1882,1894,12,49.68,1.71,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+122,1882,1894,12,49.68,1.71,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+123,1885,1897,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+124,1889,1901,12,51.88,11.58,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+125,1889,1901,12,51.88,11.58,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+126,1895,1907,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+127,1950,1962,12,51.24,13.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+128,1950,1962,12,51.24,13.67,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+129,1967,1979,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+130,1974,1986,12,48.13,12.43,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+131,1974,1986,12,48.13,12.43,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+132,1996,2008,12,53.35,2.94,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+133,1996,2008,12,53.35,2.94,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+134,2047,2059,12,50.42,16.23,,Toronto Leaside Jr. Wildcats,OZ play,3
+135,2047,2059,12,50.42,16.23,,Toronto Leaside Jr. Wildcats,Shots,3
+136,2073,2085,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+137,2133,2145,12,4.95,19.93,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+138,2151,2163,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+139,2151,2163,12,54.91,17.18,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+140,2177,2189,12,54.91,17.18,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+141,2177,2189,12,54.91,17.18,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+142,2185,2197,12,24.66,9.02,,Toronto Leaside Jr. Wildcats,OZ play,3
+143,2191,2203,12,48.58,17.56,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+144,2191,2203,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+145,2249,2261,12,48.58,17.56,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+146,2249,2261,12,48.58,17.56,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+147,2271,2283,12,48.22,21.45,,Toronto Leaside Jr. Wildcats,OZ play,3
+148,2271,2283,12,48.22,21.45,,Toronto Leaside Jr. Wildcats,Shots,3
+149,2277,2289,12,43.63,8.35,,Toronto Leaside Jr. Wildcats,OZ play,3
+150,2277,2289,12,43.63,8.35,,Toronto Leaside Jr. Wildcats,Shots,3
+151,2278,2290,12,52.43,12.24,,Toronto Leaside Jr. Wildcats,OZ play,3
+152,2278,2290,12,52.43,12.24,,Toronto Leaside Jr. Wildcats,Shots,3
+153,2292,2304,12,44.37,18.6,,Toronto Leaside Jr. Wildcats,OZ play,3
+154,2292,2304,12,44.37,18.6,,Toronto Leaside Jr. Wildcats,Shots,3
+155,2332,2344,12,53.35,12.15,,Toronto Leaside Jr. Wildcats,OZ play,3
+156,2332,2344,12,53.35,12.15,,Toronto Leaside Jr. Wildcats,Shots,3
+157,2355,2367,12,4.22,2.18,,Toronto Leaside Jr. Wildcats,OZ play,3
+158,2361,2373,12,51.51,19.67,,Toronto Leaside Jr. Wildcats,OZ play,3
+159,2417,2429,12,52.34,3.23,,Toronto Leaside Jr. Wildcats,OZ play,3
+160,2417,2429,12,52.34,3.23,,Toronto Leaside Jr. Wildcats,Shots,3
+161,2454,2466,12,56.93,17.46,,Toronto Leaside Jr. Wildcats,OZ play,3
+162,2454,2466,12,56.93,17.46,,Toronto Leaside Jr. Wildcats,Shots,3
+163,2484,2496,12,52.16,16.42,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+164,2484,2496,12,52.16,16.42,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+165,2488,2500,12,55.18,11.48,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+166,2488,2500,12,55.18,11.48,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+167,2520,2532,12,45.74,16.61,,Toronto Leaside Jr. Wildcats,OZ play,3
+168,2520,2532,12,45.74,16.61,,Toronto Leaside Jr. Wildcats,Shots,3
+169,2550,2562,12,60.14,15.09,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+170,2556,2568,12,33.37,1.9,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+171,2577,2589,12,9.45,19.67,,Toronto Leaside Jr. Wildcats,OZ play,3
+172,2577,2589,12,39.33,1.9,,Toronto Leaside Jr. Wildcats,OZ play,3
+173,2596,2608,12,39.33,1.9,,Toronto Leaside Jr. Wildcats,OZ play,3
+174,2596,2608,12,39.33,1.9,,Toronto Leaside Jr. Wildcats,Shots,3
+175,2632,2644,12,40.52,4.27,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+176,2632,2644,12,40.52,4.27,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+177,2635,2647,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+178,2674,2686,12,40.88,20.5,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+179,2674,2686,12,40.88,20.5,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+180,2674,2686,12,40.88,20.5,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+181,2688,2700,12,30.48,12.96,,Toronto Leaside Jr. Wildcats,OZ play,3
+182,2725,2737,12,40.43,5.98,,Toronto Leaside Jr. Wildcats,OZ play,3
+183,2725,2737,12,40.43,5.98,,Toronto Leaside Jr. Wildcats,Shots,3

@@ -1,0 +1,162 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-6,6,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+2,,12,12,54.18,12.43,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+3,,12,12,54.18,12.43,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+4,89,101,12,36.58,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+5,97,109,12,53.44,14.43,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+6,97,109,12,53.44,14.43,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+7,152,164,12,9.45,19.67,,Madison Capitols 19U AAA,OZ play,1
+8,158,170,12,39.78,22.78,,Madison Capitols 19U AAA,OZ play,1
+9,158,170,12,39.78,22.78,,Madison Capitols 19U AAA,Shots,1
+10,248,260,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+11,260,272,12,40.15,14.9,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+12,260,272,12,40.15,14.9,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+13,264,276,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+14,264,276,12,52.43,15.28,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+15,297,309,12,52.43,15.28,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+16,297,309,12,52.43,15.28,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+17,392,404,12,41.47,6.22,,Madison Capitols 19U AAA,OZ play,1
+18,392,404,12,41.47,6.22,,Madison Capitols 19U AAA,Shots,1
+19,420,432,12,55.09,12.81,,Pittsburgh Penguins Elite 19U Girls,Goals,1
+20,420,432,12,55.09,12.81,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+21,420,432,12,55.09,12.81,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+22,431,443,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+23,499,511,12,50.88,13,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+24,499,511,12,50.88,13,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+25,504,516,12,41.89,20.12,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+26,504,516,12,41.89,20.12,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+27,518,530,12,40.24,23.16,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+28,518,530,12,40.24,23.16,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+29,600,612,12,55.46,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+30,600,612,12,55.46,15,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+31,642,654,12,53.81,14.33,,Madison Capitols 19U AAA,OZ play,1
+32,642,654,12,53.81,14.33,,Madison Capitols 19U AAA,Shots,1
+33,670,682,12,51.51,19.67,,Madison Capitols 19U AAA,OZ play,1
+34,691,703,12,43.63,18.6,,Madison Capitols 19U AAA,OZ play,1
+35,691,703,12,43.63,18.6,,Madison Capitols 19U AAA,Shots,1
+36,698,710,12,51.51,19.67,,Madison Capitols 19U AAA,OZ play,1
+37,698,710,12,56.47,23.16,,Madison Capitols 19U AAA,OZ play,1
+38,718,730,12,56.47,23.16,,Madison Capitols 19U AAA,OZ play,1
+39,718,730,12,56.47,23.16,,Madison Capitols 19U AAA,Shots,1
+40,799,811,12,54.36,18.03,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+41,799,811,12,54.36,18.03,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+42,824,836,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+43,848,860,12,51.61,11.1,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+44,848,860,12,51.61,11.1,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+45,849,861,12,51.24,17.37,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+46,849,861,12,51.24,17.37,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+47,865,877,12,52.53,15.19,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+48,865,877,12,52.53,15.19,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+49,868,880,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+50,884,896,12,57.11,15.19,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+51,884,896,12,57.11,15.19,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+52,930,942,12,41.34,20.88,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+53,930,942,12,41.34,20.88,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+54,1033,1045,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+55,1110,1122,12,44.18,3.04,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+56,1110,1122,12,44.18,3.04,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+57,1120,1132,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+58,1173,1185,12,53.9,12.91,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+59,1173,1185,12,53.9,12.91,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+60,1182,1194,12,44.46,3.32,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+61,1182,1194,12,44.46,3.32,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+62,1218,1230,12,53.26,13.57,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+63,1218,1230,12,53.26,13.57,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+64,1222,1234,12,53.81,13.57,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+65,1222,1234,12,53.81,13.57,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+66,1232,1244,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+67,1368,1380,12,54.82,13.38,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+68,1368,1380,12,54.82,13.38,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+69,1368,1380,12,54.82,13.38,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+70,1378,1390,12,30.48,12.96,,Madison Capitols 19U AAA,OZ play,2
+71,1420,1432,12,36.03,3.13,,Madison Capitols 19U AAA,OZ play,2
+72,1420,1432,12,36.03,3.13,,Madison Capitols 19U AAA,Shots,2
+73,1459,1471,12,51.51,6.25,,Madison Capitols 19U AAA,OZ play,2
+74,1489,1501,12,49.04,10.63,,Madison Capitols 19U AAA,OZ play,2
+75,1489,1501,12,49.04,10.63,,Madison Capitols 19U AAA,Shots,2
+76,1492,1504,12,51.51,6.25,,Madison Capitols 19U AAA,OZ play,2
+77,1510,1522,12,40.98,21.73,,Madison Capitols 19U AAA,OZ play,2
+78,1510,1522,12,40.98,21.73,,Madison Capitols 19U AAA,Shots,2
+79,1527,1539,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+80,1544,1556,12,52.34,10.82,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+81,1544,1556,12,52.34,10.82,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+82,1549,1561,12,5.41,15.28,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+83,1568,1580,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+84,1582,1594,12,47.21,14.52,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+85,1582,1594,12,47.21,14.52,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+86,1589,1601,12,48.31,7.31,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+87,1589,1601,12,48.31,7.31,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+88,1640,1652,12,52.34,12.05,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+89,1640,1652,12,52.34,12.05,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+90,1640,1652,12,52.34,12.05,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+91,1649,1661,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+92,1676,1688,12,47.48,8.26,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+93,1676,1688,12,47.48,8.26,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+94,1709,1721,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+95,1786,1798,12,16.13,5.5,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+96,1793,1805,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+97,1868,1880,12,48.95,13.86,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+98,1868,1880,12,48.95,13.86,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+99,1870,1882,12,55.73,9.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+100,1870,1882,12,55.73,9.97,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+101,1874,1886,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+102,1880,1892,12,47.85,7.69,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+103,1880,1892,12,47.85,7.69,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+104,1914,1926,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+105,2051,2063,12,49.13,4.94,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+106,2051,2063,12,49.13,4.94,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+107,2058,2070,12,48.31,12.43,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+108,2058,2070,12,48.31,12.43,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+109,2108,2120,12,44.46,5.22,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+110,2108,2120,12,44.46,5.22,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+111,2124,2136,12,49.13,21.07,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+112,2124,2136,12,49.13,21.07,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+113,2178,2190,12,42.9,13.48,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+114,2178,2190,12,42.9,13.48,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+115,2323,2335,12,41.34,13.48,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+116,2323,2335,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+117,2326,2338,12,41.34,13.48,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+118,2326,2338,12,41.34,13.48,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+119,2348,2360,12,49.23,12.72,,Madison Capitols 19U AAA,OZ play,3
+120,2348,2360,12,49.23,12.72,,Madison Capitols 19U AAA,Shots,3
+121,2382,2394,12,48.49,18.32,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+122,2382,2394,12,48.49,18.32,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+123,2432,2444,12,46.93,8.64,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+124,2432,2444,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+125,2437,2449,12,46.93,8.64,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+126,2437,2449,12,46.93,8.64,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+127,2487,2499,12,50.14,13.38,,Madison Capitols 19U AAA,OZ play,3
+128,2487,2499,12,50.14,13.38,,Madison Capitols 19U AAA,Shots,3
+129,2490,2502,12,53.26,13.1,,Madison Capitols 19U AAA,OZ play,3
+130,2490,2502,12,53.26,13.1,,Madison Capitols 19U AAA,Shots,3
+131,2492,2504,12,56.56,15.94,,Madison Capitols 19U AAA,OZ play,3
+132,2492,2504,12,56.56,15.94,,Madison Capitols 19U AAA,Shots,3
+133,2508,2520,12,9.45,6.25,,Madison Capitols 19U AAA,OZ play,3
+134,2534,2546,12,38.5,3.04,,Madison Capitols 19U AAA,OZ play,3
+135,2534,2546,12,38.5,3.04,,Madison Capitols 19U AAA,Shots,3
+136,2544,2556,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+137,2612,2624,12,51.88,11.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+138,2612,2624,12,51.88,11.96,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+139,2620,2632,12,56.1,5.69,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+140,2620,2632,12,56.1,5.69,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+141,2626,2638,12,39.88,17.75,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+142,2626,2638,12,39.88,17.75,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+143,2642,2654,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+144,2647,2659,12,51.7,14.71,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+145,2647,2659,12,51.7,14.71,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+146,2660,2672,12,56.1,19.74,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+147,2660,2672,12,56.1,19.74,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+148,2668,2680,12,55.37,4.65,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+149,2668,2680,12,55.37,4.65,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+150,2720,2732,12,46.57,10.44,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+151,2720,2732,12,46.57,10.44,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+152,2720,2732,12,46.57,10.44,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+153,2724,2736,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+154,2724,2736,12,44.73,5.5,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+155,2743,2755,12,44.73,5.5,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+156,2743,2755,12,44.73,5.5,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+157,2850,2862,12,55.55,10.72,,Madison Capitols 19U AAA,OZ play,3
+158,2850,2862,12,55.55,10.72,,Madison Capitols 19U AAA,Shots,3
+159,2860,2872,12,51.51,6.25,,Madison Capitols 19U AAA,OZ play,3
+160,2861,2873,12,50.78,9.59,,Madison Capitols 19U AAA,OZ play,3
+161,2861,2873,12,50.78,9.59,,Madison Capitols 19U AAA,Shots,3

@@ -1,0 +1,248 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,32,44,12,9.45,19.67,,Fox Motors 14U AAA,OZ play,1
+2,46,58,12,50.42,21.64,,Fox Motors 14U AAA,OZ play,1
+3,46,58,12,50.42,21.64,,Fox Motors 14U AAA,Shots,1
+4,55,67,12,6.6,13.57,,Fox Motors 14U AAA,OZ play,1
+5,57,69,12,44.73,12.53,,Fox Motors 14U AAA,OZ play,1
+6,57,69,12,44.73,12.53,,Fox Motors 14U AAA,Shots,1
+7,65,77,12,49.59,18.22,,Fox Motors 14U AAA,Goals,1
+8,65,77,12,49.59,18.22,,Fox Motors 14U AAA,OZ play,1
+9,65,77,12,49.59,18.22,,Fox Motors 14U AAA,Shots,1
+10,98,110,12,30.48,12.96,,Fox Motors 14U AAA,OZ play,1
+11,113,125,12,47.03,8.83,,Fox Motors 14U AAA,OZ play,1
+12,113,125,12,47.03,8.83,,Fox Motors 14U AAA,Shots,1
+13,199,211,12,36.58,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+14,199,211,12,41.07,24.49,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+15,217,229,12,41.07,24.49,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+16,217,229,12,41.07,24.49,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+17,267,279,12,41.71,18.41,,Fox Motors 14U AAA,OZ play,1
+18,267,279,12,41.71,18.41,,Fox Motors 14U AAA,Shots,1
+19,288,300,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+20,312,324,12,50.78,12.24,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+21,312,324,12,50.78,12.24,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+22,324,336,12,47.94,1.99,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+23,324,336,12,47.94,1.99,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+24,379,391,12,45.38,16.42,,Fox Motors 14U AAA,OZ play,1
+25,379,391,12,45.38,16.42,,Fox Motors 14U AAA,Shots,1
+26,403,415,12,51.51,19.67,,Fox Motors 14U AAA,OZ play,1
+27,403,415,12,53.99,8.35,,Fox Motors 14U AAA,OZ play,1
+28,437,449,12,53.99,8.35,,Fox Motors 14U AAA,OZ play,1
+29,437,449,12,53.99,8.35,,Fox Motors 14U AAA,Shots,1
+30,458,470,12,57.93,4.08,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+31,458,470,12,57.93,4.08,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+32,482,494,12,45.65,17.65,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+33,482,494,12,45.65,17.65,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+34,504,516,12,53.44,13.76,,Fox Motors 14U AAA,Goals,1
+35,504,516,12,53.44,13.76,,Fox Motors 14U AAA,OZ play,1
+36,504,516,12,53.44,13.76,,Fox Motors 14U AAA,Shots,1
+37,535,547,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+38,563,575,12,58.76,10.63,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+39,563,575,12,58.76,10.63,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+40,570,582,12,40.7,21.45,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+41,570,582,12,40.7,21.45,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+42,611,623,12,43.63,23.63,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+43,611,623,12,43.63,23.63,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+44,640,652,12,9.45,6.25,,Fox Motors 14U AAA,OZ play,1
+45,732,744,12,45.01,22.49,,Fox Motors 14U AAA,OZ play,1
+46,732,744,12,45.01,22.49,,Fox Motors 14U AAA,Shots,1
+47,757,769,12,9.45,6.25,,Fox Motors 14U AAA,OZ play,1
+48,757,769,12,42.63,4.27,,Fox Motors 14U AAA,OZ play,1
+49,769,781,12,42.63,4.27,,Fox Motors 14U AAA,OZ play,1
+50,769,781,12,42.63,4.27,,Fox Motors 14U AAA,Shots,1
+51,776,788,12,26.77,1.04,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+52,815,827,12,50.51,20.31,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+53,815,827,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+54,824,836,12,50.51,20.31,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+55,824,836,12,50.51,20.31,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+56,840,852,12,53.63,12.72,,Fox Motors 14U AAA,Goals,1
+57,840,852,12,53.63,12.72,,Fox Motors 14U AAA,OZ play,1
+58,840,852,12,53.63,12.72,,Fox Motors 14U AAA,Shots,1
+59,951,963,12,36.58,19.67,,Fox Motors 14U AAA,OZ play,1
+60,989,1001,12,2,15,,Fox Motors 14U AAA,OZ play,1
+61,989,1001,12,55.46,12.91,,Fox Motors 14U AAA,OZ play,1
+62,997,1009,12,55.46,12.91,,Fox Motors 14U AAA,OZ play,1
+63,997,1009,12,55.46,12.91,,Fox Motors 14U AAA,Shots,1
+64,1015,1027,12,49.78,10.72,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+65,1015,1027,12,49.78,10.72,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+66,1041,1053,12,46.84,6.36,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+67,1041,1053,12,46.84,6.36,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+68,1068,1080,12,47.39,2.09,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+69,1068,1080,12,47.39,2.09,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+70,1077,1089,12,13.57,23.92,,Fox Motors 14U AAA,OZ play,1
+71,1110,1122,12,51.51,6.25,,Fox Motors 14U AAA,OZ play,1
+72,1156,1168,12,48.68,17.56,,Fox Motors 14U AAA,OZ play,1
+73,1156,1168,12,48.68,17.56,,Fox Motors 14U AAA,Shots,1
+74,1163,1175,12,54.82,6.83,,Fox Motors 14U AAA,OZ play,1
+75,1163,1175,12,54.82,6.83,,Fox Motors 14U AAA,Shots,1
+76,1231,1243,12,48.77,7.5,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+77,1231,1243,12,48.77,7.5,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+78,1263,1275,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+79,1264,1276,12,56.65,7.02,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+80,1264,1276,12,56.65,7.02,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+81,1282,1294,12,30.48,12.96,,Fox Motors 14U AAA,OZ play,2
+82,1303,1315,12,16.68,4.27,,Fox Motors 14U AAA,OZ play,2
+83,1358,1370,12,9.45,6.25,,Fox Motors 14U AAA,OZ play,2
+84,1367,1379,12,42.9,5.13,,Fox Motors 14U AAA,OZ play,2
+85,1367,1379,12,42.9,5.13,,Fox Motors 14U AAA,Shots,2
+86,1389,1401,12,51.51,6.25,,Fox Motors 14U AAA,OZ play,2
+87,1425,1437,12,55.46,18.98,,Fox Motors 14U AAA,OZ play,2
+88,1425,1437,12,55.46,18.98,,Fox Motors 14U AAA,Shots,2
+89,1458,1470,12,2,15,,Fox Motors 14U AAA,OZ play,2
+90,1471,1483,12,41.89,16.51,,Fox Motors 14U AAA,OZ play,2
+91,1471,1483,12,41.89,16.51,,Fox Motors 14U AAA,Shots,2
+92,1548,1560,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+93,1556,1568,12,50.78,2.18,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+94,1556,1568,12,50.78,2.18,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+95,1561,1573,12,51.88,23.92,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+96,1561,1573,12,51.88,23.92,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+97,1580,1592,12,41.98,20.41,,Fox Motors 14U AAA,OZ play,2
+98,1580,1592,12,41.98,20.41,,Fox Motors 14U AAA,Shots,2
+99,1589,1601,12,50.14,21.54,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+100,1589,1601,12,50.14,21.54,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+101,1615,1627,12,9.45,6.25,,Fox Motors 14U AAA,OZ play,2
+102,1628,1640,12,42.53,2.37,,Fox Motors 14U AAA,OZ play,2
+103,1628,1640,12,42.53,2.37,,Fox Motors 14U AAA,Shots,2
+104,1643,1655,12,53.9,15.19,,Fox Motors 14U AAA,OZ play,2
+105,1643,1655,12,53.9,15.19,,Fox Motors 14U AAA,Shots,2
+106,1673,1685,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+107,1686,1698,12,51.98,3.32,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+108,1686,1698,12,51.98,3.32,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+109,1688,1700,12,54.54,13.38,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+110,1688,1700,12,54.54,13.38,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+111,1748,1760,12,51.51,6.25,,Fox Motors 14U AAA,OZ play,2
+112,1775,1787,12,47.48,6.07,,Fox Motors 14U AAA,OZ play,2
+113,1775,1787,12,47.48,6.07,,Fox Motors 14U AAA,Shots,2
+114,1799,1811,12,51.51,6.25,,Fox Motors 14U AAA,OZ play,2
+115,1804,1816,12,39.97,10.82,,Fox Motors 14U AAA,OZ play,2
+116,1804,1816,12,39.97,10.82,,Fox Motors 14U AAA,Shots,2
+117,1835,1847,12,41.98,5.69,,Fox Motors 14U AAA,OZ play,2
+118,1835,1847,12,41.98,5.69,,Fox Motors 14U AAA,Shots,2
+119,1864,1876,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+120,1896,1908,12,8.34,14.62,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+121,1934,1946,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+122,1940,1952,12,42.9,17.84,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+123,1940,1952,12,42.9,17.84,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+124,1941,1953,12,53.17,11.48,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+125,1941,1953,12,53.17,11.48,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+126,1960,1972,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+127,1986,1998,12,53.53,10.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+128,1986,1998,12,53.53,10.25,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+129,1987,1999,12,57.02,15.28,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+130,1987,1999,12,57.02,15.28,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+131,2020,2032,12,9.45,6.25,,Fox Motors 14U AAA,OZ play,2
+132,2033,2045,12,52.16,14.43,,Fox Motors 14U AAA,Goals,2
+133,2033,2045,12,52.16,14.43,,Fox Motors 14U AAA,OZ play,2
+134,2033,2045,12,52.16,14.43,,Fox Motors 14U AAA,Shots,2
+135,2066,2078,12,30.48,12.96,,Fox Motors 14U AAA,OZ play,2
+136,2089,2101,12,48.49,6.45,,Fox Motors 14U AAA,OZ play,2
+137,2089,2101,12,48.49,6.45,,Fox Motors 14U AAA,Shots,2
+138,2284,2296,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+139,2300,2312,12,51.79,12.24,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+140,2300,2312,12,51.79,12.24,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+141,2306,2318,12,40.79,2.85,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+142,2306,2318,12,40.79,2.85,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+143,2358,2370,12,9.45,19.67,,Fox Motors 14U AAA,OZ play,2
+144,2396,2408,12,53.35,16.7,,Fox Motors 14U AAA,OZ play,2
+145,2396,2408,12,53.35,16.7,,Fox Motors 14U AAA,Shots,2
+146,2427,2439,12,9.45,6.25,,Fox Motors 14U AAA,OZ play,2
+147,2427,2439,12,50.33,14.14,,Fox Motors 14U AAA,OZ play,2
+148,2449,2461,12,50.33,14.14,,Fox Motors 14U AAA,OZ play,2
+149,2449,2461,12,50.33,14.14,,Fox Motors 14U AAA,Shots,2
+150,2466,2478,12,46.48,17.08,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+151,2466,2478,12,46.48,17.08,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+152,2519,2531,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+153,2519,2531,12,57.2,16.32,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+154,2536,2548,12,57.2,16.32,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+155,2536,2548,12,57.2,16.32,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+156,2557,2569,12,2,15,,Fox Motors 14U AAA,OZ play,2
+157,2572,2584,12,49.32,12.15,,Fox Motors 14U AAA,OZ play,2
+158,2572,2584,12,49.32,12.15,,Fox Motors 14U AAA,Shots,2
+159,2581,2593,12,49.87,11.1,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+160,2581,2593,12,49.87,11.1,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+161,2582,2594,12,55.73,7.97,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+162,2582,2594,12,55.73,7.97,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+163,2603,2615,12,57.2,9.87,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+164,2603,2615,12,57.2,9.87,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+165,2628,2640,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+166,2632,2644,12,40.88,12.81,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+167,2632,2644,12,40.88,12.81,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+168,2667,2679,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+169,2731,2743,12,40.61,24.49,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+170,2811,2823,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+171,2812,2824,12,50.6,18.32,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+172,2812,2824,12,50.6,18.32,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+173,2829,2841,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+174,2831,2843,12,47.12,19.93,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+175,2831,2843,12,47.12,19.93,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+176,2847,2859,12,46.29,7.78,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+177,2847,2859,12,46.29,7.78,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+178,2872,2884,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+179,2897,2909,12,53.81,4.84,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+180,2897,2909,12,53.81,4.84,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+181,2901,2913,12,55.18,15.75,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+182,2901,2913,12,55.18,15.75,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+183,2910,2922,12,56.38,11.01,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+184,2910,2922,12,56.38,11.01,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+185,2912,2924,12,55.18,17.46,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+186,2912,2924,12,55.18,17.46,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+187,2948,2960,12,45.83,12.34,,Fox Motors 14U AAA,OZ play,3
+188,2948,2960,12,45.83,12.34,,Fox Motors 14U AAA,Shots,3
+189,2971,2983,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+190,3065,3077,12,51.52,24.87,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+191,3065,3077,12,51.52,24.87,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+192,3105,3117,12,9.45,19.67,,Fox Motors 14U AAA,OZ play,3
+193,3261,3273,12,,,,Fox Motors 14U AAA,OZ play,3
+194,3261,3273,12,,,,Fox Motors 14U AAA,Shots,3
+195,3295,3307,12,2,15,,Fox Motors 14U AAA,OZ play,3
+196,3329,3341,12,55.73,17.37,,Fox Motors 14U AAA,OZ play,3
+197,3329,3341,12,55.73,17.37,,Fox Motors 14U AAA,Shots,3
+198,3334,3346,12,52.25,8.45,,Fox Motors 14U AAA,OZ play,3
+199,3334,3346,12,52.25,8.45,,Fox Motors 14U AAA,Shots,3
+200,3336,3348,12,54.73,10.91,,Fox Motors 14U AAA,OZ play,3
+201,3336,3348,12,54.73,10.91,,Fox Motors 14U AAA,Shots,3
+202,3337,3349,12,54.82,10.91,,Fox Motors 14U AAA,OZ play,3
+203,3337,3349,12,54.82,10.91,,Fox Motors 14U AAA,Shots,3
+204,3338,3350,12,57.11,10.82,,Fox Motors 14U AAA,OZ play,3
+205,3338,3350,12,57.11,10.82,,Fox Motors 14U AAA,Shots,3
+206,3368,3380,12,9.45,19.67,,Fox Motors 14U AAA,OZ play,3
+207,3368,3380,12,45.65,22.68,,Fox Motors 14U AAA,OZ play,3
+208,3381,3393,12,45.65,22.68,,Fox Motors 14U AAA,OZ play,3
+209,3381,3393,12,45.65,22.68,,Fox Motors 14U AAA,Shots,3
+210,3431,3443,12,49.13,9.3,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+211,3431,3443,12,49.13,9.3,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+212,3463,3475,12,53.81,12.72,,Fox Motors 14U AAA,OZ play,3
+213,3463,3475,12,53.81,12.72,,Fox Motors 14U AAA,Shots,3
+214,3464,3476,12,53.9,12.05,,Fox Motors 14U AAA,OZ play,3
+215,3464,3476,12,53.9,12.05,,Fox Motors 14U AAA,Shots,3
+216,3498,3510,12,47.76,23.54,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+217,3498,3510,12,47.76,23.54,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+218,3519,3531,12,52.16,13.48,,Fox Motors 14U AAA,OZ play,3
+219,3519,3531,12,52.16,13.48,,Fox Motors 14U AAA,Shots,3
+220,3549,3561,12,2,15,,Fox Motors 14U AAA,OZ play,3
+221,3550,3562,12,18.79,24.2,,Fox Motors 14U AAA,OZ play,3
+222,3556,3568,12,38.59,22.11,,Fox Motors 14U AAA,OZ play,3
+223,3556,3568,12,38.59,22.11,,Fox Motors 14U AAA,Shots,3
+224,3737,3749,12,24.38,6.25,,Fox Motors 14U AAA,OZ play,3
+225,3756,3768,12,51.88,12.24,,Fox Motors 14U AAA,OZ play,3
+226,3756,3768,12,51.88,12.24,,Fox Motors 14U AAA,Shots,3
+227,3757,3769,12,57.11,9.97,,Fox Motors 14U AAA,OZ play,3
+228,3757,3769,12,57.11,9.97,,Fox Motors 14U AAA,Shots,3
+229,3767,3779,12,48.31,10.25,,Fox Motors 14U AAA,OZ play,3
+230,3767,3779,12,48.31,10.25,,Fox Motors 14U AAA,Shots,3
+231,3768,3780,12,53.99,9.3,,Fox Motors 14U AAA,OZ play,3
+232,3768,3780,12,53.99,9.3,,Fox Motors 14U AAA,Shots,3
+233,3793,3805,12,51.51,6.25,,Fox Motors 14U AAA,OZ play,3
+234,3868,3880,12,51.98,6.83,,Fox Motors 14U AAA,OZ play,3
+235,3868,3880,12,51.98,6.83,,Fox Motors 14U AAA,Shots,3
+236,3874,3886,12,53.72,12.05,,Fox Motors 14U AAA,OZ play,3
+237,3874,3886,12,53.72,12.05,,Fox Motors 14U AAA,Shots,3
+238,3890,3902,12,50.23,12.34,,Fox Motors 14U AAA,OZ play,3
+239,3890,3902,12,50.23,12.34,,Fox Motors 14U AAA,Shots,3
+240,3900,3912,12,48.49,4.94,,Fox Motors 14U AAA,OZ play,3
+241,3900,3912,12,48.49,4.94,,Fox Motors 14U AAA,Shots,3
+242,3921,3933,12,51.51,6.25,,Fox Motors 14U AAA,OZ play,3
+243,3960,3972,12,47.85,8.45,,Fox Motors 14U AAA,OZ play,3
+244,3960,3972,12,47.85,8.45,,Fox Motors 14U AAA,Shots,3
+245,3980,3992,12,51.51,6.25,,Fox Motors 14U AAA,OZ play,3
+246,3983,3995,12,51.7,6.45,,Fox Motors 14U AAA,OZ play,3
+247,3983,3995,12,51.7,6.45,,Fox Motors 14U AAA,Shots,3

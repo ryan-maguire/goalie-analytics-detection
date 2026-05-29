@@ -1,0 +1,191 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-2,10,12,30.48,12.96,,Valley Jr. Warriors U14,OZ play,1
+2,41,53,12,51.7,8.64,,Valley Jr. Warriors U14,OZ play,1
+3,41,53,12,51.7,8.64,,Valley Jr. Warriors U14,Shots,1
+4,47,59,12,47.85,1.52,,Valley Jr. Warriors U14,OZ play,1
+5,47,59,12,47.85,1.52,,Valley Jr. Warriors U14,Shots,1
+6,125,137,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+7,131,143,12,53.53,13.1,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+8,131,143,12,53.53,13.1,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+9,162,174,12,56.01,9.87,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+10,162,174,12,56.01,9.87,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+11,165,177,12,51.88,10.72,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+12,165,177,12,51.88,10.72,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+13,186,198,12,2,15,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+14,196,208,12,52.25,6.36,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+15,196,208,12,52.25,6.36,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+16,200,212,12,49.5,17.75,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+17,200,212,12,49.5,17.75,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+18,205,217,12,41.53,8.26,,Valley Jr. Warriors U14,OZ play,1
+19,248,260,12,9.45,6.25,,Valley Jr. Warriors U14,OZ play,1
+20,254,266,12,52.98,17.75,,Valley Jr. Warriors U14,OZ play,1
+21,254,266,12,52.98,17.75,,Valley Jr. Warriors U14,Shots,1
+22,263,275,12,53.26,17.37,,Valley Jr. Warriors U14,OZ play,1
+23,263,275,12,53.26,17.37,,Valley Jr. Warriors U14,Shots,1
+24,286,298,12,50.33,22.4,,Valley Jr. Warriors U14,OZ play,1
+25,286,298,12,50.33,22.4,,Valley Jr. Warriors U14,Shots,1
+26,307,319,12,9.45,6.25,,Valley Jr. Warriors U14,OZ play,1
+27,347,359,12,51.98,24.68,,Valley Jr. Warriors U14,OZ play,1
+28,347,359,12,51.98,24.68,,Valley Jr. Warriors U14,Shots,1
+29,360,372,12,47.21,24.77,,Valley Jr. Warriors U14,OZ play,1
+30,360,372,12,47.21,24.77,,Valley Jr. Warriors U14,Shots,1
+31,390,402,12,9.45,6.25,,Valley Jr. Warriors U14,OZ play,1
+32,390,402,12,53.9,16.7,,Valley Jr. Warriors U14,OZ play,1
+33,399,411,12,53.9,16.7,,Valley Jr. Warriors U14,OZ play,1
+34,399,411,12,53.9,16.7,,Valley Jr. Warriors U14,Shots,1
+35,407,419,12,55.73,5.98,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+36,407,419,12,55.73,5.98,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+37,495,507,12,24.38,6.25,,Valley Jr. Warriors U14,OZ play,1
+38,495,507,12,39.69,23.63,,Valley Jr. Warriors U14,OZ play,1
+39,504,516,12,39.69,23.63,,Valley Jr. Warriors U14,OZ play,1
+40,504,516,12,39.69,23.63,,Valley Jr. Warriors U14,Shots,1
+41,536,548,12,53.08,20.22,,Pittsburgh Penguins Elite 14U Girls,Goals,1
+42,536,548,12,53.08,20.22,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+43,536,548,12,53.08,20.22,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+44,571,583,12,30.48,12.96,,Valley Jr. Warriors U14,OZ play,1
+45,616,628,12,39.69,8.92,,Valley Jr. Warriors U14,OZ play,1
+46,616,628,12,39.69,8.92,,Valley Jr. Warriors U14,Shots,1
+47,619,631,12,50.23,11.77,,Valley Jr. Warriors U14,OZ play,1
+48,619,631,12,50.23,11.77,,Valley Jr. Warriors U14,Shots,1
+49,640,652,12,9.45,19.67,,Valley Jr. Warriors U14,OZ play,1
+50,656,668,12,46.57,17.56,,Valley Jr. Warriors U14,OZ play,1
+51,656,668,12,46.57,17.56,,Valley Jr. Warriors U14,Shots,1
+52,661,673,12,51.06,16.8,,Valley Jr. Warriors U14,OZ play,1
+53,661,673,12,51.06,16.8,,Valley Jr. Warriors U14,Shots,1
+54,664,676,12,54.73,6.45,,Valley Jr. Warriors U14,OZ play,1
+55,664,676,12,54.73,6.45,,Valley Jr. Warriors U14,Shots,1
+56,737,749,12,24.38,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+57,773,785,12,51.33,11.77,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+58,773,785,12,51.33,11.77,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+59,807,819,12,51.51,19.67,,Valley Jr. Warriors U14,OZ play,1
+60,844,856,12,49.04,20.6,,Valley Jr. Warriors U14,OZ play,1
+61,844,856,12,49.04,20.6,,Valley Jr. Warriors U14,Shots,1
+62,896,908,12,24.38,6.25,,Valley Jr. Warriors U14,OZ play,1
+63,934,946,12,50.88,14.81,,Valley Jr. Warriors U14,OZ play,1
+64,934,946,12,50.88,14.81,,Valley Jr. Warriors U14,Shots,1
+65,957,969,12,52.25,16.13,,Valley Jr. Warriors U14,OZ play,1
+66,957,969,12,52.25,16.13,,Valley Jr. Warriors U14,Shots,1
+67,998,1010,12,51.7,10.63,,Valley Jr. Warriors U14,OZ play,1
+68,998,1010,12,51.7,10.63,,Valley Jr. Warriors U14,Shots,1
+69,1082,1094,12,51.51,19.67,,Valley Jr. Warriors U14,OZ play,1
+70,1134,1146,12,50.88,5.98,,Valley Jr. Warriors U14,OZ play,1
+71,1134,1146,12,50.88,5.98,,Valley Jr. Warriors U14,Shots,1
+72,1152,1164,12,9.45,19.67,,Valley Jr. Warriors U14,OZ play,1
+73,1215,1227,12,54.54,8.92,,Valley Jr. Warriors U14,OZ play,1
+74,1215,1227,12,54.54,8.92,,Valley Jr. Warriors U14,Shots,1
+75,1279,1291,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+76,1279,1291,12,51.7,20.88,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+77,1286,1298,12,51.7,20.88,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+78,1286,1298,12,51.7,20.88,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+79,1303,1315,12,14.94,7.21,,Valley Jr. Warriors U14,OZ play,2
+80,1434,1446,12,51.51,6.25,,Valley Jr. Warriors U14,OZ play,2
+81,1444,1456,12,46.93,20.03,,Valley Jr. Warriors U14,OZ play,2
+82,1444,1456,12,46.93,20.03,,Valley Jr. Warriors U14,Shots,2
+83,1466,1478,12,52.43,20.88,,Valley Jr. Warriors U14,OZ play,2
+84,1466,1478,12,52.43,20.88,,Valley Jr. Warriors U14,Shots,2
+85,1490,1502,12,2,15,,Valley Jr. Warriors U14,OZ play,2
+86,1495,1507,12,48.86,5.13,,Valley Jr. Warriors U14,OZ play,2
+87,1495,1507,12,48.86,5.13,,Valley Jr. Warriors U14,Shots,2
+88,1506,1518,12,53.44,5.98,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+89,1506,1518,12,53.44,5.98,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+90,1530,1542,12,54.63,19.46,,Pittsburgh Penguins Elite 14U Girls,Goals,2
+91,1530,1542,12,54.63,19.46,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+92,1530,1542,12,54.63,19.46,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+93,1577,1589,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+94,1621,1633,12,56.74,14.71,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+95,1621,1633,12,56.74,14.71,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+96,1640,1652,12,48.31,21.07,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+97,1640,1652,12,48.31,21.07,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+98,1671,1683,12,51.51,19.67,,Valley Jr. Warriors U14,OZ play,2
+99,1707,1719,12,56.01,19.27,,Valley Jr. Warriors U14,OZ play,2
+100,1707,1719,12,56.01,19.27,,Valley Jr. Warriors U14,Shots,2
+101,1715,1727,12,56.28,4.27,,Valley Jr. Warriors U14,OZ play,2
+102,1715,1727,12,56.28,4.27,,Valley Jr. Warriors U14,Shots,2
+103,1773,1785,12,9.45,6.25,,Valley Jr. Warriors U14,OZ play,2
+104,1779,1791,12,55.73,15.28,,Valley Jr. Warriors U14,OZ play,2
+105,1779,1791,12,55.73,15.28,,Valley Jr. Warriors U14,Shots,2
+106,1782,1794,12,46.75,21.64,,Valley Jr. Warriors U14,OZ play,2
+107,1782,1794,12,46.75,21.64,,Valley Jr. Warriors U14,Shots,2
+108,1812,1824,12,20.81,6.17,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+109,2034,2046,12,51.51,6.25,,Valley Jr. Warriors U14,OZ play,2
+110,2057,2069,12,47.03,11.01,,Valley Jr. Warriors U14,OZ play,2
+111,2057,2069,12,47.03,11.01,,Valley Jr. Warriors U14,Shots,2
+112,2059,2071,12,53.26,12.24,,Valley Jr. Warriors U14,OZ play,2
+113,2059,2071,12,53.26,12.24,,Valley Jr. Warriors U14,Shots,2
+114,2157,2169,12,45.56,9.21,,Valley Jr. Warriors U14,OZ play,2
+115,2157,2169,12,45.56,9.21,,Valley Jr. Warriors U14,Shots,2
+116,2213,2225,12,9.45,19.67,,Valley Jr. Warriors U14,OZ play,2
+117,2245,2257,12,42.26,13.95,,Valley Jr. Warriors U14,OZ play,2
+118,2245,2257,12,42.26,13.95,,Valley Jr. Warriors U14,Shots,2
+119,2313,2325,12,36.58,19.67,,Valley Jr. Warriors U14,OZ play,2
+120,2346,2358,12,56.28,19.27,,Valley Jr. Warriors U14,OZ play,2
+121,2346,2358,12,56.28,19.27,,Valley Jr. Warriors U14,Shots,2
+122,2376,2388,12,53.26,10.16,,Valley Jr. Warriors U14,OZ play,2
+123,2376,2388,12,53.26,10.16,,Valley Jr. Warriors U14,Shots,2
+124,2473,2485,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+125,2577,2589,12,55.09,13.57,,Pittsburgh Penguins Elite 14U Girls,Goals,2
+126,2577,2589,12,55.09,13.57,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+127,2577,2589,12,55.09,13.57,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+128,2667,2679,12,30.48,12.96,,Valley Jr. Warriors U14,OZ play,3
+129,2721,2733,12,55.28,10.06,,Valley Jr. Warriors U14,OZ play,3
+130,2721,2733,12,55.28,10.06,,Valley Jr. Warriors U14,Shots,3
+131,2740,2752,12,47.58,19.55,,Valley Jr. Warriors U14,OZ play,3
+132,2740,2752,12,47.58,19.55,,Valley Jr. Warriors U14,Shots,3
+133,2765,2777,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+134,2765,2777,12,53.99,21.35,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+135,2792,2804,12,53.99,21.35,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+136,2792,2804,12,53.99,21.35,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+137,2812,2824,12,47.48,5.41,,Valley Jr. Warriors U14,OZ play,3
+138,2812,2824,12,47.48,5.41,,Valley Jr. Warriors U14,Shots,3
+139,2865,2877,12,24.38,19.67,,Valley Jr. Warriors U14,OZ play,3
+140,2901,2913,12,39.97,24.01,,Valley Jr. Warriors U14,OZ play,3
+141,2901,2913,12,39.97,24.01,,Valley Jr. Warriors U14,Shots,3
+142,2934,2946,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+143,2971,2983,12,50.88,18.13,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+144,2971,2983,12,50.88,18.13,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+145,2996,3008,12,24.38,24.58,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+146,2998,3010,12,48.4,2.75,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+147,2998,3010,12,48.4,2.75,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+148,3033,3045,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+149,3033,3045,12,57.48,3.7,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+150,3052,3064,12,57.48,3.7,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+151,3052,3064,12,57.48,3.7,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+152,3063,3075,12,53.63,11.29,,Valley Jr. Warriors U14,OZ play,3
+153,3063,3075,12,53.63,11.29,,Valley Jr. Warriors U14,Shots,3
+154,3083,3095,12,55.28,12.53,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+155,3083,3095,12,55.28,12.53,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+156,3174,3186,12,51.7,15.57,,Valley Jr. Warriors U14,OZ play,3
+157,3174,3186,12,51.7,15.57,,Valley Jr. Warriors U14,Shots,3
+158,3210,3222,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+159,3321,3333,12,54.91,16.61,,Pittsburgh Penguins Elite 14U Girls,Goals,3
+160,3321,3333,12,54.91,16.61,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+161,3321,3333,12,54.91,16.61,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+162,3357,3369,12,30.48,12.96,,Valley Jr. Warriors U14,OZ play,3
+163,3363,3375,12,54.54,13.19,,Valley Jr. Warriors U14,OZ play,3
+164,3363,3375,12,54.54,13.19,,Valley Jr. Warriors U14,Shots,3
+165,3399,3411,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+166,3419,3431,12,1.28,14.14,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+167,3452,3464,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+168,3452,3464,12,55.09,19.36,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+169,3460,3472,12,55.09,19.36,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+170,3460,3472,12,55.09,19.36,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+171,3483,3495,12,2,15,,Valley Jr. Warriors U14,OZ play,3
+172,3575,3587,12,54.08,6.93,,Valley Jr. Warriors U14,OZ play,3
+173,3575,3587,12,54.08,6.93,,Valley Jr. Warriors U14,Shots,3
+174,3642,3654,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+175,3718,3730,12,50.14,4.27,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+176,3718,3730,12,50.14,4.27,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+177,3727,3739,12,55.73,9.78,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+178,3727,3739,12,55.73,9.78,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+179,3738,3750,12,43.08,20.88,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+180,3738,3750,12,43.08,20.88,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+181,3739,3751,12,55.18,12.72,,Pittsburgh Penguins Elite 14U Girls,Goals,3
+182,3739,3751,12,55.18,12.72,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+183,3739,3751,12,55.18,12.72,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+184,3771,3783,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+185,3780,3792,12,36.3,0.57,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+186,3814,3826,12,51.51,6.25,,Valley Jr. Warriors U14,OZ play,3
+187,3824,3836,12,42.72,23.82,,Valley Jr. Warriors U14,OZ play,3
+188,3826,3838,12,18.61,2.09,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+189,3826,3838,12,19.07,2.28,,Valley Jr. Warriors U14,OZ play,3
+190,3826,3838,12,41.89,23.63,,Valley Jr. Warriors U14,OZ play,3

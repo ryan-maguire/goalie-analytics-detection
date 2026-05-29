@@ -1,0 +1,223 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,1,13,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+2,92,104,12,51.43,18.03,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+3,92,104,12,51.43,18.03,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+4,98,110,12,48.4,9.78,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+5,98,110,12,48.4,9.78,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+6,175,187,12,51.51,19.67,,St. Louis Lady Blues 19U,OZ play,1
+7,178,190,12,43.73,20.31,,St. Louis Lady Blues 19U,OZ play,1
+8,178,190,12,43.73,20.31,,St. Louis Lady Blues 19U,Shots,1
+9,180,192,12,56.1,10.44,,St. Louis Lady Blues 19U,OZ play,1
+10,180,192,12,56.1,10.44,,St. Louis Lady Blues 19U,Shots,1
+11,200,212,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+12,214,226,12,55.55,17.84,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+13,214,226,12,55.55,17.84,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+14,245,257,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+15,247,259,12,46.11,7.59,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+16,247,259,12,46.11,7.59,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+17,367,379,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+18,390,402,12,51.15,4.37,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+19,390,402,12,51.15,4.37,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+20,415,427,12,51.51,6.25,,St. Louis Lady Blues 19U,OZ play,1
+21,415,427,12,55.18,14.71,,St. Louis Lady Blues 19U,OZ play,1
+22,433,445,12,55.18,14.71,,St. Louis Lady Blues 19U,OZ play,1
+23,433,445,12,55.18,14.71,,St. Louis Lady Blues 19U,Shots,1
+24,449,461,12,50.69,11.77,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+25,449,461,12,50.69,11.77,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+26,508,520,12,51.61,11.29,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+27,508,520,12,51.61,11.29,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+28,554,566,12,38.23,13.95,,St. Louis Lady Blues 19U,OZ play,1
+29,554,566,12,38.23,13.95,,St. Louis Lady Blues 19U,Shots,1
+30,583,595,12,2,15,,St. Louis Lady Blues 19U,OZ play,1
+31,588,600,12,29.79,0.57,,St. Louis Lady Blues 19U,OZ play,1
+32,592,604,12,55.28,20.31,,St. Louis Lady Blues 19U,OZ play,1
+33,592,604,12,55.28,20.31,,St. Louis Lady Blues 19U,Shots,1
+34,608,620,12,51.43,18.03,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+35,608,620,12,51.43,18.03,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+36,651,663,12,50.33,3.13,,St. Louis Lady Blues 19U,OZ play,1
+37,651,663,12,50.33,3.13,,St. Louis Lady Blues 19U,Shots,1
+38,654,666,12,50.14,14.71,,St. Louis Lady Blues 19U,OZ play,1
+39,654,666,12,50.14,14.71,,St. Louis Lady Blues 19U,Shots,1
+40,656,668,12,52.53,12.43,,St. Louis Lady Blues 19U,OZ play,1
+41,656,668,12,52.53,12.43,,St. Louis Lady Blues 19U,Shots,1
+42,686,698,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+43,703,715,12,47.3,21.54,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+44,703,715,12,47.3,21.54,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+45,779,791,12,51.51,6.25,,St. Louis Lady Blues 19U,OZ play,1
+46,781,793,12,40.98,4.18,,St. Louis Lady Blues 19U,OZ play,1
+47,781,793,12,40.98,4.18,,St. Louis Lady Blues 19U,Shots,1
+48,818,830,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+49,853,865,12,46.11,15.28,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+50,853,865,12,46.11,15.28,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+51,878,890,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+52,888,900,12,51.33,16.13,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+53,888,900,12,51.33,16.13,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+54,918,930,12,49.23,21.92,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+55,918,930,12,49.23,21.92,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+56,1044,1056,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+57,1044,1056,12,46.11,5.88,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+58,1059,1071,12,46.11,5.88,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+59,1059,1071,12,46.11,5.88,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+60,1072,1084,12,35.48,1.52,,St. Louis Lady Blues 19U,OZ play,1
+61,1072,1084,12,35.48,1.52,,St. Louis Lady Blues 19U,Shots,1
+62,1141,1153,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+63,1153,1165,12,48.77,14.81,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+64,1153,1165,12,48.77,14.81,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+65,1155,1167,12,55,5.31,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+66,1155,1167,12,55,5.31,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+67,1184,1196,12,9.45,19.67,,St. Louis Lady Blues 19U,OZ play,2
+68,1201,1213,12,45.93,6.07,,St. Louis Lady Blues 19U,OZ play,2
+69,1201,1213,12,45.93,6.07,,St. Louis Lady Blues 19U,Shots,2
+70,1204,1216,12,52.98,15.28,,St. Louis Lady Blues 19U,OZ play,2
+71,1204,1216,12,52.98,15.28,,St. Louis Lady Blues 19U,Shots,2
+72,1246,1258,12,41.53,19.65,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+73,1246,1258,12,41.53,19.65,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+74,1271,1283,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+75,1274,1286,12,55.28,9.78,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+76,1274,1286,12,55.28,9.78,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+77,1275,1287,12,56.01,11.2,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+78,1275,1287,12,56.01,11.2,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+79,1294,1306,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+80,1302,1314,12,44.18,23.63,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+81,1302,1314,12,44.18,23.63,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+82,1334,1346,12,36.58,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+83,1350,1362,12,53.17,2.66,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+84,1350,1362,12,53.17,2.66,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+85,1393,1405,12,9.45,19.67,,St. Louis Lady Blues 19U,OZ play,2
+86,1398,1410,12,40.24,3.13,,St. Louis Lady Blues 19U,OZ play,2
+87,1398,1410,12,40.24,3.13,,St. Louis Lady Blues 19U,Shots,2
+88,1404,1416,12,46.93,24.68,,St. Louis Lady Blues 19U,OZ play,2
+89,1404,1416,12,46.93,24.68,,St. Louis Lady Blues 19U,Shots,2
+90,1413,1425,12,40.43,2.09,,St. Louis Lady Blues 19U,OZ play,2
+91,1413,1425,12,40.43,2.09,,St. Louis Lady Blues 19U,Shots,2
+92,1431,1443,12,54.36,6.07,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+93,1431,1443,12,54.36,6.07,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+94,1442,1454,12,51.24,5.88,,St. Louis Lady Blues 19U,OZ play,2
+95,1442,1454,12,51.24,5.88,,St. Louis Lady Blues 19U,Shots,2
+96,1567,1579,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+97,1567,1579,12,39.23,13.19,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+98,1581,1593,12,39.23,13.19,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+99,1581,1593,12,39.23,13.19,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+100,1592,1604,12,14.21,0.95,,St. Louis Lady Blues 19U,OZ play,2
+101,1702,1714,12,51.61,0.95,,St. Louis Lady Blues 19U,OZ play,2
+102,1702,1714,12,51.61,0.95,,St. Louis Lady Blues 19U,Shots,2
+103,1718,1730,12,41.71,16.04,,St. Louis Lady Blues 19U,OZ play,2
+104,1718,1730,12,41.71,16.04,,St. Louis Lady Blues 19U,Shots,2
+105,1747,1759,12,44.18,8.64,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+106,1747,1759,12,44.18,8.64,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+107,1767,1779,12,9.45,19.67,,St. Louis Lady Blues 19U,OZ play,2
+108,1842,1854,12,51.7,16.04,,St. Louis Lady Blues 19U,OZ play,2
+109,1842,1854,12,51.7,16.04,,St. Louis Lady Blues 19U,Shots,2
+110,1849,1861,12,50.14,16.13,,St. Louis Lady Blues 19U,OZ play,2
+111,1849,1861,12,50.14,16.13,,St. Louis Lady Blues 19U,Shots,2
+112,1875,1887,12,46.93,23.25,,St. Louis Lady Blues 19U,OZ play,2
+113,1875,1887,12,51.51,19.67,,St. Louis Lady Blues 19U,OZ play,2
+114,1880,1892,12,46.93,23.25,,St. Louis Lady Blues 19U,OZ play,2
+115,1880,1892,12,46.93,23.25,,St. Louis Lady Blues 19U,Shots,2
+116,1898,1910,12,52.07,9.4,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+117,1898,1910,12,52.07,9.4,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+118,1918,1930,12,52.43,6.36,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+119,1918,1930,12,52.43,6.36,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+120,1956,1968,12,44.18,4.46,,St. Louis Lady Blues 19U,OZ play,2
+121,1956,1968,12,44.18,4.46,,St. Louis Lady Blues 19U,Shots,2
+122,1997,2009,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+123,2003,2015,12,57.29,9.68,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+124,2003,2015,12,57.29,9.68,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+125,2004,2016,12,55.55,12.53,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+126,2004,2016,12,55.55,12.53,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+127,2038,2050,12,52.07,11.39,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+128,2038,2050,12,52.07,11.39,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+129,2051,2063,12,42.17,15.94,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+130,2051,2063,12,42.17,15.94,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+131,2064,2076,12,47.94,17.56,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+132,2064,2076,12,47.94,17.56,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+133,2110,2122,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+134,2132,2144,12,48.86,11.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+135,2132,2144,12,48.86,11.96,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+136,2133,2145,12,56.38,18.13,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+137,2133,2145,12,56.38,18.13,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+138,2171,2183,12,9.45,19.67,,St. Louis Lady Blues 19U,OZ play,2
+139,2182,2194,12,11.83,9.87,,St. Louis Lady Blues 19U,OZ play,2
+140,2184,2196,12,51.61,14.71,,St. Louis Lady Blues 19U,OZ play,2
+141,2184,2196,12,51.61,14.71,,St. Louis Lady Blues 19U,Shots,2
+142,2186,2198,12,54.36,15.75,,St. Louis Lady Blues 19U,OZ play,2
+143,2186,2198,12,54.36,15.75,,St. Louis Lady Blues 19U,Shots,2
+144,2194,2206,12,48.31,22.3,,St. Louis Lady Blues 19U,OZ play,2
+145,2194,2206,12,48.31,22.3,,St. Louis Lady Blues 19U,Shots,2
+146,2271,2283,12,51.51,19.67,,St. Louis Lady Blues 19U,OZ play,2
+147,2285,2297,12,48.68,22.87,,St. Louis Lady Blues 19U,OZ play,2
+148,2285,2297,12,48.68,22.87,,St. Louis Lady Blues 19U,Shots,2
+149,2309,2321,12,40.98,19.65,,St. Louis Lady Blues 19U,OZ play,2
+150,2309,2321,12,40.98,19.65,,St. Louis Lady Blues 19U,Shots,2
+151,2339,2351,12,9.45,6.25,,St. Louis Lady Blues 19U,OZ play,2
+152,2375,2387,12,48.13,21.83,,St. Louis Lady Blues 19U,OZ play,2
+153,2375,2387,12,48.13,21.83,,St. Louis Lady Blues 19U,Shots,2
+154,2397,2409,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+155,2446,2458,12,51.79,16.8,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+156,2446,2458,12,51.79,16.8,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+157,2479,2491,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+158,2482,2494,12,41.34,5.98,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+159,2482,2494,12,41.34,5.98,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+160,2526,2538,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+161,2529,2541,12,41.34,16.51,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+162,2529,2541,12,41.34,16.51,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+163,2545,2557,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+164,2548,2560,12,39.33,17.18,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+165,2548,2560,12,39.33,17.18,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+166,2564,2576,12,47.21,11.2,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+167,2564,2576,12,47.21,11.2,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+168,2583,2595,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+169,2591,2603,12,45.01,21.83,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+170,2591,2603,12,45.01,21.83,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+171,2612,2624,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+172,2655,2667,12,53.26,11.1,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+173,2655,2667,12,53.26,11.1,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+174,2655,2667,12,53.26,11.1,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+175,2686,2698,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+176,2692,2704,12,46.2,3.23,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+177,2692,2704,12,46.2,3.23,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+178,2706,2718,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+179,2756,2768,12,52.62,1.23,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+180,2756,2768,12,52.62,1.23,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+181,2774,2786,12,47.48,20.6,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+182,2774,2786,12,47.48,20.6,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+183,2806,2818,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+184,2849,2861,12,51.43,17.18,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+185,2849,2861,12,51.43,17.18,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+186,2880,2892,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+187,2945,2957,12,10.45,20.5,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+188,3018,3030,12,24.38,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+189,3030,3042,12,39.6,12.24,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+190,3030,3042,12,39.6,12.24,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+191,3041,3053,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+192,3064,3076,12,43.73,21.45,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+193,3064,3076,12,43.73,21.45,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+194,3083,3095,12,48.4,16.04,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+195,3083,3095,12,48.4,16.04,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+196,3091,3103,12,55.28,18.79,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+197,3091,3103,12,55.28,18.79,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+198,3137,3149,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+199,3179,3191,12,45.93,7.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+200,3179,3191,12,45.93,7.97,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+201,3193,3205,12,48.86,17.37,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+202,3193,3205,12,48.86,17.37,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+203,3204,3216,12,44.46,16.7,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+204,3204,3216,12,44.46,16.7,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+205,3230,3242,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+206,3289,3301,12,46.38,12.34,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+207,3289,3301,12,46.38,12.34,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+208,3359,3371,12,9.45,19.67,,St. Louis Lady Blues 19U,OZ play,3
+209,3359,3371,12,33.73,11.77,,St. Louis Lady Blues 19U,OZ play,3
+210,3425,3437,12,33.73,11.77,,St. Louis Lady Blues 19U,OZ play,3
+211,3425,3437,12,33.73,11.77,,St. Louis Lady Blues 19U,Shots,3
+212,3470,3482,12,52.71,17.37,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+213,3470,3482,12,52.71,17.37,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+214,3480,3492,12,51.7,12.72,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+215,3480,3492,12,51.7,12.72,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+216,3482,3494,12,54.73,11.2,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+217,3482,3494,12,54.73,11.2,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+218,3508,3520,12,56.28,17.94,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+219,3508,3520,12,56.28,17.94,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+220,3673,3685,12,51.51,19.67,,St. Louis Lady Blues 19U,OZ play,3
+221,3718,3730,12,37.68,4.46,,St. Louis Lady Blues 19U,OZ play,3
+222,3718,3730,12,37.68,4.46,,St. Louis Lady Blues 19U,Shots,3

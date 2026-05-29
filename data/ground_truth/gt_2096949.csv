@@ -1,0 +1,241 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,2,14,12,30.48,12.96,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+2,43,55,12,39.51,23.16,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+3,43,55,12,39.51,23.16,,Connecticut Jr. Rangers 14U AAA,Shots,1
+4,83,95,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+5,84,96,12,47.67,16.61,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+6,84,96,12,47.67,16.61,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+7,105,117,12,42.9,22.78,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+8,105,117,12,42.9,22.78,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+9,124,136,12,40.24,4.18,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+10,124,136,12,40.24,4.18,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+11,145,157,12,2,15,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+12,163,175,12,0.92,9.02,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+13,196,208,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+14,200,212,12,48.03,5.79,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+15,200,212,12,48.03,5.79,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+16,249,261,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+17,264,276,12,45.19,19.65,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+18,264,276,12,45.19,19.65,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+19,267,279,12,55.83,9.02,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+20,267,279,12,55.83,9.02,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+21,322,334,12,55.46,14.71,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+22,322,334,12,55.46,14.71,,Connecticut Jr. Rangers 14U AAA,Shots,1
+23,326,338,12,46.38,13.19,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+24,326,338,12,46.38,13.19,,Connecticut Jr. Rangers 14U AAA,Shots,1
+25,349,361,12,9.45,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+26,408,420,12,43.18,9.78,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+27,408,420,12,43.18,9.78,,Connecticut Jr. Rangers 14U AAA,Shots,1
+28,442,454,12,48.77,8.16,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+29,442,454,12,48.77,8.16,,Connecticut Jr. Rangers 14U AAA,Shots,1
+30,454,466,12,40.79,17.27,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+31,454,466,12,40.79,17.27,,Connecticut Jr. Rangers 14U AAA,Shots,1
+32,554,566,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+33,557,569,12,50.23,14.43,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+34,557,569,12,50.23,14.43,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+35,564,576,12,51.79,15.47,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+36,564,576,12,51.79,15.47,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+37,640,652,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+38,654,666,12,52.16,19.27,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+39,654,666,12,52.16,19.27,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+40,677,689,12,44.09,7.78,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+41,677,689,12,44.09,7.78,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+42,726,738,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+43,740,752,12,47.85,9.49,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+44,740,752,12,47.85,9.49,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+45,756,768,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+46,775,787,12,53.99,13.48,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+47,775,787,12,53.99,13.48,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+48,796,808,12,51.51,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+49,886,898,12,51.79,24.01,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+50,886,898,12,51.79,24.01,,Connecticut Jr. Rangers 14U AAA,Shots,1
+51,906,918,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+52,923,935,12,48.49,6.26,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+53,923,935,12,48.49,6.26,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+54,943,955,12,51.51,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+55,956,968,12,55.73,10.44,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+56,956,968,12,55.73,10.44,,Connecticut Jr. Rangers 14U AAA,Shots,1
+57,979,991,12,9.45,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+58,1001,1013,12,39.78,21.26,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+59,1001,1013,12,39.78,21.26,,Connecticut Jr. Rangers 14U AAA,Shots,1
+60,1009,1021,12,38.59,22.11,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+61,1009,1021,12,38.59,22.11,,Connecticut Jr. Rangers 14U AAA,Shots,1
+62,1064,1076,12,55.09,15.47,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+63,1064,1076,12,55.09,15.47,,Connecticut Jr. Rangers 14U AAA,Shots,1
+64,1081,1093,12,52.89,8.92,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+65,1081,1093,12,52.89,8.92,,Connecticut Jr. Rangers 14U AAA,Shots,1
+66,1115,1127,12,48.95,18.22,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+67,1115,1127,12,48.95,18.22,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+68,1159,1171,12,48.13,7.59,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+69,1159,1171,12,48.13,7.59,,Connecticut Jr. Rangers 14U AAA,Shots,1
+70,1177,1189,12,50.05,16.51,,Connecticut Jr. Rangers 14U AAA,OZ play,1
+71,1177,1189,12,50.05,16.51,,Connecticut Jr. Rangers 14U AAA,Shots,1
+72,1277,1289,12,36.58,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+73,1280,1292,12,45.74,4.84,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+74,1280,1292,12,45.74,4.84,,Connecticut Jr. Rangers 14U AAA,Shots,2
+75,1298,1310,12,51.51,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+76,1298,1310,12,54.27,12.53,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+77,1310,1322,12,54.27,12.53,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+78,1310,1322,12,54.27,12.53,,Connecticut Jr. Rangers 14U AAA,Shots,2
+79,1330,1342,12,32.08,16.89,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+80,1365,1377,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+81,1365,1377,12,52.62,7.69,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+82,1366,1378,12,52.62,7.69,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+83,1366,1378,12,52.62,7.69,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+84,1416,1428,12,45.56,12.15,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+85,1416,1428,12,45.56,12.15,,Connecticut Jr. Rangers 14U AAA,Shots,2
+86,1442,1454,12,9.45,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+87,1450,1462,12,40.43,16.89,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+88,1450,1462,12,40.43,16.89,,Connecticut Jr. Rangers 14U AAA,Shots,2
+89,1468,1480,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+90,1468,1480,12,53.35,15,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+91,1507,1519,12,53.35,15,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+92,1507,1519,12,53.35,15,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+93,1525,1537,12,13.02,1.61,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+94,1607,1619,12,30.48,12.96,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+95,1607,1619,12,47.3,2.66,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+96,1668,1680,12,47.3,2.66,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+97,1668,1680,12,47.3,2.66,,Connecticut Jr. Rangers 14U AAA,Shots,2
+98,1705,1717,12,52.62,13.86,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+99,1705,1717,12,52.62,13.86,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+100,1730,1742,12,40.15,16.13,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+101,1730,1742,12,40.15,16.13,,Connecticut Jr. Rangers 14U AAA,Shots,2
+102,1747,1759,12,54.18,7.59,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+103,1747,1759,12,54.18,7.59,,Connecticut Jr. Rangers 14U AAA,Shots,2
+104,1759,1771,12,43.27,20.5,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+105,1759,1771,12,43.27,20.5,,Connecticut Jr. Rangers 14U AAA,Shots,2
+106,1782,1794,12,41.62,18.7,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+107,1782,1794,12,51.51,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+108,1784,1796,12,41.62,18.7,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+109,1784,1796,12,41.62,18.7,,Connecticut Jr. Rangers 14U AAA,Shots,2
+110,1822,1834,12,50.51,17.37,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+111,1822,1834,12,50.51,17.37,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+112,1864,1876,12,24.38,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+113,1882,1894,12,52.98,13.29,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+114,1882,1894,12,52.98,13.29,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+115,1961,1973,12,51.51,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+116,1963,1975,12,42.53,4.94,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+117,1963,1975,12,42.53,4.94,,Connecticut Jr. Rangers 14U AAA,Shots,2
+118,2007,2019,12,45.74,11.39,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+119,2007,2019,12,45.74,11.39,,Connecticut Jr. Rangers 14U AAA,Shots,2
+120,2037,2049,12,51.51,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+121,2058,2070,12,40.52,16.32,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+122,2058,2070,12,40.52,16.32,,Connecticut Jr. Rangers 14U AAA,Shots,2
+123,2091,2103,12,51.51,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+124,2096,2108,12,40.88,19.46,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+125,2096,2108,12,40.88,19.46,,Connecticut Jr. Rangers 14U AAA,Shots,2
+126,2111,2123,12,42.81,22.59,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+127,2111,2123,12,42.81,22.59,,Connecticut Jr. Rangers 14U AAA,Shots,2
+128,2159,2171,12,49.32,18.79,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+129,2159,2171,12,49.32,18.79,,Connecticut Jr. Rangers 14U AAA,Shots,2
+130,2181,2193,12,52.53,8.64,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+131,2181,2193,12,52.53,8.64,,Connecticut Jr. Rangers 14U AAA,Shots,2
+132,2192,2204,12,48.49,18.22,,Connecticut Jr. Rangers 14U AAA,OZ play,2
+133,2192,2204,12,48.49,18.22,,Connecticut Jr. Rangers 14U AAA,Shots,2
+134,2222,2234,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+135,2244,2256,12,6.33,13.29,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+136,2292,2304,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+137,2297,2309,12,50.42,11.77,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+138,2297,2309,12,50.42,11.77,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+139,2316,2328,12,49.68,9.4,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+140,2316,2328,12,49.68,9.4,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+141,2322,2334,12,47.85,5.69,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+142,2322,2334,12,47.85,5.69,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+143,2326,2338,12,55.37,11.77,,Pittsburgh Penguins Elite 14U Girls,Goals,2
+144,2326,2338,12,55.37,11.77,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+145,2326,2338,12,55.37,11.77,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+146,2364,2376,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+147,2385,2397,12,42.53,8.45,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+148,2385,2397,12,42.53,8.45,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+149,2428,2440,12,45.01,18.32,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+150,2428,2440,12,45.01,18.32,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+151,2480,2492,12,46.38,3.42,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+152,2480,2492,12,46.38,3.42,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+153,2509,2521,12,54.27,12.34,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+154,2509,2521,12,54.27,12.34,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+155,2559,2571,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+156,2612,2624,12,2,15,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+157,2627,2639,12,39.97,20.78,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+158,2663,2675,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+159,2668,2680,12,41.98,20.41,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+160,2668,2680,12,41.98,20.41,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+161,2672,2684,12,56.19,5.98,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+162,2672,2684,12,56.19,5.98,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+163,2675,2687,12,49.96,17.37,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+164,2675,2687,12,49.96,17.37,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+165,2705,2717,12,9.45,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+166,2711,2723,12,2,15,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+167,2721,2733,12,52.34,11.77,,Connecticut Jr. Rangers 14U AAA,Goals,3
+168,2721,2733,12,52.34,11.77,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+169,2721,2733,12,52.34,11.77,,Connecticut Jr. Rangers 14U AAA,Shots,3
+170,2752,2764,12,30.48,12.96,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+171,2810,2822,12,50.97,17.08,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+172,2810,2822,12,50.97,17.08,,Connecticut Jr. Rangers 14U AAA,Shots,3
+173,2827,2839,12,54.73,18.13,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+174,2827,2839,12,54.73,18.13,,Connecticut Jr. Rangers 14U AAA,Shots,3
+175,2831,2843,12,43.27,1.99,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+176,2831,2843,12,43.27,1.99,,Connecticut Jr. Rangers 14U AAA,Shots,3
+177,2888,2900,12,41.07,6.36,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+178,2888,2900,12,41.07,6.36,,Connecticut Jr. Rangers 14U AAA,Shots,3
+179,2915,2927,12,9.45,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+180,2936,2948,12,2,15,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+181,2943,2955,12,9.9,12.24,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+182,2973,2985,12,51.51,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+183,2976,2988,12,42.17,21.35,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+184,2976,2988,12,42.17,21.35,,Connecticut Jr. Rangers 14U AAA,Shots,3
+185,2988,3000,12,9.45,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+186,3024,3036,12,45.83,21.07,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+187,3024,3036,12,45.83,21.07,,Connecticut Jr. Rangers 14U AAA,Shots,3
+188,3061,3073,12,52.98,18.32,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+189,3061,3073,12,52.98,18.32,,Connecticut Jr. Rangers 14U AAA,Shots,3
+190,3076,3088,12,42.44,14.81,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+191,3076,3088,12,42.44,14.81,,Connecticut Jr. Rangers 14U AAA,Shots,3
+192,3088,3100,12,2,15,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+193,3095,3107,12,56.19,7.88,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+194,3095,3107,12,56.19,7.88,,Connecticut Jr. Rangers 14U AAA,Shots,3
+195,3102,3114,12,46.84,23.35,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+196,3102,3114,12,46.84,23.35,,Connecticut Jr. Rangers 14U AAA,Shots,3
+197,3112,3124,12,49.41,7.21,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+198,3112,3124,12,49.41,7.21,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+199,3115,3127,12,54.54,12.81,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+200,3115,3127,12,54.54,12.81,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+201,3118,3130,12,56.28,11.58,,Pittsburgh Penguins Elite 14U Girls,Goals,3
+202,3118,3130,12,56.28,11.58,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+203,3118,3130,12,56.28,11.58,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+204,3179,3191,12,30.48,12.96,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+205,3187,3199,12,53.99,6.55,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+206,3187,3199,12,53.99,6.55,,Connecticut Jr. Rangers 14U AAA,Shots,3
+207,3208,3220,12,50.42,20.5,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+208,3208,3220,12,50.42,20.5,,Connecticut Jr. Rangers 14U AAA,Shots,3
+209,3251,3263,12,36.58,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+210,3271,3283,12,47.76,18.13,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+211,3271,3283,12,47.76,18.13,,Connecticut Jr. Rangers 14U AAA,Shots,3
+212,3278,3290,12,41.53,18.6,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+213,3278,3290,12,41.53,18.6,,Connecticut Jr. Rangers 14U AAA,Shots,3
+214,3291,3303,12,2,15,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+215,3298,3310,12,47.03,6.55,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+216,3298,3310,12,47.03,6.55,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+217,3320,3332,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+218,3323,3335,12,43.36,11.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+219,3323,3335,12,43.36,11.67,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+220,3406,3418,12,56.47,8.07,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+221,3406,3418,12,56.47,8.07,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+222,3429,3441,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+223,3433,3445,12,41.89,19.65,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+224,3433,3445,12,41.89,19.65,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+225,3467,3479,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+226,3476,3488,12,54.91,17.37,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+227,3476,3488,12,54.91,17.37,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+228,3483,3495,12,45.47,5.5,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+229,3483,3495,12,45.47,5.5,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+230,3505,3517,12,9.45,19.67,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+231,3531,3543,12,45.47,21.92,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+232,3531,3543,12,45.47,21.92,,Connecticut Jr. Rangers 14U AAA,Shots,3
+233,3626,3638,12,44.55,6.07,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+234,3626,3638,12,44.55,6.07,,Connecticut Jr. Rangers 14U AAA,Shots,3
+235,3647,3659,12,51.51,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+236,3652,3664,12,51.88,15.75,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+237,3652,3664,12,51.88,15.75,,Connecticut Jr. Rangers 14U AAA,Shots,3
+238,3705,3717,12,24.38,6.25,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+239,3758,3770,12,45.01,7.88,,Connecticut Jr. Rangers 14U AAA,OZ play,3
+240,3758,3770,12,45.01,7.88,,Connecticut Jr. Rangers 14U AAA,Shots,3

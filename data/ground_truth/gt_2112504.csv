@@ -1,0 +1,189 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,67,79,12,51.51,19.67,,OHA Mavericks Tardiff U22 AA,OZ play,1
+2,76,88,12,51.98,18.03,,OHA Mavericks Tardiff U22 AA,OZ play,1
+3,76,88,12,51.98,18.03,,OHA Mavericks Tardiff U22 AA,Shots,1
+4,83,95,12,41.98,16.8,,OHA Mavericks Tardiff U22 AA,OZ play,1
+5,83,95,12,41.98,16.8,,OHA Mavericks Tardiff U22 AA,Shots,1
+6,100,112,12,46.2,7.5,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+7,100,112,12,46.2,7.5,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+8,118,130,12,36.58,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,1
+9,118,130,12,40.24,21.35,,OHA Mavericks Tardiff U22 AA,OZ play,1
+10,154,166,12,40.24,21.35,,OHA Mavericks Tardiff U22 AA,OZ play,1
+11,154,166,12,40.24,21.35,,OHA Mavericks Tardiff U22 AA,Shots,1
+12,165,177,12,46.02,7.88,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+13,165,177,12,46.02,7.88,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+14,174,186,12,40.24,24.3,,OHA Mavericks Tardiff U22 AA,OZ play,1
+15,174,186,12,40.24,24.3,,OHA Mavericks Tardiff U22 AA,Shots,1
+16,179,191,12,48.4,17.65,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+17,179,191,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+18,186,198,12,48.4,17.65,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+19,186,198,12,48.4,17.65,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+20,236,248,12,44.18,21.16,,OHA Mavericks Tardiff U22 AA,OZ play,1
+21,236,248,12,44.18,21.16,,OHA Mavericks Tardiff U22 AA,Shots,1
+22,250,262,12,9.45,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,1
+23,310,322,12,46.93,10.06,,OHA Mavericks Tardiff U22 AA,OZ play,1
+24,310,322,12,46.93,10.06,,OHA Mavericks Tardiff U22 AA,Shots,1
+25,341,353,12,53.26,7.5,,OHA Mavericks Tardiff U22 AA,OZ play,1
+26,341,353,12,53.26,7.5,,OHA Mavericks Tardiff U22 AA,Shots,1
+27,348,360,12,47.3,23.06,,OHA Mavericks Tardiff U22 AA,OZ play,1
+28,348,360,12,47.3,23.06,,OHA Mavericks Tardiff U22 AA,Shots,1
+29,374,386,12,48.13,21.35,,OHA Mavericks Tardiff U22 AA,OZ play,1
+30,374,386,12,48.13,21.35,,OHA Mavericks Tardiff U22 AA,Shots,1
+31,486,498,12,47.85,14.24,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+32,486,498,12,47.85,14.24,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+33,514,526,12,9.45,19.67,,OHA Mavericks Tardiff U22 AA,OZ play,1
+34,546,558,12,46.57,13.57,,OHA Mavericks Tardiff U22 AA,OZ play,1
+35,546,558,12,46.57,13.57,,OHA Mavericks Tardiff U22 AA,Shots,1
+36,550,562,12,51.51,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,1
+37,572,584,12,46.38,15.47,,OHA Mavericks Tardiff U22 AA,OZ play,1
+38,572,584,12,46.38,15.47,,OHA Mavericks Tardiff U22 AA,Shots,1
+39,589,601,12,51.51,19.67,,OHA Mavericks Tardiff U22 AA,OZ play,1
+40,652,664,12,44.46,24.2,,OHA Mavericks Tardiff U22 AA,OZ play,1
+41,652,664,12,44.46,24.2,,OHA Mavericks Tardiff U22 AA,Shots,1
+42,658,670,12,50.42,19.36,,OHA Mavericks Tardiff U22 AA,OZ play,1
+43,658,670,12,51.51,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,1
+44,719,731,12,50.42,19.36,,OHA Mavericks Tardiff U22 AA,OZ play,1
+45,719,731,12,50.42,19.36,,OHA Mavericks Tardiff U22 AA,Shots,1
+46,768,780,12,55,7.4,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+47,768,780,12,55,7.4,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+48,795,807,12,1.38,12.05,,OHA Mavericks Tardiff U22 AA,OZ play,1
+49,803,815,12,51.51,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,1
+50,833,845,12,46.66,3.13,,OHA Mavericks Tardiff U22 AA,OZ play,1
+51,833,845,12,46.66,3.13,,OHA Mavericks Tardiff U22 AA,Shots,1
+52,835,847,12,54.18,12.91,,OHA Mavericks Tardiff U22 AA,OZ play,1
+53,835,847,12,54.18,12.91,,OHA Mavericks Tardiff U22 AA,Shots,1
+54,859,871,12,49.78,15.57,,OHA Mavericks Tardiff U22 AA,OZ play,1
+55,859,871,12,49.78,15.57,,OHA Mavericks Tardiff U22 AA,Shots,1
+56,900,912,12,53.17,11.39,,OHA Mavericks Tardiff U22 AA,OZ play,1
+57,900,912,12,53.17,11.39,,OHA Mavericks Tardiff U22 AA,Shots,1
+58,904,916,12,45.1,10.35,,OHA Mavericks Tardiff U22 AA,OZ play,1
+59,904,916,12,45.1,10.35,,OHA Mavericks Tardiff U22 AA,Shots,1
+60,913,925,12,51.51,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,1
+61,925,937,12,45.19,17.94,,OHA Mavericks Tardiff U22 AA,OZ play,1
+62,925,937,12,45.19,17.94,,OHA Mavericks Tardiff U22 AA,Shots,1
+63,928,940,12,43.54,14.62,,OHA Mavericks Tardiff U22 AA,OZ play,1
+64,928,940,12,43.54,14.62,,OHA Mavericks Tardiff U22 AA,Shots,1
+65,952,964,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+66,1005,1017,12,45.83,17.37,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+67,1005,1017,12,45.83,17.37,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+68,1078,1090,12,24.38,19.67,,OHA Mavericks Tardiff U22 AA,OZ play,2
+69,1078,1090,12,46.75,17.08,,OHA Mavericks Tardiff U22 AA,OZ play,2
+70,1082,1094,12,46.75,17.08,,OHA Mavericks Tardiff U22 AA,OZ play,2
+71,1082,1094,12,46.75,17.08,,OHA Mavericks Tardiff U22 AA,Shots,2
+72,1124,1136,12,46.38,19.36,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+73,1124,1136,12,46.38,19.36,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+74,1128,1140,12,2,15,,OHA Mavericks Tardiff U22 AA,OZ play,2
+75,1179,1191,12,44.64,18.7,,OHA Mavericks Tardiff U22 AA,OZ play,2
+76,1179,1191,12,44.64,18.7,,OHA Mavericks Tardiff U22 AA,Shots,2
+77,1193,1205,12,56.01,9.49,,OHA Mavericks Tardiff U22 AA,OZ play,2
+78,1193,1205,12,56.01,9.49,,OHA Mavericks Tardiff U22 AA,Shots,2
+79,1203,1215,12,42.9,19.08,,OHA Mavericks Tardiff U22 AA,OZ play,2
+80,1203,1215,12,42.9,19.08,,OHA Mavericks Tardiff U22 AA,Shots,2
+81,1215,1227,12,48.77,10.63,,OHA Mavericks Tardiff U22 AA,OZ play,2
+82,1215,1227,12,48.77,10.63,,OHA Mavericks Tardiff U22 AA,Shots,2
+83,1240,1252,12,24.38,19.67,,OHA Mavericks Tardiff U22 AA,OZ play,2
+84,1313,1325,12,48.58,12.05,,OHA Mavericks Tardiff U22 AA,OZ play,2
+85,1313,1325,12,48.58,12.05,,OHA Mavericks Tardiff U22 AA,Shots,2
+86,1323,1335,12,44.92,2.75,,OHA Mavericks Tardiff U22 AA,OZ play,2
+87,1323,1335,12,51.51,19.67,,OHA Mavericks Tardiff U22 AA,OZ play,2
+88,1336,1348,12,44.92,2.75,,OHA Mavericks Tardiff U22 AA,OZ play,2
+89,1336,1348,12,44.92,2.75,,OHA Mavericks Tardiff U22 AA,Shots,2
+90,1343,1355,12,49.32,17.37,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+91,1343,1355,12,49.32,17.37,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+92,1347,1359,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+93,1361,1373,12,40.98,15.28,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+94,1361,1373,12,40.98,15.28,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+95,1406,1418,12,48.95,12.62,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+96,1406,1418,12,48.95,12.62,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+97,1499,1511,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+98,1516,1528,12,51.43,19.36,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+99,1516,1528,12,51.43,19.36,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+100,1541,1553,12,53.81,17.84,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+101,1541,1553,12,53.81,17.84,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+102,1562,1574,12,47.03,12.91,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+103,1562,1574,12,47.03,12.91,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+104,1566,1578,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+105,1600,1612,12,48.31,19.17,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+106,1600,1612,12,48.31,19.17,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+107,1606,1618,12,52.34,5.22,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+108,1606,1618,12,52.34,5.22,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+109,1612,1624,12,40.79,21.26,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+110,1612,1624,12,40.79,21.26,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+111,1620,1632,12,53.81,2.56,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+112,1620,1632,12,53.81,2.56,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+113,1669,1681,12,9.45,19.67,,OHA Mavericks Tardiff U22 AA,OZ play,2
+114,1669,1681,12,42.08,3.51,,OHA Mavericks Tardiff U22 AA,OZ play,2
+115,1694,1706,12,42.08,3.51,,OHA Mavericks Tardiff U22 AA,OZ play,2
+116,1694,1706,12,42.08,3.51,,OHA Mavericks Tardiff U22 AA,Shots,2
+117,1729,1741,12,54.45,11.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+118,1729,1741,12,54.45,11.67,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+119,1739,1751,12,57.02,18.98,,OHA Mavericks Tardiff U22 AA,OZ play,2
+120,1739,1751,12,57.02,18.98,,OHA Mavericks Tardiff U22 AA,Shots,2
+121,1752,1764,12,24.38,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+122,1761,1773,12,19.07,20.78,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+123,1766,1778,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+124,1773,1785,12,42.17,12.15,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+125,1773,1785,12,42.17,12.15,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+126,1775,1787,12,54.73,9.59,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+127,1775,1787,12,54.73,9.59,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+128,1792,1804,12,48.03,5.98,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+129,1792,1804,12,48.03,5.98,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+130,1799,1811,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+131,1808,1820,12,49.96,9.68,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+132,1808,1820,12,49.96,9.68,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+133,1815,1827,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+134,1836,1848,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+135,1857,1869,12,50.97,23.06,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+136,1857,1869,12,50.97,23.06,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+137,1872,1884,12,42.81,6.55,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+138,1872,1884,12,42.81,6.55,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+139,1886,1898,12,39.42,5.22,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+140,1886,1898,12,39.42,5.22,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+141,1893,1905,12,30.48,12.96,,OHA Mavericks Tardiff U22 AA,OZ play,3
+142,1945,1957,12,44.28,9.4,,OHA Mavericks Tardiff U22 AA,OZ play,3
+143,1945,1957,12,44.28,9.4,,OHA Mavericks Tardiff U22 AA,Shots,3
+144,2008,2020,12,45.93,6.07,,OHA Mavericks Tardiff U22 AA,OZ play,3
+145,2008,2020,12,45.93,6.07,,OHA Mavericks Tardiff U22 AA,Shots,3
+146,2022,2034,12,51.7,11.96,,OHA Mavericks Tardiff U22 AA,OZ play,3
+147,2022,2034,12,51.7,11.96,,OHA Mavericks Tardiff U22 AA,Shots,3
+148,2040,2052,12,39.88,11.29,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+149,2040,2052,12,39.88,11.29,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+150,2055,2067,12,48.77,7.12,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+151,2055,2067,12,48.77,7.12,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+152,2199,2211,12,44.46,9.49,,OHA Mavericks Tardiff U22 AA,OZ play,3
+153,2199,2211,12,44.46,9.49,,OHA Mavericks Tardiff U22 AA,Shots,3
+154,2242,2254,12,42.9,18.89,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+155,2250,2262,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+156,2270,2282,12,44.92,4.84,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+157,2270,2282,12,44.92,4.84,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+158,2379,2391,12,51.51,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,3
+159,2403,2415,12,39.42,24.2,,OHA Mavericks Tardiff U22 AA,OZ play,3
+160,2414,2426,12,9.45,19.67,,OHA Mavericks Tardiff U22 AA,OZ play,3
+161,2451,2463,12,48.58,21.83,,OHA Mavericks Tardiff U22 AA,OZ play,3
+162,2451,2463,12,48.58,21.83,,OHA Mavericks Tardiff U22 AA,Shots,3
+163,2467,2479,12,39.88,13,,OHA Mavericks Tardiff U22 AA,OZ play,3
+164,2467,2479,12,39.88,13,,OHA Mavericks Tardiff U22 AA,Shots,3
+165,2475,2487,12,9.45,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,3
+166,2475,2487,12,50.78,12.62,,OHA Mavericks Tardiff U22 AA,OZ play,3
+167,2490,2502,12,50.78,12.62,,OHA Mavericks Tardiff U22 AA,OZ play,3
+168,2490,2502,12,50.78,12.62,,OHA Mavericks Tardiff U22 AA,Shots,3
+169,2511,2523,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+170,2529,2541,12,34.47,25.15,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+171,2534,2546,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+172,2564,2576,12,39.6,13.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+173,2564,2576,12,39.6,13.67,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+174,2625,2637,12,36.58,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+175,2650,2662,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+176,2670,2682,12,56.1,14.62,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+177,2670,2682,12,56.1,14.62,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+178,2725,2737,12,24.38,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+179,2730,2742,12,50.78,21.73,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+180,2730,2742,12,50.78,21.73,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+181,2741,2753,12,44.37,18.13,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+182,2741,2753,12,44.37,18.13,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+183,2767,2779,12,47.21,1.61,,OHA Mavericks Tardiff U22 AA,OZ play,3
+184,2767,2779,12,47.21,1.61,,OHA Mavericks Tardiff U22 AA,Shots,3
+185,2772,2784,12,51.51,6.25,,OHA Mavericks Tardiff U22 AA,OZ play,3
+186,2825,2837,12,50.33,6.26,,OHA Mavericks Tardiff U22 AA,Goals,3
+187,2825,2837,12,50.33,6.26,,OHA Mavericks Tardiff U22 AA,OZ play,3
+188,2825,2837,12,50.33,6.26,,OHA Mavericks Tardiff U22 AA,Shots,3

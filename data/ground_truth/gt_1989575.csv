@@ -1,0 +1,234 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,70,82,12,9.45,19.67,,Connecticut Polar Bears 14U,OZ play,1
+2,84,96,12,55.73,16.13,,Connecticut Polar Bears 14U,OZ play,1
+3,84,96,12,55.73,16.13,,Connecticut Polar Bears 14U,Shots,1
+4,86,98,12,52.34,13.1,,Connecticut Polar Bears 14U,OZ play,1
+5,86,98,12,52.34,13.1,,Connecticut Polar Bears 14U,Shots,1
+6,122,134,12,51.15,14.81,,Connecticut Polar Bears 14U,OZ play,1
+7,122,134,12,51.15,14.81,,Connecticut Polar Bears 14U,Shots,1
+8,143,155,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+9,143,155,12,49.5,6.17,,Chicago Mission 14U,OZ play,1
+10,160,172,12,49.5,6.17,,Chicago Mission 14U,OZ play,1
+11,160,172,12,49.5,6.17,,Chicago Mission 14U,Shots,1
+12,187,199,12,46.84,13.29,,Connecticut Polar Bears 14U,OZ play,1
+13,187,199,12,46.84,13.29,,Connecticut Polar Bears 14U,Shots,1
+14,191,203,12,55.64,19.74,,Connecticut Polar Bears 14U,OZ play,1
+15,191,203,12,55.64,19.74,,Connecticut Polar Bears 14U,Shots,1
+16,211,223,12,9.45,6.25,,Connecticut Polar Bears 14U,OZ play,1
+17,236,248,12,52.25,17.46,,Connecticut Polar Bears 14U,OZ play,1
+18,236,248,12,52.25,17.46,,Connecticut Polar Bears 14U,Shots,1
+19,254,266,12,51.51,19.67,,Connecticut Polar Bears 14U,OZ play,1
+20,264,276,12,40.52,21.73,,Connecticut Polar Bears 14U,OZ play,1
+21,264,276,12,40.52,21.73,,Connecticut Polar Bears 14U,Shots,1
+22,309,321,12,24.38,19.67,,Connecticut Polar Bears 14U,OZ play,1
+23,309,321,12,46.11,16.42,,Connecticut Polar Bears 14U,OZ play,1
+24,338,350,12,46.11,16.42,,Connecticut Polar Bears 14U,OZ play,1
+25,338,350,12,46.11,16.42,,Connecticut Polar Bears 14U,Shots,1
+26,453,465,12,52.53,13,,Chicago Mission 14U,OZ play,1
+27,453,465,12,52.53,13,,Chicago Mission 14U,Shots,1
+28,498,510,12,55.37,8.92,,Chicago Mission 14U,OZ play,1
+29,498,510,12,55.37,8.92,,Chicago Mission 14U,Shots,1
+30,517,529,12,51.51,6.25,,Chicago Mission 14U,OZ play,1
+31,529,541,12,50.14,13.1,,Chicago Mission 14U,OZ play,1
+32,529,541,12,50.14,13.1,,Chicago Mission 14U,Shots,1
+33,641,653,12,51.51,6.25,,Connecticut Polar Bears 14U,OZ play,1
+34,656,668,12,42.44,17.65,,Connecticut Polar Bears 14U,OZ play,1
+35,656,668,12,42.44,17.65,,Connecticut Polar Bears 14U,Shots,1
+36,731,743,12,36.58,6.25,,Chicago Mission 14U,OZ play,1
+37,767,779,12,52.43,9.4,,Chicago Mission 14U,OZ play,1
+38,767,779,12,52.43,9.4,,Chicago Mission 14U,Shots,1
+39,827,839,12,55.73,8.54,,Chicago Mission 14U,OZ play,1
+40,827,839,12,55.73,8.54,,Chicago Mission 14U,Shots,1
+41,900,912,12,51.51,19.67,,Connecticut Polar Bears 14U,OZ play,1
+42,910,922,12,51.52,24.49,,Connecticut Polar Bears 14U,OZ play,1
+43,910,922,12,51.52,24.49,,Connecticut Polar Bears 14U,Shots,1
+44,914,926,12,48.03,23.73,,Connecticut Polar Bears 14U,OZ play,1
+45,914,926,12,48.03,23.73,,Connecticut Polar Bears 14U,Shots,1
+46,962,974,12,41.16,6.45,,Chicago Mission 14U,OZ play,1
+47,962,974,12,41.16,6.45,,Chicago Mission 14U,Shots,1
+48,995,1007,12,41.8,1.8,,Connecticut Polar Bears 14U,OZ play,1
+49,995,1007,12,41.8,1.8,,Connecticut Polar Bears 14U,Shots,1
+50,1020,1032,12,53.44,18.41,,Connecticut Polar Bears 14U,OZ play,1
+51,1020,1032,12,53.44,18.41,,Connecticut Polar Bears 14U,Shots,1
+52,1141,1153,12,30.48,12.96,,Chicago Mission 14U,OZ play,2
+53,1150,1162,12,54.18,13.19,,Chicago Mission 14U,OZ play,2
+54,1150,1162,12,54.18,13.19,,Chicago Mission 14U,Shots,2
+55,1167,1179,12,50.23,8.07,,Chicago Mission 14U,OZ play,2
+56,1167,1179,12,50.23,8.07,,Chicago Mission 14U,Shots,2
+57,1201,1213,12,53.26,17.84,,Chicago Mission 14U,OZ play,2
+58,1201,1213,12,53.26,17.84,,Chicago Mission 14U,Shots,2
+59,1221,1233,12,40.98,9.11,,Chicago Mission 14U,OZ play,2
+60,1221,1233,12,40.98,9.11,,Chicago Mission 14U,Shots,2
+61,1229,1241,12,49.23,16.23,,Chicago Mission 14U,OZ play,2
+62,1229,1241,12,49.23,16.23,,Chicago Mission 14U,Shots,2
+63,1258,1270,12,9.45,19.67,,Chicago Mission 14U,OZ play,2
+64,1279,1291,12,53.63,21.73,,Chicago Mission 14U,OZ play,2
+65,1279,1291,12,53.63,21.73,,Chicago Mission 14U,Shots,2
+66,1286,1298,12,54.82,12.34,,Chicago Mission 14U,OZ play,2
+67,1286,1298,12,54.82,12.34,,Chicago Mission 14U,Shots,2
+68,1292,1304,12,40.24,21.54,,Chicago Mission 14U,OZ play,2
+69,1292,1304,12,40.24,21.54,,Chicago Mission 14U,Shots,2
+70,1329,1341,12,2,15,,Connecticut Polar Bears 14U,OZ play,2
+71,1348,1360,12,53.63,12.72,,Connecticut Polar Bears 14U,OZ play,2
+72,1348,1360,12,53.63,12.72,,Connecticut Polar Bears 14U,Shots,2
+73,1349,1361,12,56.38,12.15,,Chicago Mission 14U,OZ play,2
+74,1361,1373,12,52.07,13.38,,Chicago Mission 14U,OZ play,2
+75,1361,1373,12,52.07,13.38,,Chicago Mission 14U,Shots,2
+76,1402,1414,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+77,1407,1419,12,47.76,18.98,,Chicago Mission 14U,OZ play,2
+78,1407,1419,12,47.76,18.98,,Chicago Mission 14U,Shots,2
+79,1424,1436,12,6.69,6.36,,Chicago Mission 14U,OZ play,2
+80,1547,1559,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+81,1554,1566,12,52.07,12.62,,Chicago Mission 14U,OZ play,2
+82,1554,1566,12,52.07,12.62,,Chicago Mission 14U,Shots,2
+83,1577,1589,12,9.45,19.67,,Chicago Mission 14U,OZ play,2
+84,1577,1589,12,49.87,22.21,,Chicago Mission 14U,OZ play,2
+85,1606,1618,12,49.87,22.21,,Chicago Mission 14U,OZ play,2
+86,1606,1618,12,49.87,22.21,,Chicago Mission 14U,Shots,2
+87,1613,1625,12,39.42,7.02,,Connecticut Polar Bears 14U,OZ play,2
+88,1613,1625,12,39.42,7.02,,Connecticut Polar Bears 14U,Shots,2
+89,1639,1651,12,9.45,19.67,,Chicago Mission 14U,OZ play,2
+90,1684,1696,12,56.47,7.69,,Chicago Mission 14U,OZ play,2
+91,1684,1696,12,56.47,7.69,,Chicago Mission 14U,Shots,2
+92,1714,1726,12,9.45,19.67,,Connecticut Polar Bears 14U,OZ play,2
+93,1721,1733,12,53.17,3.61,,Connecticut Polar Bears 14U,OZ play,2
+94,1721,1733,12,53.17,3.61,,Connecticut Polar Bears 14U,Shots,2
+95,1738,1750,12,51.51,6.25,,Connecticut Polar Bears 14U,OZ play,2
+96,1742,1754,12,43.36,5.79,,Connecticut Polar Bears 14U,Goals,2
+97,1742,1754,12,43.36,5.79,,Connecticut Polar Bears 14U,OZ play,2
+98,1742,1754,12,43.36,5.79,,Connecticut Polar Bears 14U,Shots,2
+99,1768,1780,12,30.48,12.96,,Chicago Mission 14U,OZ play,2
+100,1807,1819,12,44.09,22.68,,Chicago Mission 14U,OZ play,2
+101,1807,1819,12,44.09,22.68,,Chicago Mission 14U,Shots,2
+102,1850,1862,12,2,15,,Chicago Mission 14U,OZ play,2
+103,1873,1885,12,51.61,8.64,,Chicago Mission 14U,OZ play,2
+104,1873,1885,12,51.61,8.64,,Chicago Mission 14U,Shots,2
+105,1878,1890,12,40.15,22.4,,Chicago Mission 14U,OZ play,2
+106,1878,1890,12,40.15,22.4,,Chicago Mission 14U,Shots,2
+107,1938,1950,12,36.58,19.67,,Connecticut Polar Bears 14U,OZ play,2
+108,1946,1958,12,44.09,3.51,,Connecticut Polar Bears 14U,OZ play,2
+109,1946,1958,12,44.09,3.51,,Connecticut Polar Bears 14U,Shots,2
+110,1992,2004,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+111,2000,2012,12,51.24,17.18,,Chicago Mission 14U,OZ play,2
+112,2000,2012,12,51.24,17.18,,Chicago Mission 14U,Shots,2
+113,2027,2039,12,55.46,14.43,,Chicago Mission 14U,Goals,2
+114,2027,2039,12,55.46,14.43,,Chicago Mission 14U,OZ play,2
+115,2027,2039,12,55.46,14.43,,Chicago Mission 14U,Shots,2
+116,2068,2080,12,30.48,12.96,,Connecticut Polar Bears 14U,OZ play,2
+117,2074,2086,12,49.59,22.49,,Connecticut Polar Bears 14U,OZ play,2
+118,2074,2086,12,49.59,22.49,,Connecticut Polar Bears 14U,Shots,2
+119,2160,2172,12,51.51,6.25,,Connecticut Polar Bears 14U,OZ play,2
+120,2163,2175,12,43.82,2.75,,Connecticut Polar Bears 14U,OZ play,2
+121,2163,2175,12,43.82,2.75,,Connecticut Polar Bears 14U,Shots,2
+122,2176,2188,12,40.15,14.62,,Connecticut Polar Bears 14U,OZ play,2
+123,2176,2188,12,40.15,14.62,,Connecticut Polar Bears 14U,Shots,2
+124,2191,2203,12,42.53,24.77,,Chicago Mission 14U,OZ play,2
+125,2350,2362,12,24.38,19.67,,Chicago Mission 14U,OZ play,2
+126,2372,2384,12,45.28,17.46,,Chicago Mission 14U,OZ play,2
+127,2372,2384,12,45.28,17.46,,Chicago Mission 14U,Shots,2
+128,2508,2520,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+129,2537,2549,12,55.73,6.45,,Chicago Mission 14U,OZ play,2
+130,2537,2549,12,55.73,6.45,,Chicago Mission 14U,Shots,2
+131,2567,2579,12,51.51,6.25,,Connecticut Polar Bears 14U,OZ play,2
+132,2612,2624,12,45.93,17.84,,Connecticut Polar Bears 14U,OZ play,2
+133,2612,2624,12,45.93,17.84,,Connecticut Polar Bears 14U,Shots,2
+134,2784,2796,12,24.38,6.25,,Connecticut Polar Bears 14U,OZ play,3
+135,2804,2816,12,40.53,16.73,,Connecticut Polar Bears 14U,OZ play,3
+136,2804,2816,12,40.53,16.73,,Connecticut Polar Bears 14U,Shots,3
+137,2827,2839,12,51.51,19.67,,Connecticut Polar Bears 14U,OZ play,3
+138,2830,2842,12,56.19,22.66,,Connecticut Polar Bears 14U,OZ play,3
+139,2830,2842,12,56.19,22.66,,Connecticut Polar Bears 14U,Shots,3
+140,2831,2843,12,51.75,12.43,,Connecticut Polar Bears 14U,OZ play,3
+141,2831,2843,12,51.75,12.43,,Connecticut Polar Bears 14U,Shots,3
+142,2862,2874,12,9.45,19.67,,Chicago Mission 14U,OZ play,3
+143,2872,2884,12,51.87,13.09,,Chicago Mission 14U,OZ play,3
+144,2872,2884,12,51.87,13.09,,Chicago Mission 14U,Shots,3
+145,2886,2898,12,47.43,15.3,,Chicago Mission 14U,OZ play,3
+146,2886,2898,12,47.43,15.3,,Chicago Mission 14U,Shots,3
+147,2908,2920,12,43.05,19.86,,Chicago Mission 14U,OZ play,3
+148,2908,2920,12,51.51,19.67,,Chicago Mission 14U,OZ play,3
+149,2910,2922,12,43.05,19.86,,Chicago Mission 14U,OZ play,3
+150,2910,2922,12,43.05,19.86,,Chicago Mission 14U,Shots,3
+151,2939,2951,12,45.43,17.64,,Connecticut Polar Bears 14U,OZ play,3
+152,2939,2951,12,45.43,17.64,,Connecticut Polar Bears 14U,Shots,3
+153,2955,2967,12,47.81,16.86,,Chicago Mission 14U,OZ play,3
+154,2955,2967,12,47.81,16.86,,Chicago Mission 14U,Shots,3
+155,2964,2976,12,53.55,1.37,,Chicago Mission 14U,OZ play,3
+156,2964,2976,12,53.55,1.37,,Chicago Mission 14U,Shots,3
+157,2966,2978,12,53.55,13.61,,Chicago Mission 14U,OZ play,3
+158,2966,2978,12,53.55,13.61,,Chicago Mission 14U,Shots,3
+159,3005,3017,12,54.32,20.57,,Chicago Mission 14U,OZ play,3
+160,3005,3017,12,54.32,20.57,,Chicago Mission 14U,Shots,3
+161,3024,3036,12,43.75,13.02,,Chicago Mission 14U,OZ play,3
+162,3024,3036,12,51.51,19.67,,Chicago Mission 14U,OZ play,3
+163,3025,3037,12,43.75,13.02,,Chicago Mission 14U,OZ play,3
+164,3025,3037,12,43.75,13.02,,Chicago Mission 14U,Shots,3
+165,3059,3071,12,49.04,8.53,,Connecticut Polar Bears 14U,OZ play,3
+166,3059,3071,12,49.04,8.53,,Connecticut Polar Bears 14U,Shots,3
+167,3078,3090,12,47.36,11.59,,Connecticut Polar Bears 14U,OZ play,3
+168,3078,3090,12,47.36,11.59,,Connecticut Polar Bears 14U,Shots,3
+169,3084,3096,12,46.2,11.52,,Connecticut Polar Bears 14U,OZ play,3
+170,3084,3096,12,46.2,11.52,,Connecticut Polar Bears 14U,Shots,3
+171,3107,3119,12,30.48,12.96,,Connecticut Polar Bears 14U,OZ play,3
+172,3110,3122,12,27.52,16.54,,Connecticut Polar Bears 14U,OZ play,3
+173,3196,3208,12,9.45,19.67,,Connecticut Polar Bears 14U,OZ play,3
+174,3205,3217,12,39.89,5.86,,Connecticut Polar Bears 14U,OZ play,3
+175,3205,3217,12,39.89,5.86,,Connecticut Polar Bears 14U,Shots,3
+176,3392,3404,12,9.45,6.25,,Connecticut Polar Bears 14U,OZ play,3
+177,3426,3438,12,59.86,14,,Connecticut Polar Bears 14U,OZ play,3
+178,3471,3483,12,30.61,3.26,,Chicago Mission 14U,OZ play,3
+179,3471,3483,12,51.51,19.67,,Chicago Mission 14U,OZ play,3
+180,3522,3534,12,30.35,22.66,,Chicago Mission 14U,OZ play,3
+181,3522,3534,12,30.61,3.26,,Chicago Mission 14U,OZ play,3
+182,3523,3535,12,32.67,5.66,,Connecticut Polar Bears 14U,OZ play,3
+183,3653,3665,12,9.45,19.67,,Chicago Mission 14U,OZ play,3
+184,3653,3665,12,39.63,24.61,,Chicago Mission 14U,OZ play,3
+185,3659,3671,12,39.63,24.61,,Chicago Mission 14U,OZ play,3
+186,3659,3671,12,39.63,24.61,,Chicago Mission 14U,Shots,3
+187,3699,3711,12,52.33,20.83,,Connecticut Polar Bears 14U,OZ play,3
+188,3699,3711,12,52.33,20.83,,Connecticut Polar Bears 14U,Shots,3
+189,3723,3735,12,9.45,6.25,,Connecticut Polar Bears 14U,OZ play,3
+190,3723,3735,12,45.82,4.04,,Connecticut Polar Bears 14U,OZ play,3
+191,3734,3746,12,45.82,4.04,,Connecticut Polar Bears 14U,OZ play,3
+192,3734,3746,12,45.82,4.04,,Connecticut Polar Bears 14U,Shots,3
+193,3819,3831,12,50.39,2.73,,Chicago Mission 14U,OZ play,3
+194,3819,3831,12,50.39,2.73,,Chicago Mission 14U,Shots,3
+195,3824,3836,12,53.49,13.8,,Chicago Mission 14U,Goals,3
+196,3824,3836,12,53.49,13.8,,Chicago Mission 14U,OZ play,3
+197,3824,3836,12,53.49,13.8,,Chicago Mission 14U,Shots,3
+198,3857,3869,12,30.48,12.96,,Connecticut Polar Bears 14U,OZ play,3
+199,3860,3872,12,45.43,14.19,,Connecticut Polar Bears 14U,OZ play,3
+200,3860,3872,12,45.43,14.19,,Connecticut Polar Bears 14U,Shots,3
+201,3879,3891,12,9.45,19.67,,Connecticut Polar Bears 14U,OZ play,3
+202,3888,3900,12,59.28,19.33,,Connecticut Polar Bears 14U,OZ play,3
+203,3930,3942,12,51.51,6.25,,Connecticut Polar Bears 14U,OZ play,3
+204,3944,3956,12,46.78,3.91,,Connecticut Polar Bears 14U,OZ play,3
+205,3944,3956,12,46.78,3.91,,Connecticut Polar Bears 14U,Shots,3
+206,3971,3983,12,9.45,19.67,,Connecticut Polar Bears 14U,OZ play,3
+207,3980,3992,12,2,15,,Connecticut Polar Bears 14U,OZ play,3
+208,3980,3992,12,48.65,11.98,,Connecticut Polar Bears 14U,OZ play,3
+209,4016,4028,12,48.65,11.98,,Connecticut Polar Bears 14U,OZ play,3
+210,4016,4028,12,48.65,11.98,,Connecticut Polar Bears 14U,Shots,3
+211,4026,4038,12,30.87,25.06,,Chicago Mission 14U,OZ play,3
+212,4026,4038,12,30.87,25.06,,Chicago Mission 14U,Shots,3
+213,4031,4043,12,2,15,,Connecticut Polar Bears 14U,OZ play,3
+214,4038,4050,12,43.75,2.54,,Connecticut Polar Bears 14U,OZ play,3
+215,4038,4050,12,43.75,2.54,,Connecticut Polar Bears 14U,Shots,3
+216,4041,4053,12,54.13,22.72,,Connecticut Polar Bears 14U,OZ play,3
+217,4041,4053,12,54.13,22.72,,Connecticut Polar Bears 14U,Shots,3
+218,4050,4062,12,53.1,13.8,,Connecticut Polar Bears 14U,OZ play,3
+219,4050,4062,12,53.1,13.8,,Connecticut Polar Bears 14U,Shots,3
+220,4085,4097,12,9.45,6.25,,Connecticut Polar Bears 14U,OZ play,3
+221,4094,4106,12,52.97,12.69,,Connecticut Polar Bears 14U,OZ play,3
+222,4094,4106,12,52.97,12.69,,Connecticut Polar Bears 14U,Shots,3
+223,4121,4133,12,9.45,6.25,,Connecticut Polar Bears 14U,OZ play,3
+224,4123,4135,12,46.2,25,,Connecticut Polar Bears 14U,OZ play,3
+225,4123,4135,12,46.2,25,,Connecticut Polar Bears 14U,Shots,3
+226,4140,4152,12,42.47,19.6,,Connecticut Polar Bears 14U,OZ play,3
+227,4140,4152,12,42.47,19.6,,Connecticut Polar Bears 14U,Shots,3
+228,4151,4163,12,2.13,13.61,,Connecticut Polar Bears 14U,OZ play,3
+229,4320,4332,12,9.45,19.67,,Connecticut Polar Bears 14U,OZ play,3
+230,4330,4342,12,42.92,12.56,,Connecticut Polar Bears 14U,OZ play,3
+231,4330,4342,12,42.92,12.56,,Connecticut Polar Bears 14U,Shots,3
+232,4333,4345,12,56.51,23.63,,Connecticut Polar Bears 14U,OZ play,3
+233,4333,4345,12,56.51,23.63,,Connecticut Polar Bears 14U,Shots,3

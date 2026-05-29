@@ -1,0 +1,350 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,-1,11,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,1
+2,16,28,12,40.33,6.93,,Chicago Mission 19U AAA,OZ play,1
+3,16,28,12,40.33,6.93,,Chicago Mission 19U AAA,Shots,1
+4,81,93,12,52.8,18.03,,Chicago Mission 19U AAA,OZ play,1
+5,81,93,12,52.8,18.03,,Chicago Mission 19U AAA,Shots,1
+6,109,121,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,1
+7,159,171,12,16.23,6.55,,Chicago Mission 19U AAA,OZ play,1
+8,196,208,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+9,211,223,12,54.63,15.19,,Chicago Mission 19U AAA,OZ play,1
+10,211,223,12,54.63,15.19,,Chicago Mission 19U AAA,Shots,1
+11,229,241,12,43.45,22.11,,Chicago Mission 19U AAA,OZ play,1
+12,229,241,12,43.45,22.11,,Chicago Mission 19U AAA,Shots,1
+13,241,253,12,48.49,14.71,,Chicago Mission 19U AAA,OZ play,1
+14,241,253,12,48.49,14.71,,Chicago Mission 19U AAA,Shots,1
+15,242,254,12,50.14,16.13,,Chicago Mission 19U AAA,OZ play,1
+16,242,254,12,50.14,16.13,,Chicago Mission 19U AAA,Shots,1
+17,253,265,12,53.72,14.33,,Chicago Mission 19U AAA,OZ play,1
+18,253,265,12,53.72,14.33,,Chicago Mission 19U AAA,Shots,1
+19,254,266,12,55.37,15.57,,Chicago Mission 19U AAA,OZ play,1
+20,254,266,12,55.37,15.57,,Chicago Mission 19U AAA,Shots,1
+21,263,275,12,53.99,11.01,,Chicago Mission 19U AAA,OZ play,1
+22,263,275,12,53.99,11.01,,Chicago Mission 19U AAA,Shots,1
+23,287,299,12,51.98,14.14,,Chicago Mission 19U AAA,OZ play,1
+24,287,299,12,51.98,14.14,,Chicago Mission 19U AAA,Shots,1
+25,295,307,12,44.64,3.04,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+26,295,307,12,44.64,3.04,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+27,350,362,12,56.28,10.82,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+28,350,362,12,56.28,10.82,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+29,367,379,12,39.05,1.14,,Chicago Mission 19U AAA,OZ play,1
+30,408,420,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+31,419,431,12,45.74,4.08,,Chicago Mission 19U AAA,OZ play,1
+32,419,431,12,45.74,4.08,,Chicago Mission 19U AAA,Shots,1
+33,441,453,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,1
+34,461,473,12,51.43,8.45,,Chicago Mission 19U AAA,Goals,1
+35,461,473,12,51.43,8.45,,Chicago Mission 19U AAA,OZ play,1
+36,461,473,12,51.43,8.45,,Chicago Mission 19U AAA,Shots,1
+37,493,505,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,1
+38,526,538,12,41.25,17.56,,Chicago Mission 19U AAA,OZ play,1
+39,526,538,12,41.25,17.56,,Chicago Mission 19U AAA,Shots,1
+40,533,545,12,41.53,22.49,,Chicago Mission 19U AAA,OZ play,1
+41,533,545,12,41.53,22.49,,Chicago Mission 19U AAA,Shots,1
+42,559,571,12,49.04,4.56,,Chicago Mission 19U AAA,OZ play,1
+43,559,571,12,49.04,4.56,,Chicago Mission 19U AAA,Shots,1
+44,623,635,12,24.38,6.25,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+45,623,635,12,41.25,2.18,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+46,637,649,12,41.25,2.18,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+47,637,649,12,41.25,2.18,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+48,651,663,12,2.02,15.75,,Chicago Mission 19U AAA,OZ play,1
+49,730,742,12,24.38,19.67,,Chicago Mission 19U AAA,OZ play,1
+50,773,785,12,41.53,11.67,,Chicago Mission 19U AAA,OZ play,1
+51,773,785,12,41.53,11.67,,Chicago Mission 19U AAA,Shots,1
+52,775,787,12,44.73,15.85,,Chicago Mission 19U AAA,OZ play,1
+53,775,787,12,44.73,15.85,,Chicago Mission 19U AAA,Shots,1
+54,794,806,12,44.92,20.12,,Chicago Mission 19U AAA,OZ play,1
+55,794,806,12,44.92,20.12,,Chicago Mission 19U AAA,Shots,1
+56,817,829,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+57,869,881,12,42.17,17.46,,Chicago Mission 19U AAA,OZ play,1
+58,869,881,12,42.17,17.46,,Chicago Mission 19U AAA,Shots,1
+59,879,891,12,53.17,17.08,,Chicago Mission 19U AAA,OZ play,1
+60,879,891,12,53.17,17.08,,Chicago Mission 19U AAA,Shots,1
+61,899,911,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,1
+62,933,945,12,57.29,21.07,,Chicago Mission 19U AAA,OZ play,1
+63,933,945,12,57.29,21.07,,Chicago Mission 19U AAA,Shots,1
+64,985,997,12,42.35,22.78,,Chicago Mission 19U AAA,OZ play,1
+65,985,997,12,42.35,22.78,,Chicago Mission 19U AAA,Shots,1
+66,989,1001,12,52.43,9.97,,Chicago Mission 19U AAA,Goals,1
+67,989,1001,12,52.43,9.97,,Chicago Mission 19U AAA,OZ play,1
+68,989,1001,12,52.43,9.97,,Chicago Mission 19U AAA,Shots,1
+69,1023,1035,12,30.48,12.96,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+70,1023,1035,12,49.78,9.11,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+71,1030,1042,12,49.78,9.11,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+72,1030,1042,12,49.78,9.11,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+73,1051,1063,12,52.89,6.93,,Chicago Mission 19U AAA,OZ play,1
+74,1051,1063,12,52.89,6.93,,Chicago Mission 19U AAA,Shots,1
+75,1077,1089,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,1
+76,1099,1111,12,54.73,9.78,,Chicago Mission 19U AAA,OZ play,1
+77,1099,1111,12,54.73,9.78,,Chicago Mission 19U AAA,Shots,1
+78,1126,1138,12,30.43,2.18,,Chicago Mission 19U AAA,OZ play,1
+79,1163,1175,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,1
+80,1180,1192,12,47.39,13.57,,Chicago Mission 19U AAA,OZ play,1
+81,1180,1192,12,47.39,13.57,,Chicago Mission 19U AAA,Shots,1
+82,1181,1193,12,52.62,17.94,,Chicago Mission 19U AAA,OZ play,1
+83,1181,1193,12,52.62,17.94,,Chicago Mission 19U AAA,Shots,1
+84,1203,1215,12,52.89,15.75,,Chicago Mission 19U AAA,OZ play,1
+85,1203,1215,12,52.89,15.75,,Chicago Mission 19U AAA,Shots,1
+86,1211,1223,12,41.34,7.5,,Chicago Mission 19U AAA,OZ play,1
+87,1211,1223,12,41.34,7.5,,Chicago Mission 19U AAA,Shots,1
+88,1224,1236,12,54.91,15.09,,Chicago Mission 19U AAA,Goals,1
+89,1224,1236,12,54.91,15.09,,Chicago Mission 19U AAA,OZ play,1
+90,1224,1236,12,54.91,15.09,,Chicago Mission 19U AAA,Shots,1
+91,1317,1329,12,30.48,12.96,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+92,1350,1362,12,39.6,23.16,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+93,1350,1362,12,39.6,23.16,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+94,1352,1364,12,7.88,10.91,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+95,1383,1395,12,51.51,19.67,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+96,1391,1403,12,52.71,13.19,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+97,1391,1403,12,52.71,13.19,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+98,1410,1422,12,53.53,11.58,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+99,1410,1422,12,53.53,11.58,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+100,1434,1446,12,45.19,20.78,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+101,1434,1446,12,45.19,20.78,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+102,1453,1465,12,2,15,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+103,1474,1486,12,43.27,21.64,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+104,1474,1486,12,43.27,21.64,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+105,1482,1494,12,43.36,19.84,,Philadelphia Jr. Flyers 19U AAA,OZ play,1
+106,1482,1494,12,43.36,19.84,,Philadelphia Jr. Flyers 19U AAA,Shots,1
+107,1564,1576,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,2
+108,1591,1603,12,43.73,8.92,,Chicago Mission 19U AAA,OZ play,2
+109,1591,1603,12,43.73,8.92,,Chicago Mission 19U AAA,Shots,2
+110,1598,1610,12,47.85,4.08,,Chicago Mission 19U AAA,OZ play,2
+111,1598,1610,12,47.85,4.08,,Chicago Mission 19U AAA,Shots,2
+112,1622,1634,12,51.51,6.25,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+113,1673,1685,12,43.36,1.33,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+114,1673,1685,12,43.36,1.33,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+115,1686,1698,12,42.08,11.1,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+116,1686,1698,12,42.08,11.1,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+117,1706,1718,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,2
+118,1733,1745,12,48.03,22.87,,Chicago Mission 19U AAA,OZ play,2
+119,1733,1745,12,48.03,22.87,,Chicago Mission 19U AAA,Shots,2
+120,1751,1763,12,49.68,1.33,,Chicago Mission 19U AAA,OZ play,2
+121,1751,1763,12,49.68,1.33,,Chicago Mission 19U AAA,Shots,2
+122,1787,1799,12,49.5,19.17,,Chicago Mission 19U AAA,OZ play,2
+123,1787,1799,12,49.5,19.17,,Chicago Mission 19U AAA,Shots,2
+124,1794,1806,12,48.4,12.05,,Chicago Mission 19U AAA,OZ play,2
+125,1794,1806,12,48.4,12.05,,Chicago Mission 19U AAA,Shots,2
+126,1817,1829,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+127,1828,1840,12,55.37,14.24,,Chicago Mission 19U AAA,OZ play,2
+128,1828,1840,12,55.37,14.24,,Chicago Mission 19U AAA,Shots,2
+129,1849,1861,12,52.16,15.94,,Chicago Mission 19U AAA,OZ play,2
+130,1849,1861,12,52.16,15.94,,Chicago Mission 19U AAA,Shots,2
+131,1851,1863,12,55.28,13.76,,Chicago Mission 19U AAA,OZ play,2
+132,1851,1863,12,55.28,13.76,,Chicago Mission 19U AAA,Shots,2
+133,1917,1929,12,43.82,8.16,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+134,1917,1929,12,43.82,8.16,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+135,1919,1931,12,56.01,13.76,,Chicago Mission 19U AAA,OZ play,2
+136,1956,1968,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+137,1973,1985,12,53.9,8.64,,Chicago Mission 19U AAA,OZ play,2
+138,1973,1985,12,53.9,8.64,,Chicago Mission 19U AAA,Shots,2
+139,1999,2011,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+140,2026,2038,12,54.91,17.65,,Chicago Mission 19U AAA,OZ play,2
+141,2026,2038,12,54.91,17.65,,Chicago Mission 19U AAA,Shots,2
+142,2028,2040,12,52.62,14.81,,Chicago Mission 19U AAA,OZ play,2
+143,2028,2040,12,52.62,14.81,,Chicago Mission 19U AAA,Shots,2
+144,2036,2048,12,54.82,13.1,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+145,2129,2141,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,2
+146,2155,2167,12,55.18,11.1,,Chicago Mission 19U AAA,OZ play,2
+147,2155,2167,12,55.18,11.1,,Chicago Mission 19U AAA,Shots,2
+148,2190,2202,12,51.51,6.25,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+149,2215,2227,12,51.15,5.41,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+150,2215,2227,12,51.15,5.41,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+151,2254,2266,12,51.51,6.25,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+152,2259,2271,12,55,10.91,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+153,2259,2271,12,55,10.91,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+154,2261,2273,12,52.98,14.43,,Philadelphia Jr. Flyers 19U AAA,Goals,2
+155,2261,2273,12,52.98,14.43,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+156,2261,2273,12,52.98,14.43,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+157,2298,2310,12,30.48,12.96,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+158,2317,2329,12,6.78,6.83,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+159,2339,2351,12,57.38,15.66,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+160,2339,2351,12,57.38,15.66,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+161,2366,2378,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,2
+162,2390,2402,12,44.92,2.56,,Chicago Mission 19U AAA,OZ play,2
+163,2390,2402,12,44.92,2.56,,Chicago Mission 19U AAA,Shots,2
+164,2401,2413,12,41.53,2.66,,Chicago Mission 19U AAA,OZ play,2
+165,2401,2413,12,41.53,2.66,,Chicago Mission 19U AAA,Shots,2
+166,2454,2466,12,44.46,18.79,,Chicago Mission 19U AAA,OZ play,2
+167,2454,2466,12,44.46,18.79,,Chicago Mission 19U AAA,Shots,2
+168,2468,2480,12,,,,Chicago Mission 19U AAA,OZ play,2
+169,2468,2480,12,,,,Chicago Mission 19U AAA,Shots,2
+170,2487,2499,12,53.26,22.68,,Chicago Mission 19U AAA,OZ play,2
+171,2487,2499,12,53.26,22.68,,Chicago Mission 19U AAA,Shots,2
+172,2513,2525,12,9.45,6.25,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+173,2533,2545,12,55.83,11.1,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+174,2533,2545,12,55.83,11.1,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+175,2583,2595,12,45.56,5.88,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+176,2583,2595,12,45.56,5.88,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+177,2591,2603,12,40.88,3.23,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+178,2591,2603,12,40.88,3.23,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+179,2614,2626,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,2
+180,2636,2648,12,42.81,2.18,,Chicago Mission 19U AAA,OZ play,2
+181,2636,2648,12,42.81,2.18,,Chicago Mission 19U AAA,Shots,2
+182,2637,2649,12,8.07,12.05,,Chicago Mission 19U AAA,OZ play,2
+183,2673,2685,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,2
+184,2708,2720,12,2,15,,Chicago Mission 19U AAA,OZ play,2
+185,2708,2720,12,52.25,18.03,,Chicago Mission 19U AAA,OZ play,2
+186,2719,2731,12,52.25,18.03,,Chicago Mission 19U AAA,OZ play,2
+187,2719,2731,12,52.25,18.03,,Chicago Mission 19U AAA,Shots,2
+188,2729,2741,12,50.88,7.78,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+189,2729,2741,12,50.88,7.78,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+190,2737,2749,12,46.84,9.97,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+191,2737,2749,12,46.84,9.97,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+192,2747,2759,12,42.08,8.83,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+193,2747,2759,12,42.08,8.83,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+194,2772,2784,12,41.71,3.04,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+195,2772,2784,12,51.51,6.25,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+196,2773,2785,12,41.71,3.04,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+197,2773,2785,12,41.71,3.04,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+198,2778,2790,12,2,15,,Chicago Mission 19U AAA,OZ play,2
+199,2810,2822,12,49.59,18.79,,Chicago Mission 19U AAA,OZ play,2
+200,2810,2822,12,49.59,18.79,,Chicago Mission 19U AAA,Shots,2
+201,2818,2830,12,53.26,11.58,,Chicago Mission 19U AAA,OZ play,2
+202,2818,2830,12,53.26,11.58,,Chicago Mission 19U AAA,Shots,2
+203,2828,2840,12,1.47,11.2,,Chicago Mission 19U AAA,OZ play,2
+204,2848,2860,12,54.27,11.48,,Chicago Mission 19U AAA,OZ play,2
+205,2848,2860,12,54.27,11.48,,Chicago Mission 19U AAA,Shots,2
+206,2879,2891,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+207,2883,2895,12,54.08,11.01,,Chicago Mission 19U AAA,OZ play,2
+208,2883,2895,12,54.08,11.01,,Chicago Mission 19U AAA,Shots,2
+209,2901,2913,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+210,2906,2918,12,43.18,18.32,,Chicago Mission 19U AAA,OZ play,2
+211,2906,2918,12,43.18,18.32,,Chicago Mission 19U AAA,Shots,2
+212,2934,2946,12,51.51,6.25,,Chicago Mission 19U AAA,OZ play,2
+213,2973,2985,12,53.08,14.14,,Chicago Mission 19U AAA,OZ play,2
+214,2973,2985,12,53.08,14.14,,Chicago Mission 19U AAA,Shots,2
+215,3002,3014,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,2
+216,3004,3016,12,48.58,16.7,,Chicago Mission 19U AAA,OZ play,2
+217,3004,3016,12,48.58,16.7,,Chicago Mission 19U AAA,Shots,2
+218,3036,3048,12,53.26,15,,Chicago Mission 19U AAA,OZ play,2
+219,3036,3048,12,53.26,15,,Chicago Mission 19U AAA,Shots,2
+220,3046,3058,12,47.48,1.61,,Chicago Mission 19U AAA,OZ play,2
+221,3046,3058,12,47.48,1.61,,Chicago Mission 19U AAA,Shots,2
+222,3067,3079,12,51.51,6.25,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+223,3084,3096,12,48.22,7.12,,Philadelphia Jr. Flyers 19U AAA,OZ play,2
+224,3084,3096,12,48.22,7.12,,Philadelphia Jr. Flyers 19U AAA,Shots,2
+225,3174,3186,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+226,3183,3195,12,49.23,4.46,,Chicago Mission 19U AAA,Goals,3
+227,3183,3195,12,49.23,4.46,,Chicago Mission 19U AAA,OZ play,3
+228,3183,3195,12,49.23,4.46,,Chicago Mission 19U AAA,Shots,3
+229,3216,3228,12,30.48,12.96,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+230,3216,3228,12,46.66,16.51,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+231,3238,3250,12,46.66,16.51,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+232,3238,3250,12,46.66,16.51,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+233,3280,3292,12,41.53,19.93,,Chicago Mission 19U AAA,OZ play,3
+234,3280,3292,12,41.53,19.93,,Chicago Mission 19U AAA,Shots,3
+235,3293,3305,12,41.62,2.18,,Chicago Mission 19U AAA,OZ play,3
+236,3293,3305,12,41.62,2.18,,Chicago Mission 19U AAA,Shots,3
+237,3318,3330,12,48.68,8.45,,Chicago Mission 19U AAA,OZ play,3
+238,3318,3330,12,48.68,8.45,,Chicago Mission 19U AAA,Shots,3
+239,3325,3337,12,50.88,8.83,,Chicago Mission 19U AAA,OZ play,3
+240,3325,3337,12,50.88,8.83,,Chicago Mission 19U AAA,Shots,3
+241,3339,3351,12,47.12,11.77,,Chicago Mission 19U AAA,OZ play,3
+242,3339,3351,12,47.12,11.77,,Chicago Mission 19U AAA,Shots,3
+243,3342,3354,12,48.77,7.31,,Chicago Mission 19U AAA,OZ play,3
+244,3342,3354,12,48.77,7.31,,Chicago Mission 19U AAA,Shots,3
+245,3378,3390,12,53.81,18.51,,Chicago Mission 19U AAA,OZ play,3
+246,3378,3390,12,53.81,18.51,,Chicago Mission 19U AAA,Shots,3
+247,3400,3412,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,3
+248,3402,3414,12,48.58,20.6,,Chicago Mission 19U AAA,OZ play,3
+249,3402,3414,12,48.58,20.6,,Chicago Mission 19U AAA,Shots,3
+250,3410,3422,12,6.33,10.53,,Chicago Mission 19U AAA,OZ play,3
+251,3410,3422,12,54.63,15.38,,Chicago Mission 19U AAA,OZ play,3
+252,3411,3423,12,54.63,15.38,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+253,3459,3471,12,9.45,6.25,,Chicago Mission 19U AAA,OZ play,3
+254,3473,3485,12,51.98,11.77,,Chicago Mission 19U AAA,Goals,3
+255,3473,3485,12,51.98,11.77,,Chicago Mission 19U AAA,OZ play,3
+256,3473,3485,12,51.98,11.77,,Chicago Mission 19U AAA,Shots,3
+257,3503,3515,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+258,3503,3515,12,43.73,12.24,,Chicago Mission 19U AAA,OZ play,3
+259,3520,3532,12,43.73,12.24,,Chicago Mission 19U AAA,OZ play,3
+260,3520,3532,12,43.73,12.24,,Chicago Mission 19U AAA,Shots,3
+261,3527,3539,12,43.27,3.7,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+262,3527,3539,12,43.27,3.7,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+263,3555,3567,12,46.29,23.06,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+264,3555,3567,12,46.29,23.06,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+265,3575,3587,12,51.51,19.67,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+266,3577,3589,12,40.24,11.48,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+267,3577,3589,12,40.24,11.48,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+268,3581,3593,12,51.15,21.16,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+269,3581,3593,12,51.15,21.16,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+270,3602,3614,12,40.06,23.54,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+271,3602,3614,12,40.06,23.54,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+272,3619,3631,12,49.13,11.67,,Chicago Mission 19U AAA,OZ play,3
+273,3619,3631,12,49.13,11.67,,Chicago Mission 19U AAA,Shots,3
+274,3664,3676,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,3
+275,3683,3695,12,41.89,20.31,,Chicago Mission 19U AAA,OZ play,3
+276,3683,3695,12,41.89,20.31,,Chicago Mission 19U AAA,Shots,3
+277,3721,3733,12,41.16,16.61,,Chicago Mission 19U AAA,OZ play,3
+278,3721,3733,12,41.16,16.61,,Chicago Mission 19U AAA,Shots,3
+279,3739,3751,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,3
+280,3739,3751,12,46.75,8.07,,Chicago Mission 19U AAA,OZ play,3
+281,3786,3798,12,46.75,8.07,,Chicago Mission 19U AAA,OZ play,3
+282,3786,3798,12,46.75,8.07,,Chicago Mission 19U AAA,Shots,3
+283,3799,3811,12,45.56,3.32,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+284,3799,3811,12,45.56,3.32,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+285,3802,3814,12,43.18,15.66,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+286,3802,3814,12,43.18,15.66,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+287,3845,3857,12,51.51,19.67,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+288,3847,3859,12,44.64,19.08,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+289,3847,3859,12,44.64,19.08,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+290,3865,3877,12,48.31,18.13,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+291,3865,3877,12,48.31,18.13,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+292,3879,3891,12,42.17,17.18,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+293,3879,3891,12,51.51,19.67,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+294,3903,3915,12,42.17,17.18,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+295,3903,3915,12,42.17,17.18,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+296,3939,3951,12,46.2,6.93,,Chicago Mission 19U AAA,OZ play,3
+297,3939,3951,12,46.2,6.93,,Chicago Mission 19U AAA,Shots,3
+298,3946,3958,12,41.34,23.73,,Chicago Mission 19U AAA,OZ play,3
+299,3946,3958,12,41.34,23.73,,Chicago Mission 19U AAA,Shots,3
+300,3950,3962,12,42.35,1.9,,Chicago Mission 19U AAA,OZ play,3
+301,3950,3962,12,42.35,1.9,,Chicago Mission 19U AAA,Shots,3
+302,3968,3980,12,48.13,18.22,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+303,3968,3980,12,48.13,18.22,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+304,4009,4021,12,48.31,12.05,,Chicago Mission 19U AAA,OZ play,3
+305,4009,4021,12,48.31,12.05,,Chicago Mission 19U AAA,Shots,3
+306,4040,4052,12,45.28,16.99,,Chicago Mission 19U AAA,OZ play,3
+307,4040,4052,12,45.28,16.99,,Chicago Mission 19U AAA,Shots,3
+308,4044,4056,12,46.2,1.8,,Chicago Mission 19U AAA,OZ play,3
+309,4044,4056,12,46.2,1.8,,Chicago Mission 19U AAA,Shots,3
+310,4047,4059,12,57.48,15.28,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+311,4078,4090,12,51.51,6.25,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+312,4100,4112,12,50.69,15.75,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+313,4100,4112,12,50.69,15.75,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+314,4103,4115,12,54.73,11.29,,Philadelphia Jr. Flyers 19U AAA,Goals,3
+315,4103,4115,12,54.73,11.29,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+316,4103,4115,12,54.73,11.29,,Philadelphia Jr. Flyers 19U AAA,Shots,3
+317,4141,4153,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+318,4153,4165,12,52.89,13.29,,Chicago Mission 19U AAA,OZ play,3
+319,4153,4165,12,52.89,13.29,,Chicago Mission 19U AAA,Shots,3
+320,4160,4172,12,52.89,9.4,,Chicago Mission 19U AAA,Goals,3
+321,4160,4172,12,52.89,9.4,,Chicago Mission 19U AAA,OZ play,3
+322,4160,4172,12,52.89,9.4,,Chicago Mission 19U AAA,Shots,3
+323,4191,4203,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+324,4207,4219,12,51.52,8.07,,Chicago Mission 19U AAA,OZ play,3
+325,4207,4219,12,51.52,8.07,,Chicago Mission 19U AAA,Shots,3
+326,4260,4272,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+327,4342,4354,12,53.99,18.7,,Chicago Mission 19U AAA,OZ play,3
+328,4342,4354,12,53.99,18.7,,Chicago Mission 19U AAA,Shots,3
+329,4368,4380,12,45.65,16.61,,Chicago Mission 19U AAA,OZ play,3
+330,4368,4380,12,51.51,19.67,,Chicago Mission 19U AAA,OZ play,3
+331,4381,4393,12,45.65,16.61,,Chicago Mission 19U AAA,OZ play,3
+332,4381,4393,12,45.65,16.61,,Chicago Mission 19U AAA,Shots,3
+333,4396,4408,12,28.14,9.97,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+334,4396,4408,12,32.82,15.94,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+335,4397,4409,12,33.09,16.04,,Chicago Mission 19U AAA,OZ play,3
+336,4431,4443,12,9.45,19.67,,Chicago Mission 19U AAA,OZ play,3
+337,4458,4470,12,50.6,22.4,,Chicago Mission 19U AAA,OZ play,3
+338,4458,4470,12,50.6,22.4,,Chicago Mission 19U AAA,Shots,3
+339,4466,4478,12,54.73,14.52,,Chicago Mission 19U AAA,OZ play,3
+340,4466,4478,12,54.73,14.52,,Chicago Mission 19U AAA,Shots,3
+341,4485,4497,12,44.37,4.75,,Chicago Mission 19U AAA,Goals,3
+342,4485,4497,12,44.37,4.75,,Chicago Mission 19U AAA,OZ play,3
+343,4485,4497,12,44.37,4.75,,Chicago Mission 19U AAA,Shots,3
+344,4517,4529,12,30.48,12.96,,Chicago Mission 19U AAA,OZ play,3
+345,4517,4529,12,40.7,21.35,,Chicago Mission 19U AAA,OZ play,3
+346,4535,4547,12,40.7,21.35,,Chicago Mission 19U AAA,OZ play,3
+347,4535,4547,12,40.7,21.35,,Chicago Mission 19U AAA,Shots,3
+348,4566,4578,12,41.25,25.15,,Philadelphia Jr. Flyers 19U AAA,OZ play,3
+349,4566,4578,12,41.25,25.15,,Philadelphia Jr. Flyers 19U AAA,Shots,3

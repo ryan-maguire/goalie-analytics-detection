@@ -1,0 +1,254 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,,12,12,30.48,12.96,,Etobicoke Jr. Dolphins U22,OZ play,1
+2,43,55,12,44.35,6.7,,Etobicoke Jr. Dolphins U22,OZ play,1
+3,43,55,12,44.35,6.7,,Etobicoke Jr. Dolphins U22,Shots,1
+4,113,125,12,49.66,14.94,,Etobicoke Jr. Dolphins U22,OZ play,1
+5,113,125,12,49.66,14.94,,Etobicoke Jr. Dolphins U22,Shots,1
+6,116,128,12,50.73,17.71,,Etobicoke Jr. Dolphins U22,OZ play,1
+7,116,128,12,50.73,17.71,,Etobicoke Jr. Dolphins U22,Shots,1
+8,132,144,12,49.83,13.99,,Etobicoke Jr. Dolphins U22,OZ play,1
+9,132,144,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,1
+10,152,164,12,49.83,13.99,,Etobicoke Jr. Dolphins U22,OZ play,1
+11,152,164,12,49.83,13.99,,Etobicoke Jr. Dolphins U22,Shots,1
+12,195,207,12,48.97,4.6,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+13,195,207,12,48.97,4.6,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+14,238,250,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,1
+15,243,255,12,39.26,5.98,,Etobicoke Jr. Dolphins U22,OZ play,1
+16,243,255,12,39.26,5.98,,Etobicoke Jr. Dolphins U22,Shots,1
+17,264,276,12,24.38,6.25,,Etobicoke Jr. Dolphins U22,OZ play,1
+18,331,343,12,51.87,15.64,,Etobicoke Jr. Dolphins U22,OZ play,1
+19,331,343,12,51.87,15.64,,Etobicoke Jr. Dolphins U22,Shots,1
+20,361,373,12,9.45,6.25,,Etobicoke Jr. Dolphins U22,OZ play,1
+21,369,381,12,43.94,8.27,,Etobicoke Jr. Dolphins U22,OZ play,1
+22,369,381,12,43.94,8.27,,Etobicoke Jr. Dolphins U22,Shots,1
+23,373,385,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,1
+24,409,421,12,56.05,11.13,,Etobicoke Jr. Dolphins U22,OZ play,1
+25,409,421,12,56.05,11.13,,Etobicoke Jr. Dolphins U22,Shots,1
+26,412,424,12,53.54,14.66,,Etobicoke Jr. Dolphins U22,OZ play,1
+27,412,424,12,53.54,14.66,,Etobicoke Jr. Dolphins U22,Shots,1
+28,421,433,12,43.56,2.04,,Etobicoke Jr. Dolphins U22,OZ play,1
+29,421,433,12,43.56,2.04,,Etobicoke Jr. Dolphins U22,Shots,1
+30,457,469,12,9.45,19.67,,Etobicoke Jr. Dolphins U22,OZ play,1
+31,501,513,12,53.67,8.55,,Etobicoke Jr. Dolphins U22,OZ play,1
+32,501,513,12,53.67,8.55,,Etobicoke Jr. Dolphins U22,Shots,1
+33,529,541,12,48.59,18.58,,Etobicoke Jr. Dolphins U22,OZ play,1
+34,529,541,12,48.59,18.58,,Etobicoke Jr. Dolphins U22,Shots,1
+35,533,545,12,51.51,19.67,,Etobicoke Jr. Dolphins U22,OZ play,1
+36,535,547,12,47.01,20.78,,Etobicoke Jr. Dolphins U22,OZ play,1
+37,535,547,12,47.01,20.78,,Etobicoke Jr. Dolphins U22,Shots,1
+38,544,556,12,48.42,17.6,,Etobicoke Jr. Dolphins U22,OZ play,1
+39,544,556,12,48.42,17.6,,Etobicoke Jr. Dolphins U22,Shots,1
+40,604,616,12,9.45,6.25,,Etobicoke Jr. Dolphins U22,OZ play,1
+41,663,675,12,50.17,12.23,,Etobicoke Jr. Dolphins U22,OZ play,1
+42,663,675,12,50.17,12.23,,Etobicoke Jr. Dolphins U22,Shots,1
+43,673,685,12,9.45,19.67,,Etobicoke Jr. Dolphins U22,OZ play,1
+44,736,748,12,55.03,13.05,,Etobicoke Jr. Dolphins U22,OZ play,1
+45,736,748,12,55.03,13.05,,Etobicoke Jr. Dolphins U22,Shots,1
+46,739,751,12,51.51,19.67,,Etobicoke Jr. Dolphins U22,OZ play,1
+47,756,768,12,45.47,10.98,,Etobicoke Jr. Dolphins U22,OZ play,1
+48,756,768,12,45.47,10.98,,Etobicoke Jr. Dolphins U22,Shots,1
+49,760,772,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,1
+50,768,780,12,40.82,12.43,,Etobicoke Jr. Dolphins U22,OZ play,1
+51,768,780,12,40.82,12.43,,Etobicoke Jr. Dolphins U22,Shots,1
+52,771,783,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+53,794,806,12,43.17,23.44,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+54,794,806,12,43.17,23.44,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+55,821,833,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+56,828,840,12,49.31,17.21,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+57,828,840,12,49.31,17.21,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+58,840,852,12,49.1,24.38,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+59,840,852,12,49.1,24.38,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+60,846,858,12,53.28,19.87,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+61,846,858,12,53.28,19.87,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+62,862,874,12,44.62,11.52,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+63,862,874,12,44.62,11.52,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+64,895,907,12,36.58,6.25,,Etobicoke Jr. Dolphins U22,OZ play,1
+65,929,941,12,52.9,2.63,,Etobicoke Jr. Dolphins U22,OZ play,1
+66,929,941,12,52.9,2.63,,Etobicoke Jr. Dolphins U22,Shots,1
+67,963,975,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+68,970,982,12,52.68,1.33,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+69,970,982,12,52.68,1.33,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+70,991,1003,12,52.9,18.58,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+71,991,1003,12,52.9,18.58,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+72,1002,1014,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+73,1035,1047,12,48.25,14.66,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+74,1035,1047,12,48.25,14.66,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+75,1053,1065,12,24.38,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+76,1081,1093,12,22.27,2.63,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+77,1099,1111,12,24.38,6.25,,Etobicoke Jr. Dolphins U22,OZ play,2
+78,1107,1119,12,2,15,,Etobicoke Jr. Dolphins U22,OZ play,2
+79,1258,1270,12,45.39,22.26,,Etobicoke Jr. Dolphins U22,OZ play,2
+80,1258,1270,12,45.39,22.26,,Etobicoke Jr. Dolphins U22,Shots,2
+81,1266,1278,12,38.56,25.24,,Etobicoke Jr. Dolphins U22,OZ play,2
+82,1266,1278,12,38.56,25.24,,Etobicoke Jr. Dolphins U22,Shots,2
+83,1300,1312,12,24.38,19.67,,Etobicoke Jr. Dolphins U22,OZ play,2
+84,1348,1360,12,51.58,13.01,,Etobicoke Jr. Dolphins U22,OZ play,2
+85,1348,1360,12,51.58,13.01,,Etobicoke Jr. Dolphins U22,Shots,2
+86,1402,1414,12,53.45,16.38,,Etobicoke Jr. Dolphins U22,OZ play,2
+87,1402,1414,12,53.45,16.38,,Etobicoke Jr. Dolphins U22,Shots,2
+88,1435,1447,12,55.41,14.31,,Etobicoke Jr. Dolphins U22,OZ play,2
+89,1435,1447,12,55.41,14.31,,Etobicoke Jr. Dolphins U22,Shots,2
+90,1444,1456,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+91,1465,1477,12,52,10.35,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+92,1465,1477,12,52,10.35,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+93,1465,1477,12,52,10.35,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+94,1472,1484,12,30.48,12.96,,Etobicoke Jr. Dolphins U22,OZ play,2
+95,1495,1507,12,45.65,23.13,,Etobicoke Jr. Dolphins U22,OZ play,2
+96,1495,1507,12,45.65,23.13,,Etobicoke Jr. Dolphins U22,Shots,2
+97,1513,1525,12,46.54,15.91,,Etobicoke Jr. Dolphins U22,OZ play,2
+98,1513,1525,12,46.54,15.91,,Etobicoke Jr. Dolphins U22,Shots,2
+99,1519,1531,12,9.45,6.25,,Etobicoke Jr. Dolphins U22,OZ play,2
+100,1533,1545,12,48.38,4.55,,Etobicoke Jr. Dolphins U22,OZ play,2
+101,1533,1545,12,48.38,4.55,,Etobicoke Jr. Dolphins U22,Shots,2
+102,1549,1561,12,49.19,17.09,,Etobicoke Jr. Dolphins U22,OZ play,2
+103,1549,1561,12,49.19,17.09,,Etobicoke Jr. Dolphins U22,Shots,2
+104,1552,1564,12,56.1,8.11,,Etobicoke Jr. Dolphins U22,OZ play,2
+105,1552,1564,12,56.1,8.11,,Etobicoke Jr. Dolphins U22,Shots,2
+106,1559,1571,12,9.45,6.25,,Etobicoke Jr. Dolphins U22,OZ play,2
+107,1623,1635,12,52.98,23.79,,Etobicoke Jr. Dolphins U22,OZ play,2
+108,1623,1635,12,52.98,23.79,,Etobicoke Jr. Dolphins U22,Shots,2
+109,1647,1659,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,2
+110,1651,1663,12,46.07,7.88,,Etobicoke Jr. Dolphins U22,OZ play,2
+111,1651,1663,12,46.07,7.88,,Etobicoke Jr. Dolphins U22,Shots,2
+112,1660,1672,12,47.82,9.29,,Etobicoke Jr. Dolphins U22,OZ play,2
+113,1660,1672,12,47.82,9.29,,Etobicoke Jr. Dolphins U22,Shots,2
+114,1666,1678,12,46.63,21.72,,Etobicoke Jr. Dolphins U22,OZ play,2
+115,1666,1678,12,46.63,21.72,,Etobicoke Jr. Dolphins U22,Shots,2
+116,1686,1698,12,52.81,10.74,,Etobicoke Jr. Dolphins U22,OZ play,2
+117,1686,1698,12,52.81,10.74,,Etobicoke Jr. Dolphins U22,Shots,2
+118,1701,1713,12,53.28,11.88,,Etobicoke Jr. Dolphins U22,OZ play,2
+119,1701,1713,12,53.28,11.88,,Etobicoke Jr. Dolphins U22,Shots,2
+120,1714,1726,12,51.51,19.67,,Etobicoke Jr. Dolphins U22,OZ play,2
+121,1717,1729,12,42.62,18.38,,Etobicoke Jr. Dolphins U22,OZ play,2
+122,1717,1729,12,42.62,18.38,,Etobicoke Jr. Dolphins U22,Shots,2
+123,1726,1738,12,49.23,21.79,,Etobicoke Jr. Dolphins U22,OZ play,2
+124,1726,1738,12,49.23,21.79,,Etobicoke Jr. Dolphins U22,Shots,2
+125,1735,1747,12,51.51,19.67,,Etobicoke Jr. Dolphins U22,OZ play,2
+126,1736,1748,12,48.2,18.23,,Etobicoke Jr. Dolphins U22,OZ play,2
+127,1736,1748,12,48.2,18.23,,Etobicoke Jr. Dolphins U22,Shots,2
+128,1761,1773,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,2
+129,1770,1782,12,49.95,1.33,,Etobicoke Jr. Dolphins U22,OZ play,2
+130,1770,1782,12,49.95,1.33,,Etobicoke Jr. Dolphins U22,Shots,2
+131,1782,1794,12,47.61,3.53,,Etobicoke Jr. Dolphins U22,OZ play,2
+132,1782,1794,12,47.61,3.53,,Etobicoke Jr. Dolphins U22,Shots,2
+133,1791,1803,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+134,1791,1803,12,47.61,2.7,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+135,1868,1880,12,47.61,2.7,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+136,1868,1880,12,47.61,2.7,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+137,1890,1902,12,50.08,7.17,,Etobicoke Jr. Dolphins U22,OZ play,2
+138,1890,1902,12,50.08,7.17,,Etobicoke Jr. Dolphins U22,Shots,2
+139,1894,1906,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,2
+140,1908,1920,12,45.05,16.15,,Etobicoke Jr. Dolphins U22,OZ play,2
+141,1908,1920,12,45.05,16.15,,Etobicoke Jr. Dolphins U22,Shots,2
+142,1921,1933,12,48.46,6.82,,Etobicoke Jr. Dolphins U22,OZ play,2
+143,1921,1933,12,48.46,6.82,,Etobicoke Jr. Dolphins U22,Shots,2
+144,1929,1941,12,39.72,7.92,,Etobicoke Jr. Dolphins U22,OZ play,2
+145,1929,1941,12,39.72,7.92,,Etobicoke Jr. Dolphins U22,Shots,2
+146,1942,1954,12,45.69,7.96,,Etobicoke Jr. Dolphins U22,OZ play,2
+147,1942,1954,12,45.69,7.96,,Etobicoke Jr. Dolphins U22,Shots,2
+148,1949,1961,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+149,1949,1961,12,53.71,16.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+150,1963,1975,12,53.71,16.97,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+151,1963,1975,12,53.71,16.97,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+152,1973,1985,12,52.94,9.88,,Etobicoke Jr. Dolphins U22,OZ play,3
+153,1973,1985,12,52.94,9.88,,Etobicoke Jr. Dolphins U22,Shots,3
+154,1978,1990,12,39.42,0.63,,Etobicoke Jr. Dolphins U22,OZ play,3
+155,1978,1990,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,3
+156,1981,1993,12,39.42,0.63,,Etobicoke Jr. Dolphins U22,OZ play,3
+157,1981,1993,12,39.42,0.63,,Etobicoke Jr. Dolphins U22,Shots,3
+158,1989,2001,12,44.62,15.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+159,1989,2001,12,44.62,15.25,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+160,1996,2008,12,9.45,6.25,,Etobicoke Jr. Dolphins U22,OZ play,3
+161,2085,2097,12,46.84,3.92,,Etobicoke Jr. Dolphins U22,OZ play,3
+162,2085,2097,12,46.84,3.92,,Etobicoke Jr. Dolphins U22,Shots,3
+163,2089,2101,12,51.4,0.59,,Etobicoke Jr. Dolphins U22,OZ play,3
+164,2089,2101,12,51.4,0.59,,Etobicoke Jr. Dolphins U22,Shots,3
+165,2115,2127,12,49.53,10.43,,Etobicoke Jr. Dolphins U22,OZ play,3
+166,2115,2127,12,49.53,10.43,,Etobicoke Jr. Dolphins U22,Shots,3
+167,2121,2133,12,9.45,19.67,,Etobicoke Jr. Dolphins U22,OZ play,3
+168,2143,2155,12,49.19,24.46,,Etobicoke Jr. Dolphins U22,OZ play,3
+169,2143,2155,12,49.19,24.46,,Etobicoke Jr. Dolphins U22,Shots,3
+170,2160,2172,12,52.3,16.58,,Etobicoke Jr. Dolphins U22,OZ play,3
+171,2160,2172,12,52.3,16.58,,Etobicoke Jr. Dolphins U22,Shots,3
+172,2171,2183,12,55.33,11.76,,Etobicoke Jr. Dolphins U22,OZ play,3
+173,2171,2183,12,55.33,11.76,,Etobicoke Jr. Dolphins U22,Shots,3
+174,2175,2187,12,55.16,12.54,,Etobicoke Jr. Dolphins U22,OZ play,3
+175,2175,2187,12,55.16,12.54,,Etobicoke Jr. Dolphins U22,Shots,3
+176,2176,2188,12,53.45,14.62,,Etobicoke Jr. Dolphins U22,OZ play,3
+177,2176,2188,12,53.45,14.62,,Etobicoke Jr. Dolphins U22,Shots,3
+178,2188,2200,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,3
+179,2191,2203,12,41.68,11.41,,Etobicoke Jr. Dolphins U22,OZ play,3
+180,2191,2203,12,41.68,11.41,,Etobicoke Jr. Dolphins U22,Shots,3
+181,2223,2235,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,3
+182,2238,2250,12,45.65,8.7,,Etobicoke Jr. Dolphins U22,OZ play,3
+183,2238,2250,12,45.65,8.7,,Etobicoke Jr. Dolphins U22,Shots,3
+184,2264,2276,12,36.58,19.67,,Etobicoke Jr. Dolphins U22,OZ play,3
+185,2295,2307,12,47.57,23.95,,Etobicoke Jr. Dolphins U22,OZ play,3
+186,2295,2307,12,47.57,23.95,,Etobicoke Jr. Dolphins U22,Shots,3
+187,2299,2311,12,43.64,0.94,,Etobicoke Jr. Dolphins U22,OZ play,3
+188,2299,2311,12,43.64,0.94,,Etobicoke Jr. Dolphins U22,Shots,3
+189,2320,2332,12,55.24,12.15,,Etobicoke Jr. Dolphins U22,OZ play,3
+190,2320,2332,12,55.24,12.15,,Etobicoke Jr. Dolphins U22,Shots,3
+191,2353,2365,12,40.01,20.5,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+192,2353,2365,12,40.01,20.5,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+193,2364,2376,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+194,2400,2412,12,16.77,0.47,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+195,2407,2419,12,51.51,19.67,,Etobicoke Jr. Dolphins U22,OZ play,3
+196,2415,2427,12,43.3,18.46,,Etobicoke Jr. Dolphins U22,OZ play,3
+197,2440,2452,12,9.45,19.67,,Etobicoke Jr. Dolphins U22,OZ play,3
+198,2468,2480,12,53.96,10,,Etobicoke Jr. Dolphins U22,OZ play,3
+199,2468,2480,12,53.96,10,,Etobicoke Jr. Dolphins U22,Shots,3
+200,2485,2497,12,56.01,15.05,,Etobicoke Jr. Dolphins U22,OZ play,3
+201,2485,2497,12,56.01,15.05,,Etobicoke Jr. Dolphins U22,Shots,3
+202,2509,2521,12,52.85,15.6,,Etobicoke Jr. Dolphins U22,OZ play,3
+203,2509,2521,12,52.85,15.6,,Etobicoke Jr. Dolphins U22,Shots,3
+204,2521,2533,12,44.49,17.01,,Etobicoke Jr. Dolphins U22,OZ play,3
+205,2521,2533,12,44.49,17.01,,Etobicoke Jr. Dolphins U22,Shots,3
+206,2536,2548,12,48.84,16.23,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+207,2536,2548,12,48.84,16.23,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+208,2557,2569,12,9.45,6.25,,Etobicoke Jr. Dolphins U22,OZ play,3
+209,2597,2609,12,53.11,14.9,,Etobicoke Jr. Dolphins U22,OZ play,3
+210,2597,2609,12,53.11,14.9,,Etobicoke Jr. Dolphins U22,Shots,3
+211,2609,2621,12,42.15,2.7,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+212,2609,2621,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+213,2650,2662,12,42.15,2.7,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+214,2650,2662,12,42.15,2.7,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+215,2676,2688,12,45.39,4.47,,Etobicoke Jr. Dolphins U22,OZ play,3
+216,2676,2688,12,45.39,4.47,,Etobicoke Jr. Dolphins U22,Shots,3
+217,2752,2764,12,45.01,21.44,,Etobicoke Jr. Dolphins U22,OZ play,3
+218,2752,2764,12,45.01,21.44,,Etobicoke Jr. Dolphins U22,Shots,3
+219,2758,2770,12,47.61,24.89,,Etobicoke Jr. Dolphins U22,OZ play,3
+220,2758,2770,12,47.61,24.89,,Etobicoke Jr. Dolphins U22,Shots,3
+221,2765,2777,12,23.85,25.4,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+222,2772,2784,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+223,2777,2789,12,46.07,12.7,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+224,2777,2789,12,46.07,12.7,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+225,2777,2789,12,46.07,12.7,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+226,2783,2795,12,30.48,12.96,,Etobicoke Jr. Dolphins U22,OZ play,3
+227,2814,2826,12,55.07,13.29,,Etobicoke Jr. Dolphins U22,Goals,3
+228,2814,2826,12,55.07,13.29,,Etobicoke Jr. Dolphins U22,OZ play,3
+229,2814,2826,12,55.07,13.29,,Etobicoke Jr. Dolphins U22,Shots,3
+230,2818,2830,12,30.48,12.96,,Etobicoke Jr. Dolphins U22,OZ play,3
+231,2838,2850,12,39.63,19.4,,Etobicoke Jr. Dolphins U22,OZ play,3
+232,2838,2850,12,39.63,19.4,,Etobicoke Jr. Dolphins U22,Shots,3
+233,2841,2853,12,39.33,17.4,,Etobicoke Jr. Dolphins U22,OZ play,3
+234,2841,2853,12,39.33,17.4,,Etobicoke Jr. Dolphins U22,Shots,3
+235,2851,2863,12,57.16,9.6,,Etobicoke Jr. Dolphins U22,OZ play,3
+236,2851,2863,12,57.16,9.6,,Etobicoke Jr. Dolphins U22,Shots,3
+237,2877,2889,12,43.17,20.74,,Etobicoke Jr. Dolphins U22,OZ play,3
+238,2877,2889,12,43.17,20.74,,Etobicoke Jr. Dolphins U22,Shots,3
+239,2882,2894,12,51.51,19.67,,Etobicoke Jr. Dolphins U22,OZ play,3
+240,2884,2896,12,42.96,10.43,,Etobicoke Jr. Dolphins U22,OZ play,3
+241,2884,2896,12,42.96,10.43,,Etobicoke Jr. Dolphins U22,Shots,3
+242,2886,2898,12,53.92,13.41,,Etobicoke Jr. Dolphins U22,OZ play,3
+243,2886,2898,12,53.92,13.41,,Etobicoke Jr. Dolphins U22,Shots,3
+244,2892,2904,12,9.45,6.25,,Etobicoke Jr. Dolphins U22,OZ play,3
+245,2908,2920,12,46.75,5.21,,Etobicoke Jr. Dolphins U22,OZ play,3
+246,2908,2920,12,46.75,5.21,,Etobicoke Jr. Dolphins U22,Shots,3
+247,2923,2935,12,43.77,14.74,,Etobicoke Jr. Dolphins U22,OZ play,3
+248,2923,2935,12,43.77,14.74,,Etobicoke Jr. Dolphins U22,Shots,3
+249,2936,2948,12,51.51,6.25,,Etobicoke Jr. Dolphins U22,OZ play,3
+250,2938,2950,12,41.12,13.76,,Etobicoke Jr. Dolphins U22,OZ play,3
+251,2938,2950,12,41.12,13.76,,Etobicoke Jr. Dolphins U22,Shots,3
+252,2952,2964,12,38.09,17.21,,Etobicoke Jr. Dolphins U22,OZ play,3
+253,2952,2964,12,38.09,17.21,,Etobicoke Jr. Dolphins U22,Shots,3

@@ -1,0 +1,195 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,6,18,12,36.58,19.67,,East Ottawa Stars U22 AA,OZ play,1
+2,18,30,12,56.19,15.66,,East Ottawa Stars U22 AA,OZ play,1
+3,18,30,12,56.19,15.66,,East Ottawa Stars U22 AA,Shots,1
+4,38,50,12,9.45,19.67,,East Ottawa Stars U22 AA,OZ play,1
+5,77,89,12,44.73,11.96,,East Ottawa Stars U22 AA,OZ play,1
+6,77,89,12,44.73,11.96,,East Ottawa Stars U22 AA,Shots,1
+7,83,95,12,56.01,10.35,,East Ottawa Stars U22 AA,OZ play,1
+8,83,95,12,56.01,10.35,,East Ottawa Stars U22 AA,Shots,1
+9,84,96,12,53.08,10.91,,East Ottawa Stars U22 AA,OZ play,1
+10,84,96,12,53.08,10.91,,East Ottawa Stars U22 AA,Shots,1
+11,103,115,12,50.42,5.31,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+12,103,115,12,50.42,5.31,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+13,139,151,12,42.72,5.41,,East Ottawa Stars U22 AA,OZ play,1
+14,139,151,12,42.72,5.41,,East Ottawa Stars U22 AA,Shots,1
+15,218,230,12,42.26,6.36,,East Ottawa Stars U22 AA,OZ play,1
+16,218,230,12,42.26,6.36,,East Ottawa Stars U22 AA,Shots,1
+17,222,234,12,54.18,10.16,,East Ottawa Stars U22 AA,OZ play,1
+18,222,234,12,54.18,10.16,,East Ottawa Stars U22 AA,Shots,1
+19,225,237,12,51.51,6.25,,East Ottawa Stars U22 AA,OZ play,1
+20,229,241,12,42.26,20.5,,East Ottawa Stars U22 AA,OZ play,1
+21,229,241,12,42.26,20.5,,East Ottawa Stars U22 AA,Shots,1
+22,317,329,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+23,384,396,12,48.31,8.16,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+24,384,396,12,48.31,8.16,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+25,407,419,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+26,419,431,12,47.76,20.03,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+27,419,431,12,47.76,20.03,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+28,453,465,12,51.51,6.25,,East Ottawa Stars U22 AA,OZ play,1
+29,475,487,12,42.9,4.46,,East Ottawa Stars U22 AA,OZ play,1
+30,475,487,12,42.9,4.46,,East Ottawa Stars U22 AA,Shots,1
+31,479,491,12,50.88,11.96,,East Ottawa Stars U22 AA,OZ play,1
+32,479,491,12,50.88,11.96,,East Ottawa Stars U22 AA,Shots,1
+33,484,496,12,51.51,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+34,490,502,12,56.47,21.73,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+35,497,509,12,9.45,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+36,497,509,12,40.15,9.49,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+37,507,519,12,40.15,9.49,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+38,507,519,12,40.15,9.49,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+39,518,530,12,54.36,17.18,,East Ottawa Stars U22 AA,OZ play,1
+40,518,530,12,54.36,17.18,,East Ottawa Stars U22 AA,Shots,1
+41,544,556,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+42,579,591,12,51.15,18.32,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+43,579,591,12,51.15,18.32,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+44,586,598,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+45,607,619,12,2,15,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+46,623,635,12,53.63,16.8,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+47,623,635,12,53.63,16.8,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+48,660,672,12,51.98,23.54,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+49,660,672,12,51.98,23.54,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+50,710,722,12,52.71,7.21,,Pittsburgh Penguins Elite 19U Girls,OZ play,1
+51,710,722,12,52.71,7.21,,Pittsburgh Penguins Elite 19U Girls,Shots,1
+52,740,752,12,49.23,3.32,,East Ottawa Stars U22 AA,OZ play,1
+53,740,752,12,49.23,3.32,,East Ottawa Stars U22 AA,Shots,1
+54,783,795,12,36.58,6.25,,East Ottawa Stars U22 AA,OZ play,1
+55,815,827,12,42.08,4.27,,East Ottawa Stars U22 AA,OZ play,1
+56,815,827,12,42.08,4.27,,East Ottawa Stars U22 AA,Shots,1
+57,835,847,12,4.03,23.35,,East Ottawa Stars U22 AA,OZ play,1
+58,840,852,12,9.45,19.67,,East Ottawa Stars U22 AA,OZ play,1
+59,852,864,12,51.06,24.77,,East Ottawa Stars U22 AA,OZ play,1
+60,852,864,12,51.06,24.77,,East Ottawa Stars U22 AA,Shots,1
+61,860,872,12,43.45,16.89,,East Ottawa Stars U22 AA,OZ play,1
+62,860,872,12,43.45,16.89,,East Ottawa Stars U22 AA,Shots,1
+63,862,874,12,54.36,13.1,,East Ottawa Stars U22 AA,OZ play,1
+64,862,874,12,54.36,13.1,,East Ottawa Stars U22 AA,Shots,1
+65,872,884,12,51.51,6.25,,East Ottawa Stars U22 AA,OZ play,1
+66,889,901,12,39.88,7.59,,East Ottawa Stars U22 AA,OZ play,1
+67,889,901,12,39.88,7.59,,East Ottawa Stars U22 AA,Shots,1
+68,907,919,12,52.71,24.39,,East Ottawa Stars U22 AA,OZ play,1
+69,907,919,12,52.71,24.39,,East Ottawa Stars U22 AA,Shots,1
+70,940,952,12,42.17,13.19,,East Ottawa Stars U22 AA,OZ play,1
+71,940,952,12,42.17,13.19,,East Ottawa Stars U22 AA,Shots,1
+72,954,966,12,30.48,12.96,,East Ottawa Stars U22 AA,OZ play,2
+73,968,980,12,39.78,18.51,,East Ottawa Stars U22 AA,OZ play,2
+74,968,980,12,39.78,18.51,,East Ottawa Stars U22 AA,Shots,2
+75,971,983,12,49.68,10.72,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+76,971,983,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+77,995,1007,12,49.68,10.72,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+78,995,1007,12,49.68,10.72,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+79,1040,1052,12,41.62,22.59,,East Ottawa Stars U22 AA,OZ play,2
+80,1040,1052,12,41.62,22.59,,East Ottawa Stars U22 AA,Shots,2
+81,1044,1056,12,56.47,4.46,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+82,1053,1065,12,51.51,19.67,,East Ottawa Stars U22 AA,OZ play,2
+83,1189,1201,12,44.92,21.35,,East Ottawa Stars U22 AA,OZ play,2
+84,1189,1201,12,44.92,21.35,,East Ottawa Stars U22 AA,Shots,2
+85,1195,1207,12,51.51,19.67,,East Ottawa Stars U22 AA,OZ play,2
+86,1216,1228,12,16.59,11.86,,East Ottawa Stars U22 AA,OZ play,2
+87,1229,1241,12,51.51,6.25,,East Ottawa Stars U22 AA,OZ play,2
+88,1237,1249,12,52.43,14.05,,East Ottawa Stars U22 AA,OZ play,2
+89,1237,1249,12,52.43,14.05,,East Ottawa Stars U22 AA,Shots,2
+90,1242,1254,12,51.51,19.67,,East Ottawa Stars U22 AA,OZ play,2
+91,1249,1261,12,41.8,11.58,,East Ottawa Stars U22 AA,OZ play,2
+92,1249,1261,12,41.8,11.58,,East Ottawa Stars U22 AA,Shots,2
+93,1256,1268,12,9.45,19.67,,East Ottawa Stars U22 AA,OZ play,2
+94,1265,1277,12,42.99,21.54,,East Ottawa Stars U22 AA,OZ play,2
+95,1265,1277,12,42.99,21.54,,East Ottawa Stars U22 AA,Shots,2
+96,1317,1329,12,45.83,16.89,,East Ottawa Stars U22 AA,OZ play,2
+97,1317,1329,12,45.83,16.89,,East Ottawa Stars U22 AA,Shots,2
+98,1335,1347,12,41.53,20.22,,East Ottawa Stars U22 AA,OZ play,2
+99,1335,1347,12,41.53,20.22,,East Ottawa Stars U22 AA,Shots,2
+100,1401,1413,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+101,1410,1422,12,50.51,12.72,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+102,1410,1422,12,50.51,12.72,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+103,1415,1427,12,51.51,19.67,,East Ottawa Stars U22 AA,OZ play,2
+104,1499,1511,12,51.98,16.32,,East Ottawa Stars U22 AA,OZ play,2
+105,1499,1511,12,51.98,16.32,,East Ottawa Stars U22 AA,Shots,2
+106,1503,1515,12,9.45,6.25,,East Ottawa Stars U22 AA,OZ play,2
+107,1563,1575,12,2,15,,East Ottawa Stars U22 AA,OZ play,2
+108,1563,1575,12,46.66,14.71,,East Ottawa Stars U22 AA,OZ play,2
+109,1582,1594,12,46.66,14.71,,East Ottawa Stars U22 AA,OZ play,2
+110,1582,1594,12,46.66,14.71,,East Ottawa Stars U22 AA,Shots,2
+111,1599,1611,12,54.63,16.04,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+112,1599,1611,12,54.63,16.04,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+113,1599,1611,12,54.63,16.04,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+114,1604,1616,12,30.48,12.96,,East Ottawa Stars U22 AA,OZ play,2
+115,1655,1667,12,42.63,5.88,,East Ottawa Stars U22 AA,OZ play,2
+116,1655,1667,12,42.63,5.88,,East Ottawa Stars U22 AA,Shots,2
+117,1659,1671,12,54.63,10.16,,East Ottawa Stars U22 AA,OZ play,2
+118,1659,1671,12,54.63,10.16,,East Ottawa Stars U22 AA,Shots,2
+119,1688,1700,12,52.8,12.72,,Pittsburgh Penguins Elite 19U Girls,Goals,2
+120,1688,1700,12,52.8,12.72,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+121,1688,1700,12,52.8,12.72,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+122,1693,1705,12,30.48,12.96,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+123,1714,1726,12,53.26,10.06,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+124,1714,1726,12,53.26,10.06,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+125,1748,1760,12,44.73,16.99,,East Ottawa Stars U22 AA,OZ play,2
+126,1748,1760,12,51.51,19.67,,East Ottawa Stars U22 AA,OZ play,2
+127,1809,1821,12,44.73,16.99,,East Ottawa Stars U22 AA,OZ play,2
+128,1809,1821,12,44.73,16.99,,East Ottawa Stars U22 AA,Shots,2
+129,1822,1834,12,53.17,13.57,,Pittsburgh Penguins Elite 19U Girls,OZ play,2
+130,1822,1834,12,53.17,13.57,,Pittsburgh Penguins Elite 19U Girls,Shots,2
+131,1826,1838,12,47.94,12.81,,East Ottawa Stars U22 AA,OZ play,2
+132,1854,1866,12,9.45,19.67,,East Ottawa Stars U22 AA,OZ play,2
+133,1877,1889,12,52.98,4.46,,East Ottawa Stars U22 AA,OZ play,2
+134,1877,1889,12,52.98,4.46,,East Ottawa Stars U22 AA,Shots,2
+135,1886,1898,12,41.25,12.05,,East Ottawa Stars U22 AA,OZ play,2
+136,1886,1898,12,41.25,12.05,,East Ottawa Stars U22 AA,Shots,2
+137,1919,1931,12,30.48,12.96,,East Ottawa Stars U22 AA,OZ play,3
+138,1942,1954,12,44.09,17.08,,East Ottawa Stars U22 AA,OZ play,3
+139,1942,1954,12,44.09,17.08,,East Ottawa Stars U22 AA,Shots,3
+140,1963,1975,12,2,15,,East Ottawa Stars U22 AA,OZ play,3
+141,1978,1990,12,48.77,13,,East Ottawa Stars U22 AA,OZ play,3
+142,1978,1990,12,48.77,13,,East Ottawa Stars U22 AA,Shots,3
+143,1987,1999,12,46.75,9.59,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+144,1987,1999,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+145,2032,2044,12,46.75,9.59,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+146,2032,2044,12,46.75,9.59,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+147,2045,2057,12,9.9,17.75,,East Ottawa Stars U22 AA,OZ play,3
+148,2053,2065,12,51.51,6.25,,East Ottawa Stars U22 AA,OZ play,3
+149,2119,2131,12,46.57,9.02,,East Ottawa Stars U22 AA,OZ play,3
+150,2119,2131,12,46.57,9.02,,East Ottawa Stars U22 AA,Shots,3
+151,2147,2159,12,47.76,19.74,,East Ottawa Stars U22 AA,OZ play,3
+152,2147,2159,12,47.76,19.74,,East Ottawa Stars U22 AA,Shots,3
+153,2177,2189,12,46.11,2.85,,East Ottawa Stars U22 AA,OZ play,3
+154,2177,2189,12,46.11,2.85,,East Ottawa Stars U22 AA,Shots,3
+155,2192,2204,12,46.75,12.43,,East Ottawa Stars U22 AA,OZ play,3
+156,2192,2204,12,46.75,12.43,,East Ottawa Stars U22 AA,Shots,3
+157,2235,2247,12,9.45,19.67,,East Ottawa Stars U22 AA,OZ play,3
+158,2266,2278,12,54.45,12.43,,East Ottawa Stars U22 AA,OZ play,3
+159,2266,2278,12,54.45,12.43,,East Ottawa Stars U22 AA,Shots,3
+160,2281,2293,12,50.97,16.89,,East Ottawa Stars U22 AA,OZ play,3
+161,2281,2293,12,50.97,16.89,,East Ottawa Stars U22 AA,Shots,3
+162,2303,2315,12,48.58,18.51,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+163,2303,2315,12,48.58,18.51,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+164,2306,2318,12,51.51,19.67,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+165,2309,2321,12,41.16,20.22,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+166,2309,2321,12,41.16,20.22,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+167,2383,2395,12,39.14,3.89,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+168,2383,2395,12,39.14,3.89,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+169,2432,2444,12,44.46,14.62,,East Ottawa Stars U22 AA,OZ play,3
+170,2432,2444,12,44.46,14.62,,East Ottawa Stars U22 AA,Shots,3
+171,2468,2480,12,51.61,10.16,,Pittsburgh Penguins Elite 19U Girls,Goals,3
+172,2468,2480,12,51.61,10.16,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+173,2468,2480,12,51.61,10.16,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+174,2472,2484,12,30.48,12.96,,East Ottawa Stars U22 AA,OZ play,3
+175,2472,2484,12,54.82,12.15,,East Ottawa Stars U22 AA,OZ play,3
+176,2497,2509,12,54.82,12.15,,East Ottawa Stars U22 AA,OZ play,3
+177,2497,2509,12,54.82,12.15,,East Ottawa Stars U22 AA,Shots,3
+178,2593,2605,12,46.38,3.51,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+179,2593,2605,12,46.38,3.51,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+180,2604,2616,12,50.23,16.99,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+181,2604,2616,12,50.23,16.99,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+182,2696,2708,12,9.45,6.25,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+183,2696,2708,12,51.33,5.22,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+184,2742,2754,12,51.33,5.22,,Pittsburgh Penguins Elite 19U Girls,OZ play,3
+185,2742,2754,12,51.33,5.22,,Pittsburgh Penguins Elite 19U Girls,Shots,3
+186,2773,2785,12,20.72,7.21,,East Ottawa Stars U22 AA,OZ play,3
+187,2779,2791,12,51.51,19.67,,East Ottawa Stars U22 AA,OZ play,3
+188,2791,2803,12,47.03,12.15,,East Ottawa Stars U22 AA,OZ play,3
+189,2791,2803,12,47.03,12.15,,East Ottawa Stars U22 AA,Shots,3
+190,2800,2812,12,36.58,6.25,,East Ottawa Stars U22 AA,OZ play,3
+191,2823,2835,12,53.08,13.57,,East Ottawa Stars U22 AA,OZ play,3
+192,2823,2835,12,53.08,13.57,,East Ottawa Stars U22 AA,Shots,3
+193,2844,2856,12,43.45,9.87,,East Ottawa Stars U22 AA,OZ play,3
+194,2844,2856,12,43.45,9.87,,East Ottawa Stars U22 AA,Shots,3

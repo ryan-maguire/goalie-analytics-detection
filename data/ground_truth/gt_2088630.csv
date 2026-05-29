@@ -1,0 +1,248 @@
+ID,start,end,duration,pos_x,pos_y,player,team,action,half
+1,2,14,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+2,57,69,12,28.78,8.07,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+3,91,103,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+4,94,106,12,50.6,20.12,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+5,94,106,12,50.6,20.12,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+6,96,108,12,53.9,11.39,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+7,96,108,12,53.9,11.39,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+8,105,117,12,55.73,5.6,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+9,105,117,12,55.73,5.6,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+10,141,153,12,52.89,13.38,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+11,141,153,12,52.89,13.38,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+12,164,176,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+13,172,184,12,51.52,5.6,,Chicago Mission 14U,OZ play,1
+14,172,184,12,51.52,5.6,,Chicago Mission 14U,Shots,1
+15,211,223,12,24.38,6.25,,Chicago Mission 14U,OZ play,1
+16,264,276,12,46.38,19.65,,Chicago Mission 14U,OZ play,1
+17,264,276,12,46.38,19.65,,Chicago Mission 14U,Shots,1
+18,283,295,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+19,336,348,12,54.45,9.3,,Chicago Mission 14U,OZ play,1
+20,336,348,12,54.45,9.3,,Chicago Mission 14U,Shots,1
+21,341,353,12,51.79,9.97,,Chicago Mission 14U,OZ play,1
+22,341,353,12,51.79,9.97,,Chicago Mission 14U,Shots,1
+23,347,359,12,40.24,19.17,,Chicago Mission 14U,OZ play,1
+24,347,359,12,40.24,19.17,,Chicago Mission 14U,Shots,1
+25,368,380,12,48.95,8.64,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+26,368,380,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+27,396,408,12,48.95,8.64,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+28,396,408,12,48.95,8.64,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+29,482,494,12,40.7,16.61,,Chicago Mission 14U,OZ play,1
+30,482,494,12,40.7,16.61,,Chicago Mission 14U,Shots,1
+31,518,530,12,49.59,8.73,,Chicago Mission 14U,OZ play,1
+32,518,530,12,49.59,8.73,,Chicago Mission 14U,Shots,1
+33,569,581,12,39.51,21.16,,Chicago Mission 14U,OZ play,1
+34,569,581,12,39.51,21.16,,Chicago Mission 14U,Shots,1
+35,600,612,12,39.69,24.3,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+36,600,612,12,39.69,24.3,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+37,629,641,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+38,636,648,12,39.78,3.13,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+39,636,648,12,39.78,3.13,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+40,657,669,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+41,659,671,12,41.07,4.94,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+42,659,671,12,41.07,4.94,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+43,673,685,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+44,692,704,12,40.52,21.73,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+45,692,704,12,40.52,21.73,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+46,741,753,12,53.35,6.26,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+47,741,753,12,53.35,6.26,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+48,792,804,12,36.58,19.67,,Chicago Mission 14U,OZ play,1
+49,826,838,12,53.99,14.33,,Chicago Mission 14U,OZ play,1
+50,826,838,12,53.99,14.33,,Chicago Mission 14U,Shots,1
+51,849,861,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+52,849,861,12,39.97,4.94,,Chicago Mission 14U,OZ play,1
+53,856,868,12,39.97,4.94,,Chicago Mission 14U,OZ play,1
+54,856,868,12,39.97,4.94,,Chicago Mission 14U,Shots,1
+55,908,920,12,44.83,5.31,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+56,908,920,12,44.83,5.31,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+57,928,940,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+58,932,944,12,51.06,9.87,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+59,932,944,12,51.06,9.87,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+60,995,1007,12,36.58,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+61,1003,1015,12,54.73,20.12,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+62,1003,1015,12,54.73,20.12,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+63,1026,1038,12,9.45,6.25,,Chicago Mission 14U,OZ play,1
+64,1052,1064,12,39.69,4.46,,Chicago Mission 14U,OZ play,1
+65,1052,1064,12,39.69,4.46,,Chicago Mission 14U,Shots,1
+66,1055,1067,12,53.9,19.08,,Chicago Mission 14U,OZ play,1
+67,1055,1067,12,53.9,19.08,,Chicago Mission 14U,Shots,1
+68,1081,1093,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+69,1085,1097,12,39.69,23.35,,Chicago Mission 14U,OZ play,1
+70,1085,1097,12,39.69,23.35,,Chicago Mission 14U,Shots,1
+71,1087,1099,12,50.88,16.99,,Chicago Mission 14U,OZ play,1
+72,1087,1099,12,50.88,16.99,,Chicago Mission 14U,Shots,1
+73,1146,1158,12,51.51,19.67,,Chicago Mission 14U,OZ play,1
+74,1150,1162,12,49.32,24.39,,Chicago Mission 14U,OZ play,1
+75,1150,1162,12,49.32,24.39,,Chicago Mission 14U,Shots,1
+76,1227,1239,12,47.12,24.87,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+77,1227,1239,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+78,1244,1256,12,47.12,24.87,,Pittsburgh Penguins Elite 14U Girls,OZ play,1
+79,1244,1256,12,47.12,24.87,,Pittsburgh Penguins Elite 14U Girls,Shots,1
+80,1291,1303,12,54.63,7.59,,Chicago Mission 14U,OZ play,1
+81,1291,1303,12,54.63,7.59,,Chicago Mission 14U,Shots,1
+82,1311,1323,12,51.51,6.25,,Chicago Mission 14U,OZ play,1
+83,1314,1326,12,47.76,10.25,,Chicago Mission 14U,OZ play,1
+84,1314,1326,12,47.76,10.25,,Chicago Mission 14U,Shots,1
+85,1332,1344,12,51.51,6.25,,Chicago Mission 14U,OZ play,1
+86,1334,1346,12,39.6,15.09,,Chicago Mission 14U,OZ play,1
+87,1334,1346,12,39.6,15.09,,Chicago Mission 14U,Shots,1
+88,1345,1357,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+89,1372,1384,12,28.05,2.94,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+90,1443,1455,12,9.45,19.67,,Chicago Mission 14U,OZ play,2
+91,1443,1455,12,39.69,21.26,,Chicago Mission 14U,OZ play,2
+92,1465,1477,12,39.69,21.26,,Chicago Mission 14U,OZ play,2
+93,1465,1477,12,39.69,21.26,,Chicago Mission 14U,Shots,2
+94,1504,1516,12,54.91,12.53,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+95,1504,1516,12,54.91,12.53,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+96,1543,1555,12,9.45,19.67,,Chicago Mission 14U,OZ play,2
+97,1591,1603,12,47.21,21.73,,Chicago Mission 14U,OZ play,2
+98,1591,1603,12,47.21,21.73,,Chicago Mission 14U,Shots,2
+99,1594,1606,12,50.97,9.97,,Chicago Mission 14U,OZ play,2
+100,1594,1606,12,50.97,9.97,,Chicago Mission 14U,Shots,2
+101,1627,1639,12,9.45,6.25,,Chicago Mission 14U,OZ play,2
+102,1666,1678,12,48.31,2.47,,Chicago Mission 14U,OZ play,2
+103,1666,1678,12,48.31,2.47,,Chicago Mission 14U,Shots,2
+104,1682,1694,12,38.32,5.03,,Chicago Mission 14U,OZ play,2
+105,1682,1694,12,38.32,5.03,,Chicago Mission 14U,Shots,2
+106,1725,1737,12,41.98,12.62,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+107,1725,1737,12,41.98,12.62,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+108,1750,1762,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+109,1802,1814,12,40.98,12.91,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+110,1802,1814,12,40.98,12.91,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+111,1848,1860,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+112,1880,1892,12,56.56,11.01,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+113,1880,1892,12,56.56,11.01,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+114,1906,1918,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+115,1924,1936,12,48.86,14.62,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+116,1924,1936,12,48.86,14.62,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+117,1952,1964,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+118,1976,1988,12,51.88,16.8,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+119,1976,1988,12,51.88,16.8,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+120,2028,2040,12,46.75,24.2,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+121,2028,2040,12,46.75,24.2,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+122,2754,2766,12,9.45,6.25,,Chicago Mission 14U,OZ play,2
+123,2802,2814,12,40.24,24.77,,Chicago Mission 14U,OZ play,2
+124,2802,2814,12,40.24,24.77,,Chicago Mission 14U,Shots,2
+125,2823,2835,12,46.11,17.37,,Chicago Mission 14U,OZ play,2
+126,2823,2835,12,46.11,17.37,,Chicago Mission 14U,Shots,2
+127,2884,2896,12,24.38,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+128,2891,2903,12,52.07,22.78,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+129,2891,2903,12,52.07,22.78,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+130,2911,2923,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+131,2917,2929,12,43.36,2.56,,Pittsburgh Penguins Elite 14U Girls,OZ play,2
+132,2917,2929,12,43.36,2.56,,Pittsburgh Penguins Elite 14U Girls,Shots,2
+133,2976,2988,12,9.45,6.25,,Chicago Mission 14U,OZ play,2
+134,2995,3007,12,50.6,17.27,,Chicago Mission 14U,OZ play,2
+135,2995,3007,12,50.6,17.27,,Chicago Mission 14U,Shots,2
+136,3007,3019,12,51.52,17.27,,Chicago Mission 14U,OZ play,2
+137,3007,3019,12,51.52,17.27,,Chicago Mission 14U,Shots,2
+138,3041,3053,12,48.13,5.98,,Chicago Mission 14U,OZ play,2
+139,3041,3053,12,48.13,5.98,,Chicago Mission 14U,Shots,2
+140,3066,3078,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+141,3079,3091,12,51.52,19.55,,Chicago Mission 14U,OZ play,2
+142,3079,3091,12,51.52,19.55,,Chicago Mission 14U,Shots,2
+143,3100,3112,12,51.51,19.67,,Chicago Mission 14U,OZ play,2
+144,3159,3171,12,40.52,24.58,,Chicago Mission 14U,OZ play,2
+145,3159,3171,12,40.52,24.58,,Chicago Mission 14U,Shots,2
+146,3180,3192,12,48.22,13.57,,Chicago Mission 14U,OZ play,2
+147,3180,3192,12,48.22,13.57,,Chicago Mission 14U,Shots,2
+148,3304,3316,12,51.51,6.25,,Chicago Mission 14U,OZ play,2
+149,3309,3321,12,50.14,13.38,,Chicago Mission 14U,OZ play,2
+150,3309,3321,12,50.14,13.38,,Chicago Mission 14U,Shots,2
+151,3322,3334,12,30.48,12.96,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+152,3329,3341,12,46.57,16.7,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+153,3329,3341,12,46.57,16.7,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+154,3344,3356,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+155,3358,3370,12,47.67,24.3,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+156,3358,3370,12,47.67,24.3,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+157,3383,3395,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+158,3394,3406,12,45.83,6.55,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+159,3394,3406,12,45.83,6.55,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+160,3412,3424,12,51.51,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+161,3414,3426,12,47.03,9.4,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+162,3414,3426,12,47.03,9.4,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+163,3418,3430,12,51.88,13.76,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+164,3418,3430,12,51.88,13.76,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+165,3482,3494,12,9.45,6.25,,Chicago Mission 14U,OZ play,3
+166,3540,3552,12,53.63,12.43,,Chicago Mission 14U,OZ play,3
+167,3540,3552,12,53.63,12.43,,Chicago Mission 14U,Shots,3
+168,3557,3569,12,54.45,13.86,,Chicago Mission 14U,Goals,3
+169,3557,3569,12,54.45,13.86,,Chicago Mission 14U,OZ play,3
+170,3557,3569,12,54.45,13.86,,Chicago Mission 14U,Shots,3
+171,3589,3601,12,30.48,12.96,,Chicago Mission 14U,OZ play,3
+172,3601,3613,12,46.2,2.85,,Chicago Mission 14U,OZ play,3
+173,3601,3613,12,46.2,2.85,,Chicago Mission 14U,Shots,3
+174,3623,3635,12,46.38,17.56,,Chicago Mission 14U,OZ play,3
+175,3623,3635,12,46.38,17.56,,Chicago Mission 14U,Shots,3
+176,3629,3641,12,52.25,5.13,,Chicago Mission 14U,OZ play,3
+177,3629,3641,12,52.25,5.13,,Chicago Mission 14U,Shots,3
+178,3647,3659,12,51.24,15.66,,Chicago Mission 14U,OZ play,3
+179,3647,3659,12,51.24,15.66,,Chicago Mission 14U,Shots,3
+180,3652,3664,12,39.69,1.8,,Chicago Mission 14U,OZ play,3
+181,3652,3664,12,39.69,1.8,,Chicago Mission 14U,Shots,3
+182,3666,3678,12,4.95,15.94,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+183,3775,3787,12,36.58,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+184,3818,3830,12,49.32,1.42,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+185,3818,3830,12,49.32,1.42,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+186,3823,3835,12,49.04,24.87,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+187,3823,3835,12,49.04,24.87,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+188,3852,3864,12,9.45,6.25,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+189,3866,3878,12,49.5,22.11,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+190,3866,3878,12,49.5,22.11,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+191,3880,3892,12,40.24,1.99,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+192,3880,3892,12,40.24,1.99,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+193,3884,3896,12,45.65,24.49,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+194,3884,3896,12,45.65,24.49,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+195,3911,3923,12,51.51,19.67,,Chicago Mission 14U,OZ play,3
+196,3960,3972,12,41.71,9.3,,Chicago Mission 14U,OZ play,3
+197,3960,3972,12,41.71,9.3,,Chicago Mission 14U,Shots,3
+198,3981,3993,12,39.78,22.59,,Chicago Mission 14U,OZ play,3
+199,3981,3993,12,39.78,22.59,,Chicago Mission 14U,Shots,3
+200,4018,4030,12,41.53,6.83,,Chicago Mission 14U,OZ play,3
+201,4018,4030,12,41.53,6.83,,Chicago Mission 14U,Shots,3
+202,4024,4036,12,40.88,24.3,,Chicago Mission 14U,OZ play,3
+203,4024,4036,12,40.88,24.3,,Chicago Mission 14U,Shots,3
+204,4058,4070,12,9.45,19.67,,Chicago Mission 14U,OZ play,3
+205,4067,4079,12,48.95,11.67,,Chicago Mission 14U,OZ play,3
+206,4067,4079,12,48.95,11.67,,Chicago Mission 14U,Shots,3
+207,4119,4131,12,36.58,6.25,,Chicago Mission 14U,OZ play,3
+208,4138,4150,12,40.33,18.89,,Chicago Mission 14U,OZ play,3
+209,4138,4150,12,40.33,18.89,,Chicago Mission 14U,Shots,3
+210,4151,4163,12,46.75,8.92,,Chicago Mission 14U,OZ play,3
+211,4151,4163,12,46.75,8.92,,Chicago Mission 14U,Shots,3
+212,4159,4171,12,47.76,5.79,,Chicago Mission 14U,OZ play,3
+213,4159,4171,12,47.76,5.79,,Chicago Mission 14U,Shots,3
+214,4187,4199,12,52.53,4.46,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+215,4187,4199,12,52.53,4.46,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+216,4206,4218,12,51.51,6.25,,Chicago Mission 14U,OZ play,3
+217,4265,4277,12,55.18,11.01,,Chicago Mission 14U,OZ play,3
+218,4265,4277,12,55.18,11.01,,Chicago Mission 14U,Shots,3
+219,4333,4345,12,9.45,6.25,,Chicago Mission 14U,OZ play,3
+220,4367,4379,12,39.88,0.95,,Chicago Mission 14U,OZ play,3
+221,4367,4379,12,39.88,0.95,,Chicago Mission 14U,Shots,3
+222,4392,4404,12,51.51,6.25,,Chicago Mission 14U,OZ play,3
+223,4394,4406,12,41.34,1.04,,Chicago Mission 14U,OZ play,3
+224,4394,4406,12,41.34,1.04,,Chicago Mission 14U,Shots,3
+225,4407,4419,12,9.45,19.67,,Chicago Mission 14U,OZ play,3
+226,4421,4433,12,51.15,11.2,,Chicago Mission 14U,OZ play,3
+227,4421,4433,12,51.15,11.2,,Chicago Mission 14U,Shots,3
+228,4567,4579,12,24.38,6.25,,Chicago Mission 14U,OZ play,3
+229,4591,4603,12,41.8,13.95,,Chicago Mission 14U,OZ play,3
+230,4591,4603,12,41.8,13.95,,Chicago Mission 14U,Shots,3
+231,4642,4654,12,51.33,9.4,,Chicago Mission 14U,OZ play,3
+232,4642,4654,12,51.33,9.4,,Chicago Mission 14U,Shots,3
+233,4663,4675,12,51.51,6.25,,Chicago Mission 14U,OZ play,3
+234,4663,4675,12,52.16,12.91,,Chicago Mission 14U,OZ play,3
+235,4684,4696,12,52.16,12.91,,Chicago Mission 14U,OZ play,3
+236,4684,4696,12,52.16,12.91,,Chicago Mission 14U,Shots,3
+237,4698,4710,12,40.61,1.04,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+238,4735,4747,12,51.51,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+239,4738,4750,12,40.79,24.2,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+240,4738,4750,12,40.79,24.2,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+241,4745,4757,12,39.97,2.56,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+242,4745,4757,12,39.97,2.56,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+243,4806,4818,12,9.45,19.67,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+244,4828,4840,12,52.07,13,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+245,4828,4840,12,52.07,13,,Pittsburgh Penguins Elite 14U Girls,Shots,3
+246,4833,4845,12,39.88,18.22,,Pittsburgh Penguins Elite 14U Girls,OZ play,3
+247,4833,4845,12,39.88,18.22,,Pittsburgh Penguins Elite 14U Girls,Shots,3
