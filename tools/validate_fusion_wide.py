@@ -123,6 +123,9 @@ def run_metrics_seg(vid: str, cust: str, variant: str,
         "--local-video-dir", str(REPO / "data" / "videos"),
         "--output-dir", str(out_dir),
         "--no-gcs",
+        # gemini-3.x preview models are only served via the 'global'
+        # routing pool. The default us-central1 returns 404 for them.
+        "--vertex-location", "global",
         "--workers", str(workers)], dry_run=dry_run)
     return out_path
 

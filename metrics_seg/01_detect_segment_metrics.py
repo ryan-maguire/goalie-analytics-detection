@@ -124,7 +124,7 @@ Usage:
     # Limit parallel workers (default: 2)
     python3 01_detect_segment_metrics.py --vID U7NUbWad0A8 --customID CUST000048 --workers 3
 
-Model: gemini-3.1-pro-preview
+Model: gemini-2.5-pro
 """
 
 import argparse
@@ -215,7 +215,7 @@ def _v14_load_probs_for_vid(vid: str):
 # Configuration
 # ---------------------------------------------------------------------------
 
-GEMINI_MODEL   = "gemini-3.1-pro-preview"
+GEMINI_MODEL   = "gemini-2.5-pro"
 # NOTE: Must match GEMINI_MODEL in 01_detect_goalie_segments.py — update both together.
 # Overridable at runtime via the --model CLI flag (see parse_args()).
 # The cache layer (v14) keys on model_name, so switching models naturally
@@ -401,7 +401,7 @@ METRICS_RESPONSE_SCHEMA = {
 # Loaded from prompts/metrics_v{N}.txt to keep prompt iterations
 # diff-clean and version-trackable independent of code changes.
 # To switch versions, change PROMPT_VERSION below.
-PROMPT_VERSION = "v13"
+PROMPT_VERSION = "v14.1"
 _PROMPT_PATH = pathlib.Path(__file__).parent / "prompts" / f"metrics_{PROMPT_VERSION}.txt"
 try:
     METRICS_PROMPT = _PROMPT_PATH.read_text(encoding="utf-8").strip()
@@ -1249,9 +1249,17 @@ def _call_gemini_for_metrics(
         except Exception as e:
             # Fallback string-match for transient errors that aren't
             # in the typed exception list (network reset, SSL, etc.)
+            # Also catches genai.errors.APIError (the new google.genai
+            # SDK raises these instead of api_core exceptions, so the
+            # typed _TRANSIENT_API_EXCEPTIONS tuple — which uses
+            # api_core types — never matched 429s. Added 429/
+            # RESOURCE_EXHAUSTED to the string heuristic to recover
+            # rate-limited calls properly.)
             last_error = e
             transient_by_message = any(k in str(e) for k in [
                 "SSL", "EOF", "timed out", "timeout", "Connection", "reset",
+                "429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE",
+                "504", "DEADLINE_EXCEEDED", "500", "INTERNAL",
             ])
             if transient_by_message and attempt < MAX_RETRIES:
                 delay = _backoff(attempt)
@@ -2165,6 +2173,16 @@ def parse_args():
                              f"models (e.g. gemini-3.x family) are only "
                              f"served through the 'global' routing pool — "
                              f"pass --vertex-location global to reach them.")
+    parser.add_argument("--prompt-version", default=None,
+                        help=f"Override the prompt file used. Default: "
+                             f"{PROMPT_VERSION} (loaded from "
+                             f"metrics_seg/prompts/metrics_<version>.txt). "
+                             f"Useful for A/B testing prompt revisions "
+                             f"without changing the constant. The cache "
+                             f"key does NOT include the prompt version, "
+                             f"so callers comparing prompt variants should "
+                             f"either disable the cache (--no-cache) or "
+                             f"point at separate output dirs.")
     return parser.parse_args()
 
 
@@ -2272,6 +2290,16 @@ def main():
         global REGION
         log.info(f"Overriding Vertex location: {REGION} → {args.vertex_location}")
         REGION = args.vertex_location
+    if args.prompt_version:
+        global METRICS_PROMPT, PROMPT_VERSION
+        new_path = pathlib.Path(__file__).parent / "prompts" / f"metrics_{args.prompt_version}.txt"
+        if not new_path.exists():
+            raise SystemExit(
+                f"--prompt-version {args.prompt_version}: prompt file "
+                f"not found at {new_path}")
+        log.info(f"Overriding prompt: {PROMPT_VERSION} → {args.prompt_version}")
+        PROMPT_VERSION = args.prompt_version
+        METRICS_PROMPT = new_path.read_text(encoding="utf-8").strip()
 
     # Populate v14 improvements config from CLI flags. Flags default such
     # that this is a no-op unless the user opts in.
