@@ -94,10 +94,13 @@ gcloud iam service-accounts add-iam-policy-binding "${CALLER_SA}" \
     --member="user:YOU@example.com" \
     --role="roles/iam.serviceAccountTokenCreator"
 
-# Per call: mint a fresh short-lived ID token audience-scoped to the Service
+# Per call: mint a fresh short-lived ID token audience-scoped to the Service.
+# The `| tr -d '[:space:]'` strips a trailing newline that gcloud appends —
+# without it, the newline lands inside the Authorization header and libcurl
+# returns "error 43: A libcurl function was given a bad argument" with HTTP 000.
 TOKEN=$(gcloud auth print-identity-token \
     --impersonate-service-account="${CALLER_SA}" \
-    --audiences="${SERVICE_URL}")
+    --audiences="${SERVICE_URL}" | tr -d '[:space:]')
 ```
 
 For workloads running INSIDE GCP (other Cloud Run services, Cloud
