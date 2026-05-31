@@ -1,0 +1,65 @@
+# Docker build context exclusions. Keep the image lean — only ship code
+# + baked-in weights + probs. Everything that's regenerable or huge stays
+# on the host.
+
+# ── Python / build junk ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# ── OS junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Git ──────────────────────────────────────────────────────────────
+.git/
+.gitignore
+.github/
+
+# ── Logs ─────────────────────────────────────────────────────────────
+logs/
+log/
+*.log
+
+# ── Raw video data (gigabytes) ──────────────────────────────────────
+# Videos come from GCS at runtime — never bake into the image.
+data/videos/
+
+# ── Cached per-second features (regenerable, big) ───────────────────
+data/output/yolo_features/
+data/output/audio_features/
+
+# ── Pipeline-run output dumps (per-run, not shipped) ────────────────
+data/output/runs/
+data/output/wav/
+
+# ── Training data + scratch ─────────────────────────────────────────
+data/labels/images/
+runs/*/work/
+runs/*/dataset/
+
+# ── Local-only customer copies + symlinks ───────────────────────────
+# The shipped image reads from GCS at runtime; local /CUST*.json files
+# are dev-only and would clobber the GCS path if accidentally copied.
+/CUST*.json
+/customerID_*.json
+data/customers/customerID_*.json
+
+# ── Heavy archives ──────────────────────────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+
+# ── Coach-facing scratch ────────────────────────────────────────────
+candidate_output/
+
+# ── Misc ────────────────────────────────────────────────────────────
+testbild.png
+models/             # X3D archives; unused after that track was abandoned

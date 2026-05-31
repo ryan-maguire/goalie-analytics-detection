@@ -1,0 +1,49 @@
+# Cloud Build config — builds the single shared container image used by
+# both the API Service and the Worker Job. Pushes to Artifact Registry.
+#
+# Trigger manually:
+#   gcloud builds submit --config deploy/cloudbuild.yaml \
+#       --project goalie-analytics-pro-dev
+#
+# Or wire to a GitHub trigger via Cloud Build → Triggers in the console.
+#
+# Substitution variables (overridable on the gcloud builds submit call):
+#   _PROJECT_ID  default goalie-analytics-pro-dev
+#   _REGION      default us-central1
+#   _REPO        default goalie-pipeline   (Artifact Registry repo name)
+#   _IMAGE       default goalie-pipeline   (image name inside the repo)
+#   _TAG         default $SHORT_SHA        (or pass _TAG=latest for dev)
+
+substitutions:
+  _PROJECT_ID: goalie-analytics-pro-dev
+  _REGION:     us-central1
+  _REPO:       goalie-pipeline
+  _IMAGE:      goalie-pipeline
+  _TAG:        $SHORT_SHA
+
+options:
+  # Provision a larger machine — pip-installing torch + opencv on the
+  # default e2-medium is slow and occasionally OOMs.
+  machineType: E2_HIGHCPU_8
+  logging:    CLOUD_LOGGING_ONLY
+
+# The image gets two tags: the SHA (immutable, audit trail) + `latest`
+# (so deploys can pin to a moving pointer during dev — production should
+# pin to the SHA).
+images:
+  - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_IMAGE}:${_TAG}
+  - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_IMAGE}:latest
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - deploy/Dockerfile
+      - -t
+      - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_IMAGE}:${_TAG}
+      - -t
+      - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_IMAGE}:latest
+      - .
+
+timeout: 1800s   # 30 min build budget — large pip installs are slow
