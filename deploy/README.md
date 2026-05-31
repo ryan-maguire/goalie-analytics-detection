@@ -167,6 +167,118 @@ runs — `Ready for Analysis` → `Processing (33%)` (after stage 1) →
 ticks through stages 2 and 3 → `Complete` (after stage 3 succeeds).
 See `util/progress.py` for the writer + commit `d8a0584` for design notes.
 
+### Calling from code (on-GCP clients)
+
+For callers running inside GCP (another Cloud Run service, a Cloud
+Function, GKE) that use `goalie-api-caller-sa` as their runtime SA,
+mint an audience-scoped ID token from the metadata server and hit the
+Service directly. No impersonation, no key files.
+
+First, bind the caller SA as the calling service's runtime SA:
+
+```bash
+gcloud run services update YOUR_OTHER_SERVICE \
+    --region us-central1 \
+    --service-account=goalie-api-caller-sa@goalie-analytics-pro-dev.iam.gserviceaccount.com
+```
+
+Then in your code:
+
+**Python** (`google-auth` + `requests`):
+
+```python
+import google.auth.transport.requests
+import google.oauth2.id_token
+import requests
+
+SERVICE_URL = "https://goalie-pipeline-api-301726916294.us-central1.run.app"
+
+auth_req = google.auth.transport.requests.Request()
+token = google.oauth2.id_token.fetch_id_token(auth_req, SERVICE_URL)
+
+resp = requests.post(
+    f"{SERVICE_URL}/run",
+    headers={"Authorization": f"Bearer {token}"},
+    json={
+        "customer_id": "CUST000031",
+        "vID": ["dwGsP6QKDs8"],
+        "stage1_mode": "hybrid",
+        "steps": [1, 2, 3],
+    },
+    timeout=30,
+)
+resp.raise_for_status()
+print(resp.json())
+```
+
+**Node.js** (`google-auth-library`):
+
+```js
+import {GoogleAuth} from 'google-auth-library';
+
+const SERVICE_URL = 'https://goalie-pipeline-api-301726916294.us-central1.run.app';
+
+const auth = new GoogleAuth();
+const client = await auth.getIdTokenClient(SERVICE_URL);
+
+const resp = await client.request({
+  url: `${SERVICE_URL}/run`,
+  method: 'POST',
+  data: {
+    customer_id: 'CUST000031',
+    vID: ['dwGsP6QKDs8'],
+    stage1_mode: 'hybrid',
+    steps: [1, 2, 3],
+  },
+});
+console.log(resp.data);
+```
+
+**Go** (`google.golang.org/api/idtoken`):
+
+```go
+package main
+
+import (
+    "bytes"
+    "context"
+    "fmt"
+    "io"
+
+    "google.golang.org/api/idtoken"
+)
+
+func main() {
+    const serviceURL = "https://goalie-pipeline-api-301726916294.us-central1.run.app"
+
+    ctx := context.Background()
+    client, err := idtoken.NewClient(ctx, serviceURL)
+    if err != nil {
+        panic(err)
+    }
+
+    body := []byte(`{
+        "customer_id": "CUST000031",
+        "vID": ["dwGsP6QKDs8"],
+        "stage1_mode": "hybrid",
+        "steps": [1, 2, 3]
+    }`)
+
+    resp, err := client.Post(serviceURL+"/run", "application/json", bytes.NewReader(body))
+    if err != nil {
+        panic(err)
+    }
+    defer resp.Body.Close()
+    out, _ := io.ReadAll(resp.Body)
+    fmt.Println(string(out))
+}
+```
+
+The audience passed to `fetch_id_token` / `getIdTokenClient` /
+`idtoken.NewClient` MUST be the Service base URL (no path, no trailing
+slash). If you pass `${SERVICE_URL}/run`, the token's `aud` claim won't
+match what the Service validates and you'll get HTTP 401.
+
 ### Granting another principal access to call the API
 
 Easiest path: let them impersonate the existing caller SA (no new IAM
