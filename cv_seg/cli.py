@@ -43,6 +43,12 @@ def parse_args():
                    help="Local directory to write output JSONs (default: data/outputs)")
     p.add_argument("--no-gcs", dest="write_gcs", action="store_false",
                    help="Skip writing to GCS (write to --output-dir only)")
+    p.add_argument("--progress-stage-idx", type=int, default=None, choices=[1, 2, 3],
+                   help="When set (typically 1 for cv_seg as stage 1), writes "
+                        "'Processing (33%%)' to the vID's analyticsStatus on "
+                        "successful per-vid completion. cv_seg has no clean "
+                        "per-step counter so progress is coarse (0%% → 33%% "
+                        "per vid). Set by run_pipeline.py.")
     p.add_argument("--no-local", dest="write_local", action="store_false",
                    help="Skip writing to local --output-dir (write to GCS only)")
     p.add_argument("--whistle-thresh", dest="whistle_thresh", type=float, default=None,
@@ -142,6 +148,17 @@ def main():
     output_dir = args.output_dir if args.write_local else None
     _apply_threshold_overrides(args)
 
+    # Pipeline progress: stage 1 is coarse-grained — cv_seg doesn't
+    # surface a per-step counter, so each vid jumps 0% → 33% on success.
+    # Import lazily so standalone cv_seg (no progress flag) has no extra
+    # import cost.
+    _pp = None
+    if args.progress_stage_idx is not None:
+        try:
+            from util import progress as _pp
+        except ImportError:
+            pass
+
     succeeded, failed = [], []
     for vID in args.vID:
         ok = process_video(
@@ -154,6 +171,12 @@ def main():
             target_filter=args.target_filter,
         )
         (succeeded if ok else failed).append(vID)
+        if _pp is not None and ok:
+            _pp.report(
+                customer_id=args.customID, vid=vID,
+                stage_idx=args.progress_stage_idx,
+                current=1, total=1,
+            )
 
     log.info("=" * 60)
     log.info(f"Completed: {len(succeeded)}/{len(args.vID)} videos succeeded.")

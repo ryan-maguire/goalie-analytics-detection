@@ -102,6 +102,13 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Pipeline progress reporting — best-effort, never raises.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+try:
+    from util import progress as _pipeline_progress
+except ImportError:
+    _pipeline_progress = None
+
 
 # ── Stage configuration ──────────────────────────────────────────────
 #
@@ -158,6 +165,7 @@ def cv_seg_argv(customer_id: str,
         argv += ["--output-dir", str(Path(local_output_dir) / "cv_seg")]
     else:
         argv += ["--no-local"]
+    argv += ["--progress-stage-idx", "1"]
     return argv
 
 
@@ -230,6 +238,7 @@ def fusion_stage1_argv(customer_id: str,
         "--pre", str(FUSION_PRE_SEC),
         "--post", str(FUSION_POST_SEC),
         "--out-dir", str(out_dir),
+        "--progress-stage-idx", "1",
     ]
 
 
@@ -269,6 +278,7 @@ def metrics_seg_argv(customer_id: str,
         argv += ["--segments-dir", str(stage1_seg_dir)]
     if local_video_dir is not None:
         argv += ["--local-video-dir", str(local_video_dir)]
+    argv += ["--progress-stage-idx", "2"]
     return argv
 
 
@@ -294,6 +304,7 @@ def feedback_seg_argv(customer_id: str,
         argv += ["--workers", str(workers)]
     if local_output_dir:
         argv += ["--output-dir", str(Path(local_output_dir) / "feedback_seg")]
+    argv += ["--progress-stage-idx", "3"]
     return argv
 
 
@@ -865,6 +876,13 @@ def main() -> int:
             "publish_success": publish_success,
             "publish_elapsed": publish_elapsed,
         }
+
+        # Mark the vID's analyticsStatus "Complete" iff the full
+        # 3-stage pipeline ran and succeeded. Partial runs (--steps 1
+        # or --steps 1 2) leave the status at the last "Processing
+        # (X%)" the relevant stage wrote — honest about what completed.
+        if _pipeline_progress is not None and ok and 3 in steps_to_run:
+            _pipeline_progress.mark_complete(args.customer_id, vID)
 
     overall_elapsed = time.monotonic() - overall_start
 

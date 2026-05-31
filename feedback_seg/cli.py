@@ -64,6 +64,14 @@ def parse_args() -> argparse.Namespace:
         help="Local directory to write output JSON to "
              "(in addition to or instead of GCS).",
     )
+    p.add_argument(
+        "--progress-stage-idx", type=int, default=None, choices=[1, 2, 3],
+        help="When set (typically 3 for feedback_seg), writes "
+             "'Processing (X%%)' to the vID's analyticsStatus in the "
+             "customer JSON (local + GCS) as each window completes. "
+             "Standalone use (no flag) leaves the customer config "
+             "untouched. Set by run_pipeline.py.",
+    )
     return p.parse_args()
 
 
@@ -86,6 +94,7 @@ def main() -> None:
         local_config=args.local_config,
         no_gcs=args.no_gcs,
         output_dir=args.output_dir,
+        progress_stage_idx=args.progress_stage_idx,
     )
     sys.exit(0 if ok else 1)
 

@@ -167,6 +167,7 @@ def process_video(
     local_config: Optional[str] = None,
     no_gcs: bool = False,
     output_dir: Optional[str] = None,
+    progress_stage_idx: Optional[int] = None,
 ) -> bool:
     """Run feedback_seg for one video.
 
@@ -293,10 +294,26 @@ def process_video(
                             seg, clip_id,
                             f"unhandled worker exception: {exc}",
                         )
-                    continue
-                idx, record = future.result()
-                with results_lock:
-                    results[idx] = record
+                else:
+                    idx, record = future.result()
+                    with results_lock:
+                        results[idx] = record
+
+                # Pipeline progress: report after each window completes
+                # (success or error — both count toward the % done).
+                if progress_stage_idx is not None:
+                    try:
+                        from util import progress as _pp
+                        with results_lock:
+                            n_done = len(results)
+                        _pp.report(
+                            customer_id=customer_id, vid=vID,
+                            stage_idx=progress_stage_idx,
+                            current=n_done,
+                            total=len(threat_windows),
+                        )
+                    except ImportError:
+                        pass
 
         window_records = [results[i] for i in range(len(threat_windows))]
 

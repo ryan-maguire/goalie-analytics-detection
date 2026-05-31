@@ -156,6 +156,18 @@ from google.cloud import storage
 from google import genai
 from google.genai import types
 
+# Pipeline progress reporting → customer JSON's analyticsStatus.
+# No-op when --progress-stage-idx is not passed (standalone usage).
+try:
+    from util import progress as _pipeline_progress
+except ImportError:
+    _pipeline_progress = None
+
+# Set by main() from --progress-stage-idx + --customID. None → progress
+# reporting off (standalone usage).
+_PROGRESS_STAGE_IDX: int | None = None
+_PROGRESS_CUSTOMER_ID: str | None = None
+
 # v14 improvements (see IMPROVEMENTS_SPEC.md). All additive; off by
 # default. Imported lazily-safe: failures to import do NOT break the
 # existing pipeline.
@@ -1817,6 +1829,17 @@ async def _dispatch_segments_async(
             results_map[seg_idx_in_all] = dict(segment) | {"metrics": metrics}
             trace_map[seg_idx_in_all]   = trace
 
+            # Pipeline progress: report after each threat completes
+            # (works correctly under asyncio concurrency — len(results_map)
+            # is the actual count of completed threats).
+            if _pipeline_progress is not None and _PROGRESS_STAGE_IDX is not None:
+                _pipeline_progress.report(
+                    customer_id=_PROGRESS_CUSTOMER_ID, vid=vID,
+                    stage_idx=_PROGRESS_STAGE_IDX,
+                    current=len(results_map),
+                    total=len(threat_indices),
+                )
+
     try:
         await asyncio.gather(*[
             _run_one(i, seg_idx)
@@ -2173,6 +2196,15 @@ def parse_args():
                              f"models (e.g. gemini-3.x family) are only "
                              f"served through the 'global' routing pool — "
                              f"pass --vertex-location global to reach them.")
+    parser.add_argument("--progress-stage-idx", type=int, default=None,
+                        choices=[1, 2, 3],
+                        help="When set (1=cv_seg, 2=metrics_seg, 3=feedback_seg), "
+                             "writes 'Processing (X%%)' to the vID's "
+                             "analyticsStatus in the customer JSON (local "
+                             "+ GCS) as each threat completes. Standalone "
+                             "use (no flag) leaves the customer config "
+                             "untouched. Set by run_pipeline.py when "
+                             "orchestrating multi-stage runs.")
     parser.add_argument("--prompt-version", default=None,
                         help=f"Override the prompt file used. Default: "
                              f"{PROMPT_VERSION} (loaded from "
@@ -2290,6 +2322,12 @@ def main():
         global REGION
         log.info(f"Overriding Vertex location: {REGION} → {args.vertex_location}")
         REGION = args.vertex_location
+    if args.progress_stage_idx is not None:
+        global _PROGRESS_STAGE_IDX, _PROGRESS_CUSTOMER_ID
+        _PROGRESS_STAGE_IDX = args.progress_stage_idx
+        _PROGRESS_CUSTOMER_ID = args.customID
+        log.info(f"Progress reporting enabled: stage_idx={_PROGRESS_STAGE_IDX} "
+                  f"customer_id={_PROGRESS_CUSTOMER_ID}")
     if args.prompt_version:
         global METRICS_PROMPT, PROMPT_VERSION
         new_path = pathlib.Path(__file__).parent / "prompts" / f"metrics_{args.prompt_version}.txt"

@@ -139,6 +139,11 @@ def main():
                     help="metrics_seg parallelism")
     ap.add_argument("--dry-run",         action="store_true",
                     help="print metrics_seg argv instead of executing")
+    ap.add_argument("--progress-stage-idx", type=int, default=None, choices=[1, 2, 3],
+                    help="When set (typically 1 for fusion as stage 1), "
+                         "writes 'Processing (33%%)' to the vID's "
+                         "analyticsStatus on successful seg JSON write. "
+                         "Set by run_pipeline.py.")
     args = ap.parse_args()
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
@@ -200,6 +205,19 @@ def main():
     write_seg_json(args.vID, windows, seg_json_path,
                     threat_color=threat_color)
     print(f"[2/3] wrote {seg_json_path}", file=sys.stderr)
+
+    # Pipeline progress: stage 1 finished → 33%. Fusion is fast and
+    # single-shot, so no granular sub-steps.
+    if args.progress_stage_idx is not None:
+        try:
+            from util import progress as _pp
+            _pp.report(
+                customer_id=args.customer_id, vid=args.vID,
+                stage_idx=args.progress_stage_idx,
+                current=1, total=1,
+            )
+        except ImportError:
+            pass
 
     if args.skip_metrics:
         print(f"[3/3] --skip-metrics → done", file=sys.stderr)
