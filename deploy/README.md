@@ -42,13 +42,21 @@ bash deploy/deploy.sh
 The script:
 1. Enables required APIs (Run, Artifact Registry, Storage, AI Platform).
 2. Creates Artifact Registry repo `goalie-pipeline` if missing.
-3. Creates SA `goalie-pipeline-sa` with project-level
-   `run.developer` + `aiplatform.user` + bucket-scoped
-   `storage.objectAdmin` on `gs://goalie_video_bucket`.
+3. Creates two service accounts:
+   - **Runtime SA** `goalie-pipeline-sa` — used by both Service and Job
+     to do their work. Gets project-level `run.developer` +
+     `aiplatform.user` + bucket-scoped `storage.objectAdmin` on
+     `gs://goalie_video_bucket`.
+   - **Caller SA** `goalie-api-caller-sa` — identity for clients
+     invoking the API. Gets ONLY `roles/run.invoker` on the Service
+     (step 7, after the Service exists). Hand this SA's email to any
+     frontend, dashboard, or external service that needs to call
+     `POST /run` / `GET /status`.
 4. Builds the image via Cloud Build.
 5. Deploys the Job (worker) with 4Gi RAM, 2 CPU, 3h task-timeout.
 6. Deploys the Service (API) with 512Mi RAM, 1 CPU, IAM auth (no
    unauthenticated access).
+7. Binds the caller SA as an invoker on the Service.
 
 Override defaults via env vars:
 
@@ -59,6 +67,48 @@ IMAGE_TAG=abc123 bash deploy/deploy.sh   # pin to a specific Git SHA
 
 ## API usage
 
+### Getting an auth token
+
+Two flows:
+
+**(a) As yourself** — uses your own `gcloud` identity. Works if your
+principal has `roles/run.invoker` on the Service (project owners do
+by default).
+
+```bash
+TOKEN=$(gcloud auth print-identity-token)
+```
+
+**(b) As the caller SA** — recommended for production clients
+(frontends, external services, CI jobs). The caller SA was created
+by `deploy.sh` and is the principal you should hand to anyone who
+needs API access. To impersonate it, your gcloud principal needs
+`roles/iam.serviceAccountTokenCreator` on the caller SA:
+
+```bash
+CALLER_SA=goalie-api-caller-sa@goalie-analytics-pro-dev.iam.gserviceaccount.com
+SERVICE_URL=https://goalie-pipeline-api-301726916294.us-central1.run.app
+
+# One-time: grant yourself permission to impersonate the caller SA
+gcloud iam service-accounts add-iam-policy-binding "${CALLER_SA}" \
+    --member="user:YOU@example.com" \
+    --role="roles/iam.serviceAccountTokenCreator"
+
+# Per call: mint a fresh short-lived ID token audience-scoped to the Service
+TOKEN=$(gcloud auth print-identity-token \
+    --impersonate-service-account="${CALLER_SA}" \
+    --audiences="${SERVICE_URL}")
+```
+
+For workloads running INSIDE GCP (other Cloud Run services, Cloud
+Functions, GKE), use the caller SA directly as the runtime SA and skip
+impersonation — the metadata server mints tokens automatically.
+
+For workloads OUTSIDE GCP that need long-lived credentials, you can
+create a JSON key for the caller SA (`gcloud iam service-accounts keys
+create`) and use it with the standard Google auth libraries, but
+prefer Workload Identity Federation where possible.
+
 ### Dispatch a pipeline run
 
 ```bash
@@ -66,7 +116,7 @@ SERVICE_URL=$(gcloud run services describe goalie-pipeline-api \
     --region us-central1 --format='value(status.url)')
 
 curl -X POST "${SERVICE_URL}/run" \
-    -H "Authorization: Bearer $(gcloud auth print-identity-token)" \
+    -H "Authorization: Bearer ${TOKEN}" \
     -H "Content-Type: application/json" \
     -d '{
         "customer_id": "CUST000031",
@@ -94,7 +144,7 @@ Response (immediate, doesn't wait for the run):
 ### Poll for status
 
 ```bash
-curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" \
+curl -H "Authorization: Bearer ${TOKEN}" \
      "${SERVICE_URL}/status/CUST000031/dwGsP6QKDs8"
 ```
 
@@ -115,6 +165,19 @@ ticks through stages 2 and 3 → `Complete` (after stage 3 succeeds).
 See `util/progress.py` for the writer + commit `d8a0584` for design notes.
 
 ### Granting another principal access to call the API
+
+Easiest path: let them impersonate the existing caller SA (no new IAM
+binding on the Service needed).
+
+```bash
+gcloud iam service-accounts add-iam-policy-binding \
+    goalie-api-caller-sa@goalie-analytics-pro-dev.iam.gserviceaccount.com \
+    --member="user:alice@example.com" \
+    --role="roles/iam.serviceAccountTokenCreator"
+```
+
+For direct invoker grants (e.g. a user who shouldn't go through
+impersonation, or another service account):
 
 ```bash
 gcloud run services add-iam-policy-binding goalie-pipeline-api \

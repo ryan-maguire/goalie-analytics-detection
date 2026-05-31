@@ -23,10 +23,23 @@ IMAGE_TAG=${IMAGE_TAG:-latest}
 
 SERVICE_NAME=${SERVICE_NAME:-goalie-pipeline-api}
 JOB_NAME=${JOB_NAME:-goalie-pipeline-worker}
-# Single service account used by BOTH the API Service (to dispatch
-# Jobs) and the Job (to call Gemini / read+write GCS).
+# Two service accounts with separate concerns:
+#
+#   - SA_NAME (runtime):  used by both the API Service (to dispatch
+#                          Jobs) and the Job (to call Gemini / read+
+#                          write GCS). Project-level perms.
+#   - CALLER_SA_NAME:      identity for clients that need to INVOKE
+#                          the API. Has only roles/run.invoker on the
+#                          Service. Hand this SA's email to anyone
+#                          (frontend, dashboard, external system,
+#                          another GCP service) that needs to POST /run
+#                          or GET /status. They can either impersonate
+#                          it via short-lived tokens (recommended) or
+#                          mint a long-lived key for legacy systems.
 SA_NAME=${SA_NAME:-goalie-pipeline-sa}
 SA_EMAIL="${SA_NAME}@${PROJECT_ID}.iam.gserviceaccount.com"
+CALLER_SA_NAME=${CALLER_SA_NAME:-goalie-api-caller-sa}
+CALLER_SA_EMAIL="${CALLER_SA_NAME}@${PROJECT_ID}.iam.gserviceaccount.com"
 
 GCS_BUCKET=${GCS_BUCKET:-goalie_video_bucket}
 
@@ -39,7 +52,8 @@ echo "  region:   ${REGION}"
 echo "  image:    ${IMAGE_URI}"
 echo "  service:  ${SERVICE_NAME}"
 echo "  job:      ${JOB_NAME}"
-echo "  sa:       ${SA_EMAIL}"
+echo "  runtime sa: ${SA_EMAIL}"
+echo "  caller sa:  ${CALLER_SA_EMAIL}"
 echo "──────────────────────────────────────────────────────────────────"
 
 # ── 1. Enable required APIs ──────────────────────────────────────────
@@ -64,8 +78,10 @@ if ! gcloud artifacts repositories describe "${REPO}" \
         --project "${PROJECT_ID}"
 fi
 
-# ── 3. Service account + IAM ─────────────────────────────────────────
-echo "[3/6] Ensuring service account + IAM bindings..."
+# ── 3. Service accounts + IAM ─────────────────────────────────────────
+echo "[3/7] Ensuring service accounts + IAM bindings..."
+
+# Runtime SA — used by both Service and Job
 if ! gcloud iam service-accounts describe "${SA_EMAIL}" \
         --project "${PROJECT_ID}" >/dev/null 2>&1; then
     gcloud iam service-accounts create "${SA_NAME}" \
@@ -73,7 +89,19 @@ if ! gcloud iam service-accounts describe "${SA_EMAIL}" \
         --project "${PROJECT_ID}"
 fi
 
-# Project-level grants (smallest viable roles):
+# Caller SA — identity that clients use to invoke the API. The
+# run.invoker grant on the Service is added in step 7 (after the
+# Service exists). No project-level perms — minimum-privilege.
+if ! gcloud iam service-accounts describe "${CALLER_SA_EMAIL}" \
+        --project "${PROJECT_ID}" >/dev/null 2>&1; then
+    gcloud iam service-accounts create "${CALLER_SA_NAME}" \
+        --display-name="goalie pipeline API caller SA" \
+        --description="Identity for clients invoking the pipeline API. \
+Grants only roles/run.invoker on the goalie-pipeline-api Service." \
+        --project "${PROJECT_ID}"
+fi
+
+# Project-level grants for the runtime SA (smallest viable roles):
 #   - run.developer:    dispatch Cloud Run Jobs from the Service
 #   - aiplatform.user:  call Gemini via Vertex AI
 #   - storage.objectAdmin (bucket-scoped): read videos + write
@@ -91,14 +119,14 @@ gcloud storage buckets add-iam-policy-binding "gs://${GCS_BUCKET}" \
     --quiet >/dev/null
 
 # ── 4. Build + push image (skips if IMAGE_TAG already exists) ────────
-echo "[4/6] Building image via Cloud Build..."
+echo "[4/7] Building image via Cloud Build..."
 gcloud builds submit \
     --config deploy/cloudbuild.yaml \
     --project "${PROJECT_ID}" \
     --substitutions=_PROJECT_ID="${PROJECT_ID}",_REGION="${REGION}",_REPO="${REPO}",_IMAGE="${IMAGE}",_TAG="${IMAGE_TAG}"
 
 # ── 5. Deploy the Job (worker) ───────────────────────────────────────
-echo "[5/6] Deploying Cloud Run Job..."
+echo "[5/7] Deploying Cloud Run Job..."
 # Job timeout: 60min/task by default. Pipeline can take 25+ min per vid;
 # bump to 3h to absorb worst-case GCS latency + Gemini retries.
 gcloud run jobs deploy "${JOB_NAME}" \
@@ -116,7 +144,7 @@ gcloud run jobs deploy "${JOB_NAME}" \
     --quiet
 
 # ── 6. Deploy the Service (API) ──────────────────────────────────────
-echo "[6/6] Deploying Cloud Run Service..."
+echo "[6/7] Deploying Cloud Run Service..."
 gcloud run deploy "${SERVICE_NAME}" \
     --image="${IMAGE_URI}" \
     --region="${REGION}" \
@@ -128,6 +156,17 @@ gcloud run deploy "${SERVICE_NAME}" \
     --set-env-vars="PROJECT_ID=${PROJECT_ID},REGION=${REGION},JOB_NAME=${JOB_NAME},GCS_BUCKET=${GCS_BUCKET}" \
     --quiet
 
+# ── 7. Bind caller SA as the Service's invoker ───────────────────────
+# Must happen AFTER step 6 (Service has to exist before we can grant
+# roles/run.invoker on it). Idempotent — re-running is a no-op.
+echo "[7/7] Granting caller SA invoker access to the Service..."
+gcloud run services add-iam-policy-binding "${SERVICE_NAME}" \
+    --region="${REGION}" \
+    --project="${PROJECT_ID}" \
+    --member="serviceAccount:${CALLER_SA_EMAIL}" \
+    --role="roles/run.invoker" \
+    --quiet >/dev/null
+
 SERVICE_URL=$(gcloud run services describe "${SERVICE_NAME}" \
     --region="${REGION}" --project="${PROJECT_ID}" --format='value(status.url)')
 
@@ -136,8 +175,22 @@ echo "────────────────────────�
 echo "✅ Deployed."
 echo "  Service URL: ${SERVICE_URL}"
 echo "  Job name:    ${JOB_NAME}"
+echo "  Caller SA:   ${CALLER_SA_EMAIL}"
 echo ""
-echo "Test the API (caller needs roles/run.invoker on the Service):"
+echo "Test the API as YOURSELF (your gcloud principal has roles/owner"
+echo "so it can invoke directly):"
 echo "  curl -H \"Authorization: Bearer \$(gcloud auth print-identity-token)\" \\"
 echo "       \"${SERVICE_URL}/health\""
+echo ""
+echo "Test the API as the CALLER SA (recommended for production clients):"
+echo "  TOKEN=\$(gcloud auth print-identity-token \\"
+echo "      --impersonate-service-account=${CALLER_SA_EMAIL} \\"
+echo "      --audiences=${SERVICE_URL})"
+echo "  curl -H \"Authorization: Bearer \${TOKEN}\" \"${SERVICE_URL}/health\""
+echo ""
+echo "To impersonate the caller SA, your principal needs"
+echo "roles/iam.serviceAccountTokenCreator on it:"
+echo "  gcloud iam service-accounts add-iam-policy-binding ${CALLER_SA_EMAIL} \\"
+echo "      --member=\"user:YOUR_EMAIL@example.com\" \\"
+echo "      --role=\"roles/iam.serviceAccountTokenCreator\""
 echo "──────────────────────────────────────────────────────────────────"
