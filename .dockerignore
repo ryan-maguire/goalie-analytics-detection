@@ -1,6 +1,16 @@
-# Docker build context exclusions. Keep the image lean — only ship code
-# + baked-in weights + probs. Everything that's regenerable or huge stays
-# on the host.
+# Cloud Build / gcloud source upload exclusions.
+#
+# WHY this exists separately from .gitignore:
+# .gitignore excludes runs/*/work/ (training scratch + checkpoints) so
+# they don't get committed. But the production YOLO weights live at
+# runs/yolo_curve_n16/work/runs/hockeyai_shot_n16/weights/best.pt and
+# the audio weights at runs/audio_curve_n16/work/best.pt — both need to
+# reach Cloud Build to get baked into the container image. Without
+# this file gcloud falls back to .gitignore, drops the weights, and
+# the Dockerfile's sanity check fails the build.
+#
+# Same content lives at .dockerignore so the build steps inside the
+# Docker daemon also see the same view.
 
 # ── Python / build junk ──────────────────────────────────────────────
 __pycache__/
@@ -29,25 +39,28 @@ log/
 *.log
 
 # ── Raw video data (gigabytes) ──────────────────────────────────────
-# Videos come from GCS at runtime — never bake into the image.
 data/videos/
 
 # ── Cached per-second features (regenerable, big) ───────────────────
 data/output/yolo_features/
 data/output/audio_features/
 
-# ── Pipeline-run output dumps (per-run, not shipped) ────────────────
+# ── Pipeline-run output dumps (per-run scratch) ─────────────────────
 data/output/runs/
 data/output/wav/
 
-# ── Training data + scratch ─────────────────────────────────────────
+# ── Training data ───────────────────────────────────────────────────
 data/labels/images/
-runs/*/work/
 runs/*/dataset/
 
+# runs/*/work/ holds production weights (best.pt) alongside training
+# scratch (results.csv, plots, val frames). Total per-run is ~100MB.
+# We need the weights baked into the image, and the complex re-include
+# patterns to exclude scratch+keep weights are too fragile in gitignore
+# syntax. Just ship the whole thing — 100MB is cheap, image stays
+# ~1-2 GB regardless.
+
 # ── Local-only customer copies + symlinks ───────────────────────────
-# The shipped image reads from GCS at runtime; local /CUST*.json files
-# are dev-only and would clobber the GCS path if accidentally copied.
 /CUST*.json
 /customerID_*.json
 data/customers/customerID_*.json
@@ -62,4 +75,4 @@ candidate_output/
 
 # ── Misc ────────────────────────────────────────────────────────────
 testbild.png
-models/             # X3D archives; unused after that track was abandoned
+models/

@@ -1,0 +1,78 @@
+# Cloud Build / gcloud source upload exclusions.
+#
+# WHY this exists separately from .gitignore:
+# .gitignore excludes runs/*/work/ (training scratch + checkpoints) so
+# they don't get committed. But the production YOLO weights live at
+# runs/yolo_curve_n16/work/runs/hockeyai_shot_n16/weights/best.pt and
+# the audio weights at runs/audio_curve_n16/work/best.pt — both need to
+# reach Cloud Build to get baked into the container image. Without
+# this file gcloud falls back to .gitignore, drops the weights, and
+# the Dockerfile's sanity check fails the build.
+#
+# Same content lives at .dockerignore so the build steps inside the
+# Docker daemon also see the same view.
+
+# ── Python / build junk ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# ── OS junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Git ──────────────────────────────────────────────────────────────
+.git/
+.gitignore
+.github/
+
+# ── Logs ─────────────────────────────────────────────────────────────
+logs/
+log/
+*.log
+
+# ── Raw video data (gigabytes) ──────────────────────────────────────
+data/videos/
+
+# ── Cached per-second features (regenerable, big) ───────────────────
+data/output/yolo_features/
+data/output/audio_features/
+
+# ── Pipeline-run output dumps (per-run scratch) ─────────────────────
+data/output/runs/
+data/output/wav/
+
+# ── Training data ───────────────────────────────────────────────────
+data/labels/images/
+runs/*/dataset/
+
+# runs/*/work/ holds production weights (best.pt) alongside training
+# scratch (results.csv, plots, val frames). Total per-run is ~100MB.
+# We need the weights baked into the image, and the complex re-include
+# patterns to exclude scratch+keep weights are too fragile in gitignore
+# syntax. Just ship the whole thing — 100MB is cheap, image stays
+# ~1-2 GB regardless.
+
+# ── Local-only customer copies + symlinks ───────────────────────────
+/CUST*.json
+/customerID_*.json
+data/customers/customerID_*.json
+
+# ── Heavy archives ──────────────────────────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+
+# ── Coach-facing scratch ────────────────────────────────────────────
+candidate_output/
+
+# ── Misc ────────────────────────────────────────────────────────────
+testbild.png
+models/
