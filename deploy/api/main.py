@@ -27,10 +27,17 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
+
+# customer_id flows into a GCS object path; restrict to a safe charset so
+# a caller can't traverse to or probe arbitrary keys (e.g. "../foo").
+# Intentionally permissive on format (CUST000031, CUST_LEARNCURVE, …) —
+# it only forbids path-control characters.
+_CUST_ID_RE = re.compile(r"^[A-Za-z0-9_.\-]+$")
 
 # Google Cloud clients — lazy-init at first use so module import doesn't
 # fail in local dev environments without credentials.
@@ -74,10 +81,27 @@ class RunRequest(BaseModel):
     feedback_workers: Optional[int] = Field(None, ge=1, le=8, description=
         "Per-Job parallelism for feedback_seg. Default = built-in (3).")
 
+    @field_validator("customer_id")
+    @classmethod
+    def _valid_customer_id(cls, v: str) -> str:
+        if not _CUST_ID_RE.match(v):
+            raise ValueError(
+                "customer_id may contain only letters, digits, '_', '.', '-'")
+        return v
+
+    @field_validator("vID")
+    @classmethod
+    def _no_duplicate_vids(cls, v: list[str]) -> list[str]:
+        # Duplicate vIDs would dispatch the same video twice, racing on the
+        # same customer-JSON status field and GCS output paths.
+        if len(v) != len(set(v)):
+            raise ValueError("vID list must not contain duplicate IDs")
+        return v
+
 
 class RunResponse(BaseModel):
     customer_id: str
-    executions: list[dict]   # [{vID, execution_name, status_url}]
+    executions: list[dict]   # [{vID, execution_name, status_url, error}]
 
 
 # ── Helpers ──────────────────────────────────────────────────────────
@@ -140,23 +164,40 @@ def health():
 
 @app.post("/run", response_model=RunResponse)
 def run_pipeline(req: RunRequest):
-    """Dispatch one Cloud Run Job execution per vID. Returns immediately."""
+    """Dispatch one Cloud Run Job execution per vID. Returns immediately.
+
+    Dispatch is per-vID and independent: a failure on one vID neither
+    aborts the others nor discards the execution names of vIDs already
+    dispatched. Each execution entry carries an ``error`` field (None on
+    success). A blanket 502 is raised ONLY if every vID failed — so a
+    client that retries on 502 cannot double-dispatch the vIDs that had
+    already succeeded.
+    """
     executions = []
     for vID in req.vID:
         try:
             op_name = _dispatch_job(req, vID)
+            executions.append({
+                "vID": vID,
+                "execution_name": op_name,
+                "status_url": f"/status/{req.customer_id}/{vID}",
+                "error": None,
+            })
+            log.info(f"dispatched: customer={req.customer_id} vID={vID} op={op_name}")
         except Exception as e:
             log.error(f"dispatch failed for {req.customer_id}/{vID}: {e}")
-            raise HTTPException(
-                status_code=502,
-                detail=f"Failed to dispatch Job for vID={vID}: {e}",
-            )
-        executions.append({
-            "vID": vID,
-            "execution_name": op_name,
-            "status_url": f"/status/{req.customer_id}/{vID}",
-        })
-        log.info(f"dispatched: customer={req.customer_id} vID={vID} op={op_name}")
+            executions.append({
+                "vID": vID,
+                "execution_name": None,
+                "status_url": None,
+                "error": str(e),
+            })
+    if executions and all(e["error"] for e in executions):
+        raise HTTPException(
+            status_code=502,
+            detail=f"All {len(executions)} dispatch(es) failed; "
+                   f"first error: {executions[0]['error']}",
+        )
     return RunResponse(customer_id=req.customer_id, executions=executions)
 
 
@@ -171,6 +212,8 @@ def get_status(customer_id: str, vID: str):
       - 'Complete'             — full 3-stage success
       - 'Failed: <reason>'     — pipeline aborted
     """
+    if not _CUST_ID_RE.match(customer_id.removesuffix(".json")):
+        raise HTTPException(status_code=400, detail="Invalid customer_id")
     cust_blob = customer_id if customer_id.endswith(".json") else f"{customer_id}.json"
     blob_path = f"{GCS_PREFIX}/{cust_blob}"
     try:

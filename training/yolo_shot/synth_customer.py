@@ -51,9 +51,11 @@ def teams_in_gt(csv_path: Path) -> tuple[str, str]:
                 if t:
                     counts[t] += 1
     if len(counts) < 2:
-        # Fallback: pick whatever we have
-        teams = list(counts.keys())
-        return (teams[0] if teams else ""), (teams[0] if teams else "")
+        # Only one team has Shots/Goals rows: we cannot tell the defending
+        # (target) side from the attacking (opp) side. Returning the same
+        # name for both would mislabel which shots are "opponent attacks"
+        # downstream. Skip the game instead (main() drops empty-target rows).
+        return "", ""
     top2 = counts.most_common(2)
     opp_team, _ = top2[0]      # more shots = opp (attacking)
     target_team, _ = top2[1]   # fewer shots = target (defending)

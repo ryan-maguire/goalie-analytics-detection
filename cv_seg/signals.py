@@ -329,6 +329,13 @@ def iter_frames_ffmpeg(video_path: str, sample_fps: int, w: int, h: int):
         "-pix_fmt", "bgr24",
         "pipe:1",
     ]
+    # Guard against zero dimensions: some malformed containers open
+    # cleanly (VideoCapture.isOpened()==True) yet report w==0/h==0. With
+    # frame_size==0, read(0) returns b"" forever and `len(b"") < 0` is
+    # False — the generator would spin in an infinite loop yielding empty
+    # frames and hang the worker.
+    if w <= 0 or h <= 0:
+        raise ValueError(f"invalid frame dimensions {w}x{h} for {video_path}")
     frame_size = w * h * 3
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                             bufsize=frame_size * 4)

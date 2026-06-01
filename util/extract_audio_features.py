@@ -142,30 +142,32 @@ def main():
 
     t0 = time.time()
     print(f"  ffmpeg → {wav_path}", file=sys.stderr)
-    if not extract_wav(args.video, wav_path):
-        print("  ERROR: ffmpeg failed", file=sys.stderr)
-        if cleanup: shutil.rmtree(tmp_dir, ignore_errors=True)
-        return 3
+    # try/finally so the temp WAV dir is removed on EVERY exit path,
+    # including an unexpected raise from per_second_features (librosa OOM,
+    # bad audio) which previously leaked a full game-audio WAV in /tmp.
+    try:
+        if not extract_wav(args.video, wav_path):
+            print("  ERROR: ffmpeg failed", file=sys.stderr)
+            return 3
 
-    print(f"  librosa per-second features…", file=sys.stderr)
-    feats = per_second_features(wav_path)
-    if feats.size == 0:
-        print("  WARN: empty feature matrix", file=sys.stderr)
-        if cleanup: shutil.rmtree(tmp_dir, ignore_errors=True)
-        return 4
+        print(f"  librosa per-second features…", file=sys.stderr)
+        feats = per_second_features(wav_path)
+        if feats.size == 0:
+            print("  WARN: empty feature matrix", file=sys.stderr)
+            return 4
 
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    with open(args.out, "w") as f:
-        f.write("\t".join(HEADER) + "\n")
-        for row in feats:
-            f.write("\t".join(f"{v:.4f}" for v in row) + "\n")
-    print(f"  wrote {args.out}  ({feats.shape[0]} seconds, "
-          f"{feats.shape[1]} cols, {(time.time()-t0):.1f}s)",
-          file=sys.stderr)
-
-    if cleanup:
-        shutil.rmtree(tmp_dir, ignore_errors=True)
-    return 0
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        with open(args.out, "w") as f:
+            f.write("\t".join(HEADER) + "\n")
+            for row in feats:
+                f.write("\t".join(f"{v:.4f}" for v in row) + "\n")
+        print(f"  wrote {args.out}  ({feats.shape[0]} seconds, "
+              f"{feats.shape[1]} cols, {(time.time()-t0):.1f}s)",
+              file=sys.stderr)
+        return 0
+    finally:
+        if cleanup:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
 
 
 if __name__ == "__main__":

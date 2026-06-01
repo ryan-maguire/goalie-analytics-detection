@@ -722,6 +722,13 @@ def _refine_segment_window(segment: dict) -> dict:
         refined["refinement_source"] = "fallback_not_threat"
         return refined
 
+    # Bounds are required for the offset arithmetic below; a malformed
+    # seg JSON missing segment_start/end would otherwise raise TypeError
+    # and drop every segment for the video.
+    if orig_start is None or orig_end is None:
+        refined["refinement_source"] = "fallback_missing_bounds"
+        return refined
+
     metrics = segment.get("metrics")
     if not isinstance(metrics, dict):
         refined["refinement_source"] = "fallback_no_metrics"
@@ -1138,6 +1145,11 @@ def _call_gemini_for_metrics(
                     # shotsOnNet bounded by shots.
                     if metrics.get("shotsOnNet", 0) > new_shots:
                         metrics["shotsOnNet"] = new_shots
+                    # goals bounded by shotsOnNet — pruning the only shot must
+                    # not leave a goal with no supporting shot-on-net, which
+                    # would violate shotsOnNet == saves + goals downstream.
+                    if metrics.get("goals", 0) > metrics.get("shotsOnNet", 0):
+                        metrics["goals"] = metrics["shotsOnNet"]
                     # saves = shotsOnNet - goals (preserve the identity).
                     metrics["saves"] = max(
                         0, metrics.get("shotsOnNet", 0) - metrics.get("goals", 0)
@@ -1861,6 +1873,7 @@ def process_video(
     config: list | dict,
     workers: int,
     no_gcs: bool = False,
+    no_gcs_upload: bool = False,
     segments_dir: str | None = None,
     local_video_dir: str | None = None,
     output_dir: str | None = None,
@@ -1875,7 +1888,11 @@ def process_video(
     enriched output (and a per-segment trace sidecar) to GCS and/or local.
 
     Args:
-        no_gcs:          If True, skip GCS reads when a local file exists.
+        no_gcs:          If True, skip GCS reads AND writes (local only).
+        no_gcs_upload:    If True, skip only the GCS *upload* of outputs —
+                         GCS reads (video/segment download) still happen.
+                         Independent of no_gcs; either one suppresses the
+                         GCS write.
         segments_dir:    Local directory for gt_seg_{vID}.json. If set, read
                          from here instead of GCS.
         local_video_dir: Local directory for full_{vID}.mp4. If set, skip
@@ -1893,8 +1910,12 @@ def process_video(
     log.info(f"Starting metrics detection for vID: {vID}")
     log.info(f"{'='*60}")
 
+    # GCS *writes* are suppressed by either --no-gcs (reads+writes) or
+    # --no-gcs-upload (writes only). Reads keep using `no_gcs` alone.
+    write_no_gcs = no_gcs or no_gcs_upload
+
     # 0. Skip-existing check (before any I/O / config parsing)
-    if skip_existing and _output_already_exists(vID, no_gcs=no_gcs, output_dir=output_dir):
+    if skip_existing and _output_already_exists(vID, no_gcs=write_no_gcs, output_dir=output_dir):
         log.info(f"[{vID}] Output already exists — skipping (--skip-existing)")
         return True
 
@@ -2071,7 +2092,7 @@ def process_video(
         )
 
         # 8. Write output — local and/or GCS depending on flags
-        _write_metrics_output(output, vID, no_gcs=no_gcs, output_dir=output_dir)
+        _write_metrics_output(output, vID, no_gcs=write_no_gcs, output_dir=output_dir)
 
         # 9. Write trace sidecar — gt_metrics_{vID}_trace.json. Same
         # destination policy as the main output, but as a SEPARATE file
@@ -2082,7 +2103,7 @@ def process_video(
             "summary":       vote_summary,
             "per_segment":   [trace_map[i] for i in sorted(trace_map.keys())],
         }
-        _write_trace_sidecar(trace_payload, vID, no_gcs=no_gcs, output_dir=output_dir)
+        _write_trace_sidecar(trace_payload, vID, no_gcs=write_no_gcs, output_dir=output_dir)
 
         return True
 
@@ -2237,7 +2258,8 @@ def _process_video_safely(vID: str, args, config) -> tuple[str, bool]:
             customID=args.customID,
             config=config,
             workers=args.workers,
-            no_gcs=args.no_gcs or getattr(args, "no_gcs_upload", False),
+            no_gcs=args.no_gcs,
+            no_gcs_upload=getattr(args, "no_gcs_upload", False),
             segments_dir=segments_dir,
             local_video_dir=args.local_video_dir,
             output_dir=args.output_dir,
@@ -2359,6 +2381,21 @@ def main():
             "calibration_dir":     args.calibration_dir,
             "gt_dir":              args.gt_dir,
         })
+        # NOT-YET-WIRED flags: the goal-ensemble and audio-context modules
+        # exist + are unit-tested but their entrypoints (confirm_goal /
+        # render_context_block) and the response cache (get/put) are not
+        # invoked in the hot path. Warn loudly so an operator passing these
+        # doesn't believe they took effect. Only --prefilter-threshold and
+        # --flash-screen are actually live.
+        if args.goal_ensemble:
+            log.warning("--goal-ensemble is NOT wired into the detection path "
+                        "(module is unit-tested but unused) — flag has no effect")
+        if args.use_context:
+            log.warning("--use-context is NOT wired into the detection path "
+                        "(module is unit-tested but unused) — flag has no effect")
+        if args.cache_dir is not None:
+            log.warning("Gemini response cache is initialized but NOT read/written "
+                        "in the detection path — --cache-dir has no effect yet")
         if any_v14:
             log.info(f"v14 improvements active: prefilter≥{args.prefilter_threshold} "
                       f"context={args.use_context} ensemble={args.goal_ensemble} "

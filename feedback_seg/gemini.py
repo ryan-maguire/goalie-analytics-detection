@@ -458,11 +458,14 @@ def parse_summary_response(raw: str) -> dict:
 
     if summary_match:
         try:
-            extracted = (summary_match.group(1)
-                                       .encode()
-                                       .decode("unicode_escape"))
-        except UnicodeDecodeError:
-            # If unicode_escape can't decode, use the raw captured text
+            # The regex captured a JSON string interior. JSON-unescape it
+            # properly (handles \n, \", \uXXXX) AND preserves UTF-8. The old
+            # .encode().decode("unicode_escape") silently mangled multi-byte
+            # UTF-8 — e.g. "Côté" → "CÃ´tÃ©" — because unicode_escape reads
+            # UTF-8 bytes as Latin-1 codepoints.
+            extracted = json.loads('"' + summary_match.group(1) + '"')
+        except (json.JSONDecodeError, ValueError):
+            # Truncated mid-escape — use the raw captured text
             extracted = summary_match.group(1)
         log.warning(
             "Summary JSON malformed — extracted fields via regex",

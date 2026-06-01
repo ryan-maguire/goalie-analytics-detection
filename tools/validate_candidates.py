@@ -38,9 +38,15 @@ from eval.eval_cv_seg_output import load_ground_truth_windows  # noqa: E402
 
 def recall_at_tolerance(rows: list[dict], gt_mids: list[float],
                           tolerance_s: float) -> float:
-    """Fraction of GT events whose nearest candidate is within tolerance."""
+    """Fraction of GT events whose nearest candidate is within tolerance.
+
+    Returns 0.0 when there is no ground truth — recall is undefined, but
+    0.0 keeps the aggregate `sum(n_gt * recall)` correct (0 * 0 = 0) and,
+    unlike 1.0, doesn't render a misleading "100%" in the per-game table.
+    The per-game rows display "n/a" when n_gt == 0 (see report builder).
+    """
     if not gt_mids:
-        return 1.0
+        return 0.0
     n_hit = 0
     for gm in gt_mids:
         nearest = min((abs(r["t_seconds"] - gm) for r in rows), default=float("inf"))
@@ -158,17 +164,20 @@ def main():
               "| game | dur | GT shots | candidates | cand/min | R@5s | R@10s | FP@5s |",
               "|---|---|---|---|---|---|---|---|"]
     for s in per_video_summary:
+        r5_disp  = "n/a" if s["n_gt"] == 0 else f"{s['recall_5s']:.1%}"
+        r10_disp = "n/a" if s["n_gt"] == 0 else f"{s['recall_10s']:.1%}"
         lines.append(
             f"| {s['vid']} | {fmt_mmss(s['dur_s'])} | {s['n_gt']} | "
             f"{s['n_candidates']} | {s['cand_per_min']:.1f} | "
-            f"{s['recall_5s']:.1%} | {s['recall_10s']:.1%} | {s['n_fp_at_5s']} |"
+            f"{r5_disp} | {r10_disp} | {s['n_fp_at_5s']} |"
         )
 
     # Per-game samples
     lines += ["", "## Sample candidate lists (top 10 per game)", ""]
     for s in per_video_summary:
+        r5_hdr = "n/a" if s["n_gt"] == 0 else f"{s['recall_5s']:.0%}"
         lines += [f"### Game {s['vid']}  ({s['n_candidates']} candidates, "
-                   f"{s['n_gt']} GT shots, R@5s={s['recall_5s']:.0%})",
+                   f"{s['n_gt']} GT shots, R@5s={r5_hdr})",
                    "",
                    "| rank | time | conf | GT match | Δs |",
                    "|---|---|---|---|---|"]

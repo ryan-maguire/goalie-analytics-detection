@@ -42,7 +42,12 @@ def gcs_download_to_temp(bucket_name: str, blob_name: str, suffix: str = ".mp4")
     blob   = bucket.blob(blob_name)
     with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         path = tmp.name
-    blob.download_to_filename(path)
+    try:
+        blob.download_to_filename(path)
+    except Exception:
+        # Don't leak the empty temp file if the download fails.
+        _safe_unlink(path)
+        raise
     size_mb = os.path.getsize(path) / 1_048_576
     log.info(f"  Downloaded {size_mb:.1f} MB → {path}")
     return path
@@ -126,7 +131,13 @@ def extract_audio_wav(video_path: str) -> str:
         "-vn",                # no video
         wav_path,
     ]
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+    except subprocess.TimeoutExpired:
+        # A hung ffmpeg (undecodable container, stalled mount) must not block
+        # the worker indefinitely — bound it to 5 min and surface the failure.
+        _safe_unlink(wav_path)
+        raise RuntimeError("ffmpeg audio extraction timed out after 300s")
     if result.returncode != 0:
         _safe_unlink(wav_path)
         raise RuntimeError(f"ffmpeg audio extraction failed: {result.stderr[:200]}")
@@ -234,7 +245,9 @@ def load_audio_via_ffmpeg_pipe(
         "pipe:1",
     ]
     try:
-        proc = subprocess.run(cmd, capture_output=True, check=False)
+        # timeout bounds a hung ffmpeg; TimeoutExpired is a SubprocessError
+        # subclass so the handler below already covers it.
+        proc = subprocess.run(cmd, capture_output=True, check=False, timeout=300)
     except (OSError, subprocess.SubprocessError) as e:
         log.warning(f"  ffmpeg audio pipe failed to launch: {e}")
         return None, sr

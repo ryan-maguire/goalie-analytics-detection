@@ -50,6 +50,9 @@ RUN test -d runs/audio_curve_n16/probs \
 
 # Service-mode default. Cloud Run Jobs override CMD via --command/args
 # in deploy/deploy.sh.
+# Shell form so $PORT is expanded at runtime — Cloud Run injects PORT and
+# the container contract requires listening on it. (Exec form cannot
+# expand env vars, so a hardcoded 8080 breaks if Cloud Run changes PORT.)
 ENV PORT=8080
 EXPOSE 8080
-CMD ["uvicorn", "deploy.api.main:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD exec uvicorn deploy.api.main:app --host 0.0.0.0 --port ${PORT:-8080}

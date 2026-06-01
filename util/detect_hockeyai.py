@@ -372,6 +372,13 @@ def main():
             g = s["frames_with_goal"]
             gt = s["frames_with_goalie"]
             pl = s["frames_with_player"]
+            if n == 0:
+                # No frames were read (e.g. a video shorter than the sample
+                # window) — emit N/A instead of dividing by zero.
+                f.write(f"  {s['vID']:<14} {n:<8} "
+                        f"{'0/0 (  N/A)':<14}  {'0/0 (  N/A)':<14}  "
+                        f"{'0/0 (  N/A)':<14}\n")
+                continue
             f.write(f"  {s['vID']:<14} {n:<8} "
                     f"{g}/{n} ({100*g/n:>3.0f}%)   "
                     f"{gt}/{n} ({100*gt/n:>3.0f}%)   "

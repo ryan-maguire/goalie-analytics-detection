@@ -5,6 +5,7 @@ threads (the GCS SDK client is thread-safe).
 """
 
 import json
+import os
 import tempfile
 from typing import Any, Optional
 
@@ -43,11 +44,20 @@ def gcs_download_to_temp(bucket: storage.Bucket, blob_path: str,
 
     Caller is responsible for deleting the temp file.
     """
-    tmp = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
+    fd, path = tempfile.mkstemp(suffix=suffix)
+    os.close(fd)
     log.info("Downloading from GCS",
              extra={"src": f"gs://{BUCKET_NAME}/{blob_path}"})
-    bucket.blob(blob_path).download_to_filename(tmp.name)
-    return tmp.name
+    try:
+        bucket.blob(blob_path).download_to_filename(path)
+    except Exception:
+        # Don't leak the empty temp file if the download fails.
+        try:
+            os.unlink(path)
+        except OSError:
+            pass
+        raise
+    return path
 
 
 def gcs_upload_file(bucket: storage.Bucket, local_path: str,

@@ -161,8 +161,13 @@ def main():
         max_candidates  = args.max_candidates,
     )
     if not rows:
-        print(f"  no candidates above threshold — exiting", file=sys.stderr)
-        return 0
+        # No peaks cleared the threshold. Don't early-exit: fall through and
+        # write an EMPTY seg JSON. In hybrid mode run_pipeline then counts 0
+        # windows and triggers the cv_seg fallback; in pure-fusion mode the
+        # downstream metrics_seg reads an empty (but present) seg JSON instead
+        # of crashing on a missing file.
+        print(f"  no candidates above threshold — writing empty seg JSON",
+              file=sys.stderr)
 
     # 2. Expand peaks into windows + merge overlaps. t_seconds may be a
     # float (e.g. 12.7s) — round to the nearest int rather than letting
@@ -171,7 +176,11 @@ def main():
     peak_secs = [round(float(r["t_seconds"])) for r in rows]
     # Determine video duration from the probs TSV (max t)
     probs_tsv = args.yolo_probs_dir / f"{args.vID}.tsv"
-    max_t = 7200       # 2-hour default cap
+    # Set max_t to the video's ACTUAL last second (the last timestamp in the
+    # probs TSV) so window ends are clamped to the real video duration. A
+    # fixed 2-hour seed would never clamp sub-2-hour games and would let the
+    # final window's tail run past the end of the video.
+    max_t = 0
     if probs_tsv.exists():
         with open(probs_tsv) as f:
             f.readline()
@@ -180,6 +189,8 @@ def main():
                     max_t = max(max_t, int(float(line.split("\t")[0])))
                 except (ValueError, IndexError):
                     pass
+    if max_t == 0:      # TSV missing/empty — fall back to a 2-hour cap
+        max_t = 7200
     windows = expand_and_merge(peak_secs, args.pre, args.post, max_t)
     print(f"  {len(rows)} peaks → {len(windows)} merged windows after "
           f"±{args.pre}/{args.post}s expansion", file=sys.stderr)

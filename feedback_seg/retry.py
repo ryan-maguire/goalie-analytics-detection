@@ -79,10 +79,14 @@ def call_with_retry(fn: Callable[..., T], *args, **kwargs) -> T:
             last_error = e
             if not _is_transient(e) or attempt >= MAX_RETRIES:
                 raise
-            # exponential ceiling, capped, with full jitter
+            # exponential ceiling, capped, with full jitter.
+            # Full jitter is uniform(0, cap) — the lower bound must be 0,
+            # not BASE, otherwise every retry waits at least BASE seconds
+            # (defeating the thundering-herd spread and inflating latency
+            # when the API recovers quickly).
             cap_for_attempt = min(RETRY_BACKOFF_BASE * (2 ** attempt),
                                   RETRY_BACKOFF_CAP)
-            wait = random.uniform(RETRY_BACKOFF_BASE, cap_for_attempt)
+            wait = random.uniform(0, cap_for_attempt)
             log.warning(
                 f"Transient error attempt {attempt}/{MAX_RETRIES} — "
                 f"retrying in {wait:.0f}s",
