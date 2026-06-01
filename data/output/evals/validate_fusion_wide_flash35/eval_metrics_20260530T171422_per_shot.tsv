@@ -1,0 +1,77 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+KYtM20r9BuM	108.0	124.0	00:16	right wing	wrist shot	save	True	inside	122.0	134.0	Wisconsin Selects 19U
+KYtM20r9BuM	108.0	128.0	00:20	in close	snap shot	save	False	no_match			
+KYtM20r9BuM	202.0	212.0	00:10	left circle	wrist shot	save	True	inside	206.0	218.0	Wisconsin Selects 19U
+KYtM20r9BuM	346.0	346.0	00:00	low slot	snap shot	save	False	no_match			
+KYtM20r9BuM	415.0	418.0	00:03	right circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	415.0	429.0	00:14	right circle	wrist shot	save	True	inside	423.0	435.0	Wisconsin Selects 19U
+KYtM20r9BuM	535.0	536.0	00:01	right circle	snap shot	save	False	no_match			
+KYtM20r9BuM	675.0	676.0	00:01	high slot	wrist shot	save	True	inside	670.0	682.0	North Shore Warhawks 19U AA
+KYtM20r9BuM	675.0	705.0	00:30	left circle	wrist shot	save	True	inside	702.0	714.0	Wisconsin Selects 19U
+KYtM20r9BuM	742.0	747.0	00:05	low slot	one-timer	goal	True	inside	745.0	757.0	Wisconsin Selects 19U
+KYtM20r9BuM	975.0	984.0	00:09	low slot	snap shot	save	True	inside	981.0	993.0	Wisconsin Selects 19U
+KYtM20r9BuM	1039.0	1040.0	00:01	low slot	wrist shot	save	True	inside	1036.0	1048.0	Wisconsin Selects 19U
+KYtM20r9BuM	1039.0	1054.0	00:15	right circle	wrist shot	save	True	inside	1050.0	1062.0	Wisconsin Selects 19U
+KYtM20r9BuM	1078.0	1084.0	00:06	left circle	snap shot	miss	False	no_match			
+KYtM20r9BuM	1159.0	1161.0	00:02	in close	snap shot	save	True	inside	1156.0	1168.0	Wisconsin Selects 19U
+KYtM20r9BuM	1217.0	1230.0	00:13	left circle	wrist shot	save	True	inside	1225.0	1237.0	North Shore Warhawks 19U AA
+KYtM20r9BuM	1334.0	1338.0	00:04	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	1334.0	1339.0	00:05	low slot	snap shot	save	False	no_match			
+KYtM20r9BuM	1334.0	1349.0	00:15	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	1389.0	1391.0	00:02	right circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	1389.0	1397.0	00:08	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	1412.0	1420.0	00:08	low slot	snap shot	save	False	no_match			
+KYtM20r9BuM	1589.0	1595.0	00:06	in close	snap shot	save	False	no_match			
+KYtM20r9BuM	1794.0	1807.0	00:13	left wing	wrist shot	miss	True	inside	1805.0	1817.0	Wisconsin Selects 19U
+KYtM20r9BuM	1794.0	1812.0	00:18	low slot	snap shot	save	False	no_match			
+KYtM20r9BuM	1837.0	1838.0	00:01	left circle	wrist shot	save	True	inside	1835.0	1847.0	Wisconsin Selects 19U
+KYtM20r9BuM	1837.0	1842.0	00:05	low slot	snap shot	save	False	no_match			
+KYtM20r9BuM	1865.0	1869.0	00:04	high slot	wrist shot	save	False	no_match			
+KYtM20r9BuM	1913.0	1914.0	00:01	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	1913.0	1925.0	00:12	right circle	wrist shot	save	True	inside	1921.0	1933.0	North Shore Warhawks 19U AA
+KYtM20r9BuM	2027.0	2036.0	00:09	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	2065.0	2068.0	00:03	left circle	wrist shot	save	True	inside	2061.0	2073.0	Wisconsin Selects 19U
+KYtM20r9BuM	2065.0	2077.0	00:12	low slot	wrist shot	save	False	no_match			
+KYtM20r9BuM	2065.0	2086.0	00:21	low slot	wrist shot	save	True	inside	2082.0	2094.0	Wisconsin Selects 19U
+KYtM20r9BuM	2065.0	2093.0	00:28	low slot	wrist shot	save	True	inside	2088.0	2100.0	Wisconsin Selects 19U
+KYtM20r9BuM	2126.0	2127.0	00:01	right circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	2181.0	2187.0	00:06	left circle	wrist shot	save	True	inside	2183.0	2195.0	Wisconsin Selects 19U
+KYtM20r9BuM	2181.0	2195.0	00:14	left circle	wrist shot	save	True	inside	2190.0	2202.0	Wisconsin Selects 19U
+KYtM20r9BuM	2340.0	2341.0	00:01	left circle	wrist shot	save	True	inside	2338.0	2350.0	North Shore Warhawks 19U AA
+KYtM20r9BuM	2454.0	2455.0	00:01	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	2475.0	2475.0	00:00	low slot	wrist shot	goal	True	tolerance	2476.0	2488.0	Wisconsin Selects 19U
+KYtM20r9BuM	2524.0	2527.0	00:03	right wing	wrist shot	save	False	no_match			
+KYtM20r9BuM	2524.0	2536.0	00:12	high slot	wrist shot	save	True	inside	2535.0	2547.0	North Shore Warhawks 19U AA
+KYtM20r9BuM	2586.0	2594.0	00:08	left circle	wrist shot	save	True	inside	2590.0	2602.0	Wisconsin Selects 19U
+KYtM20r9BuM	2654.0	2655.0	00:01	left circle	snap shot	save	False	no_match			
+KYtM20r9BuM	2857.0	2866.0	00:09	right circle	wrist shot	miss	False	no_match			
+KYtM20r9BuM	2992.0	2993.0	00:01	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	2992.0	2996.0	00:04	low slot	snap shot	save	False	no_match			
+KYtM20r9BuM	3068.0	3078.0	00:10	high slot	snap shot	save	False	no_match			
+KYtM20r9BuM	3068.0	3080.0	00:12	low slot	wrist shot	save	False	no_match			
+KYtM20r9BuM	3068.0	3087.0	00:19	low slot	wrist shot	save	False	no_match			
+KYtM20r9BuM	3241.0	3244.0	00:03	high slot	wrist shot	save	False	no_match			
+KYtM20r9BuM	3241.0	3249.0	00:08	low slot	wrist shot	goal	False	no_match			
+KYtM20r9BuM	3306.0	3309.0	00:03	right circle	wrist shot	miss	False	no_match			
+KYtM20r9BuM	3306.0	3319.0	00:13	low slot	wrist shot	goal	True	inside	3317.0	3329.0	Wisconsin Selects 19U
+KYtM20r9BuM	3443.0	3454.0	00:11	low slot	wrist shot	save	True	inside	3448.0	3460.0	North Shore Warhawks 19U AA
+KYtM20r9BuM	3443.0	3465.0	00:22	right circle	wrist shot	save	True	inside	3460.0	3472.0	North Shore Warhawks 19U AA
+KYtM20r9BuM	3485.0	3494.0	00:09	in close	wrist shot	save	False	no_match			
+KYtM20r9BuM	3485.0	3502.0	00:17	high slot	snap shot	save	False	no_match			
+KYtM20r9BuM	3604.0	3607.0	00:03	low slot	wrist shot	goal	True	inside	3605.0	3617.0	Wisconsin Selects 19U
+KYtM20r9BuM	3673.0	3681.0	00:08	right circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	3741.0	3742.0	00:01	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	3741.0	3749.0	00:08	low slot	snap shot	save	False	no_match			
+KYtM20r9BuM	3741.0	3757.0	00:16	high slot	wrist shot	save	False	no_match			
+KYtM20r9BuM	3771.0	3773.0	00:02	right circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	3833.0	3833.0	00:00	low slot	snap shot	save	True	inside	3832.0	3844.0	Wisconsin Selects 19U
+KYtM20r9BuM	3860.0	3860.0	00:00	right circle	wrist shot	save	True	inside	3857.0	3869.0	Wisconsin Selects 19U
+KYtM20r9BuM	3860.0	3874.0	00:14	left circle	wrist shot	miss	False	no_match			
+KYtM20r9BuM	3884.0	3884.0	00:00	in close	wrist shot	save	True	inside	3881.0	3893.0	Wisconsin Selects 19U
+KYtM20r9BuM	4050.0	4051.0	00:01	low slot	snap shot	save	True	inside	4051.0	4063.0	Wisconsin Selects 19U
+KYtM20r9BuM	4071.0	4072.0	00:01	left circle	wrist shot	save	False	no_match			
+KYtM20r9BuM	4105.0	4106.0	00:01	low slot	snap shot	goal	True	inside	4101.0	4113.0	Wisconsin Selects 19U
+KYtM20r9BuM	4150.0	4152.0	00:02	in close	wrist shot	save	False	no_match			
+KYtM20r9BuM	4221.0	4222.0	00:01	left circle	wrist shot	goal	False	no_match			
+KYtM20r9BuM	4244.0	4244.0	00:00	left circle	wrist shot	save	True	inside	4243.0	4255.0	North Shore Warhawks 19U AA
+KYtM20r9BuM	4274.0	4281.0	00:07	in close	snap shot	save	False	no_match			

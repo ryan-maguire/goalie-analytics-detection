@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-05-31T15:20:03Z",
+  "args": {
+    "gt_dir": "data/ground_truth",
+    "metrics_dir": "data/output/runs/metrics_v13_v14.1prompt_2.5pro",
+    "cv_seg_dir": "data/output/runs/cv_seg"
+  },
+  "summary": {
+    "n_videos": 1,
+    "n_windows": 80,
+    "total_pred_shots": 151,
+    "total_gt_shots": 57,
+    "shots_diff": 94,
+    "shots_ratio": 2.649,
+    "total_pred_goals": 1,
+    "total_gt_goals": 2,
+    "goals_diff": -1,
+    "shot_window_metrics": {
+      "n": 80,
+      "mae": 1.375,
+      "rmse": 1.803,
+      "bias": 1.175,
+      "exact_pct": 25.0
+    },
+    "goal_classifier": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "tn": 77,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "total_gt_shots_unfiltered": 57,
+    "shots_diff_unfiltered": 94,
+    "shots_ratio_unfiltered": 2.649,
+    "total_gt_goals_unfiltered": 2,
+    "goals_diff_unfiltered": -1,
+    "shot_window_metrics_unfiltered": {
+      "n": 80,
+      "mae": 1.375,
+      "rmse": 1.803,
+      "bias": 1.175,
+      "exact_pct": 25.0
+    },
+    "goal_classifier_unfiltered": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "tn": 77,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "shot_timestamps_eval": {
+      "n_videos_with_shot_timestamps": 1,
+      "n_total_pred_shots": 157,
+      "n_total_gt_shots": 66,
+      "n_gt_covered": 44,
+      "n_gt_uncovered": 22,
+      "tp_strict": 30,
+      "tp_lenient": 36,
+      "fp": 127,
+      "fn": 8,
+      "fn_uncovered": 22,
+      "precision": 0.1911,
+      "recall": 0.5,
+      "recall_within_coverage": 0.7895,
+      "f1": 0.2765,
+      "f1_within_coverage": 0.3077
+    }
+  },
+  "videos": [
+    {
+      "vID": "bfEKgtOIkQU",
+      "hudl_id": 2072195,
+      "status": "ok",
+      "n_windows": 80,
+      "total_pred_shots": 151,
+      "total_gt_shots": 57,
+      "total_gt_shots_unfiltered": 57,
+      "total_pred_goals": 1,
+      "total_gt_goals": 2,
+      "total_gt_goals_unfiltered": 2,
+      "hudl_total_shots": 66,
+      "hudl_total_goals": 2,
+      "shot_eval": {
+        "n_total_pred": 157,
+        "n_total_gt": 66,
+        "n_gt_covered": 44,
+        "n_gt_uncovered": 22,
+        "tp_strict": 30,
+        "tp_lenient": 36,
+        "fp": 127,
+        "fn": 8,
+        "fn_uncovered": 22,
+        "precision": 0.1911,
+        "recall": 0.5,
+        "recall_within_coverage": 0.7895,
+        "f1": 0.2765,
+        "f1_within_coverage": 0.3077
+      },
+      "refinement": {
+        "n_threat_segments": 81,
+        "refinement_sources": {
+          "fallback_no_metrics": 1,
+          "shot_timestamps": 71,
+          "fallback_no_shots": 9
+        },
+        "orig_width_median": 30,
+        "orig_width_mean": 28.5,
+        "refined_width_median": 20,
+        "refined_width_mean": 21.4,
+        "median_shrinkage": 10
+      },
+      "notes": [
+        "no team→color mapping — counting all overlapping events",
+        "target_filter is ON in cv_seg meta but no team→color map available — game totals will look ~50% under-predicted"
+      ]
+    }
+  ]
+}

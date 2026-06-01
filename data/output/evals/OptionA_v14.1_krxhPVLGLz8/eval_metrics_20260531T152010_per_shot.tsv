@@ -1,0 +1,92 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+krxhPVLGLz8	32.0	33.0	00:01	low slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	32.0	34.0	00:02	in close	backhand	save	False	no_match			
+krxhPVLGLz8	32.0	45.0	00:13	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	324.0	325.0	00:01	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	324.0	330.0	00:06	high slot	snap shot	save	True	tolerance	331.0	343.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	324.0	348.0	00:24	left point	wrist shot	blocked	True	tolerance	333.0	345.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	417.0	430.0	00:13	right circle	wrist shot	save	True	inside	425.0	437.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	417.0	434.0	00:17	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	455.0	456.0	00:01	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	455.0	482.0	00:27	low slot	redirect/tip	save	False	no_match			
+krxhPVLGLz8	511.0	514.0	00:03	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	511.0	515.0	00:04	low slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	548.0	554.0	00:06	right circle	wrist shot	goal	True	inside	549.0	561.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	641.0	659.0	00:18	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	703.0	711.0	00:08	low slot	wrist shot	save	True	inside	706.0	718.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	703.0	713.0	00:10	in close	backhand	save	True	tolerance	700.0	712.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	743.0	748.0	00:05	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	743.0	754.0	00:11	low slot	backhand	save	True	inside	754.0	766.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	743.0	760.0	00:17	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	743.0	764.0	00:21	low slot	snap shot	save	False	no_match			
+krxhPVLGLz8	743.0	770.0	00:27	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	774.0	775.0	00:01	low slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	774.0	776.0	00:02	in close	wrist shot	save	False	no_match			
+krxhPVLGLz8	836.0	851.0	00:15	high slot	wrist shot	save	True	inside	849.0	861.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	836.0	855.0	00:19	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	836.0	861.0	00:25	left point	wrist shot	save	False	no_match			
+krxhPVLGLz8	960.0	963.0	00:03	low slot	snap shot	save	False	no_match			
+krxhPVLGLz8	960.0	980.0	00:20	right point	wrist shot	save	True	inside	972.0	984.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	960.0	987.0	00:27	high slot	snap shot	blocked	False	no_match			
+krxhPVLGLz8	991.0	1016.0	00:25	left circle	wrist shot	save	True	inside	1009.0	1021.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1426.0	1435.0	00:09	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	1426.0	1439.0	00:13	high slot	snap shot	save	True	tolerance	1442.0	1454.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1426.0	1445.0	00:19	in close	redirect/tip	save	False	no_match			
+krxhPVLGLz8	1426.0	1449.0	00:23	right point	wrist shot	save	False	no_match			
+krxhPVLGLz8	1457.0	1457.0	00:00	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	1457.0	1465.0	00:08	low slot	snap shot	save	False	no_match			
+krxhPVLGLz8	1457.0	1482.0	00:25	left circle	wrist shot	save	True	inside	1479.0	1491.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1488.0	1495.0	00:07	right wing	wrist shot	save	True	inside	1490.0	1502.0	North Shore Warhawks 19U AA
+krxhPVLGLz8	1488.0	1510.0	00:22	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	1519.0	1532.0	00:13	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	1550.0	1554.0	00:04	low slot	wrist shot	save	True	inside	1549.0	1561.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1716.0	1738.0	00:22	high slot	snap shot	save	True	inside	1738.0	1750.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1716.0	1759.0	00:43	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	1933.0	1959.0	00:26	high slot	snap shot	save	False	no_match			
+krxhPVLGLz8	2026.0	2038.0	00:12	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2026.0	2047.0	00:21	left point	wrist shot	save	False	no_match			
+krxhPVLGLz8	2057.0	2083.0	00:26	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2186.0	2187.0	00:01	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2186.0	2188.0	00:02	in close	backhand	save	False	no_match			
+krxhPVLGLz8	2186.0	2203.0	00:17	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2186.0	2208.0	00:22	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2186.0	2214.0	00:28	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2217.0	2239.0	00:22	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2248.0	2254.0	00:06	low slot	snap shot	save	False	no_match			
+krxhPVLGLz8	2248.0	2260.0	00:12	high slot	redirect/tip	miss	False	no_match			
+krxhPVLGLz8	2248.0	2265.0	00:17	low slot	snap shot	blocked	False	no_match			
+krxhPVLGLz8	2290.0	2300.0	00:10	low slot	snap shot	save	False	no_match			
+krxhPVLGLz8	2290.0	2318.0	00:28	right circle	wrist shot	save	True	inside	2313.0	2325.0	North Shore Warhawks 19U AA
+krxhPVLGLz8	2445.0	2462.0	00:17	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2445.0	2463.0	00:18	low slot	backhand	save	False	no_match			
+krxhPVLGLz8	2445.0	2474.0	00:29	low slot	redirect/tip	save	False	no_match			
+krxhPVLGLz8	2569.0	2570.0	00:01	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2569.0	2572.0	00:03	low slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2724.0	2773.0	00:49	left point	wrist shot	save	False	no_match			
+krxhPVLGLz8	2786.0	2787.0	00:01	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2786.0	2788.0	00:02	low slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2786.0	2793.0	00:07	high slot	wrist shot	save	True	tolerance	2795.0	2807.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2786.0	2801.0	00:15	low slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2786.0	2803.0	00:17	in close	wrist shot	save	False	no_match			
+krxhPVLGLz8	2927.0	2948.0	00:21	left point	wrist shot	save	True	inside	2944.0	2956.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2927.0	2953.0	00:26	in close	snap shot	save	True	inside	2948.0	2960.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2927.0	2955.0	00:28	in close	snap shot	save	False	no_match			
+krxhPVLGLz8	2958.0	2982.0	00:24	left circle	wrist shot	save	True	tolerance	2983.0	2995.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2958.0	2983.0	00:25	low slot	backhand	save	False	no_match			
+krxhPVLGLz8	2958.0	2995.0	00:37	left circle	wrist shot	save	True	inside	2989.0	3001.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2958.0	2996.0	00:38	low slot	snap shot	save	False	no_match			
+krxhPVLGLz8	3021.0	3046.0	00:25	right wing	snap shot	save	False	no_match			
+krxhPVLGLz8	3083.0	3085.0	00:02	high slot	wrist shot	save	True	inside	3081.0	3093.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	3083.0	3087.0	00:04	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	3083.0	3089.0	00:06	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	3083.0	3096.0	00:13	high slot	wrist shot	save	True	inside	3093.0	3105.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	3083.0	3101.0	00:18	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	3114.0	3122.0	00:08	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	3114.0	3136.0	00:22	left point	wrist shot	save	False	no_match			
+krxhPVLGLz8	3238.0	3256.0	00:18	left circle	wrist shot	save	True	inside	3252.0	3264.0	North Shore Warhawks 19U AA
+krxhPVLGLz8	3432.0	3432.0	00:00	left circle	wrist shot	save	True	inside	3427.0	3439.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	3432.0	3454.0	00:22	low slot	redirect/tip	miss	False	no_match			
+krxhPVLGLz8	3432.0	3459.0	00:27	left point	wrist shot	blocked	False	no_match			
+krxhPVLGLz8	3487.0	3509.0	00:22	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	3487.0	3510.0	00:23	in close	backhand	save	False	no_match			
+krxhPVLGLz8	3487.0	3517.0	00:30	left point	wrist shot	save	False	no_match			

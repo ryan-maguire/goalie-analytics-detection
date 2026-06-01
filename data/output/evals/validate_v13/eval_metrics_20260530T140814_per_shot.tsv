@@ -1,0 +1,79 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+SX5xNJlh6eQ	32.0	59.0	00:27	high slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	63.0	72.0	00:09	left point	wrist shot	miss	False	no_match			
+SX5xNJlh6eQ	94.0	102.0	00:08	right circle	wrist shot	save	True	inside	100.0	112.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	218.0	229.0	00:11	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	497.0	509.0	00:12	left circle	wrist shot	goal	False	no_match			
+SX5xNJlh6eQ	528.0	548.0	00:20	low slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	528.0	549.0	00:21	in close	snap shot	save	False	no_match			
+SX5xNJlh6eQ	559.0	559.0	00:00	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	559.0	568.0	00:09	left circle	wrist shot	save	True	tolerance	569.0	581.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	559.0	571.0	00:12	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	590.0	608.0	00:18	left circle	wrist shot	miss	True	inside	600.0	612.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	652.0	664.0	00:12	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	652.0	665.0	00:13	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	693.0	698.0	00:05	left circle	wrist shot	goal	True	tolerance	699.0	711.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	725.0	746.0	00:21	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	787.0	789.0	00:02	left circle	wrist shot	save	True	inside	786.0	798.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	787.0	791.0	00:04	low slot	snap shot	save	True	tolerance	793.0	805.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	856.0	868.0	00:12	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	970.0	996.0	00:26	left circle	wrist shot	save	True	tolerance	981.0	993.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1053.0	1069.0	00:16	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1084.0	1105.0	00:21	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1115.0	1120.0	00:05	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1115.0	1122.0	00:07	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1115.0	1166.0	00:51	high slot	wrist shot	save	True	inside	1163.0	1175.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1175.0	1189.0	00:14	low slot	snap shot	save	True	inside	1189.0	1201.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1239.0	1253.0	00:14	in close	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1495.0	1498.0	00:03	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1557.0	1568.0	00:11	left circle	wrist shot	save	True	inside	1563.0	1575.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1557.0	1582.0	00:25	left point	wrist shot	blocked	False	no_match			
+SX5xNJlh6eQ	1588.0	1591.0	00:03	low slot	redirect/tip	save	False	no_match			
+SX5xNJlh6eQ	1588.0	1597.0	00:09	left circle	wrist shot	save	True	tolerance	1600.0	1612.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1588.0	1604.0	00:16	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1588.0	1618.0	00:30	right point	slap shot	save	True	inside	1615.0	1627.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1648.0	1655.0	00:07	right circle	wrist shot	save	True	inside	1652.0	1664.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1708.0	1713.0	00:05	left wing	wrist shot	miss	True	inside	1706.0	1718.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1708.0	1734.0	00:26	left circle	wrist shot	save	True	inside	1734.0	1746.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1708.0	1739.0	00:31	left wing	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1768.0	1787.0	00:19	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1819.0	1823.0	00:04	left circle	wrist shot	save	True	inside	1819.0	1831.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1819.0	1839.0	00:20	right wing	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1850.0	1874.0	00:24	right point	wrist shot	miss	False	no_match			
+SX5xNJlh6eQ	1912.0	1936.0	00:24	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1943.0	1944.0	00:01	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2091.0	2119.0	00:28	left circle	wrist shot	save	True	tolerance	2122.0	2134.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	2091.0	2123.0	00:32	right point	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2144.0	2166.0	00:22	left wing	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2175.0	2196.0	00:21	right circle	wrist shot	save	True	inside	2188.0	2200.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	2175.0	2219.0	00:44	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2175.0	2228.0	00:53	right point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	2247.0	2292.0	00:45	left circle	snap shot	save	True	inside	2290.0	2302.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2392.0	2398.0	00:06	left circle	wrist shot	save	True	inside	2394.0	2406.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2485.0	2492.0	00:07	left circle	wrist shot	save	True	inside	2488.0	2500.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2552.0	2564.0	00:12	low slot	wrist shot	save	True	inside	2556.0	2568.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2552.0	2568.0	00:16	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2552.0	2570.0	00:18	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2583.0	2601.0	00:18	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2614.0	2632.0	00:18	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2614.0	2660.0	00:46	high slot	wrist shot	save	True	inside	2658.0	2670.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2614.0	2665.0	00:51	in close	redirect/tip	save	True	inside	2664.0	2676.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2676.0	2688.0	00:12	high slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2676.0	2723.0	00:47	right circle	wrist shot	save	True	inside	2719.0	2731.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2676.0	2732.0	00:56	high slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2738.0	2749.0	00:11	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2738.0	2750.0	00:12	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	2738.0	2759.0	00:21	right circle	wrist shot	save	True	inside	2754.0	2766.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2784.0	2792.0	00:08	left circle	wrist shot	save	True	tolerance	2795.0	2807.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2784.0	2798.0	00:14	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2854.0	2862.0	00:08	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3082.0	3092.0	00:10	right circle	snap shot	save	True	inside	3090.0	3102.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	3113.0	3121.0	00:08	left circle	wrist shot	goal	True	inside	3119.0	3131.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	3177.0	3182.0	00:05	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3208.0	3209.0	00:01	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3208.0	3234.0	00:26	left circle	wrist shot	save	True	inside	3232.0	3244.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	3247.0	3255.0	00:08	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3498.0	3509.0	00:11	right circle	snap shot	save	False	no_match			
+SX5xNJlh6eQ	3561.0	3579.0	00:18	left point	wrist shot	miss	False	no_match			
+SX5xNJlh6eQ	3561.0	3584.0	00:23	right wing	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3561.0	3585.0	00:24	low slot	snap shot	save	False	no_match			

@@ -1,0 +1,63 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+q5yj6sAFQeY	19.0	19.0	00:00	right circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	170.0	176.0	00:06	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	234.0	250.0	00:16	high slot	wrist shot	save	True	inside	247.0	259.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	234.0	257.0	00:23	left point	wrist shot	save	True	inside	252.0	264.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	405.0	406.0	00:01	right circle	wrist shot	goal	False	no_match			
+q5yj6sAFQeY	475.0	491.0	00:16	low slot	wrist shot	goal	True	inside	490.0	502.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	550.0	551.0	00:01	left circle	wrist shot	save	True	inside	551.0	563.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	617.0	618.0	00:01	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	790.0	792.0	00:02	left circle	wrist shot	save	True	inside	790.0	802.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	790.0	802.0	00:12	right circle	wrist shot	save	True	inside	798.0	810.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	828.0	835.0	00:07	right circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	927.0	929.0	00:02	right circle	wrist shot	save	True	inside	927.0	939.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	964.0	966.0	00:02	right circle	wrist shot	save	True	inside	960.0	972.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	964.0	990.0	00:26	right point	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1019.0	1034.0	00:15	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	1104.0	1107.0	00:03	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1104.0	1108.0	00:04	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	1161.0	1172.0	00:11	low slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1219.0	1233.0	00:14	left wing	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1242.0	1243.0	00:01	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1242.0	1245.0	00:03	in close	snap shot	save	False	no_match			
+q5yj6sAFQeY	1557.0	1577.0	00:20	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1984.0	1987.0	00:03	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2028.0	2048.0	00:20	right circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2086.0	2100.0	00:14	left wing	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2147.0	2155.0	00:08	left point	wrist shot	miss	False	no_match			
+q5yj6sAFQeY	2186.0	2188.0	00:02	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2279.0	2280.0	00:01	right circle	wrist shot	save	True	inside	2277.0	2289.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	2279.0	2290.0	00:11	right circle	wrist shot	save	True	inside	2285.0	2297.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	2312.0	2313.0	00:01	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2505.0	2520.0	00:15	right circle	wrist shot	save	True	tolerance	2521.0	2533.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	2505.0	2526.0	00:21	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	2726.0	2728.0	00:02	right circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2726.0	2738.0	00:12	right circle	wrist shot	save	True	inside	2732.0	2744.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	2726.0	2743.0	00:17	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2779.0	2789.0	00:10	right point	wrist shot	miss	False	no_match			
+q5yj6sAFQeY	2779.0	2793.0	00:14	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	2898.0	2936.0	00:38	low slot	wrist shot	save	True	inside	2935.0	2947.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	2977.0	2978.0	00:01	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2977.0	2985.0	00:08	in close	snap shot	save	True	inside	2983.0	2995.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	2977.0	2988.0	00:11	in close	snap shot	save	True	tolerance	2990.0	3002.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	2977.0	2997.0	00:20	high slot	wrist shot	save	True	inside	2993.0	3005.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	2977.0	2999.0	00:22	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3021.0	3049.0	00:28	high slot	wrist shot	miss	False	no_match			
+q5yj6sAFQeY	3132.0	3149.0	00:17	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	3132.0	3150.0	00:18	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	3132.0	3154.0	00:22	in close	backhand	save	False	no_match			
+q5yj6sAFQeY	3241.0	3244.0	00:03	high slot	wrist shot	save	True	tolerance	3245.0	3257.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	3241.0	3246.0	00:05	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	3288.0	3301.0	00:13	left circle	wrist shot	goal	True	inside	3296.0	3308.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	3476.0	3487.0	00:11	left circle	wrist shot	save	True	inside	3480.0	3492.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	3589.0	3600.0	00:11	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	3737.0	3741.0	00:04	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3737.0	3746.0	00:09	low slot	redirect/tip	save	False	no_match			
+q5yj6sAFQeY	3737.0	3752.0	00:15	left circle	wrist shot	save	True	inside	3751.0	3763.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	3737.0	3753.0	00:16	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	3880.0	3889.0	00:09	in close	redirect/tip	save	False	no_match			
+q5yj6sAFQeY	3916.0	3917.0	00:01	low slot	wrist shot	goal	True	inside	3913.0	3925.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	3964.0	3968.0	00:04	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	4145.0	4164.0	00:19	left circle	wrist shot	save	True	inside	4159.0	4171.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	4145.0	4174.0	00:29	high slot	wrist shot	save	True	inside	4173.0	4185.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	4274.0	4275.0	00:01	right circle	snap shot	goal	False	no_match			

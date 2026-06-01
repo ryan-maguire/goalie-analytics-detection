@@ -1,0 +1,86 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+krxhPVLGLz8	32.0	40.0	00:08	high slot	slap shot	save	False	no_match			
+krxhPVLGLz8	32.0	48.0	00:16	right point	wrist shot	save	False	no_match			
+krxhPVLGLz8	324.0	339.0	00:15	high slot	slap shot	save	True	inside	333.0	345.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	417.0	429.0	00:12	left point	slap shot	miss	True	inside	425.0	437.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	455.0	461.0	00:06	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	455.0	463.0	00:08	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	455.0	466.0	00:11	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	511.0	513.0	00:02	right circle	snap shot	save	False	no_match			
+krxhPVLGLz8	641.0	647.0	00:06	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	703.0	709.0	00:06	left point	slap shot	save	True	inside	700.0	712.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	743.0	760.0	00:17	high slot	slap shot	save	True	inside	754.0	766.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	743.0	770.0	00:27	left point	wrist shot	save	False	no_match			
+krxhPVLGLz8	774.0	780.0	00:06	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	774.0	791.0	00:17	right point	wrist shot	save	False	no_match			
+krxhPVLGLz8	836.0	851.0	00:15	low slot	snap shot	save	True	inside	849.0	861.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	836.0	852.0	00:16	left circle	snap shot	save	False	no_match			
+krxhPVLGLz8	960.0	966.0	00:06	left point	slap shot	miss	False	no_match			
+krxhPVLGLz8	960.0	976.0	00:16	right point	wrist shot	blocked	True	inside	972.0	984.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	960.0	983.0	00:23	high slot	snap shot	save	False	no_match			
+krxhPVLGLz8	960.0	985.0	00:25	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	960.0	987.0	00:27	low slot	backhand	save	False	no_match			
+krxhPVLGLz8	991.0	1003.0	00:12	high slot	slap shot	save	False	no_match			
+krxhPVLGLz8	1426.0	1431.0	00:05	high slot	slap shot	save	False	no_match			
+krxhPVLGLz8	1426.0	1432.0	00:06	left circle	snap shot	save	False	no_match			
+krxhPVLGLz8	1426.0	1447.0	00:21	low slot	snap shot	save	True	inside	1442.0	1454.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1426.0	1448.0	00:22	right circle	snap shot	save	False	no_match			
+krxhPVLGLz8	1457.0	1463.0	00:06	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	1457.0	1473.0	00:16	right point	slap shot	miss	True	inside	1471.0	1483.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1488.0	1495.0	00:07	high slot	wrist shot	save	True	inside	1490.0	1502.0	North Shore Warhawks 19U AA
+krxhPVLGLz8	1519.0	1525.0	00:06	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	1519.0	1526.0	00:07	right circle	snap shot	save	False	no_match			
+krxhPVLGLz8	1519.0	1527.0	00:08	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	1550.0	1559.0	00:09	low slot	snap shot	save	True	inside	1549.0	1561.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1550.0	1560.0	00:10	right circle	snap shot	save	False	no_match			
+krxhPVLGLz8	1550.0	1562.0	00:12	left circle	snap shot	save	False	no_match			
+krxhPVLGLz8	1716.0	1743.0	00:27	high slot	slap shot	save	True	inside	1738.0	1750.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	1716.0	1745.0	00:29	in close	snap shot	save	False	no_match			
+krxhPVLGLz8	1933.0	1949.0	00:16	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	1933.0	1951.0	00:18	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2026.0	2040.0	00:14	right point	slap shot	save	False	no_match			
+krxhPVLGLz8	2026.0	2041.0	00:15	left circle	snap shot	save	False	no_match			
+krxhPVLGLz8	2026.0	2042.0	00:16	right circle	snap shot	save	False	no_match			
+krxhPVLGLz8	2057.0	2063.0	00:06	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2057.0	2065.0	00:08	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2155.0	2166.0	00:11	low slot	snap shot	save	True	tolerance	2151.0	2163.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2155.0	2168.0	00:13	right circle	snap shot	save	False	no_match			
+krxhPVLGLz8	2155.0	2171.0	00:16	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2186.0	2201.0	00:15	right point	slap shot	save	False	no_match			
+krxhPVLGLz8	2186.0	2204.0	00:18	in close	wrist shot	save	False	no_match			
+krxhPVLGLz8	2217.0	2226.0	00:09	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2248.0	2254.0	00:06	high slot	slap shot	save	False	no_match			
+krxhPVLGLz8	2248.0	2262.0	00:14	low slot	snap shot	save	False	no_match			
+krxhPVLGLz8	2290.0	2301.0	00:11	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2290.0	2308.0	00:18	left point	slap shot	blocked	True	inside	2308.0	2320.0	North Shore Warhawks 19U AA
+krxhPVLGLz8	2383.0	2387.0	00:04	high slot	snap shot	save	False	no_match			
+krxhPVLGLz8	2383.0	2389.0	00:06	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2383.0	2408.0	00:25	right point	snap shot	save	False	no_match			
+krxhPVLGLz8	2445.0	2458.0	00:13	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	2569.0	2575.0	00:06	left point	slap shot	miss	False	no_match			
+krxhPVLGLz8	2569.0	2585.0	00:16	left point	slap shot	blocked	False	no_match			
+krxhPVLGLz8	2569.0	2595.0	00:26	left point	wrist shot	blocked	False	no_match			
+krxhPVLGLz8	2631.0	2642.0	00:11	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	2631.0	2652.0	00:21	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	2724.0	2758.0	00:34	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	2724.0	2769.0	00:45	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	2786.0	2792.0	00:06	left point	slap shot	save	True	tolerance	2795.0	2807.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2786.0	2799.0	00:13	right point	snap shot	save	False	no_match			
+krxhPVLGLz8	2817.0	2824.0	00:07	high slot	wrist shot	save	False	no_match			
+krxhPVLGLz8	2927.0	2947.0	00:20	left point	slap shot	save	True	inside	2944.0	2956.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2927.0	2949.0	00:22	in close	snap shot	save	True	inside	2948.0	2960.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2958.0	2980.0	00:22	left circle	wrist shot	save	True	tolerance	2983.0	2995.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	2958.0	2982.0	00:24	right circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	3021.0	3033.0	00:12	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	3021.0	3048.0	00:27	right point	wrist shot	save	False	no_match			
+krxhPVLGLz8	3083.0	3088.0	00:05	left point	slap shot	save	True	inside	3081.0	3093.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	3083.0	3089.0	00:06	low slot	snap shot	save	False	no_match			
+krxhPVLGLz8	3114.0	3121.0	00:07	right point	slap shot	save	False	no_match			
+krxhPVLGLz8	3114.0	3123.0	00:09	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	3207.0	3213.0	00:06	left point	slap shot	save	False	no_match			
+krxhPVLGLz8	3207.0	3223.0	00:16	right point	wrist shot	save	False	no_match			
+krxhPVLGLz8	3238.0	3257.0	00:19	left point	slap shot	miss	True	inside	3252.0	3264.0	North Shore Warhawks 19U AA
+krxhPVLGLz8	3238.0	3263.0	00:25	high slot	snap shot	save	False	no_match			
+krxhPVLGLz8	3432.0	3438.0	00:06	high slot	slap shot	save	True	inside	3427.0	3439.0	Rocky Mountain Lady Roughriders 19U
+krxhPVLGLz8	3487.0	3500.0	00:13	left circle	wrist shot	save	False	no_match			
+krxhPVLGLz8	3487.0	3502.0	00:15	high slot	wrist shot	save	False	no_match			

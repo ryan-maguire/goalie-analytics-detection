@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-05-30T16:21:15Z",
+  "args": {
+    "gt_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/ground_truth",
+    "metrics_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/output/runs/metrics_v13",
+    "cv_seg_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/output/runs/cv_seg"
+  },
+  "summary": {
+    "n_videos": 1,
+    "n_windows": 44,
+    "total_pred_shots": 63,
+    "total_gt_shots": 34,
+    "shots_diff": 29,
+    "shots_ratio": 1.853,
+    "total_pred_goals": 1,
+    "total_gt_goals": 1,
+    "goals_diff": 0,
+    "shot_window_metrics": {
+      "n": 44,
+      "mae": 0.977,
+      "rmse": 1.39,
+      "bias": 0.659,
+      "exact_pct": 31.8
+    },
+    "goal_classifier": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 43,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "total_gt_shots_unfiltered": 34,
+    "shots_diff_unfiltered": 29,
+    "shots_ratio_unfiltered": 1.853,
+    "total_gt_goals_unfiltered": 1,
+    "goals_diff_unfiltered": 0,
+    "shot_window_metrics_unfiltered": {
+      "n": 44,
+      "mae": 0.977,
+      "rmse": 1.39,
+      "bias": 0.659,
+      "exact_pct": 31.8
+    },
+    "goal_classifier_unfiltered": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 43,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "shot_timestamps_eval": {
+      "n_videos_with_shot_timestamps": 1,
+      "n_total_pred_shots": 66,
+      "n_total_gt_shots": 60,
+      "n_gt_covered": 30,
+      "n_gt_uncovered": 30,
+      "tp_strict": 20,
+      "tp_lenient": 22,
+      "fp": 46,
+      "fn": 8,
+      "fn_uncovered": 30,
+      "precision": 0.303,
+      "recall": 0.3448,
+      "recall_within_coverage": 0.7143,
+      "f1": 0.3226,
+      "f1_within_coverage": 0.4255
+    }
+  },
+  "videos": [
+    {
+      "vID": "krxhPVLGLz8",
+      "hudl_id": 2108724,
+      "status": "ok",
+      "n_windows": 44,
+      "total_pred_shots": 63,
+      "total_gt_shots": 34,
+      "total_gt_shots_unfiltered": 34,
+      "total_pred_goals": 1,
+      "total_gt_goals": 1,
+      "total_gt_goals_unfiltered": 1,
+      "hudl_total_shots": 60,
+      "hudl_total_goals": 3,
+      "shot_eval": {
+        "n_total_pred": 66,
+        "n_total_gt": 60,
+        "n_gt_covered": 30,
+        "n_gt_uncovered": 30,
+        "tp_strict": 20,
+        "tp_lenient": 22,
+        "fp": 46,
+        "fn": 8,
+        "fn_uncovered": 30,
+        "precision": 0.303,
+        "recall": 0.3448,
+        "recall_within_coverage": 0.7143,
+        "f1": 0.3226,
+        "f1_within_coverage": 0.4255
+      },
+      "refinement": {
+        "n_threat_segments": 44,
+        "refinement_sources": {
+          "shot_timestamps": 37,
+          "fallback_no_shots": 7
+        },
+        "orig_width_median": 30.0,
+        "orig_width_mean": 31.5,
+        "refined_width_median": 17.5,
+        "refined_width_mean": 20.8,
+        "median_shrinkage": 12.5
+      },
+      "notes": [
+        "no team→color mapping — counting all overlapping events",
+        "target_filter is ON in cv_seg meta but no team→color map available — game totals will look ~50% under-predicted"
+      ]
+    }
+  ]
+}

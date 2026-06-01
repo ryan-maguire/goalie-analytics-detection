@@ -1,0 +1,26 @@
+vID	segment_start	segment_end	threat_color	pred_shots	gt_shots	shot_delta	gt_shots_unfilt	shot_delta_unfilt	pred_goals	gt_goals	goal_delta	gt_goals_unfilt	goal_delta_unfilt	matched_team	n_overlapping_total	notes
+kQVdtRa4o_A	174	210	Green and Blue	2	1	1	1	1	0	0	0	0	0		2	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	318	338	Green and Blue	0	1	-1	1	-1	0	0	0	0	0		3	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	431	451	Green and Blue	2	1	1	1	1	0	0	0	0	0		4	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	599	619	Green and Blue	1	1	0	1	0	1	1	0	1	0		3	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	806	826	Green and Blue	0	1	-1	1	-1	0	0	0	0	0		2	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	832	852	Green and Blue	2	0	2	0	2	0	0	0	0	0		0	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	1340	1360	Green and Blue	1	0	1	0	1	0	0	0	0	0		0	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	1381	1413	Green and Blue	1	1	0	1	0	0	0	0	0	0		3	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	1786	1806	Green and Blue	0	2	-2	2	-2	0	0	0	0	0		5	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	1807	1827	Green and Blue	2	1	1	1	1	0	0	0	0	0		4	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	1843	1863	Green and Blue	3	0	3	0	3	0	0	0	0	0		0	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	1873	1893	Green and Blue	1	1	0	1	0	0	0	0	0	0		2	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	1948	1968	Green and Blue	0	1	-1	1	-1	0	0	0	0	0		3	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	2042	2062	Green and Blue	1	0	1	0	1	0	0	0	0	0		1	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	2143	2163	Green and Blue	1	0	1	0	1	0	0	0	0	0		2	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	2695	2715	Green and Blue	1	0	1	0	1	0	0	0	0	0		0	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	2772	2792	Green and Blue	2	1	1	1	1	0	0	0	0	0		2	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	2799	2834	Green and Blue	1	1	0	1	0	0	0	0	0	0		3	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	2917	2937	Green and Blue	0	0	0	0	0	0	0	0	0	0		0	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	2987	3007	Green and Blue	1	0	1	0	1	0	0	0	0	0		1	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	3172	3192	Green and Blue	1	0	1	0	1	0	0	0	0	0		2	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	3227	3247	Green and Blue	1	2	-1	2	-1	0	0	0	0	0		4	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	3434	3454	Green and Blue	0	1	-1	1	-1	0	0	0	0	0		3	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	3470	3490	Green and Blue	0	0	0	0	0	0	0	0	0	0		0	no team mapping — strict counts == unfiltered counts
+kQVdtRa4o_A	3715	3735	Green and Blue	0	0	0	0	0	0	0	0	0	0		0	no team mapping — strict counts == unfiltered counts

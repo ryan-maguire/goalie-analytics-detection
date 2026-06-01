@@ -1,0 +1,175 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+Fjc9hmK8_3U	4.0	16.0	00:12	left circle	slap shot	save	True	tolerance	17.0	29.0	Team South Dakota 19U
+Fjc9hmK8_3U	4.0	21.0	00:17	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	4.0	26.0	00:22	high slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	32.0	39.0	00:07	high slot	slap shot	save	True	tolerance	41.0	53.0	Team South Dakota 19U
+Fjc9hmK8_3U	32.0	40.0	00:08	left circle	snap shot	save	True	tolerance	43.0	55.0	Team South Dakota 19U
+Fjc9hmK8_3U	32.0	54.0	00:22	left circle	wrist shot	save	True	tolerance	55.0	67.0	Team South Dakota 19U
+Fjc9hmK8_3U	63.0	69.0	00:06	high slot	snap shot	goal	True	inside	67.0	79.0	Team South Dakota 19U
+Fjc9hmK8_3U	159.0	173.0	00:14	low slot	snap shot	save	True	tolerance	159.0	171.0	Team South Dakota 19U
+Fjc9hmK8_3U	159.0	174.0	00:15	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	159.0	181.0	00:22	left point	slap shot	blocked	False	no_match			
+Fjc9hmK8_3U	221.0	238.0	00:17	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	345.0	348.0	00:03	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	345.0	351.0	00:06	right circle	snap shot	save	False	no_match			
+Fjc9hmK8_3U	376.0	387.0	00:11	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	407.0	423.0	00:16	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	438.0	446.0	00:08	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	438.0	451.0	00:13	left point	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	438.0	464.0	00:26	right point	wrist shot	blocked	False	no_match			
+Fjc9hmK8_3U	469.0	487.0	00:18	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	500.0	514.0	00:14	high slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	569.0	576.0	00:07	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	569.0	585.0	00:16	right point	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	569.0	595.0	00:26	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	600.0	612.0	00:12	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	662.0	674.0	00:12	right point	slap shot	save	True	inside	673.0	685.0	Team South Dakota 19U
+Fjc9hmK8_3U	662.0	676.0	00:14	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	724.0	731.0	00:07	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	724.0	732.0	00:08	right circle	snap shot	save	False	no_match			
+Fjc9hmK8_3U	761.0	773.0	00:12	right circle	wrist shot	save	True	tolerance	774.0	786.0	Team South Dakota 19U
+Fjc9hmK8_3U	761.0	778.0	00:17	left point	wrist shot	miss	True	tolerance	781.0	793.0	Team South Dakota 19U
+Fjc9hmK8_3U	817.0	828.0	00:11	low slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	817.0	830.0	00:13	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	848.0	854.0	00:06	high slot	snap shot	save	False	no_match			
+Fjc9hmK8_3U	848.0	857.0	00:09	left circle	snap shot	save	False	no_match			
+Fjc9hmK8_3U	949.0	957.0	00:08	high slot	slap shot	save	True	inside	951.0	963.0	Team South Dakota 19U
+Fjc9hmK8_3U	985.0	990.0	00:05	high slot	slap shot	save	True	inside	981.0	993.0	Team South Dakota 19U
+Fjc9hmK8_3U	1041.0	1044.0	00:03	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	1071.0	1080.0	00:09	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	1071.0	1081.0	00:10	low slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	1071.0	1082.0	00:11	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	1133.0	1172.0	00:39	right circle	snap shot	save	False	no_match			
+Fjc9hmK8_3U	1133.0	1173.0	00:40	low slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	1197.0	1210.0	00:13	right point	slap shot	miss	True	inside	1206.0	1218.0	Team South Dakota 19U
+Fjc9hmK8_3U	1298.0	1309.0	00:11	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	1391.0	1407.0	00:16	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	1391.0	1410.0	00:19	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	1422.0	1450.0	00:28	left point	slap shot	blocked	False	no_match			
+Fjc9hmK8_3U	1453.0	1460.0	00:07	left point	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	1453.0	1470.0	00:17	high slot	wrist shot	blocked	True	inside	1466.0	1478.0	Team South Dakota 19U
+Fjc9hmK8_3U	1453.0	1474.0	00:21	low slot	snap shot	save	False	no_match			
+Fjc9hmK8_3U	1453.0	1475.0	00:22	in close	snap shot	save	False	no_match			
+Fjc9hmK8_3U	1484.0	1495.0	00:11	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	1546.0	1563.0	00:17	high slot	slap shot	save	True	inside	1556.0	1568.0	Team South Dakota 19U
+Fjc9hmK8_3U	1546.0	1572.0	00:26	left point	wrist shot	save	True	inside	1565.0	1577.0	Team South Dakota 19U
+Fjc9hmK8_3U	1577.0	1579.0	00:02	left point	slap shot	save	True	inside	1571.0	1583.0	Team South Dakota 19U
+Fjc9hmK8_3U	1577.0	1605.0	00:28	right point	slap shot	save	True	tolerance	1607.0	1619.0	Team South Dakota 19U
+Fjc9hmK8_3U	1609.0	1620.0	00:11	left point	slap shot	save	True	inside	1613.0	1625.0	Team South Dakota 19U
+Fjc9hmK8_3U	1609.0	1626.0	00:17	high slot	wrist shot	save	True	inside	1620.0	1632.0	Team South Dakota 19U
+Fjc9hmK8_3U	1640.0	1654.0	00:14	high slot	wrist shot	save	True	inside	1645.0	1657.0	Team South Dakota 19U
+Fjc9hmK8_3U	1640.0	1660.0	00:20	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	1698.0	1705.0	00:07	left point	slap shot	save	True	inside	1704.0	1716.0	Team South Dakota 19U
+Fjc9hmK8_3U	1698.0	1713.0	00:15	high slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	1698.0	1721.0	00:23	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	1791.0	1798.0	00:07	left point	slap shot	save	True	inside	1794.0	1806.0	North Shore Warhawks 19U AA
+Fjc9hmK8_3U	1791.0	1800.0	00:09	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	1791.0	1810.0	00:19	right point	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	1791.0	1814.0	00:23	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	1822.0	1829.0	00:07	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	1822.0	1830.0	00:08	right circle	wrist shot	save	True	tolerance	1833.0	1845.0	Team South Dakota 19U
+Fjc9hmK8_3U	1884.0	1896.0	00:12	high slot	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	2008.0	2037.0	00:29	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	2039.0	2046.0	00:07	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	2039.0	2048.0	00:09	high slot	snap shot	save	False	no_match			
+Fjc9hmK8_3U	2076.0	2096.0	00:20	right point	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	2231.0	2247.0	00:16	left point	slap shot	save	True	inside	2246.0	2258.0	Team South Dakota 19U
+Fjc9hmK8_3U	2231.0	2250.0	00:19	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	2262.0	2272.0	00:10	left point	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	2262.0	2280.0	00:18	right point	wrist shot	blocked	False	no_match			
+Fjc9hmK8_3U	2324.0	2343.0	00:19	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	2324.0	2345.0	00:21	right circle	snap shot	save	False	no_match			
+Fjc9hmK8_3U	2355.0	2366.0	00:11	left point	slap shot	save	True	inside	2359.0	2371.0	Team South Dakota 19U
+Fjc9hmK8_3U	2355.0	2377.0	00:22	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	2386.0	2397.0	00:11	high slot	snap shot	save	True	inside	2393.0	2405.0	Team South Dakota 19U
+Fjc9hmK8_3U	2386.0	2401.0	00:15	left point	slap shot	miss	True	inside	2395.0	2407.0	Team South Dakota 19U
+Fjc9hmK8_3U	2531.0	2539.0	00:08	right point	slap shot	save	True	inside	2532.0	2544.0	North Shore Warhawks 19U AA
+Fjc9hmK8_3U	2562.0	2579.0	00:17	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	2562.0	2581.0	00:19	low slot	snap shot	save	False	no_match			
+Fjc9hmK8_3U	2593.0	2599.0	00:06	left point	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	2796.0	2799.0	00:03	right point	slap shot	save	True	inside	2791.0	2803.0	Team South Dakota 19U
+Fjc9hmK8_3U	2796.0	2800.0	00:04	left circle	snap shot	save	False	no_match			
+Fjc9hmK8_3U	2827.0	2835.0	00:08	left point	slap shot	miss	True	inside	2830.0	2842.0	Team South Dakota 19U
+Fjc9hmK8_3U	2827.0	2845.0	00:18	left point	slap shot	save	True	inside	2835.0	2847.0	Team South Dakota 19U
+Fjc9hmK8_3U	2875.0	2893.0	00:18	high slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	2906.0	2917.0	00:11	left circle	slap shot	save	False	no_match			
+Fjc9hmK8_3U	2906.0	2927.0	00:21	left point	wrist shot	blocked	False	no_match			
+Fjc9hmK8_3U	2987.0	2991.0	00:04	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	2987.0	2997.0	00:10	high slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	2987.0	2999.0	00:12	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	3015.0	3036.0	00:21	right point	slap shot	save	True	tolerance	3038.0	3050.0	North Shore Warhawks 19U AA
+Fjc9hmK8_3U	3046.0	3061.0	00:15	left point	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	3108.0	3118.0	00:10	high slot	wrist shot	save	True	inside	3108.0	3120.0	Team South Dakota 19U
+Fjc9hmK8_3U	3108.0	3125.0	00:17	right point	slap shot	save	True	inside	3119.0	3131.0	Team South Dakota 19U
+Fjc9hmK8_3U	3108.0	3126.0	00:18	in close	snap shot	save	True	inside	3121.0	3133.0	Team South Dakota 19U
+Fjc9hmK8_3U	3139.0	3174.0	00:35	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	3139.0	3176.0	00:37	left circle	snap shot	save	False	no_match			
+Fjc9hmK8_3U	3232.0	3244.0	00:12	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	3232.0	3258.0	00:26	left point	wrist shot	save	True	inside	3249.0	3261.0	Team South Dakota 19U
+Fjc9hmK8_3U	3263.0	3273.0	00:10	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	3263.0	3276.0	00:13	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	3263.0	3287.0	00:24	high slot	wrist shot	blocked	False	no_match			
+Fjc9hmK8_3U	3301.0	3307.0	00:06	right circle	slap shot	save	False	no_match			
+Fjc9hmK8_3U	3301.0	3318.0	00:17	right point	wrist shot	save	True	inside	3314.0	3326.0	Team South Dakota 19U
+Fjc9hmK8_3U	3332.0	3343.0	00:11	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	3394.0	3406.0	00:12	high slot	slap shot	save	True	inside	3403.0	3415.0	Team South Dakota 19U
+Fjc9hmK8_3U	3394.0	3408.0	00:14	left circle	wrist shot	save	True	tolerance	3410.0	3422.0	Team South Dakota 19U
+Fjc9hmK8_3U	3394.0	3417.0	00:23	left point	slap shot	blocked	False	no_match			
+Fjc9hmK8_3U	3425.0	3442.0	00:17	high slot	snap shot	save	False	no_match			
+Fjc9hmK8_3U	3425.0	3445.0	00:20	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	3425.0	3448.0	00:23	in close	snap shot	save	False	no_match			
+Fjc9hmK8_3U	3456.0	3467.0	00:11	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	3456.0	3482.0	00:26	right point	wrist shot	save	True	inside	3474.0	3486.0	Team South Dakota 19U
+Fjc9hmK8_3U	3653.0	3668.0	00:15	left point	slap shot	save	True	inside	3666.0	3678.0	Team South Dakota 19U
+Fjc9hmK8_3U	3653.0	3670.0	00:17	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	3653.0	3684.0	00:31	left point	wrist shot	blocked	False	no_match			
+Fjc9hmK8_3U	3653.0	3695.0	00:42	right point	wrist shot	blocked	False	no_match			
+Fjc9hmK8_3U	3653.0	3705.0	00:52	left point	slap shot	blocked	True	inside	3700.0	3712.0	Team South Dakota 19U
+Fjc9hmK8_3U	3715.0	3722.0	00:07	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	3790.0	3797.0	00:07	high slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	3790.0	3799.0	00:09	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	3852.0	3865.0	00:13	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	3852.0	3867.0	00:15	low slot	snap shot	save	False	no_match			
+Fjc9hmK8_3U	3883.0	3899.0	00:16	left circle	wrist shot	save	True	inside	3891.0	3903.0	Team South Dakota 19U
+Fjc9hmK8_3U	3883.0	3901.0	00:18	right circle	wrist shot	save	True	inside	3899.0	3911.0	Team South Dakota 19U
+Fjc9hmK8_3U	3988.0	4011.0	00:23	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	4050.0	4053.0	00:03	left point	slap shot	save	True	inside	4046.0	4058.0	Team South Dakota 19U
+Fjc9hmK8_3U	4050.0	4055.0	00:05	high slot	snap shot	save	True	inside	4051.0	4063.0	Team South Dakota 19U
+Fjc9hmK8_3U	4050.0	4076.0	00:26	right circle	wrist shot	save	True	inside	4074.0	4086.0	North Shore Warhawks 19U AA
+Fjc9hmK8_3U	4089.0	4095.0	00:06	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	4089.0	4105.0	00:16	left point	wrist shot	blocked	True	inside	4103.0	4115.0	Team South Dakota 19U
+Fjc9hmK8_3U	4089.0	4111.0	00:22	high slot	wrist shot	save	True	inside	4111.0	4123.0	Team South Dakota 19U
+Fjc9hmK8_3U	4119.0	4151.0	00:32	left point	slap shot	save	True	tolerance	4154.0	4166.0	Team South Dakota 19U
+Fjc9hmK8_3U	4182.0	4206.0	00:24	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4182.0	4207.0	00:25	right circle	snap shot	save	False	no_match			
+Fjc9hmK8_3U	4244.0	4257.0	00:13	high slot	slap shot	save	True	inside	4248.0	4260.0	Team South Dakota 19U
+Fjc9hmK8_3U	4244.0	4270.0	00:26	right point	slap shot	save	True	inside	4270.0	4282.0	Team South Dakota 19U
+Fjc9hmK8_3U	4275.0	4284.0	00:09	high slot	slap shot	miss	False	no_match			
+Fjc9hmK8_3U	4337.0	4351.0	00:14	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	4368.0	4374.0	00:06	high slot	slap shot	save	True	inside	4371.0	4383.0	North Shore Warhawks 19U AA
+Fjc9hmK8_3U	4368.0	4380.0	00:12	left point	slap shot	blocked	False	no_match			
+Fjc9hmK8_3U	4368.0	4383.0	00:15	low slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4430.0	4440.0	00:10	high slot	slap shot	miss	True	inside	4434.0	4446.0	Team South Dakota 19U
+Fjc9hmK8_3U	4430.0	4455.0	00:25	high slot	slap shot	save	True	inside	4449.0	4461.0	Team South Dakota 19U
+Fjc9hmK8_3U	4461.0	4471.0	00:10	low slot	snap shot	save	False	no_match			
+Fjc9hmK8_3U	4461.0	4473.0	00:12	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4492.0	4513.0	00:21	high slot	wrist shot	save	True	inside	4505.0	4517.0	North Shore Warhawks 19U AA
+Fjc9hmK8_3U	4492.0	4515.0	00:23	left circle	wrist shot	save	True	inside	4503.0	4515.0	North Shore Warhawks 19U AA
+Fjc9hmK8_3U	4585.0	4593.0	00:08	left point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	4585.0	4600.0	00:15	right point	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4585.0	4611.0	00:26	left point	slap shot	save	True	inside	4607.0	4619.0	Team South Dakota 19U
+Fjc9hmK8_3U	4616.0	4625.0	00:09	left point	slap shot	miss	True	inside	4616.0	4628.0	Team South Dakota 19U
+Fjc9hmK8_3U	4616.0	4634.0	00:18	right point	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4616.0	4642.0	00:26	left point	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4647.0	4653.0	00:06	left circle	slap shot	save	True	inside	4651.0	4663.0	Team South Dakota 19U
+Fjc9hmK8_3U	4647.0	4655.0	00:08	right wing	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4678.0	4689.0	00:11	right point	slap shot	save	False	no_match			
+Fjc9hmK8_3U	4678.0	4693.0	00:15	left circle	wrist shot	goal	False	no_match			
+Fjc9hmK8_3U	4781.0	4789.0	00:08	high slot	slap shot	save	True	inside	4779.0	4791.0	Team South Dakota 19U
+Fjc9hmK8_3U	4781.0	4790.0	00:09	left circle	snap shot	save	True	inside	4787.0	4799.0	Team South Dakota 19U
+Fjc9hmK8_3U	4843.0	4855.0	00:12	high slot	slap shot	save	False	no_match			
+Fjc9hmK8_3U	4843.0	4867.0	00:24	left point	wrist shot	save	True	inside	4863.0	4875.0	Team South Dakota 19U
+Fjc9hmK8_3U	4875.0	4884.0	00:09	high slot	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4875.0	4886.0	00:11	left circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4875.0	4888.0	00:13	right circle	wrist shot	save	False	no_match			
+Fjc9hmK8_3U	4875.0	4899.0	00:24	left point	wrist shot	blocked	True	inside	4896.0	4908.0	Team South Dakota 19U

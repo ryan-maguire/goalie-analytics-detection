@@ -1,358 +1,358 @@
 [
-    {
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "North Shore Warhawks 19U AA",
-        "targetGoalieColor": "Green",
-        "opponentGoalieColor": "Yellow",
-        "opponentGoalieTeamName": "Nashville Preditors 19U",
-        "eventDate": "2025-09-27",
-        "createdDate": "2026-04-07 17:20:38 CDT",
-        "eventName": "SEP-25: North Shore Warhawks 19U AA vs Nashville Preditors 19U",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=dwGsP6QKDs8",
-        "vID": "dwGsP6QKDs8",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "right",
-        "opponentStartSide": "left",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 15,
-                "end": 1387
-            },
-            {
-                "num": 2,
-                "start": 1428,
-                "end": 3150
-            },
-            {
-                "num": 3,
-                "start": 3240,
-                "end": 4908
-            }
-        ]
-    },
-    {
-        "vID": "Fjc9hmK8_3U",
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "Northshore Warhawks 19U",
-        "targetGoalieColor": "White and Green",
-        "opponentGoalieColor": "Red and Blue",
-        "opponentGoalieTeamName": "Team South Dakota",
-        "eventDate": "2025-09-26",
-        "createdDate": "2026-04-16 19:50:15 CDT",
-        "eventName": "SEP-25: Northshore Warhawks 19U vs Team South Dakota",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=Fjc9hmK8_3U",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "Left",
-        "opponentStartSide": "Right",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 4,
-                "end": 1354
-            },
-            {
-                "num": 2,
-                "start": 1358,
-                "end": 2977
-            },
-            {
-                "num": 3,
-                "start": 2987,
-                "end": 4395
-            },
-            {
-                "num": 4,
-                "start": 4399,
-                "end": 4916
-            }
-        ]
-    },
-    {
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "Northshore Warhawks 19U",
-        "targetGoalieColor": "Green and White",
-        "opponentGoalieColor": "White and Red",
-        "opponentGoalieTeamName": "Chicago Hawks 19U",
-        "eventDate": "2025-10-25",
-        "createdDate": "2026-04-08 20:05:08 CDT",
-        "eventName": "OCT-25: Northshore Warhawks 19U vs Chicago Hawks 19U",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=HNG0jKYY12g",
-        "vID": "HNG0jKYY12g",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "Left",
-        "opponentStartSide": "Right",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 5,
-                "end": 1424
-            },
-            {
-                "num": 2,
-                "start": 1436,
-                "end": 2842
-            },
-            {
-                "num": 3,
-                "start": 2856,
-                "end": 4136
-            }
-        ]
-    },
-    {
-        "vID": "J8WkcuTsD5I",
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "Northshore Warhawks 19U",
-        "targetGoalieColor": "White and Green",
-        "opponentGoalieColor": "Black and Red",
-        "opponentGoalieTeamName": "Grand Rapids Griffins 19U",
-        "eventDate": "2025-09-25",
-        "createdDate": "2026-04-16 19:57:19 CDT",
-        "eventName": "SEP-25: Northshore Warhawks 19U vs Grand Rapids Griffins 19U",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=J8WkcuTsD5I",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "Left",
-        "opponentStartSide": "Right",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 2,
-                "end": 1433
-            },
-            {
-                "num": 2,
-                "start": 1441,
-                "end": 3020
-            },
-            {
-                "num": 3,
-                "start": 3060,
-                "end": 4551
-            }
-        ]
-    },
-    {
-        "vID": "kQVdtRa4o_A",
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "Northshore Warhawks 19U",
-        "targetGoalieColor": "Green and Blue",
-        "opponentGoalieColor": "Tan and Green",
-        "opponentGoalieTeamName": "Boston Hockey Academy 16U",
-        "eventDate": "2025-12-14",
-        "createdDate": "2026-04-16 20:03:34 CDT",
-        "eventName": "DEC-25: Northshore Warhawks 19U vs Boston Hockey Academy 16U",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=kQVdtRa4o_A",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "Left",
-        "opponentStartSide": "Right",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 6,
-                "end": 1228
-            },
-            {
-                "num": 2,
-                "start": 1239,
-                "end": 2469
-            },
-            {
-                "num": 3,
-                "start": 2483,
-                "end": 3796
-            }
-        ]
-    },
-    {
-        "vID": "krxhPVLGLz8",
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "Northshore Warhawks 19U",
-        "targetGoalieColor": "Green and Blue",
-        "opponentGoalieColor": "White and Black",
-        "opponentGoalieTeamName": "Rocky Mountain Lady Roughriders 19U",
-        "eventDate": "2025-11-15",
-        "createdDate": "2026-04-16 20:07:17 CDT",
-        "eventName": "NOV-25: Northshore Warhawks 19U vs Rocky Mountain Lady Roughriders 19U",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=krxhPVLGLz8",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "Right",
-        "opponentStartSide": "Left",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 2,
-                "end": 1080
-            },
-            {
-                "num": 2,
-                "start": 1095,
-                "end": 2270
-            },
-            {
-                "num": 3,
-                "start": 2288,
-                "end": 3545
-            }
-        ]
-    },
-    {
-        "vID": "KYtM20r9BuM",
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "Northshore Warhawks 19U",
-        "targetGoalieColor": "Green and Blue",
-        "opponentGoalieColor": "White and Black",
-        "opponentGoalieTeamName": "Wisconsin Selects",
-        "eventDate": "2025-09-13",
-        "createdDate": "2026-04-16 20:11:46 CDT",
-        "eventName": "SEP-25: Northshore Warhawks 19U vs Wisconsin Selects",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=KYtM20r9BuM",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "Left",
-        "opponentStartSide": "Right",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 13,
-                "end": 1259
-            },
-            {
-                "num": 2,
-                "start": 1281,
-                "end": 2817
-            },
-            {
-                "num": 3,
-                "start": 2842,
-                "end": 4324
-            }
-        ]
-    },
-    {
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "Northshore Warhawks 19U",
-        "targetGoalieColor": "Green and Blue",
-        "opponentGoalieColor": "White and Blue",
-        "opponentGoalieTeamName": "West Dundee Leafs 19U",
-        "eventDate": "2025-12-20",
-        "createdDate": "2026-04-16 20:29:58 CDT",
-        "eventName": "DEC-25: Northshore Warhawks 19U vs West Dundee Leafs 19U",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=q5yj6sAFQeY",
-        "vID": "q5yj6sAFQeY",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "Right",
-        "opponentStartSide": "Left",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 7,
-                "end": 1353
-            },
-            {
-                "num": 2,
-                "start": 1421,
-                "end": 2798
-            },
-            {
-                "num": 3,
-                "start": 2837,
-                "end": 4301
-            }
-        ]
-    },
-    {
-        "targetGoalieName": "Maggie Anderson",
-        "targetGoalieTeamName": "Northshore Warhawks 19U",
-        "targetGoalieColor": "White and Green",
-        "opponentGoalieColor": "Blue, Red and White",
-        "opponentGoalieTeamName": "Connecticut Jr. Rangers 16U",
-        "eventDate": "52025-12-13",
-        "createdDate": "2026-04-05 21:30:54 CDT",
-        "eventName": "DEC-25: Northshore Warhawks 19U vs Connecticut Jr. Rangers 16U",
-        "eventSeason": "2025-2026",
-        "cameraAngle": "Side View",
-        "eventVideoURL": "https://www.youtube.com/watch?v=zOQrPK7IJ24",
-        "vID": "zOQrPK7IJ24",
-        "clientID": "CUST000031",
-        "analyticsStatus": "Ready for Analysis",
-        "segmentCnt": 0,
-        "segmentDuration": 0,
-        "segmentFavorites": [],
-        "targetStartSide": "Left",
-        "opponentStartSide": "Right",
-        "updatedDate": null,
-        "periods": [
-            {
-                "num": 1,
-                "start": 10,
-                "end": 1380
-            },
-            {
-                "num": 2,
-                "start": 1394,
-                "end": 3120
-            },
-            {
-                "num": 3,
-                "start": 3213,
-                "end": 4640
-            }
-        ]
-    }
+  {
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "North Shore Warhawks 19U AA",
+    "targetGoalieColor": "Green",
+    "opponentGoalieColor": "Yellow",
+    "opponentGoalieTeamName": "Nashville Preditors 19U",
+    "eventDate": "2025-09-27",
+    "createdDate": "2026-04-07 17:20:38 CDT",
+    "eventName": "SEP-25: North Shore Warhawks 19U AA vs Nashville Preditors 19U",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=dwGsP6QKDs8",
+    "vID": "dwGsP6QKDs8",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Ready for Analysis",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "right",
+    "opponentStartSide": "left",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 15,
+        "end": 1387
+      },
+      {
+        "num": 2,
+        "start": 1428,
+        "end": 3150
+      },
+      {
+        "num": 3,
+        "start": 3240,
+        "end": 4908
+      }
+    ]
+  },
+  {
+    "vID": "Fjc9hmK8_3U",
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "Northshore Warhawks 19U",
+    "targetGoalieColor": "White and Green",
+    "opponentGoalieColor": "Red and Blue",
+    "opponentGoalieTeamName": "Team South Dakota",
+    "eventDate": "2025-09-26",
+    "createdDate": "2026-04-16 19:50:15 CDT",
+    "eventName": "SEP-25: Northshore Warhawks 19U vs Team South Dakota",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=Fjc9hmK8_3U",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Ready for Analysis",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "Left",
+    "opponentStartSide": "Right",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 4,
+        "end": 1354
+      },
+      {
+        "num": 2,
+        "start": 1358,
+        "end": 2977
+      },
+      {
+        "num": 3,
+        "start": 2987,
+        "end": 4395
+      },
+      {
+        "num": 4,
+        "start": 4399,
+        "end": 4916
+      }
+    ]
+  },
+  {
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "Northshore Warhawks 19U",
+    "targetGoalieColor": "Green and White",
+    "opponentGoalieColor": "White and Red",
+    "opponentGoalieTeamName": "Chicago Hawks 19U",
+    "eventDate": "2025-10-25",
+    "createdDate": "2026-04-08 20:05:08 CDT",
+    "eventName": "OCT-25: Northshore Warhawks 19U vs Chicago Hawks 19U",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=HNG0jKYY12g",
+    "vID": "HNG0jKYY12g",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Ready for Analysis",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "Left",
+    "opponentStartSide": "Right",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 5,
+        "end": 1424
+      },
+      {
+        "num": 2,
+        "start": 1436,
+        "end": 2842
+      },
+      {
+        "num": 3,
+        "start": 2856,
+        "end": 4136
+      }
+    ]
+  },
+  {
+    "vID": "J8WkcuTsD5I",
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "Northshore Warhawks 19U",
+    "targetGoalieColor": "White and Green",
+    "opponentGoalieColor": "Black and Red",
+    "opponentGoalieTeamName": "Grand Rapids Griffins 19U",
+    "eventDate": "2025-09-25",
+    "createdDate": "2026-04-16 19:57:19 CDT",
+    "eventName": "SEP-25: Northshore Warhawks 19U vs Grand Rapids Griffins 19U",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=J8WkcuTsD5I",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Ready for Analysis",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "Left",
+    "opponentStartSide": "Right",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 2,
+        "end": 1433
+      },
+      {
+        "num": 2,
+        "start": 1441,
+        "end": 3020
+      },
+      {
+        "num": 3,
+        "start": 3060,
+        "end": 4551
+      }
+    ]
+  },
+  {
+    "vID": "kQVdtRa4o_A",
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "Northshore Warhawks 19U",
+    "targetGoalieColor": "Green and Blue",
+    "opponentGoalieColor": "Tan and Green",
+    "opponentGoalieTeamName": "Boston Hockey Academy 16U",
+    "eventDate": "2025-12-14",
+    "createdDate": "2026-04-16 20:03:34 CDT",
+    "eventName": "DEC-25: Northshore Warhawks 19U vs Boston Hockey Academy 16U",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=kQVdtRa4o_A",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Ready for Analysis",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "Left",
+    "opponentStartSide": "Right",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 6,
+        "end": 1228
+      },
+      {
+        "num": 2,
+        "start": 1239,
+        "end": 2469
+      },
+      {
+        "num": 3,
+        "start": 2483,
+        "end": 3796
+      }
+    ]
+  },
+  {
+    "vID": "krxhPVLGLz8",
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "Northshore Warhawks 19U",
+    "targetGoalieColor": "Green and Blue",
+    "opponentGoalieColor": "White and Black",
+    "opponentGoalieTeamName": "Rocky Mountain Lady Roughriders 19U",
+    "eventDate": "2025-11-15",
+    "createdDate": "2026-04-16 20:07:17 CDT",
+    "eventName": "NOV-25: Northshore Warhawks 19U vs Rocky Mountain Lady Roughriders 19U",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=krxhPVLGLz8",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Ready for Analysis",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "Right",
+    "opponentStartSide": "Left",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 2,
+        "end": 1080
+      },
+      {
+        "num": 2,
+        "start": 1095,
+        "end": 2270
+      },
+      {
+        "num": 3,
+        "start": 2288,
+        "end": 3545
+      }
+    ]
+  },
+  {
+    "vID": "KYtM20r9BuM",
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "Northshore Warhawks 19U",
+    "targetGoalieColor": "Green and Blue",
+    "opponentGoalieColor": "White and Black",
+    "opponentGoalieTeamName": "Wisconsin Selects",
+    "eventDate": "2025-09-13",
+    "createdDate": "2026-04-16 20:11:46 CDT",
+    "eventName": "SEP-25: Northshore Warhawks 19U vs Wisconsin Selects",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=KYtM20r9BuM",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Complete",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "Left",
+    "opponentStartSide": "Right",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 13,
+        "end": 1259
+      },
+      {
+        "num": 2,
+        "start": 1281,
+        "end": 2817
+      },
+      {
+        "num": 3,
+        "start": 2842,
+        "end": 4324
+      }
+    ]
+  },
+  {
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "Northshore Warhawks 19U",
+    "targetGoalieColor": "Green and Blue",
+    "opponentGoalieColor": "White and Blue",
+    "opponentGoalieTeamName": "West Dundee Leafs 19U",
+    "eventDate": "2025-12-20",
+    "createdDate": "2026-04-16 20:29:58 CDT",
+    "eventName": "DEC-25: Northshore Warhawks 19U vs West Dundee Leafs 19U",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=q5yj6sAFQeY",
+    "vID": "q5yj6sAFQeY",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Ready for Analysis",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "Right",
+    "opponentStartSide": "Left",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 7,
+        "end": 1353
+      },
+      {
+        "num": 2,
+        "start": 1421,
+        "end": 2798
+      },
+      {
+        "num": 3,
+        "start": 2837,
+        "end": 4301
+      }
+    ]
+  },
+  {
+    "targetGoalieName": "Maggie Anderson",
+    "targetGoalieTeamName": "Northshore Warhawks 19U",
+    "targetGoalieColor": "White and Green",
+    "opponentGoalieColor": "Blue, Red and White",
+    "opponentGoalieTeamName": "Connecticut Jr. Rangers 16U",
+    "eventDate": "52025-12-13",
+    "createdDate": "2026-04-05 21:30:54 CDT",
+    "eventName": "DEC-25: Northshore Warhawks 19U vs Connecticut Jr. Rangers 16U",
+    "eventSeason": "2025-2026",
+    "cameraAngle": "Side View",
+    "eventVideoURL": "https://www.youtube.com/watch?v=zOQrPK7IJ24",
+    "vID": "zOQrPK7IJ24",
+    "clientID": "CUST000031",
+    "analyticsStatus": "Ready for Analysis",
+    "segmentCnt": 0,
+    "segmentDuration": 0,
+    "segmentFavorites": [],
+    "targetStartSide": "Left",
+    "opponentStartSide": "Right",
+    "updatedDate": null,
+    "periods": [
+      {
+        "num": 1,
+        "start": 10,
+        "end": 1380
+      },
+      {
+        "num": 2,
+        "start": 1394,
+        "end": 3120
+      },
+      {
+        "num": 3,
+        "start": 3213,
+        "end": 4640
+      }
+    ]
+  }
 ]

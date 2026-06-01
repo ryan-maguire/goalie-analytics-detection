@@ -1,0 +1,102 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+SX5xNJlh6eQ	42.0	48.0	00:06	high slot	slap shot	save	False	no_match			
+SX5xNJlh6eQ	42.0	49.0	00:07	right circle	snap shot	save	False	no_match			
+SX5xNJlh6eQ	69.0	75.0	00:06	left point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	69.0	82.0	00:13	right point	wrist shot	blocked	False	no_match			
+SX5xNJlh6eQ	91.0	97.0	00:06	left point	slap shot	save	True	inside	86.0	98.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	185.0	194.0	00:09	high slot	slap shot	save	False	no_match			
+SX5xNJlh6eQ	185.0	199.0	00:14	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	210.0	227.0	00:17	high slot	slap shot	save	False	no_match			
+SX5xNJlh6eQ	210.0	236.0	00:26	left wing	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	253.0	258.0	00:05	right point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	253.0	269.0	00:16	left point	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	298.0	305.0	00:07	left point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	298.0	314.0	00:16	right point	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	374.0	379.0	00:05	left point	slap shot	miss	True	inside	379.0	391.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	374.0	385.0	00:11	right point	wrist shot	blocked	False	no_match			
+SX5xNJlh6eQ	443.0	454.0	00:11	left point	slap shot	miss	False	no_match			
+SX5xNJlh6eQ	540.0	551.0	00:11	left point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	540.0	552.0	00:12	right circle	snap shot	save	False	no_match			
+SX5xNJlh6eQ	540.0	588.0	00:48	left point	slap shot	blocked	False	no_match			
+SX5xNJlh6eQ	648.0	654.0	00:06	left point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	648.0	666.0	00:18	left point	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	681.0	693.0	00:12	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	681.0	695.0	00:14	high slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	681.0	703.0	00:22	left point	slap shot	save	True	inside	699.0	711.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	777.0	800.0	00:23	right point	slap shot	save	True	inside	793.0	805.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	861.0	869.0	00:08	high slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	861.0	870.0	00:09	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1006.0	1013.0	00:07	high slot	slap shot	save	False	no_match			
+SX5xNJlh6eQ	1006.0	1015.0	00:09	left circle	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1067.0	1074.0	00:07	high slot	slap shot	save	False	no_match			
+SX5xNJlh6eQ	1067.0	1077.0	00:10	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1103.0	1119.0	00:16	high slot	slap shot	save	False	no_match			
+SX5xNJlh6eQ	1188.0	1194.0	00:06	left point	slap shot	save	True	inside	1189.0	1201.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1188.0	1204.0	00:16	right point	wrist shot	miss	True	tolerance	1190.0	1202.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1243.0	1253.0	00:10	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1243.0	1255.0	00:12	low slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1397.0	1413.0	00:16	right point	slap shot	save	True	inside	1413.0	1425.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	1397.0	1414.0	00:17	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1456.0	1464.0	00:08	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1456.0	1466.0	00:10	left circle	slap shot	save	False	no_match			
+SX5xNJlh6eQ	1456.0	1468.0	00:12	right circle	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1571.0	1591.0	00:20	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1571.0	1592.0	00:21	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1734.0	1739.0	00:05	right point	slap shot	save	True	inside	1734.0	1746.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1734.0	1740.0	00:06	left circle	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1821.0	1827.0	00:06	right point	slap shot	save	True	inside	1819.0	1831.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	1821.0	1828.0	00:07	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	1919.0	1926.0	00:07	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1944.0	1960.0	00:16	high slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	1944.0	1965.0	00:21	right point	wrist shot	blocked	False	no_match			
+SX5xNJlh6eQ	2003.0	2010.0	00:07	high slot	wrist shot	save	True	inside	2002.0	2014.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2003.0	2011.0	00:08	left circle	wrist shot	save	True	tolerance	2013.0	2025.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	2029.0	2039.0	00:10	high slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	2029.0	2040.0	00:11	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2091.0	2097.0	00:06	high slot	slap shot	save	False	no_match			
+SX5xNJlh6eQ	2091.0	2098.0	00:07	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	2217.0	2225.0	00:08	right point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	2217.0	2226.0	00:09	low slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	2217.0	2227.0	00:10	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2248.0	2255.0	00:07	right point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	2248.0	2262.0	00:14	high slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2296.0	2304.0	00:08	left circle	wrist shot	save	True	tolerance	2290.0	2302.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2296.0	2306.0	00:10	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2296.0	2308.0	00:12	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2321.0	2331.0	00:10	high slot	slap shot	save	True	inside	2329.0	2341.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	2359.0	2364.0	00:05	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2359.0	2365.0	00:06	high slot	snap shot	save	False	no_match			
+SX5xNJlh6eQ	2390.0	2397.0	00:07	right circle	wrist shot	miss	True	inside	2394.0	2406.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2418.0	2424.0	00:06	left point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	2418.0	2429.0	00:11	right point	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2440.0	2455.0	00:15	high slot	slap shot	save	False	no_match			
+SX5xNJlh6eQ	2488.0	2495.0	00:07	high slot	slap shot	save	True	inside	2488.0	2500.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2488.0	2497.0	00:09	in close	backhand	save	False	no_match			
+SX5xNJlh6eQ	2566.0	2572.0	00:06	left point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	2566.0	2574.0	00:08	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2566.0	2576.0	00:10	low slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2661.0	2669.0	00:08	high slot	wrist shot	save	True	inside	2664.0	2676.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2682.0	2688.0	00:06	left point	slap shot	miss	False	no_match			
+SX5xNJlh6eQ	2718.0	2738.0	00:20	left point	slap shot	miss	False	no_match			
+SX5xNJlh6eQ	2718.0	2750.0	00:32	right point	wrist shot	blocked	False	no_match			
+SX5xNJlh6eQ	2797.0	2804.0	00:07	left circle	wrist shot	miss	True	inside	2795.0	2807.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2912.0	2917.0	00:05	right point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	2912.0	2919.0	00:07	left circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	2912.0	2926.0	00:14	right point	wrist shot	save	True	inside	2924.0	2936.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	2982.0	2993.0	00:11	left point	slap shot	save	True	inside	2988.0	3000.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	2982.0	2995.0	00:13	left circle	snap shot	save	True	tolerance	2982.0	2994.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	3083.0	3090.0	00:07	right circle	wrist shot	save	True	inside	3090.0	3102.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	3083.0	3091.0	00:08	left circle	snap shot	save	True	inside	3091.0	3103.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	3121.0	3123.0	00:02	left point	slap shot	save	True	inside	3119.0	3131.0	Philadelphia Jr. Flyers 19U AA
+SX5xNJlh6eQ	3121.0	3125.0	00:04	left wing	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3186.0	3201.0	00:15	left point	slap shot	miss	False	no_match			
+SX5xNJlh6eQ	3250.0	3261.0	00:11	left point	slap shot	save	False	no_match			
+SX5xNJlh6eQ	3250.0	3264.0	00:14	right circle	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3306.0	3313.0	00:07	left point	slap shot	miss	True	inside	3309.0	3321.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	3306.0	3322.0	00:16	right point	wrist shot	blocked	True	inside	3319.0	3331.0	North Shore Warhawks 19U AA
+SX5xNJlh6eQ	3306.0	3333.0	00:27	high slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3529.0	3535.0	00:06	right point	slap shot	miss	False	no_match			
+SX5xNJlh6eQ	3529.0	3542.0	00:13	left point	wrist shot	blocked	False	no_match			
+SX5xNJlh6eQ	3606.0	3613.0	00:07	high slot	wrist shot	save	False	no_match			
+SX5xNJlh6eQ	3606.0	3615.0	00:09	left circle	snap shot	save	False	no_match			
+SX5xNJlh6eQ	3634.0	3637.0	00:03	left point	slap shot	save	False	no_match			

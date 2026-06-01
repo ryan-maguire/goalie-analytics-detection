@@ -1,0 +1,95 @@
+==============================================================================
+metrics_seg evaluation report
+  generated:    2026-05-30 17:14:24 UTC
+  gt_dir:       data/ground_truth
+  metrics_dir:  data/output/runs/metrics_fusion_wide
+  cv_seg_dir:   data/output/runs/cv_seg_fusion_wide
+==============================================================================
+
+Two views are reported throughout:
+  STRICT     — only counts Hudl events from the team SHOOTING
+               at the window's threat_goalie_color. End-to-end
+               eval (depends on cv_seg attribution being correct).
+  UNFILTERED — counts ALL Hudl events overlapping the window
+               regardless of team. Tests the metric model in
+               isolation, independent of cv_seg attribution.
+
+If STRICT looks much worse than UNFILTERED, the gap is upstream
+cv_seg attribution error, not metric-model error.
+
+OVERALL — game-level totals
+------------------------------------------------------------------------------
+  videos:                 1
+  windows compared:       55
+
+                             STRICT     UNFILTERED
+  predicted shots                61             61
+  actual shots                   41             41
+  shots diff                    +20            +20
+  pred/actual ratio            1.49           1.49
+
+  predicted goals                 4              4
+  actual goals                    3              3
+  goals diff                     +1             +1
+
+PER-WINDOW shot-count accuracy
+------------------------------------------------------------------------------
+  windows:        55
+                             STRICT   UNFILTERED
+  mean abs error (MAE)        0.764        0.764
+  root mean sq error          1.062        1.062
+  signed bias                +0.364       +0.364
+  exact-match rate            40.0%        40.0%
+
+GOAL DETECTION — binary classifier (goals>=1 in window)
+------------------------------------------------------------------------------
+                         STRICT   UNFILTERED
+  TP                          1            1
+  FP                          3            3
+  FN                          2            2
+  TN                         49           49
+  precision               0.250        0.250
+  recall                  0.333        0.333
+  F1                      0.286        0.286
+
+PER VIDEO (STRICT counts)
+------------------------------------------------------------------------------
+  vID               hudl  status             win  PrSh  GtSh   ΔSh PrGl GtGl  ΔGl
+  q5yj6sAFQeY    2127052  ok                  55    61    41   +20    4    3   +1
+      note: no team→color mapping — counting all overlapping events
+
+SANITY — Hudl game totals (all teams) vs window-level coverage
+------------------------------------------------------------------------------
+  Helps catch attribution mistakes — if Hudl recorded N shots in a game but only M show up in our window-level totals, the missing N-M either (a) fell outside any cv_seg window, or (b) belonged to a team we filtered out.
+  q5yj6sAFQeY    hudl-game shots:  78, window-attributed STRICT:  41 ( 52.6%), UNFILTERED:  41 ( 52.6%)
+  q5yj6sAFQeY    hudl-game goals:   3, window-attributed STRICT:   3, UNFILTERED:   3
+
+==============================================================================
+SHOT-TIMESTAMPS EVAL (v11)
+------------------------------------------------------------------------------
+  Videos with shot_timestamps:   1
+  Total predicted shots:         62
+  Total Hudl GT shots:           78
+    in cv_seg-covered time:      33
+    in uncovered time (cv miss): 45
+
+  Counts (one-to-one matching, ±3s tolerance for lenient):
+    TP (pred inside GT window):  20
+    TP (lenient — w/ tolerance): 23
+    FP (pred matched no GT):     42
+    FN (GT missed in coverage):  10
+    FN (GT in cv_seg miss):      45
+
+  End-to-end (P/R/F1):           P=0.3226  R=0.2667  F1=0.292
+  Within-coverage  (P/R/F1):     P=0.3226  R=0.6667  F1=0.4348
+
+  Per-video shot-eval (sorted by F1):
+    vID               TP  FP  FN FN_u      P    R   F1   R_in F1_in
+    q5yj6sAFQeY       20  42  10   45   0.32 0.27 0.29   0.67  0.43
+
+==============================================================================
+WINDOW REFINEMENT (v11+ shot-centered tightening)
+------------------------------------------------------------------------------
+  Per video — median segment width before/after shot-centering refinement
+  vID               N  orig med   ref med  orig mean  ref mean  sources
+  q5yj6sAFQeY      55       20s       16s        27s       19s  shot_timestamps=41, fallback_no_shots=14

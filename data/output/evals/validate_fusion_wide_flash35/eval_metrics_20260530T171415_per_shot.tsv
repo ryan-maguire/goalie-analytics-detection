@@ -1,0 +1,70 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+HNG0jKYY12g	63.0	66.0	00:03	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	189.0	202.0	00:13	right circle	snap shot	save	True	inside	202.0	214.0	North Shore Warhawks 19U AA
+HNG0jKYY12g	247.0	254.0	00:07	low slot	snap shot	save	False	no_match			
+HNG0jKYY12g	327.0	329.0	00:02	low slot	wrist shot	save	True	inside	327.0	339.0	Chicago Hawks 19U
+HNG0jKYY12g	327.0	340.0	00:13	low slot	snap shot	save	False	no_match			
+HNG0jKYY12g	521.0	532.0	00:11	left wing	wrist shot	save	False	no_match			
+HNG0jKYY12g	582.0	585.0	00:03	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	817.0	831.0	00:14	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	847.0	851.0	00:04	low slot	snap shot	save	False	no_match			
+HNG0jKYY12g	902.0	914.0	00:12	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	1092.0	1095.0	00:03	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	1139.0	1153.0	00:14	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	1273.0	1277.0	00:04	right circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	1273.0	1278.0	00:05	low slot	snap shot	save	False	no_match			
+HNG0jKYY12g	1273.0	1282.0	00:09	low slot	snap shot	save	False	no_match			
+HNG0jKYY12g	1313.0	1332.0	00:19	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	1313.0	1333.0	00:20	in close	backhand	save	False	no_match			
+HNG0jKYY12g	1313.0	1341.0	00:28	left circle	wrist shot	save	True	tolerance	1344.0	1356.0	Chicago Hawks 19U
+HNG0jKYY12g	1313.0	1350.0	00:37	low slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	1313.0	1358.0	00:45	left circle	snap shot	save	False	no_match			
+HNG0jKYY12g	1313.0	1367.0	00:54	high slot	wrist shot	save	True	inside	1364.0	1376.0	Chicago Hawks 19U
+HNG0jKYY12g	1313.0	1371.0	00:58	low slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	1444.0	1445.0	00:01	left circle	wrist shot	save	True	inside	1442.0	1454.0	Chicago Hawks 19U
+HNG0jKYY12g	1481.0	1482.0	00:01	high slot	wrist shot	save	True	inside	1479.0	1491.0	Chicago Hawks 19U
+HNG0jKYY12g	1481.0	1483.0	00:02	in close	snap shot	save	False	no_match			
+HNG0jKYY12g	1567.0	1568.0	00:01	right circle	wrist shot	save	True	inside	1565.0	1577.0	North Shore Warhawks 19U AA
+HNG0jKYY12g	1567.0	1571.0	00:04	high slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	1567.0	1581.0	00:14	low slot	snap shot	save	True	inside	1576.0	1588.0	North Shore Warhawks 19U AA
+HNG0jKYY12g	1615.0	1616.0	00:01	right circle	wrist shot	goal	False	no_match			
+HNG0jKYY12g	1681.0	1682.0	00:01	right circle	snap shot	save	False	no_match			
+HNG0jKYY12g	1716.0	1718.0	00:02	right circle	wrist shot	save	True	inside	1713.0	1725.0	Chicago Hawks 19U
+HNG0jKYY12g	1777.0	1782.0	00:05	left circle	wrist shot	save	True	inside	1777.0	1789.0	Chicago Hawks 19U
+HNG0jKYY12g	1777.0	1788.0	00:11	right circle	wrist shot	save	True	tolerance	1790.0	1802.0	Chicago Hawks 19U
+HNG0jKYY12g	1777.0	1791.0	00:14	high slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	1777.0	1802.0	00:25	left point	wrist shot	save	False	no_match			
+HNG0jKYY12g	1893.0	1903.0	00:10	left point	wrist shot	save	True	inside	1894.0	1906.0	Chicago Hawks 19U
+HNG0jKYY12g	1926.0	1937.0	00:11	left circle	wrist shot	save	True	inside	1935.0	1947.0	Chicago Hawks 19U
+HNG0jKYY12g	2014.0	2015.0	00:01	right circle	wrist shot	save	True	inside	2011.0	2023.0	North Shore Warhawks 19U AA
+HNG0jKYY12g	2014.0	2029.0	00:15	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	2014.0	2043.0	00:29	right circle	wrist shot	save	True	inside	2042.0	2054.0	Chicago Hawks 19U
+HNG0jKYY12g	2156.0	2160.0	00:04	right circle	wrist shot	save	True	inside	2157.0	2169.0	Chicago Hawks 19U
+HNG0jKYY12g	2156.0	2180.0	00:24	left circle	wrist shot	save	True	inside	2177.0	2189.0	Chicago Hawks 19U
+HNG0jKYY12g	2206.0	2216.0	00:10	low slot	snap shot	save	True	inside	2208.0	2220.0	Chicago Hawks 19U
+HNG0jKYY12g	2206.0	2222.0	00:16	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	2206.0	2227.0	00:21	in close	snap shot	save	False	no_match			
+HNG0jKYY12g	2350.0	2354.0	00:04	high slot	wrist shot	save	True	tolerance	2357.0	2369.0	Chicago Hawks 19U
+HNG0jKYY12g	2350.0	2368.0	00:18	low slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	2373.0	2374.0	00:01	high slot	wrist shot	save	True	inside	2374.0	2386.0	Chicago Hawks 19U
+HNG0jKYY12g	2373.0	2377.0	00:04	in close	redirect/tip	save	True	inside	2375.0	2387.0	Chicago Hawks 19U
+HNG0jKYY12g	2425.0	2427.0	00:02	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	2512.0	2521.0	00:09	left circle	wrist shot	save	True	inside	2521.0	2533.0	Chicago Hawks 19U
+HNG0jKYY12g	2534.0	2546.0	00:12	low slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	2633.0	2634.0	00:01	low slot	snap shot	goal	True	inside	2629.0	2641.0	North Shore Warhawks 19U AA
+HNG0jKYY12g	3045.0	3047.0	00:02	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	3193.0	3193.0	00:00	right circle	wrist shot	save	True	inside	3188.0	3200.0	Chicago Hawks 19U
+HNG0jKYY12g	3286.0	3292.0	00:06	high slot	wrist shot	save	True	inside	3292.0	3304.0	Chicago Hawks 19U
+HNG0jKYY12g	3327.0	3344.0	00:17	right circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	3354.0	3363.0	00:09	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	3423.0	3444.0	00:21	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	3423.0	3449.0	00:26	high slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	3460.0	3466.0	00:06	high slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	3551.0	3567.0	00:16	right circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	3575.0	3577.0	00:02	right circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	3575.0	3603.0	00:28	high slot	wrist shot	save	False	no_match			
+HNG0jKYY12g	3847.0	3862.0	00:15	low slot	wrist shot	goal	True	tolerance	3865.0	3877.0	Chicago Hawks 19U
+HNG0jKYY12g	4086.0	4104.0	00:18	left circle	wrist shot	save	True	inside	4095.0	4107.0	Chicago Hawks 19U
+HNG0jKYY12g	4115.0	4116.0	00:01	left circle	wrist shot	save	False	no_match			
+HNG0jKYY12g	4115.0	4118.0	00:03	in close	snap shot	save	False	no_match			
+HNG0jKYY12g	4115.0	4123.0	00:08	left circle	wrist shot	save	False	no_match			

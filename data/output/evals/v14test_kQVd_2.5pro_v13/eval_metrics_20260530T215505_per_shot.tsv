@@ -1,0 +1,127 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+kQVdtRa4o_A	6.0	26.0	00:20	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	32.0	53.0	00:21	left wing	wrist shot	save	False	no_match			
+kQVdtRa4o_A	32.0	54.0	00:22	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	63.0	64.0	00:01	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	63.0	65.0	00:02	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	63.0	74.0	00:11	left point	wrist shot	blocked	False	no_match			
+kQVdtRa4o_A	94.0	96.0	00:02	low slot	snap shot	save	True	inside	91.0	103.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	94.0	97.0	00:03	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	134.0	136.0	00:02	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	134.0	159.0	00:25	low slot	backhand	save	True	inside	152.0	164.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	165.0	179.0	00:14	low slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	165.0	184.0	00:19	right circle	wrist shot	save	True	inside	183.0	195.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	165.0	193.0	00:28	right point	wrist shot	save	False	no_match			
+kQVdtRa4o_A	196.0	207.0	00:11	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	196.0	208.0	00:12	low slot	backhand	save	False	no_match			
+kQVdtRa4o_A	196.0	218.0	00:22	left circle	wrist shot	save	True	inside	213.0	225.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	196.0	225.0	00:29	left circle	wrist shot	save	True	inside	225.0	237.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	227.0	241.0	00:14	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	227.0	254.0	00:27	left wing	backhand	save	False	no_match			
+kQVdtRa4o_A	258.0	274.0	00:16	high slot	snap shot	save	True	tolerance	276.0	288.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	289.0	291.0	00:02	high slot	wrist shot	save	True	tolerance	292.0	304.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	289.0	292.0	00:03	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	351.0	376.0	00:25	in close	wrist shot	save	False	no_match			
+kQVdtRa4o_A	382.0	404.0	00:22	high slot	wrist shot	save	True	inside	403.0	415.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	413.0	428.0	00:15	low slot	redirect/tip	save	False	no_match			
+kQVdtRa4o_A	413.0	429.0	00:16	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	444.0	460.0	00:16	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	444.0	461.0	00:17	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	475.0	482.0	00:07	left circle	wrist shot	save	True	inside	474.0	486.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	475.0	491.0	00:16	low slot	wrist shot	save	True	inside	485.0	497.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	475.0	497.0	00:22	left point	wrist shot	blocked	False	no_match			
+kQVdtRa4o_A	506.0	511.0	00:05	high slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	506.0	512.0	00:06	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	537.0	541.0	00:04	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	537.0	556.0	00:19	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	537.0	564.0	00:27	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	568.0	596.0	00:28	high slot	wrist shot	save	True	tolerance	599.0	611.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	648.0	664.0	00:16	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	648.0	670.0	00:22	low slot	snap shot	save	True	tolerance	671.0	683.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	648.0	674.0	00:26	right circle	wrist shot	blocked	False	no_match			
+kQVdtRa4o_A	679.0	708.0	00:29	left circle	snap shot	save	False	no_match			
+kQVdtRa4o_A	710.0	736.0	00:26	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	741.0	759.0	00:18	right wing	wrist shot	save	False	no_match			
+kQVdtRa4o_A	741.0	762.0	00:21	low slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	741.0	767.0	00:26	right point	wrist shot	save	False	no_match			
+kQVdtRa4o_A	772.0	799.0	00:27	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	803.0	829.0	00:26	low slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	834.0	837.0	00:03	in close	wrist shot	save	False	no_match			
+kQVdtRa4o_A	834.0	848.0	00:14	low slot	redirect/tip	save	False	no_match			
+kQVdtRa4o_A	834.0	853.0	00:19	high slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	834.0	854.0	00:20	low slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	865.0	885.0	00:20	left circle	snap shot	save	False	no_match			
+kQVdtRa4o_A	896.0	907.0	00:11	high slot	wrist shot	save	True	inside	901.0	913.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	927.0	932.0	00:05	high slot	wrist shot	save	True	inside	925.0	937.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	967.0	970.0	00:03	low slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	967.0	983.0	00:16	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	967.0	985.0	00:18	right point	wrist shot	save	False	no_match			
+kQVdtRa4o_A	998.0	1005.0	00:07	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	1029.0	1039.0	00:10	right wing	wrist shot	save	False	no_match			
+kQVdtRa4o_A	1029.0	1046.0	00:17	high slot	wrist shot	blocked	False	no_match			
+kQVdtRa4o_A	1029.0	1056.0	00:27	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	1091.0	1113.0	00:22	left circle	wrist shot	save	True	inside	1113.0	1125.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	1122.0	1143.0	00:21	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	1153.0	1167.0	00:14	low slot	redirect/tip	save	True	tolerance	1168.0	1180.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	1215.0	1219.0	00:04	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2358.0	2360.0	00:02	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2358.0	2362.0	00:04	low slot	backhand	save	False	no_match			
+kQVdtRa4o_A	2358.0	2368.0	00:10	right point	wrist shot	blocked	False	no_match			
+kQVdtRa4o_A	2358.0	2383.0	00:25	left wing	wrist shot	miss	True	inside	2373.0	2385.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	2451.0	2452.0	00:01	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2451.0	2453.0	00:02	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	2513.0	2521.0	00:08	left circle	wrist shot	save	True	inside	2519.0	2531.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	2575.0	2577.0	00:02	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2575.0	2578.0	00:03	low slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	2575.0	2597.0	00:22	right circle	wrist shot	save	True	inside	2588.0	2600.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	2606.0	2612.0	00:06	left circle	wrist shot	save	True	inside	2608.0	2620.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	2606.0	2633.0	00:27	right circle	wrist shot	save	True	tolerance	2619.0	2631.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	2606.0	2634.0	00:28	low slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	2637.0	2641.0	00:04	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2637.0	2644.0	00:07	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2637.0	2646.0	00:09	left point	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2668.0	2693.0	00:25	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2699.0	2723.0	00:24	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2699.0	2726.0	00:27	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2730.0	2734.0	00:04	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2730.0	2735.0	00:05	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	2823.0	2839.0	00:16	low slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	2855.0	2879.0	00:24	low slot	wrist shot	save	True	tolerance	2866.0	2878.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	2889.0	2892.0	00:03	in close	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2889.0	2893.0	00:04	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	2920.0	2948.0	00:28	right circle	snap shot	save	True	inside	2944.0	2956.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	2951.0	2953.0	00:02	low slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	2951.0	2961.0	00:10	high slot	wrist shot	save	True	inside	2961.0	2973.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	2951.0	2966.0	00:15	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2982.0	3001.0	00:19	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3075.0	3084.0	00:09	in close	backhand	save	True	inside	3079.0	3091.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	3075.0	3088.0	00:13	low slot	wrist shot	save	True	inside	3082.0	3094.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	3075.0	3091.0	00:16	in close	wrist shot	save	True	inside	3083.0	3095.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	3166.0	3178.0	00:12	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3166.0	3182.0	00:16	low slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	3166.0	3190.0	00:24	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3166.0	3194.0	00:28	left circle	wrist shot	save	True	tolerance	3197.0	3209.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	3197.0	3214.0	00:17	left point	wrist shot	save	True	inside	3214.0	3226.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	3197.0	3217.0	00:20	right wing	wrist shot	miss	False	no_match			
+kQVdtRa4o_A	3228.0	3249.0	00:21	in close	wrist shot	save	True	inside	3244.0	3256.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	3312.0	3317.0	00:05	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3312.0	3318.0	00:06	low slot	backhand	save	False	no_match			
+kQVdtRa4o_A	3312.0	3340.0	00:28	right wing	wrist shot	save	True	inside	3336.0	3348.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	3343.0	3351.0	00:08	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3343.0	3355.0	00:12	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3343.0	3368.0	00:25	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3374.0	3380.0	00:06	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3374.0	3382.0	00:08	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	3504.0	3519.0	00:15	low slot	redirect/tip	save	False	no_match			
+kQVdtRa4o_A	3504.0	3525.0	00:21	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3535.0	3563.0	00:28	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3566.0	3588.0	00:22	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3566.0	3591.0	00:25	right circle	wrist shot	miss	False	no_match			
+kQVdtRa4o_A	3597.0	3603.0	00:06	high slot	wrist shot	save	True	inside	3600.0	3612.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	3597.0	3604.0	00:07	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	3657.0	3674.0	00:17	right circle	wrist shot	save	True	inside	3664.0	3676.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	3688.0	3700.0	00:12	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3719.0	3727.0	00:08	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3719.0	3731.0	00:12	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3750.0	3754.0	00:04	high slot	wrist shot	save	True	inside	3748.0	3760.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	3781.0	3787.0	00:06	right circle	wrist shot	save	False	no_match			

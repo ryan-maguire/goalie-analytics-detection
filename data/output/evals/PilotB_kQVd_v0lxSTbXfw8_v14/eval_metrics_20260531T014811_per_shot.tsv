@@ -1,0 +1,107 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+v0lxSTbXfw8	58.0	93.0	00:35	left circle	wrist shot	save	True	inside	89.0	101.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	58.0	94.0	00:36	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	58.0	112.0	00:54	right circle	wrist shot	save	True	tolerance	115.0	127.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	118.0	120.0	00:02	left circle	wrist shot	save	True	inside	119.0	131.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	118.0	121.0	00:03	low slot	snap shot	save	True	tolerance	123.0	135.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	118.0	129.0	00:11	in close	backhand	goal	False	no_match			
+v0lxSTbXfw8	231.0	233.0	00:02	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	231.0	237.0	00:06	left circle	wrist shot	blocked	False	no_match			
+v0lxSTbXfw8	231.0	277.0	00:46	right point	wrist shot	blocked	False	no_match			
+v0lxSTbXfw8	291.0	293.0	00:02	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	308.0	310.0	00:02	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	323.0	331.0	00:08	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	323.0	373.0	00:50	low slot	wrist shot	goal	True	inside	367.0	379.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	440.0	442.0	00:02	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	455.0	472.0	00:17	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	507.0	565.0	00:58	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	567.0	587.0	00:20	high slot	wrist shot	save	True	inside	582.0	594.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	567.0	597.0	00:30	left circle	wrist shot	goal	False	no_match			
+v0lxSTbXfw8	619.0	668.0	00:49	high slot	wrist shot	save	False	no_match			
+v0lxSTbXfw8	619.0	669.0	00:50	in close	backhand	save	False	no_match			
+v0lxSTbXfw8	679.0	713.0	00:34	left point	snap shot	blocked	True	inside	709.0	721.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	679.0	720.0	00:41	low slot	wrist shot	save	False	no_match			
+v0lxSTbXfw8	739.0	755.0	00:16	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	739.0	757.0	00:18	low slot	backhand	save	False	no_match			
+v0lxSTbXfw8	739.0	765.0	00:26	high slot	wrist shot	save	False	no_match			
+v0lxSTbXfw8	739.0	791.0	00:52	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	799.0	803.0	00:04	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	799.0	841.0	00:42	low slot	backhand	save	True	inside	837.0	849.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	799.0	857.0	00:58	left point	wrist shot	save	False	no_match			
+v0lxSTbXfw8	958.0	962.0	00:04	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	958.0	964.0	00:06	in close	wrist shot	save	False	no_match			
+v0lxSTbXfw8	958.0	965.0	00:07	in close	wrist shot	save	False	no_match			
+v0lxSTbXfw8	958.0	1000.0	00:42	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	958.0	1008.0	00:50	right circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	958.0	1016.0	00:58	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	1018.0	1021.0	00:03	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	1123.0	1147.0	00:24	right circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	1123.0	1160.0	00:37	left point	wrist shot	blocked	False	no_match			
+v0lxSTbXfw8	1166.0	1172.0	00:06	left circle	wrist shot	save	True	inside	1167.0	1179.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	1166.0	1173.0	00:07	low slot	backhand	save	False	no_match			
+v0lxSTbXfw8	1166.0	1183.0	00:17	right point	wrist shot	blocked	False	no_match			
+v0lxSTbXfw8	1214.0	1224.0	00:10	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	1298.0	1317.0	00:19	right circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	1320.0	1335.0	00:15	right circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	1320.0	1349.0	00:29	left circle	wrist shot	save	True	inside	1346.0	1358.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	1460.0	1477.0	00:17	right circle	wrist shot	save	True	inside	1472.0	1484.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	1460.0	1478.0	00:18	low slot	backhand	save	True	tolerance	1480.0	1492.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	1460.0	1484.0	00:24	left point	wrist shot	save	False	no_match			
+v0lxSTbXfw8	1491.0	1507.0	00:16	low slot	snap shot	save	True	inside	1504.0	1516.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	1512.0	1514.0	00:02	high slot	wrist shot	save	False	no_match			
+v0lxSTbXfw8	1540.0	1556.0	00:16	left circle	snap shot	save	False	no_match			
+v0lxSTbXfw8	1564.0	1564.0	00:00	high slot	wrist shot	save	False	no_match			
+v0lxSTbXfw8	1564.0	1565.0	00:01	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	1819.0	1827.0	00:08	low slot	snap shot	save	True	inside	1816.0	1828.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	1819.0	1837.0	00:18	in close	snap shot	save	True	inside	1831.0	1843.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	1850.0	1858.0	00:08	left circle	snap shot	save	False	no_match			
+v0lxSTbXfw8	1863.0	1865.0	00:02	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	1863.0	1866.0	00:03	in close	snap shot	save	False	no_match			
+v0lxSTbXfw8	1974.0	1976.0	00:02	right circle	wrist shot	save	True	tolerance	1978.0	1990.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	1974.0	1978.0	00:04	low slot	backhand	save	False	no_match			
+v0lxSTbXfw8	2099.0	2102.0	00:03	low slot	snap shot	save	True	inside	2096.0	2108.0	North Shore Warhawks 19U AA
+v0lxSTbXfw8	2099.0	2105.0	00:06	right circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2134.0	2141.0	00:07	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	2203.0	2232.0	00:29	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	2281.0	2318.0	00:37	left circle	wrist shot	save	True	inside	2310.0	2322.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	2281.0	2321.0	00:40	low slot	wrist shot	save	True	inside	2321.0	2333.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	2348.0	2357.0	00:09	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2489.0	2503.0	00:14	low slot	redirect/tip	save	True	inside	2501.0	2513.0	North Shore Warhawks 19U AA
+v0lxSTbXfw8	2519.0	2550.0	00:31	high slot	wrist shot	save	True	inside	2545.0	2557.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	2519.0	2572.0	00:53	left point	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2611.0	2615.0	00:04	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	2611.0	2653.0	00:42	left circle	wrist shot	save	True	inside	2653.0	2665.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	2611.0	2661.0	00:50	high slot	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2611.0	2668.0	00:57	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2671.0	2727.0	00:56	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2731.0	2760.0	00:29	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2731.0	2761.0	00:30	in close	redirect/tip	save	False	no_match			
+v0lxSTbXfw8	2791.0	2804.0	00:13	high slot	redirect/tip	save	True	inside	2798.0	2810.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	2791.0	2818.0	00:27	left circle	wrist shot	save	True	inside	2812.0	2824.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	2851.0	2853.0	00:02	left circle	wrist shot	save	True	inside	2848.0	2860.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	2851.0	2854.0	00:03	low slot	backhand	save	False	no_match			
+v0lxSTbXfw8	2851.0	2859.0	00:08	high slot	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2870.0	2907.0	00:37	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2953.0	2955.0	00:02	right circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2953.0	2956.0	00:03	low slot	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2953.0	2978.0	00:25	left circle	wrist shot	save	True	inside	2974.0	2986.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	2953.0	2981.0	00:28	right circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	2953.0	2994.0	00:41	right circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	3290.0	3292.0	00:02	low slot	wrist shot	save	True	inside	3289.0	3301.0	North Shore Warhawks 19U AA
+v0lxSTbXfw8	3290.0	3318.0	00:28	in close	wrist shot	save	True	inside	3311.0	3323.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	3290.0	3330.0	00:40	high slot	wrist shot	blocked	False	no_match			
+v0lxSTbXfw8	3290.0	3333.0	00:43	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	3401.0	3427.0	00:26	right circle	wrist shot	save	True	inside	3422.0	3434.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	3401.0	3459.0	00:58	high slot	wrist shot	save	True	inside	3453.0	3465.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	3461.0	3513.0	00:52	high slot	snap shot	save	True	inside	3508.0	3520.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	3461.0	3515.0	00:54	left circle	wrist shot	blocked	False	no_match			
+v0lxSTbXfw8	3521.0	3532.0	00:11	left circle	wrist shot	save	True	tolerance	3535.0	3547.0	Coeur d'Alene Lady Thunder 19U AA
+v0lxSTbXfw8	3521.0	3533.0	00:12	low slot	backhand	save	False	no_match			
+v0lxSTbXfw8	3521.0	3546.0	00:25	low slot	wrist shot	goal	False	no_match			
+v0lxSTbXfw8	3628.0	3647.0	00:19	low slot	snap shot	save	False	no_match			
+v0lxSTbXfw8	3628.0	3651.0	00:23	left point	wrist shot	blocked	False	no_match			
+v0lxSTbXfw8	3653.0	3696.0	00:43	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	3653.0	3697.0	00:44	in close	backhand	save	False	no_match			
+v0lxSTbXfw8	3754.0	3795.0	00:41	low slot	redirect/tip	save	False	no_match			
+v0lxSTbXfw8	3754.0	3807.0	00:53	left circle	wrist shot	save	False	no_match			
+v0lxSTbXfw8	3814.0	3840.0	00:26	high slot	snap shot	save	False	no_match			

@@ -1,0 +1,98 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+q5yj6sAFQeY	81.0	105.0	00:24	left point	wrist shot	save	False	no_match			
+q5yj6sAFQeY	81.0	140.0	00:59	left point	slap shot	blocked	False	no_match			
+q5yj6sAFQeY	148.0	156.0	00:08	right point	slap shot	save	False	no_match			
+q5yj6sAFQeY	148.0	158.0	00:10	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	215.0	234.0	00:19	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	215.0	244.0	00:29	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	277.0	288.0	00:11	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	277.0	290.0	00:13	right circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	403.0	415.0	00:12	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	434.0	445.0	00:11	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	434.0	447.0	00:13	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	533.0	552.0	00:19	right circle	wrist shot	save	True	inside	551.0	563.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	533.0	556.0	00:23	left point	slap shot	blocked	False	no_match			
+q5yj6sAFQeY	533.0	560.0	00:27	right point	slap shot	save	False	no_match			
+q5yj6sAFQeY	658.0	665.0	00:07	left circle	wrist shot	miss	False	no_match			
+q5yj6sAFQeY	658.0	675.0	00:17	high slot	wrist shot	save	True	tolerance	677.0	689.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	658.0	676.0	00:18	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	689.0	700.0	00:11	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	689.0	707.0	00:18	right point	wrist shot	save	False	no_match			
+q5yj6sAFQeY	720.0	732.0	00:12	high slot	slap shot	miss	False	no_match			
+q5yj6sAFQeY	789.0	795.0	00:06	left point	slap shot	save	True	inside	790.0	802.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	820.0	835.0	00:15	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	856.0	867.0	00:11	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	856.0	877.0	00:21	right point	wrist shot	save	False	no_match			
+q5yj6sAFQeY	887.0	902.0	00:15	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	887.0	903.0	00:16	right circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	918.0	929.0	00:11	high slot	snap shot	save	True	inside	927.0	939.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	918.0	939.0	00:21	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	949.0	955.0	00:06	left point	slap shot	save	True	tolerance	957.0	969.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	949.0	956.0	00:07	right circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	980.0	990.0	00:10	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	980.0	992.0	00:12	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1080.0	1086.0	00:06	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	1080.0	1106.0	00:26	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1111.0	1127.0	00:16	high slot	slap shot	save	True	tolerance	1128.0	1140.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	1111.0	1138.0	00:27	left point	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1142.0	1153.0	00:11	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	1142.0	1163.0	00:21	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	1266.0	1273.0	00:07	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	1266.0	1283.0	00:17	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1266.0	1284.0	00:18	left circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	1595.0	1604.0	00:09	high slot	wrist shot	save	True	tolerance	1589.0	1601.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	1803.0	1811.0	00:08	right circle	wrist shot	save	True	inside	1801.0	1813.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	1803.0	1815.0	00:12	right point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	1803.0	1822.0	00:19	left point	wrist shot	blocked	False	no_match			
+q5yj6sAFQeY	1803.0	1828.0	00:25	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	1803.0	1832.0	00:29	right circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	1834.0	1842.0	00:08	high slot	wrist shot	save	True	tolerance	1845.0	1857.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	1834.0	1848.0	00:14	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	1834.0	1855.0	00:21	right point	slap shot	blocked	False	no_match			
+q5yj6sAFQeY	1989.0	1996.0	00:07	right point	slap shot	save	True	inside	1992.0	2004.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	2024.0	2030.0	00:06	right point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	2024.0	2041.0	00:17	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	2024.0	2042.0	00:18	right circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2068.0	2076.0	00:08	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2068.0	2078.0	00:10	right circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	2092.0	2103.0	00:11	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	2092.0	2105.0	00:13	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2123.0	2148.0	00:25	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2192.0	2201.0	00:09	right circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2192.0	2203.0	00:11	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2192.0	2208.0	00:16	in close	snap shot	goal	False	no_match			
+q5yj6sAFQeY	2223.0	2231.0	00:08	right circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	2380.0	2386.0	00:06	right point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	2380.0	2393.0	00:13	high slot	wrist shot	blocked	False	no_match			
+q5yj6sAFQeY	2380.0	2402.0	00:22	left point	slap shot	blocked	False	no_match			
+q5yj6sAFQeY	2642.0	2651.0	00:09	high slot	wrist shot	save	True	tolerance	2652.0	2664.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	2642.0	2652.0	00:10	right circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	2772.0	2777.0	00:05	right circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	2772.0	2779.0	00:07	left circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	2772.0	2784.0	00:12	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	2873.0	2888.0	00:15	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	2873.0	2891.0	00:18	right circle	snap shot	save	False	no_match			
+q5yj6sAFQeY	2904.0	2931.0	00:27	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	3218.0	3229.0	00:11	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	3246.0	3252.0	00:06	left point	slap shot	save	True	inside	3245.0	3257.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	3246.0	3268.0	00:22	right point	wrist shot	blocked	True	tolerance	3269.0	3281.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	3339.0	3350.0	00:11	high slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	3339.0	3351.0	00:12	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3432.0	3439.0	00:07	high slot	snap shot	save	True	inside	3438.0	3450.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	3432.0	3451.0	00:19	left point	slap shot	save	True	inside	3451.0	3463.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	3494.0	3500.0	00:06	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3494.0	3502.0	00:08	left circle	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3494.0	3504.0	00:10	in close	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3494.0	3506.0	00:12	low slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3717.0	3737.0	00:20	high slot	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3717.0	3740.0	00:23	in close	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3818.0	3825.0	00:07	high slot	wrist shot	save	True	tolerance	3812.0	3824.0	North Shore Warhawks 19U AA
+q5yj6sAFQeY	3818.0	3836.0	00:18	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	3849.0	3857.0	00:08	left point	slap shot	miss	False	no_match			
+q5yj6sAFQeY	3849.0	3867.0	00:18	high slot	wrist shot	save	True	inside	3866.0	3878.0	West Dundee Leafs 19U AA (w)
+q5yj6sAFQeY	3880.0	3906.0	00:26	high slot	slap shot	miss	False	no_match			
+q5yj6sAFQeY	3942.0	3958.0	00:16	left point	wrist shot	save	False	no_match			
+q5yj6sAFQeY	3973.0	3990.0	00:17	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	3973.0	3992.0	00:19	low slot	snap shot	save	False	no_match			
+q5yj6sAFQeY	4193.0	4209.0	00:16	left point	slap shot	save	False	no_match			
+q5yj6sAFQeY	4264.0	4276.0	00:12	high slot	wrist shot	save	False	no_match			

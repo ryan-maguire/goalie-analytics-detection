@@ -1,0 +1,36 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+zOQrPK7IJ24	6.0	7.0	00:01	right circle	snap shot	save	False	no_match			
+zOQrPK7IJ24	88.0	93.0	00:05	in close	snap shot	save	False	no_match			
+zOQrPK7IJ24	373.0	376.0	00:03	high slot	wrist shot	save	False	no_match			
+zOQrPK7IJ24	442.0	451.0	00:09	left circle	wrist shot	save	True	inside	450.0	462.0	North Shore Warhawks 19U AA
+zOQrPK7IJ24	442.0	455.0	00:13	right circle	wrist shot	save	True	inside	454.0	466.0	North Shore Warhawks 19U AA
+zOQrPK7IJ24	442.0	460.0	00:18	in close	snap shot	save	False	no_match			
+zOQrPK7IJ24	727.0	732.0	00:05	left circle	wrist shot	save	True	inside	730.0	742.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	727.0	734.0	00:07	low slot	snap shot	goal	True	inside	733.0	745.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	962.0	974.0	00:12	low slot	snap shot	save	False	no_match			
+zOQrPK7IJ24	962.0	975.0	00:13	low slot	snap shot	save	False	no_match			
+zOQrPK7IJ24	1298.0	1298.0	00:00	left circle	wrist shot	save	True	inside	1293.0	1305.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	1298.0	1313.0	00:15	right circle	wrist shot	save	False	no_match			
+zOQrPK7IJ24	1569.0	1571.0	00:02	left circle	wrist shot	save	False	no_match			
+zOQrPK7IJ24	1655.0	1667.0	00:12	low slot	wrist shot	save	False	no_match			
+zOQrPK7IJ24	1814.0	1821.0	00:07	low slot	snap shot	goal	True	inside	1821.0	1833.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	1842.0	1843.0	00:01	right circle	wrist shot	save	True	inside	1839.0	1851.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	2205.0	2205.0	00:00	low slot	snap shot	goal	True	inside	2199.0	2211.0	North Shore Warhawks 19U AA
+zOQrPK7IJ24	2258.0	2266.0	00:08	right circle	wrist shot	save	True	inside	2262.0	2274.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	2258.0	2277.0	00:19	left circle	wrist shot	save	False	no_match			
+zOQrPK7IJ24	2307.0	2309.0	00:02	low slot	wrist shot	save	True	inside	2305.0	2317.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	2307.0	2342.0	00:35	low slot	snap shot	save	False	no_match			
+zOQrPK7IJ24	2391.0	2392.0	00:01	right circle	snap shot	save	False	no_match			
+zOQrPK7IJ24	2781.0	2783.0	00:02	left circle	wrist shot	save	True	inside	2782.0	2794.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	2869.0	2870.0	00:01	right circle	wrist shot	save	False	no_match			
+zOQrPK7IJ24	2922.0	2939.0	00:17	right wing	wrist shot	save	False	no_match			
+zOQrPK7IJ24	3059.0	3060.0	00:01	left circle	wrist shot	save	True	inside	3053.0	3065.0	North Shore Warhawks 19U AA
+zOQrPK7IJ24	3059.0	3061.0	00:02	low slot	snap shot	save	True	inside	3056.0	3068.0	North Shore Warhawks 19U AA
+zOQrPK7IJ24	3280.0	3282.0	00:02	low slot	snap shot	save	False	no_match			
+zOQrPK7IJ24	3342.0	3346.0	00:04	low slot	redirect/tip	save	False	no_match			
+zOQrPK7IJ24	3507.0	3508.0	00:01	in close	snap shot	save	True	inside	3505.0	3517.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	3962.0	3968.0	00:06	right circle	wrist shot	save	True	inside	3961.0	3973.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	3962.0	3974.0	00:12	low slot	wrist shot	save	True	inside	3970.0	3982.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	3962.0	3976.0	00:14	in close	snap shot	goal	True	inside	3974.0	3986.0	Connecticut Jr. Rangers 16U
+zOQrPK7IJ24	4253.0	4266.0	00:13	left circle	wrist shot	save	True	inside	4266.0	4278.0	North Shore Warhawks 19U AA
+zOQrPK7IJ24	4377.0	4377.0	00:00	left circle	wrist shot	save	False	no_match			

@@ -58,3 +58,15 @@ candidate_output/
 *.tar.gz
 build/
 dist/
+
+# ── Derived training/eval artifacts (regenerable; not source) ──────────
+# Per-run YOLO dataset assembly (symlinked images + labels) — rebuilt by
+# util/extract_label_frames_v2.py from the tracked data/labels/.
+runs/*/dataset/
+# Tesseract trained-data blobs (from the removed scoreboard OCR work).
+models/tessdata/
+# Calibration logs (per-run diagnostics written by metrics_seg).
+data/output/calibration/
+# Scoreboard OCR experiment outputs (the experiment was removed 2026-06).
+data/output/scoreboard/
+data/output/scoreboard_scoping/

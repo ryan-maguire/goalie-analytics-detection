@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-05-29T23:09:46Z",
+  "args": {
+    "gt_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/ground_truth",
+    "metrics_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/output/runs/metrics_v13",
+    "cv_seg_dir": "/Users/rmaguire/Documents/GitHub/goalie-analytics-detection/data/output/runs/cv_seg"
+  },
+  "summary": {
+    "n_videos": 1,
+    "n_windows": 0,
+    "total_pred_shots": 0,
+    "total_gt_shots": 0,
+    "shots_diff": 0,
+    "shots_ratio": null,
+    "total_pred_goals": 0,
+    "total_gt_goals": 0,
+    "goals_diff": 0,
+    "shot_window_metrics": {
+      "n": 0,
+      "mae": null,
+      "bias": null,
+      "exact_pct": null,
+      "rmse": null
+    },
+    "goal_classifier": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "total_gt_shots_unfiltered": 0,
+    "shots_diff_unfiltered": 0,
+    "shots_ratio_unfiltered": null,
+    "total_gt_goals_unfiltered": 0,
+    "goals_diff_unfiltered": 0,
+    "shot_window_metrics_unfiltered": {
+      "n": 0,
+      "mae": null,
+      "bias": null,
+      "exact_pct": null,
+      "rmse": null
+    },
+    "goal_classifier_unfiltered": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "shot_timestamps_eval": null
+  },
+  "videos": [
+    {
+      "vID": "SX5xNJlh6eQ",
+      "hudl_id": 2073056,
+      "status": "ok",
+      "n_windows": 0,
+      "total_pred_shots": 0,
+      "total_gt_shots": 0,
+      "total_gt_shots_unfiltered": 0,
+      "total_pred_goals": 0,
+      "total_gt_goals": 0,
+      "total_gt_goals_unfiltered": 0,
+      "hudl_total_shots": 68,
+      "hudl_total_goals": 3,
+      "shot_eval": null,
+      "refinement": {
+        "n_threat_segments": 59,
+        "refinement_sources": {
+          "fallback_no_metrics": 59
+        },
+        "orig_width_median": 30,
+        "orig_width_mean": 33.6,
+        "refined_width_median": 30,
+        "refined_width_mean": 33.6,
+        "median_shrinkage": 0
+      },
+      "notes": [
+        "no team→color mapping — counting all overlapping events",
+        "target_filter is ON in cv_seg meta but no team→color map available — game totals will look ~50% under-predicted"
+      ]
+    }
+  ]
+}

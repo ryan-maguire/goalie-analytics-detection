@@ -1,0 +1,47 @@
+vID	segment_start	abs_timestamp	timestamp_str	location	release	outcome	matched	match_class	gt_shot_start	gt_shot_end	gt_team
+kQVdtRa4o_A	174.0	193.0	00:19	high slot	wrist shot	save	True	inside	183.0	195.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	174.0	196.0	00:22	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	318.0	325.0	00:07	left point	slap shot	save	False	no_match			
+kQVdtRa4o_A	318.0	327.0	00:09	high slot	wrist shot	save	False	no_match			
+kQVdtRa4o_A	431.0	437.0	00:06	right point	slap shot	save	True	inside	437.0	449.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	599.0	605.0	00:06	right circle	wrist shot	save	True	inside	599.0	611.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	599.0	607.0	00:08	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	832.0	838.0	00:06	high slot	slap shot	save	False	no_match			
+kQVdtRa4o_A	832.0	840.0	00:08	right circle	snap shot	save	False	no_match			
+kQVdtRa4o_A	1340.0	1344.0	00:04	left point	slap shot	save	False	no_match			
+kQVdtRa4o_A	1340.0	1349.0	00:09	left point	wrist shot	save	False	no_match			
+kQVdtRa4o_A	1381.0	1396.0	00:15	high slot	slap shot	save	False	no_match			
+kQVdtRa4o_A	1381.0	1397.0	00:16	in close	backhand	save	False	no_match			
+kQVdtRa4o_A	1786.0	1792.0	00:06	high slot	slap shot	save	True	inside	1781.0	1793.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	1786.0	1794.0	00:08	left circle	wrist shot	save	True	tolerance	1780.0	1792.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	1807.0	1814.0	00:07	high slot	slap shot	save	True	inside	1809.0	1821.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	1843.0	1849.0	00:06	left point	slap shot	save	False	no_match			
+kQVdtRa4o_A	1843.0	1851.0	00:08	right circle	snap shot	save	False	no_match			
+kQVdtRa4o_A	1843.0	1853.0	00:10	low slot	backhand	save	False	no_match			
+kQVdtRa4o_A	1873.0	1879.0	00:06	right point	slap shot	miss	True	inside	1872.0	1884.0	Boston Hockey Academy 16U
+kQVdtRa4o_A	1873.0	1886.0	00:13	left point	wrist shot	save	False	no_match			
+kQVdtRa4o_A	1948.0	1958.0	00:10	high slot	slap shot	save	False	no_match			
+kQVdtRa4o_A	2042.0	2055.0	00:13	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2042.0	2057.0	00:15	right circle	snap shot	save	False	no_match			
+kQVdtRa4o_A	2143.0	2150.0	00:07	left circle	slap shot	save	False	no_match			
+kQVdtRa4o_A	2695.0	2702.0	00:07	high slot	slap shot	save	False	no_match			
+kQVdtRa4o_A	2772.0	2778.0	00:06	high slot	slap shot	save	True	inside	2776.0	2788.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	2772.0	2780.0	00:08	in close	snap shot	save	False	no_match			
+kQVdtRa4o_A	2799.0	2803.0	00:04	left point	slap shot	save	False	no_match			
+kQVdtRa4o_A	2799.0	2805.0	00:06	right circle	wrist shot	save	True	tolerance	2808.0	2820.0	North Shore Warhawks 19U AA
+kQVdtRa4o_A	2799.0	2807.0	00:08	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	2799.0	2820.0	00:21	high slot	slap shot	miss	False	no_match			
+kQVdtRa4o_A	2917.0	2920.0	00:03	right point	slap shot	save	False	no_match			
+kQVdtRa4o_A	2987.0	2996.0	00:09	high slot	slap shot	save	False	no_match			
+kQVdtRa4o_A	2987.0	3003.0	00:16	right point	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3172.0	3178.0	00:06	right point	slap shot	save	False	no_match			
+kQVdtRa4o_A	3172.0	3179.0	00:07	in close	snap shot	save	False	no_match			
+kQVdtRa4o_A	3172.0	3181.0	00:09	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3227.0	3238.0	00:11	high slot	snap shot	save	False	no_match			
+kQVdtRa4o_A	3227.0	3246.0	00:19	left point	slap shot	blocked	False	no_match			
+kQVdtRa4o_A	3434.0	3440.0	00:06	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3434.0	3442.0	00:08	right circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3470.0	3481.0	00:11	left circle	wrist shot	save	False	no_match			
+kQVdtRa4o_A	3470.0	3486.0	00:16	left point	slap shot	miss	False	no_match			
+kQVdtRa4o_A	3715.0	3721.0	00:06	right point	slap shot	save	False	no_match			
+kQVdtRa4o_A	3715.0	3730.0	00:15	right point	wrist shot	save	False	no_match			
