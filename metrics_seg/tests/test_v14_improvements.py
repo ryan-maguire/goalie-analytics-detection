@@ -14,53 +14,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-import numpy as np
-
 REPO = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO))
 
-from metrics_seg import cache as cache_mod
 from metrics_seg import prefilter as prefilter_mod
-from metrics_seg import audio_context as audio_ctx_mod
-from metrics_seg import goal_ensemble as goal_ens_mod
 from metrics_seg import calibration as calib_mod
 from metrics_seg import flash_screen as flash_mod
-
-
-# ─── cache ────────────────────────────────────────────────────────────
-class TestCache(unittest.TestCase):
-    def test_key_stable(self):
-        k1 = cache_mod.key_for(b"abc", "prompt", "gemini-2.5-pro", 0.0)
-        k2 = cache_mod.key_for(b"abc", "prompt", "gemini-2.5-pro", 0.0)
-        self.assertEqual(k1, k2)
-
-    def test_key_changes_on_input_change(self):
-        base = cache_mod.key_for(b"abc", "prompt", "gemini-2.5-pro", 0.0)
-        cases = [
-            cache_mod.key_for(b"abd", "prompt", "gemini-2.5-pro", 0.0),    # bytes
-            cache_mod.key_for(b"abc", "prompt2", "gemini-2.5-pro", 0.0),   # prompt
-            cache_mod.key_for(b"abc", "prompt", "gemini-2.5-flash", 0.0),  # model
-            cache_mod.key_for(b"abc", "prompt", "gemini-2.5-pro", 0.3),    # temp
-        ]
-        for c in cases:
-            self.assertNotEqual(base, c)
-
-    def test_put_get_roundtrip(self):
-        with tempfile.TemporaryDirectory() as td:
-            c = cache_mod.GeminiResponseCache(cache_dir=td)
-            key = cache_mod.key_for(b"v", "p", "m", 0.0)
-            payload = {"shots": 3, "saves": 2, "goals": 1}
-            self.assertIsNone(c.get(key))
-            c.put(key, payload)
-            self.assertEqual(c.get(key), payload)
-            self.assertEqual(c.size(), 1)
-
-    def test_disabled_is_noop(self):
-        c = cache_mod.GeminiResponseCache(disabled=True)
-        key = cache_mod.key_for(b"v", "p", "m", 0.0)
-        c.put(key, {"x": 1})
-        self.assertIsNone(c.get(key))
-        self.assertEqual(c.size(), 0)
 
 
 # ─── prefilter ────────────────────────────────────────────────────────
@@ -116,81 +75,6 @@ class TestPrefilter(unittest.TestCase):
         for k in ("shots", "shotsOnNet", "saves", "goals"):
             self.assertEqual(d[k], 0)
         self.assertTrue(d["_prefilter_skip"])
-
-
-# ─── audio context ────────────────────────────────────────────────────
-class TestAudioContext(unittest.TestCase):
-    def test_peak_summary_empty(self):
-        s = audio_ctx_mod._peak_summary(np.zeros(0), 0, 10)
-        self.assertEqual(s, "—")
-
-    def test_peak_summary_finds_local_maxima(self):
-        probs = np.array([0.1, 0.5, 0.8, 0.3, 0.7, 0.2, 0.1])
-        s = audio_ctx_mod._peak_summary(probs, 0, 6, min_peak=0.4, top_k=3)
-        # Should find both peaks 0.8@2 and 0.7@4
-        self.assertIn("0.80", s); self.assertIn("0.70", s)
-
-    def test_render_context_block_empty(self):
-        out = audio_ctx_mod.render_context_block("vid", 0, 10)
-        self.assertEqual(out, "")
-
-    def test_render_context_block_with_probs(self):
-        probs = np.array([0.1, 0.8, 0.2, 0.7, 0.1])
-        out = audio_ctx_mod.render_context_block(
-            "vid", 0, 4, yolo_probs=probs, audio_probs=probs)
-        self.assertIn("OPTIONAL CONTEXT", out)
-        self.assertIn("Visual shot-prob peaks", out)
-        self.assertIn("Audio shot-prob peaks", out)
-
-
-# ─── goal ensemble ────────────────────────────────────────────────────
-class TestGoalEnsemble(unittest.TestCase):
-    def test_no_goal_in_first_no_ensemble(self):
-        first = {"shots": 5, "saves": 5, "goals": 0, "shotsOnNet": 5}
-        called = []
-        def cg(b, p, s, t): called.append(t); return ({"goals": 1}, {})
-        result, trace = goal_ens_mod.confirm_goal(
-            first_result=first, video_bytes=b"v", prompt_text="p",
-            segment_start=0, segment_end=10, call_gemini=cg, fused_probs=None)
-        self.assertEqual(result["goals"], 0)
-        self.assertEqual(called, [])
-        self.assertEqual(trace.decision, "untouched")
-
-    def test_goal_confirmed_by_vote_and_prob(self):
-        first = {"shots": 5, "saves": 4, "goals": 1, "shotsOnNet": 5}
-        def cg(b, p, s, t): return ({"goals": 1}, {})
-        probs = np.array([0.6] * 30)  # sustained well above threshold
-        result, trace = goal_ens_mod.confirm_goal(
-            first_result=first, video_bytes=b"v", prompt_text="p",
-            segment_start=0, segment_end=20, call_gemini=cg, fused_probs=probs)
-        self.assertEqual(result["goals"], 1)
-        self.assertEqual(trace.decision, "confirmed")
-        self.assertEqual(trace.n_yes_goal, 3)
-
-    def test_goal_downgraded_by_vote_failure(self):
-        first = {"shots": 5, "saves": 4, "goals": 1, "shotsOnNet": 5}
-        def cg(b, p, s, t): return ({"goals": 0}, {})
-        probs = np.array([0.6] * 30)
-        result, trace = goal_ens_mod.confirm_goal(
-            first_result=first, video_bytes=b"v", prompt_text="p",
-            segment_start=0, segment_end=20, call_gemini=cg, fused_probs=probs)
-        self.assertEqual(result["goals"], 0)
-        self.assertEqual(trace.decision, "downgraded")
-        self.assertTrue(result["_goal_ensemble_overrode"])
-        self.assertEqual(result["_goal_ensemble_reason"], "vote_failed")
-
-    def test_goal_downgraded_by_prob_veto(self):
-        first = {"shots": 5, "saves": 4, "goals": 1, "shotsOnNet": 5}
-        # 2 of 3 votes say goal — vote passes
-        responses = iter([{"goals": 1}, {"goals": 0}])
-        def cg(b, p, s, t): return (next(responses), {})
-        probs = np.zeros(30)   # no signal → veto
-        result, trace = goal_ens_mod.confirm_goal(
-            first_result=first, video_bytes=b"v", prompt_text="p",
-            segment_start=0, segment_end=20, call_gemini=cg, fused_probs=probs)
-        self.assertEqual(result["goals"], 0)
-        self.assertEqual(trace.decision, "downgraded")
-        self.assertEqual(result["_goal_ensemble_reason"], "prob_signal_veto")
 
 
 # ─── calibration ──────────────────────────────────────────────────────

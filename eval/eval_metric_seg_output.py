@@ -265,15 +265,22 @@ class ShotEvalResult:
 
     @property
     def recall(self) -> float:
-        """End-to-end recall: TP / all GT shots (including cv_seg misses)."""
-        denom = self.tp_strict + self.fn + self.fn_uncovered
+        """End-to-end recall: TP / all GT shots (including cv_seg misses).
+
+        Denominator is the total GT count, NOT tp_strict+fn+fn_uncovered.
+        A tolerance-matched GT is removed from `fn` (it was consumed by a
+        prediction) but is scored fp, not tp_strict — so the old formula
+        dropped it from both numerator and denominator and inflated recall.
+        n_total_gt is the stable, partition-independent denominator."""
+        denom = self.n_total_gt
         return self.tp_strict / denom if denom else 0.0
 
     @property
     def recall_within_coverage(self) -> float:
         """Recall restricted to time cv_seg actually flagged.  Isolates
-        metrics_seg's contribution from cv_seg's coverage."""
-        denom = self.tp_strict + self.fn
+        metrics_seg's contribution from cv_seg's coverage. Denominator is
+        the covered-GT count (same tolerance-match caveat as recall)."""
+        denom = self.n_gt_covered
         return self.tp_strict / denom if denom else 0.0
 
     @property
@@ -1063,8 +1070,12 @@ def aggregate(results: list[VideoEvalResult]) -> dict:
         n_covered  = sum(s.n_gt_covered  for s in shot_evals)
         n_uncov    = sum(s.n_gt_uncovered for s in shot_evals)
         precision = tp_strict / (tp_strict + fp) if (tp_strict + fp) else 0
-        recall    = tp_strict / (tp_strict + fn + fn_uncov) if (tp_strict + fn + fn_uncov) else 0
-        recall_w  = tp_strict / (tp_strict + fn) if (tp_strict + fn) else 0
+        # Pooled recall uses the total GT count as denominator (not
+        # tp_strict+fn+fn_uncov): tolerance matches are removed from `fn`
+        # but scored fp, so the old denominator dropped them and inflated
+        # recall. n_gt = n_covered + n_uncov is the stable denominator.
+        recall    = tp_strict / n_gt if n_gt else 0
+        recall_w  = tp_strict / n_covered if n_covered else 0
         f1        = 2*precision*recall/(precision+recall) if (precision+recall) else 0
         f1_w      = 2*precision*recall_w/(precision+recall_w) if (precision+recall_w) else 0
         shot_aggregate = {

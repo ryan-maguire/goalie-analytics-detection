@@ -145,8 +145,8 @@ from concurrent.futures import ThreadPoolExecutor
 # directly as `python3 metrics_seg/01_detect_segment_metrics.py` (the
 # common invocation in tools/* harnesses). Without this, the v14
 # subpackage imports below silently fall through to
-# _V14_IMPROVEMENTS_AVAILABLE=False and every --flash-screen /
-# --goal-ensemble / --prefilter-threshold flag becomes a no-op.
+# _V14_IMPROVEMENTS_AVAILABLE=False and the --flash-screen /
+# --prefilter-threshold flags become no-ops.
 _REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
@@ -172,10 +172,7 @@ _PROGRESS_CUSTOMER_ID: str | None = None
 # default. Imported lazily-safe: failures to import do NOT break the
 # existing pipeline.
 try:
-    from metrics_seg import cache as _v14_cache
     from metrics_seg import prefilter as _v14_prefilter
-    from metrics_seg import audio_context as _v14_audio_ctx
-    from metrics_seg import goal_ensemble as _v14_goal_ensemble
     from metrics_seg import calibration as _v14_calibration
     from metrics_seg import flash_screen as _v14_flash
     _V14_IMPROVEMENTS_AVAILABLE = True
@@ -189,14 +186,9 @@ except ImportError:
 _V14_CONFIG: dict = {
     "enabled":             False,
     "prefilter_threshold": 0.0,
-    "use_context":         False,
-    "goal_ensemble":       False,
     "flash_screen":        False,
-    "no_cache":            False,
-    "cache_dir":           None,
     "probs_dir_yolo":      None,
     "probs_dir_audio":     None,
-    "audio_features_dir":  None,
     "calibration_dir":     None,
     "gt_dir":              None,
     # Per-vID memoization populated by _v14_load_probs_for_vid
@@ -2158,36 +2150,21 @@ def parse_args():
 
     # ─── v14 improvements (see IMPROVEMENTS_SPEC.md) ─── all opt-in
     g = parser.add_argument_group("v14 improvements (opt-in)")
-    g.add_argument("--cache-dir", default=None,
-                    help="Directory for the Gemini-response cache "
-                         "(default: ~/.cache/metrics_seg). Set to empty "
-                         "string or use --no-cache to disable.")
-    g.add_argument("--no-cache", action="store_true",
-                    help="Disable the Gemini-response cache.")
     g.add_argument("--prefilter-threshold", type=float, default=0.0,
                     help="Skip Gemini calls for windows whose peak "
                          "YOLO+audio fused prob is below this threshold "
                          "(default 0.0, i.e. disabled). Try 0.30 to "
                          "save ~30-50%% of calls.")
-    g.add_argument("--use-context", action="store_true",
-                    help="Prepend audio + visual prior context to the "
-                         "Gemini prompt (off by default).")
-    g.add_argument("--goal-ensemble", action="store_true",
-                    help="When a clip's first call returns goals>=1, "
-                         "fire 2 more calls + prob-signal veto to "
-                         "confirm. Defaults off.")
     g.add_argument("--flash-screen", action="store_true",
                     help="Phase-2 stub: use Gemini Flash to screen out "
                          "obviously-empty clips before Pro call. "
                          "Currently fail-safe positive (always escalates).")
     g.add_argument("--probs-dir-yolo", default=None,
-                    help="Directory with per-second YOLO probs TSVs (one per vID). "
-                         "Used by --prefilter-threshold, --use-context, --goal-ensemble.")
+                    help="Directory with per-second YOLO probs TSVs (one per "
+                         "vID). Used by --prefilter-threshold.")
     g.add_argument("--probs-dir-audio", default=None,
-                    help="Directory with per-second audio probs TSVs.")
-    g.add_argument("--audio-features-dir", default=None,
-                    help="Directory with per-second audio feature TSVs "
-                         "(used by --use-context for audio markers).")
+                    help="Directory with per-second audio probs TSVs "
+                         "(used by --prefilter-threshold).")
     g.add_argument("--calibration-dir", default=None,
                     help="Where to log calibration data "
                          "(default: data/output/calibration). Always on; "
@@ -2231,11 +2208,8 @@ def parse_args():
                              f"{PROMPT_VERSION} (loaded from "
                              f"metrics_seg/prompts/metrics_<version>.txt). "
                              f"Useful for A/B testing prompt revisions "
-                             f"without changing the constant. The cache "
-                             f"key does NOT include the prompt version, "
-                             f"so callers comparing prompt variants should "
-                             f"either disable the cache (--no-cache) or "
-                             f"point at separate output dirs.")
+                             f"without changing the constant. Point variants "
+                             f"at separate output dirs to compare.")
     return parser.parse_args()
 
 
@@ -2364,46 +2338,19 @@ def main():
     # Populate v14 improvements config from CLI flags. Flags default such
     # that this is a no-op unless the user opts in.
     if _V14_IMPROVEMENTS_AVAILABLE:
-        any_v14 = (args.prefilter_threshold > 0 or args.use_context
-                    or args.goal_ensemble or args.flash_screen
-                    or args.no_cache or args.cache_dir is not None)
+        any_v14 = (args.prefilter_threshold > 0 or args.flash_screen)
         _V14_CONFIG.update({
             "enabled":             any_v14,
             "prefilter_threshold": args.prefilter_threshold,
-            "use_context":         args.use_context,
-            "goal_ensemble":       args.goal_ensemble,
             "flash_screen":        args.flash_screen,
-            "no_cache":            args.no_cache,
-            "cache_dir":           args.cache_dir,
             "probs_dir_yolo":      args.probs_dir_yolo,
             "probs_dir_audio":     args.probs_dir_audio,
-            "audio_features_dir":  args.audio_features_dir,
             "calibration_dir":     args.calibration_dir,
             "gt_dir":              args.gt_dir,
         })
-        # NOT-YET-WIRED flags: the goal-ensemble and audio-context modules
-        # exist + are unit-tested but their entrypoints (confirm_goal /
-        # render_context_block) and the response cache (get/put) are not
-        # invoked in the hot path. Warn loudly so an operator passing these
-        # doesn't believe they took effect. Only --prefilter-threshold and
-        # --flash-screen are actually live.
-        if args.goal_ensemble:
-            log.warning("--goal-ensemble is NOT wired into the detection path "
-                        "(module is unit-tested but unused) — flag has no effect")
-        if args.use_context:
-            log.warning("--use-context is NOT wired into the detection path "
-                        "(module is unit-tested but unused) — flag has no effect")
-        if args.cache_dir is not None:
-            log.warning("Gemini response cache is initialized but NOT read/written "
-                        "in the detection path — --cache-dir has no effect yet")
         if any_v14:
             log.info(f"v14 improvements active: prefilter≥{args.prefilter_threshold} "
-                      f"context={args.use_context} ensemble={args.goal_ensemble} "
-                      f"flash={args.flash_screen} cache={not args.no_cache}")
-            # Initialize cache singleton with configured dir
-            if not args.no_cache:
-                _v14_cache.set_default_cache(
-                    _v14_cache.GeminiResponseCache(cache_dir=args.cache_dir))
+                      f"flash={args.flash_screen}")
 
     # Config loading: skip GCS if --local-seg-json is set AND customID
     # config can come from existing local dirs.

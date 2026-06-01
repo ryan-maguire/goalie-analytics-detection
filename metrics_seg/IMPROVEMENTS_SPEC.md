@@ -4,6 +4,17 @@
 **Author:** continuation of candidate-list / fusion learnings work
 **Production baseline:** v10 prompt, F1=0.625 on goal classifier (5-video eval)
 
+> **Shipped vs removed (2026-06-01 cleanup):** Of the improvements below,
+> only the **prefilter** (`--prefilter-threshold`), **flash-screen**
+> (`--flash-screen`), and **calibration logging** were wired into the
+> detection path and remain. The **audio/visual context prompt** (#3,
+> `audio_context.py`), **goal-ensemble voting** (#4, `goal_ensemble.py`),
+> and the **Gemini response cache** (`cache.py`) were never invoked in the
+> hot path and have been removed along with their `--use-context`,
+> `--goal-ensemble`, `--cache-dir`/`--no-cache`, and `--audio-features-dir`
+> flags. The sections describing them below are retained as historical
+> design notes only. Production v14.1 is prompt-based on gemini-2.5-pro.
+
 ## Background
 
 `metrics_seg` is Stage 2 of `cv_seg → metrics_seg → feedback_seg`. It
