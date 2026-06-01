@@ -117,7 +117,8 @@ mutes or the crowd is dead. Together they cover more.
 │       └── audio_features/   # per-second librosa features per video (cached)
 │
 ├── cv_seg/                   # LEGACY stage 1 — kept for --legacy-cv-seg rollback
-├── eval/                     # Eval primitives — DON'T edit
+├── eval/                     # Eval primitives — change with care
+│                             #   (recall = TP / total GT; pooled F1)
 ├── metrics_seg/              # Stage 2 — Gemini-enhanced JSON
 ├── feedback_seg/             # Stage 3 — Gemini-enhanced JSON
 ├── specs/                    # design docs + EVAL_NOTES history
