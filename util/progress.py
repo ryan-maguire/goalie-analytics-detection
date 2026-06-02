@@ -26,6 +26,7 @@ import fcntl
 import json
 import logging
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -63,11 +64,31 @@ def report(
     _update_status(customer_id, vid, f"Processing ({pct}%)")
 
 
-def mark_complete(customer_id: Optional[str], vid: str) -> None:
-    """Write 'Complete' to the vid's analyticsStatus."""
+def mark_complete(
+    customer_id: Optional[str],
+    vid: str,
+    *,
+    analytics_duration_secs: Optional[float] = None,
+    segment_duration_secs: Optional[float] = None,
+) -> None:
+    """Mark the vid Complete and record run-summary fields.
+
+    Always sets analyticsStatus='Complete' and analyticsUpdateDate (the
+    success date, "MM/DD/YYYY"). When provided, also sets:
+      - analyticsDuration: total pipeline wall time, "MM:SS"
+      - segmentDuration:   total analyzed-clip duration, "HH:MM"
+    """
     if not customer_id:
         return
-    _update_status(customer_id, vid, "Complete")
+    fields = {
+        "analyticsStatus": "Complete",
+        "analyticsUpdateDate": _today_mmddyyyy(),
+    }
+    if analytics_duration_secs is not None:
+        fields["analyticsDuration"] = _fmt_mmss(analytics_duration_secs)
+    if segment_duration_secs is not None:
+        fields["segmentDuration"] = _fmt_hhmm(segment_duration_secs)
+    _apply_fields(customer_id, vid, fields)
 
 
 def mark_failed(customer_id: Optional[str], vid: str, *, reason: str = "") -> None:
@@ -78,8 +99,38 @@ def mark_failed(customer_id: Optional[str], vid: str, *, reason: str = "") -> No
     _update_status(customer_id, vid, status)
 
 
+def _fmt_mmss(secs: float) -> str:
+    """Total duration as MM:SS (minutes may exceed 59 for long runs)."""
+    secs = max(0, int(round(secs)))
+    return f"{secs // 60:02d}:{secs % 60:02d}"
+
+
+def _fmt_hhmm(secs: float) -> str:
+    """Total duration as HH:MM (seconds truncated)."""
+    secs = max(0, int(round(secs)))
+    return f"{secs // 3600:02d}:{(secs % 3600) // 60:02d}"
+
+
+def _today_mmddyyyy() -> str:
+    """Today's date as MM/DD/YYYY in PIPELINE_TZ (default America/Chicago),
+    falling back to UTC if the zone database is unavailable."""
+    tz_name = os.environ.get("PIPELINE_TZ", "America/Chicago")
+    try:
+        from zoneinfo import ZoneInfo
+        now = datetime.now(ZoneInfo(tz_name))
+    except Exception:
+        now = datetime.now(timezone.utc)
+    return now.strftime("%m/%d/%Y")
+
+
 def _update_status(customer_id: str, vid: str, status: str) -> None:
-    """Read-modify-write the customer JSON, local AND GCS. Best effort."""
+    """Status-only convenience wrapper around _apply_fields."""
+    _apply_fields(customer_id, vid, {"analyticsStatus": status})
+
+
+def _apply_fields(customer_id: str, vid: str, fields: dict) -> None:
+    """Read-modify-write the customer JSON, local AND GCS. Best effort.
+    Merges `fields` into the matching vID record(s)."""
     cust_file = customer_id if customer_id.endswith(".json") else f"{customer_id}.json"
     local_path = LOCAL_DIR / cust_file
     gcs_blob = f"{GCS_PREFIX}/{cust_file}"
@@ -99,7 +150,7 @@ def _update_status(customer_id: str, vid: str, status: str) -> None:
                         updated = False
                         for rec in data:
                             if rec.get("vID") == vid:
-                                rec["analyticsStatus"] = status
+                                rec.update(fields)
                                 updated = True
                         if updated:
                             f.seek(0)
@@ -129,7 +180,7 @@ def _update_status(customer_id: str, vid: str, status: str) -> None:
             updated = False
             for rec in gcs_data:
                 if rec.get("vID") == vid:
-                    rec["analyticsStatus"] = status
+                    rec.update(fields)
                     updated = True
             if updated:
                 blob.upload_from_string(

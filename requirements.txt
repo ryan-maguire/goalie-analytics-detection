@@ -42,6 +42,10 @@ google-genai>=0.5,<2.0           # `from google import genai` (Vertex client)
 google-api-core>=2.0,<3.0
 # feedback_seg/models.py uses pydantic BaseModel for structured outputs
 pydantic>=2.0,<3.0
+# tzdata supplies the zoneinfo DB for the slim worker image so
+# util/progress.py can stamp analyticsUpdateDate in PIPELINE_TZ
+# (default America/Chicago); without it zoneinfo falls back to UTC.
+tzdata
 
 # ─── ML retraining (only needed if you retrain YOLO / audio models) ────
 # YOLO fine-tune + inference (util/train_yolo_finetune.py, predict_shots_yolo.py,

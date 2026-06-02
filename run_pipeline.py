@@ -439,6 +439,32 @@ def _count_seg_json_windows(seg_path: Path) -> int:
         return 0
 
 
+def _sum_seg_json_threat_seconds(seg_path: Path) -> int | None:
+    """Total seconds of analyzed (threat) clips in a stage-1 seg JSON.
+    Returns None if the file can't be read, so the caller can skip writing
+    segmentDuration rather than record a misleading 0."""
+    try:
+        data = json.loads(seg_path.read_text())
+    except Exception:
+        return None
+    segs = data if isinstance(data, list) else (
+        data.get("segments") if isinstance(data, dict) else None)
+    if not isinstance(segs, list):
+        return None
+    total = 0.0
+    for s in segs:
+        if not isinstance(s, dict) or s.get("segmentHasThreat") is False:
+            continue
+        try:
+            start = float(s.get("segment_start"))
+            end   = float(s.get("segment_end"))
+        except (TypeError, ValueError):
+            continue
+        if end > start:
+            total += end - start
+    return int(round(total))
+
+
 def run_video(customer_id: str,
               vID: str,
               local_output_dir: str | None,
@@ -448,7 +474,7 @@ def run_video(customer_id: str,
               tee: TeeLogger,
               stage1_mode: str = "hybrid",
               hybrid_min_windows: int = HYBRID_MIN_WINDOWS_DEFAULT,
-              local_video_dir: Path | None = None) -> tuple[bool, dict[str, float], str | None]:
+              local_video_dir: Path | None = None) -> tuple[bool, dict[str, float], str | None, Path | None]:
     """Run the requested stages for a single vID, stopping at first failure.
 
     Stages in the chain that aren't in `steps_to_run` are silently
@@ -529,7 +555,7 @@ def run_video(customer_id: str,
         per_stage[stage_name] = elapsed
         if not ok:
             tee.write(f"[{now_iso()}] !!! Skipping remaining stages for vID={vID}")
-            return False, per_stage, stage_name
+            return False, per_stage, stage_name, stage1_seg_dir
 
         # ── Hybrid fallback ───────────────────────────────────────────
         # After the stage-1 step (its name is "cv_seg" regardless of
@@ -555,7 +581,7 @@ def run_video(customer_id: str,
                 if not ok2:
                     tee.write(f"[{now_iso()}] !!! cv_seg fallback failed; "
                               f"skipping remaining stages for vID={vID}")
-                    return False, per_stage, "cv_seg_fallback"
+                    return False, per_stage, "cv_seg_fallback", stage1_seg_dir
                 # Switch metrics_seg to read from cv_seg (GCS or local).
                 active_backend = "cv_seg"
                 stage1_seg_dir = (Path(local_output_dir) / "cv_seg"
@@ -564,7 +590,7 @@ def run_video(customer_id: str,
                 tee.write(f"[{now_iso()}] --- hybrid: above threshold "
                           f"→ keeping fusion output")
 
-    return True, per_stage, None
+    return True, per_stage, None, stage1_seg_dir
 
 
 # ── Stage 04 publish ─────────────────────────────────────────────────
@@ -840,7 +866,7 @@ def main() -> int:
     results: dict[str, dict] = {}
 
     for vID in args.vID:
-        ok, per_stage, failure_stage = run_video(
+        ok, per_stage, failure_stage, stage1_seg_dir = run_video(
             customer_id=args.customer_id,
             vID=vID,
             local_output_dir=args.local_output_dir,
@@ -882,7 +908,20 @@ def main() -> int:
         # or --steps 1 2) leave the status at the last "Processing
         # (X%)" the relevant stage wrote — honest about what completed.
         if _pipeline_progress is not None and ok and 3 in steps_to_run:
-            _pipeline_progress.mark_complete(args.customer_id, vID)
+            # Total wall time across all stages that ran + the publish step.
+            analytics_secs = sum(per_stage.values()) + (publish_elapsed or 0.0)
+            # Total duration of the analyzed clips, from the stage-1 seg JSON
+            # (best-effort: None if it isn't readable locally — e.g. a hybrid
+            # cv_seg fallback in GCS-only mode).
+            seg_secs = (
+                _sum_seg_json_threat_seconds(stage1_seg_dir / f"gt_seg_{vID}.json")
+                if stage1_seg_dir is not None else None
+            )
+            _pipeline_progress.mark_complete(
+                args.customer_id, vID,
+                analytics_duration_secs=analytics_secs,
+                segment_duration_secs=seg_secs,
+            )
 
     overall_elapsed = time.monotonic() - overall_start
 
