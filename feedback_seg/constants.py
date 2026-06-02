@@ -16,7 +16,9 @@ OUTPUT_PREFIX = "analyze_video/03-segment_goalie_feedback"
 TEMP_PREFIX   = "analyze_video/00-temp_parts"
 
 # ── Gemini configuration ───────────────────────────────────────────────
-GEMINI_MODEL = "gemini-3.5-flash"
+# gemini-2.5-flash: the 2.5→3.x bump (commit 948c438) was rejected, and
+# gemini-3.5-flash 404s on Vertex for this project. Stay on 2.5-flash.
+GEMINI_MODEL = "gemini-2.5-flash"
 
 # Default parallelism. The CLI exposes --workers to override.
 COACH_PARALLEL_WORKERS = 3

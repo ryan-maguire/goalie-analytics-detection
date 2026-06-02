@@ -38,10 +38,9 @@ from dataclasses import dataclass
 log = logging.getLogger("metrics_seg.flash_screen")
 
 
-# Flash model. Both 2.5-flash and 3.5-flash are viable; 3.5-flash needs
-# location="global" on Vertex (the parent client should already be
-# configured for that location).
-FLASH_MODEL = "gemini-3.5-flash"
+# Flash model. The 2.5→3.x bump (commit 948c438) was rejected; gemini-3.5-flash
+# 404s on Vertex for this project (us-central1). Stay on 2.5-flash.
+FLASH_MODEL = "gemini-2.5-flash"
 
 # Token budget for the screening call. Two-field JSON {shots_any:bool,
 # confidence:float} is small, BUT Gemini 2.5 Flash uses "thinking"

@@ -2184,10 +2184,7 @@ def parse_args():
                         help=f"Override the Gemini model used for metrics "
                              f"extraction. Default: {GEMINI_MODEL}. Useful "
                              f"for A/B testing cheaper Flash variants "
-                             f"(e.g. gemini-3.5-flash, gemini-2.5-flash). "
-                             f"The v14 cache (when enabled) keys on the "
-                             f"model name, so switching models cleanly "
-                             f"invalidates cached responses.")
+                             f"(e.g. gemini-2.5-flash).")
     parser.add_argument("--vertex-location", default=None,
                         help=f"Override the Vertex AI location used by the "
                              f"genai client. Default: {REGION}. Some preview "
