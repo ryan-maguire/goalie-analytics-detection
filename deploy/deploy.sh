@@ -136,7 +136,7 @@ gcloud run jobs deploy "${JOB_NAME}" \
     --service-account="${SA_EMAIL}" \
     --command="python3" \
     --args="deploy/worker/run.py" \
-    --memory=4Gi \
+    --memory=8Gi \
     --cpu=2 \
     --task-timeout=10800s \
     --max-retries=0 \
