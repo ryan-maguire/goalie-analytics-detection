@@ -55,6 +55,24 @@ def main() -> int:
     fw          = os.environ.get("FEEDBACK_WORKERS")
     local_video_dir = os.environ.get("LOCAL_VIDEO_DIR")
 
+    # Ensure the source video is present (and current) in GCS before the CV
+    # pipeline tries to read it. App-submitted games aren't pre-fetched there,
+    # so this fetches from the customer config's eventVideoURL when the file is
+    # missing, or when YouTube has a newer upload than the stored copy. Skipped
+    # when a local video dir is provided (the pipeline uses the local file).
+    if not local_video_dir:
+        try:
+            from util.ensure_video import ensure_video
+            result = ensure_video(vID, customer_id)
+            print(f"[worker] ensure_video: {result}", flush=True)
+        except Exception as e:
+            print(f"[worker] ensure_video failed: {e}", file=sys.stderr, flush=True)
+            try:
+                _pp.mark_failed(customer_id, vID, reason=f"video fetch: {e}")
+            except Exception as e2:
+                print(f"[worker] mark_failed swallowed error: {e2}", file=sys.stderr)
+            return 1
+
     argv = [
         sys.executable, str(REPO / "run_pipeline.py"),
         "--customer_id", customer_id,
