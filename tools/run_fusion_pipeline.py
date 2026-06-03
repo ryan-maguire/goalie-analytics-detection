@@ -150,16 +150,26 @@ def main():
 
     # 1. Generate candidates
     print(f"[1/3] generating candidates for {args.vID}…", file=sys.stderr)
-    rows = generate_candidates(
-        vid             = args.vID,
-        yolo_probs_dir  = args.yolo_probs_dir,
-        audio_probs_dir = args.audio_probs_dir,
-        weight_yolo     = args.weight_yolo,
-        weight_audio    = args.weight_audio,
-        threshold       = args.threshold,
-        nms_distance    = args.nms_distance,
-        max_candidates  = args.max_candidates,
-    )
+    try:
+        rows = generate_candidates(
+            vid             = args.vID,
+            yolo_probs_dir  = args.yolo_probs_dir,
+            audio_probs_dir = args.audio_probs_dir,
+            weight_yolo     = args.weight_yolo,
+            weight_audio    = args.weight_audio,
+            threshold       = args.threshold,
+            nms_distance    = args.nms_distance,
+            max_candidates  = args.max_candidates,
+        )
+    except FileNotFoundError as e:
+        # No per-second probs for this vID (e.g. a new game whose YOLO/audio
+        # TSVs were never generated). Treat as ZERO fusion candidates instead
+        # of crashing: the empty seg JSON written below lets hybrid stage 1
+        # fall back to cv_seg (which works from the video alone). Crashing
+        # here would abort the whole run with no fallback.
+        print(f"  no fusion probs for {args.vID} ({e}) — 0 candidates; "
+              f"hybrid stage 1 will fall back to cv_seg", file=sys.stderr)
+        rows = []
     if not rows:
         # No peaks cleared the threshold. Don't early-exit: fall through and
         # write an EMPTY seg JSON. In hybrid mode run_pipeline then counts 0
