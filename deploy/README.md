@@ -349,3 +349,40 @@ curl -X POST http://localhost:8080/run \
     -H "Content-Type: application/json" \
     -d '{"customer_id": "CUST000031", "vID": ["dwGsP6QKDs8"]}'
 ```
+
+## Serving videos to the browser (signed URLs)
+
+Videos live in a **private** bucket, so the browser can't load a `gs://`
+URI (stored in `eventVideoURL`) or a bare storage link. Hand the player a
+short-lived **signed URL** instead — see `util/signed_url.py`:
+
+```python
+from util.signed_url import signed_video_url
+url = signed_video_url("mjEeE7p2Hz8")   # → https://…?X-Goog-Signature=…
+# return {"url": url}; frontend sets <video src> / player.src(...)
+```
+
+Signing is keyless (no SA key file). The **service account that signs** must
+have:
+
+- `roles/iam.serviceAccountTokenCreator` **on itself** (for IAM `signBlob`), and
+- `iamcredentials.googleapis.com` enabled (already on for this project).
+
+Granted 2026-06-06 to the **web app** runtime SA
+(`301726916294-compute@developer.gserviceaccount.com`), so the web app signs
+directly:
+
+```bash
+gcloud iam service-accounts add-iam-policy-binding \
+    301726916294-compute@developer.gserviceaccount.com \
+    --member="serviceAccount:301726916294-compute@developer.gserviceaccount.com" \
+    --role="roles/iam.serviceAccountTokenCreator"
+```
+
+If you ever sign from the **pipeline API** instead of the web app, grant the
+same role to `goalie-pipeline-sa@…` (it currently lacks it, so a signing
+endpoint added to `deploy/api/main.py` would 403 until then).
+
+**CORS:** a plain `<video src>` plays cross-origin without CORS, but
+Video.js/Plyr range/seek requests are CORS-checked — set a bucket CORS policy
+allowing the app origin + `GET`/`HEAD` + `Range`/`Content-Range` headers.
