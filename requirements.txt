@@ -46,10 +46,6 @@ pydantic>=2.0,<3.0
 # util/progress.py can stamp analyticsUpdateDate in PIPELINE_TZ
 # (default America/Chicago); without it zoneinfo falls back to UTC.
 tzdata
-# yt-dlp fetches the source video from eventVideoURL when it's missing/stale
-# in GCS (util/ensure_video.py, run before stage 1 in the worker). Needs the
-# ffmpeg already in the deploy image for muxing.
-yt-dlp
 
 # ─── ML retraining (only needed if you retrain YOLO / audio models) ────
 # YOLO fine-tune + inference (util/train_yolo_finetune.py, predict_shots_yolo.py,

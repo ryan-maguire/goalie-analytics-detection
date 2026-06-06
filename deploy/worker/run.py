@@ -55,11 +55,17 @@ def main() -> int:
     fw          = os.environ.get("FEEDBACK_WORKERS")
     local_video_dir = os.environ.get("LOCAL_VIDEO_DIR")
 
-    # Ensure the source video is present (and current) in GCS before the CV
-    # pipeline tries to read it. App-submitted games aren't pre-fetched there,
-    # so this fetches from the customer config's eventVideoURL when the file is
-    # missing, or when YouTube has a newer upload than the stored copy. Skipped
-    # when a local video dir is provided (the pipeline uses the local file).
+    # Production analysis reads the app-uploaded video from the upload bucket.
+    # Point every pipeline stage at that prefix (the constants modules read
+    # GCS_VIDEO_PREFIX; env propagates through the subprocess below). The
+    # default (ground_truth_video/full_video) is reserved for eval runs.
+    os.environ.setdefault(
+        "GCS_VIDEO_PREFIX", "analyze_video/00-segement-video-upload")
+
+    # Verify the source video the app uploaded is actually present in GCS
+    # before kicking off the pipeline, so a missing upload fails fast with a
+    # clear reason instead of crashing a stage mid-run. Skipped when a local
+    # video dir is provided (the pipeline uses the local file).
     if not local_video_dir:
         try:
             from util.ensure_video import ensure_video

@@ -9,12 +9,18 @@ Many of these values are exposed via CLI flags (see cli.py) and can be
 overridden at runtime.
 """
 
+import os
+
 # ---------------------------------------------------------------------------
 # GCS / config
 # ---------------------------------------------------------------------------
 
 GCS_BUCKET    = "goalie_video_bucket"
-VIDEO_PREFIX  = "ground_truth_video/full_video"
+# VIDEO_PREFIX is the GCS prefix the source video is read from. Production
+# analysis runs read app-uploaded videos from analyze_video/00-…; the worker
+# sets GCS_VIDEO_PREFIX for that. The default below is the ground-truth/eval
+# corpus (paired with gt_<vID>.csv) — keep it for local + evaluation runs.
+VIDEO_PREFIX  = os.environ.get("GCS_VIDEO_PREFIX", "ground_truth_video/full_video")
 OUTPUT_PREFIX = "analyze_video/01-segment_detection"
 
 # ---------------------------------------------------------------------------

@@ -4,13 +4,18 @@ These are intentionally module-level (not CLI args) because changing
 them requires deliberate review and re-testing.
 """
 
+import os
+
 # ── GCP / GCS configuration ────────────────────────────────────────────
 PROJECT_ID  = "goalie-analytics-pro-dev"
 REGION      = "us-central1"
 BUCKET_NAME = "goalie_video_bucket"
 
 # Bucket prefixes (relative paths inside BUCKET_NAME)
-VIDEO_PREFIX  = "ground_truth_video/full_video"
+# VIDEO_PREFIX defaults to the ground-truth/eval corpus; the production worker
+# overrides it via GCS_VIDEO_PREFIX to read app-uploaded videos. See
+# cv_seg/constants.py for the rationale.
+VIDEO_PREFIX  = os.environ.get("GCS_VIDEO_PREFIX", "ground_truth_video/full_video")
 INPUT_PREFIX  = "analyze_video/02-segment_metrics"
 OUTPUT_PREFIX = "analyze_video/03-segment_goalie_feedback"
 TEMP_PREFIX   = "analyze_video/00-temp_parts"

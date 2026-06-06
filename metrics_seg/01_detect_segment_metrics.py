@@ -85,7 +85,9 @@ corresponding video clip and sends it to Gemini to count hockey metrics:
 
 Reads:
   gs://goalie_video_bucket/analyze_video/01-segment_detection/gt_seg_{vID}.json
-  gs://goalie_video_bucket/ground_truth_video/full_video/full_{vID}.mp4
+  gs://goalie_video_bucket/{GCS_VIDEO_PREFIX}/full_{vID}.mp4
+    (GCS_VIDEO_PREFIX defaults to ground_truth_video/full_video for eval;
+     production runs set it to analyze_video/00-segement-video-upload)
 
 Writes:
   gs://goalie_video_bucket/analyze_video/02-segment_metrics/gt_metrics_{vID}.json
@@ -229,7 +231,10 @@ PROJECT_ID = "goalie-analytics-pro-dev"
 REGION     = "us-central1"
 GCS_BUCKET     = "goalie_video_bucket"
 
-VIDEO_PREFIX   = "ground_truth_video/full_video"
+# VIDEO_PREFIX defaults to the ground-truth/eval corpus; the production worker
+# overrides it via GCS_VIDEO_PREFIX to read app-uploaded videos. See
+# cv_seg/constants.py for the rationale.
+VIDEO_PREFIX   = os.environ.get("GCS_VIDEO_PREFIX", "ground_truth_video/full_video")
 INPUT_PREFIX   = "analyze_video/01-segment_detection"
 OUTPUT_PREFIX  = "analyze_video/02-segment_metrics"
 TEMP_PREFIX    = "analyze_video/00-temp_parts"  # UNUSED since v8 — kept only because
