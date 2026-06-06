@@ -129,6 +129,10 @@ gcloud builds submit \
 echo "[5/7] Deploying Cloud Run Job..."
 # Job timeout: 60min/task by default. Pipeline can take 25+ min per vid;
 # bump to 3h to absorb worst-case GCS latency + Gemini retries.
+# Memory: 4Gi. 8Gi was only needed while the worker yt-dlp'd the video into
+# memory-backed /tmp (raw streams + merged file) before stage 1 also pulled
+# it; that fetch is gone now (videos uploaded to GCS directly), leaving just
+# the stages' single download-to-temp.
 gcloud run jobs deploy "${JOB_NAME}" \
     --image="${IMAGE_URI}" \
     --region="${REGION}" \
@@ -136,7 +140,7 @@ gcloud run jobs deploy "${JOB_NAME}" \
     --service-account="${SA_EMAIL}" \
     --command="python3" \
     --args="deploy/worker/run.py" \
-    --memory=8Gi \
+    --memory=4Gi \
     --cpu=2 \
     --task-timeout=10800s \
     --max-retries=0 \
