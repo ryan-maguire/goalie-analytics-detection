@@ -397,9 +397,16 @@ METRICS_RESPONSE_SCHEMA = {
                 "confirming_detail", "decision_notes",
             ],
         },
+        # ── v15: net-zone of goals (Beaten Map). Goal clips only;
+        #    "not_applicable" when goals==0, "unknown" when occluded. ──
+        "beaten_location":            {"type": "STRING"},
+        "beaten_location_confidence": {"type": "NUMBER"},
+        "beaten_location_notes":      {"type": "STRING"},
     },
     "required": ["shots", "shotsOnNet", "saves", "rebounds", "goals",
-                 "observed_goalie_side", "shot_timestamps", "goal_criteria"],
+                 "observed_goalie_side", "shot_timestamps", "goal_criteria",
+                 "beaten_location", "beaten_location_confidence",
+                 "beaten_location_notes"],
 }
 
 
@@ -410,7 +417,7 @@ METRICS_RESPONSE_SCHEMA = {
 # Loaded from prompts/metrics_v{N}.txt to keep prompt iterations
 # diff-clean and version-trackable independent of code changes.
 # To switch versions, change PROMPT_VERSION below.
-PROMPT_VERSION = "v14.1"
+PROMPT_VERSION = "v15"
 _PROMPT_PATH = pathlib.Path(__file__).parent / "prompts" / f"metrics_{PROMPT_VERSION}.txt"
 try:
     METRICS_PROMPT = _PROMPT_PATH.read_text(encoding="utf-8").strip()
