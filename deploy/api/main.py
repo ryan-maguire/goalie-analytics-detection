@@ -28,7 +28,25 @@ import json
 import logging
 import os
 import re
+from datetime import datetime, timezone
 from typing import Optional
+
+# A run that hasn't updated its heartbeat in this long is treated as dead. The
+# worker writes updatedDate on every progress tick (util/progress.py); if the
+# Cloud Run Job is OOM/timeout/SIGKILL-ed it stops ticking and the record would
+# otherwise sit at 'Processing (X%)' forever.
+STALE_RUN_SECS = 45 * 60
+
+
+def _parse_iso(value) -> Optional[datetime]:
+    """Parse an ISO-8601 'updatedDate' to an aware UTC datetime, else None."""
+    if not isinstance(value, str) or not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except (ValueError, TypeError):
+        return None
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field, field_validator
@@ -232,9 +250,27 @@ def get_status(customer_id: str, vID: str):
     if rec is None:
         raise HTTPException(status_code=404,
             detail=f"No record for vID={vID} in customer {customer_id}")
+
+    status = rec.get("analyticsStatus")
+    updated = rec.get("updatedDate")
+
+    # Stale-run watchdog: a 'Processing' record whose heartbeat is older than
+    # STALE_RUN_SECS means the worker died mid-run. Surface a derived Failed
+    # status so readers stop polling — derived only, we do NOT mutate the file
+    # from a GET (that would be a racy side effect on a read path).
+    stalled = False
+    if isinstance(status, str) and status.startswith("Processing"):
+        ts = _parse_iso(updated)
+        if ts is not None:
+            age = (datetime.now(timezone.utc) - ts).total_seconds()
+            if age > STALE_RUN_SECS:
+                stalled = True
+                status = f"Failed: stalled (no update for {int(age // 60)} min)"
+
     return {
         "customer_id":     customer_id,
         "vID":             vID,
-        "analyticsStatus": rec.get("analyticsStatus"),
-        "updatedDate":     rec.get("updatedDate"),
+        "analyticsStatus": status,
+        "updatedDate":     updated,
+        "stalled":         stalled,
     }

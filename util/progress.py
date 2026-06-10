@@ -26,11 +26,22 @@ import fcntl
 import json
 import logging
 import os
+import random
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
 log = logging.getLogger("util.progress")
+
+_GCS_RMW_RETRIES = 8
+
+
+def _now_iso() -> str:
+    """UTC ISO-8601 'last touched' heartbeat. Written on every progress tick so
+    a watchdog can tell a live run from a worker that died mid-run (the customer
+    record otherwise keeps a stale 'Processing (X%)' forever)."""
+    return datetime.now(timezone.utc).isoformat()
 
 REPO = Path(__file__).resolve().parents[1]
 LOCAL_DIR = REPO / "data" / "customers"
@@ -61,7 +72,13 @@ def report(
     current = max(0, min(current, total))
     frac = ((stage_idx - 1) + current / total) / 3.0
     pct = int(round(frac * 100))
-    _update_status(customer_id, vid, f"Processing ({pct}%)")
+    # Stamp updatedDate on every tick so the status is a heartbeat, not just a
+    # percentage — lets a watchdog distinguish a slow-but-alive run from a dead
+    # worker frozen at "Processing (X%)".
+    _apply_fields(customer_id, vid, {
+        "analyticsStatus": f"Processing ({pct}%)",
+        "updatedDate": _now_iso(),
+    })
 
 
 def mark_complete(
@@ -83,6 +100,7 @@ def mark_complete(
     fields = {
         "analyticsStatus": "Complete",
         "analyticsUpdateDate": _today_mmddyyyy(),
+        "updatedDate": _now_iso(),
     }
     if analytics_duration_secs is not None:
         fields["analyticsDuration"] = _fmt_mmss(analytics_duration_secs)
@@ -96,7 +114,7 @@ def mark_failed(customer_id: Optional[str], vid: str, *, reason: str = "") -> No
     if not customer_id:
         return
     status = f"Failed: {reason}" if reason else "Failed"
-    _update_status(customer_id, vid, status)
+    _apply_fields(customer_id, vid, {"analyticsStatus": status, "updatedDate": _now_iso()})
 
 
 def _fmt_mmss(secs: float) -> str:
@@ -162,31 +180,63 @@ def _apply_fields(customer_id: str, vid: str, fields: dict) -> None:
         except Exception as e:
             log.warning(f"progress: local write failed for {local_path}: {e}")
 
-    # Push to GCS — read-modify-write because the GCS copy is the source
-    # of truth for downstream readers and another process could be
-    # mutating it. Best-effort; never raise.
+    # Push to GCS with OPTIMISTIC CONCURRENCY. The customer JSON holds every
+    # vID for the customer and is written by multiple racing writers: this
+    # progress tick, concurrent Cloud Run Job executions for *other* vIDs of the
+    # same customer, the gateway's dispatch reset, and add/edit-video saves. A
+    # naive download→upload here is last-write-wins and silently reverts another
+    # writer's record (e.g. a sibling vID's Complete back to Processing). Read at
+    # a captured generation and write with if_generation_match, retrying on
+    # conflict. Still best-effort: never raise.
     try:
         from google.cloud import storage as gcs_storage
+        from google.api_core.exceptions import PreconditionFailed, NotFound
         client = gcs_storage.Client()
         bucket = client.bucket(GCS_BUCKET)
-        blob = bucket.blob(gcs_blob)
-        try:
-            gcs_data = json.loads(blob.download_as_text())
-        except Exception:
-            # If we wrote locally just now, fall back to the local view.
-            # If GCS is empty AND local missing, nothing to update.
-            gcs_data = data
-        if isinstance(gcs_data, list):
+
+        for attempt in range(_GCS_RMW_RETRIES):
+            if attempt:
+                # Jittered backoff so racing writers don't collide every retry.
+                time.sleep(random.uniform(0, min(0.05 * (2 ** attempt), 0.5)))
+
+            meta = bucket.get_blob(gcs_blob)
+            if meta is None:
+                # No GCS copy yet. Only create from the local view we just wrote
+                # (avoid materializing an empty file); skip otherwise.
+                if not isinstance(data, list):
+                    break
+                generation, gcs_data = 0, data
+            else:
+                generation = meta.generation
+                try:
+                    pinned = bucket.blob(gcs_blob, generation=generation)
+                    gcs_data = json.loads(pinned.download_as_text())
+                except (PreconditionFailed, NotFound):
+                    continue  # changed/deleted between get_blob and download
+
+            if not isinstance(gcs_data, list):
+                break
             updated = False
             for rec in gcs_data:
-                if rec.get("vID") == vid:
+                if isinstance(rec, dict) and rec.get("vID") == vid:
                     rec.update(fields)
                     updated = True
-            if updated:
-                blob.upload_from_string(
+            if not updated:
+                break  # this vID isn't in the file — nothing to write
+
+            try:
+                bucket.blob(gcs_blob).upload_from_string(
                     json.dumps(gcs_data, indent=2),
                     content_type="application/json",
+                    if_generation_match=generation,
                 )
+                break
+            except PreconditionFailed:
+                continue  # another writer won the race — re-read and retry
+        else:
+            log.warning(
+                f"progress: GCS write exhausted {_GCS_RMW_RETRIES} retries for "
+                f"gs://{GCS_BUCKET}/{gcs_blob} (write contention)")
     except ImportError:
         pass  # google-cloud-storage not installed; local-only is fine
     except Exception as e:
