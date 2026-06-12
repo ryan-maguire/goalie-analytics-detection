@@ -903,6 +903,24 @@ def main() -> int:
             "publish_elapsed": publish_elapsed,
         }
 
+        # Post-reprocess cleanup. A full successful run republishes this vID's
+        # clips; clipIDs are vID_start_end, so any shifted boundary orphans the
+        # old references. Purge every derived reference to this vID — favorites,
+        # playlists, public recruiting shares, and coach feedback — so nothing
+        # stale lingers. First runs have nothing to purge (no-op). Best-effort:
+        # cleanup must never fail the pipeline run.
+        if ok and (3 in steps_to_run) and publish_success:
+            try:
+                from util import cleanup_features
+                cs = cleanup_features.cleanup_features_for_vid(
+                    args.customer_id, vID, log=tee.write)
+                tee.write(f"[{now_iso()}] cleanup: purged vID={vID} refs — "
+                          f"favorites={cs['favorites']} playlists={cs['playlists']} "
+                          f"shares={cs['shares']} feedback={cs['feedback']}")
+            except Exception as e:
+                tee.write(f"[{now_iso()}] !!! cleanup_features raised (non-fatal): "
+                          f"{type(e).__name__}: {e}")
+
         # Mark the vID's analyticsStatus "Complete" iff the full
         # 3-stage pipeline ran and succeeded. Partial runs (--steps 1
         # or --steps 1 2) leave the status at the last "Processing
