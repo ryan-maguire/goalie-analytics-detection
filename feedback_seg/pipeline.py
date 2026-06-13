@@ -25,6 +25,7 @@ from .gemini import (
     analyze_window, generate_summary, should_use_inline_bytes,
 )
 from .logger import log
+from .manual_goals import reconcile_manual_goals
 from .video import extract_clip, make_clip_id, make_temp_clip_path
 
 
@@ -46,6 +47,10 @@ def _build_record(segment: dict, clip_id: str, analysis: dict) -> dict:
         "clipSave":        (metrics.get("saves", 0) or 0) > 0,
         "clipSaveCount":   metrics.get("saves", 0) or 0,
         "clipHasGoal":     goals > 0,
+        # Manual-goal verification flags (set on the segment by
+        # reconcile_manual_goals; defaulted here so every record carries them).
+        "was_ai_detected":   segment.get("was_ai_detected", True),
+        "manually_verified": segment.get("manually_verified", False),
     }
     if "error" in analysis:
         record["error"] = analysis["error"]
@@ -214,6 +219,37 @@ def process_video(
     all_segments = _load_metrics(bucket, vID, local_metrics)
     if all_segments is None:
         return False
+
+    # ── 2b. Manual-goal verification + injection ────────────────────
+    # Stamp was_ai_detected/manually_verified on every AI segment, overlap-match
+    # coach-logged goals-against, and inject any the AI missed so they reach
+    # Coach Review with full stage-3 enrichment. Own-team goals are skipped
+    # (scoreboard only — the AI can't see the far net).
+    manual_goals = match.get("manual_goals_logged") or []
+    all_segments, manual_goals_out = reconcile_manual_goals(
+        all_segments, manual_goals,
+    )
+    n_injected = sum(
+        1 for s in all_segments
+        if isinstance(s, dict) and s.get("source_signals") == ["manual_goal"]
+    )
+    if manual_goals:
+        log.info(
+            f"[{vID}] Manual goals: {len(manual_goals)} logged, "
+            f"{n_injected} injected (AI-missed)"
+        )
+        # Persist the computed was_ai_detected back onto the video record. Reuse
+        # the generation-match RMW in util.progress so a concurrent progress
+        # tick can't clobber it. Best-effort; real GCS runs only.
+        if not no_gcs and not local_config:
+            try:
+                from util import progress as _pp
+                _pp._apply_fields(
+                    customer_id, vID,
+                    {"manual_goals_logged": manual_goals_out},
+                )
+            except Exception as e:  # noqa: BLE001
+                log.warning(f"[{vID}] manual-goal write-back failed: {e}")
 
     threat_windows = [
         s for s in all_segments
