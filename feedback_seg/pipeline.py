@@ -51,6 +51,7 @@ def _build_record(segment: dict, clip_id: str, analysis: dict) -> dict:
         # reconcile_manual_goals; defaulted here so every record carries them).
         "was_ai_detected":   segment.get("was_ai_detected", True),
         "manually_verified": segment.get("manually_verified", False),
+        "goal_unconfirmed":  segment.get("goal_unconfirmed", False),
     }
     if "error" in analysis:
         record["error"] = analysis["error"]
@@ -161,6 +162,50 @@ def _process_window_task(args: tuple, ctx: dict) -> tuple[int, dict]:
             pass
 
 
+# ── ML feedback telemetry (AI-missed goals) ──────────────────────────
+
+def _log_injected_goals(bucket, vID, customer_id, match, segments) -> None:
+    """Append one feedback-log entry per AI-missed (injected) goal to the GCS
+    feedback_logs/ dir for model retraining. Best-effort — never raises."""
+    import uuid as _uuid
+    from datetime import datetime as _dt, timezone as _tz
+    try:
+        opponent = (match or {}).get("opponentGoalieTeamName") or (match or {}).get("opponent_team")
+        now_iso = _dt.now(_tz.utc).isoformat()
+        for s in segments:
+            if not isinstance(s, dict) or s.get("source_signals") != ["manual_goal"]:
+                continue
+            log_id = str(_uuid.uuid4())
+            start, end = s.get("segment_start"), s.get("segment_end")
+            entry = {
+                "log_id": log_id,
+                "timestamp": now_iso,
+                "video_id": vID,
+                "clip_id": make_clip_id(vID, start, end),
+                "ai_metadata": {
+                    "start_time": start, "end_time": end,
+                    "confidence_score": None, "segment_id": None,
+                },
+                "user_validation": {
+                    "status": "valid",
+                    "action_taken": "ai_missed_goal_injected",
+                    "timestamp_correction": None,
+                },
+                "has_matching_manual_goal": True,
+                "context": {
+                    "opponent_team": opponent,
+                    "user_role": "pipeline",
+                    "customer_id": customer_id,
+                },
+            }
+            try:
+                gcs_write_json(bucket, f"feedback_logs/{log_id}.json", entry)
+            except Exception as e:  # noqa: BLE001
+                log.warning(f"[{vID}] feedback-log write failed: {e}")
+    except Exception as e:  # noqa: BLE001
+        log.warning(f"[{vID}] _log_injected_goals failed: {e}")
+
+
 # ── Main pipeline ────────────────────────────────────────────────────
 
 def process_video(
@@ -250,6 +295,11 @@ def process_video(
                 )
             except Exception as e:  # noqa: BLE001
                 log.warning(f"[{vID}] manual-goal write-back failed: {e}")
+
+        # ML feedback telemetry: log each AI-MISSED (injected) goal to the GCS
+        # feedback_logs/ append dir for retraining. Best-effort; GCS-only.
+        if not no_gcs and bucket is not None and n_injected > 0:
+            _log_injected_goals(bucket, vID, customer_id, match, all_segments)
 
     threat_windows = [
         s for s in all_segments
