@@ -916,7 +916,8 @@ def main() -> int:
                     args.customer_id, vID, log=tee.write)
                 tee.write(f"[{now_iso()}] cleanup: purged vID={vID} refs — "
                           f"favorites={cs['favorites']} playlists={cs['playlists']} "
-                          f"shares={cs['shares']} feedback={cs['feedback']}")
+                          f"shares={cs['shares']} feedback={cs['feedback']} "
+                          f"validations={cs.get('validations', 0)}")
             except Exception as e:
                 tee.write(f"[{now_iso()}] !!! cleanup_features raised (non-fatal): "
                           f"{type(e).__name__}: {e}")

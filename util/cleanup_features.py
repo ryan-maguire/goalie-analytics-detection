@@ -98,7 +98,7 @@ def cleanup_features_for_vid(customer_id: str, vid: str, *, log=print) -> dict:
     were removed per store (or -1 on a store-level error). Never raises.
     """
     cust = _bare_customer(customer_id)
-    summary = {"favorites": 0, "playlists": 0, "shares": 0, "feedback": 0}
+    summary = {"favorites": 0, "playlists": 0, "shares": 0, "feedback": 0, "validations": 0}
 
     try:
         from google.cloud import storage as gcs_storage
@@ -203,5 +203,25 @@ def cleanup_features_for_vid(customer_id: str, vid: str, *, log=print) -> dict:
     except Exception as e:  # noqa: BLE001
         summary["feedback"] = -1
         log(f"cleanup: feedback delete failed for {vid} ({type(e).__name__}: {e})")
+
+    # ── 5. Clip validations (Confirm/Decline side-file, keyed by clipID) ──
+    def _val_mutate(doc):
+        vals = doc.get("clipValidations") if isinstance(doc, dict) else None
+        if not isinstance(vals, dict):
+            return doc, False
+        stale = [cid for cid in vals if _belongs_to_vid(cid, vid)]
+        if not stale:
+            return doc, False
+        for cid in stale:
+            vals.pop(cid, None)
+        summary["validations"] = len(stale)
+        return doc, True
+
+    try:
+        _rmw(bucket, f"{CUST_PREFIX}/{cust}_validations.json", _val_mutate,
+             default={"clientID": cust, "clipValidations": {}}, log=log)
+    except Exception as e:  # noqa: BLE001
+        summary["validations"] = -1
+        log(f"cleanup: validations failed for {cust} ({type(e).__name__}: {e})")
 
     return summary
