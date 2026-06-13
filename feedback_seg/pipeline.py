@@ -222,9 +222,9 @@ def process_video(
 
     # ── 2b. Manual-goal verification + injection ────────────────────
     # Stamp was_ai_detected/manually_verified on every AI segment, overlap-match
-    # coach-logged goals-against, and inject any the AI missed so they reach
-    # Coach Review with full stage-3 enrichment. Own-team goals are skipped
-    # (scoreboard only — the AI can't see the far net).
+    # the coach-logged goals-against, and inject any the AI missed so they reach
+    # Coach Review with full stage-3 enrichment. (Every logged goal is a
+    # goal-against — the only kind the AI can validate.)
     manual_goals = match.get("manual_goals_logged") or []
     all_segments, manual_goals_out = reconcile_manual_goals(
         all_segments, manual_goals,

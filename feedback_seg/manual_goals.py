@@ -1,13 +1,14 @@
 """Reconcile manually-logged goals against AI-detected segments.
 
-A coach can log the exact time range of every goal in the Add/Edit form
-(`manual_goals_logged` on the video record). Between stage 2 (metrics) and
-stage 3 (feedback), we compare each manually-logged goal to the AI-detected
-segments and:
+A coach logs the exact time range of every goal scored AGAINST this goalie in
+the Add/Edit form (`manual_goals_logged` on the video record) — that's the only
+kind of goal the pipeline can validate, since the AI only analyzes this goalie's
+net. Between stage 2 (metrics) and stage 3 (feedback), we compare each logged
+goal to the AI-detected segments and:
 
   * stamp every AI segment with ``was_ai_detected=True`` /
     ``manually_verified=False`` (so the UI can badge/filter all clips);
-  * for a goal scored *against the analyzed goalie* (``scored_on == "goalie"``):
+  * for each logged goal:
       - OVERLAP  → mark the overlapping segment(s) ``manually_verified=True``
                    and record the goal as ``was_ai_detected=True``;
       - MISS     → inject a synthetic segment at the goal's boundaries
@@ -15,9 +16,9 @@ segments and:
                    a goal-bearing ``metrics`` block so it flows through the rest
                    of the pipeline and reaches Coach Review; record the goal as
                    ``was_ai_detected=False``.
-  * a goal where the goalie's own team scored (``scored_on == "opponent"``) is
-    NOT evaluated or injected here — the AI only analyzes the goalie's net, so
-    it's scoreboard-only. Its ``was_ai_detected`` is left ``None``.
+
+(The old per-goal ``scored_on`` field was removed — all logged goals are
+goals-against; any legacy value is ignored.)
 
 This module is pure (no I/O) so the overlap/injection logic is unit-testable.
 """
@@ -88,12 +89,9 @@ def reconcile_manual_goals(
     injected: list = []
 
     for g in goals_out:
-        scored_on = str(g.get("scored_on", "")).strip().lower()
-        if scored_on != "goalie":
-            # Own-team goal (opponent's net) — scoreboard only, never AI-visible.
-            g["was_ai_detected"] = None
-            continue
-
+        # Every logged goal is a goal AGAINST the analyzed goalie — the only kind
+        # the pipeline can validate (the AI only sees this goalie's net). The old
+        # per-goal `scored_on` field was removed; any legacy value is ignored.
         t0 = _num(g.get("start_time"))
         t1 = _num(g.get("end_time"))
         if t0 is None or t1 is None:
