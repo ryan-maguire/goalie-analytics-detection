@@ -68,6 +68,13 @@ def main() -> int:
     # video dir is provided (the pipeline uses the local file).
     if not local_video_dir:
         try:
+            # Heartbeat so the status moves off the dispatch's "Processing (0%)"
+            # while the (potentially multi-minute) source-video fetch runs —
+            # otherwise it looks frozen at 0% until stage 1 starts reporting.
+            try:
+                _pp._update_status(customer_id, vID, "Processing (1%) — fetching video")
+            except Exception:
+                pass
             from util.ensure_video import ensure_video
             result = ensure_video(vID, customer_id)
             print(f"[worker] ensure_video: {result}", flush=True)

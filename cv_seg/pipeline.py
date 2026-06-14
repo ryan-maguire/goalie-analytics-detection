@@ -10,7 +10,7 @@ import json
 import os
 import time
 from math import ceil
-from typing import Optional, Union
+from typing import Optional, Union, Callable
 
 from . import constants as C
 from .attribution import (
@@ -128,6 +128,7 @@ def process_video(
     output_dir:   Optional[str] = None,
     use_net_detection: bool = True,
     target_filter: bool = True,
+    on_progress: Optional[Callable[[float], None]] = None,
 ) -> bool:
     """
     Run the full CV segment-detection pipeline for one video.
@@ -248,7 +249,7 @@ def process_video(
 
         # ── 4. Extract frame signals ────────────────────────────────────
         log.info(f"[{vID}] Extracting frame signals...")
-        signals, _ = extract_frame_signals(video_path, sample_fps=1)
+        signals, _ = extract_frame_signals(video_path, sample_fps=1, on_progress=on_progress)
 
         # ── 5. Audio: load once via the ffmpeg pipe (or WAV fallback),
         #          detect whistles + crowd roar ────────────────────────

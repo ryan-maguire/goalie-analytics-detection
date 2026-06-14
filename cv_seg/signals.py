@@ -8,7 +8,7 @@ avoiding 3× redundant cvtColor calls per second of video.
 """
 
 import subprocess
-from typing import Optional
+from typing import Optional, Callable
 
 import cv2
 import numpy as np
@@ -401,9 +401,20 @@ def _extract_signal_one_frame(
     return signal, small_curr
 
 
+def _emit_progress(cb: Optional[Callable[[float], None]], secs: float, duration: float) -> None:
+    """Best-effort fractional-progress callback (0..1). Never raises."""
+    if cb is None or duration <= 0:
+        return
+    try:
+        cb(max(0.0, min(1.0, secs / duration)))
+    except Exception:
+        pass
+
+
 def extract_frame_signals(
     video_path: str,
     sample_fps: int = 1,
+    on_progress: Optional[Callable[[float], None]] = None,
 ) -> tuple[list[dict], float]:
     """
     Sample video at sample_fps and extract per-second signal vectors.
@@ -440,6 +451,7 @@ def extract_frame_signals(
                 signals.append(signal)
                 if (t + 1) % 60 == 0:
                     log.info(f"    ... {t + 1}s / {duration:.0f}s processed")
+                    _emit_progress(on_progress, t + 1, duration)
         except Exception as e:
             log.warning(f"  ffmpeg frame stream failed: {e} — "
                         f"falling back to OpenCV decode loop")
@@ -467,6 +479,7 @@ def extract_frame_signals(
                 frame_idx += 1
                 if frame_idx > 0 and frame_idx % (int(native_fps) * 60) == 0:
                     log.info(f"    ... {t}s / {duration:.0f}s processed")
+                    _emit_progress(on_progress, t, duration)
         finally:
             cap.release()
 

@@ -161,6 +161,17 @@ def main():
 
     succeeded, failed = [], []
     for vID in args.vID:
+        # Intra-stage-1 progress: map frame-extraction fraction (0..1) into this
+        # stage's band so the status climbs instead of sitting at 0% until the
+        # stage finishes. Best-effort; no-op when progress isn't wired.
+        on_progress = None
+        if _pp is not None:
+            def on_progress(frac: float, _vID=vID):
+                _pp.report(
+                    customer_id=args.customID, vid=_vID,
+                    stage_idx=args.progress_stage_idx,
+                    current=int(frac * 1000), total=1000,
+                )
         ok = process_video(
             vID=vID,
             config=config,
@@ -169,6 +180,7 @@ def main():
             output_dir=output_dir,
             use_net_detection=args.use_net_detection,
             target_filter=args.target_filter,
+            on_progress=on_progress,
         )
         (succeeded if ok else failed).append(vID)
         if _pp is not None and ok:
