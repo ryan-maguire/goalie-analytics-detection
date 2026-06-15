@@ -129,10 +129,11 @@ gcloud builds submit \
 echo "[5/7] Deploying Cloud Run Job..."
 # Job timeout: 60min/task by default. Pipeline can take 25+ min per vid;
 # bump to 3h to absorb worst-case GCS latency + Gemini retries.
-# Memory: 4Gi. 8Gi was only needed while the worker yt-dlp'd the video into
-# memory-backed /tmp (raw streams + merged file) before stage 1 also pulled
-# it; that fetch is gone now (videos uploaded to GCS directly), leaving just
-# the stages' single download-to-temp.
+# Memory: 8Gi. (Was briefly reverted to 4Gi on the assumption 8Gi was only
+# needed for the old in-memory yt-dlp fetch — but cv_seg_fallback OOM-killed
+# (exit -9 / SIGKILL) on a ~70-min game: it holds all frame samples PLUS the
+# full-length 16kHz audio in memory for whistle analysis, which exceeds 4Gi on
+# long videos. 8Gi gives the fallback path headroom.
 gcloud run jobs deploy "${JOB_NAME}" \
     --image="${IMAGE_URI}" \
     --region="${REGION}" \
@@ -140,7 +141,7 @@ gcloud run jobs deploy "${JOB_NAME}" \
     --service-account="${SA_EMAIL}" \
     --command="python3" \
     --args="deploy/worker/run.py" \
-    --memory=4Gi \
+    --memory=8Gi \
     --cpu=2 \
     --task-timeout=10800s \
     --max-retries=0 \
